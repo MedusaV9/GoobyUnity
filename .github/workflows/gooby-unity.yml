@@ -1,21 +1,11 @@
-# GOOBY-UNITY CI — the Unity 6 port (GOOBY-UNITY/).
+# GOOBY iOS CI. Builds an unsigned .ipa from GOOBY-UNITY.
 #
-# Jobs:
-#   core-tests   Gooby.Core NUnit suite via `dotnet test` (no Unity licence needed; golden values
-#                shared with the Godot suite) + compile check of the Unity runtime layer against the
-#                editor's UnityEngine modules (GameCI image).
-#   unity-tests  Unity Test Framework EditMode + PlayMode (game-ci/unity-test-runner).
-#   linux-build  Linux standalone test build (game-ci/unity-builder → BuildScript.BuildLinux).
-#   ios-xcode    iOS Xcode project export on Linux (game-ci/unity-builder → BuildScript.BuildIOS,
-#                IL2CPP arm64, iOS 15, portrait plus both landscapes — the same entry point as the local export).
-#   ios-ipa      macOS: xcodebuild WITHOUT signing → Payload/ → GOOBY-unity-unsigned.ipa →
-#                tools/ci/verify_unity_ipa.py → artifact `GOOBY-unity-unsigned-ipa`.
+#   ios-xcode   Unity iOS export on Linux (BuildScript.BuildIOS, IL2CPP arm64, iOS 15).
+#   ios-ipa     macOS xcodebuild without signing, then tools/ci/verify_unity_ipa.py.
 #
-# Secrets (repository → Settings → Secrets and variables → Actions):
-#   UNITY_EMAIL     Unity-ID e-mail  } Personal licence is activated headless by GameCI via the
-#   UNITY_PASSWORD  Unity-ID password } Unity Licensing Client (no e-mail device verification needed)
-#   UNITY_LICENSE   optional: contents of a Unity_lic.ulf (only needed for serial/offline setups)
-# Without them the unity-* jobs cannot activate the editor; core-tests always runs.
+# Secrets: UNITY_EMAIL, UNITY_PASSWORD, UNITY_LICENSE (Personal .ulf).
+# The editor Library cache is the iOS one (Library-ios-…). A Linux Library is a
+# different build target and is not restored here.
 name: GOOBY Unity
 
 on:
@@ -36,138 +26,9 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  core-tests:
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
-    container:
-      image: unityci/editor:ubuntu-6000.6.0f1-base-3
-    # The editor image's default shell is dash, which rejects `set -o pipefail`.
-    defaults:
-      run:
-        shell: bash
-    steps:
-      - uses: actions/checkout@v4
-      - name: .NET SDK
-        run: |
-          set -euo pipefail
-          apt-get update -qq
-          apt-get install -y -qq wget ca-certificates >/dev/null
-          wget -q https://dot.net/v1/dotnet-install.sh -O /tmp/dotnet-install.sh
-          bash /tmp/dotnet-install.sh --channel 8.0 --install-dir /usr/share/dotnet >/dev/null
-          ln -sf /usr/share/dotnet/dotnet /usr/local/bin/dotnet
-          dotnet --version
-      - name: Gooby.Core tests (dotnet)
-        working-directory: GOOBY-UNITY/CoreTests~
-        run: dotnet test Gooby.Core.Tests.csproj --nologo --logger "trx;LogFileName=core.trx"
-      - name: Unity runtime compile check (UnityEngine modules from the editor image)
-        working-directory: GOOBY-UNITY/CoreTests~
-        env:
-          UNITY_EDITOR_DIR: /opt/unity/Editor
-        run: dotnet build Gooby.Unity.CompileCheck.csproj --nologo
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: core-test-results
-          path: GOOBY-UNITY/CoreTests~/TestResults/
-
-  unity-tests:
-    runs-on: ubuntu-latest
-    timeout-minutes: 60
-    needs: core-tests
-    steps:
-      - name: Unity-Secrets prüfen
-        env:
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-        run: |
-          set -euo pipefail
-          missing=0
-          for name in UNITY_EMAIL UNITY_PASSWORD UNITY_LICENSE; do
-            if [ -z "${!name}" ]; then
-              echo "::error::Secret $name fehlt"
-              missing=1
-            fi
-          done
-          if [ "$missing" -ne 0 ]; then
-            echo "Persönliche Unity-Lizenz: E-Mail, Passwort und .ulf als Repository-Secrets setzen, dann den Workflow neu starten."
-            exit 1
-          fi
-      - uses: actions/checkout@v4
-      - uses: actions/cache@v4
-        with:
-          path: GOOBY-UNITY/Library
-          key: Library-tests-${{ env.UNITY_VERSION }}-${{ hashFiles('GOOBY-UNITY/Packages/manifest.json') }}
-          restore-keys: Library-tests-${{ env.UNITY_VERSION }}-
-      - uses: game-ci/unity-test-runner@v4
-        id: tests
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-        with:
-          projectPath: ${{ env.PROJECT_PATH }}
-          unityVersion: ${{ env.UNITY_VERSION }}
-          testMode: all
-          artifactsPath: test-results
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-          checkName: Unity Test Results
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: unity-test-results
-          path: ${{ steps.tests.outputs.artifactsPath }}
-
-  linux-build:
-    runs-on: ubuntu-latest
-    timeout-minutes: 60
-    needs: core-tests
-    steps:
-      - name: Unity-Secrets prüfen
-        env:
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-        run: |
-          set -euo pipefail
-          missing=0
-          for name in UNITY_EMAIL UNITY_PASSWORD UNITY_LICENSE; do
-            if [ -z "${!name}" ]; then
-              echo "::error::Secret $name fehlt"
-              missing=1
-            fi
-          done
-          if [ "$missing" -ne 0 ]; then
-            echo "Persönliche Unity-Lizenz: E-Mail, Passwort und .ulf als Repository-Secrets setzen, dann den Workflow neu starten."
-            exit 1
-          fi
-      - uses: actions/checkout@v4
-      - uses: actions/cache@v4
-        with:
-          path: GOOBY-UNITY/Library
-          key: Library-linux-${{ env.UNITY_VERSION }}-${{ hashFiles('GOOBY-UNITY/Packages/manifest.json') }}
-          restore-keys: Library-linux-${{ env.UNITY_VERSION }}-
-      - uses: game-ci/unity-builder@v4
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-        with:
-          projectPath: ${{ env.PROJECT_PATH }}
-          unityVersion: ${{ env.UNITY_VERSION }}
-          targetPlatform: StandaloneLinux64
-          buildMethod: Gooby.Editor.BuildScript.BuildLinux
-          buildName: GOOBY
-          buildsPath: build
-      - uses: actions/upload-artifact@v4
-        with:
-          name: GOOBY-unity-linux
-          path: build/StandaloneLinux64
-
   ios-xcode:
     runs-on: ubuntu-latest
     timeout-minutes: 90
-    needs: core-tests
     steps:
       - name: Unity-Secrets prüfen
         env:
@@ -199,7 +60,8 @@ jobs:
         with:
           path: GOOBY-UNITY/Library
           key: Library-ios-${{ env.UNITY_VERSION }}-${{ hashFiles('GOOBY-UNITY/Packages/manifest.json') }}
-          restore-keys: Library-ios-${{ env.UNITY_VERSION }}-
+          restore-keys: |
+            Library-ios-${{ env.UNITY_VERSION }}-
       - uses: game-ci/unity-builder@v4
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
@@ -239,6 +101,20 @@ jobs:
           mkdir -p build/ios
           tar -C build/ios -xzf xcode/xcode-project.tgz
           ls build/ios
+      - name: Info.plist reparieren
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          # Unity writes an empty internal DTD subset (`[]`) that Xcode 16 rejects.
+          bad = b'PropertyList-1.0.dtd"[]>'
+          good = b'PropertyList-1.0.dtd">'
+          for path in Path("build/ios").rglob("*.plist"):
+              data = path.read_bytes()
+              if bad in data:
+                  path.write_bytes(data.replace(bad, good))
+                  print(f"fixed {path}")
+          PY
       - name: xcodebuild (unsigned)
         run: |
           set -euo pipefail

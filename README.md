@@ -16,12 +16,12 @@ Nicht enthalten sind die anderen Projekte aus der privaten Repo: Godot-Fassung, 
 
 ## Build
 
-Jeder Push startet den Workflow **GOOBY Unity**. Artefakte:
+Jeder Push startet den Workflow **GOOBY Unity** und baut nur iOS. Artefakte:
 
 - `GOOBY-unity-unsigned-ipa` — unsigniert, Installation per AltStore oder Sideloadly
-- `GOOBY-unity-linux` — Linux-Standalone
 - `GOOBY-unity-xcode-project` — Xcode-Export (3 Tage)
-- `core-test-results` und `unity-test-results`
+
+Der Editor-Cache heißt `Library-ios-…`. Der nächste Lauf lädt ihn, damit der Import nicht noch einmal von vorn beginnt. Eine Linux-Library ist ein anderer Build-Target und wird hier nicht verwendet.
 
 Die Editor-Jobs brauchen diese Repository-Secrets (nicht im Git):
 
