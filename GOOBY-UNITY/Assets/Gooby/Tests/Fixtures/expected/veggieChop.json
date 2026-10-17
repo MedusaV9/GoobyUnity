@@ -1,0 +1,1412 @@
+{
+  "modes": {
+    "easy": [
+      {
+        "seed": 1,
+        "score": 116,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 2,
+        "score": 100,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 3,
+        "score": 112,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 4,
+        "score": 106,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 5,
+        "score": 124,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 6,
+        "score": 116,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 7,
+        "score": 116,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 8,
+        "score": 108,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 9,
+        "score": 120,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 10,
+        "score": 108,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 11,
+        "score": 114,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 12,
+        "score": 116,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 13,
+        "score": 110,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 14,
+        "score": 120,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 15,
+        "score": 118,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 16,
+        "score": 112,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 17,
+        "score": 106,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 18,
+        "score": 114,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 19,
+        "score": 106,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 20,
+        "score": 110,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 21,
+        "score": 126,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 22,
+        "score": 132,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 23,
+        "score": 126,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 24,
+        "score": 108,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 25,
+        "score": 108,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 26,
+        "score": 96,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 27,
+        "score": 122,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 28,
+        "score": 114,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 29,
+        "score": 124,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 30,
+        "score": 110,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 31,
+        "score": 118,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 32,
+        "score": 108,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 33,
+        "score": 126,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 34,
+        "score": 128,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 35,
+        "score": 104,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 36,
+        "score": 108,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 37,
+        "score": 120,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 38,
+        "score": 108,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 39,
+        "score": 120,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 40,
+        "score": 116,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 41,
+        "score": 114,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 42,
+        "score": 118,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 43,
+        "score": 124,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 44,
+        "score": 110,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 45,
+        "score": 112,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 46,
+        "score": 104,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 47,
+        "score": 104,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 48,
+        "score": 112,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 49,
+        "score": 120,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      },
+      {
+        "seed": 50,
+        "score": 112,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 73.88426997538626
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1,
+        "score": 98,
+        "misses": 3,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 2,
+        "score": 96,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 3,
+        "score": 106,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 4,
+        "score": 98,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 5,
+        "score": 108,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 6,
+        "score": 96,
+        "misses": 3,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 7,
+        "score": 106,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 8,
+        "score": 96,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 9,
+        "score": 110,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 10,
+        "score": 100,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 11,
+        "score": 106,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 12,
+        "score": 118,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 13,
+        "score": 106,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 14,
+        "score": 102,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 15,
+        "score": 100,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 16,
+        "score": 112,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 17,
+        "score": 94,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 18,
+        "score": 106,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 19,
+        "score": 104,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 20,
+        "score": 104,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 21,
+        "score": 114,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 22,
+        "score": 114,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 23,
+        "score": 114,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 24,
+        "score": 102,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 25,
+        "score": 98,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 26,
+        "score": 90,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 27,
+        "score": 110,
+        "misses": 3,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 28,
+        "score": 102,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 29,
+        "score": 108,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 30,
+        "score": 106,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 31,
+        "score": 108,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 32,
+        "score": 106,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 33,
+        "score": 114,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 34,
+        "score": 120,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 35,
+        "score": 98,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 36,
+        "score": 96,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 37,
+        "score": 108,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 38,
+        "score": 106,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 39,
+        "score": 110,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 40,
+        "score": 104,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 41,
+        "score": 102,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 42,
+        "score": 98,
+        "misses": 4,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 43,
+        "score": 112,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 44,
+        "score": 104,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 45,
+        "score": 106,
+        "misses": 3,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 46,
+        "score": 102,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 47,
+        "score": 102,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 48,
+        "score": 108,
+        "misses": 1,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 49,
+        "score": 100,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      },
+      {
+        "seed": 50,
+        "score": 96,
+        "misses": 0,
+        "junkHits": 0,
+        "elapsed": 61.570224979488536
+      }
+    ],
+    "hard": [
+      {
+        "seed": 1,
+        "score": 102,
+        "misses": 8,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 2,
+        "score": 104,
+        "misses": 6,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 3,
+        "score": 106,
+        "misses": 9,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 4,
+        "score": 94,
+        "misses": 7,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 5,
+        "score": 112,
+        "misses": 7,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 6,
+        "score": 90,
+        "misses": 13,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 7,
+        "score": 104,
+        "misses": 13,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 8,
+        "score": 86,
+        "misses": 10,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 9,
+        "score": 118,
+        "misses": 8,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 10,
+        "score": 98,
+        "misses": 3,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 11,
+        "score": 100,
+        "misses": 9,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 12,
+        "score": 104,
+        "misses": 4,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 13,
+        "score": 106,
+        "misses": 6,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 14,
+        "score": 96,
+        "misses": 7,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 15,
+        "score": 106,
+        "misses": 6,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 16,
+        "score": 106,
+        "misses": 14,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 17,
+        "score": 100,
+        "misses": 8,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 18,
+        "score": 100,
+        "misses": 11,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 19,
+        "score": 94,
+        "misses": 9,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 20,
+        "score": 86,
+        "misses": 7,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 21,
+        "score": 100,
+        "misses": 10,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 22,
+        "score": 106,
+        "misses": 6,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 23,
+        "score": 100,
+        "misses": 12,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 24,
+        "score": 98,
+        "misses": 11,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 25,
+        "score": 96,
+        "misses": 10,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 26,
+        "score": 90,
+        "misses": 13,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 27,
+        "score": 100,
+        "misses": 10,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 28,
+        "score": 94,
+        "misses": 8,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 29,
+        "score": 114,
+        "misses": 9,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 30,
+        "score": 84,
+        "misses": 9,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 31,
+        "score": 110,
+        "misses": 6,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 32,
+        "score": 108,
+        "misses": 5,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 33,
+        "score": 112,
+        "misses": 8,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 34,
+        "score": 112,
+        "misses": 9,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 35,
+        "score": 100,
+        "misses": 7,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 36,
+        "score": 92,
+        "misses": 5,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 37,
+        "score": 98,
+        "misses": 7,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 38,
+        "score": 106,
+        "misses": 6,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 39,
+        "score": 96,
+        "misses": 11,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 40,
+        "score": 100,
+        "misses": 8,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 41,
+        "score": 116,
+        "misses": 3,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 42,
+        "score": 86,
+        "misses": 14,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 43,
+        "score": 110,
+        "misses": 7,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 44,
+        "score": 100,
+        "misses": 3,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 45,
+        "score": 92,
+        "misses": 12,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 46,
+        "score": 102,
+        "misses": 7,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 47,
+        "score": 110,
+        "misses": 2,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 48,
+        "score": 98,
+        "misses": 10,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 49,
+        "score": 98,
+        "misses": 10,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      },
+      {
+        "seed": 50,
+        "score": 98,
+        "misses": 8,
+        "junkHits": 0,
+        "elapsed": 60.85245318256206
+      }
+    ],
+    "endless": [
+      {
+        "seed": 1,
+        "score": 18,
+        "misses": 5,
+        "junkHits": 3,
+        "elapsed": 27.642822059459327
+      },
+      {
+        "seed": 2,
+        "score": 52,
+        "misses": 6,
+        "junkHits": 3,
+        "elapsed": 48.89770446873524
+      },
+      {
+        "seed": 3,
+        "score": 46,
+        "misses": 2,
+        "junkHits": 3,
+        "elapsed": 41.000627412626
+      },
+      {
+        "seed": 4,
+        "score": 52,
+        "misses": 4,
+        "junkHits": 3,
+        "elapsed": 47.34513814295032
+      },
+      {
+        "seed": 5,
+        "score": 34,
+        "misses": 2,
+        "junkHits": 3,
+        "elapsed": 34.43574030689098
+      },
+      {
+        "seed": 6,
+        "score": 40,
+        "misses": 9,
+        "junkHits": 3,
+        "elapsed": 45.77926186883542
+      },
+      {
+        "seed": 7,
+        "score": 44,
+        "misses": 10,
+        "junkHits": 3,
+        "elapsed": 47.34513814295032
+      },
+      {
+        "seed": 8,
+        "score": 28,
+        "misses": 3,
+        "junkHits": 3,
+        "elapsed": 29.362858071953923
+      },
+      {
+        "seed": 9,
+        "score": 42,
+        "misses": 5,
+        "junkHits": 3,
+        "elapsed": 42.607122079618684
+      },
+      {
+        "seed": 10,
+        "score": 40,
+        "misses": 2,
+        "junkHits": 3,
+        "elapsed": 37.74620320391101
+      },
+      {
+        "seed": 11,
+        "score": 38,
+        "misses": 3,
+        "junkHits": 3,
+        "elapsed": 39.380360476677765
+      },
+      {
+        "seed": 12,
+        "score": 60,
+        "misses": 3,
+        "junkHits": 3,
+        "elapsed": 48.89770446873524
+      },
+      {
+        "seed": 13,
+        "score": 34,
+        "misses": 7,
+        "junkHits": 3,
+        "elapsed": 39.380360476677765
+      },
+      {
+        "seed": 14,
+        "score": 46,
+        "misses": 6,
+        "junkHits": 3,
+        "elapsed": 44.199961541941924
+      },
+      {
+        "seed": 15,
+        "score": 64,
+        "misses": 5,
+        "junkHits": 3,
+        "elapsed": 54.977118604109116
+      },
+      {
+        "seed": 16,
+        "score": 24,
+        "misses": 4,
+        "junkHits": 3,
+        "elapsed": 31.068273778342313
+      },
+      {
+        "seed": 17,
+        "score": 52,
+        "misses": 6,
+        "junkHits": 3,
+        "elapsed": 53.47667030167334
+      },
+      {
+        "seed": 18,
+        "score": 44,
+        "misses": 8,
+        "junkHits": 3,
+        "elapsed": 47.34513814295032
+      },
+      {
+        "seed": 19,
+        "score": 42,
+        "misses": 6,
+        "junkHits": 3,
+        "elapsed": 44.199961541941924
+      },
+      {
+        "seed": 20,
+        "score": 40,
+        "misses": 9,
+        "junkHits": 3,
+        "elapsed": 47.34513814295032
+      },
+      {
+        "seed": 21,
+        "score": 70,
+        "misses": 8,
+        "junkHits": 3,
+        "elapsed": 54.977118604109116
+      },
+      {
+        "seed": 22,
+        "score": 58,
+        "misses": 9,
+        "junkHits": 3,
+        "elapsed": 54.977118604109116
+      },
+      {
+        "seed": 23,
+        "score": 16,
+        "misses": 6,
+        "junkHits": 3,
+        "elapsed": 27.642822059459327
+      },
+      {
+        "seed": 24,
+        "score": 40,
+        "misses": 5,
+        "junkHits": 3,
+        "elapsed": 42.607122079618684
+      },
+      {
+        "seed": 25,
+        "score": 38,
+        "misses": 5,
+        "junkHits": 3,
+        "elapsed": 45.77926186883542
+      },
+      {
+        "seed": 26,
+        "score": 26,
+        "misses": 5,
+        "junkHits": 3,
+        "elapsed": 37.74620320391101
+      },
+      {
+        "seed": 27,
+        "score": 40,
+        "misses": 4,
+        "junkHits": 3,
+        "elapsed": 37.74620320391101
+      },
+      {
+        "seed": 28,
+        "score": 32,
+        "misses": 8,
+        "junkHits": 3,
+        "elapsed": 39.380360476677765
+      },
+      {
+        "seed": 29,
+        "score": 52,
+        "misses": 5,
+        "junkHits": 3,
+        "elapsed": 47.34513814295032
+      },
+      {
+        "seed": 30,
+        "score": 34,
+        "misses": 3,
+        "junkHits": 3,
+        "elapsed": 36.098036514282406
+      },
+      {
+        "seed": 31,
+        "score": 90,
+        "misses": 4,
+        "junkHits": 3,
+        "elapsed": 62.29020733051028
+      },
+      {
+        "seed": 32,
+        "score": 30,
+        "misses": 5,
+        "junkHits": 3,
+        "elapsed": 36.098036514282406
+      },
+      {
+        "seed": 33,
+        "score": 24,
+        "misses": 4,
+        "junkHits": 3,
+        "elapsed": 32.7591934512264
+      },
+      {
+        "seed": 34,
+        "score": 96,
+        "misses": 12,
+        "junkHits": 3,
+        "elapsed": 65.12915677337124
+      },
+      {
+        "seed": 35,
+        "score": 20,
+        "misses": 3,
+        "junkHits": 3,
+        "elapsed": 29.362858071953923
+      },
+      {
+        "seed": 36,
+        "score": 40,
+        "misses": 4,
+        "junkHits": 3,
+        "elapsed": 39.380360476677765
+      },
+      {
+        "seed": 37,
+        "score": 16,
+        "misses": 0,
+        "junkHits": 3,
+        "elapsed": 20.61395201598528
+      },
+      {
+        "seed": 38,
+        "score": 124,
+        "misses": 15,
+        "junkHits": 3,
+        "elapsed": 82.44660714090818
+      },
+      {
+        "seed": 39,
+        "score": 134,
+        "misses": 19,
+        "junkHits": 3,
+        "elapsed": 89.81371999741611
+      },
+      {
+        "seed": 40,
+        "score": 38,
+        "misses": 9,
+        "junkHits": 3,
+        "elapsed": 47.34513814295032
+      },
+      {
+        "seed": 41,
+        "score": 54,
+        "misses": 6,
+        "junkHits": 3,
+        "elapsed": 47.34513814295032
+      },
+      {
+        "seed": 42,
+        "score": 30,
+        "misses": 9,
+        "junkHits": 3,
+        "elapsed": 45.77926186883542
+      },
+      {
+        "seed": 43,
+        "score": 92,
+        "misses": 11,
+        "junkHits": 3,
+        "elapsed": 66.53055894079758
+      },
+      {
+        "seed": 44,
+        "score": 34,
+        "misses": 3,
+        "junkHits": 3,
+        "elapsed": 34.43574030689098
+      },
+      {
+        "seed": 45,
+        "score": 48,
+        "misses": 2,
+        "junkHits": 3,
+        "elapsed": 41.000627412626
+      },
+      {
+        "seed": 46,
+        "score": 30,
+        "misses": 2,
+        "junkHits": 3,
+        "elapsed": 29.362858071953923
+      },
+      {
+        "seed": 47,
+        "score": 22,
+        "misses": 1,
+        "junkHits": 3,
+        "elapsed": 25.908040402883838
+      },
+      {
+        "seed": 48,
+        "score": 34,
+        "misses": 3,
+        "junkHits": 3,
+        "elapsed": 36.098036514282406
+      },
+      {
+        "seed": 49,
+        "score": 22,
+        "misses": 3,
+        "junkHits": 3,
+        "elapsed": 29.362858071953923
+      },
+      {
+        "seed": 50,
+        "score": 18,
+        "misses": 1,
+        "junkHits": 3,
+        "elapsed": 24.158386689746685
+      }
+    ]
+  }
+}

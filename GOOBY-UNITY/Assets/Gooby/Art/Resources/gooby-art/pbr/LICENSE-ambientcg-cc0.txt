@@ -1,0 +1,18 @@
+The textures in this folder are derived from ambientCG (https://ambientcg.com/), created by Lennart Demes
+and released under the Creative Commons CC0 1.0 Universal license (public domain dedication):
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Sources (asset id → files here):
+  WoodFloor051         → wood_floor_c.jpg, wood_floor_n.png
+  Planks037A           → wood_planks_c.jpg, wood_planks_n.png
+  Plaster001           → plaster_c.jpg, plaster_n.png
+  Fabric030            → fabric_c.jpg, fabric_n.png
+  Carpet016            → carpet_c.jpg, carpet_n.png
+  Grass005             → grass_c.jpg, grass_n.png
+  Asphalt031           → asphalt_c.jpg, asphalt_n.png
+  PavingStones128      → paving_c.jpg, paving_n.png
+  RoofingTiles013A     → roof_tiles_c.jpg, roof_tiles_n.png
+  Tiles139             → tiles_c.jpg, tiles_n.png
+  Concrete048          → concrete_c.jpg, concrete_n.png
+  Grass001             → leaves_c.jpg, leaves_n.png
+Processing: resized, colour maps re-encoded as JPEG, normal maps (OpenGL convention) as PNG — tools/art/fetch_pbr.py.

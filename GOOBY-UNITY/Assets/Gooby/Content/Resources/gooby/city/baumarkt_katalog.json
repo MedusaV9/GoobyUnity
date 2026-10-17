@@ -1,0 +1,132 @@
+{
+  "kommentar": "Baumarkt „Bodo Balken“ (Doc D §5, Doc E §2.3, USER §D47): der LADEN + der Warenkatalog gehören hierher, das Crafting selbst gehört der Werkstatt (Haus-Agent). Materialien landen als Stückzahl in inventory.items, Baupläne als Flag-Item (`bauplan_*`, menge 1, `einmalig`). `werkstatt_id` ist der Rezept-/Bauplan-Key, den die Werkstatt später liest.",
+  "materialien": [
+    {
+      "id": "bretter",
+      "name_de": "Bretter (5 Stück)",
+      "inventar": "bretter",
+      "menge": 5,
+      "preis": 30,
+      "spruch_de": "Gerade gewachsen. Naja. Gerade genug."
+    },
+    {
+      "id": "naegel",
+      "name_de": "Nägel (20 Stück)",
+      "inventar": "naegel",
+      "menge": 20,
+      "preis": 18,
+      "spruch_de": "Zwei sind krumm. Die gehören dazu, sagt Bodo."
+    },
+    {
+      "id": "eisen",
+      "name_de": "Eisenstange",
+      "inventar": "eisen",
+      "menge": 1,
+      "preis": 45,
+      "spruch_de": "Schwer. Kalt. Sehr überzeugend."
+    },
+    {
+      "id": "stoecke",
+      "name_de": "Stöcke (10 Stück)",
+      "inventar": "stoecke",
+      "menge": 10,
+      "preis": 12,
+      "spruch_de": "Aus dem Wald. Bodo sagt: „gesammelt“, nicht „geklaut“."
+    },
+    {
+      "id": "farbe",
+      "name_de": "Eimer Farbe (Cremeweiß)",
+      "inventar": "farbe",
+      "menge": 1,
+      "preis": 26,
+      "spruch_de": "Deckt in einem Anstrich. In zweien wirklich."
+    },
+    {
+      "id": "saatgut",
+      "name_de": "Saatgut (Kräutermischung, 3 Tüten)",
+      "inventar": "saatgut",
+      "menge": 3,
+      "preis": 36,
+      "spruch_de": "Wächst garantiert. Irgendwas. Bodo tippt auf Kräuter."
+    }
+  ],
+  "bauplaene": [
+    {
+      "id": "bauplan_werkbank",
+      "name_de": "Bauplan: Werkbank",
+      "inventar": "bauplan_werkbank",
+      "werkstatt_id": "werkbank",
+      "menge": 1,
+      "einmalig": true,
+      "preis": 120,
+      "material_de": "6 Bretter · 12 Nägel",
+      "spruch_de": "Ohne Werkbank baust du alles auf dem Küchentisch. Frag nicht."
+    },
+    {
+      "id": "bauplan_souvenirregal",
+      "name_de": "Bauplan: Souvenir-Regal",
+      "inventar": "bauplan_souvenirregal",
+      "werkstatt_id": "souvenirregal",
+      "menge": 1,
+      "einmalig": true,
+      "preis": 90,
+      "material_de": "4 Bretter · 8 Nägel",
+      "spruch_de": "Für alles, was Gooby aus dem Urlaub mitschleppt."
+    },
+    {
+      "id": "bauplan_zaun",
+      "name_de": "Bauplan: Gartenzaun",
+      "inventar": "bauplan_zaun",
+      "werkstatt_id": "zaun",
+      "menge": 1,
+      "einmalig": true,
+      "preis": 70,
+      "material_de": "8 Stöcke · 10 Nägel",
+      "spruch_de": "Hält keine Nachbarn ab. Sieht aber ordentlich aus."
+    },
+    {
+      "id": "bauplan_vogelhaus",
+      "name_de": "Bauplan: Vogelhaus",
+      "inventar": "bauplan_vogelhaus",
+      "werkstatt_id": "vogelhaus",
+      "menge": 1,
+      "einmalig": true,
+      "preis": 55,
+      "material_de": "3 Bretter · 6 Nägel",
+      "spruch_de": "Die Vögel ziehen ein, bevor du fertig bist."
+    },
+    {
+      "id": "bauplan_hochbeet",
+      "name_de": "Bauplan: Hochbeet",
+      "inventar": "bauplan_hochbeet",
+      "werkstatt_id": "hochbeet",
+      "menge": 1,
+      "einmalig": true,
+      "preis": 140,
+      "material_de": "8 Bretter · 1 Eisenstange",
+      "spruch_de": "Rückenschonend. Für einen Hasen mit Rücken."
+    },
+    {
+      "id": "bauplan_kraeuterkasten",
+      "name_de": "Bauplan: Kräuterkasten",
+      "inventar": "bauplan_kraeuterkasten",
+      "werkstatt_id": "kraeuterkasten",
+      "menge": 1,
+      "einmalig": true,
+      "preis": 80,
+      "material_de": "2 Holz · 2 Saatgut",
+      "spruch_de": "Wächst von allein. Verkauft sich fast von allein."
+    },
+    {
+      "id": "bauplan_windrad",
+      "name_de": "Bauplan: Windrad-Deko",
+      "inventar": "bauplan_windrad",
+      "werkstatt_id": "windrad_deko",
+      "menge": 1,
+      "einmalig": true,
+      "preis": 110,
+      "material_de": "2 Holz · 1 Eisenstange",
+      "spruch_de": "Dreht sich bei Wind. Bei Flaute ist es Kunst."
+    }
+  ]
+}

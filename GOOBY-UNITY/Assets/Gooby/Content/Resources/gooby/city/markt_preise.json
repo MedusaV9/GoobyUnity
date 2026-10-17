@@ -1,0 +1,16 @@
+{
+  "kommentar": "Wochenmarkt-Preise (Doc D §6.3, Doc E §2.3, USER §D51). `basis` = Kompost-Verkaufspreis der Web-Referenz CROP_TABLE.sellPrice (VERBATIM) — der Markt zahlt darauf den Markt-Bonus. Preis-Elastizität: jede HEUTE verkaufte Einheit derselben Ware drückt den Preis um `elastizitaet_pro_stueck`, aber nie unter `preis_boden` × Marktpreis. Am nächsten Markttag ist der Preis wieder voll.",
+  "markt_bonus": 0.15,
+  "elastizitaet_pro_stueck": 0.05,
+  "preis_boden": 0.5,
+  "ernte": [
+    {"id": "radish", "name_de": "Radieschen", "basis": 6},
+    {"id": "carrot", "name_de": "Möhre", "basis": 5},
+    {"id": "salad", "name_de": "Salat", "basis": 10},
+    {"id": "tomato", "name_de": "Tomate", "basis": 9},
+    {"id": "corn", "name_de": "Mais", "basis": 16},
+    {"id": "eggplant", "name_de": "Aubergine", "basis": 20},
+    {"id": "pumpkin", "name_de": "Kürbis", "basis": 55},
+    {"id": "watermelon", "name_de": "Wassermelone", "basis": 70}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"id": "dlc",
+	"version": "1.1.0",
+	"priority": 520,
+	"min_native": "5.0.0",
+	"domains": ["dlcs", "goobye_sortiment", "balance", "mcgooby_menu"],
+	"name_de": "DLC-Hub",
+	"notes_de": "W14/DLCHUB: Katalog aller Erweiterungen für den DLC-Bereich in den Settings. Pack-updatebar nach dem Ranch-Muster: ein per Updater nachgeliefertes Pack mit höherer Priorität überschattet Einträge per id (append-by-id, Domain dlcs) — so wird ein 'kommt_bald'-Eintrag später ohne App-Update auf 'verfuegbar' gestellt. G5/P24 DLC-GOOBYE-A: genau dieser Mechanismus ist gezogen — 'goo_und_bye' steht auf 'verfuegbar' (Route goobye_angebot), dazu die Domains goobye_sortiment (Startsortiment §4.1) und balance (gooundbye.preis/freischalt_level, deep-merge)."
+}

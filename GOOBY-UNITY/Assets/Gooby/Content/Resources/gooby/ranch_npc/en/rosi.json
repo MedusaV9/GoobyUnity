@@ -1,0 +1,133 @@
+{
+	"id": "rnpc_rosi",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "rosi",
+			"text": "The early bird catches the... muck. I mean... well, you know. Good morning, chick!",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "rosi",
+			"text": "Well, chick? The stable won't sweep itself. I tried. Three times.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "rosi",
+			"text": "Evening light! The horses are already snoring. One of them whistles the ranch anthem while doing it.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "rosi",
+			"text": "Get in here! Nobody chases a Gooby out the door in this weather. The horses love it, by the way.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "rosi",
+			"text": "Ah, my favorite chick! Come here, the coffee in the trough is always warm for you.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "rosi",
+			"text": "What's up?",
+			"optionen": [
+				{"text": "Anything to do?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Done, boss!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "Got a minute to chat?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "Got a minute to chat?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "Got a minute to chat?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Tell me about the old days!", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "What's with the headscarf?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "See you later!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "rosi",
+			"text": [
+				"Remember one thing: a clean stable is half the victory.",
+				"The other half is hay. So strictly speaking, everything is hay."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "rosi",
+			"text": [
+				"You're coming along, chick. The horses already turn their ears when you show up.",
+				"They usually only do that for me. And for the feed cart. Fine, mostly for the feed cart."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "rosi",
+			"text": [
+				"You know, I don't say this often: without you this farm would still be a pile of planks with an attitude.",
+				"Don't spread it around. I have a reputation as a tough nut to protect."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "rosi",
+			"text": "I've got something. Nothing wild — unless it goes wrong, then it gets wild.",
+			"optionen": [
+				{"text": "I'm on it!", "next": "quest_annahme"},
+				{"text": "Bad timing right now...", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "rosi",
+			"text": "That's what I like! Chop chop — and don't you dare do it better than me.",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "rosi",
+			"text": "No drama. The muck won't run away. That's the beautiful and the sad thing about muck.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "rosi",
+			"text": "Well, look at that! Clean work, chick. Here, hold out your hooves.",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "rosi",
+			"text": "An apple?! For ME? Chick, now I'm going soft. Tell no one.",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "rosi",
+			"text": "Oh, thank you! This is not going into the feed trough. Half of it, at most.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "rosi",
+			"text": "Hm. It's the thought that counts. The thought is counting very, very loudly right now.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "rosi",
+			"text": [
+				"The old days? There was nothing here. Just me, a bucket and a pony named Bruno.",
+				"Bruno ate the bucket. That's when I knew: this is going to be a good farm."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "rosi",
+			"text": [
+				"The headscarf? It was my grandma's. She weathered the great storm of her day with it.",
+				"It wasn't the scarf that helped. But grandma looked fantastic wearing it, and that's what matters.",
+				"Now you know. If you tell anyone, I'm afraid I'll have to adopt you."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "rosi",
+			"text": "Off you go, chick! And remember: the horse comes first, then the fun. Usually they're the same thing.",
+			"ende": true
+		}
+	}
+}

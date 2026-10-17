@@ -1,0 +1,2012 @@
+{
+  "modes": {
+    "easy": [
+      {
+        "seed": 1,
+        "score": 86,
+        "rings": 38,
+        "hits": 33,
+        "golds": 5,
+        "fireflies": 11,
+        "bumps": 2,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 2,
+        "score": 73,
+        "rings": 38,
+        "hits": 27,
+        "golds": 4,
+        "fireflies": 10,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 3,
+        "score": 86,
+        "rings": 38,
+        "hits": 31,
+        "golds": 5,
+        "fireflies": 12,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 4,
+        "score": 88,
+        "rings": 38,
+        "hits": 29,
+        "golds": 6,
+        "fireflies": 15,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 5,
+        "score": 79,
+        "rings": 38,
+        "hits": 29,
+        "golds": 5,
+        "fireflies": 9,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 6,
+        "score": 86,
+        "rings": 38,
+        "hits": 28,
+        "golds": 6,
+        "fireflies": 12,
+        "bumps": 0,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 7,
+        "score": 71,
+        "rings": 38,
+        "hits": 24,
+        "golds": 4,
+        "fireflies": 11,
+        "bumps": 0,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 8,
+        "score": 68,
+        "rings": 38,
+        "hits": 24,
+        "golds": 5,
+        "fireflies": 14,
+        "bumps": 3,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 9,
+        "score": 83,
+        "rings": 38,
+        "hits": 30,
+        "golds": 6,
+        "fireflies": 8,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 10,
+        "score": 83,
+        "rings": 38,
+        "hits": 31,
+        "golds": 6,
+        "fireflies": 12,
+        "bumps": 3,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 11,
+        "score": 76,
+        "rings": 38,
+        "hits": 26,
+        "golds": 4,
+        "fireflies": 15,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 12,
+        "score": 80,
+        "rings": 38,
+        "hits": 25,
+        "golds": 5,
+        "fireflies": 18,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 13,
+        "score": 100,
+        "rings": 38,
+        "hits": 34,
+        "golds": 6,
+        "fireflies": 17,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 14,
+        "score": 97,
+        "rings": 38,
+        "hits": 29,
+        "golds": 6,
+        "fireflies": 21,
+        "bumps": 0,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 15,
+        "score": 86,
+        "rings": 38,
+        "hits": 29,
+        "golds": 5,
+        "fireflies": 13,
+        "bumps": 0,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 16,
+        "score": 96,
+        "rings": 38,
+        "hits": 32,
+        "golds": 6,
+        "fireflies": 20,
+        "bumps": 2,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 17,
+        "score": 73,
+        "rings": 38,
+        "hits": 25,
+        "golds": 3,
+        "fireflies": 17,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 18,
+        "score": 76,
+        "rings": 38,
+        "hits": 29,
+        "golds": 5,
+        "fireflies": 9,
+        "bumps": 2,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 19,
+        "score": 84,
+        "rings": 38,
+        "hits": 30,
+        "golds": 5,
+        "fireflies": 15,
+        "bumps": 2,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 20,
+        "score": 86,
+        "rings": 38,
+        "hits": 29,
+        "golds": 5,
+        "fireflies": 19,
+        "bumps": 2,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 21,
+        "score": 93,
+        "rings": 38,
+        "hits": 31,
+        "golds": 5,
+        "fireflies": 16,
+        "bumps": 0,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 22,
+        "score": 59,
+        "rings": 38,
+        "hits": 22,
+        "golds": 3,
+        "fireflies": 12,
+        "bumps": 2,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 23,
+        "score": 89,
+        "rings": 38,
+        "hits": 32,
+        "golds": 6,
+        "fireflies": 10,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 24,
+        "score": 85,
+        "rings": 38,
+        "hits": 30,
+        "golds": 4,
+        "fireflies": 16,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 25,
+        "score": 82,
+        "rings": 38,
+        "hits": 29,
+        "golds": 5,
+        "fireflies": 15,
+        "bumps": 2,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 26,
+        "score": 87,
+        "rings": 38,
+        "hits": 33,
+        "golds": 7,
+        "fireflies": 12,
+        "bumps": 4,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 27,
+        "score": 83,
+        "rings": 38,
+        "hits": 28,
+        "golds": 6,
+        "fireflies": 12,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 28,
+        "score": 92,
+        "rings": 38,
+        "hits": 31,
+        "golds": 5,
+        "fireflies": 15,
+        "bumps": 0,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 29,
+        "score": 70,
+        "rings": 38,
+        "hits": 26,
+        "golds": 6,
+        "fireflies": 18,
+        "bumps": 6,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 30,
+        "score": 81,
+        "rings": 38,
+        "hits": 29,
+        "golds": 7,
+        "fireflies": 11,
+        "bumps": 3,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 31,
+        "score": 78,
+        "rings": 38,
+        "hits": 24,
+        "golds": 5,
+        "fireflies": 18,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 32,
+        "score": 85,
+        "rings": 38,
+        "hits": 29,
+        "golds": 7,
+        "fireflies": 9,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 33,
+        "score": 93,
+        "rings": 38,
+        "hits": 33,
+        "golds": 5,
+        "fireflies": 12,
+        "bumps": 0,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 34,
+        "score": 96,
+        "rings": 38,
+        "hits": 32,
+        "golds": 6,
+        "fireflies": 17,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 35,
+        "score": 84,
+        "rings": 38,
+        "hits": 32,
+        "golds": 5,
+        "fireflies": 14,
+        "bumps": 3,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 36,
+        "score": 99,
+        "rings": 38,
+        "hits": 32,
+        "golds": 7,
+        "fireflies": 14,
+        "bumps": 0,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 37,
+        "score": 75,
+        "rings": 38,
+        "hits": 26,
+        "golds": 6,
+        "fireflies": 11,
+        "bumps": 2,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 38,
+        "score": 97,
+        "rings": 38,
+        "hits": 33,
+        "golds": 7,
+        "fireflies": 13,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 39,
+        "score": 93,
+        "rings": 38,
+        "hits": 29,
+        "golds": 6,
+        "fireflies": 17,
+        "bumps": 0,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 40,
+        "score": 85,
+        "rings": 38,
+        "hits": 30,
+        "golds": 5,
+        "fireflies": 16,
+        "bumps": 2,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 41,
+        "score": 81,
+        "rings": 38,
+        "hits": 28,
+        "golds": 5,
+        "fireflies": 10,
+        "bumps": 0,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 42,
+        "score": 78,
+        "rings": 38,
+        "hits": 31,
+        "golds": 4,
+        "fireflies": 10,
+        "bumps": 2,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 43,
+        "score": 102,
+        "rings": 38,
+        "hits": 36,
+        "golds": 7,
+        "fireflies": 12,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 44,
+        "score": 94,
+        "rings": 38,
+        "hits": 31,
+        "golds": 6,
+        "fireflies": 17,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 45,
+        "score": 92,
+        "rings": 38,
+        "hits": 34,
+        "golds": 6,
+        "fireflies": 12,
+        "bumps": 2,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 46,
+        "score": 83,
+        "rings": 38,
+        "hits": 27,
+        "golds": 6,
+        "fireflies": 14,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 47,
+        "score": 94,
+        "rings": 38,
+        "hits": 32,
+        "golds": 6,
+        "fireflies": 15,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 48,
+        "score": 96,
+        "rings": 38,
+        "hits": 32,
+        "golds": 6,
+        "fireflies": 14,
+        "bumps": 0,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 49,
+        "score": 88,
+        "rings": 38,
+        "hits": 31,
+        "golds": 6,
+        "fireflies": 11,
+        "bumps": 1,
+        "elapsed": 72.84576244086156
+      },
+      {
+        "seed": 50,
+        "score": 87,
+        "rings": 38,
+        "hits": 31,
+        "golds": 4,
+        "fireflies": 22,
+        "bumps": 3,
+        "elapsed": 72.84576244086156
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1,
+        "score": 81,
+        "rings": 40,
+        "hits": 29,
+        "golds": 6,
+        "fireflies": 11,
+        "bumps": 2,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 2,
+        "score": 68,
+        "rings": 40,
+        "hits": 24,
+        "golds": 4,
+        "fireflies": 11,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 3,
+        "score": 83,
+        "rings": 40,
+        "hits": 27,
+        "golds": 6,
+        "fireflies": 14,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 4,
+        "score": 76,
+        "rings": 40,
+        "hits": 26,
+        "golds": 4,
+        "fireflies": 15,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 5,
+        "score": 59,
+        "rings": 40,
+        "hits": 23,
+        "golds": 2,
+        "fireflies": 10,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 6,
+        "score": 76,
+        "rings": 40,
+        "hits": 23,
+        "golds": 6,
+        "fireflies": 12,
+        "bumps": 0,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 7,
+        "score": 55,
+        "rings": 40,
+        "hits": 19,
+        "golds": 2,
+        "fireflies": 11,
+        "bumps": 0,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 8,
+        "score": 63,
+        "rings": 40,
+        "hits": 21,
+        "golds": 5,
+        "fireflies": 15,
+        "bumps": 3,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 9,
+        "score": 87,
+        "rings": 40,
+        "hits": 30,
+        "golds": 7,
+        "fireflies": 9,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 10,
+        "score": 63,
+        "rings": 40,
+        "hits": 24,
+        "golds": 4,
+        "fireflies": 12,
+        "bumps": 3,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 11,
+        "score": 74,
+        "rings": 40,
+        "hits": 24,
+        "golds": 4,
+        "fireflies": 17,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 12,
+        "score": 74,
+        "rings": 40,
+        "hits": 22,
+        "golds": 5,
+        "fireflies": 18,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 13,
+        "score": 105,
+        "rings": 40,
+        "hits": 35,
+        "golds": 7,
+        "fireflies": 17,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 14,
+        "score": 107,
+        "rings": 40,
+        "hits": 32,
+        "golds": 7,
+        "fireflies": 22,
+        "bumps": 0,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 15,
+        "score": 91,
+        "rings": 40,
+        "hits": 29,
+        "golds": 6,
+        "fireflies": 15,
+        "bumps": 0,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 16,
+        "score": 92,
+        "rings": 40,
+        "hits": 31,
+        "golds": 5,
+        "fireflies": 21,
+        "bumps": 2,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 17,
+        "score": 59,
+        "rings": 40,
+        "hits": 19,
+        "golds": 2,
+        "fireflies": 18,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 18,
+        "score": 55,
+        "rings": 40,
+        "hits": 23,
+        "golds": 2,
+        "fireflies": 9,
+        "bumps": 2,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 19,
+        "score": 76,
+        "rings": 40,
+        "hits": 26,
+        "golds": 5,
+        "fireflies": 15,
+        "bumps": 2,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 20,
+        "score": 78,
+        "rings": 40,
+        "hits": 25,
+        "golds": 5,
+        "fireflies": 19,
+        "bumps": 2,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 21,
+        "score": 79,
+        "rings": 40,
+        "hits": 25,
+        "golds": 4,
+        "fireflies": 17,
+        "bumps": 0,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 22,
+        "score": 47,
+        "rings": 40,
+        "hits": 17,
+        "golds": 3,
+        "fireflies": 13,
+        "bumps": 3,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 23,
+        "score": 54,
+        "rings": 40,
+        "hits": 19,
+        "golds": 3,
+        "fireflies": 10,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 24,
+        "score": 80,
+        "rings": 40,
+        "hits": 27,
+        "golds": 4,
+        "fireflies": 17,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 25,
+        "score": 78,
+        "rings": 40,
+        "hits": 25,
+        "golds": 6,
+        "fireflies": 16,
+        "bumps": 2,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 26,
+        "score": 75,
+        "rings": 40,
+        "hits": 27,
+        "golds": 7,
+        "fireflies": 12,
+        "bumps": 4,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 27,
+        "score": 61,
+        "rings": 40,
+        "hits": 20,
+        "golds": 4,
+        "fireflies": 12,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 28,
+        "score": 91,
+        "rings": 40,
+        "hits": 29,
+        "golds": 6,
+        "fireflies": 15,
+        "bumps": 0,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 29,
+        "score": 70,
+        "rings": 40,
+        "hits": 26,
+        "golds": 6,
+        "fireflies": 18,
+        "bumps": 6,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 30,
+        "score": 60,
+        "rings": 40,
+        "hits": 23,
+        "golds": 4,
+        "fireflies": 11,
+        "bumps": 3,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 31,
+        "score": 76,
+        "rings": 40,
+        "hits": 23,
+        "golds": 5,
+        "fireflies": 18,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 32,
+        "score": 64,
+        "rings": 40,
+        "hits": 19,
+        "golds": 6,
+        "fireflies": 11,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 33,
+        "score": 86,
+        "rings": 40,
+        "hits": 27,
+        "golds": 6,
+        "fireflies": 14,
+        "bumps": 0,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 34,
+        "score": 73,
+        "rings": 40,
+        "hits": 25,
+        "golds": 3,
+        "fireflies": 17,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 35,
+        "score": 65,
+        "rings": 40,
+        "hits": 24,
+        "golds": 4,
+        "fireflies": 14,
+        "bumps": 3,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 36,
+        "score": 83,
+        "rings": 40,
+        "hits": 25,
+        "golds": 6,
+        "fireflies": 15,
+        "bumps": 0,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 37,
+        "score": 78,
+        "rings": 40,
+        "hits": 25,
+        "golds": 7,
+        "fireflies": 13,
+        "bumps": 2,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 38,
+        "score": 92,
+        "rings": 40,
+        "hits": 30,
+        "golds": 7,
+        "fireflies": 14,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 39,
+        "score": 88,
+        "rings": 40,
+        "hits": 28,
+        "golds": 5,
+        "fireflies": 17,
+        "bumps": 0,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 40,
+        "score": 54,
+        "rings": 40,
+        "hits": 17,
+        "golds": 3,
+        "fireflies": 17,
+        "bumps": 2,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 41,
+        "score": 86,
+        "rings": 40,
+        "hits": 27,
+        "golds": 7,
+        "fireflies": 11,
+        "bumps": 0,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 42,
+        "score": 59,
+        "rings": 40,
+        "hits": 24,
+        "golds": 3,
+        "fireflies": 11,
+        "bumps": 3,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 43,
+        "score": 83,
+        "rings": 40,
+        "hits": 28,
+        "golds": 6,
+        "fireflies": 12,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 44,
+        "score": 97,
+        "rings": 40,
+        "hits": 31,
+        "golds": 7,
+        "fireflies": 17,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 45,
+        "score": 72,
+        "rings": 40,
+        "hits": 27,
+        "golds": 5,
+        "fireflies": 12,
+        "bumps": 3,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 46,
+        "score": 58,
+        "rings": 40,
+        "hits": 20,
+        "golds": 2,
+        "fireflies": 15,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 47,
+        "score": 91,
+        "rings": 40,
+        "hits": 29,
+        "golds": 7,
+        "fireflies": 15,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 48,
+        "score": 86,
+        "rings": 40,
+        "hits": 26,
+        "golds": 6,
+        "fireflies": 16,
+        "bumps": 0,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 49,
+        "score": 78,
+        "rings": 40,
+        "hits": 26,
+        "golds": 6,
+        "fireflies": 11,
+        "bumps": 1,
+        "elapsed": 61.187359510515805
+      },
+      {
+        "seed": 50,
+        "score": 74,
+        "rings": 40,
+        "hits": 27,
+        "golds": 3,
+        "fireflies": 23,
+        "bumps": 4,
+        "elapsed": 61.187359510515805
+      }
+    ],
+    "hard": [
+      {
+        "seed": 1,
+        "score": 81,
+        "rings": 48,
+        "hits": 29,
+        "golds": 5,
+        "fireflies": 14,
+        "bumps": 2,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 2,
+        "score": 68,
+        "rings": 48,
+        "hits": 24,
+        "golds": 3,
+        "fireflies": 14,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 3,
+        "score": 90,
+        "rings": 48,
+        "hits": 27,
+        "golds": 7,
+        "fireflies": 18,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 4,
+        "score": 71,
+        "rings": 48,
+        "hits": 22,
+        "golds": 4,
+        "fireflies": 18,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 5,
+        "score": 69,
+        "rings": 48,
+        "hits": 26,
+        "golds": 2,
+        "fireflies": 14,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 6,
+        "score": 71,
+        "rings": 48,
+        "hits": 22,
+        "golds": 4,
+        "fireflies": 15,
+        "bumps": 0,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 7,
+        "score": 70,
+        "rings": 48,
+        "hits": 21,
+        "golds": 5,
+        "fireflies": 13,
+        "bumps": 0,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 8,
+        "score": 64,
+        "rings": 48,
+        "hits": 18,
+        "golds": 6,
+        "fireflies": 19,
+        "bumps": 3,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 9,
+        "score": 79,
+        "rings": 48,
+        "hits": 28,
+        "golds": 5,
+        "fireflies": 11,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 10,
+        "score": 84,
+        "rings": 48,
+        "hits": 29,
+        "golds": 7,
+        "fireflies": 14,
+        "bumps": 3,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 11,
+        "score": 67,
+        "rings": 48,
+        "hits": 20,
+        "golds": 4,
+        "fireflies": 21,
+        "bumps": 2,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 12,
+        "score": 76,
+        "rings": 48,
+        "hits": 23,
+        "golds": 4,
+        "fireflies": 21,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 13,
+        "score": 90,
+        "rings": 48,
+        "hits": 27,
+        "golds": 7,
+        "fireflies": 21,
+        "bumps": 2,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 14,
+        "score": 80,
+        "rings": 48,
+        "hits": 23,
+        "golds": 3,
+        "fireflies": 25,
+        "bumps": 0,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 15,
+        "score": 94,
+        "rings": 48,
+        "hits": 28,
+        "golds": 7,
+        "fireflies": 17,
+        "bumps": 0,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 16,
+        "score": 81,
+        "rings": 48,
+        "hits": 25,
+        "golds": 4,
+        "fireflies": 25,
+        "bumps": 2,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 17,
+        "score": 73,
+        "rings": 48,
+        "hits": 21,
+        "golds": 5,
+        "fireflies": 22,
+        "bumps": 2,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 18,
+        "score": 66,
+        "rings": 48,
+        "hits": 25,
+        "golds": 4,
+        "fireflies": 13,
+        "bumps": 3,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 19,
+        "score": 69,
+        "rings": 48,
+        "hits": 24,
+        "golds": 4,
+        "fireflies": 18,
+        "bumps": 3,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 20,
+        "score": 69,
+        "rings": 48,
+        "hits": 21,
+        "golds": 4,
+        "fireflies": 21,
+        "bumps": 2,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 21,
+        "score": 77,
+        "rings": 48,
+        "hits": 25,
+        "golds": 2,
+        "fireflies": 21,
+        "bumps": 0,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 22,
+        "score": 64,
+        "rings": 48,
+        "hits": 22,
+        "golds": 4,
+        "fireflies": 17,
+        "bumps": 3,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 23,
+        "score": 57,
+        "rings": 48,
+        "hits": 19,
+        "golds": 3,
+        "fireflies": 13,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 24,
+        "score": 85,
+        "rings": 48,
+        "hits": 28,
+        "golds": 4,
+        "fireflies": 20,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 25,
+        "score": 69,
+        "rings": 48,
+        "hits": 22,
+        "golds": 4,
+        "fireflies": 19,
+        "bumps": 2,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 26,
+        "score": 89,
+        "rings": 48,
+        "hits": 32,
+        "golds": 8,
+        "fireflies": 13,
+        "bumps": 4,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 27,
+        "score": 90,
+        "rings": 48,
+        "hits": 30,
+        "golds": 7,
+        "fireflies": 15,
+        "bumps": 2,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 28,
+        "score": 62,
+        "rings": 48,
+        "hits": 19,
+        "golds": 2,
+        "fireflies": 18,
+        "bumps": 0,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 29,
+        "score": 68,
+        "rings": 48,
+        "hits": 25,
+        "golds": 6,
+        "fireflies": 21,
+        "bumps": 7,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 30,
+        "score": 76,
+        "rings": 48,
+        "hits": 29,
+        "golds": 5,
+        "fireflies": 15,
+        "bumps": 4,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 31,
+        "score": 76,
+        "rings": 48,
+        "hits": 21,
+        "golds": 5,
+        "fireflies": 22,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 32,
+        "score": 71,
+        "rings": 48,
+        "hits": 23,
+        "golds": 4,
+        "fireflies": 16,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 33,
+        "score": 95,
+        "rings": 48,
+        "hits": 28,
+        "golds": 8,
+        "fireflies": 15,
+        "bumps": 0,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 34,
+        "score": 82,
+        "rings": 48,
+        "hits": 26,
+        "golds": 4,
+        "fireflies": 21,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 35,
+        "score": 60,
+        "rings": 48,
+        "hits": 21,
+        "golds": 3,
+        "fireflies": 18,
+        "bumps": 3,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 36,
+        "score": 79,
+        "rings": 48,
+        "hits": 24,
+        "golds": 5,
+        "fireflies": 16,
+        "bumps": 0,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 37,
+        "score": 72,
+        "rings": 48,
+        "hits": 22,
+        "golds": 6,
+        "fireflies": 16,
+        "bumps": 2,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 38,
+        "score": 99,
+        "rings": 48,
+        "hits": 33,
+        "golds": 7,
+        "fireflies": 15,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 39,
+        "score": 81,
+        "rings": 48,
+        "hits": 25,
+        "golds": 4,
+        "fireflies": 19,
+        "bumps": 0,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 40,
+        "score": 69,
+        "rings": 48,
+        "hits": 22,
+        "golds": 4,
+        "fireflies": 19,
+        "bumps": 2,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 41,
+        "score": 79,
+        "rings": 48,
+        "hits": 26,
+        "golds": 5,
+        "fireflies": 15,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 42,
+        "score": 72,
+        "rings": 48,
+        "hits": 26,
+        "golds": 5,
+        "fireflies": 14,
+        "bumps": 3,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 43,
+        "score": 72,
+        "rings": 48,
+        "hits": 25,
+        "golds": 3,
+        "fireflies": 16,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 44,
+        "score": 98,
+        "rings": 48,
+        "hits": 30,
+        "golds": 7,
+        "fireflies": 20,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 45,
+        "score": 59,
+        "rings": 48,
+        "hits": 23,
+        "golds": 3,
+        "fireflies": 16,
+        "bumps": 4,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 46,
+        "score": 75,
+        "rings": 48,
+        "hits": 23,
+        "golds": 5,
+        "fireflies": 17,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 47,
+        "score": 80,
+        "rings": 48,
+        "hits": 26,
+        "golds": 4,
+        "fireflies": 19,
+        "bumps": 1,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 48,
+        "score": 75,
+        "rings": 48,
+        "hits": 24,
+        "golds": 3,
+        "fireflies": 18,
+        "bumps": 0,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 49,
+        "score": 59,
+        "rings": 48,
+        "hits": 21,
+        "golds": 3,
+        "fireflies": 14,
+        "bumps": 2,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 50,
+        "score": 74,
+        "rings": 48,
+        "hits": 24,
+        "golds": 3,
+        "fireflies": 29,
+        "bumps": 4,
+        "elapsed": 60.94125075487541
+      }
+    ],
+    "endless": [
+      {
+        "seed": 1,
+        "score": 160,
+        "rings": 91,
+        "hits": 47,
+        "golds": 11,
+        "fireflies": 33,
+        "bumps": 3,
+        "elapsed": 106.71048152410624
+      },
+      {
+        "seed": 2,
+        "score": 259,
+        "rings": 150,
+        "hits": 81,
+        "golds": 17,
+        "fireflies": 46,
+        "bumps": 3,
+        "elapsed": 171.0053533189781
+      },
+      {
+        "seed": 3,
+        "score": 204,
+        "rings": 115,
+        "hits": 65,
+        "golds": 13,
+        "fireflies": 35,
+        "bumps": 3,
+        "elapsed": 132.86432767795242
+      },
+      {
+        "seed": 4,
+        "score": 101,
+        "rings": 71,
+        "hits": 31,
+        "golds": 6,
+        "fireflies": 21,
+        "bumps": 3,
+        "elapsed": 84.91560972923442
+      },
+      {
+        "seed": 5,
+        "score": 166,
+        "rings": 103,
+        "hits": 54,
+        "golds": 9,
+        "fireflies": 31,
+        "bumps": 3,
+        "elapsed": 119.78740460102934
+      },
+      {
+        "seed": 6,
+        "score": 210,
+        "rings": 130,
+        "hits": 66,
+        "golds": 12,
+        "fireflies": 42,
+        "bumps": 3,
+        "elapsed": 149.21048152410629
+      },
+      {
+        "seed": 7,
+        "score": 124,
+        "rings": 93,
+        "hits": 38,
+        "golds": 7,
+        "fireflies": 27,
+        "bumps": 3,
+        "elapsed": 108.88996870359342
+      },
+      {
+        "seed": 8,
+        "score": 50,
+        "rings": 35,
+        "hits": 13,
+        "golds": 4,
+        "fireflies": 12,
+        "bumps": 3,
+        "elapsed": 45.12908405516015
+      },
+      {
+        "seed": 9,
+        "score": 244,
+        "rings": 135,
+        "hits": 79,
+        "golds": 14,
+        "fireflies": 44,
+        "bumps": 3,
+        "elapsed": 154.65919947282424
+      },
+      {
+        "seed": 10,
+        "score": 66,
+        "rings": 34,
+        "hits": 20,
+        "golds": 5,
+        "fireflies": 11,
+        "bumps": 3,
+        "elapsed": 43.953622637626104
+      },
+      {
+        "seed": 11,
+        "score": 86,
+        "rings": 56,
+        "hits": 23,
+        "golds": 5,
+        "fireflies": 25,
+        "bumps": 3,
+        "elapsed": 68.56945588308055
+      },
+      {
+        "seed": 12,
+        "score": 130,
+        "rings": 75,
+        "hits": 36,
+        "golds": 8,
+        "fireflies": 34,
+        "bumps": 3,
+        "elapsed": 89.27458408820878
+      },
+      {
+        "seed": 13,
+        "score": 145,
+        "rings": 77,
+        "hits": 42,
+        "golds": 10,
+        "fireflies": 31,
+        "bumps": 3,
+        "elapsed": 91.45407126769597
+      },
+      {
+        "seed": 14,
+        "score": 236,
+        "rings": 133,
+        "hits": 67,
+        "golds": 11,
+        "fireflies": 69,
+        "bumps": 3,
+        "elapsed": 152.47971229333706
+      },
+      {
+        "seed": 15,
+        "score": 249,
+        "rings": 136,
+        "hits": 76,
+        "golds": 16,
+        "fireflies": 49,
+        "bumps": 3,
+        "elapsed": 155.74894306256783
+      },
+      {
+        "seed": 16,
+        "score": 101,
+        "rings": 61,
+        "hits": 29,
+        "golds": 4,
+        "fireflies": 31,
+        "bumps": 3,
+        "elapsed": 74.0181738317985
+      },
+      {
+        "seed": 17,
+        "score": 158,
+        "rings": 94,
+        "hits": 48,
+        "golds": 8,
+        "fireflies": 38,
+        "bumps": 3,
+        "elapsed": 109.97971229333702
+      },
+      {
+        "seed": 18,
+        "score": 60,
+        "rings": 41,
+        "hits": 21,
+        "golds": 3,
+        "fireflies": 9,
+        "bumps": 3,
+        "elapsed": 52.05115764100191
+      },
+      {
+        "seed": 19,
+        "score": 75,
+        "rings": 45,
+        "hits": 23,
+        "golds": 4,
+        "fireflies": 17,
+        "bumps": 3,
+        "elapsed": 56.54381948620997
+      },
+      {
+        "seed": 20,
+        "score": 84,
+        "rings": 55,
+        "hits": 25,
+        "golds": 4,
+        "fireflies": 22,
+        "bumps": 3,
+        "elapsed": 67.47971229333696
+      },
+      {
+        "seed": 21,
+        "score": 155,
+        "rings": 87,
+        "hits": 49,
+        "golds": 7,
+        "fireflies": 36,
+        "bumps": 3,
+        "elapsed": 102.35150716513188
+      },
+      {
+        "seed": 22,
+        "score": 57,
+        "rings": 40,
+        "hits": 16,
+        "golds": 4,
+        "fireflies": 13,
+        "bumps": 3,
+        "elapsed": 50.91287169922426
+      },
+      {
+        "seed": 23,
+        "score": 142,
+        "rings": 102,
+        "hits": 44,
+        "golds": 8,
+        "fireflies": 30,
+        "bumps": 3,
+        "elapsed": 118.69766101128575
+      },
+      {
+        "seed": 24,
+        "score": 186,
+        "rings": 103,
+        "hits": 59,
+        "golds": 9,
+        "fireflies": 41,
+        "bumps": 3,
+        "elapsed": 119.78740460102934
+      },
+      {
+        "seed": 25,
+        "score": 78,
+        "rings": 52,
+        "hits": 23,
+        "golds": 4,
+        "fireflies": 20,
+        "bumps": 3,
+        "elapsed": 64.21048152410619
+      },
+      {
+        "seed": 26,
+        "score": 72,
+        "rings": 30,
+        "hits": 22,
+        "golds": 6,
+        "fireflies": 10,
+        "bumps": 3,
+        "elapsed": 39.188308047798884
+      },
+      {
+        "seed": 27,
+        "score": 97,
+        "rings": 49,
+        "hits": 30,
+        "golds": 7,
+        "fireflies": 16,
+        "bumps": 3,
+        "elapsed": 60.94125075487541
+      },
+      {
+        "seed": 28,
+        "score": 148,
+        "rings": 90,
+        "hits": 44,
+        "golds": 8,
+        "fireflies": 36,
+        "bumps": 3,
+        "elapsed": 105.62073793436265
+      },
+      {
+        "seed": 29,
+        "score": 30,
+        "rings": 17,
+        "hits": 9,
+        "golds": 1,
+        "fireflies": 9,
+        "bumps": 3,
+        "elapsed": 22.976674108776955
+      },
+      {
+        "seed": 30,
+        "score": 26,
+        "rings": 18,
+        "hits": 8,
+        "golds": 2,
+        "fireflies": 4,
+        "bumps": 3,
+        "elapsed": 24.2641918752899
+      },
+      {
+        "seed": 31,
+        "score": 116,
+        "rings": 73,
+        "hits": 33,
+        "golds": 7,
+        "fireflies": 29,
+        "bumps": 3,
+        "elapsed": 87.0950969087216
+      },
+      {
+        "seed": 32,
+        "score": 135,
+        "rings": 82,
+        "hits": 39,
+        "golds": 9,
+        "fireflies": 30,
+        "bumps": 3,
+        "elapsed": 96.90278921641392
+      },
+      {
+        "seed": 33,
+        "score": 229,
+        "rings": 127,
+        "hits": 71,
+        "golds": 17,
+        "fireflies": 36,
+        "bumps": 3,
+        "elapsed": 145.9412507548755
+      },
+      {
+        "seed": 34,
+        "score": 136,
+        "rings": 77,
+        "hits": 43,
+        "golds": 6,
+        "fireflies": 32,
+        "bumps": 3,
+        "elapsed": 91.45407126769597
+      },
+      {
+        "seed": 35,
+        "score": 24,
+        "rings": 16,
+        "hits": 9,
+        "golds": 1,
+        "fireflies": 3,
+        "bumps": 3,
+        "elapsed": 21.68224163889928
+      },
+      {
+        "seed": 36,
+        "score": 190,
+        "rings": 123,
+        "hits": 60,
+        "golds": 10,
+        "fireflies": 40,
+        "bumps": 3,
+        "elapsed": 141.58227639590115
+      },
+      {
+        "seed": 37,
+        "score": 108,
+        "rings": 66,
+        "hits": 32,
+        "golds": 7,
+        "fireflies": 23,
+        "bumps": 3,
+        "elapsed": 79.46689178051646
+      },
+      {
+        "seed": 38,
+        "score": 130,
+        "rings": 69,
+        "hits": 41,
+        "golds": 8,
+        "fireflies": 24,
+        "bumps": 3,
+        "elapsed": 82.73612254974724
+      },
+      {
+        "seed": 39,
+        "score": 158,
+        "rings": 101,
+        "hits": 43,
+        "golds": 10,
+        "fireflies": 42,
+        "bumps": 3,
+        "elapsed": 117.60791742154215
+      },
+      {
+        "seed": 40,
+        "score": 169,
+        "rings": 109,
+        "hits": 51,
+        "golds": 12,
+        "fireflies": 31,
+        "bumps": 3,
+        "elapsed": 126.32586613949088
+      },
+      {
+        "seed": 41,
+        "score": 113,
+        "rings": 60,
+        "hits": 35,
+        "golds": 8,
+        "fireflies": 19,
+        "bumps": 3,
+        "elapsed": 72.92843024205492
+      },
+      {
+        "seed": 42,
+        "score": 65,
+        "rings": 40,
+        "hits": 21,
+        "golds": 4,
+        "fireflies": 11,
+        "bumps": 3,
+        "elapsed": 50.91287169922426
+      },
+      {
+        "seed": 43,
+        "score": 103,
+        "rings": 69,
+        "hits": 34,
+        "golds": 3,
+        "fireflies": 26,
+        "bumps": 3,
+        "elapsed": 82.73612254974724
+      },
+      {
+        "seed": 44,
+        "score": 225,
+        "rings": 134,
+        "hits": 70,
+        "golds": 13,
+        "fireflies": 46,
+        "bumps": 3,
+        "elapsed": 153.56945588308065
+      },
+      {
+        "seed": 45,
+        "score": 58,
+        "rings": 39,
+        "hits": 20,
+        "golds": 2,
+        "fireflies": 12,
+        "bumps": 3,
+        "elapsed": 49.76847251393546
+      },
+      {
+        "seed": 46,
+        "score": 154,
+        "rings": 98,
+        "hits": 44,
+        "golds": 10,
+        "fireflies": 36,
+        "bumps": 3,
+        "elapsed": 114.33868665231138
+      },
+      {
+        "seed": 47,
+        "score": 232,
+        "rings": 140,
+        "hits": 70,
+        "golds": 13,
+        "fireflies": 53,
+        "bumps": 3,
+        "elapsed": 160.1079174215422
+      },
+      {
+        "seed": 48,
+        "score": 235,
+        "rings": 152,
+        "hits": 74,
+        "golds": 11,
+        "fireflies": 54,
+        "bumps": 3,
+        "elapsed": 173.1848404984653
+      },
+      {
+        "seed": 49,
+        "score": 84,
+        "rings": 61,
+        "hits": 28,
+        "golds": 3,
+        "fireflies": 19,
+        "bumps": 3,
+        "elapsed": 74.0181738317985
+      },
+      {
+        "seed": 50,
+        "score": 63,
+        "rings": 36,
+        "hits": 18,
+        "golds": 2,
+        "fireflies": 21,
+        "bumps": 3,
+        "elapsed": 46.29826629845523
+      }
+    ]
+  }
+}

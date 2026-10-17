@@ -1,0 +1,130 @@
+{
+	"hud": {
+		"quests": "Quests"
+	},
+	"quests": {
+		"titel": "Daily Quests",
+		"untertitel": "Three little tasks — rolled fresh every day.",
+		"fortschritt": "{n}/{ziel}",
+		"abholen": "Claim",
+		"erledigt": "Done!",
+		"belohnung": "+{muenzen} · {xp} XP",
+		"bonus_offen": "Finish all three: +{muenzen} coins and {xp} XP extra!",
+		"bonus_bezahlt": "Daily bonus claimed — see you tomorrow!",
+		"bonus_toast": "Daily bonus! +{muenzen} extra coins",
+		"claim_toast": "Quest complete! +{muenzen} coins, +{xp} XP",
+		"reroll": "Reroll",
+		"reroll_hinweis": "Once a day, swaps only untouched tasks.",
+		"reroll_toast": "Fresh tasks have arrived!",
+		"leer": "Nothing on today — check back tomorrow!",
+		"wasnun": {
+			"titel": "What now?",
+			"abholen": "A quest reward is waiting — go claim it!",
+			"quest": "Daily quest: {titel}",
+			"pflege_hunger": "Gooby is hungry — take a look in the fridge.",
+			"pflege_hygiene": "Bath time — Gooby is getting a bit whiffy.",
+			"pflege_energie": "Gooby is tired — a nap would help.",
+			"level": "Next goal: level {level}. Minigames earn XP!",
+			"ranch": "The Gooby Ranch awaits — take the city exit!",
+			"arcade": "Fancy a round? The arcade is open."
+		},
+		"q": {
+			"feed3": {
+				"titel": "Snack Time",
+				"text": "Feed Gooby 3 times — the fridge is stocked."
+			},
+			"wash1": {
+				"titel": "Squeaky Clean",
+				"text": "Give Gooby one bath."
+			},
+			"pet5": {
+				"titel": "Cuddle Care",
+				"text": "Pet Gooby 5 times today."
+			},
+			"tickle3": {
+				"titel": "Giggle Attack",
+				"text": "Tickle Gooby 3 times."
+			},
+			"zahn1": {
+				"titel": "Tooth Fairy Alert",
+				"text": "Brush Gooby's teeth once."
+			},
+			"play3": {
+				"titel": "Arcade Afternoon",
+				"text": "Play 3 rounds in the arcade."
+			},
+			"play2distinct": {
+				"titel": "Variety, Please!",
+				"text": "Play 2 different minigames."
+			},
+			"earn60": {
+				"titel": "Pocket Money",
+				"text": "Earn 60 coins."
+			},
+			"catch30": {
+				"titel": "Carrot Rain",
+				"text": "Score 30 points in Carrot Catch today."
+			},
+			"hop10": {
+				"titel": "Hop Champion",
+				"text": "Score 10 points in Bunny Hop today."
+			},
+			"run200": {
+				"titel": "Run, Gooby, Run!",
+				"text": "Score 200 points in Gooby Runner today."
+			},
+			"fisch40": {
+				"titel": "Gone Fishing",
+				"text": "Score 40 points at the Fishing Pond today."
+			},
+			"dance150": {
+				"titel": "Dance Fever",
+				"text": "Score 150 points at the Dance Party today."
+			},
+			"golf70": {
+				"titel": "Hole in One",
+				"text": "Score 70 points in Mini Golf today."
+			},
+			"says60": {
+				"titel": "Good Memory",
+				"text": "Score 60 points in Gooby Says today."
+			},
+			"tramp50": {
+				"titel": "Sky High",
+				"text": "Score 50 points in Trampoline Tricks today."
+			},
+			"liefer60": {
+				"titel": "Speedy Paws",
+				"text": "Score 60 points in Delivery Rush today."
+			},
+			"tee1": {
+				"titel": "Tea Time",
+				"text": "Play one round of Tea Party."
+			},
+			"gvz1": {
+				"titel": "Garden Defender",
+				"text": "Play one round of Goobys vs. Zombies."
+			},
+			"gobnom1": {
+				"titel": "Big Appetite",
+				"text": "Play one round of GOB NOM."
+			},
+			"plant2": {
+				"titel": "Green Thumb",
+				"text": "Plant 2 seedlings in the garden."
+			},
+			"water4": {
+				"titel": "Watering Round",
+				"text": "Water the garden 4 times."
+			},
+			"harvest2": {
+				"titel": "Harvest Day",
+				"text": "Harvest 2 ripe plots."
+			},
+			"einkauf1": {
+				"titel": "Shopping Spree",
+				"text": "Treat yourself — spend a few coins."
+			}
+		}
+	}
+}

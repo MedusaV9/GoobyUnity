@@ -1,0 +1,44 @@
+{
+ "rkarte": {
+  "titel": "Explorer’s Map",
+  "knopf": "Map",
+  "zurueck": "Back",
+  "zoom_rein": "Enlarge map",
+  "zoom_raus": "Shrink map",
+  "fortschritt": "{funde}/{funde_gesamt} spots discovered · {zonen}/{zonen_gesamt} zones visited",
+  "unbekannt": "???",
+  "neu": "NEW",
+  "geheimnis": "Psst — a secret is still waiting here. Ride over and see for yourself!",
+  "dahin": "Off you go! Ride {richtung} — {zone} is a good landmark.",
+  "dahin_nah": "Off you go! It’s just around the corner — {zone} is calling.",
+  "schliessen": "Got it!",
+  "richtung": {
+   "n": "north",
+   "no": "northeast",
+   "o": "east",
+   "so": "southeast",
+   "s": "south",
+   "sw": "southwest",
+   "w": "west",
+   "nw": "northwest"
+  },
+  "beschr": {
+   "wasserfall": "Here the water rushes down the ridge and sprinkles a fine mist right onto your nose.",
+   "hoehle": "The walls of the Sparkle Cave glitter as if someone scattered stars inside.",
+   "alter_baum": "The ancient tree has stood here longer than the whole ranch — and whispers in the wind.",
+   "steinkreis": "Nobody knows who set up these stones. Gooby suspects very hard-working marmots.",
+   "aussicht_kamm": "From the ridge you can see half the ranch — perfect for catching your breath.",
+   "aussicht_see": "Glitter Lake truly lives up to its name, especially when the sun sits low.",
+   "truhe_wald": "This chest was hidden between the trees — good thing you were curious!",
+   "truhe_scheune": "Buried behind the old barn: a chest full of surprises.",
+   "truhe_ufer": "Washed up on the lakeshore and discovered by you — finest beachcombing treasure.",
+   "gipfelkreuz": "All the way up on the Wolkenhorn! Only the bravest high-five the wind up here.",
+   "bergsee_perle": "A pearl shimmers in the ice-cold mountain lake — your find, your treasure.",
+   "ruine_schatz": "The Altfels tower ruin guarded its treasure for ages. Now it’s yours.",
+   "moor_irrlicht": "A little light dances across the misty moor — never follow it too far, they say.",
+   "strand_muschel": "A giant shell! Hold it to your ear and you can hear Shell Bay rushing.",
+   "lavendel_bienen": "The bees hum their favorite song in the lavender — it smells like summer.",
+   "kornkreis": "A mysterious circle in the golden grain field. It wasn’t Gooby. Probably."
+  }
+ }
+}

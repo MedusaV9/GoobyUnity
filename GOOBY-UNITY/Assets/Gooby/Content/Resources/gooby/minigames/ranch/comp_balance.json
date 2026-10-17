@@ -1,0 +1,37 @@
+{
+	"v": 1,
+	"kommentar": "Wettbewerbs-Balance (RW-5, RANCH-DLC-IDEAS-3 Kap. 5) — Content-Pack-updatebar unterm Namespace 'ranchcomp'. Klassen-Zahlen exakt aus dem Doc (5.1), Richtzeiten je Disziplin×Klasse sind RW-5-Design (Doc nennt nur Tonnen 24→17 s).",
+	"basis_gold": 40,
+	"platz_anteil": [1.0, 0.6, 0.35],
+	"schleife_ab_platz": 3,
+	"klassen": [
+		{"id": "holz", "ab_level": 1, "gold_faktor": 1.0, "xp": 60, "aufstieg_punkte": 25},
+		{"id": "bronze", "ab_level": 5, "gold_faktor": 1.5, "xp": 90, "aufstieg_punkte": 50},
+		{"id": "silber", "ab_level": 10, "gold_faktor": 2.0, "xp": 130, "aufstieg_punkte": 90},
+		{"id": "gold", "ab_level": 18, "gold_faktor": 3.0, "xp": 180, "aufstieg_punkte": 140},
+		{"id": "sternenklasse", "ab_level": 25, "gold_faktor": 4.0, "xp": 240, "aufstieg_punkte": 0}
+	],
+	"liga_punkte_je_platz": [10, 7, 5, 3, 1],
+	"disziplinen": [
+		{"id": "springen", "wertung": "punkte", "stats": ["sprungkraft", "wendigkeit"]},
+		{"id": "dressur", "wertung": "punkte", "stats": ["gelassenheit", "wendigkeit"]},
+		{"id": "gelaende", "wertung": "zeit", "stats": ["ausdauer", "tempo"]},
+		{"id": "rennen", "wertung": "platz", "stats": ["tempo", "ausdauer"]},
+		{"id": "trail", "wertung": "punkte", "stats": ["wendigkeit", "gelassenheit"]},
+		{"id": "schau", "wertung": "punkte", "stats": []},
+		{"id": "tonnen", "wertung": "zeit", "stats": ["wendigkeit", "tempo"]}
+	],
+	"richtzeiten": {
+		"springen": {"holz": 75, "bronze": 70, "silber": 66, "gold": 62, "sternenklasse": 58},
+		"gelaende": {"holz": 150, "bronze": 140, "silber": 130, "gold": 120, "sternenklasse": 110},
+		"tonnen": {"holz": 24, "bronze": 22, "silber": 20, "gold": 18.5, "sternenklasse": 17}
+	},
+	"bot_koennen": {
+		"holz": [0.12, 0.32],
+		"bronze": [0.3, 0.5],
+		"silber": [0.48, 0.66],
+		"gold": [0.62, 0.8],
+		"sternenklasse": [0.76, 0.92]
+	},
+	"turniertag": {"disziplinen_je_woche": 3, "bonus_gold_mult": 1.25}
+}

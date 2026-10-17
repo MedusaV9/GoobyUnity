@@ -1,0 +1,497 @@
+{
+	"schema": "gooby.rquest/1",
+	"items": [
+		{
+			"id": "haupt_01",
+			"typ": "haupt",
+			"kapitel": 1,
+			"geber": "rosi",
+			"titelkarte": "res://assets/ranch/artwork/kapitel1_stall_flott_machen.webp",
+			"voraussetzungen": {},
+			"ziele": [
+				{"typ": "sprich_mit", "npc": "rosi"},
+				{"typ": "gehe_zu", "ort": "stall"},
+				{"typ": "pflege", "aktion": "ausmisten", "n": 1},
+				{"typ": "sammle", "item": "hufeisen", "n": 3}
+			],
+			"belohnung": {"muenzen": 150, "items": {"apfel": 2}, "herzen": {"rosi": 8}}
+		},
+		{
+			"id": "haupt_02",
+			"typ": "haupt",
+			"kapitel": 2,
+			"geber": "wilma",
+			"titelkarte": "res://assets/ranch/artwork/kapitel2_erstes_pferd.webp",
+			"voraussetzungen": {"quests": ["haupt_01"]},
+			"ziele": [
+				{"typ": "sprich_mit", "npc": "wilma"},
+				{"typ": "pflege", "aktion": "striegeln", "n": 2},
+				{"typ": "pflege", "aktion": "fuettern", "n": 1},
+				{"typ": "reite_strecke", "strecke": "hof_runde"}
+			],
+			"belohnung": {"muenzen": 200, "herzen": {"wilma": 8}}
+		},
+		{
+			"id": "haupt_03",
+			"typ": "haupt",
+			"kapitel": 3,
+			"geber": "marta",
+			"titelkarte": "res://assets/ranch/artwork/kapitel3_dorf_kennenlernen.webp",
+			"voraussetzungen": {"quests": ["haupt_02"]},
+			"ziele": [
+				{"typ": "sprich_mit", "npc": "moehrchen"},
+				{"typ": "sprich_mit", "npc": "eisenhuf"},
+				{"typ": "sprich_mit", "npc": "selma"},
+				{"typ": "sprich_mit", "npc": "timmi"},
+				{"typ": "sprich_mit", "npc": "eilfried"},
+				{"typ": "sprich_mit", "npc": "knips"}
+			],
+			"belohnung": {"muenzen": 180, "herzen": {"marta": 6}}
+		},
+		{
+			"id": "haupt_04",
+			"typ": "haupt",
+			"kapitel": 4,
+			"geber": "selma",
+			"titelkarte": "res://assets/ranch/artwork/ladebildschirm_stall_buersten.webp",
+			"voraussetzungen": {"quests": ["haupt_03"]},
+			"ziele": [
+				{"typ": "sprich_mit", "npc": "selma"},
+				{"typ": "sammle", "item": "wolle", "n": 2},
+				{"typ": "warte_bis", "dauerMin": 480, "liveActivity": true},
+				{"typ": "sprich_mit", "npc": "eisenhuf"}
+			],
+			"belohnung": {
+				"muenzen": 220,
+				"herzen": {"selma": 10},
+				"freischalten": ["sattel_kartoffel"]
+			}
+		},
+		{
+			"id": "haupt_05",
+			"typ": "haupt",
+			"kapitel": 5,
+			"geber": "punktabzug",
+			"titelkarte": "res://assets/ranch/artwork/kapitel4_turnier.webp",
+			"voraussetzungen": {"quests": ["haupt_04"]},
+			"ziele": [
+				{"typ": "reite_strecke", "strecke": "reitplatz_parcours"},
+				{"typ": "sprich_mit", "npc": "punktabzug"},
+				{"typ": "gewinne_wettbewerb", "disziplin": "parcours", "platz": 3}
+			],
+			"belohnung": {
+				"muenzen": 300,
+				"herzen": {"punktabzug": 10},
+				"freischalten": ["schleife_bronze"]
+			}
+		},
+		{
+			"id": "haupt_06",
+			"typ": "haupt",
+			"kapitel": 6,
+			"geber": "luna",
+			"titelkarte": "res://assets/ranch/artwork/ladebildschirm_galopp_wiese.webp",
+			"voraussetzungen": {"quests": ["haupt_05"]},
+			"ziele": [
+				{"typ": "sprich_mit", "npc": "luna"},
+				{"typ": "gehe_zu", "ort": "waldrand"},
+				{"typ": "warte_bis", "dauerMin": 30},
+				{"typ": "gehe_zu", "ort": "huegel"}
+			],
+			"belohnung": {
+				"muenzen": 260,
+				"herzen": {"luna": 12},
+				"freischalten": ["fellmuster_nebel"]
+			}
+		},
+		{
+			"id": "haupt_07",
+			"typ": "haupt",
+			"kapitel": 7,
+			"geber": "alwin",
+			"titelkarte": "res://assets/ranch/artwork/ladebildschirm_nacht_teich.webp",
+			"voraussetzungen": {"quests": ["haupt_06"]},
+			"ziele": [
+				{"typ": "sprich_mit", "npc": "alwin"},
+				{"typ": "sprich_mit", "npc": "eilfried"},
+				{"typ": "warte_bis", "dauerMin": 1440, "liveActivity": true},
+				{"typ": "gehe_zu", "ort": "teich"}
+			],
+			"belohnung": {"muenzen": 240, "herzen": {"alwin": 12}}
+		},
+		{
+			"id": "haupt_08",
+			"typ": "haupt",
+			"kapitel": 8,
+			"geber": "moehrchen",
+			"titelkarte": "res://assets/ranch/artwork/key_artwork_gooby_ranch.webp",
+			"voraussetzungen": {"quests": ["haupt_07"]},
+			"ziele": [
+				{"typ": "sprich_mit", "npc": "moehrchen"},
+				{"typ": "pflege", "aktion": "fuettern", "n": 3},
+				{"typ": "warte_bis", "dauerMin": 2880, "liveActivity": true},
+				{"typ": "gehe_zu", "ort": "stall"}
+			],
+			"belohnung": {
+				"muenzen": 400,
+				"herzen": {"moehrchen": 12},
+				"freischalten": ["fohlen_flauschig"]
+			}
+		},
+		{
+			"id": "haupt_09",
+			"typ": "haupt",
+			"kapitel": 9,
+			"geber": "knips",
+			"titelkarte": "res://assets/ranch/artwork/ladebildschirm_turnier_sprung.webp",
+			"voraussetzungen": {"quests": ["haupt_08"]},
+			"ziele": [
+				{"typ": "sprich_mit", "npc": "knips"},
+				{"typ": "gehe_zu", "ort": "foto_spot_teich"},
+				{"typ": "gehe_zu", "ort": "foto_spot_huegel"},
+				{"typ": "sprich_mit", "npc": "marta"}
+			],
+			"belohnung": {"muenzen": 280, "herzen": {"knips": 10}}
+		},
+		{
+			"id": "haupt_10",
+			"typ": "haupt",
+			"kapitel": 10,
+			"geber": "rosi",
+			"titelkarte": "res://assets/ranch/artwork/kapitel5_ranchfest.webp",
+			"voraussetzungen": {"quests": ["haupt_09"]},
+			"ziele": [
+				{"typ": "sammle", "item": "blume", "n": 5},
+				{"typ": "gewinne_wettbewerb", "disziplin": "parcours", "platz": 1},
+				{"typ": "sprich_mit", "npc": "alwin"},
+				{"typ": "gehe_zu", "ort": "hof_mitte"}
+			],
+			"belohnung": {
+				"muenzen": 500,
+				"herzen": {"rosi": 15},
+				"freischalten": ["girlande_ranchfest"]
+			}
+		},
+		{
+			"id": "neben_rosi_1",
+			"typ": "neben",
+			"geber": "rosi",
+			"voraussetzungen": {"quests": ["haupt_01"]},
+			"ziele": [{"typ": "pflege", "aktion": "ausmisten", "n": 3}],
+			"belohnung": {"muenzen": 90, "herzen": {"rosi": 5}, "freischalten": ["deko_mistgabel_gold"]}
+		},
+		{
+			"id": "neben_rosi_2",
+			"typ": "neben",
+			"geber": "rosi",
+			"voraussetzungen": {"quests": ["haupt_01"]},
+			"ziele": [{"typ": "sammle", "item": "hufeisen", "n": 5}],
+			"belohnung": {"muenzen": 80, "herzen": {"rosi": 4}}
+		},
+		{
+			"id": "neben_rosi_saat",
+			"typ": "neben",
+			"geber": "rosi",
+			"voraussetzungen": {"herzen": {"rosi": 3}},
+			"ziele": [
+				{"typ": "gehe_zu", "ort": "weide"},
+				{"typ": "warte_bis", "dauerMin": 120, "liveActivity": true},
+				{"typ": "gehe_zu", "ort": "weide"}
+			],
+			"belohnung": {"muenzen": 110, "herzen": {"rosi": 6}, "items": {"blume": 2}}
+		},
+		{
+			"id": "neben_moehrchen_1",
+			"typ": "neben",
+			"geber": "moehrchen",
+			"voraussetzungen": {"quests": ["haupt_02"]},
+			"ziele": [{"typ": "pflege", "aktion": "striegeln", "n": 3}],
+			"belohnung": {"muenzen": 90, "herzen": {"moehrchen": 5}}
+		},
+		{
+			"id": "neben_moehrchen_2",
+			"typ": "neben",
+			"geber": "moehrchen",
+			"voraussetzungen": {"herzen": {"moehrchen": 3}},
+			"ziele": [{"typ": "sammle", "item": "karotte", "n": 6}],
+			"belohnung": {"muenzen": 100, "herzen": {"moehrchen": 6}, "items": {"karotte": 3}}
+		},
+		{
+			"id": "neben_eisenhuf_1",
+			"typ": "neben",
+			"geber": "eisenhuf",
+			"voraussetzungen": {"quests": ["haupt_03"]},
+			"ziele": [
+				{"typ": "gehe_zu", "ort": "schmiede"},
+				{"typ": "warte_bis", "dauerMin": 60},
+				{"typ": "sprich_mit", "npc": "eisenhuf"}
+			],
+			"belohnung": {"muenzen": 120, "herzen": {"eisenhuf": 6}}
+		},
+		{
+			"id": "neben_eisenhuf_2",
+			"typ": "neben",
+			"geber": "eisenhuf",
+			"voraussetzungen": {"herzen": {"eisenhuf": 3}},
+			"ziele": [{"typ": "pflege", "aktion": "hufe", "n": 4}],
+			"belohnung": {"muenzen": 130, "herzen": {"eisenhuf": 6}}
+		},
+		{
+			"id": "neben_selma_1",
+			"typ": "neben",
+			"geber": "selma",
+			"voraussetzungen": {"quests": ["haupt_03"]},
+			"ziele": [
+				{"typ": "sprich_mit", "npc": "rosi"},
+				{"typ": "sprich_mit", "npc": "wilma"},
+				{"typ": "sprich_mit", "npc": "timmi"}
+			],
+			"belohnung": {"muenzen": 100, "herzen": {"selma": 5}}
+		},
+		{
+			"id": "neben_selma_2",
+			"typ": "neben",
+			"geber": "selma",
+			"voraussetzungen": {"herzen": {"selma": 3}},
+			"ziele": [
+				{"typ": "warte_bis", "dauerMin": 240, "liveActivity": true},
+				{"typ": "reite_strecke", "strecke": "hof_runde"}
+			],
+			"belohnung": {"muenzen": 140, "herzen": {"selma": 6}, "freischalten": ["schabracke_schleife"]}
+		},
+		{
+			"id": "neben_wilma_1",
+			"typ": "neben",
+			"geber": "wilma",
+			"voraussetzungen": {"quests": ["haupt_02"]},
+			"ziele": [
+				{"typ": "sammle", "item": "apfel", "n": 3},
+				{"typ": "sprich_mit", "npc": "wilma"}
+			],
+			"belohnung": {"muenzen": 90, "herzen": {"wilma": 5}}
+		},
+		{
+			"id": "neben_wilma_2",
+			"typ": "neben",
+			"geber": "wilma",
+			"voraussetzungen": {"herzen": {"wilma": 3}},
+			"ziele": [
+				{"typ": "sprich_mit", "npc": "wilma"},
+				{"typ": "sprich_mit", "npc": "wilma"}
+			],
+			"belohnung": {"muenzen": 80, "herzen": {"wilma": 6}}
+		},
+		{
+			"id": "neben_punktabzug_1",
+			"typ": "neben",
+			"geber": "punktabzug",
+			"voraussetzungen": {"quests": ["haupt_05"]},
+			"ziele": [{"typ": "reite_strecke", "strecke": "reitplatz_parcours"}],
+			"belohnung": {"muenzen": 110, "herzen": {"punktabzug": 5}}
+		},
+		{
+			"id": "neben_punktabzug_2",
+			"typ": "neben",
+			"geber": "punktabzug",
+			"voraussetzungen": {"herzen": {"punktabzug": 3}},
+			"ziele": [{"typ": "gewinne_wettbewerb", "disziplin": "parcours", "platz": 3}],
+			"belohnung": {"muenzen": 160, "herzen": {"punktabzug": 6}}
+		},
+		{
+			"id": "neben_timmi_1",
+			"typ": "neben",
+			"geber": "timmi",
+			"voraussetzungen": {"quests": ["haupt_03"]},
+			"ziele": [
+				{"typ": "sprich_mit", "npc": "timmi"},
+				{"typ": "gehe_zu", "ort": "koppel_pferde"},
+				{"typ": "sprich_mit", "npc": "timmi"}
+			],
+			"belohnung": {"muenzen": 90, "herzen": {"timmi": 6}}
+		},
+		{
+			"id": "neben_timmi_2",
+			"typ": "neben",
+			"geber": "timmi",
+			"voraussetzungen": {"herzen": {"timmi": 3}},
+			"ziele": [{"typ": "sammle", "item": "brett", "n": 4}],
+			"belohnung": {"muenzen": 80, "herzen": {"timmi": 6}}
+		},
+		{
+			"id": "neben_alwin_1",
+			"typ": "neben",
+			"geber": "alwin",
+			"voraussetzungen": {"quests": ["haupt_03"]},
+			"ziele": [
+				{"typ": "sprich_mit", "npc": "alwin"},
+				{"typ": "sprich_mit", "npc": "alwin"},
+				{"typ": "sprich_mit", "npc": "alwin"}
+			],
+			"belohnung": {"muenzen": 100, "herzen": {"alwin": 6}}
+		},
+		{
+			"id": "neben_alwin_2",
+			"typ": "neben",
+			"geber": "alwin",
+			"voraussetzungen": {"herzen": {"alwin": 3}},
+			"ziele": [
+				{"typ": "gehe_zu", "ort": "heulager"},
+				{"typ": "sammle", "item": "schluessel", "n": 1},
+				{"typ": "sprich_mit", "npc": "alwin"}
+			],
+			"belohnung": {"muenzen": 130, "herzen": {"alwin": 8}, "freischalten": ["deko_schleifenwand"]}
+		},
+		{
+			"id": "neben_luna_1",
+			"typ": "neben",
+			"geber": "luna",
+			"voraussetzungen": {"quests": ["haupt_06"]},
+			"ziele": [
+				{"typ": "gehe_zu", "ort": "waldrand"},
+				{"typ": "gehe_zu", "ort": "huegel"}
+			],
+			"belohnung": {"muenzen": 120, "herzen": {"luna": 6}}
+		},
+		{
+			"id": "neben_luna_2",
+			"typ": "neben",
+			"geber": "luna",
+			"voraussetzungen": {"herzen": {"luna": 3}},
+			"ziele": [{"typ": "pflege", "aktion": "taetscheln", "n": 3}],
+			"belohnung": {"muenzen": 100, "herzen": {"luna": 6}}
+		},
+		{
+			"id": "neben_marta_1",
+			"typ": "neben",
+			"geber": "marta",
+			"voraussetzungen": {"quests": ["haupt_03"]},
+			"ziele": [
+				{"typ": "sprich_mit", "npc": "rosi"},
+				{"typ": "sprich_mit", "npc": "eisenhuf"},
+				{"typ": "sprich_mit", "npc": "selma"},
+				{"typ": "sprich_mit", "npc": "alwin"}
+			],
+			"belohnung": {"muenzen": 110, "herzen": {"marta": 6}}
+		},
+		{
+			"id": "neben_marta_2",
+			"typ": "neben",
+			"geber": "marta",
+			"voraussetzungen": {"herzen": {"marta": 3}},
+			"ziele": [{"typ": "sammle", "item": "beere", "n": 5}],
+			"belohnung": {"muenzen": 100, "herzen": {"marta": 6}, "items": {"marmelade": 1}}
+		},
+		{
+			"id": "neben_eilfried_1",
+			"typ": "neben",
+			"geber": "eilfried",
+			"voraussetzungen": {"quests": ["haupt_03"]},
+			"ziele": [
+				{"typ": "gehe_zu", "ort": "tor"},
+				{"typ": "gehe_zu", "ort": "markt"},
+				{"typ": "gehe_zu", "ort": "teich"}
+			],
+			"belohnung": {"muenzen": 100, "herzen": {"eilfried": 6}}
+		},
+		{
+			"id": "neben_eilfried_2",
+			"typ": "neben",
+			"geber": "eilfried",
+			"voraussetzungen": {"herzen": {"eilfried": 2}},
+			"ziele": [{"typ": "warte_bis", "dauerMin": 1440, "liveActivity": true}],
+			"belohnung": {"muenzen": 120, "herzen": {"eilfried": 6}, "items": {"keks": 1}}
+		},
+		{
+			"id": "neben_knips_1",
+			"typ": "neben",
+			"geber": "knips",
+			"voraussetzungen": {"quests": ["haupt_03"]},
+			"ziele": [
+				{"typ": "gehe_zu", "ort": "foto_spot_teich"},
+				{"typ": "sprich_mit", "npc": "knips"}
+			],
+			"belohnung": {"muenzen": 90, "herzen": {"knips": 5}}
+		},
+		{
+			"id": "neben_knips_2",
+			"typ": "neben",
+			"geber": "knips",
+			"voraussetzungen": {"herzen": {"knips": 2}},
+			"ziele": [
+				{"typ": "sprich_mit", "npc": "rosi"},
+				{"typ": "sprich_mit", "npc": "wilma"},
+				{"typ": "sprich_mit", "npc": "marta"},
+				{"typ": "sprich_mit", "npc": "timmi"},
+				{"typ": "sprich_mit", "npc": "alwin"}
+			],
+			"belohnung": {"muenzen": 140, "herzen": {"knips": 7}}
+		},
+		{
+			"id": "neben_miez_1",
+			"typ": "neben",
+			"geber": "miez",
+			"voraussetzungen": {"quests": ["haupt_02"]},
+			"ziele": [
+				{"typ": "sammle", "item": "wolle", "n": 2},
+				{"typ": "gehe_zu", "ort": "haus"}
+			],
+			"belohnung": {"muenzen": 80, "herzen": {"miez": 6}}
+		},
+		{
+			"id": "neben_miez_2",
+			"typ": "neben",
+			"geber": "miez",
+			"voraussetzungen": {"herzen": {"miez": 3}},
+			"ziele": [
+				{"typ": "gehe_zu", "ort": "heulager"},
+				{"typ": "gehe_zu", "ort": "trog"}
+			],
+			"belohnung": {"muenzen": 90, "herzen": {"miez": 6}}
+		},
+		{
+			"id": "tages_ausmisten",
+			"typ": "taeglich",
+			"geber": "rosi",
+			"ziele": [{"typ": "pflege", "aktion": "ausmisten", "n": 1}],
+			"belohnung": {"muenzen": 40, "herzen": {"rosi": 2}}
+		},
+		{
+			"id": "tages_aepfel",
+			"typ": "taeglich",
+			"geber": "moehrchen",
+			"ziele": [{"typ": "sammle", "item": "apfel", "n": 2}],
+			"belohnung": {"muenzen": 40, "herzen": {"moehrchen": 2}}
+		},
+		{
+			"id": "tages_seerunde",
+			"typ": "taeglich",
+			"geber": "wilma",
+			"ziele": [{"typ": "reite_strecke", "strecke": "see_runde"}],
+			"belohnung": {"muenzen": 50, "herzen": {"wilma": 2}}
+		},
+		{
+			"id": "tages_striegeln",
+			"typ": "taeglich",
+			"geber": "rosi",
+			"ziele": [{"typ": "pflege", "aktion": "striegeln", "n": 1}],
+			"belohnung": {"muenzen": 40, "herzen": {"rosi": 2}}
+		},
+		{
+			"id": "tages_plausch",
+			"typ": "taeglich",
+			"geber": "marta",
+			"ziele": [
+				{"typ": "sprich_mit", "npc": "marta"},
+				{"typ": "sprich_mit", "npc": "eilfried"}
+			],
+			"belohnung": {"muenzen": 40, "herzen": {"marta": 2}}
+		},
+		{
+			"id": "tages_fotospot",
+			"typ": "taeglich",
+			"geber": "knips",
+			"ziele": [{"typ": "gehe_zu", "ort": "foto_spot_huegel"}],
+			"belohnung": {"muenzen": 40, "herzen": {"knips": 2}}
+		}
+	]
+}

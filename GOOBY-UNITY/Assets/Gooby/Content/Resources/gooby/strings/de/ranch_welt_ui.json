@@ -1,0 +1,20 @@
+{
+  "rwelt": {
+    "ui": {
+      "satteln": "Die Pferde werden gesattelt …",
+      "galopp": "Galopp",
+      "tipp": "Zieh links den Stick nach vorn zum Reiten — zur Seite lenkst du.",
+      "dahin_reiten": "Dahin reiten",
+      "unterwegs": "Unterwegs zu {ziel} — der Weg führt dich hin.",
+      "angekommen": "Angekommen: {zone}!",
+      "zone_text": "Hier warst du schon. Soll dich dein Pferd über die Wege hinbringen?",
+      "ausreiten_text": "Reite frei durch die Ranch-Region — sechzehn Zonen und sechzehn Geheimnisse warten."
+    },
+    "aktion": {
+      "hufingen": "Nach Hufingen hinein",
+      "turnier": "Turnier reiten",
+      "wildpferde": "Wildpferd zähmen",
+      "hof": "Absteigen am Hof"
+    }
+  }
+}

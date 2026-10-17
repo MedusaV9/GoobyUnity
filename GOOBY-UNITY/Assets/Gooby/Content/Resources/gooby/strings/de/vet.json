@@ -1,0 +1,15 @@
+{
+	"vet": {
+		"ort_name": "Tierarztpraxis Dr. Dr. Möhrchen",
+		"untersuchung": {
+			"horchen": "Dr. Dr. Möhrchen horcht mit einer Möhre ab…",
+			"temperatur": "Temperatur: kuschelwarm. Sehr gut.",
+			"ohren": "Ohrenwackel-Test: vorschriftsmäßig bestanden."
+		},
+		"behandlung_ok": "Dr. Dr. Möhrchen hat Gooby verarztet. Alles wird gut!",
+		"behandlung_gesund": "Gooby ist kerngesund — behandelt wird hier nur, was zwickt.",
+		"checkup_ok": "Check-up fertig — Gooby ist bestens versorgt.",
+		"zu_wenig": "So viele Münzen sind gerade nicht im Beutel.",
+		"rezept_ok": "Rezept eingesteckt — damit ab zur GOOBYTHEKE."
+	}
+}

@@ -1,0 +1,1424 @@
+{
+	"schema": 2,
+	"items": [
+		{
+			"id": "partyHat",
+			"kategorie": "hut",
+			"name_de": "Partyhut",
+			"name_en": "Party Hat",
+			"desc_de": "Sitzt schief, aber feiert gerade.",
+			"desc_en": "Sits crooked, currently partying.",
+			"preis": 120,
+			"rarity": "haeufig",
+			"min_level": 1,
+			"build": "kegel",
+			"farben": ["#FF7BA9", "#FFD166"]
+		},
+		{
+			"id": "beanie",
+			"kategorie": "hut",
+			"name_de": "Mütze",
+			"name_en": "Beanie",
+			"desc_de": "Wolle bis über die Ohren. Fast.",
+			"desc_en": "Wool down to the ears. Almost.",
+			"preis": 100,
+			"rarity": "haeufig",
+			"min_level": 1,
+			"build": "kappe",
+			"farben": ["#59C9B9", "#3FA89A"],
+			"params": {
+				"kappe": "beanie"
+			}
+		},
+		{
+			"id": "cap",
+			"kategorie": "hut",
+			"name_de": "Kappe",
+			"name_en": "Cap",
+			"desc_de": "Schirm nach vorn, Blick nach oben.",
+			"desc_en": "Visor forward, eyes up.",
+			"preis": 150,
+			"rarity": "haeufig",
+			"min_level": 1,
+			"build": "kappe",
+			"farben": ["#6EC6FF", "#438AC9"],
+			"params": {
+				"kappe": "schirm"
+			}
+		},
+		{
+			"id": "topHat",
+			"kategorie": "hut",
+			"name_de": "Zylinder",
+			"name_en": "Top Hat",
+			"desc_de": "Für Hasen mit Termindruck.",
+			"desc_en": "For rabbits with appointments.",
+			"preis": 300,
+			"rarity": "selten",
+			"min_level": 1,
+			"build": "zylinder",
+			"farben": ["#3A3A44", "#E0655F"],
+			"params": {
+				"krone_h": 0.2,
+				"krone_r": 0.096,
+				"krempe_r": 0.145
+			}
+		},
+		{
+			"id": "crown",
+			"kategorie": "hut",
+			"name_de": "Krone",
+			"name_en": "Crown",
+			"desc_de": "Regiert das Wohnzimmer mit sanfter Hand.",
+			"desc_en": "Rules the living room with a soft paw.",
+			"preis": 1200,
+			"rarity": "legendaer",
+			"min_level": 1,
+			"build": "krone",
+			"farben": ["#F7C948", "#FF7BA9"],
+			"params": {
+				"zacken": 6,
+				"radius": 0.092,
+				"hoehe": 0.08,
+				"metallic": 0.55
+			}
+		},
+		{
+			"id": "strawHat",
+			"kategorie": "hut",
+			"name_de": "Strohhut",
+			"name_en": "Straw Hat",
+			"desc_de": "Riecht nach Sommerferien und Heu.",
+			"desc_en": "Smells of summer holidays and hay.",
+			"preis": 160,
+			"rarity": "haeufig",
+			"min_level": 1,
+			"build": "zylinder",
+			"farben": ["#E8C88A", "#59C9B9"],
+			"params": {
+				"krone_h": 0.08,
+				"krone_r": 0.104,
+				"krempe_r": 0.195
+			}
+		},
+		{
+			"id": "chefHat",
+			"kategorie": "hut",
+			"name_de": "Kochmütze",
+			"name_en": "Chef Hat",
+			"desc_de": "Pfannkuchen schmecken damit messbar besser.",
+			"desc_en": "Pancakes measurably improve.",
+			"preis": 220,
+			"rarity": "selten",
+			"min_level": 1,
+			"build": "chefhut",
+			"farben": ["#FFFAF2", "#F6EAD8"],
+			"params": {
+				"hoehe": 0.1
+			}
+		},
+		{
+			"id": "flowerCrown",
+			"kategorie": "hut",
+			"name_de": "Blumenkranz",
+			"name_en": "Flower Crown",
+			"desc_de": "Fünf Blumen, null Verantwortung.",
+			"desc_en": "Five flowers, zero responsibilities.",
+			"preis": 180,
+			"rarity": "haeufig",
+			"min_level": 1,
+			"build": "kranz",
+			"farben": ["#8FD06C", "#FFD1E8", "#FFD166"]
+		},
+		{
+			"id": "wizardHat",
+			"kategorie": "hut",
+			"name_de": "Zauberhut",
+			"name_en": "Wizard Hat",
+			"desc_de": "Zaubert leider nur Möhren herbei.",
+			"desc_en": "Only conjures carrots, sadly.",
+			"preis": 350,
+			"rarity": "episch",
+			"min_level": 1,
+			"build": "kegel",
+			"farben": ["#7C6BD6", "#FFD166"],
+			"params": {
+				"hoehe": 0.17,
+				"radius": 0.098,
+				"krempe_r": 0.15,
+				"sterne": 3,
+				"bommel": false,
+				"kipp": 0.55
+			}
+		},
+		{
+			"id": "sombrero",
+			"kategorie": "hut",
+			"name_de": "Sombrero",
+			"name_en": "Sombrero",
+			"desc_de": "Wirft Schatten für zwei Goobys.",
+			"desc_en": "Casts shade for two Goobys.",
+			"preis": 260,
+			"rarity": "selten",
+			"min_level": 6,
+			"build": "zylinder",
+			"farben": ["#E0B054", "#E0655F"],
+			"params": {
+				"krone_h": 0.11,
+				"krone_r": 0.105,
+				"krempe_r": 0.25,
+				"krempe_kipp": 0.16
+			}
+		},
+		{
+			"id": "pirateHat",
+			"kategorie": "hut",
+			"name_de": "Piratenhut",
+			"name_en": "Pirate Hat",
+			"desc_de": "Arrr. Der Schatz ist im Kühlschrank.",
+			"desc_en": "Arrr. The treasure is in the fridge.",
+			"preis": 320,
+			"rarity": "selten",
+			"min_level": 12,
+			"build": "dreispitz",
+			"farben": ["#26262E", "#FFFAF2"]
+		},
+		{
+			"id": "detectiveHat",
+			"kategorie": "hut",
+			"name_de": "Detektivmütze",
+			"name_en": "Detective Hat",
+			"desc_de": "Ermittelt hauptsächlich nach Keksen.",
+			"desc_en": "Mainly investigates cookies.",
+			"preis": 280,
+			"rarity": "selten",
+			"min_level": 10,
+			"build": "zylinder",
+			"farben": ["#9B795F", "#5E4738"],
+			"params": {
+				"krone_h": 0.12,
+				"krone_r": 0.1,
+				"krempe_r": 0.175,
+				"delle": true
+			}
+		},
+		{
+			"id": "beret",
+			"kategorie": "hut",
+			"name_de": "Baskenmütze",
+			"name_en": "Beret",
+			"desc_de": "Kunst passiert jetzt einfach.",
+			"desc_en": "Art simply happens now.",
+			"preis": 180,
+			"rarity": "haeufig",
+			"min_level": 4,
+			"build": "kappe",
+			"farben": ["#E0655F", "#B84943"],
+			"params": {
+				"kappe": "barett"
+			}
+		},
+		{
+			"id": "vikingHelm",
+			"kategorie": "hut",
+			"name_de": "Wikingerhelm",
+			"name_en": "Viking Helmet",
+			"desc_de": "Erobert vor allem das Sofa.",
+			"desc_en": "Mostly conquers the couch.",
+			"preis": 380,
+			"rarity": "episch",
+			"min_level": 15,
+			"build": "helm",
+			"farben": ["#B7C2CC", "#FFF2D6"],
+			"params": {
+				"helm": "hoerner"
+			}
+		},
+		{
+			"id": "pumpkinHat",
+			"kategorie": "hut",
+			"name_de": "Kürbishut",
+			"name_en": "Pumpkin Hat",
+			"desc_de": "Süßes, sonst gibt’s Schmollen.",
+			"desc_en": "Treats, or there will be sulking.",
+			"preis": 240,
+			"rarity": "selten",
+			"min_level": 8,
+			"build": "kuerbis",
+			"farben": ["#F28C3A", "#4F9C67"]
+		},
+		{
+			"id": "spaceHelm",
+			"kategorie": "hut",
+			"name_de": "Weltraumhelm",
+			"name_en": "Space Helmet",
+			"desc_de": "Ein kleiner Hüpfer für Gooby.",
+			"desc_en": "One small hop for Gooby.",
+			"preis": 420,
+			"rarity": "episch",
+			"min_level": 18,
+			"build": "helm",
+			"farben": ["#CFE9F5", "#B7C2CC"],
+			"params": {
+				"helm": "glas"
+			}
+		},
+		{
+			"id": "chefToque",
+			"kategorie": "hut",
+			"name_de": "Kochhaube",
+			"name_en": "Chef's Toque",
+			"desc_de": "Je höher die Haube, desto ernster die Suppe.",
+			"desc_en": "The taller the toque, the graver the soup.",
+			"preis": 300,
+			"rarity": "selten",
+			"min_level": 6,
+			"build": "chefhut",
+			"farben": ["#FFFFFF", "#F6EAD8"],
+			"params": {
+				"hoehe": 0.15,
+				"puffs": 5
+			}
+		},
+		{
+			"id": "hut_niko",
+			"kategorie": "hut",
+			"name_de": "Nikolausmütze",
+			"name_en": "Santa Hat",
+			"desc_de": "Trägt sie auch im Juli. Aus Prinzip.",
+			"desc_en": "Worn in July too. On principle.",
+			"preis": 190,
+			"rarity": "haeufig",
+			"min_level": 1,
+			"build": "kegel",
+			"farben": ["#E0655F", "#FFFFFF"],
+			"params": {
+				"hoehe": 0.2,
+				"radius": 0.105,
+				"kipp": 0.45,
+				"manschette": true
+			}
+		},
+		{
+			"id": "hut_bauhelm",
+			"kategorie": "hut",
+			"name_de": "Bauhelm",
+			"name_en": "Hard Hat",
+			"desc_de": "Sicherheit zuerst, Nickerchen zweitens.",
+			"desc_en": "Safety first, naps second.",
+			"preis": 210,
+			"rarity": "selten",
+			"min_level": 3,
+			"build": "helm",
+			"farben": ["#FFD166", "#E0B04A"],
+			"params": {
+				"helm": "bau"
+			}
+		},
+		{
+			"id": "hut_kroenchen",
+			"kategorie": "hut",
+			"name_de": "Krönchen",
+			"name_en": "Tiara",
+			"desc_de": "Für Tage, an denen Krone zu viel wäre.",
+			"desc_en": "For days when a full crown is too much.",
+			"preis": 480,
+			"rarity": "episch",
+			"min_level": 9,
+			"build": "krone",
+			"farben": ["#F6C9D8", "#6EC6FF"],
+			"params": {
+				"zacken": 3,
+				"radius": 0.075,
+				"hoehe": 0.05,
+				"metallic": 0.4
+			}
+		},
+		{
+			"id": "hut_zipfel",
+			"kategorie": "hut",
+			"name_de": "Zipfelmütze",
+			"name_en": "Nightcap",
+			"desc_de": "Macht sofort müde. Wissenschaftlich.",
+			"desc_en": "Instantly sleepy. Scientifically.",
+			"preis": 140,
+			"rarity": "haeufig",
+			"min_level": 1,
+			"build": "kegel",
+			"farben": ["#B896E8", "#FFF9EC"],
+			"params": {
+				"hoehe": 0.22,
+				"radius": 0.1,
+				"kipp": 0.7,
+				"manschette": true
+			}
+		},
+		{
+			"id": "hut_hexe",
+			"kategorie": "hut",
+			"name_de": "Hexenhut",
+			"name_en": "Witch Hat",
+			"desc_de": "Der Besen steht noch im Schuppen.",
+			"desc_en": "The broom is still in the shed.",
+			"preis": 330,
+			"rarity": "selten",
+			"min_level": 11,
+			"build": "kegel",
+			"farben": ["#4C4A63", "#8FD06C"],
+			"params": {
+				"hoehe": 0.24,
+				"radius": 0.105,
+				"krempe_r": 0.2,
+				"kipp": 0.2,
+				"bommel": false,
+				"band": true
+			}
+		},
+		{
+			"id": "hut_melone",
+			"kategorie": "hut",
+			"name_de": "Melone",
+			"name_en": "Bowler Hat",
+			"desc_de": "Sehr höflich. Sagt immer Guten Tag.",
+			"desc_en": "Very polite. Always says good day.",
+			"preis": 240,
+			"rarity": "selten",
+			"min_level": 5,
+			"build": "zylinder",
+			"farben": ["#5E4738", "#3A3A44"],
+			"params": {
+				"krone_h": 0.09,
+				"krone_r": 0.098,
+				"krempe_r": 0.14,
+				"kuppel": true
+			}
+		},
+		{
+			"id": "hut_cowboy",
+			"kategorie": "hut",
+			"name_de": "Cowboyhut",
+			"name_en": "Cowboy Hat",
+			"desc_de": "Yeehaw, aber leise.",
+			"desc_en": "Yeehaw, but quietly.",
+			"preis": 270,
+			"rarity": "selten",
+			"min_level": 7,
+			"build": "zylinder",
+			"farben": ["#B98D62", "#7A5C4F"],
+			"params": {
+				"krone_h": 0.14,
+				"krone_r": 0.1,
+				"krempe_r": 0.22,
+				"krempe_kipp": 0.3,
+				"delle": true
+			}
+		},
+		{
+			"id": "hut_lorbeer",
+			"kategorie": "hut",
+			"name_de": "Lorbeerkranz",
+			"name_en": "Laurel Wreath",
+			"desc_de": "Sieger im Disziplin Nichtstun.",
+			"desc_en": "Champion of doing nothing.",
+			"preis": 360,
+			"rarity": "episch",
+			"min_level": 13,
+			"build": "kranz",
+			"farben": ["#6DB54E", "#8FD06C", "#F7C948"],
+			"params": {
+				"blaetter": true
+			}
+		},
+		{
+			"id": "hut_ritter",
+			"kategorie": "hut",
+			"name_de": "Ritterhelm",
+			"name_en": "Knight Helmet",
+			"desc_de": "Sichtschlitz optimiert auf Snacks.",
+			"desc_en": "Visor slit optimized for snacks.",
+			"preis": 400,
+			"rarity": "episch",
+			"min_level": 16,
+			"build": "helm",
+			"farben": ["#B7C2CC", "#FF7BA9"],
+			"params": {
+				"helm": "ritter"
+			}
+		},
+		{
+			"id": "hut_kapitaen",
+			"kategorie": "hut",
+			"name_de": "Kapitänsmütze",
+			"name_en": "Captain's Cap",
+			"desc_de": "Volle Kraft Richtung Kühlschrank.",
+			"desc_en": "Full speed toward the fridge.",
+			"preis": 250,
+			"rarity": "selten",
+			"min_level": 6,
+			"build": "kappe",
+			"farben": ["#263D66", "#FFFAF2"],
+			"params": {
+				"kappe": "kapitaen"
+			}
+		},
+		{
+			"id": "hut_torte",
+			"kategorie": "hut",
+			"name_de": "Törtchenhut",
+			"name_en": "Cupcake Hat",
+			"desc_de": "Nicht essbar. Wurde dreimal geprüft.",
+			"desc_en": "Not edible. Checked three times.",
+			"preis": 290,
+			"rarity": "selten",
+			"min_level": 8,
+			"build": "torte",
+			"farben": ["#FFD1E8", "#FFF9EC", "#E0655F"]
+		},
+		{
+			"id": "hut_ananas",
+			"kategorie": "hut",
+			"name_de": "Ananashut",
+			"name_en": "Pineapple Hat",
+			"desc_de": "Tropisch, stachelig, sehr überzeugt.",
+			"desc_en": "Tropical, spiky, very convinced.",
+			"preis": 310,
+			"rarity": "selten",
+			"min_level": 10,
+			"build": "ananas",
+			"farben": ["#FFD166", "#4F9C67"]
+		},
+		{
+			"id": "hut_frosch",
+			"kategorie": "hut",
+			"name_de": "Froschmütze",
+			"name_en": "Frog Cap",
+			"desc_de": "Quakt nicht, guckt aber.",
+			"desc_en": "Doesn't croak, but stares.",
+			"preis": 230,
+			"rarity": "selten",
+			"min_level": 4,
+			"build": "kappe",
+			"farben": ["#8FD06C", "#FFFFFF"],
+			"params": {
+				"kappe": "tier"
+			}
+		},
+		{
+			"id": "roundGlasses",
+			"kategorie": "brille",
+			"name_de": "Runde Brille",
+			"name_en": "Round Glasses",
+			"desc_de": "Liest gern die Zutatenliste.",
+			"desc_en": "Enjoys reading ingredient lists.",
+			"preis": 150,
+			"rarity": "haeufig",
+			"min_level": 1,
+			"build": "brille",
+			"farben": ["#7A5C4F", "#BFE3FF"],
+			"params": {
+				"form": "rund"
+			}
+		},
+		{
+			"id": "sunglasses",
+			"kategorie": "brille",
+			"name_de": "Sonnenbrille",
+			"name_en": "Sunglasses",
+			"desc_de": "Drinnen genauso cool. Behauptet Gooby.",
+			"desc_en": "Just as cool indoors. Gooby insists.",
+			"preis": 200,
+			"rarity": "selten",
+			"min_level": 1,
+			"build": "brille",
+			"farben": ["#26262E", "#1A1A22"],
+			"params": {
+				"form": "eckig"
+			}
+		},
+		{
+			"id": "starGlasses",
+			"kategorie": "brille",
+			"name_de": "Sternenbrille",
+			"name_en": "Star Glasses",
+			"desc_de": "Blinkt innerlich.",
+			"desc_en": "Sparkles on the inside.",
+			"preis": 250,
+			"rarity": "selten",
+			"min_level": 1,
+			"build": "brille",
+			"farben": ["#FFD166", "#FFF2D6"],
+			"params": {
+				"form": "stern"
+			}
+		},
+		{
+			"id": "heartGlasses",
+			"kategorie": "brille",
+			"name_de": "Herzbrille",
+			"name_en": "Heart Glasses",
+			"desc_de": "Sieht überall Freunde.",
+			"desc_en": "Sees friends everywhere.",
+			"preis": 220,
+			"rarity": "selten",
+			"min_level": 1,
+			"build": "brille",
+			"farben": ["#FF7BA9", "#FFD4E4"],
+			"params": {
+				"form": "herz"
+			}
+		},
+		{
+			"id": "monocle",
+			"kategorie": "brille",
+			"name_de": "Monokel",
+			"name_en": "Monocle",
+			"desc_de": "Ein Auge für Stil, eins für Kekse.",
+			"desc_en": "One eye for style, one for cookies.",
+			"preis": 400,
+			"rarity": "episch",
+			"min_level": 1,
+			"build": "monokel",
+			"farben": ["#F7C948", "#BFE3FF"]
+		},
+		{
+			"id": "aviatorGoggles",
+			"kategorie": "brille",
+			"name_de": "Fliegerbrille",
+			"name_en": "Aviator Goggles",
+			"desc_de": "Startklar, sobald der Wind stimmt.",
+			"desc_en": "Cleared for takeoff, wind permitting.",
+			"preis": 260,
+			"rarity": "selten",
+			"min_level": 9,
+			"build": "goggles",
+			"farben": ["#7A5C4F", "#BFE3FF", "#5E4738"]
+		},
+		{
+			"id": "readingGlasses",
+			"kategorie": "brille",
+			"name_de": "Lesebrille",
+			"name_en": "Reading Glasses",
+			"desc_de": "Für das Kleingedruckte im Kochbuch.",
+			"desc_en": "For the fine print in the cookbook.",
+			"preis": 170,
+			"rarity": "haeufig",
+			"min_level": 3,
+			"build": "brille",
+			"farben": ["#B7C2CC", "#FFFFFF"],
+			"params": {
+				"form": "halb"
+			}
+		},
+		{
+			"id": "eyepatch",
+			"kategorie": "brille",
+			"name_de": "Augenklappe",
+			"name_en": "Eyepatch",
+			"desc_de": "Rein dekorativ. Beide Augen top.",
+			"desc_en": "Purely decorative. Both eyes fine.",
+			"preis": 190,
+			"rarity": "haeufig",
+			"min_level": 12,
+			"build": "augenklappe",
+			"farben": ["#26262E", "#3A3A44"]
+		},
+		{
+			"id": "stars3D",
+			"kategorie": "brille",
+			"name_de": "3D-Brille",
+			"name_en": "3D Glasses",
+			"desc_de": "Alles wirkt plötzlich tiefer. Auch der Teppich.",
+			"desc_en": "Everything looks deeper. Even the rug.",
+			"preis": 310,
+			"rarity": "selten",
+			"min_level": 14,
+			"build": "brille",
+			"farben": ["#FFFFFF", "#E0655F", "#55D7DF"],
+			"params": {
+				"form": "eckig",
+				"zweifarbig": true
+			}
+		},
+		{
+			"id": "brille_taucher",
+			"kategorie": "brille",
+			"name_de": "Taucherbrille",
+			"name_en": "Diving Mask",
+			"desc_de": "Funktioniert auch in der Badewanne.",
+			"desc_en": "Works in the bathtub too.",
+			"preis": 240,
+			"rarity": "selten",
+			"min_level": 5,
+			"build": "goggles",
+			"farben": ["#59C9B9", "#CFE9F5", "#3FA89A"],
+			"params": {
+				"einscheibe": true
+			}
+		},
+		{
+			"id": "brille_ski",
+			"kategorie": "brille",
+			"name_de": "Skibrille",
+			"name_en": "Ski Goggles",
+			"desc_de": "Piste frei, Möhren im Rucksack.",
+			"desc_en": "Slopes clear, carrots packed.",
+			"preis": 280,
+			"rarity": "selten",
+			"min_level": 7,
+			"build": "goggles",
+			"farben": ["#FF7BA9", "#FFD166", "#E05F8D"],
+			"params": {
+				"einscheibe": true,
+				"breit": true
+			}
+		},
+		{
+			"id": "brille_katzenauge",
+			"kategorie": "brille",
+			"name_de": "Katzenaugenbrille",
+			"name_en": "Cat-Eye Glasses",
+			"desc_de": "Hebt die Augenbrauen für dich.",
+			"desc_en": "Raises your eyebrows for you.",
+			"preis": 260,
+			"rarity": "selten",
+			"min_level": 6,
+			"build": "brille",
+			"farben": ["#B896E8", "#FFD4E4"],
+			"params": {
+				"form": "katze"
+			}
+		},
+		{
+			"id": "brille_nerd",
+			"kategorie": "brille",
+			"name_de": "Hornbrille",
+			"name_en": "Horn-Rimmed Glasses",
+			"desc_de": "Weiß plötzlich alles über Möhrensorten.",
+			"desc_en": "Suddenly an expert on carrot cultivars.",
+			"preis": 180,
+			"rarity": "haeufig",
+			"min_level": 2,
+			"build": "brille",
+			"farben": ["#3A2E2E", "#FFF2D6"],
+			"params": {
+				"form": "eckig",
+				"dick": true
+			}
+		},
+		{
+			"id": "brille_pixel",
+			"kategorie": "brille",
+			"name_de": "Pixelbrille",
+			"name_en": "Pixel Shades",
+			"desc_de": "8 Bit reichen völlig.",
+			"desc_en": "8 bits are plenty.",
+			"preis": 350,
+			"rarity": "episch",
+			"min_level": 12,
+			"build": "brille",
+			"farben": ["#26262E", "#1A1A22"],
+			"params": {
+				"form": "pixel"
+			}
+		},
+		{
+			"id": "brille_blume",
+			"kategorie": "brille",
+			"name_de": "Blumenbrille",
+			"name_en": "Flower Glasses",
+			"desc_de": "Frühling direkt auf der Nase.",
+			"desc_en": "Spring, right on the nose.",
+			"preis": 300,
+			"rarity": "selten",
+			"min_level": 9,
+			"build": "brille",
+			"farben": ["#FFD1E8", "#FFD166"],
+			"params": {
+				"form": "blume"
+			}
+		},
+		{
+			"id": "brille_scherz",
+			"kategorie": "brille",
+			"name_de": "Scherzbrille",
+			"name_en": "Novelty Nose Glasses",
+			"desc_de": "Verkleidung perfekt. Niemand erkennt Gooby.",
+			"desc_en": "Perfect disguise. Nobody recognizes Gooby.",
+			"preis": 330,
+			"rarity": "selten",
+			"min_level": 10,
+			"build": "scherzbrille",
+			"farben": ["#3A2E2E", "#F6A8B8"]
+		},
+		{
+			"id": "brille_visier",
+			"kategorie": "brille",
+			"name_de": "Laservisier",
+			"name_en": "Laser Visor",
+			"desc_de": "Scannt den Raum nach Krümeln.",
+			"desc_en": "Scans the room for crumbs.",
+			"preis": 520,
+			"rarity": "episch",
+			"min_level": 17,
+			"build": "visier",
+			"farben": ["#B7C2CC", "#E0655F"]
+		},
+		{
+			"id": "scarfRed",
+			"kategorie": "hals",
+			"name_de": "Roter Schal",
+			"name_en": "Red Scarf",
+			"desc_de": "Weht auch ohne Wind.",
+			"desc_en": "Flutters even without wind.",
+			"preis": 120,
+			"rarity": "haeufig",
+			"min_level": 1,
+			"build": "schal",
+			"farben": ["#E0655F", "#B84943"]
+		},
+		{
+			"id": "bowtie",
+			"kategorie": "hals",
+			"name_de": "Fliege",
+			"name_en": "Bow Tie",
+			"desc_de": "Sofort 30 Prozent förmlicher.",
+			"desc_en": "Instantly 30 percent more formal.",
+			"preis": 140,
+			"rarity": "haeufig",
+			"min_level": 1,
+			"build": "fliege",
+			"farben": ["#E0655F", "#B84943"]
+		},
+		{
+			"id": "scarfStriped",
+			"kategorie": "hals",
+			"name_de": "Gestreifter Schal",
+			"name_en": "Striped Scarf",
+			"desc_de": "Streifen zählen beruhigt.",
+			"desc_en": "Counting stripes is calming.",
+			"preis": 180,
+			"rarity": "haeufig",
+			"min_level": 1,
+			"build": "schal",
+			"farben": ["#FFD166", "#59C9B9"],
+			"params": {
+				"streifen": true
+			}
+		},
+		{
+			"id": "bandana",
+			"kategorie": "hals",
+			"name_de": "Halstuch",
+			"name_en": "Bandana",
+			"desc_de": "Abenteuerbereit seit heute Morgen.",
+			"desc_en": "Adventure-ready since this morning.",
+			"preis": 130,
+			"rarity": "haeufig",
+			"min_level": 1,
+			"build": "tuch",
+			"farben": ["#FF7BA9", "#E05F8D"]
+		},
+		{
+			"id": "bellCollar",
+			"kategorie": "hals",
+			"name_de": "Glöckchenhalsband",
+			"name_en": "Bell Collar",
+			"desc_de": "Kündigt jeden Kühlschrankbesuch an.",
+			"desc_en": "Announces every fridge visit.",
+			"preis": 160,
+			"rarity": "haeufig",
+			"min_level": 1,
+			"build": "halsband",
+			"farben": ["#E0655F", "#F7C948"],
+			"params": {
+				"anhaenger": "gloeckchen"
+			}
+		},
+		{
+			"id": "cape",
+			"kategorie": "hals",
+			"name_de": "Heldenumhang",
+			"name_en": "Hero Cape",
+			"desc_de": "Rettet die Welt nach dem Nickerchen.",
+			"desc_en": "Saves the world after the nap.",
+			"preis": 500,
+			"rarity": "episch",
+			"min_level": 1,
+			"build": "umhang",
+			"farben": ["#E0655F", "#FFD166"]
+		},
+		{
+			"id": "pearlNecklace",
+			"kategorie": "hals",
+			"name_de": "Perlenkette",
+			"name_en": "Pearl Necklace",
+			"desc_de": "Sehr fein. Sehr vorsichtig getragen.",
+			"desc_en": "Very fine. Worn very carefully.",
+			"preis": 350,
+			"rarity": "episch",
+			"min_level": 13,
+			"build": "halsband",
+			"farben": ["#FFF9EC", "#FFF9EC"],
+			"params": {
+				"perlen": 14
+			}
+		},
+		{
+			"id": "flowerLei",
+			"kategorie": "hals",
+			"name_de": "Blumenlei",
+			"name_en": "Flower Lei",
+			"desc_de": "Urlaubsgefühl inklusive.",
+			"desc_en": "Holiday feeling included.",
+			"preis": 220,
+			"rarity": "selten",
+			"min_level": 7,
+			"build": "halsband",
+			"farben": ["#FFD1E8", "#FFD166"],
+			"params": {
+				"perlen": 9,
+				"blueten": true
+			}
+		},
+		{
+			"id": "medalGold",
+			"kategorie": "hals",
+			"name_de": "Goldmedaille",
+			"name_en": "Gold Medal",
+			"desc_de": "Erster Platz im Hüpfen.",
+			"desc_en": "First place in hopping.",
+			"preis": 400,
+			"rarity": "episch",
+			"min_level": 16,
+			"build": "halsband",
+			"farben": ["#438AC9", "#F7C948"],
+			"params": {
+				"anhaenger": "medaille",
+				"metallic": 0.5
+			}
+		},
+		{
+			"id": "winterScarf",
+			"kategorie": "hals",
+			"name_de": "Winterschal",
+			"name_en": "Winter Scarf",
+			"desc_de": "Dick genug für den Kühlschrank.",
+			"desc_en": "Thick enough for the fridge.",
+			"preis": 200,
+			"rarity": "selten",
+			"min_level": 5,
+			"build": "schal",
+			"farben": ["#6EC6FF", "#FFFFFF"],
+			"params": {
+				"dick": true
+			}
+		},
+		{
+			"id": "hals_krawatte",
+			"kategorie": "hals",
+			"name_de": "Krawatte",
+			"name_en": "Necktie",
+			"desc_de": "Für sehr wichtige Möhrenkonferenzen.",
+			"desc_en": "For very important carrot conferences.",
+			"preis": 210,
+			"rarity": "selten",
+			"min_level": 4,
+			"build": "krawatte",
+			"farben": ["#438AC9", "#263D66"]
+		},
+		{
+			"id": "hals_schleife",
+			"kategorie": "hals",
+			"name_de": "Riesenschleife",
+			"name_en": "Giant Ribbon",
+			"desc_de": "Geschenk an sich selbst.",
+			"desc_en": "A gift to oneself.",
+			"preis": 240,
+			"rarity": "selten",
+			"min_level": 6,
+			"build": "fliege",
+			"farben": ["#FF7BA9", "#FFD166"],
+			"params": {
+				"gross": true
+			}
+		},
+		{
+			"id": "hals_ruesche",
+			"kategorie": "hals",
+			"name_de": "Rüschenkragen",
+			"name_en": "Ruff Collar",
+			"desc_de": "Barock, aber gemütlich.",
+			"desc_en": "Baroque, yet cozy.",
+			"preis": 320,
+			"rarity": "selten",
+			"min_level": 9,
+			"build": "kragen",
+			"farben": ["#FFFAF2", "#F6EAD8"],
+			"params": {
+				"ruesche": true
+			}
+		},
+		{
+			"id": "hals_boa",
+			"kategorie": "hals",
+			"name_de": "Federboa",
+			"name_en": "Feather Boa",
+			"desc_de": "Flauschig hoch drei.",
+			"desc_en": "Fluffy to the power of three.",
+			"preis": 380,
+			"rarity": "episch",
+			"min_level": 11,
+			"build": "schal",
+			"farben": ["#F6C9D8", "#FFD4E4"],
+			"params": {
+				"flausch": true
+			}
+		},
+		{
+			"id": "hals_kopfhoerer",
+			"kategorie": "hals",
+			"name_de": "Nackenkopfhörer",
+			"name_en": "Neck Headphones",
+			"desc_de": "Spielt immer dieselbe Möhrenhymne.",
+			"desc_en": "Always plays the same carrot anthem.",
+			"preis": 300,
+			"rarity": "selten",
+			"min_level": 8,
+			"build": "kopfhoerer",
+			"farben": ["#3A3A44", "#FF7BA9"]
+		},
+		{
+			"id": "hals_muschel",
+			"kategorie": "hals",
+			"name_de": "Muschelkette",
+			"name_en": "Shell Necklace",
+			"desc_de": "Rauscht, wenn man ganz still ist.",
+			"desc_en": "Whooshes if you stay very quiet.",
+			"preis": 260,
+			"rarity": "selten",
+			"min_level": 5,
+			"build": "halsband",
+			"farben": ["#E8C88A", "#FFF2D6"],
+			"params": {
+				"perlen": 7,
+				"anhaenger": "muschel"
+			}
+		},
+		{
+			"id": "hals_herzkette",
+			"kategorie": "hals",
+			"name_de": "Herzkette",
+			"name_en": "Heart Pendant",
+			"desc_de": "Herz aus Gold, Fell aus Watte.",
+			"desc_en": "Heart of gold, fur of cotton.",
+			"preis": 340,
+			"rarity": "episch",
+			"min_level": 10,
+			"build": "halsband",
+			"farben": ["#F7C948", "#FF7BA9"],
+			"params": {
+				"anhaenger": "herz",
+				"metallic": 0.45
+			}
+		},
+		{
+			"id": "hals_schluesselband",
+			"kategorie": "hals",
+			"name_de": "Schlüsselband",
+			"name_en": "Lanyard",
+			"desc_de": "Wichtiger Ausweis für wichtige Hasen.",
+			"desc_en": "Important badge for important rabbits.",
+			"preis": 190,
+			"rarity": "haeufig",
+			"min_level": 3,
+			"build": "halsband",
+			"farben": ["#59C9B9", "#FFFAF2"],
+			"params": {
+				"anhaenger": "ausweis"
+			}
+		},
+		{
+			"id": "backpackTiny",
+			"kategorie": "ruecken",
+			"name_de": "Kleiner Rucksack",
+			"name_en": "Tiny Backpack",
+			"desc_de": "Passt genau eine Möhre rein.",
+			"desc_en": "Fits exactly one carrot.",
+			"preis": 280,
+			"rarity": "selten",
+			"min_level": 6,
+			"build": "rucksack",
+			"farben": ["#59C9B9", "#3FA89A", "#FFD166"]
+		},
+		{
+			"id": "balloonRed",
+			"kategorie": "ruecken",
+			"name_de": "Roter Ballon",
+			"name_en": "Red Balloon",
+			"desc_de": "Bitte nicht loslassen.",
+			"desc_en": "Please don't let go.",
+			"preis": 240,
+			"rarity": "selten",
+			"min_level": 4,
+			"build": "ballon",
+			"farben": ["#E0655F", "#FFFAF2"]
+		},
+		{
+			"id": "propellerPack",
+			"kategorie": "ruecken",
+			"name_de": "Propellerrucksack",
+			"name_en": "Propeller Pack",
+			"desc_de": "Hebt ab. Theoretisch.",
+			"desc_en": "Takes off. Theoretically.",
+			"preis": 450,
+			"rarity": "episch",
+			"min_level": 17,
+			"build": "propeller",
+			"farben": ["#B7C2CC", "#E0655F", "#438AC9"]
+		},
+		{
+			"id": "turtleShell",
+			"kategorie": "ruecken",
+			"name_de": "Schildkrötenpanzer",
+			"name_en": "Turtle Shell",
+			"desc_de": "Gemütlichkeit zum Mitnehmen.",
+			"desc_en": "Portable coziness.",
+			"preis": 320,
+			"rarity": "selten",
+			"min_level": 11,
+			"build": "panzer",
+			"farben": ["#4F9C67", "#2E6846", "#E8C88A"]
+		},
+		{
+			"id": "fairyWings",
+			"kategorie": "ruecken",
+			"name_de": "Feenflügel",
+			"name_en": "Fairy Wings",
+			"desc_de": "Glitzert leise vor sich hin.",
+			"desc_en": "Quietly sparkles to itself.",
+			"preis": 500,
+			"rarity": "episch",
+			"min_level": 20,
+			"build": "fluegel",
+			"farben": ["#FFD4E4", "#B896E8"],
+			"params": {
+				"form": "fee"
+			}
+		},
+		{
+			"id": "surfBoard",
+			"kategorie": "ruecken",
+			"name_de": "Surfbrett",
+			"name_en": "Surfboard",
+			"desc_de": "Welle wird noch gesucht.",
+			"desc_en": "Still looking for the wave.",
+			"preis": 380,
+			"rarity": "episch",
+			"min_level": 14,
+			"build": "brett",
+			"farben": ["#FFFAF2", "#55D7DF", "#FF7BA9"]
+		},
+		{
+			"id": "ruecken_jetpack",
+			"kategorie": "ruecken",
+			"name_de": "Jetpack",
+			"name_en": "Jetpack",
+			"desc_de": "Startet erst nach dem Frühstück.",
+			"desc_en": "Only launches after breakfast.",
+			"preis": 620,
+			"rarity": "legendaer",
+			"min_level": 18,
+			"build": "jetpack",
+			"farben": ["#B7C2CC", "#E0655F", "#FFD166"]
+		},
+		{
+			"id": "ruecken_schirm",
+			"kategorie": "ruecken",
+			"name_de": "Regenschirm",
+			"name_en": "Umbrella",
+			"desc_de": "Für Regen und dramatische Auftritte.",
+			"desc_en": "For rain and dramatic entrances.",
+			"preis": 260,
+			"rarity": "selten",
+			"min_level": 5,
+			"build": "schirm",
+			"farben": ["#59C9B9", "#FFFAF2", "#7A5C4F"]
+		},
+		{
+			"id": "ruecken_kaefer",
+			"kategorie": "ruecken",
+			"name_de": "Käferflügel",
+			"name_en": "Beetle Wings",
+			"desc_de": "Summt beim Hüpfen. Angeblich.",
+			"desc_en": "Buzzes when hopping. Allegedly.",
+			"preis": 420,
+			"rarity": "episch",
+			"min_level": 12,
+			"build": "fluegel",
+			"farben": ["#E0655F", "#26262E"],
+			"params": {
+				"form": "kaefer"
+			}
+		},
+		{
+			"id": "ruecken_engel",
+			"kategorie": "ruecken",
+			"name_de": "Engelsflügel",
+			"name_en": "Angel Wings",
+			"desc_de": "Unschuldig. Meistens.",
+			"desc_en": "Innocent. Mostly.",
+			"preis": 560,
+			"rarity": "legendaer",
+			"min_level": 19,
+			"build": "fluegel",
+			"farben": ["#FFFFFF", "#FFF2D6"],
+			"params": {
+				"form": "engel"
+			}
+		},
+		{
+			"id": "ruecken_schleife",
+			"kategorie": "ruecken",
+			"name_de": "Rückenschleife",
+			"name_en": "Back Bow",
+			"desc_de": "Von hinten das schönste Geschenk.",
+			"desc_en": "The prettiest present from behind.",
+			"preis": 300,
+			"rarity": "selten",
+			"min_level": 7,
+			"build": "rueckenschleife",
+			"farben": ["#FF7BA9", "#E05F8D"]
+		},
+		{
+			"id": "ruecken_schwert",
+			"kategorie": "ruecken",
+			"name_de": "Holzschwert",
+			"name_en": "Wooden Sword",
+			"desc_de": "Besiegt Staubflusen im Alleingang.",
+			"desc_en": "Defeats dust bunnies single-pawed.",
+			"preis": 340,
+			"rarity": "episch",
+			"min_level": 9,
+			"build": "schwert",
+			"farben": ["#B98D62", "#7A5C4F", "#F7C948"]
+		},
+		{
+			"id": "ruecken_gitarre",
+			"kategorie": "ruecken",
+			"name_de": "Gitarre",
+			"name_en": "Guitar",
+			"desc_de": "Kann drei Akkorde. Zwei davon gut.",
+			"desc_en": "Knows three chords. Two of them well.",
+			"preis": 480,
+			"rarity": "episch",
+			"min_level": 15,
+			"build": "gitarre",
+			"farben": ["#E0655F", "#7A5C4F", "#FFF2D6"]
+		},
+		{
+			"id": "ruecken_ballons",
+			"kategorie": "ruecken",
+			"name_de": "Ballontraube",
+			"name_en": "Balloon Bunch",
+			"desc_de": "Drei Ballons, ein Plan.",
+			"desc_en": "Three balloons, one plan.",
+			"preis": 360,
+			"rarity": "episch",
+			"min_level": 10,
+			"build": "ballon",
+			"farben": ["#FF7BA9", "#FFD166", "#6EC6FF"],
+			"params": {
+				"anzahl": 3
+			}
+		},
+		{
+			"id": "cream",
+			"kategorie": "fell",
+			"name_de": "Cremeklassiker",
+			"name_en": "Classic Cream",
+			"desc_de": "Das Original. Immer dabei.",
+			"desc_en": "The original. Always included.",
+			"preis": 0,
+			"rarity": "haeufig",
+			"min_level": 1,
+			"build": "fell",
+			"standard": true,
+			"farben": ["#F6EAD7", "#FFF9EC", "#F6A8B8"]
+		},
+		{
+			"id": "snow",
+			"kategorie": "fell",
+			"name_de": "Schneehase",
+			"name_en": "Snow Bunny",
+			"desc_de": "Verschwindet im Schneegestöber.",
+			"desc_en": "Vanishes in a snow flurry.",
+			"preis": 400,
+			"rarity": "episch",
+			"min_level": 1,
+			"build": "fell",
+			"farben": ["#FAFAFA", "#FFFFFF", "#F2B8C6"]
+		},
+		{
+			"id": "caramel",
+			"kategorie": "fell",
+			"name_de": "Karamell",
+			"name_en": "Caramel",
+			"desc_de": "Süß, aber bitte nicht anknabbern.",
+			"desc_en": "Sweet, but please don't nibble.",
+			"preis": 400,
+			"rarity": "episch",
+			"min_level": 1,
+			"build": "fell",
+			"farben": ["#D9A86C", "#F2DDBD", "#E89AAB"]
+		},
+		{
+			"id": "ash",
+			"kategorie": "fell",
+			"name_de": "Grauer Wuschel",
+			"name_en": "Grey Puff",
+			"desc_de": "Wolkig mit Aussicht auf Nickerchen.",
+			"desc_en": "Cloudy with a chance of napping.",
+			"preis": 500,
+			"rarity": "episch",
+			"min_level": 1,
+			"build": "fell",
+			"farben": ["#B9B4AE", "#E8E4DE", "#E0A2B4"]
+		},
+		{
+			"id": "rose",
+			"kategorie": "fell",
+			"name_de": "Rosé",
+			"name_en": "Rose",
+			"desc_de": "Frisch geblüht.",
+			"desc_en": "Freshly bloomed.",
+			"preis": 600,
+			"rarity": "episch",
+			"min_level": 1,
+			"build": "fell",
+			"farben": ["#F4C6D2", "#FBE8EE", "#E88BA0"]
+		},
+		{
+			"id": "midnight",
+			"kategorie": "fell",
+			"name_de": "Mitternacht",
+			"name_en": "Midnight",
+			"desc_de": "Schleicht auch tagsüber.",
+			"desc_en": "Sneaks around in daylight too.",
+			"preis": 800,
+			"rarity": "legendaer",
+			"min_level": 1,
+			"build": "fell",
+			"farben": ["#4C4A63", "#8B89A6", "#C98BA8"]
+		},
+		{
+			"id": "golden",
+			"kategorie": "fell",
+			"name_de": "Goldener Gooby",
+			"name_en": "Golden Gooby",
+			"desc_de": "Blendet Besucher freundlich.",
+			"desc_en": "Politely dazzles visitors.",
+			"preis": 1500,
+			"rarity": "legendaer",
+			"min_level": 1,
+			"build": "fell",
+			"farben": ["#E8C24A", "#F7E6A6", "#F0A8B8"],
+			"params": {
+				"metallic": 0.25
+			}
+		},
+		{
+			"id": "fell_minze",
+			"kategorie": "fell",
+			"name_de": "Minzhase",
+			"name_en": "Mint Bunny",
+			"desc_de": "Riecht nach frisch geputzten Zähnen.",
+			"desc_en": "Smells of freshly brushed teeth.",
+			"preis": 550,
+			"rarity": "episch",
+			"min_level": 1,
+			"build": "fell",
+			"farben": ["#B8E6D2", "#E3F7EE", "#F2B8C6"]
+		},
+		{
+			"id": "fell_lavendel",
+			"kategorie": "fell",
+			"name_de": "Lavendel",
+			"name_en": "Lavender",
+			"desc_de": "Beruhigend für alle Beteiligten.",
+			"desc_en": "Calming for everyone involved.",
+			"preis": 550,
+			"rarity": "episch",
+			"min_level": 1,
+			"build": "fell",
+			"farben": ["#CBB8E8", "#EDE4F7", "#E0A2C6"]
+		},
+		{
+			"id": "fell_pfirsich",
+			"kategorie": "fell",
+			"name_de": "Pfirsich",
+			"name_en": "Peach",
+			"desc_de": "Sommerlich flauschig.",
+			"desc_en": "Summery and fluffy.",
+			"preis": 600,
+			"rarity": "episch",
+			"min_level": 1,
+			"build": "fell",
+			"farben": ["#F7C9A6", "#FDE9D8", "#E8929E"]
+		},
+		{
+			"id": "fell_kakao",
+			"kategorie": "fell",
+			"name_de": "Kakao",
+			"name_en": "Cocoa",
+			"desc_de": "Warm, dunkel, gemütlich.",
+			"desc_en": "Warm, dark, cozy.",
+			"preis": 650,
+			"rarity": "episch",
+			"min_level": 1,
+			"build": "fell",
+			"farben": ["#8A6242", "#C79C74", "#E8929E"]
+		},
+		{
+			"id": "fell_himmel",
+			"kategorie": "fell",
+			"name_de": "Himmelblau",
+			"name_en": "Sky Blue",
+			"desc_de": "Wolkenfrei bis zum Abendessen.",
+			"desc_en": "Cloud-free until dinner.",
+			"preis": 700,
+			"rarity": "legendaer",
+			"min_level": 1,
+			"build": "fell",
+			"farben": ["#A8D4EE", "#DCEEF9", "#F2B8C6"]
+		},
+		{
+			"id": "fell_zuckerwatte",
+			"kategorie": "fell",
+			"name_de": "Zuckerwatte",
+			"name_en": "Cotton Candy",
+			"desc_de": "Jahrmarkt im Fellformat.",
+			"desc_en": "A funfair in fur form.",
+			"preis": 900,
+			"rarity": "legendaer",
+			"min_level": 1,
+			"build": "fell",
+			"farben": ["#F7B8D8", "#CDE4FA", "#E88BA0"]
+		},
+		{
+			"id": "fell_galaxie",
+			"kategorie": "fell",
+			"name_de": "Galaxie",
+			"name_en": "Galaxy",
+			"desc_de": "Ein ganzes Universum zum Knuddeln. Vorsicht, funkelt beim Hoppeln.",
+			"desc_en": "A whole universe to cuddle. Careful, it sparkles when hopping.",
+			"preis": 2500,
+			"rarity": "legendaer",
+			"min_level": 1,
+			"build": "fell",
+			"farben": ["#241E3F", "#3A3060", "#9A7BD1"],
+			"params": {
+				"shader": "galaxie"
+			}
+		}
+	]
+}

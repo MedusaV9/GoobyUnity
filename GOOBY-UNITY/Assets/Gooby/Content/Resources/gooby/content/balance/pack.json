@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"id": "balance",
+	"version": "1.0.0",
+	"priority": 200,
+	"min_native": "5.0.0",
+	"domains": ["balance"],
+	"name_de": "Balance",
+	"notes_de": "Zahlenwerte/Chancen — deep-merge über Core-Defaults (Doc B §4.2)."
+}

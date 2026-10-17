@@ -1,0 +1,62 @@
+{
+  "rdorf": {
+    "untertitel": "Riding village on the ridge · {laeden} shops",
+    "ankunft_neu": "Hufingen discovered! From now on you ride here in one go.",
+    "ankunft": "Welcome back to Hufingen!",
+    "boxen": "Boxes: {belegt}/{frei}",
+    "boxen_bauen": "Build more boxes on your ranch under “Farm & Shop”.",
+    "zieht_ein": "{name} moves to your ranch!",
+    "verkauft_an": "{name} lives with Wilma now. +{n} ᴳ",
+    "verkaufen_preis": "Sell · {n} ᴳ",
+    "kaufen_preis": "Buy · {n} ᴳ",
+    "alles_verkaufen": "Sell all {n}",
+    "einen_verkaufen": "Sell 1 · {n} ᴳ",
+    "im_lager": "In the ranch store: {heu} hay · {apfel} apples",
+    "futter_vorrat": "In stock: {hafer} oats · {leckerli} treats",
+    "moebel_lager": "It is waiting in your storage at home.",
+    "hufeisen_an": "{name} wears {eisen}.",
+    "hufeisen_fuer": "for {name}",
+    "gear_fuer": "Gear for {name}",
+    "kein_angebot": "Sold out for today — new horses arrive tomorrow.",
+    "heimreiten_text": "Back to the ranch",
+    "reiten_karte": "Ride to Hufingen",
+    "reiten_karte_text": "Horse trader, feed yard, saddlery, smithy and furniture barn",
+    "brunnen": "Gooby tosses a coin into the fountain and makes a wish.",
+    "brunnen_wunsch": "Wish: {wunsch}",
+    "wuensche": [
+      "a pony with a glitter mane",
+      "treats for everyone",
+      "sunshine for a ride",
+      "an extra big carrot",
+      "that Wilma has a unicorn tomorrow"
+    ],
+    "pferd_karte": "{fell} · available today",
+    "fell": {
+      "braun": "Bay",
+      "weiss": "Grey",
+      "schwarz": "Black",
+      "palomino": "Palomino",
+      "schecke": "Paint",
+      "fuchs": "Chestnut",
+      "apricot": "Apricot",
+      "rauchgrau": "Smoky grey"
+    },
+    "reitet_ein": "{name} trots to Hufingen …",
+    "kurz": {
+      "pferdehaendlerin": "Horses",
+      "futterhof": "Feed",
+      "reitladen": "Tack",
+      "schmiede": "Smithy",
+      "moebelscheune": "Furniture"
+    },
+    "freund": {
+      "plaudern": "Chat",
+      "geschenk": "Gift",
+      "geschichte": "Story",
+      "rabatt": "−{n} % for you",
+      "neu_rabatt": "{name} likes you! From now on −{n} % in the shop.",
+      "neu_geschichte": "{name} trusts you — there is a story for you now.",
+      "neu_herz": "{name}: {herzen} hearts!"
+    }
+  }
+}

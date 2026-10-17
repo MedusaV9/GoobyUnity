@@ -1,0 +1,177 @@
+{
+  "city": {
+    "ort": {
+      "rehwei": "REHWEI",
+      "goobytheke": "GOOBYTHEKE",
+      "gouhbus": "Dr. Dr. Professor Dr. Dr. GOOUHBUS",
+      "flughafen": "Flughafen",
+      "baumarkt": "Baumarkt Bodo Balken",
+      "post": "Post",
+      "pow": "POW!",
+      "autohaus": "Autohaus Blechbert",
+      "wochenmarkt": "Wochenmarkt",
+      "zuhause": "Zuhause",
+      "bald_offen": "Bald geöffnet!",
+      "geschlossen": "Geschlossen. Steht so am Schild.",
+      "nur_samstag": "Nur samstags von 8 bis 14 Uhr. Der Markt schläft aus.",
+      "verlassen": "‹ Raus",
+      "item_erhalten": "Ab in die Tasche!",
+      "ikea": "IKEA",
+      "goobyman": "GOOBYMAN",
+      "raumstation": "GOOB-1"
+    },
+    "karte": {
+      "titel": "Stadtplan",
+      "du": "Du"
+    },
+    "fahren": {
+      "bremse": "BREMSE",
+      "rueckwaerts": "R",
+      "nach_hause": "Nach Hause",
+      "betreten": "Betreten",
+      "betreten_energie": "{ort} betreten? (Energie −{energie})",
+      "betreten_frei": "{ort} betreten? (kostenlos)",
+      "zu_muede": "Gooby ist zu müde… Ruf ein Taxi über IGohbie!",
+      "beinahe": "Uff! Das war knapp.",
+      "beinahe_hupe": "HUUUP! Der andere Gooby winkt. Vermutlich freundlich."
+    },
+    "laden": {
+      "titel": "Einkaufen",
+      "coins": "Du hast {coins} Münzen",
+      "kaufen": "{preis} ᴳ",
+      "rezept_noetig": "Nur mit Rezept!",
+      "buecher_titel": "Bücher",
+      "saatgut_titel": "Saatgut",
+      "im_regal": "Im Regal"
+    },
+    "pow": {
+      "sheet_titel": "POW! — Alles, was Krach macht",
+      "kamera_titel": "Die GOOBY-Knipse",
+      "kamera_text": "Eine echte Kamera. Schaltet den Fotomodus frei — ab dann knipst du überall, wo du gerade stehst.",
+      "kamera_gate": "Schaltet Fotomodus + Kamera-App frei",
+      "kamera_hast_du": "Hast du schon. Bäm nickt anerkennend.",
+      "kamera_gekauft": "Kamera gekauft! Die Kamera-App wartet im IGohbie.",
+      "angebote_titel": "Heutige Angebote",
+      "angebote_neu": "Drei Stück. Neu in {stunden} h.",
+      "rabatt": "−{rabatt} % · sonst {alt} ᴳ"
+    },
+    "post": {
+      "sheet_titel": "Post — Schalter 1 von 1",
+      "titel": "Womit kann ich dienen?",
+      "paket": "Paketschalter",
+      "paket_text": "Frau Zettel legt jeden Tag ein Paket für Gooby zurück. Einmal täglich abholen — sicher ist sicher.",
+      "paket_holen": "Paket abholen",
+      "paket_geholt": "Heute schon abgeholt — morgen liegt ein neues bereit.",
+      "paket_toast": "Im Tagespaket: {n} Münzen!",
+      "archiv": "Postkarten-Archiv",
+      "archiv_leer": "Noch keine Postkarte da. Gooby muss erst mal verreisen.",
+      "archiv_zahl": "{n} Postkarten im Kasten. Alle mit Eselsohr."
+    },
+    "autohaus": {
+      "sheet_titel": "Autohaus Blechbert",
+      "stats": "Tempo {tempo} · Antritt {start} · Lenkung {lenkung}",
+      "farbe": "Kaufen in {farbe}",
+      "faehrt_gerade": "fährst du gerade",
+      "im_besitz": "Steht in deiner Einfahrt",
+      "fahren": "Diesen fahren",
+      "gekauft_toast": "Glückwunsch! Der Schlüssel klappert schon in deiner Tasche."
+    },
+    "baumarkt": {
+      "sheet_titel": "Baumarkt Bodo Balken",
+      "material": "Material",
+      "bauplaene": "Baupläne",
+      "werkstatt": "Baupläne schaltest du in der Werkstatt frei — hier gibt es nur das Papier.",
+      "vorrat": "du hast {n}",
+      "gekauft": "Hast du",
+      "bauplan_toast": "Bauplan eingerollt. Die Werkstatt kennt ihn jetzt."
+    },
+    "markt": {
+      "sheet_titel": "Wochenmarkt — Ernte verkaufen",
+      "schild_titel": "Info-Schild",
+      "schild_text": "Samstags von 8 bis 14 Uhr. Wir zahlen 15 % mehr als der Komposthaufen.",
+      "erstes_mal": "Aber Achtung: Der Markt ist klein. Jedes verkaufte Stück drückt den Preis ein bisschen — höchstens bis zur Hälfte. Nächste Woche zahlt er wieder voll.",
+      "nichts_dabei": "Dein Korb ist leer. Komm wieder, wenn im Garten was reif ist!",
+      "vorrat": "{n} im Korb",
+      "gedrueckt": "gedrückt, voll wären {voll} ᴳ",
+      "verkauf_eins": "Eins verkaufen",
+      "verkauf_alle": "Alle {n}",
+      "verkauft": "{n} verkauft — {coins} Münzen klimpern in die Tasche."
+    }
+  },
+  "travel": {
+    "titel": "Reisen ✈",
+    "ziel_waehlen": "Wohin soll Gooby fliegen?",
+    "ziel": {
+      "beach": "Glitzermeer",
+      "harbor": "Hafenstadt",
+      "meadowTrip": "Blumenwiese",
+      "spookGarden": "Spukgarten",
+      "bakery": "Bäckerei-Dorf",
+      "bigCity": "Riesenstadt",
+      "nightSky": "Nachthimmel",
+      "toyRoom": "Spielzeugzimmer",
+      "space": "Weltraum"
+    },
+    "confirm": {
+      "titel": "Gooby fliegt für {tage} Tage: {ziel}",
+      "preis": "Preis: {preis} Münzen (+ 10 fürs Taxi)",
+      "warnung": "⚠️ Gooby ist dann {tage} Tage weg! Seine Werte sind eingefroren — das Resort kümmert sich um alles. Abholen nicht vergessen!",
+      "nutzen": "Er bringt Souvenirs & Postkarten mit!",
+      "taxi_hinweis": "Das Taxi braucht ein paar Minuten — wir sagen Bescheid, wenn es da ist.",
+      "buchen": "Buchen ✈",
+      "doch_nicht": "Doch nicht"
+    },
+    "schalter": {
+      "knopf": "Reise buchen ✈"
+    },
+    "taxi": {
+      "bestellt": "Taxi gerufen! Es ist gleich unterwegs.",
+      "gerufen": "🚕 Dein Taxi ist unterwegs…",
+      "countdown": "Ankunft in ca. {min}:{s} min",
+      "storno": "Stornieren (2 ᴳ)",
+      "storniert": "Storniert. Der Fahrer seufzt leise.",
+      "da": "🚕 Dein Taxi steht vor der Tür!",
+      "fenster": "Noch {s} s zum Einsteigen!",
+      "einsteigen": "Einsteigen!",
+      "verpasst": "Das Taxi ist weitergefahren… (Gebühr 5 Münzen). Der Fahrer lässt grüßen. Wörtlich: ‚grüße‘.",
+      "notif_gleich_da": "🚕 Dein Taxi ist gleich da!",
+      "notif_da": "🚕 Dein Taxi steht vor der Tür!",
+      "notif_weg": "Das Taxi ist wieder weggefahren 😾"
+    },
+    "weg": {
+      "titel": "Gooby ist im Urlaub ☀",
+      "rest": "Noch ca. {tage}× schlafen, dann ist er zurück!"
+    },
+    "abholen": {
+      "titel": "Gooby wartet am Flughafen!",
+      "overdue": "Er hat selbst ein Taxi genommen — das kostet 60 Münzen.",
+      "knopf": "Abholen 🧳",
+      "fertig": "Wiedersehen! Gooby bringt {coins} Souvenir-Münzen & Postkarten mit!"
+    },
+    "cutscene": {
+      "skip": "Überspringen ›",
+      "karte_1": "Gooby zieht den Rollkoffer aus der Hintertür…",
+      "karte_2": "Ein letztes Winken in der Einfahrt.",
+      "karte_3": "Das Taxi wartet schon am Bordstein.",
+      "karte_4": "Einmal quer durch die Stadt…",
+      "karte_5": "Und ab in die Wolken! Gute Reise, Gooby! ✈",
+      "karte_rueckkehr": "Gooby ist zurück — mit Tüte, Koffer und ganz viel Grinsen!"
+    },
+    "gooberando": {
+      "slogan": "Erstmal Goobyn.",
+      "gebuehr": "Liefergebühr: {gebuehr} ᴳ pro Bestellung",
+      "unterwegs": "🍜 Dein Essen ist unterwegs…",
+      "countdown": "Ankunft in ca. {min}:{s} min",
+      "klingel": "DING DONG! Der Liefer-Gooby ist da!",
+      "annehmen": "Tür öffnen",
+      "uebergeben": "Hier, noch warm! Verbeugung inklusive.",
+      "trinkgeld_geben": "Trinkgeld (5 ᴳ) 💛",
+      "nur_winken": "Nur winken",
+      "bestellt": "Bestellung ist raus! Die Küche goobyt schon.",
+      "abgestellt": "Die Tüte stand vor der Tür. Zettel: „Hab geklingelt! – G.“",
+      "buff": "Extra-Grinsen 😁 — Gooby wird 2 Stunden lang langsamer müde!",
+      "trinkgeld_hinweis": "Trinkgeld schadet nie ;)",
+      "notif_da": "🍜 Dein Essen ist da! DING DONG"
+    }
+  }
+}

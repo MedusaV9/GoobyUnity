@@ -1,0 +1,30 @@
+{
+	"galerie": {
+		"titel": "Fotogalerie",
+		"leer": "Noch keine Fotos. Knips los — die Kamera wartet!",
+		"speicher": "{n} von {max} Plätzen belegt",
+		"oeffnen": "Galerie öffnen",
+		"nur_favoriten": "Nur Favoriten",
+		"alle": "Alle Fotos",
+		"favorit": "Favorit",
+		"favorit_gesetzt": "Als Favorit markiert.",
+		"favorit_entfernt": "Favorit entfernt.",
+		"loeschen": "Löschen",
+		"loeschen_frage": "Dieses Foto wirklich löschen?",
+		"loeschen_ja": "Ja, löschen",
+		"geloescht": "Foto gelöscht.",
+		"abbrechen": "Abbrechen",
+		"teilen": "Foto speichern",
+		"export_ok": "Foto gespeichert: {ziel}",
+		"export_fehler": "Export fehlgeschlagen — das Foto ist nicht mehr da.",
+		"datum": "Aufgenommen: {datum}",
+		"ort": "Ort: {ort}",
+		"ort_unbekannt": "Unterwegs",
+		"ort_funkelpark": "Funkelpark",
+		"zoom_hinweis": "Zum Näherkommen: kneifen oder Mausrad.",
+		"zoom_rein": "Größer",
+		"zoom_raus": "Kleiner",
+		"zurueck": "Zurück",
+		"fehler_laden": "Dieses Foto lässt sich nicht mehr laden."
+	}
+}

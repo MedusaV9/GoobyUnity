@@ -1,0 +1,52 @@
+{
+  "id": "autohaus_besuch",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "benzino",
+      "text": [
+        "Gooberto Benzino, sehr erfreut! Riechst du das? Das ist der Duft von neuen Fußmatten.",
+        "Setz dich rein, fass alles an, dreh am Radio. Der Wagen mag das."
+      ],
+      "optionen": [
+        {"text": "Zeig mir die Autos.", "next": "showroom"},
+        {"text": "Kann ich Probe fahren?", "next": "probefahrt"},
+        {"text": "Warum kostet das so viel?", "next": "preis"},
+        {"text": "Ich schaue mich nur um.", "next": "gucken"}
+      ]
+    },
+    "showroom": {
+      "sprecher": "benzino",
+      "text": [
+        "Dieses Schmuckstück? Null auf hundert in… irgendwann! Aber HÖR dir diese Hupe an.",
+        "Farbe suchst du selbst aus. Lackiert wird, solange du zusiehst — sonst glaubt es ja keiner."
+      ],
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "probefahrt": {
+      "sprecher": "benzino",
+      "text": [
+        "Natürlich! Einmal um den Kreisverkehr. Zerkratz sie nicht! Haha! … Nein wirklich. Bitte nicht.",
+        "Sobald du kaufst, gehört die Straße dir. Also, geliehen. Die Stadt sieht das enger."
+      ],
+      "next": "hallo"
+    },
+    "preis": {
+      "sprecher": "benzino",
+      "text": [
+        "Weil da DREI Sachen drin sind, die du nie brauchst — und genau die willst du haben.",
+        "Außerdem zahle ich davon meinen Anzug. Der Anzug verkauft die Autos, nicht ich."
+      ],
+      "next": "hallo"
+    },
+    "gucken": {
+      "sprecher": "benzino",
+      "text": [
+        "Aber gerne! Umsehen ist der erste Gang.",
+        "Und der zweite ist … na? Genau. Kaufen. Ich warte hier. Ich warte gut."
+      ],
+      "ende": true
+    }
+  }
+}

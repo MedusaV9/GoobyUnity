@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"id": "ranch_quests",
+	"version": "1.0.0",
+	"priority": 510,
+	"min_native": "5.0.0",
+	"domains": ["ranch_quests", "ranch_npcs"],
+	"name_de": "Gooby Ranch — Quests & Nachbarn",
+	"notes_de": "RW-3: Quest- und NPC-Inhalte des Ranch-DLC als Content-Pack (append-by-id). Haupt-Questreihe 'Die Ranch erwacht' in 10 Kapiteln, 27 Nebenquests, Tagesaufgaben-Pool und das 13-koepfige NPC-Ensemble mit Freundschafts-Freischaltungen. Ein per Updater nachgeliefertes Pack mit hoeherer Prioritaet ueberschattet einzelne Eintraege ohne App-Update — neue Quests/NPCs kommen als weitere items dazu."
+}

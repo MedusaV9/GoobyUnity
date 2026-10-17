@@ -1,0 +1,44 @@
+{
+ "rkarte": {
+  "titel": "Entdecker-Karte",
+  "knopf": "Karte",
+  "zurueck": "Zurück",
+  "zoom_rein": "Karte vergrößern",
+  "zoom_raus": "Karte verkleinern",
+  "fortschritt": "{funde}/{funde_gesamt} Orte entdeckt · {zonen}/{zonen_gesamt} Zonen bereist",
+  "unbekannt": "???",
+  "neu": "NEU",
+  "geheimnis": "Psst — hier wartet noch ein Geheimnis. Reite hin und schau selbst!",
+  "dahin": "Dahin! Reite nach {richtung} — {zone} ist ein guter Wegweiser.",
+  "dahin_nah": "Dahin! Gleich um die Ecke — {zone} ruft.",
+  "schliessen": "Alles klar!",
+  "richtung": {
+   "n": "Norden",
+   "no": "Nordosten",
+   "o": "Osten",
+   "so": "Südosten",
+   "s": "Süden",
+   "sw": "Südwesten",
+   "w": "Westen",
+   "nw": "Nordwesten"
+  },
+  "beschr": {
+   "wasserfall": "Hier rauscht das Wasser den Hügelkamm hinab und zaubert dir Sprühnebel auf die Nase.",
+   "hoehle": "In der Funkelhöhle glitzern die Wände, als hätte jemand Sterne hineingestreut.",
+   "alter_baum": "Der uralte Baum steht hier schon länger als die ganze Ranch — und flüstert im Wind.",
+   "steinkreis": "Niemand weiß, wer die Steine aufgestellt hat. Gooby tippt auf sehr fleißige Murmeltiere.",
+   "aussicht_kamm": "Vom Hügelkamm aus siehst du die halbe Ranch — perfekt für eine Verschnaufpause.",
+   "aussicht_see": "Der Glitzersee macht seinem Namen alle Ehre, besonders wenn die Sonne tief steht.",
+   "truhe_wald": "Zwischen den Bäumen versteckt lag diese Truhe — gut, dass du neugierig warst!",
+   "truhe_scheune": "Hinter der alten Scheune vergraben: eine Truhe voller Überraschungen.",
+   "truhe_ufer": "Am Seeufer angespült und von dir entdeckt — Strandgut der feinsten Sorte.",
+   "gipfelkreuz": "Ganz oben am Wolkenhorn! Hier klatschen sich nur die Mutigsten mit dem Wind ab.",
+   "bergsee_perle": "Im eiskalten Bergsee schimmert eine Perle — dein Fund, dein Schatz.",
+   "ruine_schatz": "Die Turmruine Altfels hat ihren Schatz lange bewacht. Jetzt gehört er dir.",
+   "moor_irrlicht": "Ein Lichtlein tanzt übers Nebelmoor — folge ihm nie zu weit, sagt man.",
+   "strand_muschel": "Eine Riesenmuschel! Halt sie ans Ohr, dann hörst du die Muschelbucht rauschen.",
+   "lavendel_bienen": "Die Bienen summen ihr Lieblingslied im Lavendel — es duftet nach Sommer.",
+   "kornkreis": "Ein geheimnisvoller Kreis im Goldkornfeld. Gooby war’s nicht. Vermutlich."
+  }
+ }
+}

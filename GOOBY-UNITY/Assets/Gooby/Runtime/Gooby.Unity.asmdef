@@ -1,0 +1,27 @@
+{
+    "name": "Gooby.Unity",
+    "rootNamespace": "Gooby.Unity",
+    "references": [
+        "Gooby.Core",
+        "glTFast",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.cloud.gltfast",
+            "expression": "",
+            "define": "GLTFAST"
+        }
+    ],
+    "noEngineReferences": false
+}

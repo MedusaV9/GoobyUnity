@@ -1,0 +1,15 @@
+{
+	"schema": 1,
+	"_kommentar": "Beispiel/Referenz fuer den config-Pack (Doc B §1.1). Echte Datei: data/config.json (eingebaut) bzw. user://packs/config.json (per Update geladen, gewinnt immer). Alle Keys optional ausser schema. manifest_url zeigt auf die GitHub-Release-API des aktuellen Haupt-Repos — der Client laedt Release-Assets dann mit Accept: application/octet-stream; direkte URLs (eigener Server, oeffentliches Repo) funktionieren weiterhin. github_token ist optional (User-Settings gewinnen; fuer das aktuelle oeffentliche Repo nicht erforderlich, Details in docs/UPDATES.md). net.host muss durch den echten oeffentlichen DNS-Namen ersetzt werden; Release-IPAs erhalten ihn aus GOOBY_RELEASE_WSS_URL.",
+	"manifest_url": "https://api.github.com/repos/MedusaV9/BiggerRepo/releases/tags/updates",
+	"github_token": "",
+	"net": {
+		"host": "<oeffentlicher-dns-name>",
+		"port": 443,
+		"tls": true
+	},
+	"flags": {
+		"freunde_aktiv": true
+	},
+	"news_text_de": "Kurzer News-Text fuers Update-Panel."
+}

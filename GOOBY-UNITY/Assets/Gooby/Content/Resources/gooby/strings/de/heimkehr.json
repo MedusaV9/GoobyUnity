@@ -1,0 +1,25 @@
+{
+	"heimkehr": {
+		"titel": "Wieder zu Hause!",
+		"tuete": "Aus der Mitbringsel-Tüte: {name}!",
+		"knopf": {
+			"umarmen": "Fest drücken!"
+		},
+		"spruch": {
+			"1": "DA BIST DU JA! Ich hab an jeder Ecke an dich gedacht — und die schönste Ecke hab ich dir mitgebracht!",
+			"2": "Wieder zu Hause! Das Sofa hat mir gefehlt. Du noch viel mehr. Sag’s dem Sofa bitte nicht."
+		},
+		"mitbringsel": {
+			"typ": {
+				"schneekugel": "Schneekugel „{ziel}“",
+				"magnet": "Kühlschrank-Magnet „{ziel}“",
+				"wimpel": "Wimpelkette „{ziel}“"
+			}
+		},
+		"gfree": {
+			"fenster": "Psst: Im GOOBY FREE am Flughafen wartet noch {stunden} h exklusive Deko aus {ziel}!",
+			"hinweis": "Mitbringsel-Fenster offen: Deko aus {ziel} — noch {stunden} h!",
+			"exklusiv": "Nur 24 h"
+		}
+	}
+}

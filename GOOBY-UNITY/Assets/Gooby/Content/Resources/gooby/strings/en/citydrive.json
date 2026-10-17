@@ -1,0 +1,22 @@
+{
+	"mg": {
+		"cityDrive": {
+			"title": "Shopping Cruise",
+			"hint": "Grab coins, zip through the pink rings — tap left/right to steer!",
+			"intro": "Grab coins — the third bonk gets you towed!",
+			"offroad": "Whoops, grass! Back onto the road!",
+			"crash": "Bonk! Strike {n}/{max}",
+			"checkpoint": "Checkpoint {n}! Keep rolling!",
+			"zero_crash": "Not a scratch! +{n}",
+			"endless_coins": "Coins: {n}"
+		},
+		"host": {
+			"strike_title": "Towed away!",
+			"strike_teleport": "Three bonks — Gooby gets gently teleported home…",
+			"strike_count": "Strike {n}/{max}"
+		},
+		"pregame": {
+			"car": "Your car: {name} — Speed {tempo}"
+		}
+	}
+}

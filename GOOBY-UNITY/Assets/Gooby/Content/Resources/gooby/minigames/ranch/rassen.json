@@ -1,0 +1,75 @@
+{
+	"v": 1,
+	"kommentar": "Pferde-Rassen (RW-2, RANCH-DLC-IDEAS-3 Kap. 1.1) — Balance-Daten im wirtschaft.json-Muster, Content-Pack-updatebar unterm Namespace 'ranchplay'. Werte auf der 1-20-Skala, groesse = Skalierung auf RanchPferd (Bestand 1.00), preis in Muenzen (Boxen3 = 900 als Anker).",
+	"rassen": [
+		{
+			"id": "puschelhufer",
+			"tempo": 10, "ausdauer": 10, "sprungkraft": 10, "wendigkeit": 10, "gelassenheit": 10,
+			"groesse": 1.0, "raritaet": "start", "preis": 0, "eigenheit": "allrounder"
+		},
+		{
+			"id": "knuffpony",
+			"tempo": 9, "ausdauer": 9, "sprungkraft": 8, "wendigkeit": 14, "gelassenheit": 9,
+			"groesse": 0.85, "raritaet": "haeufig", "preis": 650, "eigenheit": "slalom_ass"
+		},
+		{
+			"id": "zottelgnuff",
+			"tempo": 8, "ausdauer": 11, "sprungkraft": 7, "wendigkeit": 9, "gelassenheit": 13,
+			"groesse": 0.95, "raritaet": "haeufig", "preis": 700, "eigenheit": "kuschelherz"
+		},
+		{
+			"id": "wolkentraber",
+			"tempo": 10, "ausdauer": 11, "sprungkraft": 9, "wendigkeit": 12, "gelassenheit": 14,
+			"groesse": 1.05, "raritaet": "ungewoehnlich", "preis": 1200, "eigenheit": "taktgefuehl"
+		},
+		{
+			"id": "flitzewind",
+			"tempo": 15, "ausdauer": 9, "sprungkraft": 9, "wendigkeit": 10, "gelassenheit": 7,
+			"groesse": 1.02, "raritaet": "ungewoehnlich", "preis": 1400, "eigenheit": "langer_antritt"
+		},
+		{
+			"id": "moosmaehne",
+			"tempo": 9, "ausdauer": 15, "sprungkraft": 10, "wendigkeit": 9, "gelassenheit": 12,
+			"groesse": 0.98, "raritaet": "ungewoehnlich", "preis": 1300, "eigenheit": "gelaende_profi"
+		},
+		{
+			"id": "donnerbommel",
+			"tempo": 7, "ausdauer": 13, "sprungkraft": 8, "wendigkeit": 6, "gelassenheit": 16,
+			"groesse": 1.15, "raritaet": "ungewoehnlich", "preis": 1250, "eigenheit": "unerschrocken"
+		},
+		{
+			"id": "federsprung",
+			"tempo": 10, "ausdauer": 10, "sprungkraft": 15, "wendigkeit": 11, "gelassenheit": 8,
+			"groesse": 1.04, "raritaet": "selten", "preis": 2200, "eigenheit": "sprunggefuehl"
+		},
+		{
+			"id": "westernwuschel",
+			"tempo": 11, "ausdauer": 11, "sprungkraft": 8, "wendigkeit": 14, "gelassenheit": 11,
+			"groesse": 0.97, "raritaet": "selten", "preis": 2100, "eigenheit": "trail_praezision"
+		},
+		{
+			"id": "toelterle",
+			"tempo": 11, "ausdauer": 13, "sprungkraft": 7, "wendigkeit": 10, "gelassenheit": 12,
+			"groesse": 0.92, "raritaet": "selten", "preis": 2400, "eigenheit": "toelt"
+		},
+		{
+			"id": "miniknopf",
+			"tempo": 7, "ausdauer": 8, "sprungkraft": 7, "wendigkeit": 12, "gelassenheit": 12,
+			"groesse": 0.78, "raritaet": "selten", "preis": 1800, "eigenheit": "schauliebling"
+		},
+		{
+			"id": "sternschnuppler",
+			"tempo": 12, "ausdauer": 12, "sprungkraft": 12, "wendigkeit": 12, "gelassenheit": 12,
+			"groesse": 1.0, "raritaet": "legendaer", "preis": 4800, "eigenheit": "glitzerfell"
+		}
+	],
+	"statur_varianz": 0.08,
+	"stimme_pitch_min": 0.85,
+	"stimme_pitch_max": 1.15,
+	"preise": {
+		"hafermash": 25,
+		"fohlen_verkauf": 150,
+		"deckgebuehr_min": 300,
+		"deckgebuehr_max": 1500
+	}
+}

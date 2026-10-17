@@ -1,0 +1,10 @@
+{
+	"mg": {
+		"teaParty": {
+			"intro": "Pour into the green band!",
+			"streak_banner": "{n} in a row! Bonus!",
+			"ende_zeit": "Time’s up! {cups} cups served",
+			"ende_spills": "Too many spills — tea break!"
+		}
+	}
+}

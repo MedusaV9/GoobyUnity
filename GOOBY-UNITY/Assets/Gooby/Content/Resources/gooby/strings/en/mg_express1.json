@@ -1,0 +1,11 @@
+{
+	"mg": {
+		"burgerBuild": {
+			"intro": "Stack the ingredients to match the ticket!"
+		},
+		"deliveryRush": {
+			"intro": "Bring the parcels to the drop rings!",
+			"first_leg": "First delivery: {name} — follow the pink trail!"
+		}
+	}
+}

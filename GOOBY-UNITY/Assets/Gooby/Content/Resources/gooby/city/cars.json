@@ -1,0 +1,70 @@
+{
+  "kommentar": "CarDefs (Doc E §1.4, USER §D48): EIN Owning-Katalog für Autohaus UND die Fahr-Minispiele (Doc E §8 Risiko 5 „Katalog-Drift“). base_speed/max_speed in m/s, steer_rate in rad/s — Referenz ist CityCarFeel (sedan = 9/13/1.9, das geauthorte Standard-Fahrgefühl). glb zeigt auf assets/city/autos/. `start: true` = gehört dem Spieler von Anfang an. farben sind Karosserie-Tints (Material-Tint auf allen Meshes). stats (Doc G §6, W13B/DRIVE): speed/handling/boost je 1..10 — der Start-Sedan ist die 3/3/3-Neutralbasis (CarStatsLogic mappt 3 → Multiplikator 1.0, teurere Autos plausibel besser); Konsument ist CarStatsLogic.multipliers() für die Fahr-Minigames + die Pregame-Auto-Zeile.",
+  "farben_namen": {
+    "#E8524A": "Möhrenrot",
+    "#4E79D6": "Himmelblau",
+    "#4FBF8B": "Wiesengrün",
+    "#F2C14E": "Butterblume",
+    "#F2B5D4": "Kaugummi",
+    "#FFF4E6": "Cremeweiß",
+    "#4A3B36": "Nachtbraun"
+  },
+  "autos": [
+    {
+      "id": "sedan",
+      "name_de": "GOOBY Standard",
+      "glb": "sedan.glb",
+      "preis": 0,
+      "start": true,
+      "base_speed": 9.0,
+      "max_speed": 13.0,
+      "accel": 5.5,
+      "steer_rate": 1.9,
+      "spruch_de": "Fährt. Bremst. Mehr wollte er nie sein.",
+      "farben": ["#E8524A", "#4E79D6", "#4FBF8B", "#F2C14E", "#FFF4E6"],
+      "stats": {"speed": 3, "handling": 3, "boost": 3}
+    },
+    {
+      "id": "hatchback-sports",
+      "name_de": "Flitzgooby GT",
+      "glb": "hatchback-sports.glb",
+      "preis": 450,
+      "start": false,
+      "base_speed": 10.0,
+      "max_speed": 15.0,
+      "accel": 6.2,
+      "steer_rate": 2.1,
+      "spruch_de": "Klein, laut, hat eine Meinung zu Kreisverkehren.",
+      "farben": ["#E8524A", "#F2C14E", "#4E79D6", "#F2B5D4", "#4A3B36"],
+      "stats": {"speed": 6, "handling": 4, "boost": 6}
+    },
+    {
+      "id": "suv",
+      "name_de": "Gemütlichgooby XL",
+      "glb": "suv.glb",
+      "preis": 620,
+      "start": false,
+      "base_speed": 8.0,
+      "max_speed": 12.0,
+      "accel": 4.8,
+      "steer_rate": 1.6,
+      "spruch_de": "Breit wie ein Sofa. Fährt sich auch so.",
+      "farben": ["#4FBF8B", "#FFF4E6", "#4A3B36", "#4E79D6"],
+      "stats": {"speed": 4, "handling": 7, "boost": 5}
+    },
+    {
+      "id": "van",
+      "name_de": "Familien-Goober",
+      "glb": "van.glb",
+      "preis": 780,
+      "start": false,
+      "base_speed": 8.5,
+      "max_speed": 12.5,
+      "accel": 5.0,
+      "steer_rate": 1.7,
+      "spruch_de": "Sieben Sitze. Ein Gooby. Sehr viel Platz für Snacks.",
+      "farben": ["#F2C14E", "#4E79D6", "#FFF4E6", "#F2B5D4"],
+      "stats": {"speed": 5, "handling": 6, "boost": 8}
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+	"cutscene": {
+		"ueberspringen": "Skip",
+		"wake": {
+			"titel": "Waking Up",
+			"dawn": "The sun is already tickling through the window …",
+			"yawn": "Gooby yawns and stretches his little ears.",
+			"ready": "A brand-new day — let's go!"
+		},
+		"sleep": {
+			"titel": "Bedtime",
+			"tired": "Gooby rubs his eyes. What a long day!",
+			"tucked": "Blanket pulled up to the nose …",
+			"good_night": "Good night, Gooby. Sweet dreams!"
+		},
+		"depart": {
+			"titel": "Trip: Departure",
+			"pack": "Suitcase packed — don't forget the carrot snacks!",
+			"taxi": "The taxi is already honking outside.",
+			"wave": "Bye-bye, little house!",
+			"sky": "And off into the clouds …"
+		},
+		"arrive": {
+			"titel": "Vacation Arrival",
+			"here": "We're here! Can you smell the sea?",
+			"bye_taxi": "Thanks for the ride!",
+			"happy": "Gooby hops through the sand with joy."
+		},
+		"shop": {
+			"titel": "Shopping Trip",
+			"idea": "The fridge is empty — time for a shopping trip!",
+			"drive": "Off through town, the little basket rattling.",
+			"arrive": "REHWEI! The chunkiest carrots are in today."
+		}
+	}
+}

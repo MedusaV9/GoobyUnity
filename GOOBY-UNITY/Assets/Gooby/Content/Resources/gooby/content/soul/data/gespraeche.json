@@ -1,0 +1,422 @@
+{
+	"schema": 1,
+	"kommentar": "W14/VOICE Mini-Dialoge: Gooby sagt einen Soul-Moment (anlass = Moment-Id aus soul.json), der Spieler antwortet ueber 2 Chips. Jede Antwort: label_key (Chip-Text), laune (Stimmungs-Stups, gedeckelt ueber SoulMood.bump), erinnerung (Eintrag im Soul-Slice), emotion (Follow-up-Gesicht/Stimme), stil (gooby|witz, AcBubble-opts), folge_keys (1-2 Varianten, Wahl per Roll). Optional weiter.antworten = Ebene 2 (Maximum, s. GoobyGespraech.MAX_EBENEN).",
+	"gespraeche": [
+		{
+			"id": "morgen",
+			"anlass": ["gruss_morgen"],
+			"chance": 0.5,
+			"antworten": [
+				{
+					"id": "verschlafen",
+					"label_key": "gespraech.morgen.verschlafen.label",
+					"laune": 1.0,
+					"erinnerung": "verschlafen",
+					"emotion": "sleepy",
+					"stil": "gooby",
+					"folge_keys": [
+						"gespraech.morgen.verschlafen.f1",
+						"gespraech.morgen.verschlafen.f2"
+					]
+				},
+				{
+					"id": "energie",
+					"label_key": "gespraech.morgen.energie.label",
+					"laune": 2.0,
+					"erinnerung": "energie",
+					"emotion": "ecstatic",
+					"stil": "gooby",
+					"folge_keys": [
+						"gespraech.morgen.energie.f1",
+						"gespraech.morgen.energie.f2"
+					]
+				}
+			]
+		},
+		{
+			"id": "mittag",
+			"anlass": ["gruss_mittag"],
+			"chance": 0.5,
+			"antworten": [
+				{
+					"id": "hunger",
+					"label_key": "gespraech.mittag.hunger.label",
+					"laune": 1.5,
+					"erinnerung": "hunger",
+					"emotion": "happy",
+					"stil": "gooby",
+					"folge_keys": [
+						"gespraech.mittag.hunger.f1",
+						"gespraech.mittag.hunger.f2"
+					]
+				},
+				{
+					"id": "quatsch",
+					"label_key": "gespraech.mittag.quatsch.label",
+					"laune": 0.5,
+					"erinnerung": "quatsch",
+					"emotion": "happy",
+					"stil": "witz",
+					"folge_keys": [
+						"gespraech.mittag.quatsch.f1",
+						"gespraech.mittag.quatsch.f2"
+					]
+				}
+			]
+		},
+		{
+			"id": "abend",
+			"anlass": ["gruss_abend"],
+			"chance": 0.5,
+			"antworten": [
+				{
+					"id": "gemuetlich",
+					"label_key": "gespraech.abend.gemuetlich.label",
+					"laune": 2.0,
+					"erinnerung": "gemuetlich",
+					"emotion": "happy",
+					"stil": "gooby",
+					"folge_keys": [
+						"gespraech.abend.gemuetlich.f1",
+						"gespraech.abend.gemuetlich.f2"
+					]
+				},
+				{
+					"id": "wild",
+					"label_key": "gespraech.abend.wild.label",
+					"laune": 1.5,
+					"erinnerung": "wild",
+					"emotion": "ecstatic",
+					"stil": "witz",
+					"folge_keys": [
+						"gespraech.abend.wild.f1",
+						"gespraech.abend.wild.f2"
+					]
+				}
+			]
+		},
+		{
+			"id": "nacht",
+			"anlass": ["gruss_nacht"],
+			"chance": 0.5,
+			"antworten": [
+				{
+					"id": "sorge",
+					"label_key": "gespraech.nacht.sorge.label",
+					"laune": 1.0,
+					"erinnerung": "sorge",
+					"emotion": "sleepy",
+					"stil": "gooby",
+					"folge_keys": [
+						"gespraech.nacht.sorge.f1",
+						"gespraech.nacht.sorge.f2"
+					]
+				},
+				{
+					"id": "mitmachen",
+					"label_key": "gespraech.nacht.mitmachen.label",
+					"laune": 1.5,
+					"erinnerung": "mitmachen",
+					"emotion": "happy",
+					"stil": "witz",
+					"folge_keys": [
+						"gespraech.nacht.mitmachen.f1",
+						"gespraech.nacht.mitmachen.f2"
+					]
+				}
+			]
+		},
+		{
+			"id": "gefreut",
+			"anlass": ["gruss_gefreut"],
+			"chance": 0.8,
+			"antworten": [
+				{
+					"id": "auch",
+					"label_key": "gespraech.gefreut.auch.label",
+					"laune": 2.0,
+					"erinnerung": "auch",
+					"emotion": "ecstatic",
+					"stil": "gooby",
+					"folge_keys": [
+						"gespraech.gefreut.auch.f1",
+						"gespraech.gefreut.auch.f2"
+					]
+				},
+				{
+					"id": "necken",
+					"label_key": "gespraech.gefreut.necken.label",
+					"laune": 0.5,
+					"erinnerung": "necken",
+					"emotion": "happy",
+					"stil": "witz",
+					"folge_keys": [
+						"gespraech.gefreut.necken.f1",
+						"gespraech.gefreut.necken.f2"
+					]
+				}
+			]
+		},
+		{
+			"id": "eingeschnappt",
+			"anlass": ["gruss_eingeschnappt"],
+			"chance": 1.0,
+			"antworten": [
+				{
+					"id": "entschuldigen",
+					"label_key": "gespraech.eingeschnappt.entschuldigen.label",
+					"laune": 3.0,
+					"erinnerung": "entschuldigt",
+					"emotion": "happy",
+					"stil": "gooby",
+					"folge_keys": [
+						"gespraech.eingeschnappt.entschuldigen.f1",
+						"gespraech.eingeschnappt.entschuldigen.f2"
+					]
+				},
+				{
+					"id": "guenstig",
+					"label_key": "gespraech.eingeschnappt.guenstig.label",
+					"laune": 2.0,
+					"erinnerung": "bestochen",
+					"emotion": "happy",
+					"stil": "witz",
+					"folge_keys": [
+						"gespraech.eingeschnappt.guenstig.f1",
+						"gespraech.eingeschnappt.guenstig.f2"
+					]
+				}
+			]
+		},
+		{
+			"id": "regen",
+			"anlass": ["wetter_regen"],
+			"chance": 0.6,
+			"antworten": [
+				{
+					"id": "drinnen",
+					"label_key": "gespraech.regen.drinnen.label",
+					"laune": 1.0,
+					"erinnerung": "drinnen",
+					"emotion": "happy",
+					"stil": "gooby",
+					"folge_keys": [
+						"gespraech.regen.drinnen.f1",
+						"gespraech.regen.drinnen.f2"
+					]
+				},
+				{
+					"id": "pfuetzen",
+					"label_key": "gespraech.regen.pfuetzen.label",
+					"laune": 1.5,
+					"erinnerung": "pfuetzen",
+					"emotion": "ecstatic",
+					"stil": "witz",
+					"folge_keys": [
+						"gespraech.regen.pfuetzen.f1",
+						"gespraech.regen.pfuetzen.f2"
+					]
+				}
+			]
+		},
+		{
+			"id": "gewitter",
+			"anlass": ["wetter_gewitter"],
+			"chance": 0.9,
+			"antworten": [
+				{
+					"id": "troesten",
+					"label_key": "gespraech.gewitter.troesten.label",
+					"laune": 2.0,
+					"erinnerung": "getroestet",
+					"emotion": "happy",
+					"stil": "gooby",
+					"folge_keys": [
+						"gespraech.gewitter.troesten.f1",
+						"gespraech.gewitter.troesten.f2"
+					],
+					"weiter": {
+						"antworten": [
+							{
+								"id": "kuscheln",
+								"label_key": "gespraech.gewitter.kuscheln.label",
+								"laune": 1.5,
+								"erinnerung": "gekuschelt",
+								"emotion": "happy",
+								"stil": "gooby",
+								"folge_keys": ["gespraech.gewitter.kuscheln.f1"]
+							},
+							{
+								"id": "witz",
+								"label_key": "gespraech.gewitter.witz.label",
+								"laune": 1.0,
+								"erinnerung": "gelacht",
+								"emotion": "happy",
+								"stil": "witz",
+								"folge_keys": ["gespraech.gewitter.witz.f1"]
+							}
+						]
+					}
+				},
+				{
+					"id": "mutig",
+					"label_key": "gespraech.gewitter.mutig.label",
+					"laune": 1.0,
+					"erinnerung": "mutig",
+					"emotion": "scared",
+					"stil": "witz",
+					"folge_keys": [
+						"gespraech.gewitter.mutig.f1",
+						"gespraech.gewitter.mutig.f2"
+					]
+				}
+			]
+		},
+		{
+			"id": "schnee",
+			"anlass": ["wetter_schnee"],
+			"chance": 0.7,
+			"antworten": [
+				{
+					"id": "raus",
+					"label_key": "gespraech.schnee.raus.label",
+					"laune": 2.0,
+					"erinnerung": "schneemann",
+					"emotion": "ecstatic",
+					"stil": "gooby",
+					"folge_keys": [
+						"gespraech.schnee.raus.f1",
+						"gespraech.schnee.raus.f2"
+					]
+				},
+				{
+					"id": "drin",
+					"label_key": "gespraech.schnee.drin.label",
+					"laune": 1.0,
+					"erinnerung": "flockenkino",
+					"emotion": "happy",
+					"stil": "gooby",
+					"folge_keys": [
+						"gespraech.schnee.drin.f1",
+						"gespraech.schnee.drin.f2"
+					]
+				}
+			]
+		},
+		{
+			"id": "jubilaeum",
+			"anlass": ["ritual_jubilaeum"],
+			"chance": 1.0,
+			"antworten": [
+				{
+					"id": "ruehrend",
+					"label_key": "gespraech.jubilaeum.ruehrend.label",
+					"laune": 3.0,
+					"erinnerung": "ruehrend",
+					"emotion": "ecstatic",
+					"stil": "gooby",
+					"folge_keys": [
+						"gespraech.jubilaeum.ruehrend.f1",
+						"gespraech.jubilaeum.ruehrend.f2"
+					]
+				},
+				{
+					"id": "witzeln",
+					"label_key": "gespraech.jubilaeum.witzeln.label",
+					"laune": 1.5,
+					"erinnerung": "gewitzelt",
+					"emotion": "happy",
+					"stil": "witz",
+					"folge_keys": [
+						"gespraech.jubilaeum.witzeln.f1",
+						"gespraech.jubilaeum.witzeln.f2"
+					]
+				}
+			]
+		},
+		{
+			"id": "erinnerung",
+			"anlass": ["erinnerung"],
+			"chance": 0.5,
+			"antworten": [
+				{
+					"id": "erzaehlen",
+					"label_key": "gespraech.erinnerung.erzaehlen.label",
+					"laune": 1.5,
+					"erinnerung": "erzaehlt",
+					"emotion": "happy",
+					"stil": "gooby",
+					"folge_keys": [
+						"gespraech.erinnerung.erzaehlen.f1",
+						"gespraech.erinnerung.erzaehlen.f2"
+					],
+					"weiter": {
+						"antworten": [
+							{
+								"id": "lachen",
+								"label_key": "gespraech.erinnerung.lachen.label",
+								"laune": 1.5,
+								"erinnerung": "gelacht",
+								"emotion": "ecstatic",
+								"stil": "witz",
+								"folge_keys": ["gespraech.erinnerung.lachen.f1"]
+							},
+							{
+								"id": "kuschel",
+								"label_key": "gespraech.erinnerung.kuschel.label",
+								"laune": 2.0,
+								"erinnerung": "schatz",
+								"emotion": "happy",
+								"stil": "gooby",
+								"folge_keys": ["gespraech.erinnerung.kuschel.f1"]
+							}
+						]
+					}
+				},
+				{
+					"id": "gedaechtnis",
+					"label_key": "gespraech.erinnerung.gedaechtnis.label",
+					"laune": 1.0,
+					"erinnerung": "gelobt",
+					"emotion": "happy",
+					"stil": "gooby",
+					"folge_keys": [
+						"gespraech.erinnerung.gedaechtnis.f1",
+						"gespraech.erinnerung.gedaechtnis.f2"
+					]
+				}
+			]
+		},
+		{
+			"id": "vermisst",
+			"anlass": ["gruss_vermisst"],
+			"chance": 1.0,
+			"antworten": [
+				{
+					"id": "wieder_da",
+					"label_key": "gespraech.vermisst.wieder_da.label",
+					"laune": 3.0,
+					"erinnerung": "wieder_da",
+					"emotion": "ecstatic",
+					"stil": "gooby",
+					"folge_keys": [
+						"gespraech.vermisst.wieder_da.f1",
+						"gespraech.vermisst.wieder_da.f2"
+					]
+				},
+				{
+					"id": "geschenk",
+					"label_key": "gespraech.vermisst.geschenk.label",
+					"laune": 2.0,
+					"erinnerung": "wiedergutmachung",
+					"emotion": "happy",
+					"stil": "witz",
+					"folge_keys": [
+						"gespraech.vermisst.geschenk.f1",
+						"gespraech.vermisst.geschenk.f2"
+					]
+				}
+			]
+		}
+	]
+}

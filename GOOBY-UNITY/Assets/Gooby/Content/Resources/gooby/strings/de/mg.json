@@ -1,0 +1,84 @@
+{
+	"mg": {
+		"teaParty": {
+			"title": "Teestube",
+			"cups": "Tassen: {n}",
+			"hint": "Halten: gießen — Loslassen: servieren!",
+			"spill": "Verschüttet!",
+			"streak_bonus": "Serien-Bonus!",
+			"spills": "Verschüttet: {spills}/{max}"
+		},
+		"carrotCatch": {
+			"title": "Möhrenfang",
+			"hint": "Zieh den Korb hin und her!",
+			"yuck": "Igitt!",
+			"missed": "Am Boden: {n}/{max}"
+		},
+		"gvz": {
+			"title": "Goobys vs. Zombies",
+			"hint": "Tipp eine Karte und dann ein Feld — sammle die Nutella-Kleckse und halte die Zombies vom Haus fern!"
+		},
+		"gobnom": {
+			"title": "GOB NOM",
+			"hint": "Wisch durchs Seil, tipp Blasen, Kissen und Ventilatoren an — füttere Gooby mit dem Bonbon und sammle unterwegs die Nutella-Gläser!"
+		},
+		"arcade": {
+			"title": "Arcade",
+			"back": "‹ Zurück",
+			"coming_soon": "Bald!",
+			"zaehler": "{n} Spiele"
+		},
+		"pregame": {
+			"difficulty": "Schwierigkeit",
+			"orientation": "Ausrichtung",
+			"best": "Bestwert: {best}",
+			"play": "Spielen!",
+			"back": "‹ Zurück",
+			"energy": "Kostet {energy} Energie pro Runde",
+			"too_sleepy": "Gooby ist zu müde zum Spielen — erst schlafen!"
+		},
+		"diff": {
+			"easy": "Leicht",
+			"normal": "Normal",
+			"hard": "Schwer",
+			"endless": "Endlos"
+		},
+		"orient": {
+			"auto": "Auto",
+			"portrait": "Hochkant",
+			"landscape": "Quer"
+		},
+		"host": {
+			"score": "★ {score}",
+			"pause": "❚❚ Pause",
+			"paused": "Pause",
+			"resume": "Weiter",
+			"restart": "Neustart",
+			"quit": "Beenden",
+			"sound_on": "Ton: An",
+			"sound_off": "Ton: Aus",
+			"help": "Hilfe",
+			"help_none": "Sammle Punkte, bevor die Runde endet — du schaffst das!",
+			"go": "Los!"
+		},
+		"results": {
+			"title": "Runde vorbei!",
+			"score": "{score} Punkte",
+			"best": "Bestwert: {best}",
+			"new_best": "Neuer Rekord!",
+			"coins": "+{coins} Münzen",
+			"daily_bonus": "Tagesbonus ×2!",
+			"day_cap": "Tagesbonus aufgebraucht — morgen klimpert es wieder!",
+			"xp": "+{xp} XP",
+			"level_up": "Level-Up! +{coins} Münzen",
+			"beat_target": "Ziel geschafft!",
+			"again": "Nochmal",
+			"back": "Zur Arcade",
+			"home": "Nach Hause"
+		},
+		"game": {
+			"time": "{sec} s",
+			"streak": "Serie ×{n}"
+		}
+	}
+}

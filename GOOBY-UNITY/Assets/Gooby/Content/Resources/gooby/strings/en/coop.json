@@ -1,0 +1,20 @@
+{
+	"coop": {
+		"fahrt": {
+			"button": "Ride together",
+			"einladung": "{name} wants to cruise through the city with you!",
+			"mitfahren": "Hop in",
+			"ablehnen": "Maybe later",
+			"titel": "You're riding with {name} — enjoy the view!",
+			"abgelehnt": "{name} would rather stay here — maybe later!",
+			"beendet": "The joyride is over.",
+			"fahrer_weg": "The driver left — ride's over.",
+			"aussteigen": "Hop out"
+		},
+		"radio": {
+			"titel": "Passenger radio",
+			"skip": "Next song",
+			"kaufhinweis": "Your buddy doesn't own a radio yet — hit IKEA, then you can crank it up here!"
+		}
+	}
+}

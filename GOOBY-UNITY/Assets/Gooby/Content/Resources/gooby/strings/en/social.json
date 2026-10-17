@@ -1,0 +1,120 @@
+{
+	"social": {
+		"screen": {
+			"title": "Friends & Visits",
+			"back": "‹ Back",
+			"empty": "No friends yet — share your friend code!",
+			"empty_art": "( \\ (\\\n(  . .)\no_(\")(\")",
+			"offline_hint": "Offline — visits & games need internet."
+		},
+		"visit": {
+			"button": "Visit",
+			"request_sent": "Visit request sent to {name}…",
+			"request_failed": "Request failed: {code}",
+			"incoming": "{name} wants to visit you!",
+			"accept": "Let them in",
+			"decline": "Decline",
+			"denied": "{name} has no time right now.",
+			"ended": "The visit is over.",
+			"at": "Visiting {gooby}",
+			"host_label": "{name} is visiting!",
+			"build_warning": "Building during a visit can cause trouble!",
+			"build_button": "Build",
+			"upload_failed": "House upload failed: {code}",
+			"fetch_failed": "Loading house failed: {code}",
+			"target_offline": "Your friend is not online right now.",
+			"end_button": "End visit",
+			"peer_left": "{name} left.",
+			"peer_joined": "{name} is here!"
+		},
+		"selfie": {
+			"emote": "Snap A Gooby!",
+			"hinweis": "Selfie time! Get in position…",
+			"gesendet": "Selfie saved — a copy is on its way to {name}!",
+			"nur_lokal": "Selfie saved — sending did not work.",
+			"fehler": "The selfie did not work out.",
+			"mail_text": "Snap A Gooby! Our visit selfie."
+		},
+		"pal": {
+			"button": "GoobyPal",
+			"title": "GoobyPal",
+			"to": "To {name}",
+			"amount": "Amount",
+			"send": "Send",
+			"remaining": "{rest} coins left today",
+			"sent": "Sent {amount} coins to {name}!",
+			"received": "{name} sent you {amount} coins!",
+			"boot_received": "You received {amount} coins from friends!",
+			"err": {
+				"offline": "Offline — GoobyPal needs internet.",
+				"daily_limit": "Daily limit reached — try again tomorrow!",
+				"bad_amount": "That amount doesn't work (1–250).",
+				"not_friends": "You are not friends.",
+				"not_found": "That friend doesn't exist.",
+				"rate_limit": "Slow down! Too many transfers.",
+				"no_coins": "You don't have that many coins.",
+				"generic": "That didn't work."
+			}
+		},
+		"nap": {
+			"host_bubble": "Your buddy is snoozing on your couch. Cozy!",
+			"host_bubble_boden": "No couch around — your buddy naps right on the floor. Still cozy!",
+			"host_wake": "The visiting Gooby is awake again!",
+			"guest_bubble": "It's late and everyone's tired — your Gooby snuggles up on the couch…",
+			"guest_bubble_boden": "No couch found — your Gooby just naps on the floor. Legend!",
+			"wake_button": "Wake up",
+			"wake_toast_guest": "Gently woken — your Gooby blinks awake."
+		}
+	},
+	"board": {
+		"button": "Battleship",
+		"invite_sent": "Challenge sent to {name}…",
+		"invite_failed": "Invite failed: {code}",
+		"invited": "{name} challenges you to a game of Battleship!",
+		"accept": "Accept",
+		"decline": "Decline",
+		"declined": "{name} declined.",
+		"table_hint": "Tip: a boardgame table in your house makes this cozier!",
+		"your_turn": "Your turn!",
+		"their_turn": "{name}'s turn…",
+		"hit": "Hit!",
+		"miss": "Splash…",
+		"sunk": "Sunk!",
+		"win": "YOU WIN! All ships sunk!",
+		"lose": "Defeat… your fleet is gone.",
+		"forfeit": "{name} gave up — you win!",
+		"resumed": "Game resumed — keep going!",
+		"leave": "Give up",
+		"exit": "Leave",
+		"surrender_confirm": "Really give up?",
+		"rematch": {
+			"button": "Rematch!",
+			"waiting": "Waiting for {name}…",
+			"incoming": "{name} wants a rematch!",
+			"declined": "{name} left — maybe later!",
+			"failed": "Rematch didn’t work right now: {code}"
+		},
+		"peer": {
+			"down": "{name} lost connection — the game is waiting…",
+			"up": "{name} is back!"
+		},
+		"setup": {
+			"title": "Your fleet",
+			"reroll": "Reroll",
+			"ready": "Ready!"
+		},
+		"emote": {
+			"button": "Emote",
+			"dance": "Dance",
+			"angry": "Angry",
+			"laugh": "Laugh",
+			"sleep": "Sleep",
+			"selfie": "Selfie!"
+		},
+		"tomato": {
+			"button": "Tomato!",
+			"limit": "Only one tomato per round!",
+			"hit": "SPLAT! Tomato in the face!"
+		}
+	}
+}

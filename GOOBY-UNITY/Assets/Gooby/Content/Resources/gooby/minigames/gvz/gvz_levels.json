@@ -1,0 +1,2156 @@
+{
+	"schema": 1,
+	"levels": [
+		{
+			"id": 1,
+			"setting": "vorgarten",
+			"lanes": [
+				2
+			],
+			"start_nutella": 125,
+			"unlock_towers": [
+				"moehrenschuetze"
+			],
+			"new_towers": [
+				"moehrenschuetze"
+			],
+			"new_zombies": [
+				"schlurfi"
+			],
+			"mods": {},
+			"waves": [
+				{
+					"t": 100,
+					"huge": false
+				}
+			],
+			"spawns": [
+				{
+					"t": 25,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 41.7,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 54.9,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 69.6,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 86.2,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 101.3,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 115.5,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 130,
+					"lane": 2,
+					"type": "schlurfi"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"setting": "vorgarten",
+			"lanes": [
+				1,
+				2,
+				3
+			],
+			"start_nutella": 75,
+			"unlock_towers": [
+				"moehrenschuetze",
+				"nutella_sammler"
+			],
+			"new_towers": [
+				"nutella_sammler"
+			],
+			"new_zombies": [],
+			"mods": {},
+			"waves": [
+				{
+					"t": 90,
+					"huge": false
+				},
+				{
+					"t": 165,
+					"huge": false
+				}
+			],
+			"spawns": [
+				{
+					"t": 30,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 51.4,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 72.1,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 90,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 91.8,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 105.6,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 118.3,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 127.2,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 143.7,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 154.1,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 169.6,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 180,
+					"lane": 3,
+					"type": "schlurfi"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"setting": "vorgarten",
+			"lanes": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"start_nutella": 75,
+			"unlock_towers": [
+				"moehrenschuetze",
+				"nutella_sammler",
+				"dicker_bert"
+			],
+			"new_towers": [
+				"dicker_bert"
+			],
+			"new_zombies": [
+				"huetchen"
+			],
+			"mods": {},
+			"waves": [
+				{
+					"t": 105,
+					"huge": false
+				},
+				{
+					"t": 195,
+					"huge": false
+				}
+			],
+			"spawns": [
+				{
+					"t": 35.8,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 54.4,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 71.1,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 89.4,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 110,
+					"lane": 4,
+					"type": "huetchen"
+				},
+				{
+					"t": 112.2,
+					"lane": 4,
+					"type": "huetchen"
+				},
+				{
+					"t": 124.3,
+					"lane": 0,
+					"type": "huetchen"
+				},
+				{
+					"t": 141.0,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 153.0,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 167.3,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 186.9,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 199.8,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 215,
+					"lane": 3,
+					"type": "schlurfi"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"setting": "vorgarten",
+			"lanes": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"start_nutella": 75,
+			"unlock_towers": [
+				"moehrenschuetze",
+				"nutella_sammler",
+				"dicker_bert",
+				"schnarch_knolle"
+			],
+			"new_towers": [
+				"schnarch_knolle"
+			],
+			"new_zombies": [
+				"sprinter"
+			],
+			"mods": {},
+			"waves": [
+				{
+					"t": 105,
+					"huge": false
+				},
+				{
+					"t": 200,
+					"huge": false
+				}
+			],
+			"spawns": [
+				{
+					"t": 31.3,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 54.6,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 80.5,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 110,
+					"lane": 0,
+					"type": "sprinter"
+				},
+				{
+					"t": 112.0,
+					"lane": 2,
+					"type": "sprinter"
+				},
+				{
+					"t": 122.8,
+					"lane": 1,
+					"type": "huetchen"
+				},
+				{
+					"t": 130.0,
+					"lane": 2,
+					"type": "huetchen"
+				},
+				{
+					"t": 143.8,
+					"lane": 2,
+					"type": "huetchen"
+				},
+				{
+					"t": 151.5,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 164.0,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 176.0,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 185.5,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 195.5,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 211.0,
+					"lane": 0,
+					"type": "sprinter"
+				},
+				{
+					"t": 220,
+					"lane": 4,
+					"type": "schlurfi"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"setting": "vorgarten",
+			"lanes": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"start_nutella": 75,
+			"unlock_towers": [
+				"moehrenschuetze",
+				"nutella_sammler",
+				"dicker_bert",
+				"schnarch_knolle",
+				"boom_beere"
+			],
+			"new_towers": [
+				"boom_beere"
+			],
+			"new_zombies": [
+				"eimer"
+			],
+			"mods": {},
+			"waves": [
+				{
+					"t": 115,
+					"huge": false
+				},
+				{
+					"t": 238,
+					"huge": true
+				}
+			],
+			"spawns": [
+				{
+					"t": 32.0,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 48.9,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 63.7,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 86.2,
+					"lane": 3,
+					"type": "sprinter"
+				},
+				{
+					"t": 102.3,
+					"lane": 4,
+					"type": "huetchen"
+				},
+				{
+					"t": 118.5,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 122.8,
+					"lane": 0,
+					"type": "huetchen"
+				},
+				{
+					"t": 126.7,
+					"lane": 1,
+					"type": "huetchen"
+				},
+				{
+					"t": 139.7,
+					"lane": 1,
+					"type": "huetchen"
+				},
+				{
+					"t": 147.6,
+					"lane": 2,
+					"type": "eimer"
+				},
+				{
+					"t": 152.7,
+					"lane": 1,
+					"type": "eimer"
+				},
+				{
+					"t": 162.5,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 168.9,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 182.0,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 186.5,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 195.6,
+					"lane": 1,
+					"type": "sprinter"
+				},
+				{
+					"t": 203.2,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 211.9,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 222.1,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 230,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 240.1,
+					"lane": 0,
+					"type": "huetchen"
+				},
+				{
+					"t": 240.8,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 241.2,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 241.2,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 241.8,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 242.4,
+					"lane": 4,
+					"type": "eimer"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"setting": "nacht",
+			"lanes": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"start_nutella": 175,
+			"unlock_towers": [
+				"moehrenschuetze",
+				"nutella_sammler",
+				"dicker_bert",
+				"schnarch_knolle",
+				"boom_beere"
+			],
+			"new_towers": [],
+			"new_zombies": [
+				"zeitungsopa"
+			],
+			"mods": {
+				"night": true
+			},
+			"waves": [
+				{
+					"t": 125,
+					"huge": false
+				},
+				{
+					"t": 230,
+					"huge": false
+				}
+			],
+			"spawns": [
+				{
+					"t": 55,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 71.8,
+					"lane": 2,
+					"type": "huetchen"
+				},
+				{
+					"t": 87.9,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 104.6,
+					"lane": 4,
+					"type": "sprinter"
+				},
+				{
+					"t": 124.4,
+					"lane": 3,
+					"type": "zeitungsopa"
+				},
+				{
+					"t": 140,
+					"lane": 3,
+					"type": "sprinter"
+				},
+				{
+					"t": 140,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 154.6,
+					"lane": 3,
+					"type": "zeitungsopa"
+				},
+				{
+					"t": 166.8,
+					"lane": 1,
+					"type": "zeitungsopa"
+				},
+				{
+					"t": 179.5,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 188.7,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 204.4,
+					"lane": 1,
+					"type": "huetchen"
+				},
+				{
+					"t": 218.6,
+					"lane": 2,
+					"type": "huetchen"
+				},
+				{
+					"t": 229.4,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 242.3,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 255,
+					"lane": 0,
+					"type": "schlurfi"
+				}
+			]
+		},
+		{
+			"id": 7,
+			"setting": "nacht",
+			"lanes": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"start_nutella": 175,
+			"unlock_towers": [
+				"moehrenschuetze",
+				"nutella_sammler",
+				"dicker_bert",
+				"schnarch_knolle",
+				"boom_beere",
+				"eis_gooby"
+			],
+			"new_towers": [
+				"eis_gooby"
+			],
+			"new_zombies": [
+				"huepfer"
+			],
+			"mods": {
+				"night": true
+			},
+			"waves": [
+				{
+					"t": 125,
+					"huge": false
+				},
+				{
+					"t": 235,
+					"huge": false
+				}
+			],
+			"spawns": [
+				{
+					"t": 65.6,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 83.3,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 102.3,
+					"lane": 0,
+					"type": "huetchen"
+				},
+				{
+					"t": 120,
+					"lane": 4,
+					"type": "huepfer"
+				},
+				{
+					"t": 121.6,
+					"lane": 0,
+					"type": "zeitungsopa"
+				},
+				{
+					"t": 138.4,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 140,
+					"lane": 1,
+					"type": "zeitungsopa"
+				},
+				{
+					"t": 150.6,
+					"lane": 1,
+					"type": "huepfer"
+				},
+				{
+					"t": 165.4,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 180.2,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 192.2,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 204.3,
+					"lane": 4,
+					"type": "huetchen"
+				},
+				{
+					"t": 220.8,
+					"lane": 2,
+					"type": "huepfer"
+				},
+				{
+					"t": 230.9,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 236.5,
+					"lane": 2,
+					"type": "zeitungsopa"
+				},
+				{
+					"t": 247.1,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 252.0,
+					"lane": 4,
+					"type": "huepfer"
+				},
+				{
+					"t": 254.0,
+					"lane": 2,
+					"type": "huepfer"
+				},
+				{
+					"t": 257.0,
+					"lane": 2,
+					"type": "sprinter"
+				},
+				{
+					"t": 258.2,
+					"lane": 4,
+					"type": "huetchen"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"setting": "nacht",
+			"lanes": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"start_nutella": 175,
+			"unlock_towers": [
+				"moehrenschuetze",
+				"nutella_sammler",
+				"dicker_bert",
+				"schnarch_knolle",
+				"boom_beere",
+				"eis_gooby",
+				"doppelmoehre"
+			],
+			"new_towers": [
+				"doppelmoehre"
+			],
+			"new_zombies": [
+				"tuersteher"
+			],
+			"mods": {
+				"night": true
+			},
+			"waves": [
+				{
+					"t": 125,
+					"huge": false
+				},
+				{
+					"t": 266,
+					"huge": true
+				}
+			],
+			"spawns": [
+				{
+					"t": 66.9,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 78.3,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 94.8,
+					"lane": 3,
+					"type": "huetchen"
+				},
+				{
+					"t": 109.3,
+					"lane": 4,
+					"type": "sprinter"
+				},
+				{
+					"t": 115,
+					"lane": 1,
+					"type": "tuersteher"
+				},
+				{
+					"t": 123.2,
+					"lane": 3,
+					"type": "zeitungsopa"
+				},
+				{
+					"t": 137.5,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 140,
+					"lane": 3,
+					"type": "zeitungsopa"
+				},
+				{
+					"t": 149.0,
+					"lane": 0,
+					"type": "tuersteher"
+				},
+				{
+					"t": 161.8,
+					"lane": 0,
+					"type": "eimer"
+				},
+				{
+					"t": 174.1,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 187.9,
+					"lane": 4,
+					"type": "tuersteher"
+				},
+				{
+					"t": 198.7,
+					"lane": 4,
+					"type": "huetchen"
+				},
+				{
+					"t": 205.6,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 219.5,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 228.8,
+					"lane": 4,
+					"type": "huetchen"
+				},
+				{
+					"t": 242.0,
+					"lane": 4,
+					"type": "sprinter"
+				},
+				{
+					"t": 255.9,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 265,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 267.4,
+					"lane": 1,
+					"type": "eimer"
+				},
+				{
+					"t": 268.0,
+					"lane": 3,
+					"type": "tuersteher"
+				},
+				{
+					"t": 268.8,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 268.9,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 269.3,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 269.6,
+					"lane": 4,
+					"type": "tuersteher"
+				},
+				{
+					"t": 270.1,
+					"lane": 2,
+					"type": "sprinter"
+				}
+			]
+		},
+		{
+			"id": 9,
+			"setting": "garage",
+			"lanes": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"start_nutella": 0,
+			"unlock_towers": [
+				"moehrenschuetze",
+				"nutella_sammler",
+				"dicker_bert",
+				"schnarch_knolle",
+				"boom_beere",
+				"eis_gooby",
+				"doppelmoehre"
+			],
+			"new_towers": [],
+			"new_zombies": [],
+			"mods": {
+				"conveyor": true
+			},
+			"waves": [
+				{
+					"t": 100,
+					"huge": false
+				},
+				{
+					"t": 190,
+					"huge": false
+				}
+			],
+			"spawns": [
+				{
+					"t": 32.2,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 42.4,
+					"lane": 3,
+					"type": "zeitungsopa"
+				},
+				{
+					"t": 59.1,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 69.0,
+					"lane": 4,
+					"type": "sprinter"
+				},
+				{
+					"t": 84.5,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 94.7,
+					"lane": 3,
+					"type": "huetchen"
+				},
+				{
+					"t": 110,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 111.7,
+					"lane": 0,
+					"type": "huetchen"
+				},
+				{
+					"t": 122.5,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 131.0,
+					"lane": 3,
+					"type": "sprinter"
+				},
+				{
+					"t": 142.3,
+					"lane": 2,
+					"type": "huetchen"
+				},
+				{
+					"t": 152.5,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 158.7,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 168.2,
+					"lane": 0,
+					"type": "huetchen"
+				},
+				{
+					"t": 182.3,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 192.4,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 197.8,
+					"lane": 1,
+					"type": "zeitungsopa"
+				},
+				{
+					"t": 209.5,
+					"lane": 0,
+					"type": "schlurfi"
+				}
+			],
+			"conveyor": {
+				"start_delay_ticks": 20,
+				"interval_ticks": 130,
+				"max_queue": 5,
+				"pool": [
+					"moehrenschuetze",
+					"moehrenschuetze",
+					"doppelmoehre",
+					"dicker_bert",
+					"schnarch_knolle",
+					"boom_beere",
+					"eis_gooby"
+				]
+			}
+		},
+		{
+			"id": 10,
+			"setting": "garage",
+			"lanes": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"start_nutella": 100,
+			"unlock_towers": [
+				"moehrenschuetze",
+				"nutella_sammler",
+				"dicker_bert",
+				"schnarch_knolle",
+				"boom_beere",
+				"eis_gooby",
+				"doppelmoehre",
+				"magnet_gooby"
+			],
+			"new_towers": [
+				"magnet_gooby"
+			],
+			"new_zombies": [
+				"maulwurf",
+				"brocken"
+			],
+			"mods": {},
+			"waves": [
+				{
+					"t": 115,
+					"huge": false
+				},
+				{
+					"t": 243,
+					"huge": true
+				}
+			],
+			"spawns": [
+				{
+					"t": 30,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 49.9,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 63.2,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 83.0,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 104.7,
+					"lane": 2,
+					"type": "tuersteher"
+				},
+				{
+					"t": 117.3,
+					"lane": 1,
+					"type": "huetchen"
+				},
+				{
+					"t": 122.8,
+					"lane": 4,
+					"type": "tuersteher"
+				},
+				{
+					"t": 127.5,
+					"lane": 4,
+					"type": "maulwurf"
+				},
+				{
+					"t": 133.5,
+					"lane": 1,
+					"type": "maulwurf"
+				},
+				{
+					"t": 142.8,
+					"lane": 2,
+					"type": "maulwurf"
+				},
+				{
+					"t": 153.1,
+					"lane": 1,
+					"type": "eimer"
+				},
+				{
+					"t": 160.0,
+					"lane": 4,
+					"type": "eimer"
+				},
+				{
+					"t": 169.0,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 174.9,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 184.7,
+					"lane": 4,
+					"type": "huetchen"
+				},
+				{
+					"t": 191.9,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 205.0,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 207.6,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 217.4,
+					"lane": 4,
+					"type": "huetchen"
+				},
+				{
+					"t": 227.7,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 235,
+					"lane": 0,
+					"type": "huetchen"
+				},
+				{
+					"t": 244.4,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 245.9,
+					"lane": 3,
+					"type": "huetchen"
+				},
+				{
+					"t": 246.3,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 246.4,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 248.0,
+					"lane": 2,
+					"type": "brocken"
+				}
+			]
+		},
+		{
+			"id": 11,
+			"setting": "garten",
+			"lanes": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"start_nutella": 125,
+			"unlock_towers": [
+				"moehrenschuetze",
+				"nutella_sammler",
+				"dicker_bert",
+				"schnarch_knolle",
+				"boom_beere",
+				"eis_gooby",
+				"doppelmoehre",
+				"magnet_gooby",
+				"trampolin_gooby"
+			],
+			"new_towers": [
+				"trampolin_gooby"
+			],
+			"new_zombies": [],
+			"mods": {
+				"fog_cols": 3
+			},
+			"waves": [
+				{
+					"t": 115,
+					"huge": false
+				},
+				{
+					"t": 230,
+					"huge": true
+				}
+			],
+			"spawns": [
+				{
+					"t": 30,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 45.7,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 63.4,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 90.9,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 109.7,
+					"lane": 3,
+					"type": "huetchen"
+				},
+				{
+					"t": 110,
+					"lane": 1,
+					"type": "tuersteher"
+				},
+				{
+					"t": 125,
+					"lane": 0,
+					"type": "huepfer"
+				},
+				{
+					"t": 125,
+					"lane": 4,
+					"type": "sprinter"
+				},
+				{
+					"t": 131.8,
+					"lane": 2,
+					"type": "huepfer"
+				},
+				{
+					"t": 138.6,
+					"lane": 4,
+					"type": "huetchen"
+				},
+				{
+					"t": 149.2,
+					"lane": 0,
+					"type": "eimer"
+				},
+				{
+					"t": 154.5,
+					"lane": 2,
+					"type": "eimer"
+				},
+				{
+					"t": 161.8,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 166.1,
+					"lane": 0,
+					"type": "tuersteher"
+				},
+				{
+					"t": 174.8,
+					"lane": 0,
+					"type": "sprinter"
+				},
+				{
+					"t": 180.9,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 187.8,
+					"lane": 0,
+					"type": "huetchen"
+				},
+				{
+					"t": 197.7,
+					"lane": 0,
+					"type": "huetchen"
+				},
+				{
+					"t": 200.9,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 209.5,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 216.3,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 224.6,
+					"lane": 2,
+					"type": "sprinter"
+				},
+				{
+					"t": 229.9,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 236.9,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 245,
+					"lane": 0,
+					"type": "schlurfi"
+				}
+			]
+		},
+		{
+			"id": 12,
+			"setting": "garten",
+			"lanes": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"start_nutella": 125,
+			"unlock_towers": [
+				"moehrenschuetze",
+				"nutella_sammler",
+				"dicker_bert",
+				"schnarch_knolle",
+				"boom_beere",
+				"eis_gooby",
+				"doppelmoehre",
+				"magnet_gooby",
+				"trampolin_gooby",
+				"pust_gooby"
+			],
+			"new_towers": [
+				"pust_gooby"
+			],
+			"new_zombies": [
+				"ballon"
+			],
+			"mods": {},
+			"waves": [
+				{
+					"t": 115,
+					"huge": false
+				},
+				{
+					"t": 235,
+					"huge": true
+				}
+			],
+			"spawns": [
+				{
+					"t": 30,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 56.7,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 76.1,
+					"lane": 3,
+					"type": "huetchen"
+				},
+				{
+					"t": 102.4,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 123.4,
+					"lane": 1,
+					"type": "ballon"
+				},
+				{
+					"t": 126.1,
+					"lane": 0,
+					"type": "zeitungsopa"
+				},
+				{
+					"t": 131.7,
+					"lane": 1,
+					"type": "ballon"
+				},
+				{
+					"t": 146.1,
+					"lane": 3,
+					"type": "ballon"
+				},
+				{
+					"t": 153.9,
+					"lane": 0,
+					"type": "huetchen"
+				},
+				{
+					"t": 166.4,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 175.8,
+					"lane": 0,
+					"type": "eimer"
+				},
+				{
+					"t": 183.7,
+					"lane": 1,
+					"type": "eimer"
+				},
+				{
+					"t": 192.5,
+					"lane": 3,
+					"type": "ballon"
+				},
+				{
+					"t": 202.3,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 211.9,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 223.0,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 227.6,
+					"lane": 4,
+					"type": "ballon"
+				},
+				{
+					"t": 231.4,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 240.2,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 244.6,
+					"lane": 3,
+					"type": "eimer"
+				},
+				{
+					"t": 249.3,
+					"lane": 0,
+					"type": "huepfer"
+				}
+			]
+		},
+		{
+			"id": 13,
+			"setting": "garten",
+			"lanes": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"start_nutella": 125,
+			"unlock_towers": [
+				"moehrenschuetze",
+				"nutella_sammler",
+				"dicker_bert",
+				"schnarch_knolle",
+				"boom_beere",
+				"eis_gooby",
+				"doppelmoehre",
+				"magnet_gooby",
+				"trampolin_gooby",
+				"pust_gooby",
+				"sternchen_gooby"
+			],
+			"new_towers": [
+				"sternchen_gooby"
+			],
+			"new_zombies": [],
+			"mods": {
+				"rain": true
+			},
+			"waves": [
+				{
+					"t": 90,
+					"huge": false
+				},
+				{
+					"t": 170,
+					"huge": false
+				},
+				{
+					"t": 245,
+					"huge": true
+				}
+			],
+			"spawns": [
+				{
+					"t": 32.2,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 39.0,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 54.6,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 60.9,
+					"lane": 1,
+					"type": "huepfer"
+				},
+				{
+					"t": 77.0,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 89.2,
+					"lane": 2,
+					"type": "tuersteher"
+				},
+				{
+					"t": 99.5,
+					"lane": 0,
+					"type": "zeitungsopa"
+				},
+				{
+					"t": 111.0,
+					"lane": 2,
+					"type": "huetchen"
+				},
+				{
+					"t": 120,
+					"lane": 4,
+					"type": "ballon"
+				},
+				{
+					"t": 120.2,
+					"lane": 2,
+					"type": "ballon"
+				},
+				{
+					"t": 125,
+					"lane": 4,
+					"type": "sprinter"
+				},
+				{
+					"t": 130.9,
+					"lane": 2,
+					"type": "sprinter"
+				},
+				{
+					"t": 137.4,
+					"lane": 4,
+					"type": "sprinter"
+				},
+				{
+					"t": 142.2,
+					"lane": 1,
+					"type": "maulwurf"
+				},
+				{
+					"t": 149.8,
+					"lane": 4,
+					"type": "maulwurf"
+				},
+				{
+					"t": 153.6,
+					"lane": 1,
+					"type": "eimer"
+				},
+				{
+					"t": 163.4,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 164.7,
+					"lane": 3,
+					"type": "tuersteher"
+				},
+				{
+					"t": 173.7,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 178.0,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 187.2,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 188.8,
+					"lane": 3,
+					"type": "huetchen"
+				},
+				{
+					"t": 198.1,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 203.0,
+					"lane": 1,
+					"type": "huetchen"
+				},
+				{
+					"t": 209.4,
+					"lane": 2,
+					"type": "huepfer"
+				},
+				{
+					"t": 216.2,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 218.0,
+					"lane": 2,
+					"type": "zeitungsopa"
+				},
+				{
+					"t": 225.8,
+					"lane": 1,
+					"type": "tuersteher"
+				},
+				{
+					"t": 233.9,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 235.8,
+					"lane": 3,
+					"type": "eimer"
+				},
+				{
+					"t": 241.5,
+					"lane": 4,
+					"type": "huetchen"
+				},
+				{
+					"t": 246.4,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 252.2,
+					"lane": 4,
+					"type": "eimer"
+				}
+			]
+		},
+		{
+			"id": 14,
+			"setting": "dach",
+			"lanes": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"start_nutella": 150,
+			"unlock_towers": [
+				"moehrenschuetze",
+				"nutella_sammler",
+				"dicker_bert",
+				"schnarch_knolle",
+				"boom_beere",
+				"eis_gooby",
+				"doppelmoehre",
+				"magnet_gooby",
+				"trampolin_gooby",
+				"pust_gooby",
+				"sternchen_gooby",
+				"melonen_meier"
+			],
+			"new_towers": [
+				"melonen_meier"
+			],
+			"new_zombies": [],
+			"mods": {},
+			"waves": [
+				{
+					"t": 117,
+					"huge": true
+				},
+				{
+					"t": 188,
+					"huge": true
+				},
+				{
+					"t": 260,
+					"huge": true
+				}
+			],
+			"spawns": [
+				{
+					"t": 40,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 86.2,
+					"lane": 0,
+					"type": "huetchen"
+				},
+				{
+					"t": 120.6,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 121.0,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 121.0,
+					"lane": 3,
+					"type": "huetchen"
+				},
+				{
+					"t": 122.1,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 135,
+					"lane": 2,
+					"type": "ballon"
+				},
+				{
+					"t": 135,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 138.5,
+					"lane": 2,
+					"type": "ballon"
+				},
+				{
+					"t": 145.9,
+					"lane": 3,
+					"type": "eimer"
+				},
+				{
+					"t": 153.4,
+					"lane": 3,
+					"type": "maulwurf"
+				},
+				{
+					"t": 158.0,
+					"lane": 1,
+					"type": "brocken"
+				},
+				{
+					"t": 162.6,
+					"lane": 0,
+					"type": "maulwurf"
+				},
+				{
+					"t": 168.8,
+					"lane": 0,
+					"type": "sprinter"
+				},
+				{
+					"t": 173.4,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 177.3,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 187.0,
+					"lane": 3,
+					"type": "eimer"
+				},
+				{
+					"t": 190.7,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 191.1,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 191.2,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 191.9,
+					"lane": 1,
+					"type": "sprinter"
+				},
+				{
+					"t": 192.1,
+					"lane": 4,
+					"type": "tuersteher"
+				},
+				{
+					"t": 196.8,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 202.8,
+					"lane": 2,
+					"type": "tuersteher"
+				},
+				{
+					"t": 210.8,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 214.8,
+					"lane": 0,
+					"type": "zeitungsopa"
+				},
+				{
+					"t": 222.1,
+					"lane": 0,
+					"type": "huetchen"
+				},
+				{
+					"t": 226.9,
+					"lane": 3,
+					"type": "huetchen"
+				},
+				{
+					"t": 233.7,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 242.9,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 248.6,
+					"lane": 1,
+					"type": "huepfer"
+				},
+				{
+					"t": 255,
+					"lane": 3,
+					"type": "tuersteher"
+				},
+				{
+					"t": 262.9,
+					"lane": 1,
+					"type": "schlurfi"
+				},
+				{
+					"t": 262.9,
+					"lane": 4,
+					"type": "huetchen"
+				},
+				{
+					"t": 263.2,
+					"lane": 0,
+					"type": "schlurfi"
+				},
+				{
+					"t": 263.8,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 266.0,
+					"lane": 3,
+					"type": "brocken"
+				}
+			]
+		},
+		{
+			"id": 15,
+			"setting": "strasse",
+			"lanes": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"start_nutella": 200,
+			"unlock_towers": [
+				"moehrenschuetze",
+				"nutella_sammler",
+				"dicker_bert",
+				"schnarch_knolle",
+				"boom_beere",
+				"eis_gooby",
+				"doppelmoehre",
+				"magnet_gooby",
+				"trampolin_gooby",
+				"pust_gooby",
+				"sternchen_gooby",
+				"melonen_meier"
+			],
+			"new_towers": [],
+			"new_zombies": [
+				"boss_knurps"
+			],
+			"mods": {
+				"conveyor": true,
+				"conveyor_hybrid": true
+			},
+			"waves": [
+				{
+					"t": 8,
+					"huge": true
+				}
+			],
+			"spawns": [
+				{
+					"t": 22.1,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 28.4,
+					"lane": 2,
+					"type": "tuersteher"
+				},
+				{
+					"t": 39.8,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 48.7,
+					"lane": 2,
+					"type": "schlurfi"
+				},
+				{
+					"t": 59.1,
+					"lane": 1,
+					"type": "ballon"
+				},
+				{
+					"t": 72.2,
+					"lane": 3,
+					"type": "ballon"
+				},
+				{
+					"t": 78.3,
+					"lane": 4,
+					"type": "eimer"
+				},
+				{
+					"t": 89.5,
+					"lane": 4,
+					"type": "schlurfi"
+				},
+				{
+					"t": 99.7,
+					"lane": 3,
+					"type": "schlurfi"
+				},
+				{
+					"t": 109.9,
+					"lane": 3,
+					"type": "schlurfi"
+				}
+			],
+			"conveyor": {
+				"start_delay_ticks": 60,
+				"interval_ticks": 140,
+				"max_queue": 4,
+				"pool": [
+					"moehrenschuetze",
+					"boom_beere",
+					"eis_gooby",
+					"dicker_bert",
+					"pust_gooby"
+				]
+			},
+			"boss": {
+				"type": "boss_knurps",
+				"enter_at": 30
+			}
+		}
+	]
+}

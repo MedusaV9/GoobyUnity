@@ -1,0 +1,60 @@
+{
+	"fuettern": {
+		"chip": {
+			"alle": "Alles",
+			"gemuese": "Gemüse & Obst",
+			"suesses": "Süßes",
+			"warm": "Warmes",
+			"getraenke": "Getränke"
+		},
+		"vorrat_badge": "×{anzahl}",
+		"pill_hunger": "+{wert} Hunger",
+		"pill_spass": "+{wert} Spaß",
+		"junk_warnung": "Zucker!",
+		"leer_titel": "Der Kühlschrank gähnt vor Leere…",
+		"leer_tipp": "Zeit für einen Einkaufsbummel: REHWEI hat Nachschub für hungrige Goobys.",
+		"leer_rehwei": "Zu REHWEI fahren",
+		"sprueche": {
+			"gemuese": [
+				"Knack! Frisch aus dem Garten direkt in den Bauch.",
+				"{essen} macht die Ohren ganz aufgeregt!",
+				"Mjam, so schmeckt Sonnenschein.",
+				"Vitamine? Vita-MEINS!",
+				"Gooby knuspert sich glücklich.",
+				"So ein feines Grünzeug — Kompliment an den Kühlschrank!",
+				"Noch ein Bissen und Gooby hüpft bis zur Decke.",
+				"Frisch, knackig, weg ist es."
+			],
+			"suesses": [
+				"Mmmh… Zucker macht Wirbelohren!",
+				"{essen}! Der Bauch tanzt Samba.",
+				"Pssst — bloß nicht der Zahnbürste verraten.",
+				"So süß, da kribbeln die Backen!",
+				"Ein Krümel Glück, direkt ins Herz.",
+				"Nasch-Alarm! Gooby ist im Paradies.",
+				"Danach vielleicht ein Möhrchen… vielleicht.",
+				"Zucker-Turbo geladen!"
+			],
+			"warm": [
+				"Ofenwarm ins Herz — danke, Kühlschrank-Magie!",
+				"{essen} macht den Bauch zur Kuscheldecke.",
+				"Herzhaft! Gooby schnurrt fast.",
+				"Das schmeckt nach Zuhause.",
+				"Großer Happen, großes Glück.",
+				"Mampf-mampf — Pause — mampf!",
+				"So gut, da bleibt kein Krümel übrig.",
+				"Warmes Essen, warme Ohren."
+			],
+			"getraenke": [
+				"Gluck-gluck — bis zum letzten Tropfen!",
+				"{essen} löscht sogar Ohrendurst.",
+				"Blubberblasen im Bauch!",
+				"Erfrischend! Gooby glitzert von innen.",
+				"Prost aufs Kühlschrank-Leben!",
+				"Ein Schluck Glück, bitte nachfüllen.",
+				"Durst? War da. Ist weg.",
+				"Kühl, spritzig, gooby-tastisch!"
+			]
+		}
+	}
+}

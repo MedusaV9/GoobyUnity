@@ -1,0 +1,31 @@
+{
+	"radio": {
+		"titel": "Radio",
+		"aus": "Radio aus",
+		"an": "Einschalten",
+		"sender": "Sender",
+		"jetzt": "Jetzt läuft",
+		"kein_titel": "Gerade Stille im Äther.",
+		"lautstaerke": "Lautstärke",
+		"gefaellt": "Gefällt mir",
+		"gefaellt_nicht_mehr": "Gemerkt — nicht mehr Liebling.",
+		"gemerkt": "Gemerkt als Lieblingssong!",
+		"lieblinge": "Lieblingssongs",
+		"naechster": "Nächster Titel",
+		"schliessen": "Schließen",
+		"gesperrt_sender": "Ab Level {level}",
+		"gesperrt_titel": "Ab Level {level}",
+		"merken_kurz": "Merken",
+		"liebling_kurz": "Liebling",
+		"freigeschaltet": "{n} von {gesamt} Songs freigeschaltet",
+		"titel_liste": "Titel auf diesem Sender",
+		"level_hinweis": "Mehr Songs schalten sich mit deinem Level frei.",
+		"was_laeuft": "Was läuft?",
+		"ticker": "{titel} · {sender}",
+		"bordmusik_titel": "Bordmusik",
+		"kauf_hinweis_titel": "Noch kein eigenes Radio",
+		"kauf_hinweis": "Hol dir ein Radio bei IKEA, dann gibt’s alle Sender!",
+		"bordmusik_hinweis": "Bis dahin schnurrt an Bord genau ein Lieblings-Loop: {titel}.",
+		"nur_mit_radio": "Erst mit eigenem Radio — ab zu IKEA!"
+	}
+}

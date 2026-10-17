@@ -1,0 +1,96 @@
+{
+	"postkarten": {
+		"titel": "Postcard Archive",
+		"leer": "No postcard yet. Gooby has to travel first.",
+		"anzahl": "{n} postcards collected",
+		"tag": "Day {tag}",
+		"von": "From: {ort}",
+		"ansehen": "View",
+		"zurueck": "Back",
+		"souvenir": {
+			"titel": "Souvenir Shelf",
+			"leer": "The shelf is still empty — every trip brings a souvenir.",
+			"fortschritt": "{n} of {gesamt} destinations visited",
+			"offen": "Still open"
+		},
+		"set": {
+			"titel": "Set Bonus",
+			"hinweis": "Visit many destinations and collect extra coins.",
+			"stufe": "{n} destinations: {bonus} coins",
+			"abholen": "Collect bonus (+{bonus} coins)",
+			"abgeholt": "Bonus collected",
+			"noch_nicht": "Not reached yet",
+			"erhalten": "Set bonus: +{bonus} coins!"
+		},
+		"wand": {
+			"item_name": "Postcard Wall",
+			"beschreibung": "Shows the newest postcards from the archive on your wall.",
+			"erhalten": "New in storage: the postcard wall! Hang it in build mode."
+		},
+		"text": {
+			"beach": {
+				"1": "The sand really sparkles here. Gooby adopted three shells.",
+				"2": "Waves counted: all of them. Gooby waves at every single fish.",
+				"3": "Sun hat on, paws in the sand — that is the whole plan today.",
+				"4": "The sea sounds like applause. Gooby takes a bow, just in case.",
+				"5": "Sandcastle number four stands! The tide politely waits."
+			},
+			"meadowTrip": {
+				"1": "So many flowers! Gooby sneezes with joy.",
+				"2": "A butterfly sat on Gooby's nose. Both acted very calm.",
+				"3": "Picnic in the tall grass — carrots taste twice as good here.",
+				"4": "Gooby wove a flower crown. It sits a bit crooked. Perfect.",
+				"5": "The meadow hums and buzzes. Gooby simply hums along."
+			},
+			"bigCity": {
+				"1": "Such tall buildings! Gooby stretches his neck like never before.",
+				"2": "The subway wobbles funnily. Gooby wobbles along in solidarity.",
+				"3": "Lights, lights, lights — the city sparkles into his dreams.",
+				"4": "Gooby ate a pretzel bigger than his head.",
+				"5": "On the viewing deck: wind in the ears, grin on the face."
+			},
+			"space": {
+				"1": "Weightless! Gooby's ears just float along.",
+				"2": "Earth looks like a marble from here. A pretty one.",
+				"3": "Stars close enough to touch — Gooby hurt none of them.",
+				"4": "Space carrots float away. Gooby chases them in slow motion.",
+				"5": "In the space suit Gooby looks like a very round hero."
+			},
+			"harbor": {
+				"1": "The seagulls know Gooby by name now. They all want fries.",
+				"2": "Big ships, small bunny — both honk in a friendly way.",
+				"3": "The lighthouse blinks good night. Gooby blinks back.",
+				"4": "Tried a fish sandwich. Manners briefly beat hunger.",
+				"5": "Practiced sailor knots: the result is modern art."
+			},
+			"spookGarden": {
+				"1": "Boo! The ghosts here are polite and very fluffy.",
+				"2": "A pumpkin smiled at Gooby. Gooby smiled wider.",
+				"3": "Night fog in the garden — perfect for hide and seek with ghosts.",
+				"4": "The cobwebs glitter like garlands. Spookily cozy.",
+				"5": "Gooby practiced saying 'boo'. The ghosts found it adorable."
+			},
+			"bakery": {
+				"1": "It smells like warm bread. Gooby mentally lives here now.",
+				"2": "The baker let Gooby knead the dough. The dough won.",
+				"3": "Cinnamon rolls as big as wheels. Gooby rolls with joy.",
+				"4": "Flour on the nose, pride in the eyes: Gooby's first bun!",
+				"5": "The croissant crunches louder than Gooby. Barely."
+			},
+			"nightSky": {
+				"1": "Counted shooting stars and wished for the same thing: carrots.",
+				"2": "The moon is extra round today. Gooby feels understood.",
+				"3": "The Milky Way glitters like spilled sugar. Pretty!",
+				"4": "Gooby discovered a constellation: the Great Bunny.",
+				"5": "At night the sky is a sparkle park with free entry."
+			},
+			"toyRoom": {
+				"1": "Everything is huge! Or Gooby is tiny. Both are funny.",
+				"2": "The building blocks make a tower up to the lampshade.",
+				"3": "A toy train carries Gooby across the room. First class.",
+				"4": "Hide and seek between plushies: Gooby always wins.",
+				"5": "The marble run clatters a lullaby. Gooby dozes off."
+			}
+		}
+	}
+}

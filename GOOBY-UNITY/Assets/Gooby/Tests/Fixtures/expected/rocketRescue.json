@@ -1,0 +1,2012 @@
+{
+  "modes": {
+    "easy": [
+      {
+        "seed": 1,
+        "score": 210,
+        "rescued": 4,
+        "softLandings": 9,
+        "hardLandings": 0,
+        "fuelLeft": 91.46666666666484,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 2,
+        "score": 228,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 56.933333333328335,
+        "elapsed": 115.56666666666139,
+        "endReason": "complete"
+      },
+      {
+        "seed": 3,
+        "score": 218,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 37.86666666666371,
+        "elapsed": 113.31666666666152,
+        "endReason": "complete"
+      },
+      {
+        "seed": 4,
+        "score": 228,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 57.19999999999824,
+        "elapsed": 111.31666666666163,
+        "endReason": "complete"
+      },
+      {
+        "seed": 5,
+        "score": 201,
+        "rescued": 4,
+        "softLandings": 9,
+        "hardLandings": 0,
+        "fuelLeft": 72.26666666666529,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 6,
+        "score": 235,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 70.53333333333187,
+        "elapsed": 98.03333333332905,
+        "endReason": "complete"
+      },
+      {
+        "seed": 7,
+        "score": 228,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 57.99999999999595,
+        "elapsed": 98.59999999999569,
+        "endReason": "complete"
+      },
+      {
+        "seed": 8,
+        "score": 220,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 41.46666666666037,
+        "elapsed": 107.03333333332854,
+        "endReason": "complete"
+      },
+      {
+        "seed": 9,
+        "score": 224,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 48.93333333332525,
+        "elapsed": 115.4666666666614,
+        "endReason": "complete"
+      },
+      {
+        "seed": 10,
+        "score": 235,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 70.79999999999855,
+        "elapsed": 102.18333333332882,
+        "endReason": "complete"
+      },
+      {
+        "seed": 11,
+        "score": 235,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 71.33333333333191,
+        "elapsed": 106.63333333332857,
+        "endReason": "complete"
+      },
+      {
+        "seed": 12,
+        "score": 235,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 70.39999999999853,
+        "elapsed": 100.0999999999956,
+        "endReason": "complete"
+      },
+      {
+        "seed": 13,
+        "score": 215,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 30.666666666665,
+        "elapsed": 97.88333333332906,
+        "endReason": "complete"
+      },
+      {
+        "seed": 14,
+        "score": 225,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 51.333333333331595,
+        "elapsed": 116.61666666666133,
+        "endReason": "complete"
+      },
+      {
+        "seed": 15,
+        "score": 223,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 47.999999999996824,
+        "elapsed": 92.53333333332937,
+        "endReason": "complete"
+      },
+      {
+        "seed": 16,
+        "score": 207,
+        "rescued": 4,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 75.5999999999907,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 17,
+        "score": 227,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 54.133333333326156,
+        "elapsed": 100.08333333332894,
+        "endReason": "complete"
+      },
+      {
+        "seed": 18,
+        "score": 241,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 82.6666666666658,
+        "elapsed": 89.53333333332954,
+        "endReason": "complete"
+      },
+      {
+        "seed": 19,
+        "score": 231,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 62.53333333332512,
+        "elapsed": 100.46666666666225,
+        "endReason": "complete"
+      },
+      {
+        "seed": 20,
+        "score": 242,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 84.13333333333254,
+        "elapsed": 95.18333333332922,
+        "endReason": "complete"
+      },
+      {
+        "seed": 21,
+        "score": 193,
+        "rescued": 4,
+        "softLandings": 9,
+        "hardLandings": 0,
+        "fuelLeft": 56.53333333333054,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 22,
+        "score": 227,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 54.66666666665875,
+        "elapsed": 112.81666666666155,
+        "endReason": "complete"
+      },
+      {
+        "seed": 23,
+        "score": 243,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 87.9999999999994,
+        "elapsed": 104.11666666666204,
+        "endReason": "complete"
+      },
+      {
+        "seed": 24,
+        "score": 230,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 60.53333333333156,
+        "elapsed": 111.13333333332831,
+        "endReason": "complete"
+      },
+      {
+        "seed": 25,
+        "score": 241,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 82.26666666666578,
+        "elapsed": 106.01666666666193,
+        "endReason": "complete"
+      },
+      {
+        "seed": 26,
+        "score": 242,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 84.93333333333258,
+        "elapsed": 93.13333333332933,
+        "endReason": "complete"
+      },
+      {
+        "seed": 27,
+        "score": 236,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 73.59999999999869,
+        "elapsed": 97.64999999999574,
+        "endReason": "complete"
+      },
+      {
+        "seed": 28,
+        "score": 238,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 77.73333333333223,
+        "elapsed": 93.11666666666267,
+        "endReason": "complete"
+      },
+      {
+        "seed": 29,
+        "score": 233,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 67.46666666666356,
+        "elapsed": 95.64999999999586,
+        "endReason": "complete"
+      },
+      {
+        "seed": 30,
+        "score": 220,
+        "rescued": 5,
+        "softLandings": 9,
+        "hardLandings": 0,
+        "fuelLeft": 50.933333333331596,
+        "elapsed": 115.88333333332804,
+        "endReason": "complete"
+      },
+      {
+        "seed": 31,
+        "score": 239,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 78.66666666666411,
+        "elapsed": 87.54999999999632,
+        "endReason": "complete"
+      },
+      {
+        "seed": 32,
+        "score": 237,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 74.13333333333205,
+        "elapsed": 87.33333333332966,
+        "endReason": "complete"
+      },
+      {
+        "seed": 33,
+        "score": 235,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 70.93333333333189,
+        "elapsed": 105.71666666666195,
+        "endReason": "complete"
+      },
+      {
+        "seed": 34,
+        "score": 219,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 38.266666666664975,
+        "elapsed": 86.39999999999638,
+        "endReason": "complete"
+      },
+      {
+        "seed": 35,
+        "score": 200,
+        "rescued": 4,
+        "softLandings": 9,
+        "hardLandings": 0,
+        "fuelLeft": 71.59999999999859,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 36,
+        "score": 231,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 63.466666666664885,
+        "elapsed": 103.13333333332876,
+        "endReason": "complete"
+      },
+      {
+        "seed": 37,
+        "score": 219,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 38.66666666666497,
+        "elapsed": 111.74999999999494,
+        "endReason": "complete"
+      },
+      {
+        "seed": 38,
+        "score": 223,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 46.79999999999596,
+        "elapsed": 108.68333333332845,
+        "endReason": "complete"
+      },
+      {
+        "seed": 39,
+        "score": 238,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 77.73333333333223,
+        "elapsed": 104.39999999999536,
+        "endReason": "complete"
+      },
+      {
+        "seed": 40,
+        "score": 242,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 84.53333333333256,
+        "elapsed": 93.64999999999597,
+        "endReason": "complete"
+      },
+      {
+        "seed": 41,
+        "score": 238,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 77.9999999999989,
+        "elapsed": 99.76666666666229,
+        "endReason": "complete"
+      },
+      {
+        "seed": 42,
+        "score": 226,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 53.86666666666492,
+        "elapsed": 95.5333333333292,
+        "endReason": "complete"
+      },
+      {
+        "seed": 43,
+        "score": 217,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 34.39999999999832,
+        "elapsed": 89.34999999999621,
+        "endReason": "complete"
+      },
+      {
+        "seed": 44,
+        "score": 244,
+        "rescued": 5,
+        "softLandings": 11,
+        "hardLandings": 0,
+        "fuelLeft": 78.13333333333225,
+        "elapsed": 75.31666666666368,
+        "endReason": "complete"
+      },
+      {
+        "seed": 45,
+        "score": 235,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 70.26666666666519,
+        "elapsed": 88.3833333333296,
+        "endReason": "complete"
+      },
+      {
+        "seed": 46,
+        "score": 227,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 55.999999999991296,
+        "elapsed": 104.49999999999535,
+        "endReason": "complete"
+      },
+      {
+        "seed": 47,
+        "score": 227,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 55.06666666666278,
+        "elapsed": 101.8499999999955,
+        "endReason": "complete"
+      },
+      {
+        "seed": 48,
+        "score": 240,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 80.6666666666657,
+        "elapsed": 94.3166666666626,
+        "endReason": "complete"
+      },
+      {
+        "seed": 49,
+        "score": 237,
+        "rescued": 5,
+        "softLandings": 11,
+        "hardLandings": 0,
+        "fuelLeft": 65.06666666666493,
+        "elapsed": 106.21666666666192,
+        "endReason": "complete"
+      },
+      {
+        "seed": 50,
+        "score": 193,
+        "rescued": 4,
+        "softLandings": 9,
+        "hardLandings": 0,
+        "fuelLeft": 57.33333333332225,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1,
+        "score": 195,
+        "rescued": 4,
+        "softLandings": 9,
+        "hardLandings": 0,
+        "fuelLeft": 61.599999999997074,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 2,
+        "score": 215,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 31.73333333333003,
+        "elapsed": 97.26666666666243,
+        "endReason": "complete"
+      },
+      {
+        "seed": 3,
+        "score": 218,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 37.86666666666371,
+        "elapsed": 113.31666666666152,
+        "endReason": "complete"
+      },
+      {
+        "seed": 4,
+        "score": 228,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 57.19999999999824,
+        "elapsed": 111.31666666666163,
+        "endReason": "complete"
+      },
+      {
+        "seed": 5,
+        "score": 199,
+        "rescued": 4,
+        "softLandings": 9,
+        "hardLandings": 0,
+        "fuelLeft": 69.33333333333181,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 6,
+        "score": 239,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 79.86666666666567,
+        "elapsed": 97.14999999999577,
+        "endReason": "complete"
+      },
+      {
+        "seed": 7,
+        "score": 228,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 57.99999999999595,
+        "elapsed": 98.59999999999569,
+        "endReason": "complete"
+      },
+      {
+        "seed": 8,
+        "score": 220,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 41.46666666666037,
+        "elapsed": 107.03333333332854,
+        "endReason": "complete"
+      },
+      {
+        "seed": 9,
+        "score": 205,
+        "rescued": 4,
+        "softLandings": 9,
+        "hardLandings": 0,
+        "fuelLeft": 80.79999999999139,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 10,
+        "score": 235,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 70.79999999999855,
+        "elapsed": 102.18333333332882,
+        "endReason": "complete"
+      },
+      {
+        "seed": 11,
+        "score": 235,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 71.33333333333191,
+        "elapsed": 106.63333333332857,
+        "endReason": "complete"
+      },
+      {
+        "seed": 12,
+        "score": 235,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 70.39999999999853,
+        "elapsed": 100.0999999999956,
+        "endReason": "complete"
+      },
+      {
+        "seed": 13,
+        "score": 214,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 29.999999999998337,
+        "elapsed": 97.56666666666241,
+        "endReason": "complete"
+      },
+      {
+        "seed": 14,
+        "score": 225,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 51.333333333331595,
+        "elapsed": 116.61666666666133,
+        "endReason": "complete"
+      },
+      {
+        "seed": 15,
+        "score": 223,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 47.999999999996824,
+        "elapsed": 92.53333333332937,
+        "endReason": "complete"
+      },
+      {
+        "seed": 16,
+        "score": 207,
+        "rescued": 4,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 75.5999999999907,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 17,
+        "score": 222,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 44.93333333333052,
+        "elapsed": 108.64999999999512,
+        "endReason": "complete"
+      },
+      {
+        "seed": 18,
+        "score": 241,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 82.6666666666658,
+        "elapsed": 89.38333333332955,
+        "endReason": "complete"
+      },
+      {
+        "seed": 19,
+        "score": 228,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 57.99999999999305,
+        "elapsed": 101.18333333332887,
+        "endReason": "complete"
+      },
+      {
+        "seed": 20,
+        "score": 242,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 84.13333333333254,
+        "elapsed": 95.18333333332922,
+        "endReason": "complete"
+      },
+      {
+        "seed": 21,
+        "score": 204,
+        "rescued": 4,
+        "softLandings": 9,
+        "hardLandings": 0,
+        "fuelLeft": 78.6666666666656,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 22,
+        "score": 226,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 53.99999999999213,
+        "elapsed": 112.58333333332823,
+        "endReason": "complete"
+      },
+      {
+        "seed": 23,
+        "score": 228,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 56.666666666659424,
+        "elapsed": 106.14999999999526,
+        "endReason": "complete"
+      },
+      {
+        "seed": 24,
+        "score": 196,
+        "rescued": 4,
+        "softLandings": 8,
+        "hardLandings": 0,
+        "fuelLeft": 73.73333333333203,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 25,
+        "score": 241,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 82.39999999999912,
+        "elapsed": 105.78333333332861,
+        "endReason": "complete"
+      },
+      {
+        "seed": 26,
+        "score": 240,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 81.46666666666574,
+        "elapsed": 93.49999999999598,
+        "endReason": "complete"
+      },
+      {
+        "seed": 27,
+        "score": 236,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 72.79999999999865,
+        "elapsed": 99.26666666666232,
+        "endReason": "complete"
+      },
+      {
+        "seed": 28,
+        "score": 238,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 77.73333333333223,
+        "elapsed": 93.11666666666267,
+        "endReason": "complete"
+      },
+      {
+        "seed": 29,
+        "score": 209,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 18.266666666665046,
+        "elapsed": 101.53333333332886,
+        "endReason": "complete"
+      },
+      {
+        "seed": 30,
+        "score": 220,
+        "rescued": 5,
+        "softLandings": 9,
+        "hardLandings": 0,
+        "fuelLeft": 50.933333333331596,
+        "elapsed": 115.88333333332804,
+        "endReason": "complete"
+      },
+      {
+        "seed": 31,
+        "score": 239,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 78.66666666666411,
+        "elapsed": 87.54999999999632,
+        "endReason": "complete"
+      },
+      {
+        "seed": 32,
+        "score": 237,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 74.13333333333205,
+        "elapsed": 87.33333333332966,
+        "endReason": "complete"
+      },
+      {
+        "seed": 33,
+        "score": 235,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 70.66666666666521,
+        "elapsed": 105.68333333332862,
+        "endReason": "complete"
+      },
+      {
+        "seed": 34,
+        "score": 219,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 38.266666666664975,
+        "elapsed": 86.39999999999638,
+        "endReason": "complete"
+      },
+      {
+        "seed": 35,
+        "score": 200,
+        "rescued": 4,
+        "softLandings": 9,
+        "hardLandings": 0,
+        "fuelLeft": 71.59999999999859,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 36,
+        "score": 231,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 63.466666666664885,
+        "elapsed": 103.13333333332876,
+        "endReason": "complete"
+      },
+      {
+        "seed": 37,
+        "score": 213,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 27.866666666663804,
+        "elapsed": 110.94999999999499,
+        "endReason": "complete"
+      },
+      {
+        "seed": 38,
+        "score": 223,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 46.79999999999596,
+        "elapsed": 108.68333333332845,
+        "endReason": "complete"
+      },
+      {
+        "seed": 39,
+        "score": 238,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 77.73333333333223,
+        "elapsed": 104.39999999999536,
+        "endReason": "complete"
+      },
+      {
+        "seed": 40,
+        "score": 242,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 84.53333333333256,
+        "elapsed": 93.64999999999597,
+        "endReason": "complete"
+      },
+      {
+        "seed": 41,
+        "score": 239,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 78.26666666666559,
+        "elapsed": 99.33333333332898,
+        "endReason": "complete"
+      },
+      {
+        "seed": 42,
+        "score": 232,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 64.79999999999538,
+        "elapsed": 100.38333333332892,
+        "endReason": "complete"
+      },
+      {
+        "seed": 43,
+        "score": 229,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 58.133333333329865,
+        "elapsed": 95.73333333332918,
+        "endReason": "complete"
+      },
+      {
+        "seed": 44,
+        "score": 241,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 82.13333333333244,
+        "elapsed": 74.73333333333038,
+        "endReason": "complete"
+      },
+      {
+        "seed": 45,
+        "score": 209,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 19.86666666666504,
+        "elapsed": 94.43333333332926,
+        "endReason": "complete"
+      },
+      {
+        "seed": 46,
+        "score": 227,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 55.999999999991296,
+        "elapsed": 104.49999999999535,
+        "endReason": "complete"
+      },
+      {
+        "seed": 47,
+        "score": 227,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 55.06666666666278,
+        "elapsed": 101.8499999999955,
+        "endReason": "complete"
+      },
+      {
+        "seed": 48,
+        "score": 233,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 66.39999999999833,
+        "elapsed": 98.38333333332903,
+        "endReason": "complete"
+      },
+      {
+        "seed": 49,
+        "score": 237,
+        "rescued": 5,
+        "softLandings": 11,
+        "hardLandings": 0,
+        "fuelLeft": 65.06666666666493,
+        "elapsed": 106.21666666666192,
+        "endReason": "complete"
+      },
+      {
+        "seed": 50,
+        "score": 214,
+        "rescued": 5,
+        "softLandings": 10,
+        "hardLandings": 0,
+        "fuelLeft": 29.866666666656037,
+        "elapsed": 117.41666666666129,
+        "endReason": "complete"
+      }
+    ],
+    "hard": [
+      {
+        "seed": 1,
+        "score": 190,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 3,
+        "fuelLeft": 50.26666666666182,
+        "elapsed": 103.56666666666207,
+        "endReason": "complete"
+      },
+      {
+        "seed": 2,
+        "score": 185,
+        "rescued": 5,
+        "softLandings": 4,
+        "hardLandings": 0,
+        "fuelLeft": 31.73333333333003,
+        "elapsed": 97.26666666666243,
+        "endReason": "complete"
+      },
+      {
+        "seed": 3,
+        "score": 168,
+        "rescued": 4,
+        "softLandings": 2,
+        "hardLandings": 1,
+        "fuelLeft": 76.93333333333116,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 4,
+        "score": 193,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 0,
+        "fuelLeft": 57.19999999999824,
+        "elapsed": 111.31666666666163,
+        "endReason": "complete"
+      },
+      {
+        "seed": 5,
+        "score": 164,
+        "rescued": 4,
+        "softLandings": 2,
+        "hardLandings": 0,
+        "fuelLeft": 69.33333333333181,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 6,
+        "score": 199,
+        "rescued": 5,
+        "softLandings": 2,
+        "hardLandings": 0,
+        "fuelLeft": 79.86666666666567,
+        "elapsed": 97.14999999999577,
+        "endReason": "complete"
+      },
+      {
+        "seed": 7,
+        "score": 188,
+        "rescued": 5,
+        "softLandings": 2,
+        "hardLandings": 0,
+        "fuelLeft": 57.99999999999595,
+        "elapsed": 98.59999999999569,
+        "endReason": "complete"
+      },
+      {
+        "seed": 8,
+        "score": 186,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 1,
+        "fuelLeft": 42.799999999995606,
+        "elapsed": 98.28333333332904,
+        "endReason": "complete"
+      },
+      {
+        "seed": 9,
+        "score": 178,
+        "rescued": 4,
+        "softLandings": 5,
+        "hardLandings": 1,
+        "fuelLeft": 67.19999999999837,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 10,
+        "score": 200,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 0,
+        "fuelLeft": 70.79999999999855,
+        "elapsed": 102.18333333332882,
+        "endReason": "complete"
+      },
+      {
+        "seed": 11,
+        "score": 195,
+        "rescued": 5,
+        "softLandings": 2,
+        "hardLandings": 0,
+        "fuelLeft": 71.33333333333191,
+        "elapsed": 106.63333333332857,
+        "endReason": "complete"
+      },
+      {
+        "seed": 12,
+        "score": 200,
+        "rescued": 5,
+        "softLandings": 4,
+        "hardLandings": 2,
+        "fuelLeft": 60.13333333333047,
+        "elapsed": 101.83333333332884,
+        "endReason": "complete"
+      },
+      {
+        "seed": 13,
+        "score": 189,
+        "rescued": 5,
+        "softLandings": 5,
+        "hardLandings": 0,
+        "fuelLeft": 29.999999999998337,
+        "elapsed": 97.56666666666241,
+        "endReason": "complete"
+      },
+      {
+        "seed": 14,
+        "score": 155,
+        "rescued": 4,
+        "softLandings": 3,
+        "hardLandings": 0,
+        "fuelLeft": 40.53333333333163,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 15,
+        "score": 188,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 0,
+        "fuelLeft": 47.999999999996824,
+        "elapsed": 92.53333333332937,
+        "endReason": "complete"
+      },
+      {
+        "seed": 16,
+        "score": 196,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 1,
+        "fuelLeft": 62.266666666664165,
+        "elapsed": 93.44999999999598,
+        "endReason": "complete"
+      },
+      {
+        "seed": 17,
+        "score": 202,
+        "rescued": 5,
+        "softLandings": 5,
+        "hardLandings": 1,
+        "fuelLeft": 55.06666666666098,
+        "elapsed": 118.54999999999455,
+        "endReason": "complete"
+      },
+      {
+        "seed": 18,
+        "score": 206,
+        "rescued": 5,
+        "softLandings": 5,
+        "hardLandings": 1,
+        "fuelLeft": 63.99999999999746,
+        "elapsed": 87.73333333332964,
+        "endReason": "complete"
+      },
+      {
+        "seed": 19,
+        "score": 203,
+        "rescued": 5,
+        "softLandings": 5,
+        "hardLandings": 0,
+        "fuelLeft": 57.99999999999305,
+        "elapsed": 101.18333333332887,
+        "endReason": "complete"
+      },
+      {
+        "seed": 20,
+        "score": 212,
+        "rescued": 5,
+        "softLandings": 4,
+        "hardLandings": 0,
+        "fuelLeft": 84.13333333333254,
+        "elapsed": 95.18333333332922,
+        "endReason": "complete"
+      },
+      {
+        "seed": 21,
+        "score": 162,
+        "rescued": 4,
+        "softLandings": 1,
+        "hardLandings": 1,
+        "fuelLeft": 75.86666666666547,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 22,
+        "score": 176,
+        "rescued": 5,
+        "softLandings": 0,
+        "hardLandings": 0,
+        "fuelLeft": 53.99999999999213,
+        "elapsed": 112.58333333332823,
+        "endReason": "complete"
+      },
+      {
+        "seed": 23,
+        "score": 198,
+        "rescued": 5,
+        "softLandings": 4,
+        "hardLandings": 0,
+        "fuelLeft": 56.666666666659424,
+        "elapsed": 106.14999999999526,
+        "endReason": "complete"
+      },
+      {
+        "seed": 24,
+        "score": 161,
+        "rescued": 4,
+        "softLandings": 1,
+        "hardLandings": 0,
+        "fuelLeft": 73.73333333333203,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 25,
+        "score": 203,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 1,
+        "fuelLeft": 77.73333333333223,
+        "elapsed": 98.78333333332901,
+        "endReason": "complete"
+      },
+      {
+        "seed": 26,
+        "score": 210,
+        "rescued": 5,
+        "softLandings": 4,
+        "hardLandings": 0,
+        "fuelLeft": 81.46666666666574,
+        "elapsed": 93.49999999999598,
+        "endReason": "complete"
+      },
+      {
+        "seed": 27,
+        "score": 206,
+        "rescued": 5,
+        "softLandings": 4,
+        "hardLandings": 0,
+        "fuelLeft": 72.79999999999865,
+        "elapsed": 99.26666666666232,
+        "endReason": "complete"
+      },
+      {
+        "seed": 28,
+        "score": 203,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 0,
+        "fuelLeft": 77.73333333333223,
+        "elapsed": 93.11666666666267,
+        "endReason": "complete"
+      },
+      {
+        "seed": 29,
+        "score": 174,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 0,
+        "fuelLeft": 18.266666666665046,
+        "elapsed": 101.53333333332886,
+        "endReason": "complete"
+      },
+      {
+        "seed": 30,
+        "score": 150,
+        "rescued": 4,
+        "softLandings": 3,
+        "hardLandings": 3,
+        "fuelLeft": 31.86666666665733,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 31,
+        "score": 199,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 2,
+        "fuelLeft": 68.93333333333179,
+        "elapsed": 86.98333333332968,
+        "endReason": "complete"
+      },
+      {
+        "seed": 32,
+        "score": 200,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 1,
+        "fuelLeft": 71.73333333333193,
+        "elapsed": 84.59999999999648,
+        "endReason": "complete"
+      },
+      {
+        "seed": 33,
+        "score": 200,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 0,
+        "fuelLeft": 70.66666666666521,
+        "elapsed": 105.68333333332862,
+        "endReason": "complete"
+      },
+      {
+        "seed": 34,
+        "score": 147,
+        "rescued": 3,
+        "softLandings": 3,
+        "hardLandings": 7,
+        "fuelLeft": 85.33333333332514,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 35,
+        "score": 192,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 2,
+        "fuelLeft": 54.399999999991856,
+        "elapsed": 105.36666666666197,
+        "endReason": "complete"
+      },
+      {
+        "seed": 36,
+        "score": 196,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 0,
+        "fuelLeft": 63.466666666664885,
+        "elapsed": 103.13333333332876,
+        "endReason": "complete"
+      },
+      {
+        "seed": 37,
+        "score": 163,
+        "rescued": 4,
+        "softLandings": 1,
+        "hardLandings": 6,
+        "fuelLeft": 76.53333333333245,
+        "elapsed": 120.01666666666114,
+        "endReason": "time"
+      },
+      {
+        "seed": 38,
+        "score": 201,
+        "rescued": 5,
+        "softLandings": 4,
+        "hardLandings": 3,
+        "fuelLeft": 63.86666666666248,
+        "elapsed": 115.54999999999472,
+        "endReason": "complete"
+      },
+      {
+        "seed": 39,
+        "score": 198,
+        "rescued": 5,
+        "softLandings": 2,
+        "hardLandings": 0,
+        "fuelLeft": 77.73333333333223,
+        "elapsed": 104.39999999999536,
+        "endReason": "complete"
+      },
+      {
+        "seed": 40,
+        "score": 179,
+        "rescued": 5,
+        "softLandings": 1,
+        "hardLandings": 1,
+        "fuelLeft": 48.533333333329686,
+        "elapsed": 99.98333333332894,
+        "endReason": "complete"
+      },
+      {
+        "seed": 41,
+        "score": 204,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 0,
+        "fuelLeft": 78.26666666666559,
+        "elapsed": 99.33333333332898,
+        "endReason": "complete"
+      },
+      {
+        "seed": 42,
+        "score": 192,
+        "rescued": 5,
+        "softLandings": 2,
+        "hardLandings": 0,
+        "fuelLeft": 64.79999999999538,
+        "elapsed": 100.38333333332892,
+        "endReason": "complete"
+      },
+      {
+        "seed": 43,
+        "score": 192,
+        "rescued": 5,
+        "softLandings": 2,
+        "hardLandings": 3,
+        "fuelLeft": 65.33333333332867,
+        "elapsed": 111.11666666666164,
+        "endReason": "complete"
+      },
+      {
+        "seed": 44,
+        "score": 206,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 2,
+        "fuelLeft": 82.26666666666578,
+        "elapsed": 74.64999999999705,
+        "endReason": "complete"
+      },
+      {
+        "seed": 45,
+        "score": 174,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 0,
+        "fuelLeft": 18.666666666665044,
+        "elapsed": 94.28333333332927,
+        "endReason": "complete"
+      },
+      {
+        "seed": 46,
+        "score": 181,
+        "rescued": 5,
+        "softLandings": 2,
+        "hardLandings": 1,
+        "fuelLeft": 42.799999999991556,
+        "elapsed": 105.83333333332861,
+        "endReason": "complete"
+      },
+      {
+        "seed": 47,
+        "score": 181,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 4,
+        "fuelLeft": 33.7333333333293,
+        "elapsed": 102.49999999999547,
+        "endReason": "complete"
+      },
+      {
+        "seed": 48,
+        "score": 198,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 0,
+        "fuelLeft": 66.39999999999833,
+        "elapsed": 98.38333333332903,
+        "endReason": "complete"
+      },
+      {
+        "seed": 49,
+        "score": 203,
+        "rescued": 5,
+        "softLandings": 2,
+        "hardLandings": 0,
+        "fuelLeft": 86.13333333333264,
+        "elapsed": 88.34999999999627,
+        "endReason": "complete"
+      },
+      {
+        "seed": 50,
+        "score": 178,
+        "rescued": 5,
+        "softLandings": 2,
+        "hardLandings": 2,
+        "fuelLeft": 37.59999999999831,
+        "elapsed": 118.8166666666612,
+        "endReason": "complete"
+      }
+    ],
+    "endless": [
+      {
+        "seed": 1,
+        "score": 255,
+        "rescued": 8,
+        "softLandings": 3,
+        "hardLandings": 5,
+        "fuelLeft": 0,
+        "elapsed": 337.6000000000216,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 2,
+        "score": 245,
+        "rescued": 7,
+        "softLandings": 7,
+        "hardLandings": 4,
+        "fuelLeft": 0,
+        "elapsed": 225.85000000007187,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 3,
+        "score": 240,
+        "rescued": 7,
+        "softLandings": 6,
+        "hardLandings": 2,
+        "fuelLeft": 0,
+        "elapsed": 252.10000000009276,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 4,
+        "score": 200,
+        "rescued": 6,
+        "softLandings": 4,
+        "hardLandings": 2,
+        "fuelLeft": 0,
+        "elapsed": 279.666666666741,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 5,
+        "score": 270,
+        "rescued": 8,
+        "softLandings": 6,
+        "hardLandings": 0,
+        "fuelLeft": 0,
+        "elapsed": 251.3166666667588,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 6,
+        "score": 240,
+        "rescued": 7,
+        "softLandings": 6,
+        "hardLandings": 8,
+        "fuelLeft": 0,
+        "elapsed": 312.91666666671074,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 7,
+        "score": 265,
+        "rescued": 8,
+        "softLandings": 5,
+        "hardLandings": 0,
+        "fuelLeft": 0,
+        "elapsed": 327.5333333333641,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 8,
+        "score": 235,
+        "rescued": 7,
+        "softLandings": 5,
+        "hardLandings": 4,
+        "fuelLeft": 0,
+        "elapsed": 297.8500000000578,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 9,
+        "score": 280,
+        "rescued": 8,
+        "softLandings": 8,
+        "hardLandings": 1,
+        "fuelLeft": 0,
+        "elapsed": 332.9333333333592,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 10,
+        "score": 240,
+        "rescued": 7,
+        "softLandings": 6,
+        "hardLandings": 2,
+        "fuelLeft": 0,
+        "elapsed": 270.8000000000824,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 11,
+        "score": 225,
+        "rescued": 7,
+        "softLandings": 3,
+        "hardLandings": 0,
+        "fuelLeft": 0,
+        "elapsed": 291.8666666667299,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 12,
+        "score": 245,
+        "rescued": 7,
+        "softLandings": 7,
+        "hardLandings": 5,
+        "fuelLeft": 0,
+        "elapsed": 581.4999999997998,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 13,
+        "score": 245,
+        "rescued": 7,
+        "softLandings": 7,
+        "hardLandings": 1,
+        "fuelLeft": 0,
+        "elapsed": 206.01666666672276,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 14,
+        "score": 165,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 6,
+        "fuelLeft": 0,
+        "elapsed": 197.96666666671635,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 15,
+        "score": 230,
+        "rescued": 7,
+        "softLandings": 4,
+        "hardLandings": 2,
+        "fuelLeft": 0,
+        "elapsed": 183.53333333337153,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 16,
+        "score": 90,
+        "rescued": 3,
+        "softLandings": 0,
+        "hardLandings": 1,
+        "fuelLeft": 0,
+        "elapsed": 81.08333333333002,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 17,
+        "score": 210,
+        "rescued": 6,
+        "softLandings": 6,
+        "hardLandings": 3,
+        "fuelLeft": 0,
+        "elapsed": 196.36666666671508,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 18,
+        "score": 240,
+        "rescued": 7,
+        "softLandings": 6,
+        "hardLandings": 2,
+        "fuelLeft": 0,
+        "elapsed": 210.4666666667263,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 19,
+        "score": 195,
+        "rescued": 6,
+        "softLandings": 3,
+        "hardLandings": 0,
+        "fuelLeft": 0,
+        "elapsed": 154.6500000000152,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 20,
+        "score": 235,
+        "rescued": 7,
+        "softLandings": 5,
+        "hardLandings": 2,
+        "fuelLeft": 0,
+        "elapsed": 281.7500000000724,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 21,
+        "score": 165,
+        "rescued": 5,
+        "softLandings": 3,
+        "hardLandings": 2,
+        "fuelLeft": 0,
+        "elapsed": 163.73333333335577,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 22,
+        "score": 225,
+        "rescued": 7,
+        "softLandings": 3,
+        "hardLandings": 5,
+        "fuelLeft": 0,
+        "elapsed": 402.8499999999623,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 23,
+        "score": 210,
+        "rescued": 6,
+        "softLandings": 6,
+        "hardLandings": 4,
+        "fuelLeft": 0,
+        "elapsed": 283.53333333340413,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 24,
+        "score": 220,
+        "rescued": 7,
+        "softLandings": 2,
+        "hardLandings": 5,
+        "fuelLeft": 0,
+        "elapsed": 418.2833333332816,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 25,
+        "score": 235,
+        "rescued": 7,
+        "softLandings": 5,
+        "hardLandings": 4,
+        "fuelLeft": 0,
+        "elapsed": 200.4166666667183,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 26,
+        "score": 235,
+        "rescued": 7,
+        "softLandings": 5,
+        "hardLandings": 2,
+        "fuelLeft": 0,
+        "elapsed": 256.10000000009575,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 27,
+        "score": 215,
+        "rescued": 7,
+        "softLandings": 1,
+        "hardLandings": 4,
+        "fuelLeft": 0,
+        "elapsed": 351.450000000009,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 28,
+        "score": 195,
+        "rescued": 6,
+        "softLandings": 3,
+        "hardLandings": 2,
+        "fuelLeft": 0,
+        "elapsed": 191.58333333337794,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 29,
+        "score": 240,
+        "rescued": 7,
+        "softLandings": 6,
+        "hardLandings": 1,
+        "fuelLeft": 0,
+        "elapsed": 434.333333333267,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 30,
+        "score": 235,
+        "rescued": 7,
+        "softLandings": 5,
+        "hardLandings": 1,
+        "fuelLeft": 0,
+        "elapsed": 207.41666666672387,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 31,
+        "score": 240,
+        "rescued": 7,
+        "softLandings": 6,
+        "hardLandings": 7,
+        "fuelLeft": 0,
+        "elapsed": 375.2166666666541,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 32,
+        "score": 195,
+        "rescued": 6,
+        "softLandings": 3,
+        "hardLandings": 1,
+        "fuelLeft": 0,
+        "elapsed": 117.09999999999464,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 33,
+        "score": 225,
+        "rescued": 7,
+        "softLandings": 3,
+        "hardLandings": 0,
+        "fuelLeft": 0,
+        "elapsed": 307.6666666667155,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 34,
+        "score": 205,
+        "rescued": 6,
+        "softLandings": 5,
+        "hardLandings": 4,
+        "fuelLeft": 0,
+        "elapsed": 185.4666666667064,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 35,
+        "score": 220,
+        "rescued": 7,
+        "softLandings": 2,
+        "hardLandings": 5,
+        "fuelLeft": 0,
+        "elapsed": 370.13333333332537,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 36,
+        "score": 230,
+        "rescued": 7,
+        "softLandings": 4,
+        "hardLandings": 2,
+        "fuelLeft": 0,
+        "elapsed": 234.60000000007884,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 37,
+        "score": 205,
+        "rescued": 6,
+        "softLandings": 5,
+        "hardLandings": 12,
+        "fuelLeft": 0,
+        "elapsed": 383.84999999997956,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 38,
+        "score": 175,
+        "rescued": 5,
+        "softLandings": 5,
+        "hardLandings": 27,
+        "fuelLeft": 0,
+        "elapsed": 463.83333333324015,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 39,
+        "score": 230,
+        "rescued": 7,
+        "softLandings": 4,
+        "hardLandings": 2,
+        "fuelLeft": 0,
+        "elapsed": 328.6333333333631,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 40,
+        "score": 220,
+        "rescued": 7,
+        "softLandings": 2,
+        "hardLandings": 2,
+        "fuelLeft": 0,
+        "elapsed": 323.33333333336793,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 41,
+        "score": 240,
+        "rescued": 7,
+        "softLandings": 6,
+        "hardLandings": 0,
+        "fuelLeft": 0,
+        "elapsed": 165.65000000002397,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 42,
+        "score": 235,
+        "rescued": 7,
+        "softLandings": 5,
+        "hardLandings": 0,
+        "fuelLeft": 0,
+        "elapsed": 280.1666666667405,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 43,
+        "score": 230,
+        "rescued": 7,
+        "softLandings": 4,
+        "hardLandings": 3,
+        "fuelLeft": 0,
+        "elapsed": 215.950000000064,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 44,
+        "score": 200,
+        "rescued": 6,
+        "softLandings": 4,
+        "hardLandings": 5,
+        "fuelLeft": 0,
+        "elapsed": 328.7000000000297,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 45,
+        "score": 235,
+        "rescued": 7,
+        "softLandings": 5,
+        "hardLandings": 0,
+        "fuelLeft": 0,
+        "elapsed": 298.61666666672375,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 46,
+        "score": 190,
+        "rescued": 6,
+        "softLandings": 2,
+        "hardLandings": 3,
+        "fuelLeft": 0,
+        "elapsed": 275.7166666667446,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 47,
+        "score": 220,
+        "rescued": 7,
+        "softLandings": 2,
+        "hardLandings": 2,
+        "fuelLeft": 0,
+        "elapsed": 351.23333333334256,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 48,
+        "score": 230,
+        "rescued": 7,
+        "softLandings": 4,
+        "hardLandings": 3,
+        "fuelLeft": 0,
+        "elapsed": 345.98333333334733,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 49,
+        "score": 260,
+        "rescued": 8,
+        "softLandings": 4,
+        "hardLandings": 1,
+        "fuelLeft": 0,
+        "elapsed": 343.43333333334965,
+        "endReason": "fuel"
+      },
+      {
+        "seed": 50,
+        "score": 160,
+        "rescued": 5,
+        "softLandings": 2,
+        "hardLandings": 2,
+        "fuelLeft": 0,
+        "elapsed": 111.04999999999498,
+        "endReason": "fuel"
+      }
+    ]
+  }
+}

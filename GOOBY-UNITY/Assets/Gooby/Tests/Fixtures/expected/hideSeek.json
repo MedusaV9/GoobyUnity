@@ -1,0 +1,1612 @@
+{
+  "modes": {
+    "easy": [
+      {
+        "seed": 1,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 2,
+        "score": 126,
+        "waves": 11,
+        "found": 48,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 3,
+        "score": 130,
+        "waves": 11,
+        "found": 50,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 4,
+        "score": 126,
+        "waves": 11,
+        "found": 48,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 5,
+        "score": 128,
+        "waves": 11,
+        "found": 49,
+        "expired": 0,
+        "elapsed": 73.39999999999999
+      },
+      {
+        "seed": 6,
+        "score": 128,
+        "waves": 11,
+        "found": 49,
+        "expired": 0,
+        "elapsed": 73.39999999999999
+      },
+      {
+        "seed": 7,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 72.2
+      },
+      {
+        "seed": 8,
+        "score": 130,
+        "waves": 11,
+        "found": 50,
+        "expired": 0,
+        "elapsed": 73.39999999999999
+      },
+      {
+        "seed": 9,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 10,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 72.2
+      },
+      {
+        "seed": 11,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 72.2
+      },
+      {
+        "seed": 12,
+        "score": 126,
+        "waves": 11,
+        "found": 48,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 13,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 14,
+        "score": 124,
+        "waves": 11,
+        "found": 47,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 15,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 72.2
+      },
+      {
+        "seed": 16,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 72.2
+      },
+      {
+        "seed": 17,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 18,
+        "score": 130,
+        "waves": 11,
+        "found": 50,
+        "expired": 0,
+        "elapsed": 73.39999999999999
+      },
+      {
+        "seed": 19,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 20,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 72.2
+      },
+      {
+        "seed": 21,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 22,
+        "score": 130,
+        "waves": 11,
+        "found": 50,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 23,
+        "score": 130,
+        "waves": 11,
+        "found": 50,
+        "expired": 0,
+        "elapsed": 73.39999999999999
+      },
+      {
+        "seed": 24,
+        "score": 130,
+        "waves": 11,
+        "found": 50,
+        "expired": 0,
+        "elapsed": 73.39999999999999
+      },
+      {
+        "seed": 25,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 26,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 27,
+        "score": 130,
+        "waves": 11,
+        "found": 50,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 28,
+        "score": 124,
+        "waves": 11,
+        "found": 47,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 29,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 30,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 72.2
+      },
+      {
+        "seed": 31,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 32,
+        "score": 126,
+        "waves": 11,
+        "found": 48,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 33,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 34,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 72.2
+      },
+      {
+        "seed": 35,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 72.2
+      },
+      {
+        "seed": 36,
+        "score": 130,
+        "waves": 11,
+        "found": 50,
+        "expired": 0,
+        "elapsed": 73.39999999999999
+      },
+      {
+        "seed": 37,
+        "score": 130,
+        "waves": 11,
+        "found": 50,
+        "expired": 0,
+        "elapsed": 73.39999999999999
+      },
+      {
+        "seed": 38,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 39,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 72.2
+      },
+      {
+        "seed": 40,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 72.2
+      },
+      {
+        "seed": 41,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 42,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 43,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 44,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 72.2
+      },
+      {
+        "seed": 45,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 46,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 47,
+        "score": 128,
+        "waves": 11,
+        "found": 49,
+        "expired": 0,
+        "elapsed": 73.39999999999999
+      },
+      {
+        "seed": 48,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 49,
+        "score": 126,
+        "waves": 11,
+        "found": 48,
+        "expired": 0,
+        "elapsed": 73.4
+      },
+      {
+        "seed": 50,
+        "score": 135,
+        "waves": 11,
+        "found": 51,
+        "expired": 0,
+        "elapsed": 73.4
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1,
+        "score": 109,
+        "waves": 9,
+        "found": 41,
+        "expired": 0,
+        "elapsed": 60.6
+      },
+      {
+        "seed": 2,
+        "score": 102,
+        "waves": 9,
+        "found": 39,
+        "expired": 0,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 3,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 4,
+        "score": 98,
+        "waves": 9,
+        "found": 37,
+        "expired": 0,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 5,
+        "score": 102,
+        "waves": 9,
+        "found": 39,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 6,
+        "score": 98,
+        "waves": 9,
+        "found": 37,
+        "expired": 0,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 7,
+        "score": 111,
+        "waves": 10,
+        "found": 42,
+        "expired": 0,
+        "elapsed": 61.6
+      },
+      {
+        "seed": 8,
+        "score": 109,
+        "waves": 9,
+        "found": 41,
+        "expired": 0,
+        "elapsed": 60.6
+      },
+      {
+        "seed": 9,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 10,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 11,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 12,
+        "score": 100,
+        "waves": 9,
+        "found": 38,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 13,
+        "score": 109,
+        "waves": 9,
+        "found": 41,
+        "expired": 0,
+        "elapsed": 60.599999999999994
+      },
+      {
+        "seed": 14,
+        "score": 100,
+        "waves": 9,
+        "found": 38,
+        "expired": 0,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 15,
+        "score": 102,
+        "waves": 9,
+        "found": 39,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 16,
+        "score": 109,
+        "waves": 9,
+        "found": 41,
+        "expired": 0,
+        "elapsed": 60.599999999999994
+      },
+      {
+        "seed": 17,
+        "score": 102,
+        "waves": 9,
+        "found": 39,
+        "expired": 0,
+        "elapsed": 61.79999999999999
+      },
+      {
+        "seed": 18,
+        "score": 102,
+        "waves": 9,
+        "found": 39,
+        "expired": 0,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 19,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 20,
+        "score": 102,
+        "waves": 9,
+        "found": 39,
+        "expired": 0,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 21,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 0,
+        "elapsed": 61.79999999999999
+      },
+      {
+        "seed": 22,
+        "score": 109,
+        "waves": 9,
+        "found": 41,
+        "expired": 0,
+        "elapsed": 60.599999999999994
+      },
+      {
+        "seed": 23,
+        "score": 96,
+        "waves": 8,
+        "found": 36,
+        "expired": 0,
+        "elapsed": 60.8
+      },
+      {
+        "seed": 24,
+        "score": 93,
+        "waves": 9,
+        "found": 36,
+        "expired": 1,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 25,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 26,
+        "score": 109,
+        "waves": 9,
+        "found": 41,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 27,
+        "score": 111,
+        "waves": 10,
+        "found": 42,
+        "expired": 0,
+        "elapsed": 61.60000000000001
+      },
+      {
+        "seed": 28,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 29,
+        "score": 102,
+        "waves": 9,
+        "found": 39,
+        "expired": 0,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 30,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 31,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 0,
+        "elapsed": 61.79999999999999
+      },
+      {
+        "seed": 32,
+        "score": 100,
+        "waves": 9,
+        "found": 38,
+        "expired": 0,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 33,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 34,
+        "score": 109,
+        "waves": 9,
+        "found": 41,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 35,
+        "score": 109,
+        "waves": 9,
+        "found": 41,
+        "expired": 0,
+        "elapsed": 60.599999999999994
+      },
+      {
+        "seed": 36,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 37,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 38,
+        "score": 109,
+        "waves": 9,
+        "found": 41,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 39,
+        "score": 109,
+        "waves": 9,
+        "found": 41,
+        "expired": 0,
+        "elapsed": 60.60000000000001
+      },
+      {
+        "seed": 40,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 41,
+        "score": 98,
+        "waves": 9,
+        "found": 37,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 42,
+        "score": 96,
+        "waves": 8,
+        "found": 36,
+        "expired": 0,
+        "elapsed": 61.99999999999999
+      },
+      {
+        "seed": 43,
+        "score": 109,
+        "waves": 9,
+        "found": 41,
+        "expired": 0,
+        "elapsed": 60.599999999999994
+      },
+      {
+        "seed": 44,
+        "score": 109,
+        "waves": 9,
+        "found": 41,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 45,
+        "score": 109,
+        "waves": 9,
+        "found": 41,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 46,
+        "score": 109,
+        "waves": 9,
+        "found": 41,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 47,
+        "score": 102,
+        "waves": 9,
+        "found": 39,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 48,
+        "score": 98,
+        "waves": 9,
+        "found": 37,
+        "expired": 0,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 49,
+        "score": 102,
+        "waves": 9,
+        "found": 39,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 50,
+        "score": 109,
+        "waves": 9,
+        "found": 41,
+        "expired": 0,
+        "elapsed": 60.599999999999994
+      }
+    ],
+    "hard": [
+      {
+        "seed": 1,
+        "score": 95,
+        "waves": 9,
+        "found": 37,
+        "expired": 1,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 2,
+        "score": 81,
+        "waves": 8,
+        "found": 33,
+        "expired": 3,
+        "elapsed": 60.80000000000001
+      },
+      {
+        "seed": 3,
+        "score": 97,
+        "waves": 9,
+        "found": 38,
+        "expired": 1,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 4,
+        "score": 86,
+        "waves": 8,
+        "found": 34,
+        "expired": 1,
+        "elapsed": 62
+      },
+      {
+        "seed": 5,
+        "score": 97,
+        "waves": 9,
+        "found": 38,
+        "expired": 1,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 6,
+        "score": 93,
+        "waves": 9,
+        "found": 36,
+        "expired": 1,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 7,
+        "score": 90,
+        "waves": 9,
+        "found": 36,
+        "expired": 2,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 8,
+        "score": 95,
+        "waves": 9,
+        "found": 37,
+        "expired": 1,
+        "elapsed": 61.79999999999999
+      },
+      {
+        "seed": 9,
+        "score": 82,
+        "waves": 8,
+        "found": 32,
+        "expired": 1,
+        "elapsed": 62
+      },
+      {
+        "seed": 10,
+        "score": 97,
+        "waves": 9,
+        "found": 38,
+        "expired": 1,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 11,
+        "score": 98,
+        "waves": 9,
+        "found": 37,
+        "expired": 0,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 12,
+        "score": 88,
+        "waves": 9,
+        "found": 35,
+        "expired": 2,
+        "elapsed": 61.80000000000001
+      },
+      {
+        "seed": 13,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 1,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 14,
+        "score": 100,
+        "waves": 9,
+        "found": 38,
+        "expired": 0,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 15,
+        "score": 100,
+        "waves": 9,
+        "found": 38,
+        "expired": 0,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 16,
+        "score": 86,
+        "waves": 9,
+        "found": 34,
+        "expired": 2,
+        "elapsed": 61.80000000000001
+      },
+      {
+        "seed": 17,
+        "score": 100,
+        "waves": 9,
+        "found": 38,
+        "expired": 0,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 18,
+        "score": 92,
+        "waves": 9,
+        "found": 37,
+        "expired": 2,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 19,
+        "score": 99,
+        "waves": 9,
+        "found": 39,
+        "expired": 1,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 20,
+        "score": 88,
+        "waves": 9,
+        "found": 35,
+        "expired": 2,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 21,
+        "score": 72,
+        "waves": 8,
+        "found": 30,
+        "expired": 4,
+        "elapsed": 62
+      },
+      {
+        "seed": 22,
+        "score": 97,
+        "waves": 9,
+        "found": 38,
+        "expired": 1,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 23,
+        "score": 64,
+        "waves": 7,
+        "found": 26,
+        "expired": 2,
+        "elapsed": 61
+      },
+      {
+        "seed": 24,
+        "score": 93,
+        "waves": 9,
+        "found": 36,
+        "expired": 1,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 25,
+        "score": 91,
+        "waves": 8,
+        "found": 35,
+        "expired": 1,
+        "elapsed": 60.80000000000001
+      },
+      {
+        "seed": 26,
+        "score": 90,
+        "waves": 9,
+        "found": 36,
+        "expired": 2,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 27,
+        "score": 92,
+        "waves": 9,
+        "found": 37,
+        "expired": 2,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 28,
+        "score": 88,
+        "waves": 9,
+        "found": 35,
+        "expired": 2,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 29,
+        "score": 89,
+        "waves": 8,
+        "found": 34,
+        "expired": 1,
+        "elapsed": 62
+      },
+      {
+        "seed": 30,
+        "score": 96,
+        "waves": 8,
+        "found": 36,
+        "expired": 0,
+        "elapsed": 62
+      },
+      {
+        "seed": 31,
+        "score": 95,
+        "waves": 9,
+        "found": 37,
+        "expired": 1,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 32,
+        "score": 81,
+        "waves": 9,
+        "found": 33,
+        "expired": 3,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 33,
+        "score": 79,
+        "waves": 8,
+        "found": 32,
+        "expired": 2,
+        "elapsed": 62
+      },
+      {
+        "seed": 34,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 35,
+        "score": 86,
+        "waves": 8,
+        "found": 34,
+        "expired": 2,
+        "elapsed": 62
+      },
+      {
+        "seed": 36,
+        "score": 97,
+        "waves": 9,
+        "found": 38,
+        "expired": 1,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 37,
+        "score": 98,
+        "waves": 9,
+        "found": 37,
+        "expired": 0,
+        "elapsed": 61.80000000000001
+      },
+      {
+        "seed": 38,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 1,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 39,
+        "score": 104,
+        "waves": 9,
+        "found": 40,
+        "expired": 1,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 40,
+        "score": 95,
+        "waves": 9,
+        "found": 37,
+        "expired": 1,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 41,
+        "score": 88,
+        "waves": 9,
+        "found": 35,
+        "expired": 2,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 42,
+        "score": 82,
+        "waves": 8,
+        "found": 32,
+        "expired": 2,
+        "elapsed": 60.80000000000001
+      },
+      {
+        "seed": 43,
+        "score": 83,
+        "waves": 9,
+        "found": 34,
+        "expired": 3,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 44,
+        "score": 109,
+        "waves": 9,
+        "found": 41,
+        "expired": 0,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 45,
+        "score": 86,
+        "waves": 9,
+        "found": 34,
+        "expired": 2,
+        "elapsed": 61.80000000000001
+      },
+      {
+        "seed": 46,
+        "score": 90,
+        "waves": 9,
+        "found": 36,
+        "expired": 2,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 47,
+        "score": 93,
+        "waves": 9,
+        "found": 36,
+        "expired": 1,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 48,
+        "score": 86,
+        "waves": 9,
+        "found": 34,
+        "expired": 2,
+        "elapsed": 61.8
+      },
+      {
+        "seed": 49,
+        "score": 90,
+        "waves": 9,
+        "found": 36,
+        "expired": 2,
+        "elapsed": 61.800000000000004
+      },
+      {
+        "seed": 50,
+        "score": 102,
+        "waves": 9,
+        "found": 39,
+        "expired": 1,
+        "elapsed": 61.8
+      }
+    ],
+    "endless": [
+      {
+        "seed": 1,
+        "score": 155,
+        "waves": 14,
+        "found": 61,
+        "expired": 3,
+        "elapsed": 106.40000000000002
+      },
+      {
+        "seed": 2,
+        "score": 81,
+        "waves": 8,
+        "found": 33,
+        "expired": 3,
+        "elapsed": 60.80000000000001
+      },
+      {
+        "seed": 3,
+        "score": 133,
+        "waves": 12,
+        "found": 53,
+        "expired": 3,
+        "elapsed": 86.4
+      },
+      {
+        "seed": 4,
+        "score": 313,
+        "waves": 26,
+        "found": 122,
+        "expired": 3,
+        "elapsed": 198.79999999999995
+      },
+      {
+        "seed": 5,
+        "score": 196,
+        "waves": 17,
+        "found": 77,
+        "expired": 3,
+        "elapsed": 127.40000000000002
+      },
+      {
+        "seed": 6,
+        "score": 107,
+        "waves": 10,
+        "found": 43,
+        "expired": 3,
+        "elapsed": 74.80000000000001
+      },
+      {
+        "seed": 7,
+        "score": 105,
+        "waves": 10,
+        "found": 42,
+        "expired": 3,
+        "elapsed": 72.4
+      },
+      {
+        "seed": 8,
+        "score": 144,
+        "waves": 13,
+        "found": 57,
+        "expired": 3,
+        "elapsed": 97
+      },
+      {
+        "seed": 9,
+        "score": 92,
+        "waves": 9,
+        "found": 37,
+        "expired": 3,
+        "elapsed": 72.60000000000001
+      },
+      {
+        "seed": 10,
+        "score": 196,
+        "waves": 17,
+        "found": 77,
+        "expired": 3,
+        "elapsed": 122.60000000000001
+      },
+      {
+        "seed": 11,
+        "score": 118,
+        "waves": 11,
+        "found": 47,
+        "expired": 3,
+        "elapsed": 81.80000000000001
+      },
+      {
+        "seed": 12,
+        "score": 185,
+        "waves": 16,
+        "found": 73,
+        "expired": 3,
+        "elapsed": 119.20000000000002
+      },
+      {
+        "seed": 13,
+        "score": 222,
+        "waves": 19,
+        "found": 87,
+        "expired": 3,
+        "elapsed": 137.8
+      },
+      {
+        "seed": 14,
+        "score": 313,
+        "waves": 26,
+        "found": 122,
+        "expired": 3,
+        "elapsed": 201.19999999999993
+      },
+      {
+        "seed": 15,
+        "score": 380,
+        "waves": 31,
+        "found": 148,
+        "expired": 3,
+        "elapsed": 232.59999999999994
+      },
+      {
+        "seed": 16,
+        "score": 105,
+        "waves": 10,
+        "found": 42,
+        "expired": 3,
+        "elapsed": 76.00000000000001
+      },
+      {
+        "seed": 17,
+        "score": 144,
+        "waves": 13,
+        "found": 57,
+        "expired": 3,
+        "elapsed": 98.20000000000002
+      },
+      {
+        "seed": 18,
+        "score": 120,
+        "waves": 11,
+        "found": 48,
+        "expired": 3,
+        "elapsed": 80.60000000000001
+      },
+      {
+        "seed": 19,
+        "score": 159,
+        "waves": 14,
+        "found": 63,
+        "expired": 3,
+        "elapsed": 101.60000000000001
+      },
+      {
+        "seed": 20,
+        "score": 90,
+        "waves": 9,
+        "found": 36,
+        "expired": 3,
+        "elapsed": 64.2
+      },
+      {
+        "seed": 21,
+        "score": 55,
+        "waves": 6,
+        "found": 23,
+        "expired": 3,
+        "elapsed": 45.599999999999994
+      },
+      {
+        "seed": 22,
+        "score": 144,
+        "waves": 13,
+        "found": 57,
+        "expired": 3,
+        "elapsed": 97.00000000000001
+      },
+      {
+        "seed": 23,
+        "score": 64,
+        "waves": 7,
+        "found": 26,
+        "expired": 3,
+        "elapsed": 62.2
+      },
+      {
+        "seed": 24,
+        "score": 127,
+        "waves": 12,
+        "found": 50,
+        "expired": 3,
+        "elapsed": 88.80000000000001
+      },
+      {
+        "seed": 25,
+        "score": 157,
+        "waves": 14,
+        "found": 62,
+        "expired": 3,
+        "elapsed": 107.60000000000002
+      },
+      {
+        "seed": 26,
+        "score": 211,
+        "waves": 18,
+        "found": 83,
+        "expired": 3,
+        "elapsed": 134.4
+      },
+      {
+        "seed": 27,
+        "score": 118,
+        "waves": 11,
+        "found": 47,
+        "expired": 3,
+        "elapsed": 79.4
+      },
+      {
+        "seed": 28,
+        "score": 92,
+        "waves": 9,
+        "found": 37,
+        "expired": 3,
+        "elapsed": 65.4
+      },
+      {
+        "seed": 29,
+        "score": 131,
+        "waves": 12,
+        "found": 52,
+        "expired": 3,
+        "elapsed": 94.80000000000001
+      },
+      {
+        "seed": 30,
+        "score": 222,
+        "waves": 19,
+        "found": 87,
+        "expired": 3,
+        "elapsed": 147.4
+      },
+      {
+        "seed": 31,
+        "score": 118,
+        "waves": 11,
+        "found": 47,
+        "expired": 3,
+        "elapsed": 81.80000000000001
+      },
+      {
+        "seed": 32,
+        "score": 62,
+        "waves": 7,
+        "found": 25,
+        "expired": 3,
+        "elapsed": 50.2
+      },
+      {
+        "seed": 33,
+        "score": 81,
+        "waves": 8,
+        "found": 33,
+        "expired": 3,
+        "elapsed": 63.2
+      },
+      {
+        "seed": 34,
+        "score": 131,
+        "waves": 12,
+        "found": 52,
+        "expired": 3,
+        "elapsed": 87.60000000000001
+      },
+      {
+        "seed": 35,
+        "score": 92,
+        "waves": 9,
+        "found": 37,
+        "expired": 3,
+        "elapsed": 70.2
+      },
+      {
+        "seed": 36,
+        "score": 172,
+        "waves": 15,
+        "found": 68,
+        "expired": 3,
+        "elapsed": 109.80000000000001
+      },
+      {
+        "seed": 37,
+        "score": 172,
+        "waves": 15,
+        "found": 68,
+        "expired": 3,
+        "elapsed": 115.80000000000003
+      },
+      {
+        "seed": 38,
+        "score": 198,
+        "waves": 17,
+        "found": 78,
+        "expired": 3,
+        "elapsed": 121.4
+      },
+      {
+        "seed": 39,
+        "score": 159,
+        "waves": 14,
+        "found": 63,
+        "expired": 3,
+        "elapsed": 100.4
+      },
+      {
+        "seed": 40,
+        "score": 131,
+        "waves": 12,
+        "found": 52,
+        "expired": 3,
+        "elapsed": 87.60000000000001
+      },
+      {
+        "seed": 41,
+        "score": 144,
+        "waves": 13,
+        "found": 57,
+        "expired": 3,
+        "elapsed": 95.80000000000001
+      },
+      {
+        "seed": 42,
+        "score": 103,
+        "waves": 10,
+        "found": 41,
+        "expired": 3,
+        "elapsed": 77.20000000000002
+      },
+      {
+        "seed": 43,
+        "score": 79,
+        "waves": 8,
+        "found": 32,
+        "expired": 3,
+        "elapsed": 58.400000000000006
+      },
+      {
+        "seed": 44,
+        "score": 250,
+        "waves": 21,
+        "found": 98,
+        "expired": 3,
+        "elapsed": 154.2
+      },
+      {
+        "seed": 45,
+        "score": 157,
+        "waves": 14,
+        "found": 62,
+        "expired": 3,
+        "elapsed": 107.60000000000002
+      },
+      {
+        "seed": 46,
+        "score": 120,
+        "waves": 11,
+        "found": 48,
+        "expired": 3,
+        "elapsed": 80.60000000000001
+      },
+      {
+        "seed": 47,
+        "score": 118,
+        "waves": 11,
+        "found": 47,
+        "expired": 3,
+        "elapsed": 79.4
+      },
+      {
+        "seed": 48,
+        "score": 88,
+        "waves": 9,
+        "found": 35,
+        "expired": 3,
+        "elapsed": 64.2
+      },
+      {
+        "seed": 49,
+        "score": 185,
+        "waves": 16,
+        "found": 73,
+        "expired": 3,
+        "elapsed": 122.80000000000003
+      },
+      {
+        "seed": 50,
+        "score": 231,
+        "waves": 20,
+        "found": 90,
+        "expired": 3,
+        "elapsed": 149.6
+      }
+    ]
+  }
+}

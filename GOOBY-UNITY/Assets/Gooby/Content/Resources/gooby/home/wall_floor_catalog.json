@@ -1,0 +1,151 @@
+{
+	"schema": "gooby.wallfloor/1",
+	"waende": [
+		{
+			"id": "uni",
+			"muster": "uni",
+			"name_de": "Uni-Anstrich",
+			"name_en": "Solid Paint",
+			"preis": 0,
+			"farben": ["creme", "weiss", "rose", "mint", "himmel", "butter", "lavendel", "salbei"]
+		},
+		{
+			"id": "punkte",
+			"muster": "punkte",
+			"name_de": "Pünktchen-Tapete",
+			"name_en": "Polka Dot Wallpaper",
+			"preis": 80,
+			"farben": ["rose", "mint", "himmel", "butter", "lavendel", "salbei"]
+		},
+		{
+			"id": "gestreift",
+			"muster": "streifen",
+			"name_de": "Streifen-Tapete",
+			"name_en": "Striped Wallpaper",
+			"preis": 120,
+			"farben": ["rose", "mint", "himmel", "butter", "salbei", "schiefer"]
+		},
+		{
+			"id": "gestreift_fein",
+			"muster": "streifen_fein",
+			"name_de": "Nadelstreifen-Tapete",
+			"name_en": "Pinstripe Wallpaper",
+			"preis": 140,
+			"farben": ["rose", "himmel", "salbei", "lavendel", "grau_hell"]
+		},
+		{
+			"id": "gebluemt",
+			"muster": "blumen",
+			"name_de": "Blümchen-Tapete",
+			"name_en": "Floral Wallpaper",
+			"preis": 180,
+			"farben": ["rose", "butter", "himmel", "lavendel", "mint"]
+		},
+		{
+			"id": "ranken",
+			"muster": "ranken",
+			"name_de": "Ranken-Tapete",
+			"name_en": "Vine Wallpaper",
+			"preis": 200,
+			"farben": ["salbei", "mint", "himmel", "rose"]
+		},
+		{
+			"id": "holzpaneel",
+			"muster": "paneel",
+			"name_de": "Holzpaneel",
+			"name_en": "Wood Paneling",
+			"preis": 220,
+			"farben": ["eiche_hell", "eiche", "nussbaum", "grau_hell", "weiss"]
+		},
+		{
+			"id": "karo",
+			"muster": "karo",
+			"name_de": "Karo-Tapete",
+			"name_en": "Gingham Wallpaper",
+			"preis": 160,
+			"farben": ["rose", "himmel", "salbei", "butter", "lavendel"]
+		},
+		{
+			"id": "kacheln",
+			"muster": "kacheln",
+			"name_de": "Wandkacheln",
+			"name_en": "Wall Tiles",
+			"preis": 160,
+			"farben": ["weiss", "himmel", "mint", "rose", "grau_hell"]
+		},
+		{
+			"id": "rauten",
+			"muster": "rauten",
+			"name_de": "Rauten-Tapete",
+			"name_en": "Harlequin Wallpaper",
+			"preis": 260,
+			"farben": ["butter", "lavendel", "mint", "rose", "schiefer"]
+		}
+	],
+	"boeden": [
+		{
+			"id": "dielen_hell",
+			"muster": "dielen",
+			"name_de": "Helle Dielen",
+			"name_en": "Light Floorboards",
+			"preis": 0,
+			"farben": ["eiche", "eiche_hell", "sandstein", "grau_hell"]
+		},
+		{
+			"id": "dielen_dunkel",
+			"muster": "dielen",
+			"name_de": "Dunkle Dielen",
+			"name_en": "Dark Floorboards",
+			"preis": 140,
+			"farben": ["nussbaum", "walnuss", "anthrazit", "eiche"]
+		},
+		{
+			"id": "parkett_fischgraet",
+			"muster": "fischgraet",
+			"name_de": "Fischgrät-Parkett",
+			"name_en": "Herringbone Parquet",
+			"preis": 260,
+			"farben": ["eiche_hell", "eiche", "nussbaum", "walnuss"]
+		},
+		{
+			"id": "parkett_wuerfel",
+			"muster": "wuerfel",
+			"name_de": "Würfel-Parkett",
+			"name_en": "Basket Parquet",
+			"preis": 220,
+			"farben": ["eiche_hell", "eiche", "nussbaum", "sandstein"]
+		},
+		{
+			"id": "fliesen_gross",
+			"muster": "fliesen",
+			"name_de": "Große Fliesen",
+			"name_en": "Large Tiles",
+			"preis": 180,
+			"farben": ["weiss", "creme", "grau_hell", "himmel", "mint"]
+		},
+		{
+			"id": "fliesen_schach",
+			"muster": "schach",
+			"name_de": "Schachbrett-Fliesen",
+			"name_en": "Checkerboard Tiles",
+			"preis": 200,
+			"farben": ["weiss", "grau_hell", "himmel", "rose", "anthrazit"]
+		},
+		{
+			"id": "teppich",
+			"muster": "teppich",
+			"name_de": "Teppichboden",
+			"name_en": "Carpet Floor",
+			"preis": 160,
+			"farben": ["creme", "rose", "mint", "himmel", "lavendel", "salbei"]
+		},
+		{
+			"id": "stein",
+			"muster": "stein",
+			"name_de": "Steinboden",
+			"name_en": "Stone Floor",
+			"preis": 240,
+			"farben": ["grau_hell", "grau", "sandstein", "anthrazit"]
+		}
+	]
+}

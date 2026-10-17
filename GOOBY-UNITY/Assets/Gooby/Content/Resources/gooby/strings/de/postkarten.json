@@ -1,0 +1,96 @@
+{
+	"postkarten": {
+		"titel": "Postkarten-Archiv",
+		"leer": "Noch keine Postkarte da. Gooby muss erst mal verreisen.",
+		"anzahl": "{n} Postkarten gesammelt",
+		"tag": "Tag {tag}",
+		"von": "Aus: {ort}",
+		"ansehen": "Ansehen",
+		"zurueck": "Zurück",
+		"souvenir": {
+			"titel": "Souvenirregal",
+			"leer": "Das Regal ist noch leer — jede Reise bringt ein Souvenir.",
+			"fortschritt": "{n} von {gesamt} Reisezielen besucht",
+			"offen": "Noch frei"
+		},
+		"set": {
+			"titel": "Set-Bonus",
+			"hinweis": "Besuche viele Reiseziele und hol dir Extra-Münzen ab.",
+			"stufe": "{n} Ziele: {bonus} Münzen",
+			"abholen": "Bonus abholen (+{bonus} Münzen)",
+			"abgeholt": "Bonus abgeholt",
+			"noch_nicht": "Noch nicht erreicht",
+			"erhalten": "Set-Bonus: +{bonus} Münzen!"
+		},
+		"wand": {
+			"item_name": "Postkartenwand",
+			"beschreibung": "Zeigt die neuesten Postkarten aus dem Archiv an der Wand.",
+			"erhalten": "Neu im Lager: die Postkartenwand! Häng sie im Baumodus auf."
+		},
+		"text": {
+			"beach": {
+				"1": "Der Sand glitzert hier wirklich. Gooby hat drei Muscheln adoptiert.",
+				"2": "Wellen gezählt: alle. Gooby winkt jedem Fisch einzeln zu.",
+				"3": "Sonnenhut auf, Pfoten in den Sand — mehr Plan gibt es heute nicht.",
+				"4": "Das Meer rauscht wie Applaus. Gooby verbeugt sich vorsichtshalber.",
+				"5": "Sandburg Nummer vier steht! Die Flut ist höflich und wartet."
+			},
+			"meadowTrip": {
+				"1": "So viele Blumen! Gooby niest vor Glück.",
+				"2": "Ein Schmetterling saß auf Goobys Nase. Beide taten sehr gelassen.",
+				"3": "Picknick im hohen Gras — die Möhren schmecken hier doppelt.",
+				"4": "Gooby hat einen Kranz geflochten. Er sitzt etwas schief. Perfekt.",
+				"5": "Die Wiese summt und brummt. Gooby summt einfach mit."
+			},
+			"bigCity": {
+				"1": "So hohe Häuser! Gooby macht den Nacken lang wie nie.",
+				"2": "Die U-Bahn wackelt lustig. Gooby wackelt aus Solidarität mit.",
+				"3": "Lichter, Lichter, Lichter — die Stadt funkelt bis in den Schlaf.",
+				"4": "Gooby hat eine Brezel gegessen, die größer war als sein Kopf.",
+				"5": "Auf dem Aussichtsdeck: Wind in den Ohren, Grinsen im Gesicht."
+			},
+			"space": {
+				"1": "Schwerelos! Goobys Ohren schweben einfach mit.",
+				"2": "Die Erde sieht von hier aus wie eine Murmel. Eine schöne.",
+				"3": "Sterne zum Greifen nah — Gooby hat keinem wehgetan.",
+				"4": "Weltraum-Möhren schweben davon. Gooby jagt sie in Zeitlupe.",
+				"5": "Im Raumanzug sieht Gooby aus wie ein sehr runder Held."
+			},
+			"harbor": {
+				"1": "Die Möwen kennen Gooby jetzt beim Namen. Alle wollen Pommes.",
+				"2": "Große Schiffe, kleines Häschen — beide tuten freundlich.",
+				"3": "Der Leuchtturm blinkt gute Nacht. Gooby blinzelt zurück.",
+				"4": "Fischbrötchen probiert. Der Anstand war kurz stärker als der Hunger.",
+				"5": "Seemannsknoten geübt: Ergebnis ist eher moderne Kunst."
+			},
+			"spookGarden": {
+				"1": "Huuu! Die Geister hier sind höflich und sehr flauschig.",
+				"2": "Ein Kürbis hat Gooby angelächelt. Gooby lächelte breiter.",
+				"3": "Nachtnebel im Garten — perfekt für Verstecken mit Gespenstern.",
+				"4": "Die Spinnweben glitzern wie Girlanden. Gruselig gemütlich.",
+				"5": "Gooby hat „Buh“ geübt. Die Geister fanden es niedlich."
+			},
+			"bakery": {
+				"1": "Es duftet nach warmem Brot. Gooby wohnt jetzt gedanklich hier.",
+				"2": "Der Bäcker ließ Gooby den Teig kneten. Der Teig gewann.",
+				"3": "Zimtschnecken so groß wie Räder. Gooby rollt vor Freude.",
+				"4": "Mehl auf der Nase, Stolz im Blick: Goobys erstes Brötchen!",
+				"5": "Das Croissant knuspert lauter als Gooby. Knapp."
+			},
+			"nightSky": {
+				"1": "Sternschnuppen gezählt und jedes Mal dasselbe gewünscht: Möhren.",
+				"2": "Der Mond ist heute extra rund. Gooby fühlt sich verstanden.",
+				"3": "Die Milchstraße glitzert wie verschütteter Zucker. Hübsch!",
+				"4": "Gooby hat ein Sternbild entdeckt: das Große Häschen.",
+				"5": "Nachts ist der Himmel ein Funkelpark ohne Eintritt."
+			},
+			"toyRoom": {
+				"1": "Alles ist riesig! Oder Gooby ist winzig. Beides lustig.",
+				"2": "Die Bauklötze ergeben einen Turm bis zum Lampenschirm.",
+				"3": "Eine Spielzeugeisenbahn fährt Gooby durchs Zimmer. Erster Klasse.",
+				"4": "Verstecken zwischen Plüschtieren: Gooby gewinnt immer.",
+				"5": "Die Murmelbahn klackert ein Schlaflied. Gooby nickt weg."
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"health": {
+		"warnung_bauch": "Goobys Bauch gluckert bedenklich…",
+		"kraenklich": "Gooby fühlt sich kränklich. Ruhe und was Gesundes helfen.",
+		"krank": "Gooby ist richtig krank. Medizin oder der Tierarzt helfen.",
+		"erholt": "Gooby fühlt sich wieder pudelwohl!",
+		"hatschi": "Hatschi!",
+		"medizin_ok": "Brav geschluckt. Die Medizin wirkt schon.",
+		"medizin_keine": "Keine Medizin im Haus — die GOOBYTHEKE hilft.",
+		"medizin_gesund": "Gooby ist gesund. Die Medizin heben wir uns auf."
+	}
+}

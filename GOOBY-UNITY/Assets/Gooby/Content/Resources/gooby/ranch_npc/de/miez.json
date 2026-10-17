@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_miez",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "miez",
+			"text": "Du bist früh. Ich bin seit fünf Uhr wach. Aus Prinzip. Geschlafen habe ich dabei trotzdem.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "miez",
+			"text": "Ah. Das Personal. Ich bin Miez. Diese Ranch gehört mir, aber du darfst weiter so tun, als wärst du hier der Chef.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "miez",
+			"text": "Abend. Meine dritte Schlafschicht beginnt gleich. Fasse dich kurz, aber schmeichelhaft.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "miez",
+			"text": "Es regnet. Ich halte das für einen persönlichen Angriff. Kraul mich, das mildert meine Verstimmung gegenüber dem Himmel.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "miez",
+			"text": "Du. Bleib. Ich habe beschlossen, dass du zu meinen Möbeln gehörst. Das ist die höchste Ehre, die ich vergebe.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "miez",
+			"text": "Sprich. Ich putze derweil mein Ohr.",
+			"optionen": [
+				{"text": "Brauchst du etwas?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Deine Order ist ausgeführt.", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "Wie war dein Tag?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "Wie war dein Tag?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "Wie war dein Tag?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Woher kommst du eigentlich?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Magst du die anderen?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Ich entferne mich ehrfürchtig.", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "miez",
+			"text": [
+				"Mein Tag: aufgestanden, umgefallen, im Heu gelandet, dort geblieben. Man nennt es Zeitmanagement.",
+				"Später habe ich eine Maus angestarrt. Wir haben uns auf ein Unentschieden geeinigt."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "miez",
+			"text": [
+				"Ich habe heute die Pferde beaufsichtigt. Vom Dach. Mit geschlossenen Augen. Ich spüre Unordnung auch im Schlaf.",
+				"Du machst das übrigens ordentlich hier. Ich sage das genau einmal pro Jahr. Das war's für dieses Jahr."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "miez",
+			"text": [
+				"Komm näher. Ich erlaube dir, mich hinter dem linken Ohr zu kraulen. Das linke. LINKS. Gut so.",
+				"Du hast Talent. Ich habe deinen Namen auf meine Liste gesetzt. Es ist eine kurze Liste. Du bist die Liste."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "miez",
+			"text": "In der Tat. Ich habe eine Aufgabe von größter Wichtigkeit. Für dich. Ich würde ja selbst, aber ich bin … eingeplant. Vom Schlaf.",
+			"optionen": [
+				{"text": "Zu Befehl, Majestät.", "next": "quest_annahme"},
+				{"text": "Ich habe leider Termine …", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "miez",
+			"text": "Angemessen. Führe es gut aus, dann schnurre ich in deine ungefähre Richtung.",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "miez",
+			"text": "Termine. Wie niedlich. Nun gut, die Angelegenheit wartet. Ich vergesse nichts. Nur Verabredungen und Namen.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "miez",
+			"text": "Hm. Geprüft. Akzeptiert. Du darfst dich als gelobt betrachten. Hier ist etwas Glitzerndes, ich fand es unter der Scheune.",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "miez",
+			"text": "Wolle. WOLLE. Ich … verzeih die Emotion. Es kommt nie wieder vor. Gib her. GIB HER.",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "miez",
+			"text": "Akzeptabel. Ich werde es zuerst anstupsen und dann vom Tisch schieben. So ehre ich Dinge.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "miez",
+			"text": "Was ist das. Warum ist das. Nun, es gehört jetzt mir, wie alles hier. Danke, Personal.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "miez",
+			"text": [
+				"Woher ich komme? Eines Tages war ich da. Die Ranch war verlassen, das Heu kalt, die Mäuse frech.",
+				"Ich habe Ordnung geschaffen. Jahrelang. Allein. Ohne Dank. Königinnen beklagen sich nicht. Ich erwähne es nur. Ständig.",
+				"Dann kamst du und hast die Ranch wieder warm gemacht. Das rechne ich dir an. Intern. Ohne Beleg."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "miez",
+			"text": [
+				"Ob ich die anderen mag? Rosi füttert pünktlich: brauchbar. Eisenhufs Schmiede ist warm: sehr brauchbar.",
+				"Timmi trägt mich herum wie einen Sack Mehl. Ich lasse es geschehen. Er meint es gut, der kleine Wirbelwind.",
+				"Und du … du kraulst korrekt und störst wenig. Das, Personal, ist meine Definition von Liebe. Sag es NIEMANDEM."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "miez",
+			"text": "Geh. Aber lass die Tür einen Spalt offen. Nicht für dich. Für die Möglichkeit.",
+			"ende": true
+		}
+	}
+}

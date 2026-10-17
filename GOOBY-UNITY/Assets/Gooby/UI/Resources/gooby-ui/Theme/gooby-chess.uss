@@ -1,0 +1,193 @@
+/* gooby-chess.uss — see header comment in GoobyTheme.tss */
+/* Schach (ChessScreen) on the window kit of gooby-screens.uss and the cards/banner/overlays of gooby-board.uss
+   (.gb-bs-opp, .gb-bs-banner, .gb-bs-card, .gb-bs-overlay …). Root: .gb-sheets .gb-bs .gb-ch.
+   Board: .gb-ch-board-card > .gb-ch-frame > .gb-ch-ranks | .gb-ch-board > .gb-ch-row > .gb-ch-sq > .gb-ch-mark + .gb-ch-piece.
+   Square size is set from code (fits the window height); pieces are glyphs of GoobyFallback.ttf (♚♛♜♝♞♟), coloured
+   per side (.gb-ch-piece--w / --b). Square states: --light/--dark, --sel, --target (dot), --capture (ring), --last,
+   --check, --own (tappable on our turn). */
+
+/* ---------- window / head ---------- */
+.gb-ch-tile { justify-content: center; align-items: center; }
+.gb-ch-tile-glyph {
+    font-size: 36px;
+    -unity-font-definition: url("../Fonts/GoobyFallback.ttf");
+    -unity-text-align: middle-center;
+    color: #3E8F62;
+    padding: 0; margin: 0;
+}
+.gb-ch-pill { background-color: #F1FAF4; border-color: rgba(95, 184, 132, 0.45); }
+.gb-ch-pill-dot { width: 18px; height: 18px; margin-right: 8px; border-radius: 9px; background-color: var(--gb-weiss); border-width: 2px; border-color: rgba(107, 79, 58, 0.45); flex-shrink: 0; }
+.gb-ch-pill--black .gb-ch-pill-dot { background-color: #3B364F; border-color: rgba(59, 54, 79, 0.9); }
+
+.gb-ch-body { flex-grow: 1; flex-shrink: 1; flex-direction: row; align-items: flex-start; justify-content: center; padding: 12px 18px 14px 18px; }
+
+/* ---------- board ---------- */
+.gb-ch-board-card {
+    flex-shrink: 0;
+    padding: 12px 14px 8px 8px;
+    border-radius: 28px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.08);
+    border-bottom-width: 4px;
+    border-bottom-color: rgba(107, 79, 58, 0.12);
+}
+.gb-ch-frame { flex-direction: row; }
+.gb-ch-ranks { flex-shrink: 0; width: 22px; }
+.gb-ch-files { flex-direction: row; height: 22px; padding-left: 28px; }
+.gb-ch-coord--corner { width: 0; }
+.gb-ch-coord { flex-shrink: 0; -unity-text-align: middle-center; font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #7FA88F; }
+.gb-ch-coord--rank { width: 22px; height: 64px; }
+.gb-ch-coord--file { width: 64px; height: 22px; }
+
+.gb-ch-board {
+    padding: 4px;
+    margin-left: 6px;
+    border-radius: 20px;
+    background-color: #CFEBDA;
+    border-width: 3px;
+    border-color: rgba(95, 184, 132, 0.30);
+    transition-property: border-color;
+    transition-duration: 0.2s;
+}
+.gb-ch-board--mine { border-color: rgba(95, 184, 132, 0.85); }
+.gb-ch-row { flex-direction: row; flex-shrink: 0; }
+
+.gb-ch-sq {
+    width: 64px; height: 64px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    border-width: 0;
+    border-color: rgba(0, 0, 0, 0);
+    transition-property: background-color, scale;
+    transition-duration: 0.12s;
+}
+.gb-ch-sq--light { background-color: #FFF7E8; }
+.gb-ch-sq--dark { background-color: #B9E3C9; }
+/* rounded outer corners of the board (classes set from code) */
+.gb-ch-sq--tl { border-top-left-radius: 14px; }
+.gb-ch-sq--tr { border-top-right-radius: 14px; }
+.gb-ch-sq--bl { border-bottom-left-radius: 14px; }
+.gb-ch-sq--br { border-bottom-right-radius: 14px; }
+
+.gb-ch-sq--last.gb-ch-sq--light { background-color: #FFEBB0; }
+.gb-ch-sq--last.gb-ch-sq--dark { background-color: #E6DE92; }
+.gb-ch-sq--sel { background-color: #FFD166; }
+.gb-ch-sq--sel.gb-ch-sq--dark { background-color: #F3C75A; }
+.gb-ch-sq--check { background-color: #FFB3B3; border-width: 3px; border-color: var(--gb-primary); border-radius: 14px; }
+.gb-ch-board--mine .gb-ch-sq--own:hover { scale: 1.05; }
+.gb-ch-board--mine .gb-ch-sq--target:hover,
+.gb-ch-board--mine .gb-ch-sq--capture:hover { background-color: #FFF0C8; }
+
+/* legal targets: a soft dot on empty squares, a ring around capturable pieces */
+.gb-ch-mark { position: absolute; width: 0; height: 0; border-radius: 99px; background-color: rgba(0, 0, 0, 0); }
+.gb-ch-sq--target > .gb-ch-mark { width: 30%; height: 30%; background-color: rgba(62, 143, 98, 0.45); }
+.gb-ch-sq--capture > .gb-ch-mark {
+    left: 6%; top: 6%; right: 6%; bottom: 6%;
+    width: auto; height: auto;
+    border-width: 5px;
+    border-color: rgba(242, 109, 109, 0.75);
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+/* ---------- pieces (glyphs of the fallback font) ---------- */
+.gb-ch-piece {
+    font-size: 48px;
+    -unity-font-definition: url("../Fonts/GoobyFallback.ttf");
+    -unity-text-align: middle-center;
+    padding: 0; margin: 0;
+    white-space: nowrap;
+    transition-property: scale;
+    transition-duration: 0.12s;
+}
+.gb-ch-piece--w {
+    color: #FFFDF8;
+    -unity-text-outline-width: 1.4px;
+    -unity-text-outline-color: #6B4F3A;
+    text-shadow: 0 2px 0 rgba(107, 79, 58, 0.35);
+}
+.gb-ch-piece--b {
+    color: #3B364F;
+    -unity-text-outline-width: 0.8px;
+    -unity-text-outline-color: rgba(255, 255, 255, 0.85);
+    text-shadow: 0 2px 0 rgba(59, 54, 79, 0.25);
+}
+.gb-ch-sq--sel > .gb-ch-piece { scale: 1.08; }
+
+/* ---------- side column ---------- */
+.gb-ch-side { flex-grow: 1; flex-shrink: 1; min-width: 320px; max-width: 520px; margin-left: 18px; align-self: stretch; }
+.gb-ch-banner { position: relative; }
+.gb-ch-check {
+    position: absolute; top: -14px; right: 14px;
+    padding: 2px 14px;
+    border-radius: var(--gb-r-pill);
+    background-color: var(--gb-primary);
+    color: var(--gb-weiss);
+    font-size: var(--gb-md);
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    white-space: nowrap;
+}
+
+.gb-ch-moves-card {
+    flex-grow: 1; flex-shrink: 1;
+    min-height: 90px;
+    margin-top: 12px;
+    padding: 8px 12px 10px 12px;
+    border-radius: 22px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.08);
+}
+.gb-ch-moves { flex-grow: 1; flex-shrink: 1; }
+.gb-ch-move-rows { padding-right: 6px; }
+.gb-ch-moves-empty { margin: 6px 4px; font-size: 13px; color: var(--gb-text-mild); white-space: normal; }
+.gb-ch-move-row { flex-direction: row; align-items: center; height: 26px; padding: 0 8px; border-radius: 10px; }
+.gb-ch-move-row--odd { background-color: var(--gb-sand-hell); }
+.gb-ch-move-no { width: 38px; font-size: 13px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text-mild); }
+.gb-ch-move { width: 90px; font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: nowrap; }
+.gb-ch-move--last { color: #3E8F62; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+
+.gb-ch-fun { margin-top: 10px; }
+.gb-ch-pop { top: 150px; }
+
+/* ---------- promotion picker ---------- */
+.gb-ch-promo-wrap { width: 520px; }
+.gb-ch-promo-row { flex-direction: row; justify-content: center; margin-top: 12px; }
+.gb-ch-promo-btn {
+    width: 96px; height: 116px;
+    margin: 0 6px;
+    padding: 4px;
+    border-radius: 22px;
+    background-color: #F1FAF4;
+    border-width: 2px;
+    border-color: rgba(95, 184, 132, 0.45);
+    border-bottom-width: 4px;
+    justify-content: center;
+    align-items: center;
+    transition-property: scale, background-color;
+    transition-duration: 0.12s;
+}
+.gb-ch-promo-btn:hover { background-color: var(--gb-weiss); scale: 1.06; }
+.gb-ch-promo-btn:active { scale: 0.94; }
+.gb-ch-promo-glyph { font-size: 60px; -unity-font-definition: url("../Fonts/GoobyFallback.ttf"); -unity-text-align: middle-center; padding: 0; margin: 0; }
+.gb-ch-promo-name { font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text-mild); }
+
+/* ---------- result / practice setup ---------- */
+.gb-ch-result-wrap { width: 540px; }
+.gb-ch-result-moves { margin-top: 6px; padding: 2px 14px; border-radius: var(--gb-r-pill); background-color: var(--gb-sand-hell); font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-schoko); }
+.gb-ch-solo-label { align-self: flex-start; margin-top: 12px; margin-left: 6px; font-size: 11px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); letter-spacing: 1px; color: var(--gb-primary-tief); }
+.gb-ch-solo-row { flex-direction: row; flex-wrap: wrap; align-self: stretch; justify-content: center; margin-top: 4px; }
+.gb-ch-solo-opt { margin: 0 5px 6px 5px; }
+.gb-ch-solo-opt--on { background-color: #DDF3E4; border-color: rgba(95, 184, 132, 0.85); color: #3E8F62; }
+
+
+/* ---------- arcade: the "Schach üben" card (ArcadeScreen, name ch-practice) ---------- */
+.gb-arc-chess-tile { border-radius: 22px; justify-content: center; align-items: center; }
+.gb-arc-chess-glyph {
+    font-size: 48px;
+    -unity-font-definition: url("../Fonts/GoobyFallback.ttf");
+    -unity-text-align: middle-center;
+    color: #3E8F62;
+    padding: 0; margin: 0;
+}

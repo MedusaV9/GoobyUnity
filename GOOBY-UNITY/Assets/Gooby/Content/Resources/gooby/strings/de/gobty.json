@@ -1,0 +1,56 @@
+{
+	"gobty": {
+		"an": "Klick! GOB.TY läuft — Gooby macht es sich vor dem Fernseher gemütlich.",
+		"aus": "Klick. Der Fernseher ist aus — Gooby blinzelt noch dem Testbild hinterher.",
+		"aus_knopf": "Fernseher aus",
+		"zapp": "Zapp! Jetzt läuft: {titel}",
+		"clip": {
+			"news": "GOOBY NEWS",
+			"kochen": "Kochen mit Küchen-Gooby",
+			"sport": "GOOBY SPORT",
+			"wetter": "Wetter mit Wolke Wuschel",
+			"nacht": "Gute-Nacht-Sender"
+		},
+		"news": {
+			"intro": "GOOBY NEWS — die Nachrichten für aufgeweckte Hasen",
+			"schlagzeile1": "EILMELDUNG: Möhre auf Marktplatz gesichtet — Polizei mampft",
+			"schlagzeile2": "EILMELDUNG: Nougat-Vorräte historisch flauschig — Experten schlecken",
+			"schlagzeile3": "EILMELDUNG: Unbekanntes Hoppeln im Garten — es war der Wind (oder Gooby)",
+			"schlagzeile4": "EILMELDUNG: Sofa-Kissen umgefallen — Rettungskräfte kuscheln vor Ort",
+			"schlagzeile5": "EILMELDUNG: REHWEI senkt Preise für Salat — niemand kam",
+			"schlagzeile6": "EILMELDUNG: Testbild gewinnt Publikumspreis als bester Film des Jahres",
+			"schlagzeile7": "EILMELDUNG: Ohrenkraulen jetzt offiziell Volkssport — Verband gegründet",
+			"schlagzeile8": "EILMELDUNG: Geheimnisvolle Krümel-Spur führt direkt zum Kühlschrank",
+			"schlagzeile9": "EILMELDUNG: Wolke sieht aus wie Möhre — halbe Stadt schaut nach oben",
+			"schlagzeile10": "EILMELDUNG: Studio-Gooby niest — Papierstapel weiterhin vermisst"
+		},
+		"kochen": {
+			"b1": "Heute im Topf: Nutella-Eintopf à la Gooby",
+			"b2": "PUFF! Der Eintopf hatte andere Pläne",
+			"b3": "Der Chefkoch sagt: schmeckt trotzdem. Irgendwie."
+		},
+		"sport": {
+			"b1": "Live: das große Hüpfball-Finale",
+			"b2": "Was für ein Sprung! Die Ohren fliegen mit!",
+			"b3": "Umgefallen! Das Publikum hüpft trotzdem weiter"
+		},
+		"wetter": {
+			"intro": "Wolke Wuschel wirft den Blick auf morgen",
+			"banner": "Morgen um {stunde} Uhr: {wetter}",
+			"typ": {
+				"sonne": "Sonnenschein zum Ohrenwärmen",
+				"wolken": "Wolkenwatte am Himmel",
+				"niesel": "feines Nieselfisseln",
+				"regen": "Möhrengieß-Regen",
+				"gewitter": "Brummelgewitter — Ohren einziehen!",
+				"nebel": "Wuschelnebel bis zur Schnute",
+				"schnee": "Flauschschnee zum Reinhoppeln"
+			}
+		},
+		"nacht": {
+			"b1": "Der Gute-Nacht-Sender gähnt sich warm",
+			"b2": "Gute Nacht, kleine Möhren da draußen",
+			"b3": "Sendeschluss. Piiiiep. Träumt was Flauschiges."
+		}
+	}
+}

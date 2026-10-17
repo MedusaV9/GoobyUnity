@@ -1,0 +1,14 @@
+{
+	"daily": {
+		"titel": "Tagesbonus",
+		"untertitel": "Ein kleines Geschenk für jeden Besuch bei Gooby!",
+		"serie": "Serie: Tag {tag}",
+		"belohnung": "+{coins} Münzen",
+		"snack": "+ eine Snack-Überraschung",
+		"kulanz": "Ein Tag verpasst — kein Problem, deine Serie läuft weiter!",
+		"abholen": "Abholen!",
+		"spaeter": "Später",
+		"claimed_toast": "+{coins} Münzen — bis morgen!",
+		"claimed_snack_toast": "+{coins} Münzen und {snack} — bis morgen!"
+	}
+}

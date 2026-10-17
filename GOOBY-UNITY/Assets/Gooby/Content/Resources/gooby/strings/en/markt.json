@@ -1,0 +1,67 @@
+{
+	"markt": {
+		"tab": {
+			"ankauf": "Buy-up",
+			"eigenstand": "My stall"
+		},
+		"stand": {
+			"titel": "Your market stall",
+			"nachfrage": "Everyone loves {ware} today!",
+			"slots": "On the stall",
+			"slots_frei": "{n} spots still free."
+		},
+		"status": {
+			"leer": "The stall is empty — put something on it before Saturday!",
+			"wartet": "All set! Saturday at 8 it’s go time.",
+			"laeuft": "Market day is happening right now!",
+			"fertig": "Market day is over — pick up your earnings!"
+		},
+		"kommentar": {
+			"1": "Fresh from the garden! Well… most of it. The stall only wobbles a little.",
+			"2": "Bodo says this is the best spot on the whole market. Bodo says that about every spot.",
+			"3": "The whole square smells like harvest today. And a tiny bit like pumpkin."
+		},
+		"kraeuter": {
+			"ertrag": "Your herb box added {n}× herb bundle!"
+		},
+		"erste_male": {
+			"titel": "Your very own stall!",
+			"text": "Before the market starts, stock the stall from your garden, workshop and travel finds, and set a price per item — up to half above or below its base value. On Saturday the market day runs on its own: cheaper sells faster, and every sold unit fills the crowd up a little. Watch it live or just collect the summary later — anything unsold goes back into storage."
+		},
+		"lager": {
+			"titel": "Your storage",
+			"leer": "Nothing to sell — harvest, craft or bring something home!",
+			"vorrat": "Stock: {n}",
+			"plus_eins": "+1",
+			"plus_alle": "All {n}"
+		},
+		"slot": {
+			"zeile": "{name} ×{n}",
+			"runter": "Take off",
+			"preis": "{preis} ᴳ · base {basis} ᴳ"
+		},
+		"markttag": {
+			"laeuft": "The market is in full swing — watch it or settle up right away?",
+			"fertig": "All customers came through. Time to settle up!"
+		},
+		"replay": {
+			"knopf": "Watch",
+			"laeuft": "How your market day went…",
+			"kauf": "{name} sold — +{preis} ᴳ!",
+			"vorbei": "A customer eyes {name}… and moves on."
+		},
+		"abholen": {
+			"knopf": "Collect earnings"
+		},
+		"abrechnung": {
+			"titel": "Market day summary",
+			"zeile": "{name}: {verkauft} sold · {uebrig} left · {erloes} ᴳ",
+			"nichts": "Nobody bought anything today. Next Saturday will be better!",
+			"summe": "Earnings: {erloes} ᴳ",
+			"beste": "Best seller: {name}",
+			"rueck": "Everything unsold is back in your storage.",
+			"ok": "Got it!"
+		},
+		"schuerze": "The apron? The apron is business. NOBODY buys from a stall without an apron."
+	}
+}

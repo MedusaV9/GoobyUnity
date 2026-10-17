@@ -1,0 +1,47 @@
+{
+	"save": {
+		"transfer": {
+			"title": "Spielstand übertragen",
+			"back": "‹ Zurück",
+			"intro": "Hol deinen Gooby aus der alten App hierher — Münzen, Sticker, Möbel und mehr ziehen mit um.",
+			"auto": {
+				"found": "Alter Spielstand auf diesem Gerät gefunden!",
+				"source_ios": "Quelle: Altdaten der alten App (alte App nicht löschen — einfach die neue drüberinstallieren!)",
+				"preview": "Vorschau anzeigen"
+			},
+			"paste": {
+				"title": "Aus der alten App einfügen",
+				"hint": "In der alten App: Einstellungen → „Spielstand exportieren“. Dann den Text hier einfügen.",
+				"placeholder": "Spielstand-Text hier einfügen…",
+				"check": "Prüfen"
+			},
+			"file": {
+				"button": "Aus Datei laden",
+				"unsupported": "Auf diesem Gerät gibt’s keinen Datei-Dialog — bitte füg den Text ein."
+			},
+			"preview": {
+				"title": "Gefunden! Das steckt drin:",
+				"line": "Level {level} · {coins} Münzen · {stickers} Sticker · {outfits} Outfits",
+				"furniture": "{furniture} Möbel warten im Umzugskarton",
+				"notes": "Hinweise zum Umzug:",
+				"apply": "Übernehmen",
+				"cancel": "Abbrechen"
+			},
+			"error": {
+				"title": "Das hat nicht geklappt",
+				"body": "Der Text ist kein Gooby-Spielstand. ({error})"
+			},
+			"done": {
+				"title": "Geschafft! Dein Gooby ist umgezogen.",
+				"body": "Dein alter Stand bleibt zusätzlich gesichert (Vor-Import-Sicherung auf diesem Gerät).",
+				"moving": "Deine Möbel stehen im Umzugskarton — du findest sie im Lager.",
+				"continue": "Weiter"
+			},
+			"export": {
+				"title": "Gerätewechsel (neue App → neue App)",
+				"button": "Als GOOBY5-Code kopieren",
+				"copied": "Code kopiert! Auf dem neuen Gerät hier einfügen."
+			}
+		}
+	}
+}

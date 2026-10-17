@@ -1,0 +1,1812 @@
+{
+  "modes": {
+    "easy": [
+      {
+        "seed": 1,
+        "score": 93,
+        "caught": 22,
+        "missed": 25,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 2,
+        "score": 127,
+        "caught": 24,
+        "missed": 28,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 3,
+        "score": 132,
+        "caught": 24,
+        "missed": 25,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 4,
+        "score": 139,
+        "caught": 28,
+        "missed": 23,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 5,
+        "score": 146,
+        "caught": 27,
+        "missed": 23,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 6,
+        "score": 132,
+        "caught": 29,
+        "missed": 20,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 7,
+        "score": 81,
+        "caught": 22,
+        "missed": 27,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 8,
+        "score": 99,
+        "caught": 21,
+        "missed": 25,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 9,
+        "score": 123,
+        "caught": 24,
+        "missed": 30,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 10,
+        "score": 135,
+        "caught": 25,
+        "missed": 25,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 11,
+        "score": 131,
+        "caught": 30,
+        "missed": 18,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 12,
+        "score": 103,
+        "caught": 22,
+        "missed": 26,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 13,
+        "score": 159,
+        "caught": 28,
+        "missed": 18,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 14,
+        "score": 125,
+        "caught": 23,
+        "missed": 24,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 15,
+        "score": 111,
+        "caught": 22,
+        "missed": 19,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 16,
+        "score": 72,
+        "caught": 17,
+        "missed": 27,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 17,
+        "score": 103,
+        "caught": 19,
+        "missed": 28,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 18,
+        "score": 127,
+        "caught": 24,
+        "missed": 25,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 19,
+        "score": 124,
+        "caught": 21,
+        "missed": 28,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 20,
+        "score": 137,
+        "caught": 24,
+        "missed": 27,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 21,
+        "score": 136,
+        "caught": 22,
+        "missed": 28,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 22,
+        "score": 135,
+        "caught": 28,
+        "missed": 27,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 23,
+        "score": 115,
+        "caught": 21,
+        "missed": 25,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 24,
+        "score": 151,
+        "caught": 27,
+        "missed": 24,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 25,
+        "score": 155,
+        "caught": 28,
+        "missed": 23,
+        "escapedWaves": 0,
+        "booBonuses": 3,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 26,
+        "score": 136,
+        "caught": 25,
+        "missed": 24,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 27,
+        "score": 140,
+        "caught": 26,
+        "missed": 23,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 28,
+        "score": 106,
+        "caught": 22,
+        "missed": 28,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 29,
+        "score": 129,
+        "caught": 23,
+        "missed": 25,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 30,
+        "score": 140,
+        "caught": 24,
+        "missed": 28,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 31,
+        "score": 122,
+        "caught": 25,
+        "missed": 21,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 32,
+        "score": 124,
+        "caught": 26,
+        "missed": 24,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 33,
+        "score": 104,
+        "caught": 21,
+        "missed": 28,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 34,
+        "score": 118,
+        "caught": 24,
+        "missed": 24,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 35,
+        "score": 78,
+        "caught": 22,
+        "missed": 31,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 36,
+        "score": 121,
+        "caught": 25,
+        "missed": 23,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 37,
+        "score": 127,
+        "caught": 28,
+        "missed": 25,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 38,
+        "score": 98,
+        "caught": 23,
+        "missed": 20,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 39,
+        "score": 144,
+        "caught": 32,
+        "missed": 19,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 40,
+        "score": 134,
+        "caught": 23,
+        "missed": 22,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 41,
+        "score": 118,
+        "caught": 27,
+        "missed": 24,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 42,
+        "score": 128,
+        "caught": 21,
+        "missed": 26,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 43,
+        "score": 143,
+        "caught": 29,
+        "missed": 17,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 44,
+        "score": 102,
+        "caught": 22,
+        "missed": 28,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 45,
+        "score": 108,
+        "caught": 23,
+        "missed": 23,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 46,
+        "score": 120,
+        "caught": 23,
+        "missed": 26,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 47,
+        "score": 131,
+        "caught": 22,
+        "missed": 23,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 48,
+        "score": 135,
+        "caught": 25,
+        "missed": 21,
+        "escapedWaves": 1,
+        "booBonuses": 2,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 49,
+        "score": 89,
+        "caught": 20,
+        "missed": 23,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 108.03333333332976
+      },
+      {
+        "seed": 50,
+        "score": 183,
+        "caught": 31,
+        "missed": 19,
+        "escapedWaves": 0,
+        "booBonuses": 3,
+        "time": 108.03333333332976
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1,
+        "score": 106,
+        "caught": 21,
+        "missed": 30,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 2,
+        "score": 106,
+        "caught": 22,
+        "missed": 30,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 3,
+        "score": 96,
+        "caught": 20,
+        "missed": 29,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 4,
+        "score": 111,
+        "caught": 24,
+        "missed": 25,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 5,
+        "score": 82,
+        "caught": 22,
+        "missed": 28,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 6,
+        "score": 105,
+        "caught": 26,
+        "missed": 24,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 7,
+        "score": 88,
+        "caught": 21,
+        "missed": 30,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 8,
+        "score": 77,
+        "caught": 19,
+        "missed": 29,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 9,
+        "score": 82,
+        "caught": 18,
+        "missed": 31,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 10,
+        "score": 92,
+        "caught": 17,
+        "missed": 33,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 11,
+        "score": 95,
+        "caught": 25,
+        "missed": 23,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 12,
+        "score": 92,
+        "caught": 17,
+        "missed": 29,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 13,
+        "score": 107,
+        "caught": 23,
+        "missed": 27,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 14,
+        "score": 86,
+        "caught": 15,
+        "missed": 31,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 15,
+        "score": 88,
+        "caught": 21,
+        "missed": 24,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 16,
+        "score": 74,
+        "caught": 17,
+        "missed": 29,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 17,
+        "score": 68,
+        "caught": 17,
+        "missed": 27,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 18,
+        "score": 89,
+        "caught": 21,
+        "missed": 28,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 19,
+        "score": 92,
+        "caught": 20,
+        "missed": 27,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 20,
+        "score": 118,
+        "caught": 21,
+        "missed": 28,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 21,
+        "score": 100,
+        "caught": 18,
+        "missed": 30,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 22,
+        "score": 85,
+        "caught": 20,
+        "missed": 32,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 23,
+        "score": 110,
+        "caught": 22,
+        "missed": 28,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 24,
+        "score": 90,
+        "caught": 24,
+        "missed": 24,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 25,
+        "score": 106,
+        "caught": 25,
+        "missed": 27,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 26,
+        "score": 104,
+        "caught": 22,
+        "missed": 29,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 27,
+        "score": 100,
+        "caught": 25,
+        "missed": 25,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 28,
+        "score": 81,
+        "caught": 19,
+        "missed": 30,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 29,
+        "score": 82,
+        "caught": 17,
+        "missed": 30,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 30,
+        "score": 86,
+        "caught": 19,
+        "missed": 32,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 31,
+        "score": 102,
+        "caught": 23,
+        "missed": 23,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 32,
+        "score": 102,
+        "caught": 17,
+        "missed": 28,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 33,
+        "score": 65,
+        "caught": 16,
+        "missed": 30,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 34,
+        "score": 105,
+        "caught": 22,
+        "missed": 28,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 35,
+        "score": 69,
+        "caught": 16,
+        "missed": 33,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 36,
+        "score": 89,
+        "caught": 19,
+        "missed": 28,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 37,
+        "score": 127,
+        "caught": 28,
+        "missed": 25,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 38,
+        "score": 100,
+        "caught": 25,
+        "missed": 20,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 39,
+        "score": 122,
+        "caught": 29,
+        "missed": 21,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 40,
+        "score": 78,
+        "caught": 19,
+        "missed": 26,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 41,
+        "score": 108,
+        "caught": 24,
+        "missed": 25,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 42,
+        "score": 87,
+        "caught": 19,
+        "missed": 28,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 43,
+        "score": 97,
+        "caught": 26,
+        "missed": 23,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 44,
+        "score": 90,
+        "caught": 20,
+        "missed": 26,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 45,
+        "score": 95,
+        "caught": 20,
+        "missed": 29,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 46,
+        "score": 98,
+        "caught": 22,
+        "missed": 32,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 47,
+        "score": 96,
+        "caught": 20,
+        "missed": 29,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 48,
+        "score": 96,
+        "caught": 23,
+        "missed": 25,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 49,
+        "score": 88,
+        "caught": 22,
+        "missed": 26,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 50,
+        "score": 122,
+        "caught": 26,
+        "missed": 24,
+        "escapedWaves": 2,
+        "booBonuses": 1,
+        "time": 90.03333333333079
+      }
+    ],
+    "hard": [
+      {
+        "seed": 1,
+        "score": 84,
+        "caught": 19,
+        "missed": 36,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 2,
+        "score": 81,
+        "caught": 20,
+        "missed": 34,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 3,
+        "score": 91,
+        "caught": 20,
+        "missed": 38,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 4,
+        "score": 87,
+        "caught": 21,
+        "missed": 35,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 5,
+        "score": 95,
+        "caught": 23,
+        "missed": 34,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 6,
+        "score": 103,
+        "caught": 26,
+        "missed": 32,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 7,
+        "score": 78,
+        "caught": 19,
+        "missed": 38,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 8,
+        "score": 77,
+        "caught": 20,
+        "missed": 36,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 9,
+        "score": 83,
+        "caught": 21,
+        "missed": 36,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 10,
+        "score": 86,
+        "caught": 18,
+        "missed": 42,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 11,
+        "score": 111,
+        "caught": 28,
+        "missed": 27,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 12,
+        "score": 60,
+        "caught": 14,
+        "missed": 40,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 13,
+        "score": 94,
+        "caught": 26,
+        "missed": 26,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 14,
+        "score": 61,
+        "caught": 15,
+        "missed": 42,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 15,
+        "score": 73,
+        "caught": 19,
+        "missed": 34,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 16,
+        "score": 83,
+        "caught": 19,
+        "missed": 35,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 17,
+        "score": 62,
+        "caught": 15,
+        "missed": 37,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 18,
+        "score": 80,
+        "caught": 19,
+        "missed": 36,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 19,
+        "score": 77,
+        "caught": 19,
+        "missed": 37,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 20,
+        "score": 85,
+        "caught": 21,
+        "missed": 36,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 21,
+        "score": 68,
+        "caught": 14,
+        "missed": 40,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 22,
+        "score": 85,
+        "caught": 23,
+        "missed": 36,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 23,
+        "score": 78,
+        "caught": 18,
+        "missed": 40,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 24,
+        "score": 82,
+        "caught": 21,
+        "missed": 32,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 25,
+        "score": 102,
+        "caught": 24,
+        "missed": 31,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 26,
+        "score": 74,
+        "caught": 19,
+        "missed": 30,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 27,
+        "score": 94,
+        "caught": 23,
+        "missed": 34,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 28,
+        "score": 89,
+        "caught": 18,
+        "missed": 37,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 29,
+        "score": 63,
+        "caught": 14,
+        "missed": 37,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 30,
+        "score": 85,
+        "caught": 20,
+        "missed": 41,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 31,
+        "score": 94,
+        "caught": 22,
+        "missed": 34,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 32,
+        "score": 76,
+        "caught": 18,
+        "missed": 36,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 33,
+        "score": 77,
+        "caught": 20,
+        "missed": 38,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 34,
+        "score": 100,
+        "caught": 23,
+        "missed": 35,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 35,
+        "score": 68,
+        "caught": 18,
+        "missed": 38,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 36,
+        "score": 68,
+        "caught": 18,
+        "missed": 36,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 37,
+        "score": 90,
+        "caught": 22,
+        "missed": 37,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 38,
+        "score": 105,
+        "caught": 26,
+        "missed": 31,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 39,
+        "score": 111,
+        "caught": 28,
+        "missed": 27,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 40,
+        "score": 97,
+        "caught": 23,
+        "missed": 29,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 41,
+        "score": 91,
+        "caught": 24,
+        "missed": 29,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 42,
+        "score": 78,
+        "caught": 21,
+        "missed": 36,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 43,
+        "score": 94,
+        "caught": 25,
+        "missed": 29,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 44,
+        "score": 79,
+        "caught": 20,
+        "missed": 35,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 45,
+        "score": 93,
+        "caught": 20,
+        "missed": 32,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 46,
+        "score": 72,
+        "caught": 19,
+        "missed": 40,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 47,
+        "score": 79,
+        "caught": 19,
+        "missed": 34,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 48,
+        "score": 83,
+        "caught": 19,
+        "missed": 32,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 49,
+        "score": 78,
+        "caught": 18,
+        "missed": 35,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      },
+      {
+        "seed": 50,
+        "score": 79,
+        "caught": 20,
+        "missed": 35,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 90.03333333333079
+      }
+    ],
+    "endless": [
+      {
+        "seed": 1,
+        "score": 71,
+        "caught": 15,
+        "missed": 34,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 2,
+        "score": 69,
+        "caught": 17,
+        "missed": 32,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 3,
+        "score": 78,
+        "caught": 18,
+        "missed": 32,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 4,
+        "score": 87,
+        "caught": 21,
+        "missed": 29,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 5,
+        "score": 70,
+        "caught": 18,
+        "missed": 30,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 6,
+        "score": 84,
+        "caught": 22,
+        "missed": 29,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 7,
+        "score": 75,
+        "caught": 18,
+        "missed": 32,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 8,
+        "score": 71,
+        "caught": 19,
+        "missed": 28,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 9,
+        "score": 70,
+        "caught": 18,
+        "missed": 31,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 10,
+        "score": 79,
+        "caught": 16,
+        "missed": 37,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 11,
+        "score": 87,
+        "caught": 22,
+        "missed": 25,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 12,
+        "score": 51,
+        "caught": 11,
+        "missed": 34,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 13,
+        "score": 88,
+        "caught": 24,
+        "missed": 22,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 14,
+        "score": 54,
+        "caught": 13,
+        "missed": 36,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 15,
+        "score": 67,
+        "caught": 18,
+        "missed": 28,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 16,
+        "score": 67,
+        "caught": 16,
+        "missed": 31,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 17,
+        "score": 56,
+        "caught": 14,
+        "missed": 31,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 18,
+        "score": 63,
+        "caught": 14,
+        "missed": 34,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 19,
+        "score": 71,
+        "caught": 17,
+        "missed": 32,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 20,
+        "score": 73,
+        "caught": 18,
+        "missed": 29,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 21,
+        "score": 62,
+        "caught": 13,
+        "missed": 33,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 22,
+        "score": 78,
+        "caught": 21,
+        "missed": 29,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 23,
+        "score": 70,
+        "caught": 17,
+        "missed": 32,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 24,
+        "score": 75,
+        "caught": 20,
+        "missed": 26,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 25,
+        "score": 95,
+        "caught": 22,
+        "missed": 27,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 26,
+        "score": 65,
+        "caught": 17,
+        "missed": 28,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 27,
+        "score": 91,
+        "caught": 22,
+        "missed": 28,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 28,
+        "score": 62,
+        "caught": 13,
+        "missed": 34,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 29,
+        "score": 57,
+        "caught": 12,
+        "missed": 32,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 30,
+        "score": 64,
+        "caught": 15,
+        "missed": 36,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 31,
+        "score": 81,
+        "caught": 18,
+        "missed": 30,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 32,
+        "score": 64,
+        "caught": 15,
+        "missed": 32,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 33,
+        "score": 68,
+        "caught": 17,
+        "missed": 32,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 34,
+        "score": 82,
+        "caught": 19,
+        "missed": 31,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 35,
+        "score": 58,
+        "caught": 15,
+        "missed": 34,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 36,
+        "score": 59,
+        "caught": 15,
+        "missed": 29,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 37,
+        "score": 78,
+        "caught": 19,
+        "missed": 31,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 38,
+        "score": 84,
+        "caught": 22,
+        "missed": 25,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 39,
+        "score": 90,
+        "caught": 23,
+        "missed": 24,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 40,
+        "score": 76,
+        "caught": 18,
+        "missed": 26,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 41,
+        "score": 73,
+        "caught": 20,
+        "missed": 26,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 42,
+        "score": 69,
+        "caught": 19,
+        "missed": 30,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 43,
+        "score": 94,
+        "caught": 25,
+        "missed": 24,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 44,
+        "score": 66,
+        "caught": 17,
+        "missed": 31,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 45,
+        "score": 80,
+        "caught": 17,
+        "missed": 28,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 46,
+        "score": 62,
+        "caught": 16,
+        "missed": 35,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 47,
+        "score": 70,
+        "caught": 16,
+        "missed": 29,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 48,
+        "score": 71,
+        "caught": 16,
+        "missed": 25,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 49,
+        "score": 69,
+        "caught": 16,
+        "missed": 32,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      },
+      {
+        "seed": 50,
+        "score": 67,
+        "caught": 17,
+        "missed": 29,
+        "escapedWaves": 3,
+        "booBonuses": 0,
+        "time": 76.33333333333157
+      }
+    ]
+  }
+}

@@ -1,0 +1,2244 @@
+{
+	"schema": 1,
+	"items": [
+		{
+			"id": "firstNom",
+			"name_de": "Erster Happs",
+			"flavor_de": "Die allererste Möhre schmeckt am süßesten.",
+			"hint_de": "Gib Gooby seinen allerersten Snack.",
+			"set": "legacy",
+			"page": "classic1",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/firstNom.png",
+			"cond": {
+				"type": "counter",
+				"key": "feeds",
+				"count": 1
+			}
+		},
+		{
+			"id": "squeakyClean",
+			"name_de": "Blitzeblank",
+			"flavor_de": "Schaum in den Ohren, Freude im Herzen.",
+			"hint_de": "Gib Gooby ein Bad.",
+			"set": "legacy",
+			"page": "classic1",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/squeakyClean.png",
+			"cond": {
+				"type": "counter",
+				"key": "washes",
+				"count": 1
+			}
+		},
+		{
+			"id": "ballBuddy",
+			"name_de": "Ballfreund",
+			"flavor_de": "Wirf nochmal. Nochmal! NOCHMAL!",
+			"hint_de": "Spiel wieder und wieder Ball mit Gooby (10×).",
+			"set": "legacy",
+			"page": "classic1",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/ballBuddy.png",
+			"cond": {
+				"type": "counter",
+				"key": "balls",
+				"count": 10
+			}
+		},
+		{
+			"id": "sleepyhead",
+			"name_de": "Schlafmütze",
+			"flavor_de": "Noch fünf Minuten… oder Stunden.",
+			"hint_de": "Bring Gooby zum ersten Mal ins Bett.",
+			"set": "legacy",
+			"page": "classic1",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/sleepyhead.png",
+			"cond": {
+				"type": "counter",
+				"key": "sleeps",
+				"count": 1
+			}
+		},
+		{
+			"id": "tenNights",
+			"name_de": "Zehn gute Nächte",
+			"flavor_de": "Ein ausgeschlafener Gooby ist ein glücklicher Gooby.",
+			"hint_de": "Lass Gooby 10-mal schlafen.",
+			"set": "legacy",
+			"page": "classic1",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/tenNights.png",
+			"cond": {
+				"type": "counter",
+				"key": "sleeps",
+				"count": 10
+			}
+		},
+		{
+			"id": "grumpMorning",
+			"name_de": "Morgenmuffel",
+			"flavor_de": "Zu früh geweckt. Bereut alles.",
+			"hint_de": "Weck Gooby, bevor er ausgeschlafen hat…",
+			"set": "legacy",
+			"page": "classic1",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/grumpMorning.png",
+			"cond": {
+				"type": "event",
+				"key": "grumpyWake"
+			}
+		},
+		{
+			"id": "feverFace",
+			"name_de": "Fieberbäckchen",
+			"flavor_de": "Auch Fieberthermometer brauchen mal eine Umarmung.",
+			"hint_de": "Zu viele Süßigkeiten haben manchmal Folgen.",
+			"set": "legacy",
+			"page": "classic2",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/feverFace.png",
+			"cond": {
+				"type": "counter",
+				"key": "sickEver",
+				"count": 1
+			}
+		},
+		{
+			"id": "drGooby",
+			"name_de": "Beim Doktor",
+			"flavor_de": "Tapferes Häschen, glänzender Sticker.",
+			"hint_de": "Bring den kränkelnden Gooby zum Doktor.",
+			"set": "legacy",
+			"page": "classic2",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/drGooby.png",
+			"cond": {
+				"type": "counter",
+				"key": "vetTrips",
+				"count": 1
+			}
+		},
+		{
+			"id": "firstSprout",
+			"name_de": "Erster Spross",
+			"flavor_de": "Du hast gegossen. Es hat’s gemerkt.",
+			"hint_de": "Ernte dein erstes Gemüse im Garten.",
+			"set": "legacy",
+			"page": "classic2",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/firstSprout.png",
+			"cond": {
+				"type": "counter",
+				"key": "harvests",
+				"count": 1
+			}
+		},
+		{
+			"id": "rainyDay",
+			"name_de": "Regentag",
+			"flavor_de": "Der Regen trommelt aufs Dach. Gooby trommelt zurück.",
+			"hint_de": "Besuch den Garten, wenn es regnet.",
+			"set": "legacy",
+			"page": "classic2",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/rainyDay.png",
+			"cond": {
+				"type": "event",
+				"key": "rainCanopy"
+			}
+		},
+		{
+			"id": "starGazer",
+			"name_de": "Sternengucker",
+			"flavor_de": "Die Nacht zählte ihre Sterne: plus ein Hase.",
+			"hint_de": "Besuch den Garten spät in der Nacht.",
+			"set": "legacy",
+			"page": "classic2",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/starGazer.png",
+			"cond": {
+				"type": "event",
+				"key": "nightStars"
+			}
+		},
+		{
+			"id": "sayCheese",
+			"name_de": "Bitte lächeln!",
+			"flavor_de": "Das erste Foto ist immer das schlappohrigste.",
+			"hint_de": "Mach ein Foto von Gooby.",
+			"set": "legacy",
+			"page": "classic2",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/sayCheese.png",
+			"cond": {
+				"type": "counter",
+				"key": "photosTaken",
+				"count": 1
+			}
+		},
+		{
+			"id": "bigTen",
+			"name_de": "Level 10!",
+			"flavor_de": "Zweistellig, doppelt flauschig.",
+			"hint_de": "Erreiche Level 10.",
+			"set": "legacy",
+			"page": "classic3",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/bigTen.png",
+			"cond": {
+				"type": "special",
+				"key": "level",
+				"count": 10
+			}
+		},
+		{
+			"id": "quarterClub",
+			"name_de": "Level 25!",
+			"flavor_de": "Auf einem Viertel des Wegs zur Legende. Moment—",
+			"hint_de": "Erreiche Level 25.",
+			"set": "legacy",
+			"page": "classic3",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/quarterClub.png",
+			"cond": {
+				"type": "special",
+				"key": "level",
+				"count": 25
+			}
+		},
+		{
+			"id": "maxLevel",
+			"name_de": "Level 40!",
+			"flavor_de": "Es gibt kein Level 41. Gooby hat nachgesehen.",
+			"hint_de": "Erreiche Level 40.",
+			"set": "legacy",
+			"page": "classic3",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/maxLevel.png",
+			"cond": {
+				"type": "special",
+				"key": "level",
+				"count": 40
+			}
+		},
+		{
+			"id": "roadTripper",
+			"name_de": "Spritztour",
+			"flavor_de": "Erster Gang, erstes Grinsen.",
+			"hint_de": "Fahr mit Gooby zum ersten Mal zum Laden.",
+			"set": "legacy",
+			"page": "classic3",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/roadTripper.png",
+			"cond": {
+				"type": "counter",
+				"key": "trips",
+				"count": 1
+			}
+		},
+		{
+			"id": "towTrouble",
+			"name_de": "Abschlepp-Ärger",
+			"flavor_de": "Der Abschleppwagen kennt Gooby inzwischen beim Namen.",
+			"hint_de": "Bau einen Unfall zu viel…",
+			"set": "legacy",
+			"page": "classic3",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/towTrouble.png",
+			"cond": {
+				"type": "event",
+				"key": "towed"
+			}
+		},
+		{
+			"id": "goldenCatch",
+			"name_de": "Goldener Fang",
+			"flavor_de": "Der Teich behält seine Geheimnisse. Meistens.",
+			"hint_de": "Im Angelteich wohnt etwas Glänzendes.",
+			"set": "legacy",
+			"page": "classic3",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/goldenCatch.png",
+			"cond": {
+				"type": "special",
+				"key": "collectionEntry",
+				"count": 1,
+				"sub": {
+					"set": "fish",
+					"entry": "goldenFish"
+				}
+			}
+		},
+		{
+			"id": "discoGooby",
+			"name_de": "Disco-Gooby",
+			"flavor_de": "Der Boden leuchtete. Gooby auch.",
+			"hint_de": "Hol 100 Punkte bei der Dance Party.",
+			"set": "legacy",
+			"page": "classic4",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/discoGooby.png",
+			"cond": {
+				"type": "special",
+				"key": "gameBest",
+				"count": 100,
+				"sub": {
+					"game": "danceParty"
+				}
+			}
+		},
+		{
+			"id": "holeInOneHero",
+			"name_de": "Loch in eins!",
+			"flavor_de": "Ein Schlag. Eine Legende.",
+			"hint_de": "Versenk den Minigolfball mit einem einzigen Schlag.",
+			"set": "legacy",
+			"page": "classic4",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/holeInOneHero.png",
+			"cond": {
+				"type": "counter",
+				"key": "holeInOnes",
+				"count": 1
+			}
+		},
+		{
+			"id": "parcelPro",
+			"name_de": "Paket-Profi",
+			"flavor_de": "Zugestellt mit schlappohriger Präzision.",
+			"hint_de": "Stell 10 Pakete zu.",
+			"set": "legacy",
+			"page": "classic4",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/parcelPro.png",
+			"cond": {
+				"type": "counter",
+				"key": "deliveries",
+				"count": 10
+			}
+		},
+		{
+			"id": "freshDrip",
+			"name_de": "Frisches Fell",
+			"flavor_de": "Neues Fell. Gooby erkennt sich selbst kaum wieder.",
+			"hint_de": "Kauf Gooby eine neue Fellfarbe.",
+			"set": "legacy",
+			"page": "classic4",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/freshDrip.png",
+			"cond": {
+				"type": "special",
+				"key": "skinsOwned",
+				"count": 2
+			}
+		},
+		{
+			"id": "fullFit",
+			"name_de": "Komplett-Look",
+			"flavor_de": "Hut, Brille, Schal: Modehase.",
+			"hint_de": "Trag Hut, Brille und Halsschmuck gleichzeitig.",
+			"set": "legacy",
+			"page": "classic4",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/fullFit.png",
+			"cond": {
+				"type": "special",
+				"key": "fullOutfit",
+				"count": 3
+			}
+		},
+		{
+			"id": "maxFloof",
+			"name_de": "Maximal flauschig",
+			"flavor_de": "Mehr Gooby zum Liebhaben.",
+			"hint_de": "Füttere Gooby, bis er extra rund ist.",
+			"set": "legacy",
+			"page": "classic4",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/maxFloof.png",
+			"cond": {
+				"type": "special",
+				"key": "weightMax",
+				"count": 86
+			}
+		},
+		{
+			"id": "nutellaGlob",
+			"name_de": "Nutella-Zeit",
+			"flavor_de": "Die Nougatschleuse verfehlt nie.",
+			"hint_de": "Eine gewisse Küchenmaschine spendet Freude.",
+			"set": "legacy",
+			"page": "classic5",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/nutellaGlob.png",
+			"cond": {
+				"type": "counter",
+				"key": "nougatGlobs",
+				"count": 1
+			}
+		},
+		{
+			"id": "cakeBoss",
+			"name_de": "Tortenboss",
+			"flavor_de": "Der Kunde weinte. Freudentränen. Wahrscheinlich.",
+			"hint_de": "Servier eine perfekte Torte in der Tortenwerkstatt.",
+			"set": "legacy",
+			"page": "classic5",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/cakeBoss.png",
+			"cond": {
+				"type": "counter",
+				"key": "perfectCakes",
+				"count": 1
+			}
+		},
+		{
+			"id": "surfStar",
+			"name_de": "Wagen-Surfer",
+			"flavor_de": "Gang fünf hat solche Geschwindigkeit noch nie gesehen.",
+			"hint_de": "Beende einen Shopping-Surf-Lauf.",
+			"set": "legacy",
+			"page": "classic5",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/surfStar.png",
+			"cond": {
+				"type": "counter",
+				"key": "surfRuns",
+				"count": 1
+			}
+		},
+		{
+			"id": "albumMaster",
+			"name_de": "Album-Meister",
+			"flavor_de": "Jeder Sticker hat sein Zuhause gefunden.",
+			"hint_de": "Vervollständige alle vier Sticker-Sammlungen.",
+			"set": "legacy",
+			"page": "classic5",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/albumMaster.png",
+			"cond": {
+				"type": "special",
+				"key": "setsClaimed",
+				"count": 4
+			}
+		},
+		{
+			"id": "snackStack",
+			"name_de": "Snackturm",
+			"flavor_de": "Fünfzig Snacks später, null Reue.",
+			"hint_de": "Füttere Gooby mit 50 Snacks.",
+			"set": "legacy",
+			"page": "classic5",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/snackStack.png",
+			"cond": {
+				"type": "counter",
+				"key": "feeds",
+				"count": 50
+			}
+		},
+		{
+			"id": "cleanMachine",
+			"name_de": "Putzmaschine",
+			"flavor_de": "Shampoo-Sponsoring in Verhandlung.",
+			"hint_de": "Gib Gooby 25 Bäder.",
+			"set": "legacy",
+			"page": "classic5",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/cleanMachine.png",
+			"cond": {
+				"type": "counter",
+				"key": "washes",
+				"count": 25
+			}
+		},
+		{
+			"id": "bellyLaugh",
+			"name_de": "Bauchkitzler",
+			"flavor_de": "Achtung: Kichern ist ansteckend.",
+			"hint_de": "Kitzle Gooby 50-mal.",
+			"set": "legacy",
+			"page": "classic6",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/bellyLaugh.png",
+			"cond": {
+				"type": "counter",
+				"key": "tickles",
+				"count": 50
+			}
+		},
+		{
+			"id": "dreamTeam",
+			"name_de": "Traumteam",
+			"flavor_de": "Gooby und sein Kissen: unzertrennlich.",
+			"hint_de": "Bring Gooby 25-mal ins Bett.",
+			"set": "legacy",
+			"page": "classic6",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/dreamTeam.png",
+			"cond": {
+				"type": "counter",
+				"key": "sleeps",
+				"count": 25
+			}
+		},
+		{
+			"id": "gardenBasket",
+			"name_de": "Erntekorb",
+			"flavor_de": "Der Korb ist schwer. Das Herz ist voll.",
+			"hint_de": "Ernte 25-mal Gemüse im Garten.",
+			"set": "legacy",
+			"page": "classic6",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/gardenBasket.png",
+			"cond": {
+				"type": "counter",
+				"key": "harvests",
+				"count": 25
+			}
+		},
+		{
+			"id": "greenThumb",
+			"name_de": "Grüner Daumen",
+			"flavor_de": "Die Pflanzen flüstern Danke, wenn du vorbeigehst.",
+			"hint_de": "Gieße den Garten 50-mal.",
+			"set": "legacy",
+			"page": "classic6",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/greenThumb.png",
+			"cond": {
+				"type": "counter",
+				"key": "waterings",
+				"count": 50
+			}
+		},
+		{
+			"id": "seedStarter",
+			"name_de": "Saathelfer",
+			"flavor_de": "Jeder Dschungel beginnt mit einem winzigen Samen.",
+			"hint_de": "Pflanze 10 Samen im Garten.",
+			"set": "legacy",
+			"page": "classic6",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/seedStarter.png",
+			"cond": {
+				"type": "counter",
+				"key": "plantings",
+				"count": 10
+			}
+		},
+		{
+			"id": "photoWall",
+			"name_de": "Fotowand",
+			"flavor_de": "Zehn Posen, ein sehr fotogenes Häschen.",
+			"hint_de": "Mach 10 Fotos von Gooby.",
+			"set": "legacy",
+			"page": "classic6",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/photoWall.png",
+			"cond": {
+				"type": "counter",
+				"key": "photosTaken",
+				"count": 10
+			}
+		},
+		{
+			"id": "roadRegular",
+			"name_de": "Stammfahrer",
+			"flavor_de": "Der Laden winkt, wenn Gooby vorbeifährt.",
+			"hint_de": "Fahr 10-mal zum Laden.",
+			"set": "legacy",
+			"page": "classic7",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/roadRegular.png",
+			"cond": {
+				"type": "counter",
+				"key": "trips",
+				"count": 10
+			}
+		},
+		{
+			"id": "ballStorm",
+			"name_de": "Bälleregen",
+			"flavor_de": "Es regnet Bälle. Gooby ist einverstanden.",
+			"hint_de": "Spiel 50-mal Ball mit Gooby.",
+			"set": "legacy",
+			"page": "classic7",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/ballStorm.png",
+			"cond": {
+				"type": "counter",
+				"key": "balls",
+				"count": 50
+			}
+		},
+		{
+			"id": "safeDriver",
+			"name_de": "Sicherer Fahrer",
+			"flavor_de": "Kein einziger Kratzer. Das Auto schnurrt.",
+			"hint_de": "Beende 5 Fahrten ganz ohne Unfall.",
+			"set": "legacy",
+			"page": "classic7",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/safeDriver.png",
+			"cond": {
+				"type": "counter",
+				"key": "cleanTrips",
+				"count": 5
+			}
+		},
+		{
+			"id": "deliveryAce",
+			"name_de": "Paket-Ass",
+			"flavor_de": "Fünfzig Pakete, null geknickte Ecken.",
+			"hint_de": "Stell 50 Pakete zu.",
+			"set": "legacy",
+			"page": "classic7",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/deliveryAce.png",
+			"cond": {
+				"type": "counter",
+				"key": "deliveries",
+				"count": 50
+			}
+		},
+		{
+			"id": "modifierMischief",
+			"name_de": "Bonus-Schabernack",
+			"flavor_de": "Regeln verbogen. Spaß verdoppelt.",
+			"hint_de": "Spiel 5 Runden mit aktivem Modifikator.",
+			"set": "legacy",
+			"page": "classic7",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/modifierMischief.png",
+			"cond": {
+				"type": "counter",
+				"key": "modifierPlays",
+				"count": 5
+			}
+		},
+		{
+			"id": "carrotChampion",
+			"name_de": "Möhren-Champion",
+			"flavor_de": "Die Möhren fangen sich praktisch von selbst.",
+			"hint_de": "Hol 60 Punkte beim Möhrenfang.",
+			"set": "legacy",
+			"page": "classic7",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/carrotChampion.png",
+			"cond": {
+				"type": "special",
+				"key": "gameBest",
+				"count": 60,
+				"sub": {
+					"game": "carrotCatch"
+				}
+			}
+		},
+		{
+			"id": "memoryMaster",
+			"name_de": "Memory-Meister",
+			"flavor_de": "Gooby weiß noch, wo alles liegt. Alles.",
+			"hint_de": "Hol 40 Punkte bei Memory.",
+			"set": "legacy",
+			"page": "classic8",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/memoryMaster.png",
+			"cond": {
+				"type": "special",
+				"key": "gameBest",
+				"count": 40,
+				"sub": {
+					"game": "memoryMatch"
+				}
+			}
+		},
+		{
+			"id": "saysSuperstar",
+			"name_de": "Superstar",
+			"flavor_de": "Gooby sagt: Superstar!",
+			"hint_de": "Hol 100 Punkte bei „Gooby sagt“.",
+			"set": "legacy",
+			"page": "classic8",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/saysSuperstar.png",
+			"cond": {
+				"type": "special",
+				"key": "gameBest",
+				"count": 100,
+				"sub": {
+					"game": "goobySays"
+				}
+			}
+		},
+		{
+			"id": "questScout",
+			"name_de": "Pfadfinder",
+			"flavor_de": "Keine Quest zu klein, kein Snack zu groß.",
+			"hint_de": "Schließe 10 Quests ab.",
+			"set": "legacy",
+			"page": "classic8",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/questScout.png",
+			"cond": {
+				"type": "counter",
+				"key": "questsDone",
+				"count": 10
+			}
+		},
+		{
+			"id": "getWellSoon",
+			"name_de": "Gute Besserung",
+			"flavor_de": "Mit einer Umarmung rutscht die Medizin leichter.",
+			"hint_de": "Heile Gooby 3-mal.",
+			"set": "legacy",
+			"page": "classic8",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/getWellSoon.png",
+			"cond": {
+				"type": "counter",
+				"key": "cures",
+				"count": 3
+			}
+		},
+		{
+			"id": "radioBunny",
+			"name_de": "Radiohase",
+			"flavor_de": "Ohren hoch — das ist ein Hit.",
+			"hint_de": "Hör 30 Minuten Radio.",
+			"set": "legacy",
+			"page": "classic8",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/radioBunny.png",
+			"cond": {
+				"type": "counter",
+				"key": "radioMinutes",
+				"count": 30
+			}
+		},
+		{
+			"id": "codeWhisperer",
+			"name_de": "Code-Flüsterer",
+			"flavor_de": "Das geheime Wort war wirklich magisch.",
+			"hint_de": "Löse ein Codewort ein.",
+			"set": "legacy",
+			"page": "classic8",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/codeWhisperer.png",
+			"cond": {
+				"type": "counter",
+				"key": "codesRedeemed",
+				"count": 1
+			}
+		},
+		{
+			"id": "beachPostcard",
+			"name_de": "Strandpostkarte",
+			"flavor_de": "Sonne, Sand und ein sehr entspanntes Häschen.",
+			"hint_de": "Erhalte eine Postkarte aus dem Strandurlaub.",
+			"set": "legacy",
+			"page": "travel",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/beachPostcard.png",
+			"cond": {
+				"type": "special",
+				"key": "postcards",
+				"count": 1,
+				"sub": {
+					"dest": "beach"
+				}
+			}
+		},
+		{
+			"id": "harborPostcard",
+			"name_de": "Hafenpostkarte",
+			"flavor_de": "Grüße vom Pier — die Möwen winken mit.",
+			"hint_de": "Erhalte eine Postkarte aus dem Hafenurlaub.",
+			"set": "legacy",
+			"page": "travel",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/harborPostcard.png",
+			"cond": {
+				"type": "special",
+				"key": "postcards",
+				"count": 1,
+				"sub": {
+					"dest": "harbor"
+				}
+			}
+		},
+		{
+			"id": "bakeryPostcard",
+			"name_de": "Bäckereipostkarte",
+			"flavor_de": "Diese Karte duftet ein bisschen nach Zimt.",
+			"hint_de": "Erhalte eine Postkarte aus dem Bäckerei-Urlaub.",
+			"set": "legacy",
+			"page": "travel",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/bakeryPostcard.png",
+			"cond": {
+				"type": "special",
+				"key": "postcards",
+				"count": 1,
+				"sub": {
+					"dest": "bakery"
+				}
+			}
+		},
+		{
+			"id": "nightSkyPostcard",
+			"name_de": "Sternenkarte",
+			"flavor_de": "Wärst du doch hier. Die Sterne finden das auch.",
+			"hint_de": "Erhalte eine Postkarte aus dem Sternenhimmel-Urlaub.",
+			"set": "legacy",
+			"page": "travel",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/nightSkyPostcard.png",
+			"cond": {
+				"type": "special",
+				"key": "postcards",
+				"count": 1,
+				"sub": {
+					"dest": "nightSky"
+				}
+			}
+		},
+		{
+			"id": "frequentFlyer",
+			"name_de": "Vielflieger",
+			"flavor_de": "Der Koffer packt sich inzwischen von selbst.",
+			"hint_de": "Schließe 3 Urlaube ab.",
+			"set": "legacy",
+			"page": "travel",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/frequentFlyer.png",
+			"cond": {
+				"type": "special",
+				"key": "vacationTrips",
+				"count": 3
+			}
+		},
+		{
+			"id": "penPal",
+			"name_de": "Brieffreund",
+			"flavor_de": "Zehn Karten, ein sehr volles Briefkastenherz.",
+			"hint_de": "Sammle 10 Postkarten im Archiv.",
+			"set": "legacy",
+			"page": "travel",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/penPal.png",
+			"cond": {
+				"type": "special",
+				"key": "postcards",
+				"count": 10
+			}
+		},
+		{
+			"id": "parkFirstVisit",
+			"name_de": "Funkelpark-Debüt",
+			"flavor_de": "Das Tor funkelt. Gooby funkelt zurück.",
+			"hint_de": "Besuche den Funkelpark einmal.",
+			"set": "legacy",
+			"page": "funkelpark",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/parkFirstVisit.png",
+			"cond": {
+				"type": "special",
+				"key": "park",
+				"count": 1,
+				"sub": {
+					"key": "visits"
+				}
+			}
+		},
+		{
+			"id": "loopStar",
+			"name_de": "Looping-Star",
+			"flavor_de": "Ohren überall. Grinsen intakt.",
+			"hint_de": "Fahr einmal Achterbahn im Funkelpark.",
+			"set": "legacy",
+			"page": "funkelpark",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/loopStar.png",
+			"cond": {
+				"type": "special",
+				"key": "park",
+				"count": 1,
+				"sub": {
+					"key": "coasterRides"
+				}
+			}
+		},
+		{
+			"id": "handsUp",
+			"name_de": "Hände hoch!",
+			"flavor_de": "Pfoten in der Luft, als wäre nichts dabei.",
+			"hint_de": "Fahr 3-mal Achterbahn — dann gehen die Pfoten von allein hoch.",
+			"set": "legacy",
+			"page": "funkelpark",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/handsUp.png",
+			"cond": {
+				"type": "special",
+				"key": "park",
+				"count": 3,
+				"sub": {
+					"key": "coasterRides"
+				}
+			}
+		},
+		{
+			"id": "candyDay",
+			"name_de": "Naschtag",
+			"flavor_de": "Zuckerwatte zählt heute als Gemüse.",
+			"hint_de": "Kaufe 3 Leckereien in der Naschgasse.",
+			"set": "legacy",
+			"page": "funkelpark",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/candyDay.png",
+			"cond": {
+				"type": "special",
+				"key": "park",
+				"count": 3,
+				"sub": {
+					"key": "candyBought"
+				}
+			}
+		},
+		{
+			"id": "nightLights",
+			"name_de": "Nachtlichter",
+			"flavor_de": "Tausend kleine Lichter, ein leuchtendes Häschen.",
+			"hint_de": "Sei nach Einbruch der Dunkelheit im Funkelpark.",
+			"set": "legacy",
+			"page": "funkelpark",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/nightLights.png",
+			"cond": {
+				"type": "special",
+				"key": "park",
+				"count": 1,
+				"sub": {
+					"key": "nightVisit"
+				}
+			}
+		},
+		{
+			"id": "parkExplorer",
+			"name_de": "Park-Entdecker",
+			"flavor_de": "Kennt jede Abkürzung zwischen den Buden.",
+			"hint_de": "Besuche den Funkelpark 5-mal.",
+			"set": "legacy",
+			"page": "funkelpark",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/parkExplorer.png",
+			"cond": {
+				"type": "special",
+				"key": "park",
+				"count": 5,
+				"sub": {
+					"key": "visits"
+				}
+			}
+		},
+		{
+			"id": "lanternKeeper",
+			"name_de": "Laternenwächter",
+			"flavor_de": "Jede Sternenlaterne hat heimgefunden.",
+			"hint_de": "Hol 60 Punkte bei Sternenlaterne.",
+			"set": "legacy",
+			"page": "arcadeStars",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/lanternKeeper.png",
+			"cond": {
+				"type": "special",
+				"key": "gameBest",
+				"count": 60,
+				"sub": {
+					"game": "lanternFloat"
+				}
+			}
+		},
+		{
+			"id": "snailCourier",
+			"name_de": "Schneckenkurier",
+			"flavor_de": "Langsame Post ist trotzdem Herzenspost.",
+			"hint_de": "Hol 60 Punkte bei Schneckenpost.",
+			"set": "legacy",
+			"page": "arcadeStars",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/snailCourier.png",
+			"cond": {
+				"type": "special",
+				"key": "gameBest",
+				"count": 60,
+				"sub": {
+					"game": "snailMail"
+				}
+			}
+		},
+		{
+			"id": "ghostWhisperer",
+			"name_de": "Geisterflüsterer",
+			"flavor_de": "Die Geister wollten nur eine Umarmung.",
+			"hint_de": "Fange 25 Geister.",
+			"set": "legacy",
+			"page": "arcadeStars",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/ghostWhisperer.png",
+			"cond": {
+				"type": "counter",
+				"key": "ghostsCaught",
+				"count": 25
+			}
+		},
+		{
+			"id": "harborMaster",
+			"name_de": "Hafenmeister",
+			"flavor_de": "Fünfzig Kisten, null Platscher.",
+			"hint_de": "Verschiffe 50 Kisten.",
+			"set": "legacy",
+			"page": "arcadeStars",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/harborMaster.png",
+			"cond": {
+				"type": "counter",
+				"key": "cratesShipped",
+				"count": 50
+			}
+		},
+		{
+			"id": "rocketHero",
+			"name_de": "Raketenheld",
+			"flavor_de": "Kein Astronaut bleibt zurück.",
+			"hint_de": "Rette 15 gestrandete Freunde.",
+			"set": "legacy",
+			"page": "arcadeStars",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/rocketHero.png",
+			"cond": {
+				"type": "counter",
+				"key": "rescues",
+				"count": 15
+			}
+		},
+		{
+			"id": "pipeDreamer",
+			"name_de": "Rohrträumer",
+			"flavor_de": "Das Wasser fließt. Der Traum ist wahr.",
+			"hint_de": "Hol 70 Punkte bei Rohr-Wirrwarr.",
+			"set": "legacy",
+			"page": "arcadeStars",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/pipeDreamer.png",
+			"cond": {
+				"type": "special",
+				"key": "gameBest",
+				"count": 70,
+				"sub": {
+					"game": "pipeFlow"
+				}
+			}
+		},
+		{
+			"id": "weekStreak",
+			"name_de": "Volle Woche",
+			"flavor_de": "Sieben Tage, sieben Besuche, ein glückliches Häschen.",
+			"hint_de": "Erreiche eine 7-Tage-Serie.",
+			"set": "legacy",
+			"page": "cozyLife",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/weekStreak.png",
+			"cond": {
+				"type": "special",
+				"key": "streak",
+				"count": 7
+			}
+		},
+		{
+			"id": "medsMaster",
+			"name_de": "Medizin-Meister",
+			"flavor_de": "Ein Löffel Saft, null Theater.",
+			"hint_de": "Gib Gooby 10-mal Medizin.",
+			"set": "legacy",
+			"page": "cozyLife",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/medsMaster.png",
+			"cond": {
+				"type": "counter",
+				"key": "medsGiven",
+				"count": 10
+			}
+		},
+		{
+			"id": "marketDay",
+			"name_de": "Markttag",
+			"flavor_de": "Frisch aus dem Garten, direkt in die Kasse.",
+			"hint_de": "Verkaufe 25 Ernten.",
+			"set": "legacy",
+			"page": "cozyLife",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/marketDay.png",
+			"cond": {
+				"type": "counter",
+				"key": "sells",
+				"count": 25
+			}
+		},
+		{
+			"id": "memoryKeeper",
+			"name_de": "Erinnerungshüter",
+			"flavor_de": "Jedes Foto ist eine kleine Zeitmaschine.",
+			"hint_de": "Speichere 40 Fotos in der Galerie.",
+			"set": "legacy",
+			"page": "cozyLife",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/memoryKeeper.png",
+			"cond": {
+				"type": "counter",
+				"key": "galleryPhotos",
+				"count": 40
+			}
+		},
+		{
+			"id": "interiorDesigner",
+			"name_de": "Einrichtungsprofi",
+			"flavor_de": "Der Sessel hat jetzt eine Meinung.",
+			"hint_de": "Richte das Zuhause mit 20 neuen Stücken ein.",
+			"set": "legacy",
+			"page": "cozyLife",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/interiorDesigner.png",
+			"cond": {
+				"type": "special",
+				"key": "decorPlaced",
+				"count": 20
+			}
+		},
+		{
+			"id": "storyTeller",
+			"name_de": "Erzähler",
+			"flavor_de": "Und so wurde die Möhre gerettet.",
+			"hint_de": "Schau dir 3 Rückblicke an.",
+			"set": "legacy",
+			"page": "cozyLife",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/storyTeller.png",
+			"cond": {
+				"type": "counter",
+				"key": "recapsSeen",
+				"count": 3
+			}
+		},
+		{
+			"id": "teaTime",
+			"name_de": "Teestunde",
+			"flavor_de": "Kleiner Finger hoch, Ohren runter.",
+			"hint_de": "Hol 60 Punkte in der Teestube.",
+			"set": "legacy",
+			"page": "foodieFeast",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/teaTime.png",
+			"cond": {
+				"type": "special",
+				"key": "gameBest",
+				"count": 60,
+				"sub": {
+					"game": "teaParty"
+				}
+			}
+		},
+		{
+			"id": "pancakeMountain",
+			"name_de": "Pfannkuchenberg",
+			"flavor_de": "Sirup-Lawine im Anmarsch.",
+			"hint_de": "Hol 40 Punkte bei Pancake-Turm.",
+			"set": "legacy",
+			"page": "foodieFeast",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/pancakeMountain.png",
+			"cond": {
+				"type": "special",
+				"key": "gameBest",
+				"count": 40,
+				"sub": {
+					"game": "pancakeTower"
+				}
+			}
+		},
+		{
+			"id": "burgerBoss",
+			"name_de": "Burger-Boss",
+			"flavor_de": "Bis zur Decke gestapelt, von Gooby abgesegnet.",
+			"hint_de": "Hol 60 Punkte bei Burger-Baumeister.",
+			"set": "legacy",
+			"page": "foodieFeast",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/burgerBoss.png",
+			"cond": {
+				"type": "special",
+				"key": "gameBest",
+				"count": 60,
+				"sub": {
+					"game": "burgerBuild"
+				}
+			}
+		},
+		{
+			"id": "veggieChef",
+			"name_de": "Gemüsekoch",
+			"flavor_de": "Schnipp schnapp! Abendessen ist Kunst.",
+			"hint_de": "Hol 70 Punkte bei Gemüse-Schnippler.",
+			"set": "legacy",
+			"page": "foodieFeast",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/veggieChef.png",
+			"cond": {
+				"type": "special",
+				"key": "gameBest",
+				"count": 70,
+				"sub": {
+					"game": "veggieChop"
+				}
+			}
+		},
+		{
+			"id": "cakeParade",
+			"name_de": "Tortenparade",
+			"flavor_de": "Fünfundzwanzig Torten und keine einzige gefallen.",
+			"hint_de": "Serviere 25 Torten.",
+			"set": "legacy",
+			"page": "foodieFeast",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/cakeParade.png",
+			"cond": {
+				"type": "counter",
+				"key": "cakesServed",
+				"count": 25
+			}
+		},
+		{
+			"id": "nougatFlood",
+			"name_de": "Nougatflut",
+			"flavor_de": "Widerstand war nie eine Option.",
+			"hint_de": "Gönn Gooby 10 Nougat-Kleckse.",
+			"set": "legacy",
+			"page": "foodieFeast",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/nougatFlood.png",
+			"cond": {
+				"type": "counter",
+				"key": "nougatGlobs",
+				"count": 10
+			}
+		},
+		{
+			"id": "bestBuddies",
+			"name_de": "Beste Freunde",
+			"flavor_de": "Fünf Stunden gemeinsame Zeit — und es werden mehr.",
+			"hint_de": "Verbringe 300 Minuten mit Gooby.",
+			"set": "legacy",
+			"page": "bestFriends",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/bestBuddies.png",
+			"cond": {
+				"type": "special",
+				"key": "playtimeMin",
+				"count": 300
+			}
+		},
+		{
+			"id": "inseparable",
+			"name_de": "Unzertrennlich",
+			"flavor_de": "Wo du hingehst, geht Gooby hin.",
+			"hint_de": "Verbringe 1500 Minuten mit Gooby.",
+			"set": "legacy",
+			"page": "bestFriends",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/inseparable.png",
+			"cond": {
+				"type": "special",
+				"key": "playtimeMin",
+				"count": 1500
+			}
+		},
+		{
+			"id": "tickleTornado",
+			"name_de": "Kitzeltornado",
+			"flavor_de": "Kicher-Kategorie 5.",
+			"hint_de": "Kitzle Gooby 200-mal.",
+			"set": "legacy",
+			"page": "bestFriends",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/tickleTornado.png",
+			"cond": {
+				"type": "counter",
+				"key": "tickles",
+				"count": 200
+			}
+		},
+		{
+			"id": "monthStreak",
+			"name_de": "Treues Herz",
+			"flavor_de": "Dreißig Tage immer da. Das ist Liebe.",
+			"hint_de": "Erreiche eine 30-Tage-Serie.",
+			"set": "legacy",
+			"page": "bestFriends",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/monthStreak.png",
+			"cond": {
+				"type": "special",
+				"key": "streak",
+				"count": 30
+			}
+		},
+		{
+			"id": "hatParade",
+			"name_de": "Hutparade",
+			"flavor_de": "Ein Kopf, so viele Hüte.",
+			"hint_de": "Besitze 10 Outfit-Teile.",
+			"set": "legacy",
+			"page": "bestFriends",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/hatParade.png",
+			"cond": {
+				"type": "special",
+				"key": "outfitsOwned",
+				"count": 10
+			}
+		},
+		{
+			"id": "bigSpender",
+			"name_de": "Goldesel",
+			"flavor_de": "Die Ladenglocke klingelt für Gooby besonders fröhlich.",
+			"hint_de": "Gib 3000 Münzen aus.",
+			"set": "legacy",
+			"page": "bestFriends",
+			"rarity": "haeufig",
+			"image": "res://assets/stickers/legacy/bigSpender.png",
+			"cond": {
+				"type": "special",
+				"key": "coinsSpent",
+				"count": 3000
+			}
+		},
+		{
+			"id": "herzGooby",
+			"name_de": "Herz-Gooby",
+			"flavor_de": "Gooby drückt ein großes rosa Glanzherz. Hab dich auch lieb!",
+			"hint_de": "Ein geheimes Codewort schaltet ihn frei…",
+			"set": "legacy",
+			"page": "bestFriends",
+			"rarity": "geheim",
+			"image": "res://assets/stickers/legacy/herzGooby.png",
+			"cond": {
+				"type": "code",
+				"key": "herzGooby"
+			},
+			"secret": true
+		},
+		{
+			"id": "garten_giesser",
+			"name_de": "Gießmeister",
+			"flavor_de": "Kein Beet bleibt trocken.",
+			"hint_de": "Gieße fleißig deine Pflanzen (100×).",
+			"set": "garten",
+			"page": "garten",
+			"rarity": "haeufig",
+			"cond": {
+				"type": "counter",
+				"key": "waterings",
+				"count": 100
+			},
+			"image": "res://assets/stickers/garten_giesser.png"
+		},
+		{
+			"id": "garten_gewaechshaus",
+			"name_de": "Gewächshaus",
+			"flavor_de": "Drinnen ist immer ein bisschen Sommer.",
+			"hint_de": "Pflanze viele Setzlinge (25×).",
+			"set": "garten",
+			"page": "garten",
+			"rarity": "selten",
+			"cond": {
+				"type": "counter",
+				"key": "plantings",
+				"count": 25
+			},
+			"image": "res://assets/stickers/garten_gewaechshaus.png"
+		},
+		{
+			"id": "garten_pause",
+			"name_de": "Verdiente Pause",
+			"flavor_de": "Nach der Gartenarbeit döst es sich am besten an der Gießkanne.",
+			"hint_de": "Ernte fleißig — dann darf auch gedöst werden (10×).",
+			"set": "garten",
+			"page": "garten",
+			"rarity": "haeufig",
+			"cond": {
+				"type": "counter",
+				"key": "harvests",
+				"count": 10
+			},
+			"image": "res://assets/stickers/garten_pause.png"
+		},
+		{
+			"id": "garten_riesenkuerbis",
+			"name_de": "Kürbiskönig",
+			"flavor_de": "So groß, dass er als Hut durchgeht.",
+			"hint_de": "Manchmal wächst im Beet etwas RIESIGES…",
+			"set": "garten",
+			"page": "garten",
+			"rarity": "episch",
+			"cond": {
+				"type": "event",
+				"key": "riesenkuerbis"
+			},
+			"image": "res://assets/stickers/garten_riesenkuerbis.png"
+		},
+		{
+			"id": "garten_wochenmarkt",
+			"name_de": "Marktstand-Gooby",
+			"flavor_de": "Frische Möhren, direkt vom Beet!",
+			"hint_de": "Verkaufe deine Ernte (20×).",
+			"set": "garten",
+			"page": "garten",
+			"rarity": "haeufig",
+			"cond": {
+				"type": "counter",
+				"key": "sells",
+				"count": 20
+			},
+			"image": "res://assets/stickers/garten_wochenmarkt.png"
+		},
+		{
+			"id": "garten_zaunbauer",
+			"name_de": "Zaunbauer",
+			"flavor_de": "Ein Nagel, zwei Nägel, fertig ist der Zaun.",
+			"hint_de": "Baue draußen etwas Stabiles.",
+			"set": "garten",
+			"page": "garten",
+			"rarity": "selten",
+			"cond": {
+				"type": "event",
+				"key": "zaun_gebaut"
+			},
+			"image": "res://assets/stickers/garten_zaunbauer.png"
+		},
+		{
+			"id": "stadt_einkauf",
+			"name_de": "Großeinkäufer",
+			"flavor_de": "Der Wagen ist voll, das Herz auch.",
+			"hint_de": "Gehe oft in der Stadt einkaufen (10×).",
+			"set": "stadt",
+			"page": "stadt",
+			"rarity": "haeufig",
+			"cond": {
+				"type": "counter",
+				"key": "einkaeufe",
+				"count": 10
+			},
+			"image": "res://assets/stickers/stadt_einkauf.png"
+		},
+		{
+			"id": "stadt_fahrer",
+			"name_de": "Stadtflitzer",
+			"flavor_de": "Einmal quer durch die Stadt, bitte!",
+			"hint_de": "Fahre oft in die Stadt (25×).",
+			"set": "stadt",
+			"page": "stadt",
+			"rarity": "haeufig",
+			"cond": {
+				"type": "counter",
+				"key": "trips",
+				"count": 25
+			},
+			"image": "res://assets/stickers/stadt_fahrer.png"
+		},
+		{
+			"id": "stadt_baumarkt",
+			"name_de": "Baumarkt-Bauheld",
+			"flavor_de": "Bretter, Nägel und ein Plan. Fast.",
+			"hint_de": "Besorge dir Baumaterial im Baumarkt.",
+			"set": "stadt",
+			"page": "stadt",
+			"rarity": "haeufig",
+			"cond": {
+				"type": "event",
+				"key": "baumarkt_einkauf"
+			},
+			"image": "res://assets/stickers/stadt_baumarkt.png"
+		},
+		{
+			"id": "stadt_doktor",
+			"name_de": "Mutiger Patient",
+			"flavor_de": "Tapfer gewesen. Lolli verdient.",
+			"hint_de": "Gehe zum Doktor, wenn es Gooby schlecht geht (5×).",
+			"set": "stadt",
+			"page": "stadt",
+			"rarity": "selten",
+			"cond": {
+				"type": "counter",
+				"key": "vetTrips",
+				"count": 5
+			},
+			"image": "res://assets/stickers/stadt_doktor.png"
+		},
+		{
+			"id": "stadt_lieferung",
+			"name_de": "Lieferheld",
+			"flavor_de": "Pünktlich, freundlich, flauschig.",
+			"hint_de": "Liefere viele Pakete aus (25×).",
+			"set": "stadt",
+			"page": "stadt",
+			"rarity": "selten",
+			"cond": {
+				"type": "counter",
+				"key": "deliveries",
+				"count": 25
+			},
+			"image": "res://assets/stickers/stadt_lieferung.png"
+		},
+		{
+			"id": "stadt_post",
+			"name_de": "Postbote Gooby",
+			"flavor_de": "Jeder Brief bekommt ein Herzsiegel.",
+			"hint_de": "Verschicke Briefe an Freunde (10×).",
+			"set": "stadt",
+			"page": "stadt",
+			"rarity": "episch",
+			"cond": {
+				"type": "counter",
+				"key": "briefe_verschickt",
+				"count": 10
+			},
+			"image": "res://assets/stickers/stadt_post.png"
+		},
+		{
+			"id": "gvz_nutellasammler",
+			"name_de": "Nutella-Sammler",
+			"flavor_de": "Ein Glas ist kein Glas.",
+			"hint_de": "Sammle in GvZ viele Nutella-Gläser (100).",
+			"set": "gvz",
+			"page": "gvz",
+			"rarity": "haeufig",
+			"cond": {
+				"type": "counter",
+				"key": "gvzNutella",
+				"count": 100
+			},
+			"image": "res://assets/stickers/gvz_nutellasammler.png"
+		},
+		{
+			"id": "gvz_eisgooby",
+			"name_de": "Eis-Gooby",
+			"flavor_de": "Brrr. Aber taktisch brrr.",
+			"hint_de": "Setze den frostigen Gooby oft ein (10×).",
+			"set": "gvz",
+			"page": "gvz",
+			"rarity": "haeufig",
+			"cond": {
+				"type": "counter",
+				"key": "gvzEisEinsaetze",
+				"count": 10
+			},
+			"image": "res://assets/stickers/gvz_eisgooby.png"
+		},
+		{
+			"id": "gvz_moehrenschuetze",
+			"name_de": "Möhrenschütze",
+			"flavor_de": "Immer schön geradeaus zielen.",
+			"hint_de": "Verschieße jede Menge Möhren (500).",
+			"set": "gvz",
+			"page": "gvz",
+			"rarity": "haeufig",
+			"cond": {
+				"type": "counter",
+				"key": "gvzMoehrenSchuesse",
+				"count": 500
+			},
+			"image": "res://assets/stickers/gvz_moehrenschuetze.png"
+		},
+		{
+			"id": "gvz_dickerbert",
+			"name_de": "Dicker Bert",
+			"flavor_de": "Er sagt nichts. Er steht nur. Perfekt.",
+			"hint_de": "Der dickste Verteidiger will oft aufgestellt werden (10×).",
+			"set": "gvz",
+			"page": "gvz",
+			"rarity": "selten",
+			"cond": {
+				"type": "counter",
+				"key": "gvzBertEinsaetze",
+				"count": 10
+			},
+			"image": "res://assets/stickers/gvz_dickerbert.png"
+		},
+		{
+			"id": "gvz_zombiegooby",
+			"name_de": "Zombie-Gooby",
+			"flavor_de": "Will keine Gehirne. Nur Möhren. Und ein Pflaster.",
+			"hint_de": "Stoppe viele Zombie-Goobys (50).",
+			"set": "gvz",
+			"page": "gvz",
+			"rarity": "selten",
+			"cond": {
+				"type": "counter",
+				"key": "gvzZombiesGestoppt",
+				"count": 50
+			},
+			"image": "res://assets/stickers/gvz_zombiegooby.png"
+		},
+		{
+			"id": "gvz_zaunheld",
+			"name_de": "Zaunheld",
+			"flavor_de": "Fünf Gärten gehalten — der Zaun wackelt, der Held nicht.",
+			"hint_de": "Gewinne Level 5 der GvZ-Kampagne.",
+			"set": "gvz",
+			"page": "gvz",
+			"rarity": "selten",
+			"cond": {
+				"type": "event",
+				"key": "gvz_l5"
+			},
+			"image": "res://assets/stickers/gvz_zaunheld.png"
+		},
+		{
+			"id": "gvz_kommandant",
+			"name_de": "Nutella-Kommandant",
+			"flavor_de": "Vom Nutella-Glas aus sieht General Gooby einfach alles.",
+			"hint_de": "Gewinne Level 10 der GvZ-Kampagne.",
+			"set": "gvz",
+			"page": "gvz",
+			"rarity": "episch",
+			"cond": {
+				"type": "event",
+				"key": "gvz_l10"
+			},
+			"image": "res://assets/stickers/gvz_kommandant.png"
+		},
+		{
+			"id": "gvz_sieg",
+			"name_de": "Garten gerettet!",
+			"flavor_de": "Pokal für den flauschigsten Feldherrn.",
+			"hint_de": "Schaffe die GvZ-Kampagne.",
+			"set": "gvz",
+			"page": "gvz",
+			"rarity": "episch",
+			"cond": {
+				"type": "event",
+				"key": "gvz_kampagne"
+			},
+			"image": "res://assets/stickers/gvz_sieg.png"
+		},
+		{
+			"id": "sticker_erster_boot",
+			"name_de": "Erster Start!",
+			"flavor_de": "Hallo Welt, hallo Gooby.",
+			"hint_de": "Starte das Spiel zum ersten Mal.",
+			"set": "meilensteine",
+			"page": "bonus",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/sticker_erster_boot.png",
+			"cond": {
+				"type": "special",
+				"key": "first_boot"
+			}
+		},
+		{
+			"id": "sticker_zahnfee",
+			"name_de": "Zahnfee",
+			"flavor_de": "Blitzeblanke Beißerchen.",
+			"hint_de": "Putze Gooby oft die Zähne (10×).",
+			"set": "pflege",
+			"page": "bonus",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/sticker_zahnfee.png",
+			"cond": {
+				"type": "counter",
+				"key": "teeth_brushed",
+				"count": 10
+			}
+		},
+		{
+			"id": "ranch_neuer_hof",
+			"name_de": "Neuer Hof",
+			"flavor_de": "Die Scheune riecht nach Heu und Abenteuer.",
+			"hint_de": "Kauf die Gooby-Ranch.",
+			"set": "ranch",
+			"page": "ranch",
+			"completion_scope": "dlc",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/ranch_neuer_hof.png",
+			"cond": {
+				"type": "special",
+				"key": "ranchOwned",
+				"count": 1
+			}
+		},
+		{
+			"id": "ranch_erstes_pferd",
+			"name_de": "Erstes Pferd",
+			"flavor_de": "Vier Hufe, ein Herz, null Zweifel.",
+			"hint_de": "Hol dein erstes Pferd auf die Ranch.",
+			"set": "ranch",
+			"page": "ranch",
+			"completion_scope": "dlc",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/ranch_erstes_pferd.png",
+			"cond": {
+				"type": "special",
+				"key": "horsesOwned",
+				"count": 1
+			}
+		},
+		{
+			"id": "ranch_herde",
+			"name_de": "Kleine Herde",
+			"flavor_de": "Zwei Mähnen wehen schöner als eine.",
+			"hint_de": "Besitze zwei Pferde gleichzeitig.",
+			"set": "ranch",
+			"page": "ranch",
+			"completion_scope": "dlc",
+			"rarity": "selten",
+			"image": "res://content/stickers/assets/ranch_herde.png",
+			"cond": {
+				"type": "special",
+				"key": "horsesOwned",
+				"count": 2
+			}
+		},
+		{
+			"id": "ranch_bester_freund",
+			"name_de": "Hufeisen-Herz",
+			"flavor_de": "Ein Pferd vergisst nie, wer es striegelt.",
+			"hint_de": "Erreiche mit einem Pferd eine hohe Bindung (40).",
+			"set": "ranch",
+			"page": "ranch",
+			"completion_scope": "dlc",
+			"rarity": "selten",
+			"image": "res://content/stickers/assets/ranch_bester_freund.png",
+			"cond": {
+				"type": "special",
+				"key": "horseBond",
+				"count": 40
+			}
+		},
+		{
+			"id": "ranch_ausbauer",
+			"name_de": "Ranch-Baumeister",
+			"flavor_de": "Jeder Zaunpfahl sitzt. Fast jeder.",
+			"hint_de": "Bau die Ranch weiter aus (Stufen-Summe 5).",
+			"set": "ranch",
+			"page": "ranch",
+			"completion_scope": "dlc",
+			"rarity": "selten",
+			"image": "res://content/stickers/assets/ranch_ausbauer.png",
+			"cond": {
+				"type": "special",
+				"key": "ranchAusbau",
+				"count": 5
+			}
+		},
+		{
+			"id": "ranch_heuwirt",
+			"name_de": "Heuwirt",
+			"flavor_de": "Das Lager platzt — die Pferde applaudieren.",
+			"hint_de": "Lagere 12 Futter-Vorräte auf der Ranch.",
+			"set": "ranch",
+			"page": "ranch",
+			"completion_scope": "dlc",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/ranch_heuwirt.png",
+			"cond": {
+				"type": "special",
+				"key": "ranchLager",
+				"count": 12
+			}
+		},
+		{
+			"id": "ranch_hoftiere",
+			"name_de": "Volles Gehege",
+			"flavor_de": "Muh, mäh, gack — das Ranch-Orchester.",
+			"hint_de": "Hol drei Hoftiere auf die Ranch.",
+			"set": "ranch",
+			"page": "ranch",
+			"completion_scope": "dlc",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/ranch_hoftiere.png",
+			"cond": {
+				"type": "special",
+				"key": "hoftiere",
+				"count": 3
+			}
+		},
+		{
+			"id": "mp_erster_sieg",
+			"name_de": "Erster Schach-Sieg",
+			"flavor_de": "Der Pokal ist klein. Das Grinsen riesig.",
+			"hint_de": "Gewinn deine erste Schachpartie.",
+			"set": "multiplayer",
+			"page": "multiplayer",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/mp_erster_sieg.png",
+			"cond": {
+				"type": "event",
+				"key": "chess_win"
+			}
+		},
+		{
+			"id": "mp_schachmeister",
+			"name_de": "Schachmeister",
+			"flavor_de": "Fünf Siege, null Gnade, viel Flausch.",
+			"hint_de": "Gewinn 5 Schachpartien.",
+			"set": "multiplayer",
+			"page": "multiplayer",
+			"rarity": "selten",
+			"image": "res://content/stickers/assets/mp_schachmeister.png",
+			"cond": {
+				"type": "counter",
+				"key": "chessWins",
+				"count": 5
+			}
+		},
+		{
+			"id": "mp_solo_stratege",
+			"name_de": "Solo-Stratege",
+			"flavor_de": "Gegen sich selbst verliert Gooby nie. Fast.",
+			"hint_de": "Spiel 3 Übungspartien gegen den Computer.",
+			"set": "multiplayer",
+			"page": "multiplayer",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/mp_solo_stratege.png",
+			"cond": {
+				"type": "counter",
+				"key": "chessSoloGames",
+				"count": 3
+			}
+		},
+		{
+			"id": "mp_matt",
+			"name_de": "Schachmatt!",
+			"flavor_de": "Der König liegt. Die Ohren feiern.",
+			"hint_de": "Setz deinen Gegner matt.",
+			"set": "multiplayer",
+			"page": "multiplayer",
+			"rarity": "selten",
+			"image": "res://content/stickers/assets/mp_matt.png",
+			"cond": {
+				"type": "event",
+				"key": "chess_matt"
+			}
+		},
+		{
+			"id": "mp_online_partie",
+			"name_de": "Online-Partie",
+			"flavor_de": "Zwei Bretter, ein Spiel, beste Verbindung.",
+			"hint_de": "Starte eine Schachpartie mit einem Freund.",
+			"set": "multiplayer",
+			"page": "multiplayer",
+			"completion_scope": "online",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/mp_online_partie.png",
+			"cond": {
+				"type": "event",
+				"key": "chess_online"
+			}
+		},
+		{
+			"id": "mp_revanche",
+			"name_de": "Revanche!",
+			"flavor_de": "Noch eine Runde. Diesmal aber wirklich.",
+			"hint_de": "Spiel eine Revanche-Partie.",
+			"set": "multiplayer",
+			"page": "multiplayer",
+			"completion_scope": "online",
+			"rarity": "selten",
+			"image": "res://content/stickers/assets/mp_revanche.png",
+			"cond": {
+				"type": "event",
+				"key": "chess_rematch"
+			}
+		},
+		{
+			"id": "mp_brieffreund",
+			"name_de": "Herzpost",
+			"flavor_de": "Ein Brief mit Herz kommt immer an.",
+			"hint_de": "Verschick deinen ersten Brief an einen Freund.",
+			"set": "multiplayer",
+			"page": "multiplayer",
+			"completion_scope": "online",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/mp_brieffreund.png",
+			"cond": {
+				"type": "counter",
+				"key": "briefe_verschickt",
+				"count": 1
+			}
+		},
+		{
+			"id": "nacht_gewitter",
+			"name_de": "Gewitternacht",
+			"flavor_de": "Der Donner grollt. Gooby kuschelt sich durch.",
+			"hint_de": "Tröste Gooby bei einem nächtlichen Gewitter.",
+			"set": "stadtnacht",
+			"page": "stadtnacht",
+			"rarity": "selten",
+			"image": "res://content/stickers/assets/nacht_gewitter.png",
+			"cond": {
+				"type": "event",
+				"key": "gewitter_angst"
+			}
+		},
+		{
+			"id": "nacht_naschkatze",
+			"name_de": "Mitternachtssnack",
+			"flavor_de": "Um Mitternacht zählt Nutella als Traum.",
+			"hint_de": "Erwisch Gooby bei seinem nächtlichen Nutella-Ausflug.",
+			"set": "stadtnacht",
+			"page": "stadtnacht",
+			"rarity": "episch",
+			"image": "res://content/stickers/assets/nacht_naschkatze.png",
+			"cond": {
+				"type": "event",
+				"key": "nutella_nacht"
+			}
+		},
+		{
+			"id": "nacht_sternenhimmel",
+			"name_de": "Sternklar",
+			"flavor_de": "Die Nacht hat extra für Gooby aufgedeckt.",
+			"hint_de": "Schau dir spät nachts den Sternenhimmel an.",
+			"set": "stadtnacht",
+			"page": "stadtnacht",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/nacht_sternenhimmel.png",
+			"cond": {
+				"type": "event",
+				"key": "nightStars"
+			}
+		},
+		{
+			"id": "nacht_funkelpark",
+			"name_de": "Lichterrad",
+			"flavor_de": "Oben angekommen glitzert die ganze Stadt.",
+			"hint_de": "Besuch den Funkelpark nach Einbruch der Dunkelheit.",
+			"set": "stadtnacht",
+			"page": "stadtnacht",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/nacht_funkelpark.png",
+			"cond": {
+				"type": "special",
+				"key": "park",
+				"count": 1,
+				"sub": {
+					"key": "nightVisit"
+				}
+			}
+		},
+		{
+			"id": "nacht_stadtlichter",
+			"name_de": "Stadtlichter",
+			"flavor_de": "Hinter jedem Fenster wohnt eine Geschichte.",
+			"hint_de": "Entdecke 5 Orte in der Stadt.",
+			"set": "stadtnacht",
+			"page": "stadtnacht",
+			"rarity": "selten",
+			"image": "res://content/stickers/assets/nacht_stadtlichter.png",
+			"cond": {
+				"type": "special",
+				"key": "cityVisits",
+				"count": 5
+			}
+		},
+		{
+			"id": "nacht_heimweg",
+			"name_de": "Später Heimweg",
+			"flavor_de": "Die Laterne kennt Gooby schon beim Namen.",
+			"hint_de": "Fahr 50-mal mit dem Auto los.",
+			"set": "stadtnacht",
+			"page": "stadtnacht",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/nacht_heimweg.png",
+			"cond": {
+				"type": "counter",
+				"key": "trips",
+				"count": 50
+			}
+		},
+		{
+			"id": "kueche_pfannkuchen",
+			"name_de": "Turmbau zu Pfann",
+			"flavor_de": "Sirup macht alles stabiler. Behauptet Gooby.",
+			"hint_de": "Hol 60 Punkte bei Pancake-Turm.",
+			"set": "kueche",
+			"page": "kueche",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/kueche_pfannkuchen.png",
+			"cond": {
+				"type": "special",
+				"key": "gameBest",
+				"count": 60,
+				"sub": {
+					"game": "pancakeTower"
+				}
+			}
+		},
+		{
+			"id": "kueche_schnippler",
+			"name_de": "Blitz-Schnippler",
+			"flavor_de": "Schneller schnippeln kann nur der Wind.",
+			"hint_de": "Hol 100 Punkte bei Gemüse-Schnippler.",
+			"set": "kueche",
+			"page": "kueche",
+			"rarity": "selten",
+			"image": "res://content/stickers/assets/kueche_schnippler.png",
+			"cond": {
+				"type": "special",
+				"key": "gameBest",
+				"count": 100,
+				"sub": {
+					"game": "veggieChop"
+				}
+			}
+		},
+		{
+			"id": "kueche_burgermeister",
+			"name_de": "Burgermeister",
+			"flavor_de": "Amtseid auf Sesam und Soße.",
+			"hint_de": "Hol 90 Punkte bei Burger-Baumeister.",
+			"set": "kueche",
+			"page": "kueche",
+			"rarity": "selten",
+			"image": "res://content/stickers/assets/kueche_burgermeister.png",
+			"cond": {
+				"type": "special",
+				"key": "gameBest",
+				"count": 90,
+				"sub": {
+					"game": "burgerBuild"
+				}
+			}
+		},
+		{
+			"id": "kueche_tortenparade",
+			"name_de": "Große Tortenparade",
+			"flavor_de": "Fünfzig Torten, und die Kerze brennt noch.",
+			"hint_de": "Servier 50 Torten in der Tortenwerkstatt.",
+			"set": "kueche",
+			"page": "kueche",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/kueche_tortenparade.png",
+			"cond": {
+				"type": "counter",
+				"key": "cakesServed",
+				"count": 50
+			}
+		},
+		{
+			"id": "kueche_sternekoch",
+			"name_de": "Sternekoch",
+			"flavor_de": "Der Stern auf der Mütze ist selbstgebacken.",
+			"hint_de": "Servier 5 perfekte Torten.",
+			"set": "kueche",
+			"page": "kueche",
+			"rarity": "episch",
+			"image": "res://content/stickers/assets/kueche_sternekoch.png",
+			"cond": {
+				"type": "counter",
+				"key": "perfectCakes",
+				"count": 5
+			}
+		},
+		{
+			"id": "kueche_mehlwolke",
+			"name_de": "Mehlwolke",
+			"flavor_de": "Es schneit! Nein warte. Das ist Mehl.",
+			"hint_de": "Hilf Gooby nach seinem Mehl-Malheur in der Küche.",
+			"set": "kueche",
+			"page": "kueche",
+			"rarity": "selten",
+			"image": "res://content/stickers/assets/kueche_mehlwolke.png",
+			"cond": {
+				"type": "event",
+				"key": "mehl_unfall"
+			}
+		},
+		{
+			"id": "kueche_nutellabrot",
+			"name_de": "Nutellabrot",
+			"flavor_de": "Die wichtigste Mahlzeit des Tages. Jede davon.",
+			"hint_de": "Gönn Gooby 25 Nougat-Kleckse.",
+			"set": "kueche",
+			"page": "kueche",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/kueche_nutellabrot.png",
+			"cond": {
+				"type": "counter",
+				"key": "nougatGlobs",
+				"count": 25
+			}
+		},
+		{
+			"id": "jz_fruehling",
+			"name_de": "Frühlingsbote",
+			"flavor_de": "Die erste Blüte kitzelt in der Nase.",
+			"hint_de": "Spiel an einem Frühlingstag mit Gooby.",
+			"set": "jahreszeiten",
+			"page": "jahreszeiten",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/jz_fruehling.png",
+			"cond": {
+				"type": "special",
+				"key": "seasonPlay",
+				"count": 1,
+				"sub": {
+					"season": "fruehling"
+				}
+			}
+		},
+		{
+			"id": "jz_sommer",
+			"name_de": "Sommersonne",
+			"flavor_de": "Sonnencreme für die Ohren nicht vergessen.",
+			"hint_de": "Spiel an einem Sommertag mit Gooby.",
+			"set": "jahreszeiten",
+			"page": "jahreszeiten",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/jz_sommer.png",
+			"cond": {
+				"type": "special",
+				"key": "seasonPlay",
+				"count": 1,
+				"sub": {
+					"season": "sommer"
+				}
+			}
+		},
+		{
+			"id": "jz_herbst",
+			"name_de": "Blätterrascheln",
+			"flavor_de": "Jedes Blatt ein kleiner Purzelbaum.",
+			"hint_de": "Spiel an einem Herbsttag mit Gooby.",
+			"set": "jahreszeiten",
+			"page": "jahreszeiten",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/jz_herbst.png",
+			"cond": {
+				"type": "special",
+				"key": "seasonPlay",
+				"count": 1,
+				"sub": {
+					"season": "herbst"
+				}
+			}
+		},
+		{
+			"id": "jz_winter",
+			"name_de": "Schneeflöckchen",
+			"flavor_de": "Kalte Pfoten, warmes Herz.",
+			"hint_de": "Spiel an einem Wintertag mit Gooby.",
+			"set": "jahreszeiten",
+			"page": "jahreszeiten",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/jz_winter.png",
+			"cond": {
+				"type": "special",
+				"key": "seasonPlay",
+				"count": 1,
+				"sub": {
+					"season": "winter"
+				}
+			}
+		},
+		{
+			"id": "jz_regenbogen",
+			"name_de": "Regenbogenjäger",
+			"flavor_de": "Am Ende des Regenbogens sitzt ein Hase.",
+			"hint_de": "Erlebe einen Regentag im Garten.",
+			"set": "jahreszeiten",
+			"page": "jahreszeiten",
+			"rarity": "selten",
+			"image": "res://content/stickers/assets/jz_regenbogen.png",
+			"cond": {
+				"type": "event",
+				"key": "rainCanopy"
+			}
+		},
+		{
+			"id": "jz_jahresring",
+			"name_de": "Jahresring",
+			"flavor_de": "Vier Jahreszeiten, ein rundes Jahr voller Gooby.",
+			"hint_de": "Sammle alle vier Jahreszeiten-Sticker.",
+			"set": "jahreszeiten",
+			"page": "jahreszeiten",
+			"rarity": "episch",
+			"image": "res://content/stickers/assets/jz_jahresring.png",
+			"cond": {
+				"type": "special",
+				"key": "seasonsCollected",
+				"count": 4
+			}
+		},
+		{
+			"id": "ev_robo_jagd",
+			"name_de": "Robo-Rodeo",
+			"flavor_de": "Der Staubsauger hat neue Rennstreifen.",
+			"hint_de": "Rette Gooby vor dem wildgewordenen Saugroboter.",
+			"set": "ereignisse",
+			"page": "bonus",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/ev_robo_jagd.png",
+			"cond": {
+				"type": "event",
+				"key": "robo_jagd"
+			}
+		},
+		{
+			"id": "ev_wurm_freund",
+			"name_de": "Wurm-Freund",
+			"flavor_de": "Er heißt Fridolin und mag Regen.",
+			"hint_de": "Hilf Goobys neuem Wurm-Freund zurück ins Beet.",
+			"set": "ereignisse",
+			"page": "bonus",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/ev_wurm_freund.png",
+			"cond": {
+				"type": "event",
+				"key": "wurm_freund"
+			}
+		},
+		{
+			"id": "ev_karton_gooby",
+			"name_de": "Kartonversteck",
+			"flavor_de": "Wenn ich dich nicht sehe, siehst du mich nicht.",
+			"hint_de": "Finde Gooby in seinem Karton-Versteck.",
+			"set": "ereignisse",
+			"page": "bonus",
+			"rarity": "haeufig",
+			"image": "res://content/stickers/assets/ev_karton_gooby.png",
+			"cond": {
+				"type": "event",
+				"key": "karton_gooby"
+			}
+		},
+		{
+			"id": "bluemerant",
+			"name_de": "Ganz blümerant",
+			"flavor_de": "Die Welt hat gewackelt. Gooby auch. Hauptsache, die Möhren liegen noch.",
+			"hint_de": "Ein wildes Geheimnis… irgendetwas muss man wohl schütteln.",
+			"set": "ereignisse",
+			"page": "bonus",
+			"rarity": "geheim",
+			"image": "res://content/stickers/assets/ev_bluemerant.png",
+			"cond": {
+				"type": "counter",
+				"key": "shakeStage3",
+				"count": 1
+			},
+			"secret": true
+		}
+	]
+}

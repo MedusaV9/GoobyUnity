@@ -1,0 +1,373 @@
+{
+	"soul": {
+		"linie": {
+			"gruss": {
+				"morgen": {
+					"1": "Ich hab vom Frühstück geträumt. Und dann kamst DU — noch besser!",
+					"2": "Morgen{namek}! Meine Ohren sind noch nicht wach, sprich leise… hihi.",
+					"3": "Frische Morgenluft! Ich bin schon zweimal um den Teppich gejoggt. Fast."
+				},
+				"mittag": {
+					"1": "Mittag! Die Sonne steht oben und mein Bauch sagt Hallo.",
+					"2": "Perfektes Timing — jetzt beginnt die beste Knuffel-Zeit des Tages!"
+				},
+				"nachmittag": {
+					"1": "Nachmittags schmecken Kekse am besten. Wissenschaftlich bewiesen. Von mir.",
+					"2": "Da bist du! Ich hab dem Sofa schon von dir erzählt."
+				},
+				"abend": {
+					"1": "Abend{namek}! Ich hab die Kissen schon vorgewärmt. Mit meinem Po.",
+					"2": "Der Himmel wird orange! Meine zweitliebste Farbe nach Möhre.",
+					"3": "Abendprogramm: du, ich, gemütlich sein. Ich bin Profi darin."
+				},
+				"nacht": {
+					"1": "Pssst… die Möbel schlafen schon. Wir müssen flüstern. Hihi.",
+					"2": "Nachtschicht, wir zwei? Ich hol schon mal die Decke."
+				}
+			},
+			"wetter": {
+				"sonne": {
+					"1": "SONNE! Ich park mich mal strategisch in den Lichtfleck.",
+					"2": "So ein Glitzertag! Sogar mein Fell fühlt sich wärmer an."
+				},
+				"wolken": {
+					"1": "Die Wolke da sieht aus wie ein Keks. … Jetzt hab ich Hunger."
+				},
+				"niesel": {
+					"1": "Nur Niesel. Das ist Regen, der sich nicht traut. Kenn ich."
+				},
+				"regen": {
+					"1": "Der Regen trommelt ein Lied ans Fenster. Ich summ die zweite Stimme."
+				},
+				"gewitter": {
+					"1": "Ich zähle zwischen Blitz und Donner… eins… zwei… ZU NAH!"
+				},
+				"nebel": {
+					"1": "Draußen ist alles wattig! Vielleicht ist die Welt heute aus Zuckerwatte.",
+					"2": "Nebel! Perfektes Versteckwetter. Du siehst mich gar nicht. … Oder?"
+				},
+				"schnee": {
+					"1": "Ich hab einer Schneeflocke einen Namen gegeben. Sie heißt Flocki. Sie ist weg.",
+					"2": "Schneetag-Regel: doppelt kuscheln, dreifach Kakao."
+				}
+			},
+			"w13": {
+				"ball": {
+					"1": "Der Ball und ich sind jetzt beste Sport-Freunde. Nach dir, natürlich.",
+					"2": "Wirf nochmal! Diesmal fang ich ihn MIT STIL.",
+					"3": "Ich hab dem Ball einen Trick beigebracht: wegrollen. Er kann es super.",
+					"4": "Profi-Wissen: Der Ball ist rund, damit das Spiel läuft. Hihi.",
+					"5": "Gleich kommt mein Super-Sprungfang. Bitte nicht blinzeln.",
+					"6": "Der Ball lag unterm Sofa. Wir hatten ein ernstes Gespräch."
+				},
+				"nougat": {
+					"1": "Die Nougatschleuse ist die beste Erfindung seit… seit NOUGAT!",
+					"2": "Ein Klecks für mich, ein Klecks für… auch für mich.",
+					"3": "Ich hab Nougat an der Nase? Absicht. Das ist Vorrat.",
+					"4": "Schleusen-Alarm! Süßer Notfall! Alle Pfoten an Deck!",
+					"5": "Wenn ich groß bin, werde ich Nougatschleusen-Wärter.",
+					"6": "Nougat macht glücklich. Ich bin der lebende Beweis. Guck mal, wie rund."
+				},
+				"gobty": {
+					"1": "Zapp zapp! Auf GOB.TY läuft schon wieder Möhren-Werbung. Gute Werbung.",
+					"2": "Der Nachrichten-Sprecher hat gesagt, heute wird flauschig. Stimmt schon mal.",
+					"3": "Ich wollte nur EINE Sendung gucken. Jetzt sind es acht. Hilfe.",
+					"4": "Die Kochsendung! Die machen Nougat. Merken. MERKEN!",
+					"5": "Beim Wetterbericht winke ich immer zurück. Man weiß ja nie.",
+					"6": "GOB.TY-Fakt: Vom Sofa aus sieht ALLES besser aus."
+				},
+				"girlande": {
+					"1": "Die Girlande macht die Decke fröhlich! Decken brauchen das auch.",
+					"2": "Ich hab versucht, bis zur Girlande zu hüpfen. Die Decke hat gewonnen.",
+					"3": "Mit Girlanden ist jeden Tag ein bisschen Geburtstag.",
+					"4": "Bunt, schwungvoll, hängt gern rum — die Girlande und ich sind uns sehr ähnlich."
+				},
+				"galaxie": {
+					"1": "Mein Galaxie-Fell GLITZERT! Ich bin quasi ein Sternbild zum Knuddeln.",
+					"2": "Guck, wenn ich mich dreh, funkeln die Sterne! Wheee!",
+					"3": "Ich bin jetzt offiziell das Universum. Aber in kuschelig.",
+					"4": "Sternenstaub im Fell. Bitte nicht abbürsten, das ist Deko."
+				},
+				"raumstation": {
+					"1": "Auf der Raumstation schwebt sogar mein Bauch. Ein bisschen.",
+					"2": "Weltraum-Regel Nummer eins: Snacks gut festhalten.",
+					"3": "Ich hab der Erde von oben zugewinkt. Sie sah knuffig aus.",
+					"4": "Astro-Gooby, bitte kommen! Hier alles flauschig, over.",
+					"5": "Die Sterne von der Station aus… als hätte jemand Glitzer verschüttet.",
+					"6": "In der Schwerelosigkeit sind meine Ohren NOCH schwungvoller."
+				},
+				"ranch": {
+					"1": "Auf der Ranch riecht es nach Heu und Abenteuer. Und ein bisschen Pferd.",
+					"2": "Die Krähen haben heute wieder Unsinn geplant. Ich hab mitgemacht.",
+					"3": "Ranch-Leben: früh aufstehen, viel staunen, überall Matsch. Zehn Punkte.",
+					"4": "Ich hab einem Pferd Hallo gesagt. Es hat geschnaubt. Wir sind jetzt Freunde.",
+					"5": "Auf der Ranch bin ich Cowgooby. Yeehaw! …Sagt man das so?",
+					"6": "Das Lagerfeuer knistert schöner als jeder Fernseher.",
+					"7": "Ich hab beim Ranch-Wettbewerb geholfen! Mit Anfeuern. Sehr wichtig.",
+					"8": "Heu-Fakt: Man kann reinhüpfen. Man kommt nur schwer wieder raus."
+				}
+			},
+			"minispiel": {
+				"rekord": {
+					"1": "NEUER REKORD! Wir sind ein Weltklasse-Team, ganz offiziell!",
+					"2": "Hast du das gesehen?! Die Bestenliste zittert!",
+					"3": "Rekord! Ich üb schon mal mein Sieger-Gesicht. So. Genau so.",
+					"4": "Boom! Das rahmen wir ein. Also… gedanklich."
+				},
+				"knapp": {
+					"1": "SO knapp! Mein Herz hüpft immer noch.",
+					"2": "Fast! Beim nächsten Mal kriegen wir ihn, den Rekord.",
+					"3": "Ein Häschenhaar hat gefehlt! Das zählt fast doppelt.",
+					"4": "Knapp daneben ist auch gespielt — und zwar RICHTIG gut."
+				},
+				"verloren": {
+					"1": "Verloren? Pff. Wir nennen es Training mit Extraschritten.",
+					"2": "Das Spiel hatte heute einfach Glück. Morgen sind wir dran.",
+					"3": "Ich hab trotzdem gelacht. Das ist doch auch ein Punkt, oder?",
+					"4": "Kopf hoch, Ohren hoch! Revanche, sobald du magst."
+				}
+			},
+			"selbstgespraech": {
+				"1": "Wo wollte ich nochmal hin? … Egal, der Weg ist knuffig.",
+				"2": "Links, rechts, links… meine Füße kennen den Plan.",
+				"3": "Wenn Teppiche sprechen könnten… der hier würde ‚aua‘ sagen. Hihi.",
+				"4": "Ich patrouilliere. Alles flauschig im Sektor Wohnzimmer.",
+				"5": "La la laaa… das Lied hab ich grad erfunden. Es heißt ‚Lied‘.",
+				"6": "Staubkorn! Ich seh dich. Wir treffen uns beim Aufräumen.",
+				"7": "Einmal ums Sofa ist wie einmal um die Welt. Nur gemütlicher.",
+				"8": "Ich zähle meine Schritte. Eins, zwei, viele.",
+				"9": "Der Boden ist heute besonders bodig. Gute Arbeit, Boden.",
+				"10": "Vielleicht bin ich ein verwunschener Prinz. … Nee, ich bin Gooby. Besser.",
+				"11": "Notiz an mich: das Fenster nachher nochmal inspizieren.",
+				"12": "Meine Ohren wippen im Takt. Welcher Takt? MEIN Takt.",
+				"13": "Ich üb schon mal entspannt gucken. Und? Wie mach ich mich?",
+				"14": "Kurze Runde drehen! Ein Gooby muss in Form bleiben. In Kugelform.",
+				"15": "Hier lang! Sagt mein Bauchgefühl. Mein Bauch hat immer recht."
+			},
+			"feier": {
+				"sticker": {
+					"1": "Ein neuer Sticker! Glänzt der schön. Fast so schön wie du.",
+					"2": "Sticker-Party! Ich kleb vor Stolz gleich an der Decke.",
+					"3": "Den Sticker heb ich für immer auf. IMMER immer.",
+					"4": "Unsere Sammlung wächst! Bald brauchen wir ein größeres Album. Und Kekse.",
+					"5": "Neuer Sticker, neues Glück! Heute läuft es bei uns, hm?"
+				},
+				"erfolg": {
+					"1": "GESCHAFFT! High five! … Vorsichtig, meine Pfote ist weich.",
+					"2": "Wir haben es wirklich geschafft! Ich wusste es die ganze Zeit. Fast.",
+					"3": "Erfolg schmeckt süß. Fast wie Nougat. FAST.",
+					"4": "Tusch! Konfetti im Kopf! Du bist spitze!",
+					"5": "Teamwork der Extraklasse: abklatschen, Ohrenwackeln, weiter so!"
+				}
+			},
+			"wiedersehen": {
+				"1": "Ein paar Stunden ohne dich — ich hab solange die Kissen bewacht.",
+				"2": "Ein ganzer Tag! Ich hab dem Fenster von dir vorgeschwärmt.",
+				"3": "Zwei Tage! Ich hab aus Protest extra flauschig geschlafen.",
+				"4": "Eine WOCHE! Ich hab jeden Tag einen Keks für dich aufgehoben. Theoretisch.",
+				"5": "So lange… ich dachte schon, du bist zum Mond geflogen! Erzähl mir ALLES."
+			},
+			"markt": {
+				"stand": {
+					"1": "Mein eigener Stand! Ich bin quasi Geschäfts-Gooby. Mit Schürze!",
+					"2": "Kauft, Leute, kauft! Alles frisch, alles flauschig verpackt!",
+					"3": "Kling, Münzen! Das Geräusch mag ich fast so gern wie Kekse.",
+					"4": "Ausverkauft wäre schön… zur Not nasch ich den Rest eben selbst."
+				}
+			},
+			"uebermut": {
+				"pause": "Paus-e-e! Mein Fell ist ganz zerzaust!"
+			}
+		}
+	},
+	"gespraech": {
+		"morgen": {
+			"verschlafen": {
+				"label": "Ich bin noch müüüde…",
+				"f1": "Dann kuscheln wir uns wach! Mein Fell ist quasi eine Decke.",
+				"f2": "Verstehe. Betrieb läuft heute auf Flausch-Sparflamme. Genehmigt."
+			},
+			"energie": {
+				"label": "Auf geht’s, Gooby!",
+				"f1": "JAWOLL! Erst hüpfen, dann frühstücken, dann… nochmal hüpfen!",
+				"f2": "Deine Morgen-Energie! Darf ich mir eine Scheibe abschneiden?"
+			}
+		},
+		"mittag": {
+			"hunger": {
+				"label": "Hunger, kleiner Mann?",
+				"f1": "IMMER. Mein Bauch hat dich schon von weitem gehört.",
+				"f2": "Ein bisschen. Also riesig. Also mittel. Also ja!"
+			},
+			"quatsch": {
+				"label": "Du denkst nur ans Essen!",
+				"f1": "Stimmt nicht! Ich denk auch an dich. Und an Essen MIT dir.",
+				"f2": "Pff! Ich denke auch an… Snacks. Das ist was GANZ anderes."
+			}
+		},
+		"abend": {
+			"gemuetlich": {
+				"label": "Kuschelabend?",
+				"f1": "Ich hab gehofft, dass du das sagst! Sofa-Startplätze sind reserviert.",
+				"f2": "Abgemacht! Ich bring das Flausch mit, du bringst dich mit."
+			},
+			"wild": {
+				"label": "Erst noch was erleben!",
+				"f1": "Okay, EIN Abenteuer noch. Danach Doppel-Kuscheln als Ausgleich.",
+				"f2": "Mutig! Ich hol schon mal meine Abenteuer-Ohren raus."
+			}
+		},
+		"nacht": {
+			"sorge": {
+				"label": "Solltest du nicht schlafen?",
+				"f1": "Gleich! Erst noch fünf Minuten wach sein. Mit dir.",
+				"f2": "Psst, ich schlafe doch fast. Das hier ist Traum-Training."
+			},
+			"mitmachen": {
+				"label": "Nachteulen-Club!",
+				"f1": "Aufnahme bestätigt! Geheimes Ohrenwackeln zur Begrüßung.",
+				"f2": "Der Club hat Regeln: leise kichern, laut kuscheln."
+			}
+		},
+		"gefreut": {
+			"auch": {
+				"label": "Ich hab dich vermisst!",
+				"f1": "Echt?! Jetzt freut sich sogar mein Frühstücksbauch.",
+				"f2": "Hihi! Dann sind wir quitt. Doppelt gefreut hält besser."
+			},
+			"necken": {
+				"label": "War doch nur kurz!",
+				"f1": "KURZ? Das waren mindestens drei Snack-Zeiten!",
+				"f2": "Für dich kurz. Für mich drei Nickerchen und ein Seufzer."
+			}
+		},
+		"eingeschnappt": {
+			"entschuldigen": {
+				"label": "Tut mir leid, Gooby.",
+				"f1": "…okay. Schmollen offiziell beendet. Kraul mich und wir sind quitt.",
+				"f2": "Angenommen! Ich kann dir sowieso nie lange böse sein."
+			},
+			"guenstig": {
+				"label": "Dafür gibt’s Extra-Kraulen!",
+				"f1": "Bestechung! …Funktioniert. Genau hier hinterm Ohr, bitte.",
+				"f2": "Hmpf. Na gut. Aber nur, weil Kraulen die beste Währung ist."
+			}
+		},
+		"regen": {
+			"drinnen": {
+				"label": "Gut, dass wir drin sind!",
+				"f1": "Team Drinnen! Der Regen darf gucken, aber nicht mitkuscheln.",
+				"f2": "Genau! Drinnen ist das neue Draußen. Viel trockener."
+			},
+			"pfuetzen": {
+				"label": "Pfützen-Hüpfen später?",
+				"f1": "JA! Ich üb schon mal den Anlauf. Platsch-Faktor zehn!",
+				"f2": "Nur wenn du mithüpfst. Pfützen zählen doppelt zu zweit."
+			}
+		},
+		"gewitter": {
+			"troesten": {
+				"label": "Keine Angst, ich bin da.",
+				"f1": "Danke… mit dir ist der Donner nur halb so laut.",
+				"f2": "O-okay. Ich halt deine Hand. Also, deinen Finger."
+			},
+			"kuscheln": {
+				"label": "Komm unter die Decke!",
+				"f1": "Beste Idee! Decken sind donnersicher, das weiß doch jeder."
+			},
+			"witz": {
+				"label": "Der Himmel macht nur Musik!",
+				"f1": "Hihi… dann ist das der lauteste Schlagzeuger der Welt."
+			},
+			"mutig": {
+				"label": "Zähl mit mir die Blitze!",
+				"f1": "Eins… zwei… WAAH… drei! Ich bin SO mutig gerade.",
+				"f2": "Okay! Aber wenn es kracht, zählst du weiter, ja?"
+			}
+		},
+		"schnee": {
+			"raus": {
+				"label": "Schneemann bauen!",
+				"f1": "JA! Er kriegt Ohren! Ein Schneegooby wird das!",
+				"f2": "Ich hol die Möhre! Für die Nase. Und eine für mich."
+			},
+			"drin": {
+				"label": "Von hier ist es schöner.",
+				"f1": "Stimmt… Schnee gucken mit dir ist wie Kino. Flockenkino.",
+				"f2": "Gemütlich-Modus an! Jede Flocke kriegt einen Applaus von mir."
+			}
+		},
+		"jubilaeum": {
+			"ruehrend": {
+				"label": "Schön, dass es dich gibt!",
+				"f1": "Jetzt werden meine Ohren ganz warm… Das sagst DU erstmal!",
+				"f2": "Ohne dich wär das hier nur ein Haus. Mit dir ist es unser Zuhause."
+			},
+			"witzeln": {
+				"label": "Du zählst die Tage?!",
+				"f1": "Natürlich! Ich hab einen Kalender. Er ist aus Erinnerungen.",
+				"f2": "Nur die schönen Tage! Also… alle."
+			}
+		},
+		"erinnerung": {
+			"erzaehlen": {
+				"label": "Erzähl mehr!",
+				"f1": "Gerne! Ich erinnere mich an ALLES. Sogar an das mit dem Keks.",
+				"f2": "Setz dich, das wird gut. Also, es begann an einem Dienstag…"
+			},
+			"lachen": {
+				"label": "Hihi, weiter!",
+				"f1": "…und DESHALB darf ich nicht mehr alleine backen. Ende!"
+			},
+			"kuschel": {
+				"label": "Du bist ein Schatz.",
+				"f1": "Und du erst! Erinnerungen mit dir sind meine Lieblinge."
+			},
+			"gedaechtnis": {
+				"label": "Was du alles weißt!",
+				"f1": "Mein Kopf ist ein Fotoalbum. Mit sehr vielen Snack-Fotos.",
+				"f2": "Wichtiges merk ich mir immer. Du bist das Wichtigste."
+			}
+		},
+		"vermisst": {
+			"wieder_da": {
+				"label": "Jetzt bin ich ja da!",
+				"f1": "Und ich lass dich so schnell nicht wieder los! Beschlossen.",
+				"f2": "Der beste Satz des Tages! Gleich nochmal sagen, bitte."
+			},
+			"geschenk": {
+				"label": "Ich mach’s wieder gut!",
+				"f1": "Oooh! Ich nehme Kraulen, Spielen und ein Krümelchen Zeit.",
+				"f2": "Du bist doch selbst das Wiedergutmach-Geschenk. Aber Snacks gehen immer."
+			}
+		}
+	},
+	"fuettern": {
+		"kommentar": {
+			"obst": {
+				"1": "Obst! Knackig, süß, gesund — wie ich, nur essbar.",
+				"2": "Mmmh, fruchtig! Vitamine für die Ohren!",
+				"3": "Obst ist Natur-Süßkram. Beste Erfindung der Bäume.",
+				"4": "Saftig! Ich schmatze aus Respekt."
+			},
+			"gemuese": {
+				"1": "Gemüse macht stark! Guck, meine Muskeln. … Die sind unterm Flausch.",
+				"2": "Knack, knack! Gemüse ist Musik zum Essen.",
+				"3": "Grünzeug für den Helden des Hauses. Danke!",
+				"4": "Gemüse-Power! Gleich wachsen mir Superkräfte. Bestimmt."
+			},
+			"suess": {
+				"1": "SÜSSES! Mein Herz macht einen kleinen Purzelbaum.",
+				"2": "Zucker-Alarm! Ich tanze gleich, ich warn dich vor.",
+				"3": "Süßes schmeckt nach Feiertag. Dann ist heute wohl einer!",
+				"4": "Ein Träumchen! Ich ess es ganz langsam. … Okay, es ist schon weg."
+			},
+			"deftig": {
+				"1": "Deftig! Das hält Ohren und Boden zusammen.",
+				"2": "Ein richtiges Festessen! Ich fühl mich wie ein Ritter.",
+				"3": "Herzhaft und warm — wie eine Umarmung zum Kauen.",
+				"4": "Nach so einem Essen brauch ich ein Bäuchlein-Nickerchen."
+			}
+		}
+	}
+}

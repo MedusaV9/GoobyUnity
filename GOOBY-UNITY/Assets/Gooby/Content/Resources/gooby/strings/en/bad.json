@@ -1,0 +1,34 @@
+{
+	"bad": {
+		"lampe": {
+			"titel": "Light switch",
+			"umlegen": "Flip the switch",
+			"komme": "One second, coming!",
+			"klick": "Click!"
+		},
+		"dusche": {
+			"start": "Shower time! No peeking!",
+			"fertig": "Fresh and fluffy!",
+			"peek1": "Um… I'm still in here?",
+			"peek2": "The water is getting cold, you know…",
+			"peek3": "I'm all wrinkly already!"
+		},
+		"klo": {
+			"gang": "Gotta go… be right back!",
+			"fertig": "Much better. Don't ask."
+		},
+		"spiegel": {
+			"titel": "Mirror, mirror",
+			"augenabstand": "Eye spacing",
+			"augengroesse": "Eye size",
+			"ohrlaenge": "Ear length",
+			"pausbacken": "Chubby cheeks"
+		},
+		"zahnputz": {
+			"warte": "Don't forget to brush your teeth!",
+			"rubbel": "Rub the brush back and forth!",
+			"fertig": "Squeaky clean! Smell that!",
+			"bruch": "Oops… the brush gave up. It was a good one."
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"id": "furniture",
+	"version": "1.0.0",
+	"priority": 450,
+	"min_native": "5.0.0",
+	"domains": ["furniture_extra"],
+	"name_de": "Möbel-Nachschub",
+	"notes_de": "CONTENT-B: Möbel, die OHNE App-Update nachgeliefert werden. Gleiche Schema-Form wie scripts/home/data/furniture_catalog.json; ShopCatalog mischt die Einträge über die ContentRegistry-Domain 'furniture_extra' in den Basis-Katalog (gleiche id gewinnt)."
+}

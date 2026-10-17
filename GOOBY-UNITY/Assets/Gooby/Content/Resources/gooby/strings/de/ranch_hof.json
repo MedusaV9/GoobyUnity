@@ -1,0 +1,147 @@
+{
+  "rhof": {
+    "untertitel": "Dein Hof · {pferde} Pferde",
+    "level": "Lv {n}",
+    "reiten": "Reiten & Turniere",
+    "hof": "Hof & Laden",
+    "tor_gesperrt": "Ab Level {level} kannst du die Ranch kaufen — du bist Level {aktuell}.",
+    "tor_umschauen": "Erst mal umschauen",
+    "nur_schauen": "Kauf die Ranch, dann kannst du die Pferde pflegen.",
+    "leer": {
+      "heu": "Kein Heu mehr — mäh die Heuwiese oder kauf Ballen im Hofladen.",
+      "apfel": "Keine Äpfel im Lager — die Apfelbäume tragen bald wieder.",
+      "karotte": "Keine Karotten im Kühlschrank — die wachsen im Garten oder liegen im Supermarkt.",
+      "hafer": "Kein Hafer mehr — den gibt es im Futterhof in Hufingen.",
+      "leckerli": "Keine Leckerli mehr — Marta im Futterhof in Hufingen hat welche."
+    },
+    "waechst": "wächst ({zeit})",
+    "wiese": "Heuwiese",
+    "wiese_reif": "Die Heuwiese ist reif — tipp drauf zum Mähen!",
+    "wiese_waechst": "Die Heuwiese wächst noch ({zeit}).",
+    "wiese_tag": "Mähen!",
+    "baum_waechst": "Der Apfelbaum trägt in {zeit} wieder.",
+    "gemaeht": "+{n} Heuballen!",
+    "gepflueckt": "+{n} Äpfel!",
+    "reaktion": {
+      "heu": "Mampf, mampf — {name} kaut zufrieden.",
+      "apfel": "Knack! {name} liebt Äpfel.",
+      "karotte": "Eine Karotte! {name} schnaubt glücklich.",
+      "traenken": "Schlürf … ahh! {name} hat genug getrunken.",
+      "striegeln": "{name} glänzt wie neu!",
+      "ausmisten": "Blitzblank! Der Stall duftet nach frischem Stroh.",
+      "hafer": "Hafer! {name} frisst mit Genuss und wird richtig satt.",
+      "leckerli": "Ein Leckerli! {name} stupst dich mit der Nase an."
+    },
+    "voll": "{name} ist rundum zufrieden — das reicht für heute!",
+    "stufe": "{name} und du: {stufe}!",
+    "event": {
+      "hungrig": "{name} hat Hunger!",
+      "durstig": "{name} hat Durst!",
+      "stinkig": "{name} wartet auf die Bürste.",
+      "stallDreckig": "Der Stall müffelt — Zeit zum Ausmisten!",
+      "ausgebuext": {
+        "start": "Wiehern am Zaun — ein Pferd ist ausgebüxt!",
+        "hinweis": "Tipp das Pferd bei den Heuballen an, dann trottet es zurück in die Koppel.",
+        "geschafft": "Eingefangen! {name} kuschelt sich an dich. +25 ᴳ und mehr Bindung."
+      },
+      "heudieb": {
+        "start": "Kraah! Freche Krähen klauen dein Heu!",
+        "hinweis": "Tipp jede Krähe auf dem Heustapel an!",
+        "geschafft": "Weg sind sie! Heu gerettet — und 2 Ballen extra."
+      },
+      "hufschmied": {
+        "start": "Der wandernde Hufschmied macht kurz Halt!",
+        "hinweis": "Tipp ihn am Tor an — er schaut sich alle Hufe an.",
+        "geschafft": "Alle Hufe gecheckt — einen Tag lang tragen deine Pferde das Huf-Siegel.",
+        "chip": "Hufe gecheckt"
+      },
+      "karottenregen": {
+        "start": "GOOBY-Wetterbericht: Karottenregen über der Heuwiese!",
+        "hinweis": "Sammel die Karotten auf der Heuwiese ein!",
+        "geschafft": "{n} Karotten im Kühlschrank!"
+      }
+    },
+    "schlaeft": "Psst … die Pferde schlafen im Stall. Ein Leckerli geht trotzdem.",
+    "willkommen": "Willkommen auf deinem Hof! Tipp ein Pferd an.",
+    "tipp": "Tipp auf Bäume, Wiese, Trog oder Stall.",
+    "fuettern": "Füttern",
+    "futter": {
+      "heu": "Heu",
+      "apfel": "Apfel",
+      "karotte": "Karotte",
+      "hafer": "Hafer",
+      "leckerli": "Leckerli"
+    },
+    "tage": {
+      "titel": "Tagesaufgaben",
+      "untertitel": "Drei kleine Aufgaben für heute auf der Ranch",
+      "abholen": "Abholen +{n} ᴳ",
+      "abgeholt": "Abgeholt",
+      "geschafft": "Aufgabe geschafft: {text}",
+      "morgen": "Morgen gibt es neue Aufgaben — verpassen kannst du nichts.",
+      "text": {
+        "tages_ausmisten": "Den Stall ausmisten",
+        "tages_aepfel": "2 Äpfel pflücken",
+        "tages_striegeln": "Ein Pferd striegeln",
+        "tages_fuettern": "3-mal füttern",
+        "tages_heu": "Die Heuwiese mähen",
+        "tages_dorf": "Nach Hufingen reiten",
+        "tages_reiten": "Ein Ranch-Spiel reiten"
+      }
+    },
+    "zucht": {
+      "titel": "Zucht",
+      "text": "{stute} bekommt ein Fohlen — wer wird der Vater?",
+      "decken": "Fohlen mit {name}",
+      "traechtig": "Trächtig · Fohlen in {zeit}",
+      "fuersorge": "Bauch streicheln",
+      "fuersorge_ok": "{name} genießt es — das Fohlen kommt 2 Stunden früher.",
+      "start": "Trächtig! In etwa zwei Tagen kommt ein Fohlen.",
+      "geboren": "Ein Fohlen ist geboren! {name} ist da.",
+      "jung": "Noch zu jung zum Reiten — {name} wächst noch.",
+      "waechst": "{alter} · in {tage} Tg. {naechste}",
+      "alter": {
+        "fohlen": "Fohlen",
+        "jaehrling": "Jährling",
+        "jungpferd": "Jungpferd",
+        "ausgewachsen": "Ausgewachsen"
+      },
+      "keiner": "Für Fohlen brauchst du ein zweites ausgewachsenes Pferd.",
+      "fehler": {
+        "traechtig": "{name} ist schon trächtig.",
+        "voll": "Es sind schon zwei Stuten trächtig.",
+        "ruhezeit": "{name} ruht sich nach der Geburt noch aus.",
+        "level": "Beide Pferde brauchen Level 8 — Turniere geben Pferde-XP.",
+        "bindung": "Beide brauchen mindestens Bindung 45 („Freund“).",
+        "laune": "{name} muss richtig froh sein (Laune 60) — erst gut pflegen.",
+        "jung": "Fohlen und Jährlinge bekommen noch keine Fohlen.",
+        "selbe": "Wähle ein zweites Pferd.",
+        "keinPferd": "Dieses Pferd kenne ich nicht."
+      }
+    },
+    "zaehmen": {
+      "aufmerksam": "Aufmerksamkeit",
+      "ruhe": "Ruhe",
+      "start": "Ein Wildpferd grast am Waldrand. Schleich dich an — geduckt merkt es dich kaum!",
+      "ducken": "Ducken",
+      "schleichen": "Schleichen",
+      "beruhigen": "Beruhigen",
+      "bereit": "Ganz nah! Tipp „Beruhigen“, immer wenn es schnaubt.",
+      "weg": "Huch — es ist davongetrabt. Warte kurz, es kommt wieder.",
+      "wieder": "Da ist es wieder! Diesmal ganz leise …",
+      "gezaehmt": "Gezähmt! {name} zieht auf deine Ranch.",
+      "kein_platz": "Gezähmt — aber im Stall ist kein Platz mehr.",
+      "karte": "Zum Waldrand",
+      "karte_text": "Heute grast dort ein Wildpferd — schleich dich an und beruhige es.",
+      "karte_morgen": "Heute schon gezähmt — morgen grast dort ein neues Wildpferd.",
+      "stall_voll": "Für ein Wildpferd brauchst du eine freie Box — bau mehr Boxen."
+    },
+    "wetter": {
+      "klar": "Sternenklar",
+      "bis": "{wetter} bis {zeit} Uhr — danach {danach}.",
+      "bleibt": "{wetter} — so bleibt es heute.",
+      "regenbogen_toast": "Ein Regenbogen über der Ranch!",
+      "regen_tipp": "Die Pfützen glitzern — nach dem Regen ist die Luft ganz frisch."
+    }
+  }
+}

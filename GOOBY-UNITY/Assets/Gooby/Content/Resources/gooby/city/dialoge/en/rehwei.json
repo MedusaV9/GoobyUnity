@@ -1,0 +1,30 @@
+{
+  "id": "rehwei_rehwald",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "rehwald",
+      "text": "Welcome to REHWEI! Today's special: everything that is round.",
+      "optionen": [
+        {"text": "Let's shop!", "next": "laden"},
+        {"text": "Do you collect loyalty points?", "next": "treue"}
+      ]
+    },
+    "treue": {
+      "sprecher": "rehwald",
+      "text": "Do YOU collect loyalty points? No? Me neither, I just love making them up.",
+      "next": "hallo"
+    },
+    "laden": {
+      "sprecher": "rehwald",
+      "text": "Baskets are on the left. No nibbling the lettuce before it's paid for!",
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "festmahl": {
+      "sprecher": "rehwald",
+      "text": "This will be a feast. Or a Tuesday. With Goobys, you never know.",
+      "ende": true
+    }
+  }
+}

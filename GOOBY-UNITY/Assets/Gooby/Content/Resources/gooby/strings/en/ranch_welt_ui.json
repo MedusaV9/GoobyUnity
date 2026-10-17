@@ -1,0 +1,20 @@
+{
+  "rwelt": {
+    "ui": {
+      "satteln": "Saddling up …",
+      "galopp": "Gallop",
+      "tipp": "Push the stick on the left forward to ride — sideways to steer.",
+      "dahin_reiten": "Ride there",
+      "unterwegs": "On the way to {ziel} — the path leads you there.",
+      "angekommen": "Arrived: {zone}!",
+      "zone_text": "You have been here before. Shall your horse take you there along the paths?",
+      "ausreiten_text": "Ride freely through the ranch region — sixteen zones and sixteen secrets are waiting."
+    },
+    "aktion": {
+      "hufingen": "Into Hufingen",
+      "turnier": "Ride a tournament",
+      "wildpferde": "Tame a wild horse",
+      "hof": "Dismount at the farm"
+    }
+  }
+}

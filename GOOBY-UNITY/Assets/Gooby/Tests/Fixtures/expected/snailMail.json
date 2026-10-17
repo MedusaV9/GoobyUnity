@@ -1,0 +1,1612 @@
+{
+  "modes": {
+    "easy": [
+      {
+        "seed": 1,
+        "score": 123,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 27,
+        "elapsed": 74.86666666666666
+      },
+      {
+        "seed": 2,
+        "score": 126,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 30,
+        "elapsed": 74.9333333333333
+      },
+      {
+        "seed": 3,
+        "score": 127,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 31,
+        "elapsed": 74.86666666666663
+      },
+      {
+        "seed": 4,
+        "score": 119,
+        "deliveries": 15,
+        "splashes": 0,
+        "flowersPicked": 29,
+        "elapsed": 72.06666666666665
+      },
+      {
+        "seed": 5,
+        "score": 125,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 29,
+        "elapsed": 73.79999999999998
+      },
+      {
+        "seed": 6,
+        "score": 126,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 30,
+        "elapsed": 75.63333333333331
+      },
+      {
+        "seed": 7,
+        "score": 121,
+        "deliveries": 16,
+        "splashes": 1,
+        "flowersPicked": 27,
+        "elapsed": 76.53333333333332
+      },
+      {
+        "seed": 8,
+        "score": 117,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 29,
+        "elapsed": 73.79999999999997
+      },
+      {
+        "seed": 9,
+        "score": 128,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 32,
+        "elapsed": 75.46666666666664
+      },
+      {
+        "seed": 10,
+        "score": 118,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 30,
+        "elapsed": 72.46666666666664
+      },
+      {
+        "seed": 11,
+        "score": 125,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 29,
+        "elapsed": 75.06666666666665
+      },
+      {
+        "seed": 12,
+        "score": 117,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 29,
+        "elapsed": 72.46666666666665
+      },
+      {
+        "seed": 13,
+        "score": 123,
+        "deliveries": 16,
+        "splashes": 1,
+        "flowersPicked": 29,
+        "elapsed": 75.26666666666665
+      },
+      {
+        "seed": 14,
+        "score": 125,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 29,
+        "elapsed": 75.26666666666665
+      },
+      {
+        "seed": 15,
+        "score": 127,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 31,
+        "elapsed": 73.76666666666665
+      },
+      {
+        "seed": 16,
+        "score": 111,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 23,
+        "elapsed": 73.46666666666665
+      },
+      {
+        "seed": 17,
+        "score": 114,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 26,
+        "elapsed": 73.83333333333331
+      },
+      {
+        "seed": 18,
+        "score": 126,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 30,
+        "elapsed": 74.56666666666665
+      },
+      {
+        "seed": 19,
+        "score": 120,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 24,
+        "elapsed": 73.43333333333331
+      },
+      {
+        "seed": 20,
+        "score": 114,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 26,
+        "elapsed": 73.56666666666663
+      },
+      {
+        "seed": 21,
+        "score": 111,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 23,
+        "elapsed": 72.73333333333332
+      },
+      {
+        "seed": 22,
+        "score": 113,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 25,
+        "elapsed": 72.56666666666665
+      },
+      {
+        "seed": 23,
+        "score": 132,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 36,
+        "elapsed": 74.19999999999996
+      },
+      {
+        "seed": 24,
+        "score": 120,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 32,
+        "elapsed": 73.33333333333331
+      },
+      {
+        "seed": 25,
+        "score": 113,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 25,
+        "elapsed": 73.49999999999997
+      },
+      {
+        "seed": 26,
+        "score": 116,
+        "deliveries": 15,
+        "splashes": 2,
+        "flowersPicked": 30,
+        "elapsed": 74.66666666666666
+      },
+      {
+        "seed": 27,
+        "score": 106,
+        "deliveries": 15,
+        "splashes": 2,
+        "flowersPicked": 20,
+        "elapsed": 73.46666666666664
+      },
+      {
+        "seed": 28,
+        "score": 121,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 25,
+        "elapsed": 76.19999999999997
+      },
+      {
+        "seed": 29,
+        "score": 112,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 24,
+        "elapsed": 72.29999999999998
+      },
+      {
+        "seed": 30,
+        "score": 113,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 25,
+        "elapsed": 73.6333333333333
+      },
+      {
+        "seed": 31,
+        "score": 126,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 30,
+        "elapsed": 75.33333333333331
+      },
+      {
+        "seed": 32,
+        "score": 122,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 26,
+        "elapsed": 73.99999999999997
+      },
+      {
+        "seed": 33,
+        "score": 124,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 28,
+        "elapsed": 75.79999999999997
+      },
+      {
+        "seed": 34,
+        "score": 124,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 28,
+        "elapsed": 74.36666666666665
+      },
+      {
+        "seed": 35,
+        "score": 124,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 28,
+        "elapsed": 74.96666666666665
+      },
+      {
+        "seed": 36,
+        "score": 113,
+        "deliveries": 15,
+        "splashes": 2,
+        "flowersPicked": 27,
+        "elapsed": 74.49999999999997
+      },
+      {
+        "seed": 37,
+        "score": 121,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 25,
+        "elapsed": 73.73333333333332
+      },
+      {
+        "seed": 38,
+        "score": 115,
+        "deliveries": 15,
+        "splashes": 0,
+        "flowersPicked": 25,
+        "elapsed": 72.16666666666664
+      },
+      {
+        "seed": 39,
+        "score": 118,
+        "deliveries": 16,
+        "splashes": 2,
+        "flowersPicked": 26,
+        "elapsed": 76.39999999999999
+      },
+      {
+        "seed": 40,
+        "score": 108,
+        "deliveries": 15,
+        "splashes": 2,
+        "flowersPicked": 22,
+        "elapsed": 73.99999999999997
+      },
+      {
+        "seed": 41,
+        "score": 129,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 33,
+        "elapsed": 74.56666666666666
+      },
+      {
+        "seed": 42,
+        "score": 115,
+        "deliveries": 15,
+        "splashes": 2,
+        "flowersPicked": 29,
+        "elapsed": 72.7
+      },
+      {
+        "seed": 43,
+        "score": 118,
+        "deliveries": 15,
+        "splashes": 0,
+        "flowersPicked": 28,
+        "elapsed": 72.36666666666665
+      },
+      {
+        "seed": 44,
+        "score": 119,
+        "deliveries": 15,
+        "splashes": 2,
+        "flowersPicked": 33,
+        "elapsed": 76.06666666666665
+      },
+      {
+        "seed": 45,
+        "score": 129,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 33,
+        "elapsed": 73.83333333333331
+      },
+      {
+        "seed": 46,
+        "score": 123,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 27,
+        "elapsed": 75.29999999999998
+      },
+      {
+        "seed": 47,
+        "score": 113,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 25,
+        "elapsed": 73.49999999999999
+      },
+      {
+        "seed": 48,
+        "score": 126,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 30,
+        "elapsed": 76.49999999999999
+      },
+      {
+        "seed": 49,
+        "score": 118,
+        "deliveries": 16,
+        "splashes": 1,
+        "flowersPicked": 24,
+        "elapsed": 74.79999999999998
+      },
+      {
+        "seed": 50,
+        "score": 121,
+        "deliveries": 16,
+        "splashes": 0,
+        "flowersPicked": 25,
+        "elapsed": 74.49999999999999
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1,
+        "score": 102,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 20,
+        "elapsed": 60.866666666666674
+      },
+      {
+        "seed": 2,
+        "score": 114,
+        "deliveries": 15,
+        "splashes": 2,
+        "flowersPicked": 28,
+        "elapsed": 65.61666666666669
+      },
+      {
+        "seed": 3,
+        "score": 111,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 29,
+        "elapsed": 61.46666666666668
+      },
+      {
+        "seed": 4,
+        "score": 103,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 21,
+        "elapsed": 60.800000000000004
+      },
+      {
+        "seed": 5,
+        "score": 112,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 30,
+        "elapsed": 61.43333333333335
+      },
+      {
+        "seed": 6,
+        "score": 108,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 26,
+        "elapsed": 60.90000000000001
+      },
+      {
+        "seed": 7,
+        "score": 113,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 31,
+        "elapsed": 60.40000000000002
+      },
+      {
+        "seed": 8,
+        "score": 105,
+        "deliveries": 14,
+        "splashes": 3,
+        "flowersPicked": 27,
+        "elapsed": 63.000000000000014
+      },
+      {
+        "seed": 9,
+        "score": 106,
+        "deliveries": 14,
+        "splashes": 2,
+        "flowersPicked": 26,
+        "elapsed": 63.70000000000002
+      },
+      {
+        "seed": 10,
+        "score": 114,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 26,
+        "elapsed": 63.78333333333337
+      },
+      {
+        "seed": 11,
+        "score": 108,
+        "deliveries": 14,
+        "splashes": 2,
+        "flowersPicked": 28,
+        "elapsed": 62.30000000000001
+      },
+      {
+        "seed": 12,
+        "score": 122,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 34,
+        "elapsed": 63.3166666666667
+      },
+      {
+        "seed": 13,
+        "score": 115,
+        "deliveries": 15,
+        "splashes": 0,
+        "flowersPicked": 25,
+        "elapsed": 63.08333333333335
+      },
+      {
+        "seed": 14,
+        "score": 109,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 27,
+        "elapsed": 62.966666666666676
+      },
+      {
+        "seed": 15,
+        "score": 95,
+        "deliveries": 13,
+        "splashes": 3,
+        "flowersPicked": 23,
+        "elapsed": 60.983333333333356
+      },
+      {
+        "seed": 16,
+        "score": 107,
+        "deliveries": 14,
+        "splashes": 0,
+        "flowersPicked": 23,
+        "elapsed": 61.266666666666666
+      },
+      {
+        "seed": 17,
+        "score": 104,
+        "deliveries": 14,
+        "splashes": 2,
+        "flowersPicked": 24,
+        "elapsed": 60.93333333333335
+      },
+      {
+        "seed": 18,
+        "score": 107,
+        "deliveries": 14,
+        "splashes": 2,
+        "flowersPicked": 27,
+        "elapsed": 62.733333333333356
+      },
+      {
+        "seed": 19,
+        "score": 104,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 22,
+        "elapsed": 61.63333333333335
+      },
+      {
+        "seed": 20,
+        "score": 111,
+        "deliveries": 14,
+        "splashes": 0,
+        "flowersPicked": 27,
+        "elapsed": 60.26666666666668
+      },
+      {
+        "seed": 21,
+        "score": 106,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 24,
+        "elapsed": 61.83333333333334
+      },
+      {
+        "seed": 22,
+        "score": 108,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 26,
+        "elapsed": 60.433333333333344
+      },
+      {
+        "seed": 23,
+        "score": 108,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 26,
+        "elapsed": 60.23333333333335
+      },
+      {
+        "seed": 24,
+        "score": 110,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 28,
+        "elapsed": 62.06666666666667
+      },
+      {
+        "seed": 25,
+        "score": 117,
+        "deliveries": 15,
+        "splashes": 0,
+        "flowersPicked": 27,
+        "elapsed": 61.91666666666669
+      },
+      {
+        "seed": 26,
+        "score": 120,
+        "deliveries": 15,
+        "splashes": 0,
+        "flowersPicked": 30,
+        "elapsed": 63.51666666666667
+      },
+      {
+        "seed": 27,
+        "score": 108,
+        "deliveries": 14,
+        "splashes": 2,
+        "flowersPicked": 28,
+        "elapsed": 64.20000000000002
+      },
+      {
+        "seed": 28,
+        "score": 105,
+        "deliveries": 14,
+        "splashes": 2,
+        "flowersPicked": 25,
+        "elapsed": 63.36666666666668
+      },
+      {
+        "seed": 29,
+        "score": 104,
+        "deliveries": 14,
+        "splashes": 2,
+        "flowersPicked": 24,
+        "elapsed": 62.83333333333334
+      },
+      {
+        "seed": 30,
+        "score": 106,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 24,
+        "elapsed": 60.36666666666669
+      },
+      {
+        "seed": 31,
+        "score": 117,
+        "deliveries": 15,
+        "splashes": 0,
+        "flowersPicked": 27,
+        "elapsed": 63.95000000000001
+      },
+      {
+        "seed": 32,
+        "score": 119,
+        "deliveries": 15,
+        "splashes": 0,
+        "flowersPicked": 29,
+        "elapsed": 64.05000000000001
+      },
+      {
+        "seed": 33,
+        "score": 118,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 30,
+        "elapsed": 63.65000000000002
+      },
+      {
+        "seed": 34,
+        "score": 103,
+        "deliveries": 14,
+        "splashes": 2,
+        "flowersPicked": 23,
+        "elapsed": 61.93333333333335
+      },
+      {
+        "seed": 35,
+        "score": 111,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 29,
+        "elapsed": 60.70000000000001
+      },
+      {
+        "seed": 36,
+        "score": 103,
+        "deliveries": 14,
+        "splashes": 2,
+        "flowersPicked": 23,
+        "elapsed": 62.63333333333335
+      },
+      {
+        "seed": 37,
+        "score": 112,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 24,
+        "elapsed": 63.21666666666668
+      },
+      {
+        "seed": 38,
+        "score": 122,
+        "deliveries": 15,
+        "splashes": 0,
+        "flowersPicked": 32,
+        "elapsed": 62.683333333333344
+      },
+      {
+        "seed": 39,
+        "score": 111,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 29,
+        "elapsed": 60.60000000000001
+      },
+      {
+        "seed": 40,
+        "score": 110,
+        "deliveries": 15,
+        "splashes": 0,
+        "flowersPicked": 20,
+        "elapsed": 63.28333333333335
+      },
+      {
+        "seed": 41,
+        "score": 105,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 23,
+        "elapsed": 60.26666666666668
+      },
+      {
+        "seed": 42,
+        "score": 116,
+        "deliveries": 15,
+        "splashes": 0,
+        "flowersPicked": 26,
+        "elapsed": 63.18333333333335
+      },
+      {
+        "seed": 43,
+        "score": 113,
+        "deliveries": 15,
+        "splashes": 0,
+        "flowersPicked": 23,
+        "elapsed": 61.916666666666686
+      },
+      {
+        "seed": 44,
+        "score": 105,
+        "deliveries": 14,
+        "splashes": 2,
+        "flowersPicked": 25,
+        "elapsed": 63.36666666666668
+      },
+      {
+        "seed": 45,
+        "score": 109,
+        "deliveries": 14,
+        "splashes": 2,
+        "flowersPicked": 29,
+        "elapsed": 62.26666666666669
+      },
+      {
+        "seed": 46,
+        "score": 110,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 28,
+        "elapsed": 63.40000000000001
+      },
+      {
+        "seed": 47,
+        "score": 107,
+        "deliveries": 14,
+        "splashes": 2,
+        "flowersPicked": 27,
+        "elapsed": 63.13333333333334
+      },
+      {
+        "seed": 48,
+        "score": 118,
+        "deliveries": 15,
+        "splashes": 1,
+        "flowersPicked": 30,
+        "elapsed": 65.31666666666669
+      },
+      {
+        "seed": 49,
+        "score": 104,
+        "deliveries": 14,
+        "splashes": 2,
+        "flowersPicked": 24,
+        "elapsed": 61.36666666666669
+      },
+      {
+        "seed": 50,
+        "score": 109,
+        "deliveries": 14,
+        "splashes": 1,
+        "flowersPicked": 27,
+        "elapsed": 61.43333333333335
+      }
+    ],
+    "hard": [
+      {
+        "seed": 1,
+        "score": 98,
+        "deliveries": 14,
+        "splashes": 4,
+        "flowersPicked": 22,
+        "elapsed": 60.70000000000002
+      },
+      {
+        "seed": 2,
+        "score": 97,
+        "deliveries": 14,
+        "splashes": 5,
+        "flowersPicked": 23,
+        "elapsed": 61.83333333333336
+      },
+      {
+        "seed": 3,
+        "score": 126,
+        "deliveries": 16,
+        "splashes": 1,
+        "flowersPicked": 32,
+        "elapsed": 61.46666666666669
+      },
+      {
+        "seed": 4,
+        "score": 115,
+        "deliveries": 15,
+        "splashes": 3,
+        "flowersPicked": 31,
+        "elapsed": 60.800000000000026
+      },
+      {
+        "seed": 5,
+        "score": 100,
+        "deliveries": 14,
+        "splashes": 5,
+        "flowersPicked": 26,
+        "elapsed": 62.700000000000024
+      },
+      {
+        "seed": 6,
+        "score": 113,
+        "deliveries": 15,
+        "splashes": 3,
+        "flowersPicked": 29,
+        "elapsed": 60.466666666666704
+      },
+      {
+        "seed": 7,
+        "score": 119,
+        "deliveries": 16,
+        "splashes": 4,
+        "flowersPicked": 31,
+        "elapsed": 65.4666666666667
+      },
+      {
+        "seed": 8,
+        "score": 113,
+        "deliveries": 15,
+        "splashes": 4,
+        "flowersPicked": 31,
+        "elapsed": 62.63333333333337
+      },
+      {
+        "seed": 9,
+        "score": 111,
+        "deliveries": 15,
+        "splashes": 5,
+        "flowersPicked": 31,
+        "elapsed": 64.03333333333336
+      },
+      {
+        "seed": 10,
+        "score": 113,
+        "deliveries": 15,
+        "splashes": 3,
+        "flowersPicked": 29,
+        "elapsed": 60.9666666666667
+      },
+      {
+        "seed": 11,
+        "score": 106,
+        "deliveries": 15,
+        "splashes": 4,
+        "flowersPicked": 24,
+        "elapsed": 61.3666666666667
+      },
+      {
+        "seed": 12,
+        "score": 88,
+        "deliveries": 13,
+        "splashes": 7,
+        "flowersPicked": 24,
+        "elapsed": 61.73333333333336
+      },
+      {
+        "seed": 13,
+        "score": 122,
+        "deliveries": 16,
+        "splashes": 2,
+        "flowersPicked": 30,
+        "elapsed": 61.366666666666696
+      },
+      {
+        "seed": 14,
+        "score": 97,
+        "deliveries": 14,
+        "splashes": 5,
+        "flowersPicked": 23,
+        "elapsed": 62.633333333333354
+      },
+      {
+        "seed": 15,
+        "score": 101,
+        "deliveries": 14,
+        "splashes": 5,
+        "flowersPicked": 27,
+        "elapsed": 61.16666666666671
+      },
+      {
+        "seed": 16,
+        "score": 116,
+        "deliveries": 16,
+        "splashes": 3,
+        "flowersPicked": 26,
+        "elapsed": 63.53333333333337
+      },
+      {
+        "seed": 17,
+        "score": 110,
+        "deliveries": 15,
+        "splashes": 5,
+        "flowersPicked": 30,
+        "elapsed": 64.66666666666669
+      },
+      {
+        "seed": 18,
+        "score": 97,
+        "deliveries": 14,
+        "splashes": 5,
+        "flowersPicked": 23,
+        "elapsed": 61.13333333333336
+      },
+      {
+        "seed": 19,
+        "score": 114,
+        "deliveries": 15,
+        "splashes": 3,
+        "flowersPicked": 30,
+        "elapsed": 62.03333333333335
+      },
+      {
+        "seed": 20,
+        "score": 124,
+        "deliveries": 16,
+        "splashes": 2,
+        "flowersPicked": 32,
+        "elapsed": 62.80000000000004
+      },
+      {
+        "seed": 21,
+        "score": 113,
+        "deliveries": 15,
+        "splashes": 4,
+        "flowersPicked": 31,
+        "elapsed": 63.80000000000002
+      },
+      {
+        "seed": 22,
+        "score": 112,
+        "deliveries": 15,
+        "splashes": 4,
+        "flowersPicked": 30,
+        "elapsed": 62.00000000000003
+      },
+      {
+        "seed": 23,
+        "score": 113,
+        "deliveries": 15,
+        "splashes": 4,
+        "flowersPicked": 31,
+        "elapsed": 62.200000000000024
+      },
+      {
+        "seed": 24,
+        "score": 104,
+        "deliveries": 15,
+        "splashes": 5,
+        "flowersPicked": 24,
+        "elapsed": 64.90000000000003
+      },
+      {
+        "seed": 25,
+        "score": 116,
+        "deliveries": 16,
+        "splashes": 4,
+        "flowersPicked": 28,
+        "elapsed": 63.33333333333338
+      },
+      {
+        "seed": 26,
+        "score": 110,
+        "deliveries": 15,
+        "splashes": 4,
+        "flowersPicked": 28,
+        "elapsed": 62.60000000000003
+      },
+      {
+        "seed": 27,
+        "score": 95,
+        "deliveries": 14,
+        "splashes": 5,
+        "flowersPicked": 21,
+        "elapsed": 61.200000000000024
+      },
+      {
+        "seed": 28,
+        "score": 88,
+        "deliveries": 13,
+        "splashes": 7,
+        "flowersPicked": 24,
+        "elapsed": 63.666666666666686
+      },
+      {
+        "seed": 29,
+        "score": 122,
+        "deliveries": 15,
+        "splashes": 3,
+        "flowersPicked": 38,
+        "elapsed": 60.10000000000003
+      },
+      {
+        "seed": 30,
+        "score": 116,
+        "deliveries": 15,
+        "splashes": 3,
+        "flowersPicked": 32,
+        "elapsed": 60.20000000000004
+      },
+      {
+        "seed": 31,
+        "score": 95,
+        "deliveries": 14,
+        "splashes": 7,
+        "flowersPicked": 25,
+        "elapsed": 63.300000000000026
+      },
+      {
+        "seed": 32,
+        "score": 115,
+        "deliveries": 15,
+        "splashes": 2,
+        "flowersPicked": 29,
+        "elapsed": 60.500000000000036
+      },
+      {
+        "seed": 33,
+        "score": 112,
+        "deliveries": 15,
+        "splashes": 4,
+        "flowersPicked": 30,
+        "elapsed": 63.26666666666669
+      },
+      {
+        "seed": 34,
+        "score": 110,
+        "deliveries": 15,
+        "splashes": 3,
+        "flowersPicked": 26,
+        "elapsed": 60.03333333333336
+      },
+      {
+        "seed": 35,
+        "score": 113,
+        "deliveries": 16,
+        "splashes": 3,
+        "flowersPicked": 23,
+        "elapsed": 64.83333333333337
+      },
+      {
+        "seed": 36,
+        "score": 108,
+        "deliveries": 15,
+        "splashes": 3,
+        "flowersPicked": 24,
+        "elapsed": 60.46666666666669
+      },
+      {
+        "seed": 37,
+        "score": 93,
+        "deliveries": 14,
+        "splashes": 6,
+        "flowersPicked": 21,
+        "elapsed": 61.566666666666706
+      },
+      {
+        "seed": 38,
+        "score": 127,
+        "deliveries": 16,
+        "splashes": 1,
+        "flowersPicked": 33,
+        "elapsed": 60.433333333333366
+      },
+      {
+        "seed": 39,
+        "score": 117,
+        "deliveries": 15,
+        "splashes": 3,
+        "flowersPicked": 33,
+        "elapsed": 60.16666666666669
+      },
+      {
+        "seed": 40,
+        "score": 86,
+        "deliveries": 13,
+        "splashes": 8,
+        "flowersPicked": 24,
+        "elapsed": 65.30000000000001
+      },
+      {
+        "seed": 41,
+        "score": 101,
+        "deliveries": 14,
+        "splashes": 5,
+        "flowersPicked": 27,
+        "elapsed": 60.6666666666667
+      },
+      {
+        "seed": 42,
+        "score": 109,
+        "deliveries": 15,
+        "splashes": 4,
+        "flowersPicked": 27,
+        "elapsed": 62.266666666666694
+      },
+      {
+        "seed": 43,
+        "score": 97,
+        "deliveries": 14,
+        "splashes": 4,
+        "flowersPicked": 21,
+        "elapsed": 60.633333333333354
+      },
+      {
+        "seed": 44,
+        "score": 105,
+        "deliveries": 14,
+        "splashes": 5,
+        "flowersPicked": 31,
+        "elapsed": 61.10000000000002
+      },
+      {
+        "seed": 45,
+        "score": 128,
+        "deliveries": 16,
+        "splashes": 2,
+        "flowersPicked": 36,
+        "elapsed": 62.93333333333337
+      },
+      {
+        "seed": 46,
+        "score": 113,
+        "deliveries": 15,
+        "splashes": 4,
+        "flowersPicked": 31,
+        "elapsed": 62.23333333333336
+      },
+      {
+        "seed": 47,
+        "score": 91,
+        "deliveries": 13,
+        "splashes": 8,
+        "flowersPicked": 29,
+        "elapsed": 63.23333333333337
+      },
+      {
+        "seed": 48,
+        "score": 109,
+        "deliveries": 15,
+        "splashes": 4,
+        "flowersPicked": 27,
+        "elapsed": 61.033333333333374
+      },
+      {
+        "seed": 49,
+        "score": 105,
+        "deliveries": 14,
+        "splashes": 6,
+        "flowersPicked": 33,
+        "elapsed": 63.03333333333336
+      },
+      {
+        "seed": 50,
+        "score": 101,
+        "deliveries": 14,
+        "splashes": 4,
+        "flowersPicked": 25,
+        "elapsed": 60.56666666666669
+      }
+    ],
+    "endless": [
+      {
+        "seed": 1,
+        "score": 60,
+        "deliveries": 9,
+        "splashes": 3,
+        "flowersPicked": 12,
+        "elapsed": 39.20000000000002
+      },
+      {
+        "seed": 2,
+        "score": 22,
+        "deliveries": 4,
+        "splashes": 3,
+        "flowersPicked": 4,
+        "elapsed": 19.833333333333343
+      },
+      {
+        "seed": 3,
+        "score": 231,
+        "deliveries": 30,
+        "splashes": 3,
+        "flowersPicked": 57,
+        "elapsed": 118.00000000000001
+      },
+      {
+        "seed": 4,
+        "score": 81,
+        "deliveries": 11,
+        "splashes": 3,
+        "flowersPicked": 21,
+        "elapsed": 45.86666666666668
+      },
+      {
+        "seed": 5,
+        "score": 76,
+        "deliveries": 10,
+        "splashes": 3,
+        "flowersPicked": 22,
+        "elapsed": 42.83333333333336
+      },
+      {
+        "seed": 6,
+        "score": 113,
+        "deliveries": 15,
+        "splashes": 3,
+        "flowersPicked": 29,
+        "elapsed": 60.466666666666704
+      },
+      {
+        "seed": 7,
+        "score": 97,
+        "deliveries": 13,
+        "splashes": 3,
+        "flowersPicked": 25,
+        "elapsed": 52.46666666666669
+      },
+      {
+        "seed": 8,
+        "score": 74,
+        "deliveries": 10,
+        "splashes": 3,
+        "flowersPicked": 20,
+        "elapsed": 42.43333333333336
+      },
+      {
+        "seed": 9,
+        "score": 73,
+        "deliveries": 10,
+        "splashes": 3,
+        "flowersPicked": 19,
+        "elapsed": 41.633333333333354
+      },
+      {
+        "seed": 10,
+        "score": 97,
+        "deliveries": 13,
+        "splashes": 3,
+        "flowersPicked": 25,
+        "elapsed": 53.4666666666667
+      },
+      {
+        "seed": 11,
+        "score": 56,
+        "deliveries": 8,
+        "splashes": 3,
+        "flowersPicked": 14,
+        "elapsed": 34.46666666666668
+      },
+      {
+        "seed": 12,
+        "score": 48,
+        "deliveries": 7,
+        "splashes": 3,
+        "flowersPicked": 12,
+        "elapsed": 31.766666666666683
+      },
+      {
+        "seed": 13,
+        "score": 144,
+        "deliveries": 19,
+        "splashes": 3,
+        "flowersPicked": 36,
+        "elapsed": 74.80000000000004
+      },
+      {
+        "seed": 14,
+        "score": 38,
+        "deliveries": 6,
+        "splashes": 3,
+        "flowersPicked": 8,
+        "elapsed": 28.133333333333347
+      },
+      {
+        "seed": 15,
+        "score": 73,
+        "deliveries": 10,
+        "splashes": 3,
+        "flowersPicked": 19,
+        "elapsed": 43.03333333333336
+      },
+      {
+        "seed": 16,
+        "score": 99,
+        "deliveries": 14,
+        "splashes": 3,
+        "flowersPicked": 21,
+        "elapsed": 56.4666666666667
+      },
+      {
+        "seed": 17,
+        "score": 69,
+        "deliveries": 9,
+        "splashes": 3,
+        "flowersPicked": 21,
+        "elapsed": 38.600000000000016
+      },
+      {
+        "seed": 18,
+        "score": 41,
+        "deliveries": 6,
+        "splashes": 3,
+        "flowersPicked": 11,
+        "elapsed": 27.56666666666668
+      },
+      {
+        "seed": 19,
+        "score": 57,
+        "deliveries": 8,
+        "splashes": 3,
+        "flowersPicked": 15,
+        "elapsed": 35.63333333333335
+      },
+      {
+        "seed": 20,
+        "score": 139,
+        "deliveries": 18,
+        "splashes": 3,
+        "flowersPicked": 37,
+        "elapsed": 71.76666666666671
+      },
+      {
+        "seed": 21,
+        "score": 65,
+        "deliveries": 9,
+        "splashes": 3,
+        "flowersPicked": 17,
+        "elapsed": 38.166666666666686
+      },
+      {
+        "seed": 22,
+        "score": 58,
+        "deliveries": 8,
+        "splashes": 3,
+        "flowersPicked": 16,
+        "elapsed": 35.43333333333335
+      },
+      {
+        "seed": 23,
+        "score": 92,
+        "deliveries": 12,
+        "splashes": 3,
+        "flowersPicked": 26,
+        "elapsed": 48.83333333333336
+      },
+      {
+        "seed": 24,
+        "score": 53,
+        "deliveries": 8,
+        "splashes": 3,
+        "flowersPicked": 11,
+        "elapsed": 34.70000000000002
+      },
+      {
+        "seed": 25,
+        "score": 25,
+        "deliveries": 4,
+        "splashes": 3,
+        "flowersPicked": 7,
+        "elapsed": 20.066666666666677
+      },
+      {
+        "seed": 26,
+        "score": 89,
+        "deliveries": 12,
+        "splashes": 3,
+        "flowersPicked": 23,
+        "elapsed": 49.96666666666669
+      },
+      {
+        "seed": 27,
+        "score": 50,
+        "deliveries": 7,
+        "splashes": 3,
+        "flowersPicked": 14,
+        "elapsed": 31.80000000000001
+      },
+      {
+        "seed": 28,
+        "score": 35,
+        "deliveries": 5,
+        "splashes": 3,
+        "flowersPicked": 11,
+        "elapsed": 25.233333333333338
+      },
+      {
+        "seed": 29,
+        "score": 122,
+        "deliveries": 15,
+        "splashes": 3,
+        "flowersPicked": 38,
+        "elapsed": 60.10000000000003
+      },
+      {
+        "seed": 30,
+        "score": 76,
+        "deliveries": 10,
+        "splashes": 3,
+        "flowersPicked": 22,
+        "elapsed": 41.33333333333336
+      },
+      {
+        "seed": 31,
+        "score": 31,
+        "deliveries": 5,
+        "splashes": 3,
+        "flowersPicked": 7,
+        "elapsed": 23.766666666666676
+      },
+      {
+        "seed": 32,
+        "score": 189,
+        "deliveries": 24,
+        "splashes": 3,
+        "flowersPicked": 51,
+        "elapsed": 95.16666666666674
+      },
+      {
+        "seed": 33,
+        "score": 106,
+        "deliveries": 14,
+        "splashes": 3,
+        "flowersPicked": 28,
+        "elapsed": 57.066666666666684
+      },
+      {
+        "seed": 34,
+        "score": 95,
+        "deliveries": 13,
+        "splashes": 3,
+        "flowersPicked": 23,
+        "elapsed": 52.90000000000003
+      },
+      {
+        "seed": 35,
+        "score": 113,
+        "deliveries": 16,
+        "splashes": 3,
+        "flowersPicked": 23,
+        "elapsed": 64.83333333333337
+      },
+      {
+        "seed": 36,
+        "score": 63,
+        "deliveries": 9,
+        "splashes": 3,
+        "flowersPicked": 15,
+        "elapsed": 37.83333333333334
+      },
+      {
+        "seed": 37,
+        "score": 53,
+        "deliveries": 8,
+        "splashes": 3,
+        "flowersPicked": 11,
+        "elapsed": 34.10000000000002
+      },
+      {
+        "seed": 38,
+        "score": 178,
+        "deliveries": 23,
+        "splashes": 3,
+        "flowersPicked": 46,
+        "elapsed": 89.26666666666672
+      },
+      {
+        "seed": 39,
+        "score": 73,
+        "deliveries": 10,
+        "splashes": 3,
+        "flowersPicked": 19,
+        "elapsed": 41.76666666666669
+      },
+      {
+        "seed": 40,
+        "score": 39,
+        "deliveries": 6,
+        "splashes": 3,
+        "flowersPicked": 9,
+        "elapsed": 28.133333333333344
+      },
+      {
+        "seed": 41,
+        "score": 16,
+        "deliveries": 3,
+        "splashes": 3,
+        "flowersPicked": 4,
+        "elapsed": 16.500000000000007
+      },
+      {
+        "seed": 42,
+        "score": 103,
+        "deliveries": 14,
+        "splashes": 3,
+        "flowersPicked": 25,
+        "elapsed": 56.33333333333336
+      },
+      {
+        "seed": 43,
+        "score": 62,
+        "deliveries": 9,
+        "splashes": 3,
+        "flowersPicked": 14,
+        "elapsed": 38.666666666666686
+      },
+      {
+        "seed": 44,
+        "score": 32,
+        "deliveries": 5,
+        "splashes": 3,
+        "flowersPicked": 8,
+        "elapsed": 23.833333333333343
+      },
+      {
+        "seed": 45,
+        "score": 150,
+        "deliveries": 19,
+        "splashes": 3,
+        "flowersPicked": 42,
+        "elapsed": 76.83333333333337
+      },
+      {
+        "seed": 46,
+        "score": 88,
+        "deliveries": 12,
+        "splashes": 3,
+        "flowersPicked": 22,
+        "elapsed": 48.700000000000024
+      },
+      {
+        "seed": 47,
+        "score": 17,
+        "deliveries": 3,
+        "splashes": 3,
+        "flowersPicked": 5,
+        "elapsed": 16.666666666666675
+      },
+      {
+        "seed": 48,
+        "score": 63,
+        "deliveries": 9,
+        "splashes": 3,
+        "flowersPicked": 15,
+        "elapsed": 38.33333333333336
+      },
+      {
+        "seed": 49,
+        "score": 43,
+        "deliveries": 6,
+        "splashes": 3,
+        "flowersPicked": 13,
+        "elapsed": 26.433333333333348
+      },
+      {
+        "seed": 50,
+        "score": 65,
+        "deliveries": 9,
+        "splashes": 3,
+        "flowersPicked": 17,
+        "elapsed": 40.000000000000014
+      }
+    ]
+  }
+}

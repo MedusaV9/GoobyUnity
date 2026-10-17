@@ -1,0 +1,80 @@
+{
+	"gvz": {
+		"select": {
+			"title": "Goobys vs. Zombies",
+			"done": "Done",
+			"stars": "Stars: {n}/{max}",
+			"new": "NEW"
+		},
+		"intro": {
+			"ziel": "Level {n}: Stop the zombies before the house!"
+		},
+		"hud": {
+			"level": "Level {n}",
+			"wave": "WAVE {n}!",
+			"huge_wave": "HUGE WAVE {n}!",
+			"boss": "KNURPS APPROACHES!",
+			"boss_phase": "Knurps gets angry! (Phase {n})",
+			"free": "Free",
+			"reason_nutella": "Not enough Nutella!",
+			"reason_cooldown": "Not ready yet!",
+			"reason_cell_occupied": "Someone's already there!",
+			"reason_locked": "Still locked!",
+			"reason_matsch": "Not enough mud!"
+		},
+		"end": {
+			"win": "Lawn defended!",
+			"lose": "The zombies snack on your Nutella…",
+			"score": "{n} points",
+			"first_clear": "First-clear bonus!",
+			"lose_hint": "Tip: plant the Nutella collectors first!",
+			"next": "Next ›",
+			"retry": "Retry",
+			"select": "Level select",
+			"netz_win": "You defeated {name}!",
+			"netz_lose": "{name} won!",
+			"netz_hint": "Challenge {name} again right away!"
+		},
+		"netz": {
+			"button": "PvP online",
+			"bereit": "Challenge a friend — Goobys versus zombies!",
+			"offline": "Offline — online PvP needs a connection.",
+			"keine_freunde": "No friend is online right now.",
+			"einladen": "Challenge",
+			"eingeladen": "Challenge sent to {name} — waiting for a reply…",
+			"laedt_ein": "{name} challenges you to PvP!",
+			"annehmen": "Accept",
+			"ablehnen": "Decline",
+			"abgelehnt": "{name} declined.",
+			"fehler": "Not working right now ({code}).",
+			"verbunden": "Connected with {name} — you play {seite}.",
+			"seite_gooby": "the Goobys",
+			"seite_zombie": "the zombies",
+			"los": "Let's go!",
+			"warte_start": "Waiting for {name}…",
+			"trennen": "Disconnect",
+			"start_banner": "PvP against {name}!",
+			"warte_partner": "Waiting for partner…",
+			"partner_weg": "{name} is having connection trouble…",
+			"partner_da": "{name} is back!",
+			"desync": "Oops — you were out of sync. Match ended.",
+			"abbruch": "The PvP match was ended."
+		},
+		"tower": {
+			"moehrenschuetze": "Carrot Shooter",
+			"nutella_sammler": "Nutella Collector",
+			"dicker_bert": "Big Bert",
+			"schnarch_knolle": "Snore Bulb",
+			"boom_beere": "Boom Berry",
+			"eis_gooby": "Frost Gooby",
+			"doppelmoehre": "Double Carrot",
+			"magnet_gooby": "Magnet Gooby",
+			"trampolin_gooby": "Trampoline Gooby",
+			"pust_gooby": "Puff Gooby",
+			"sternchen_gooby": "Star Gooby",
+			"melonen_meier": "Melon Meier",
+			"goldi": "Goldi",
+			"shovel": "Shovel"
+		}
+	}
+}

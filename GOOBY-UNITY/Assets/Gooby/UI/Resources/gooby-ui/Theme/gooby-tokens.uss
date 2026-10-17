@@ -1,0 +1,80 @@
+/* GOOBY design tokens — extracted from docs/concept/01, 02 and 06 (Art & UI Design Guide).
+   Single source of truth for colours, type scale, radii and spacing. Only use tokens in screens. */
+:root {
+    /* Palette (board 01/06) */
+    --gb-erdbeer: #FF8B8B;
+    --gb-pfirsich: #FFC9A6;
+    --gb-sonne: #FFD166;
+    --gb-blattgruen: #7FCF9B;
+    --gb-himmelblau: #7FB8FF;
+    --gb-creme: #FFF8EE;
+    --gb-sand: #EBD9C6;
+    --gb-taupe: #C8B7A1;
+    --gb-schoko: #6B4F3A;
+    --gb-schatten: #3B3B3B;
+
+    /* Secondary / accents (board 06) */
+    --gb-sand-hell: #F6E9D7;
+    --gb-sand-mittel: #E8D9C6;
+    --gb-stein: #A8A29E;
+    --gb-rose: #FF98C1;
+    --gb-mint: #98E7E1;
+    --gb-eisblau: #B7D8FF;
+    --gb-limette: #C6F39A;
+    --gb-teal: #3ECFB2;
+
+    /* Neutrals */
+    --gb-weiss: #FFFFFF;
+    --gb-papier: #FAFAF7;
+    --gb-panel: #FFF6EC;
+    --gb-panel-tief: #F3E6D6;
+    --gb-linie: #D7CCC1;
+
+    /* Text (board 06) */
+    --gb-text: #3B364F;
+    --gb-text-mild: #6B645C;
+    --gb-text-leise: #A39B93;
+    --gb-text-invers: #FFFFFF;
+
+    /* Semantic */
+    --gb-primary: #FF8B8B;
+    --gb-primary-tief: #F26D6D;
+    --gb-confirm: #7FCF9B;
+    --gb-confirm-tief: #5FB884;
+    --gb-cancel: #FF9C9C;
+    --gb-danger: #F26D6D;
+    --gb-badge: #FF5C5C;
+    --gb-focus: #7FB8FF;
+    --gb-dunkel-knopf: rgba(59, 54, 79, 0.86);
+    --gb-scrim: rgba(59, 54, 79, 0.45);
+
+    /* Type scale (board 06 — Nunito Rounded) */
+    --gb-h1: 32px;   /* Bold */
+    --gb-h2: 24px;   /* Bold */
+    --gb-h3: 20px;   /* Semibold */
+    --gb-lg: 16px;   /* Medium */
+    --gb-md: 14px;   /* Regular */
+    --gb-sm: 12px;   /* Regular */
+
+    /* Radii */
+    --gb-r-pill: 999px;
+    --gb-r-xl: 28px;
+    --gb-r-lg: 22px;
+    --gb-r-md: 16px;
+    --gb-r-sm: 10px;
+
+    /* Spacing (4er grid) */
+    --gb-s1: 4px;
+    --gb-s2: 8px;
+    --gb-s3: 12px;
+    --gb-s4: 16px;
+    --gb-s5: 20px;
+    --gb-s6: 24px;
+    --gb-s8: 32px;
+
+    /* Control heights */
+    --gb-btn-h: 56px;
+    --gb-btn-h-sm: 44px;
+    --gb-icon-btn: 64px;
+    --gb-icon-btn-sm: 52px;
+}

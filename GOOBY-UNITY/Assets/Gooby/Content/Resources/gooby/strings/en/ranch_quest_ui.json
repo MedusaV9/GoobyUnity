@@ -1,0 +1,56 @@
+{
+  "rquest": {
+    "ui": {
+      "abholen": "Ready — back to {name}!",
+      "fertig": "Done: {quest} — take it to {name}!",
+      "angenommen": "New quest: {quest}",
+      "abgegeben": "{quest} complete! {text}",
+      "freischaltung": "an unlock",
+      "frei_toast": "Unlocked: {was}",
+      "frei_deko": "{was} is waiting in the build store — set it up!",
+      "frei_gear": "{was} is in the gear cupboard — put it on!",
+      "frei_look": "{was}: at the farm under Gear → Look.",
+      "frei_trophae": "{was} now hangs on the hitching rail — and on your ribbon wall once it stands.",
+      "frei_quelle": "Reward for “{quest}” — ask {name}.",
+      "reihe_fertig": "The main series is done — the ranch shines!",
+      "erledigt_n": "{n} done",
+      "knopf": "Quests",
+      "sprechen": "Talk to {name}",
+      "aufgesammelt": "+{n} {item}",
+      "tracker_leer": "Talk to Rosi at the farm — she has a plan.",
+      "tracker_neu": "New quest: {quest} — ask {name}!"
+    },
+    "frei": {
+      "deko_mistgabel_gold": "Golden pitchfork",
+      "deko_schleifenwand": "Ribbon wall",
+      "fellmuster_nebel": "Mist coat pattern",
+      "fohlen_flauschig": "Fluffy foal",
+      "girlande_ranchfest": "Ranch party garland",
+      "sattel_kartoffel": "Potato-sack saddle",
+      "schabracke_schleife": "Saddle pad with a bow",
+      "schleife_bronze": "Bronze ribbon"
+    },
+    "bei": {
+      "stall": "by the stable",
+      "trog": "at the trough",
+      "koppel_pferde": "at the horse paddock",
+      "hof_mitte": "in the farmyard",
+      "heulager": "at the hay store",
+      "weide": "in the meadow",
+      "scheune": "in the barn",
+      "haus": "at home",
+      "teich": "by the lake",
+      "reitplatz": "at the riding arena",
+      "tor": "at the farm gate",
+      "waldrand": "at the forest edge by the pasture valley",
+      "huegel": "on the hill crest",
+      "markt": "at the market",
+      "schmiede": "in the smithy",
+      "sattlerei": "in the saddlery"
+    },
+    "wo": {
+      "jetzt": "{name} is {ort} right now",
+      "bis": "{name} is {ort} – from {zeit}:00 {danach}"
+    }
+  }
+}

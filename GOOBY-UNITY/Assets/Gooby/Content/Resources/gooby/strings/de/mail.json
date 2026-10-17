@@ -1,0 +1,61 @@
+{
+	"mail": {
+		"schalter": {
+			"titel": "Briefe",
+			"text": "Schreib deinen Freunden — Frau Zettel stempelt jeden Brief persönlich!",
+			"offen": "Briefkasten öffnen",
+			"neu": "{n} neu",
+			"offline": "Offline — Briefe warten im Körbchen.",
+			"outbox": "Wartet auf Zustellung: {n}"
+		},
+		"titel": "Briefkasten",
+		"leer": "Noch keine Post — schreib doch den ersten Brief!",
+		"schreiben": "Brief schreiben",
+		"zurueck": "‹ Zurück",
+		"aktualisieren": "Neu laden",
+		"ungelesen": "Neu!",
+		"gelesen_knopf": "Gelesen",
+		"loeschen": "Wegwerfen",
+		"von": "Von {name}",
+		"foto_laedt": "Foto flattert heran…",
+		"foto_fehlt": "Foto ließ sich nicht laden.",
+		"geschenk": "Geschenk: {name} ×{n}",
+		"annehmen": "Annehmen",
+		"angenommen": "Ausgepackt!",
+		"compose": {
+			"an": "An",
+			"kein_freund": "Erst Freunde finden — dann Briefe!",
+			"text_hint": "Liebe Grüße…",
+			"zeichen": "{n}/{max}",
+			"foto": "Foto",
+			"kein_foto": "Kein Foto",
+			"geschenk": "Geschenk",
+			"kein_geschenk": "Kein Geschenk",
+			"senden": "Senden ({porto} ᴳ Porto)"
+		},
+		"toast": {
+			"gesendet": "Brief an {name} ist unterwegs!",
+			"queued": "Wird zugestellt, sobald du online bist!",
+			"kein_porto": "Das Porto ({porto} Münzen) fehlt noch.",
+			"kein_item": "Das Geschenk ist gar nicht mehr im Inventar.",
+			"geschenk_da": "{name} ×{n} ist jetzt in deinem Inventar!"
+		},
+		"err": {
+			"offline": "Gerade keine Verbindung — der Brief wartet im Körbchen.",
+			"daily_limit": "Frau Zettel winkt ab: 20 Briefe pro Tag sind genug!",
+			"mailbox_full": "Das Postfach deines Freundes quillt über.",
+			"not_friends": "Briefe gibt’s nur unter Freunden.",
+			"not_found": "Diesen Briefkasten kennt Frau Zettel nicht.",
+			"bad_mail": "Ein leerer Umschlag? Da fehlt noch was.",
+			"text_too_long": "Der Brief ist zu lang — kürz ihn ein bisschen.",
+			"photo_too_large": "Das Foto passt nicht in den Umschlag.",
+			"already_claimed": "Das Geschenk ist schon ausgepackt.",
+			"rate_limit": "Langsam — Frau Zettel kommt nicht hinterher!",
+			"generic": "Uff — da ist beim Stempeln was schiefgegangen."
+		},
+		"item": {
+			"medicine": "Medizin",
+			"fertilizer": "Dünger"
+		}
+	}
+}

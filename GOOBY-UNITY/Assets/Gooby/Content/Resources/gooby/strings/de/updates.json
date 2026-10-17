@@ -1,0 +1,26 @@
+{
+	"updates": {
+		"alles_aktuell": "Alles aktuell!",
+		"update_geladen": "Update geladen! Beim nächsten Start ist alles drin.",
+		"braucht_ipa": "Neue App-Version nötig — bitte die neue App installieren.",
+		"fehler": "Gerade nicht erreichbar — du kannst ganz normal weiterspielen.",
+		"pruefe": "Suche nach Updates…",
+		"pack_deaktiviert": "Ein Update hat Probleme gemacht und wurde deaktiviert.",
+		"safe_mode": "Wir spielen kurz mit den eingebauten Sachen weiter — Updates machen gerade Pause.",
+		"erneut_versuchen": "Erneut versuchen",
+		"jetzt_neu_laden": "Jetzt neu laden",
+		"neu_laden_titel": "Kurz neu laden?",
+		"neu_laden_text": "Dein Update wird dabei aktiviert. Dauert nur einen Hoppler!",
+		"neu_laden_los": "Los geht’s!",
+		"neu_laden_spaeter": "Später",
+		"neu_laden_besuch": "Gerade ist Besuch da — erst den Besuch beenden, dann neu laden.",
+		"neu_laden_brettspiel": "Die Partie läuft noch — erst fertig spielen, dann neu laden.",
+		"neu_laden_minigame": "Mitten im Minispiel! Erst die Runde beenden, dann neu laden.",
+		"neu_laden_reise": "Gerade unterwegs — einen Moment warten und nochmal versuchen.",
+		"token_label": "GitHub-Token (optional)",
+		"token_platzhalter": "github_pat_…",
+		"token_hinweis": "Für das öffentliche Haupt-Repo leer lassen. Nur private Forks brauchen einen Token vom Betreiber.",
+		"token_gespeichert": "Gespeichert — gilt ab der nächsten Update-Suche.",
+		"token_fehlt": "Updates brauchen einen Zugangsschlüssel — Einstellungen → Updates."
+	}
+}

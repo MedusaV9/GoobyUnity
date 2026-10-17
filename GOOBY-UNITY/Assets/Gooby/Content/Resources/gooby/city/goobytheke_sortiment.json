@@ -1,0 +1,8 @@
+{
+  "kommentar": "GOOBYTHEKE-Medizin-Sortiment (Doc E §2.3): Hustensaft frei, Gooby-Tropfen NUR mit Rezept-Flag (city.flags.rezept_tropfen). inventar=Pfad im Save-Inventar.",
+  "waren": [
+    {"id": "hustensaft", "name_de": "Hustensaft", "preis": 12, "glb": "", "inventar": "medicine", "hinweis_de": "Gegen leichtes Kratzen im Hals."},
+    {"id": "pflaster", "name_de": "Gooby-Pflaster", "preis": 6, "glb": "", "inventar": "medicine", "hinweis_de": "Mit Möhren-Motiv. Wirkt hauptsächlich moralisch."},
+    {"id": "gooby_tropfen", "name_de": "Gooby-Tropfen", "preis": 30, "glb": "", "inventar": "medicine", "braucht_rezept": true, "hinweis_de": "Heilt richtig krank. Nur mit Rezept vom GOOUHBUS."}
+  ]
+}

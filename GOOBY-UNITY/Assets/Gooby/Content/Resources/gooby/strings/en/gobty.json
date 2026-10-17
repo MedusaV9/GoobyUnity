@@ -1,0 +1,56 @@
+{
+	"gobty": {
+		"an": "Click! GOB.TY is on — Gooby gets comfy in front of the television.",
+		"aus": "Click. The TV is off — Gooby is still blinking at the test card.",
+		"aus_knopf": "Turn TV off",
+		"zapp": "Zap! Now playing: {titel}",
+		"clip": {
+			"news": "GOOBY NEWS",
+			"kochen": "Cooking with Kitchen Gooby",
+			"sport": "GOOBY SPORTS",
+			"wetter": "Weather with Fluffy the Cloud",
+			"nacht": "The Good-Night Channel"
+		},
+		"news": {
+			"intro": "GOOBY NEWS — headlines for wide-awake bunnies",
+			"schlagzeile1": "BREAKING: Carrot spotted on market square — police munching",
+			"schlagzeile2": "BREAKING: Nougat reserves historically fluffy — experts licking",
+			"schlagzeile3": "BREAKING: Unknown hopping in the garden — it was the wind (or Gooby)",
+			"schlagzeile4": "BREAKING: Sofa cushion tipped over — rescue teams cuddling on site",
+			"schlagzeile5": "BREAKING: REHWEI cuts lettuce prices — nobody showed up",
+			"schlagzeile6": "BREAKING: Test card wins audience award for best film of the year",
+			"schlagzeile7": "BREAKING: Ear scritches now an official sport — league founded",
+			"schlagzeile8": "BREAKING: Mysterious crumb trail leads straight to the fridge",
+			"schlagzeile9": "BREAKING: Cloud looks like a carrot — half the town looking up",
+			"schlagzeile10": "BREAKING: Studio Gooby sneezes — paper stack still missing"
+		},
+		"kochen": {
+			"b1": "Today in the pot: Nutella stew à la Gooby",
+			"b2": "POOF! The stew had other plans",
+			"b3": "The head chef says: still tasty. Somehow."
+		},
+		"sport": {
+			"b1": "Live: the great bouncy-ball final",
+			"b2": "What a jump! The ears are flying too!",
+			"b3": "Down he goes! The crowd keeps bouncing anyway"
+		},
+		"wetter": {
+			"intro": "Fluffy the Cloud takes a peek at tomorrow",
+			"banner": "Tomorrow at {stunde} o'clock: {wetter}",
+			"typ": {
+				"sonne": "sunshine for warming your ears",
+				"wolken": "cotton-fluff clouds in the sky",
+				"niesel": "a fine drizzly drizzle",
+				"regen": "carrot-watering rain",
+				"gewitter": "grumbly thunder — tuck those ears in!",
+				"nebel": "fuzzy fog up to the snoot",
+				"schnee": "fluff snow for hopping into"
+			}
+		},
+		"nacht": {
+			"b1": "The Good-Night Channel is yawning itself warm",
+			"b2": "Good night, little carrots out there",
+			"b3": "End of broadcast. Beeeeep. Dream of something fluffy."
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+  "id": "post_besuch",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "pia",
+      "text": [
+        "Welcome to the post office! I’m Pia. Counter two is unstaffed right now — I AM counter two.",
+        "Daily parcel, postcards, or just here to admire the stamp?"
+      ],
+      "optionen": [
+        {"text": "Is there a parcel waiting for me?", "next": "paket"},
+        {"text": "How’s my postcard archive?", "next": "postkarten"},
+        {"text": "Just the stamp.", "next": "stempel"}
+      ]
+    },
+    "paket": {
+      "sprecher": "pia",
+      "text": [
+        "Every day I set one parcel aside for Gooby. I weighed it three times — better safe than sorry.",
+        "Just pick it up at the counter. Once a day, or my shelf tips over."
+      ],
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "postkarten": {
+      "sprecher": "pia",
+      "text": [
+        "Every holiday postcard crosses my desk first. I don’t read them, of course.",
+        "The one from Glitter Sea was rather lovely, though. … I did NOT read it."
+      ],
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "stempel": {
+      "sprecher": "pia",
+      "text": [
+        "Here you go. (She stamps the desk three times and the air once.)",
+        "The one in the air was the prettiest. Sadly you can’t take that one home."
+      ],
+      "ende": true
+    }
+  }
+}

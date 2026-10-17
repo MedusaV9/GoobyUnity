@@ -1,0 +1,301 @@
+{
+	"rnpc": {
+		"rosi": {"name": "Rosi Zügelfest", "rolle": "Stable Master"},
+		"moehrchen": {"name": "Dr. Dr. Möhrchen", "rolle": "Veterinarian"},
+		"eisenhuf": {"name": "Berthold Eisenhuf", "rolle": "Farrier"},
+		"selma": {"name": "Selma Sattelfein", "rolle": "Saddler"},
+		"wilma": {"name": "Wilma von Wiehernstein", "rolle": "Breeder"},
+		"punktabzug": {"name": "Mr. Punktabzug", "rolle": "Tournament Judge"},
+		"timmi": {"name": "Timmi Trab", "rolle": "Neighbor Kid"},
+		"alwin": {"name": "Grandpa Alwin", "rolle": "Old Rancher"},
+		"luna": {"name": "Luna Leisetreter", "rolle": "Wild Horse Whisperer"},
+		"marta": {"name": "Marta Marktschall", "rolle": "Market Woman"},
+		"eilfried": {"name": "Eilfried Watschel", "rolle": "Postman"},
+		"knips": {"name": "Knips Fuchsberg", "rolle": "Photographer"},
+		"miez": {"name": "Miez", "rolle": "Ranch Cat"},
+		"ui": {
+			"titel": "Friends",
+			"herzen": "{n} of 5 hearts",
+			"naechste": "{p} points to the next heart",
+			"max": "Best friends!",
+			"heute_geredet": "Already chatted today",
+			"freischaltungen": "Unlocks"
+		},
+		"frei": {
+			"smalltalk": "New small talk",
+			"rabatt": "Discount at {shop}",
+			"geschichte": "A personal story",
+			"quest": "A new quest",
+			"rezept": "A recipe",
+			"cosmetic": "A little something for the wardrobe",
+			"ort": "Access to a new place"
+		},
+		"toast_herz": "{name}: reached heart {n}!"
+	},
+	"rquest": {
+		"log": {
+			"titel": "Quest Log",
+			"tab_haupt": "Main Story",
+			"tab_neben": "Side Quests",
+			"tab_tages": "Daily Tasks",
+			"kapitel": "Chapter {n}",
+			"geber": "Quest from {name}",
+			"belohnung": "Reward: {text}",
+			"muenzen": "{n} coins",
+			"annehmen": "Accept",
+			"abgeben": "Turn in",
+			"schliessen": "Done",
+			"leer": "Nothing to do right now — the ranch is at rest. Enjoy it, it never lasts.",
+			"wartend_bis": "Ready in {rest}",
+			"fortschritt": "{ist}/{soll}",
+			"status_verfuegbar": "Available",
+			"status_aktiv": "Active",
+			"status_wartend": "Waiting",
+			"status_erfuellbar": "Ready to turn in",
+			"status_erledigt": "Completed",
+			"status_gesperrt": "Locked"
+		},
+		"ziel": {
+			"gehe_zu": "Go to: {ort}",
+			"sprich_mit": "Talk to {npc}",
+			"sammle": "Collect {item} ({ist}/{soll})",
+			"pflege": "{aktion} ({ist}/{soll})",
+			"reite_strecke": "Ride the route: {strecke}",
+			"gewinne_wettbewerb": "Place top {platz} in the competition: {disziplin}",
+			"warte_bis": "Wait until it is ready"
+		},
+		"warte": {
+			"gleich": "any moment!",
+			"minuten": "{m} min",
+			"stunden": "{h} h {m} min",
+			"notify_fertig": "{quest} is ready — come take a look!",
+			"activity_laeuft": "Something is happening at the ranch …",
+			"alternative_titel": "While you wait:",
+			"alternative_1": "The horses would love a grooming round.",
+			"alternative_2": "Timmi is probably hunting for a horseshoe right now. Or twelve.",
+			"alternative_3": "Marta supposedly has the last piece on offer. Again.",
+			"alternative_4": "The photo spot at the pond has wonderful light right now."
+		},
+		"ort": {
+			"stall": "Stable",
+			"scheune": "Barn",
+			"haus": "Ranch house",
+			"heulager": "Hay storage",
+			"trog": "Feed trough",
+			"teich": "Pond",
+			"reitplatz": "Riding arena",
+			"koppel_pferde": "Horse paddock",
+			"weide": "Pasture",
+			"tor": "Farm gate",
+			"hof_mitte": "Yard center",
+			"markt": "Market stall",
+			"schmiede": "Forge",
+			"sattlerei": "Saddlery",
+			"waldrand": "Forest edge",
+			"huegel": "Hill",
+			"foto_spot_teich": "Photo spot at the pond",
+			"foto_spot_huegel": "Photo spot on the hill"
+		},
+		"item": {
+			"apfel": "Apple",
+			"karotte": "Carrot",
+			"heu": "Hay",
+			"hufeisen": "Horseshoe",
+			"wolle": "Wool",
+			"blume": "Flower",
+			"beere": "Berry",
+			"keks": "Cookie",
+			"marmelade": "Jam",
+			"hafertaler": "Oat thaler",
+			"brett": "Plank",
+			"schluessel": "Rusty key"
+		},
+		"aktion": {
+			"ausmisten": "Muck out",
+			"striegeln": "Groom",
+			"fuettern": "Feed",
+			"hufe": "Tend hooves",
+			"taetscheln": "Pat"
+		},
+		"strecke": {
+			"hof_runde": "Farm loop",
+			"reitplatz_parcours": "Arena course",
+			"see_runde": "Lake loop"
+		},
+		"disziplin": {"parcours": "Course"},
+		"q": {
+			"haupt_01": {
+				"titel": "Arrival with a Running Start",
+				"text": "The ranch is here, you are here — only the shine is missing. Rosi has a plan and you have two hands. That's called destiny."
+			},
+			"haupt_02": {
+				"titel": "One Heart, One Hoof",
+				"text": "Wilma says a rancher without a horse is like a stable without hay: theoretically possible, practically sad. Time for your first own horse."
+			},
+			"haupt_03": {
+				"titel": "Everyone Once, Please!",
+				"text": "Marta insists you meet everyone in the valley. Not out of politeness — she wants to know firsthand what people are saying about you."
+			},
+			"haupt_04": {
+				"titel": "The Potato Saddle",
+				"text": "Selma is stitching you a custom saddle. The prototype looked like a potato, hence the name. Good work needs wool, patience and a blacksmith for the fittings."
+			},
+			"haupt_05": {
+				"titel": "Punktabzug's Test",
+				"text": "Your first tournament! Mr. Punktabzug promises fair judging and at least one deduction. On principle. Show him posture."
+			},
+			"haupt_06": {
+				"titel": "The Secret in the Hills",
+				"text": "Luna whispers of an old wild horse with a forged hoof. Whoever wants to see it needs soft steps and a little patience at dawn."
+			},
+			"haupt_07": {
+				"titel": "The Night Mail",
+				"text": "Eilfried has a letter that may only be delivered at night. From whom? To whom? The answer waits at the pond — after a very mysterious waiting period."
+			},
+			"haupt_08": {
+				"titel": "A Fluffy New Arrival",
+				"text": "A foal is on its way in the stable! Dr. Dr. Möhrchen prescribes: good feed, rest, and two days of NO singing. The singing part is negotiable. Not."
+			},
+			"haupt_09": {
+				"titel": "The Big Picture",
+				"text": "Knips is planning his exhibition: The Ranch Awakens. All that's missing are the final shots — and someone to walk through the valley's most beautiful light for them. You."
+			},
+			"haupt_10": {
+				"titel": "The Great Ranch Festival",
+				"text": "Everything has led to this: garlands, guests, one last tournament — and a photo Knips has waited years for. The whole ranch. One table. Everyone."
+			},
+			"neben_rosi_1": {
+				"titel": "The Great Muck Conspiracy",
+				"text": "Rosi swears the muck multiplies at night. She keeps a tally. Prove her wrong — with the pitchfork."
+			},
+			"neben_rosi_2": {
+				"titel": "Luck in a Five-Pack",
+				"text": "Five old horseshoes for Rosi's lucky wall. She says you can nail down luck. The wall says nothing, it's a wall."
+			},
+			"neben_rosi_saat": {
+				"titel": "Rosi's Secret Bed",
+				"text": "Rosi is secretly planting flowers behind the pasture. For nobody. Just because. Help with the sowing and tell NO ONE — especially not Marta."
+			},
+			"neben_moehrchen_1": {
+				"titel": "Brushing on Prescription",
+				"text": "Dr. Dr. Möhrchen prescribes three grooming sessions. Against what? Against scruffy coats and bad moods. Works on horse AND rancher."
+			},
+			"neben_moehrchen_2": {
+				"titel": "The Carrot Emergency",
+				"text": "The practice has been eaten empty! Six carrots, urgently. Otherwise the patients get restless. So does the doctor. Especially the doctor."
+			},
+			"neben_eisenhuf_1": {
+				"titel": "What Glows Long",
+				"text": "Eisenhuf is forging you a special piece. He needs an hour and absolute quiet. Come back when the sparks are asleep."
+			},
+			"neben_eisenhuf_2": {
+				"titel": "Pedicure Times Four",
+				"text": "Four hooves need care. Eisenhuf shows you the grip, you do the work. That's how apprenticeship works. He says. Grinning."
+			},
+			"neben_selma_1": {
+				"titel": "The Measuring Tape Mission",
+				"text": "Selma needs measurements for her secret project — but it has to stay a surprise. Question people without revealing why. Inconspicuously. So: good luck."
+			},
+			"neben_selma_2": {
+				"titel": "The Test Ride",
+				"text": "The new saddle needs to settle. Four hours of patience, then a test lap. Meanwhile Selma stitches holes into thin air. Out of nervousness."
+			},
+			"neben_wilma_1": {
+				"titel": "Apples for the Nobility",
+				"text": "Count Gallop requests apples. Three of them, polished, served core-free. Wilma appoints you court supplier. It is an honor. Says the Count. Via snorting."
+			},
+			"neben_wilma_2": {
+				"titel": "Ring Twice",
+				"text": "Wilma tells the story of the bee race — but the second half only comes on your second visit. Dramaturgy, she says. Aristocratic series production."
+			},
+			"neben_punktabzug_1": {
+				"titel": "The Training Course",
+				"text": "Before the competition comes the practice. Mr. Punktabzug is watching. He also grades your practice. Of course he grades your practice."
+			},
+			"neben_punktabzug_2": {
+				"titel": "Bronze with Posture",
+				"text": "Onto the podium! Third place is enough — but the posture must be flawless. The judge sees everything. Even with his eyes closed, he claims."
+			},
+			"neben_timmi_1": {
+				"titel": "The Super Important Secret",
+				"text": "Timmi has a secret he ABSOLUTELY must show you at the paddock. It's a rock that looks like a horse. It is the best rock in the world."
+			},
+			"neben_timmi_2": {
+				"titel": "Four Planks for Lightning",
+				"text": "Timmi is building a stable for Lightning, his stick horse. Lightning doesn't need a stable. Lightning gets a stable. Four planks, please!"
+			},
+			"neben_alwin_1": {
+				"titel": "The Same Story Three Times",
+				"text": "Alwin tells you the drought story. Listen to it three times — it grows a year longer each telling. That's not a weakness, that's craftsmanship."
+			},
+			"neben_alwin_2": {
+				"titel": "The Lost Key",
+				"text": "Somewhere in the hay storage lies the key to Alwin's old chest. He's been looking for it for years. Meaning: he sits next to it and you look."
+			},
+			"neben_luna_1": {
+				"titel": "Quiet Steps",
+				"text": "Luna wants to teach you the quiet walk. First to the forest edge, then up the hill. If the birds stay put, you've passed."
+			},
+			"neben_luna_2": {
+				"titel": "Three Gentle Hands",
+				"text": "Trust exercise: pat three animals so gently they barely notice. Barely. They should notice a little. It's complicated and beautiful."
+			},
+			"neben_marta_1": {
+				"titel": "Kurt Needs Customers",
+				"text": "Marta is launching an ad campaign for Kurt, the crooked pumpkin. Spread the word! Kurt remains unsellable anyway. It's about the principle."
+			},
+			"neben_marta_2": {
+				"titel": "Berries for the Boss",
+				"text": "Five berries, plump and glossy. Officially for the stall. Unofficially Marta eats them immediately herself. You get jam in return. The circle of life."
+			},
+			"neben_eilfried_1": {
+				"titel": "The Waddle Route",
+				"text": "Eilfried has you walk his round: gate, market, pond. He wants to know how long legs take. For the statistics. And not really for his ego."
+			},
+			"neben_eilfried_2": {
+				"titel": "Waiting for the Reply",
+				"text": "You sent a pen-pal request to the neighboring valley. The reply comes with the morning mail. Eilfried keeps his fingers crossed. Ducks have no fingers. He crosses them anyway."
+			},
+			"neben_knips_1": {
+				"titel": "Subject of the Year",
+				"text": "Knips swears: the subject of the year is waiting at the pond. Stand there, hold still and smile. The subject is you, by the way. Surprise."
+			},
+			"neben_knips_2": {
+				"titel": "Faces of the Ranch",
+				"text": "Everyone should smile once for the portrait series. Your job: tell them Knips is NOT taking pictures. Then everyone looks natural. He is of course taking pictures."
+			},
+			"neben_miez_1": {
+				"titel": "Wool Procurement Measure",
+				"text": "Miez requests wool. Two skeins, delivered to the house, onto the soft cushion. She will not say thank you. She will purr. That is worth more."
+			},
+			"neben_miez_2": {
+				"titel": "The Inspection Round",
+				"text": "Miez cannot possibly inspect today (sleeping shift three of five). Walk her round: hay storage, then trough. Report irregularities. There never are any. Report anyway."
+			},
+			"tages_ausmisten": {
+				"titel": "Fresh Air Cure",
+				"text": "One round of mucking out, please. The stable thanks you. So does your nose."
+			},
+			"tages_aepfel": {
+				"titel": "Apple Round",
+				"text": "Two apples for the practice. An apple a day … you know the saying. Dr. Dr. Möhrchen had it patented."
+			},
+			"tages_seerunde": {
+				"titel": "The Lake Loop",
+				"text": "Once around the lake, wind in the mane. Wilma calls it a constitutional gallop. The horses call it the best part of the day."
+			},
+			"tages_striegeln": {
+				"titel": "Shining Piece",
+				"text": "One grooming round until the coat shines. Rosi checks with her mirror gaze. The mirror gaze is notorious."
+			},
+			"tages_plausch": {
+				"titel": "The Village Chat",
+				"text": "Marta and Eilfried are trading news — about you. Go join in, then at least the facts will be halfway right."
+			},
+			"tages_fotospot": {
+				"titel": "Light on the Hill",
+				"text": "Knips reports: perfect light at the hill spot! Run over and see it before the sun changes its mind."
+			}
+		}
+	}
+}

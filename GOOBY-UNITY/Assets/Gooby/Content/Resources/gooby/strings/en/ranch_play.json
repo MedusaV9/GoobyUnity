@@ -1,0 +1,125 @@
+{
+	"mg": {
+		"ranchParcours": {
+			"title": "Jumping Course",
+			"hint": "Hold gallop, jump at the fence!",
+			"galopp": "Gallop",
+			"sprung": "Jump",
+			"zeit": "Time: {s} s",
+			"punkte": "Points: {n} · Streak: {kombo}",
+			"perfekt": "Perfect!",
+			"gut": "Clean!",
+			"abwurf": "Knockdown!",
+			"geschafft": "Done! {stars} stars · +{score}"
+		},
+		"ranchHerde": {
+			"title": "Sheep Herding",
+			"hint": "Tap the field — the flock flees from you toward the gate!",
+			"zeit": "{s} s left",
+			"drin": "In the pen: {n}/{max}",
+			"geschafft": "All in! {stars} stars · +{score}",
+			"zeit_um": "Time's up!"
+		}
+	},
+	"ranchplay": {
+		"select": {
+			"done": "Done",
+			"stars": "Stars: {n}/{max}",
+			"hint_parcours": "Time + clean jumps: flawless under par earns 3 stars.",
+			"hint_herde": "Herd every sheep through the yellow gate before time runs out."
+		},
+		"werte": {
+			"hunger": "Hunger",
+			"durst": "Thirst",
+			"sauberkeit": "Cleanliness",
+			"bindung": "Bond",
+			"stall": "Stable"
+		},
+		"laune": {
+			"strahlend": "beaming",
+			"froh": "happy",
+			"zufrieden": "content",
+			"muffig": "grumpy",
+			"elend": "miserable"
+		},
+		"bindung": {
+			"seelenpferd": "Soul horse",
+			"vertraut": "Trusted",
+			"freund": "Friend",
+			"bekannt": "Acquainted",
+			"fremd": "Stranger"
+		},
+		"gear": {
+			"sattel": "Saddle",
+			"decke": "Blanket",
+			"halfter": "Halter",
+			"ohne": "none"
+		},
+		"gearfarbe": {
+			"rot": "Red",
+			"blau": "Blue",
+			"gruen": "Green",
+			"lila": "Purple",
+			"gold": "Gold",
+			"kartoffel": "Potato sack",
+			"schleife": "Bow"
+		},
+		"look": {
+			"titel": "Look",
+			"nebel": "Misty coat",
+			"flausch": "Fluff",
+			"an": "{look} suits {name} wonderfully!",
+			"ab": "{look} taken off.",
+			"quelle": "Quest reward"
+		},
+		"sets": {
+			"titel": "Outfit sets",
+			"set": "Set {n}",
+			"leer": "empty",
+			"speichern": "Save",
+			"anlegen": "Put on",
+			"gespeichert": "Set {n} saved: {teile}",
+			"angelegt": "Set {n} on — quick change!",
+			"gesperrt": "With a saddle room you save outfit sets for a quick change.",
+			"nichts": "nothing on"
+		},
+		"pflege": {
+			"zurueck": "Back",
+			"status": "Mood: {laune} · Bond: {stufe}",
+			"lager": "Supplies: {heu} hay · {apfel} apples · {karotte} carrots",
+			"heu": "Feed hay",
+			"apfel": "Give apple",
+			"karotte": "Give carrot",
+			"traenken": "Water",
+			"striegeln": "Groom",
+			"ausmisten": "Muck stable",
+			"gear": "Equip gear",
+			"bindung_plus": "+{n} bond",
+			"gemacht": "Done!"
+		},
+		"ausbau": {
+			"titel": "Ranch Upgrades",
+			"coins": "{n} coins",
+			"lager": "Storage & fields",
+			"bestand": "{heu} hay · {apfel} apples · room for {boxen} horses",
+			"heu_kaufen": "Buy hay ({preis})",
+			"heu_ernten": "Harvest hay",
+			"apfel_pfluecken": "Pick apples",
+			"waechst": "growing ({min} min)",
+			"stufen": "Upgrades",
+			"boxen2": "Second stall",
+			"boxen3": "Third stall",
+			"reitplatz": "Riding arena",
+			"weidezaun": "Pasture fence",
+			"gebaut": "Built",
+			"preis": "{n} coins",
+			"gekauft": "Owned",
+			"gear": "Gear shop",
+			"heu_da": "Hay added to storage!",
+			"geerntet": "+{n} hay harvested!",
+			"gepflueckt": "+{n} apples picked!",
+			"gebaut_toast": "Upgraded!",
+			"gear_toast": "Purchased!"
+		}
+	}
+}

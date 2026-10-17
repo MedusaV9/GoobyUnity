@@ -1,0 +1,112 @@
+{
+  "id": "tierarzt_besuch",
+  "start": "empfang",
+  "nodes": {
+    "empfang": {
+      "sprecher": "moehrchen",
+      "text": [
+        "Welcome to the waiting room! Take a seat, leaf through a magazine … next, please!",
+        "That's you. Nobody else is here. My practice runs wonderfully tidy."
+      ],
+      "optionen": [
+        {"text": "Gooby is properly sick.", "next": "untersuchung", "cond": "flag:schwer_krank"},
+        {"text": "Gooby feels queasy.", "next": "untersuchung", "cond": "flag:krank"},
+        {"text": "Gooby is doing splendidly!", "next": "gesund_lob", "cond": "flag:gesund"},
+        {"text": "Just a check-up, please.", "next": "checkup_frage"},
+        {"text": "Who are you, anyway?", "next": "vorstellung"}
+      ]
+    },
+    "vorstellung": {
+      "sprecher": "moehrchen",
+      "text": [
+        "Dr. Dr. Möhrchen! Twice a doctor, once for real.",
+        "On the ranch it's called a paddock, here it's called a practice. The carrots are the same."
+      ],
+      "next": "empfang"
+    },
+    "gesund_lob": {
+      "sprecher": "moehrchen",
+      "text": [
+        "That's what I like to see! Prevention is the best care.",
+        "A carrot as a reward? Doctor's orders. For me. But I share."
+      ],
+      "next": "empfang"
+    },
+    "untersuchung": {
+      "sprecher": "moehrchen",
+      "text": [
+        "Right, let's have a look. Onto the bench, please!",
+        "(He listens with a carrot. It is not a stethoscope, but it is orange.)",
+        "Say aaah. … A solid aaah. I have heard everything I wanted to hear."
+      ],
+      "effekt": ["flag:vet_untersuchung"],
+      "next": "diagnose"
+    },
+    "diagnose": {
+      "sprecher": "moehrchen",
+      "text": [
+        "Diagnosis: a classic case of too-much-or-too-little. Probably both.",
+        "Treatment plan is ready. What will it be?"
+      ],
+      "optionen": [
+        {"text": "Treatment, please. (120 coins)", "next": "behandlung"},
+        {"text": "A prescription for Gooby Drops.", "next": "rezept", "cond": "!flag:rezept_tropfen"},
+        {"text": "A prescription for Gooby Drops.", "next": "rezept_schon", "cond": "flag:rezept_tropfen"},
+        {"text": "Just rest for now.", "next": "ruhe"}
+      ]
+    },
+    "behandlung": {
+      "sprecher": "moehrchen",
+      "text": [
+        "(He patches Gooby up with ointment, a plaster and a carrot lollipop. Active ingredient: affection.)",
+        "The bill: 120 coins. The lollipop is on the house."
+      ],
+      "effekt": ["flag:vet_cure"],
+      "next": "nachsorge"
+    },
+    "rezept": {
+      "sprecher": "moehrchen",
+      "text": [
+        "(He stamps ceremoniously. Twice on the prescription, once on his own forehead.)",
+        "Gooby Drops, twice a day. Hilde at the GOOBYTHEKE has them in stock."
+      ],
+      "effekt": ["flag:rezept_tropfen", "flag:vet_rezept"],
+      "next": "nachsorge"
+    },
+    "rezept_schon": {
+      "sprecher": "moehrchen",
+      "text": "You already have one! Says here: Gooby Drops. My handwriting, my stamp, my forehead.",
+      "next": "diagnose"
+    },
+    "ruhe": {
+      "sprecher": "moehrchen",
+      "text": "Also good! Sleep is half the medicine. The other half is … well? Exactly. Carrots.",
+      "next": "nachsorge"
+    },
+    "nachsorge": {
+      "sprecher": "moehrchen",
+      "text": [
+        "Aftercare: plenty of sleep, something healthy to eat, stay warm and clean.",
+        "And if the sneezing stays: I am here. With carrots."
+      ],
+      "ende": true
+    },
+    "checkup_frage": {
+      "sprecher": "moehrchen",
+      "text": "A check-up! Very sensible. 30 coins, ear-wiggle test included.",
+      "optionen": [
+        {"text": "Yes, please. (30 coins)", "next": "checkup"},
+        {"text": "Maybe not after all.", "next": "empfang"}
+      ]
+    },
+    "checkup": {
+      "sprecher": "moehrchen",
+      "text": [
+        "(He checks ears, tummy and floof. All by the book.)",
+        "Findings: adorable. Come back before anything twinges!"
+      ],
+      "effekt": ["flag:vet_checkup"],
+      "ende": true
+    }
+  }
+}

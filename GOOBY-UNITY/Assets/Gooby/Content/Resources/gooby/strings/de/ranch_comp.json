@@ -1,0 +1,169 @@
+{
+	"mg": {
+		"ranchTurnier": {
+			"title": "Turnier-Liga",
+			"hint": "Reite in 7 Disziplinen gegen das Fahrerlager — Plätze 1 bis 3 bringen Gold, Schleifen und Liga-Punkte für den Aufstieg!"
+		},
+		"ranchTonnen": {
+			"title": "Tonnenrennen",
+			"hint": "Umrunde alle 3 Tonnen und flitze zurück — Anrempeln kostet 5 s!",
+			"intro": "Lauf {n}: Umrunde alle 3 Tonnen — gleich geht’s los!",
+			"level": "Lauf {n}",
+			"geschafft": "Ziel! {s} s · {stars} Sterne",
+			"zu_langsam": "Zu langsam — gleich nochmal, du schaffst das!"
+		},
+		"ranchZeit": {
+			"title": "Zeitrennen",
+			"hint": "Durch alle Tore zum Ziel — dein bester Lauf reitet als Geist mit!",
+			"intro": "Strecke {n}: Durch alle Flaggentore — gleich geht’s los!",
+			"level": "Strecke {n}",
+			"geschafft": "Ziel! {s} s · {stars} Sterne",
+			"geist_zeit": "Geist: {s} s",
+			"neuer_geist": "Neuer Bestlauf!",
+			"zu_langsam": "Zu langsam — gleich nochmal, du schaffst das!"
+		},
+		"rcomp": {
+			"steuerung": "Links ziehen: lenken · rechts wischen oder ▲ ▼: Gangart"
+		}
+	},
+	"rcomp": {
+		"disziplin": {
+			"springen": "Springparcours",
+			"dressur": "Dressur-Kür",
+			"gelaende": "Geländeritt",
+			"rennen": "Grasbahn-Rennen",
+			"trail": "Westerntrail",
+			"schau": "Schau-Wettbewerb",
+			"tonnen": "Tonnenrennen"
+		},
+		"klasse": {
+			"holz": "Holzklasse",
+			"bronze": "Bronzeklasse",
+			"silber": "Silberklasse",
+			"gold": "Goldklasse",
+			"sternenklasse": "Sternenklasse"
+		},
+		"regeln": {
+			"springen": "Reite den Parcours der Reihe nach ab und springe jedes Hindernis (Leertaste oder Sprung-Knopf). Abwurf kostet 40, Verweigern 20 Punkte — jede Sekunde über der Richtzeit 5. Perfekte Absprünge geben +15!",
+			"dressur": "Folge der leuchtenden Linie durch alle Figuren und halte die geforderte Gangart. Je näher an der Ideallinie, desto mehr Punkte. Wechsle die Gangart genau beim Signal für den Taktbonus!",
+			"gelaende": "Quer über die Wiese: Reite der Reihe nach durch alle Flaggentore ins Ziel. Jedes ausgelassene Tor kostet 8 Sekunden. Teile dir die Puste gut ein!",
+			"rennen": "3 Runden auf der Grasbahn gegen das Feld. Häng dich in den Windschatten des Vordermanns (+3 % Tempo) und überhole auf der Geraden. Die Zielreihenfolge zählt!",
+			"trail": "6 Präzisionsaufgaben: Reite langsam und sauber durch jede Markierung. Jede Berührung kostet 2 Punkte, Auslassen alle 10. Wer flott UND fehlerfrei ist, holt den Zeitbonus.",
+			"schau": "Hier zählt die Pracht: Pflege und Laune deines Pferds, dein Ausrüstungs-Stil — und die Kür! Tippe die 5 Kommandos genau im Takt (±300 ms).",
+			"tonnen": "Kleeblatt-Muster: Umrunde die rechte, die linke und die hintere Tonne, dann zurück zum Start. Eine umgeworfene Tonne kostet 5 Sekunden!"
+		},
+		"menu": {
+			"title": "Turnierplatz",
+			"untertitel": "Wähle deine Disziplin — heute ist Turniertag!",
+			"liga": "Deine Liga: {klasse}",
+			"punkte": "{n}/{ziel} Punkte bis zum Aufstieg",
+			"punkte_dach": "Du reitest in der höchsten Klasse!",
+			"klasse_wahl": "Starten in:",
+			"turniertag": "Turniertag-Bonus: +25 % Gold",
+			"start": "Starten",
+			"gesperrt_liga": "Liga zuerst erreichen",
+			"gesperrt_level": "Pferd braucht Level {level}",
+			"pferd": "Dein Pferd: {name} · Level {level}",
+			"bilanz": "Schleifen: {schleifen} · Trophäen: {trophaeen} · Siege: {siege}",
+			"geist": "Geist zeigen",
+			"leihpferd": "Leihpferd Wolke",
+			"bonus": "Turniertag: Bonus-Gold!",
+			"gespielt": "Heute geritten · Platz {platz}",
+			"schleife": "Schleife: Platz {platz}",
+			"fertig": "Fertig"
+		},
+		"einweisung": {
+			"titel": "{disziplin} · {klasse}",
+			"richtzeit": "Richtzeit: {s} s",
+			"starterfeld": "Heute am Start:",
+			"starter": "{name} auf {pferd}",
+			"los": "Los geht’s!",
+			"zurueck": "Zurück"
+		},
+		"hud": {
+			"zeit": "Zeit: {s} s",
+			"hindernis": "Hindernis {n}/{max}",
+			"fehler": "Fehler: {n}",
+			"tor": "Tor {n}/{max}",
+			"runde": "Runde {n}/{max}",
+			"windschatten": "Windschatten!",
+			"figur": "Figur {n}/{max}: {name} · {gangart}",
+			"aufgabe": "Aufgabe {n}/{max}: {name}",
+			"tonnen": "Tonnen: {n}/3",
+			"punkte": "Punkte: {n}",
+			"kommando": "Kommando {n}/{max}"
+		},
+		"figur": {
+			"zirkel": "Zirkel",
+			"acht": "Acht",
+			"schlangenlinie": "Schlangenlinie",
+			"halten": "Halten",
+			"rueckwaerts": "Rückwärtsrichten"
+		},
+		"aufgabe": {
+			"tor": "Tor öffnen",
+			"rueckwaerts_l": "Rückwärts-L",
+			"slalom": "Stangen-Slalom",
+			"bruecke": "Brücke",
+			"plane": "Planen-Feld",
+			"kreisel": "360°-Kreisel"
+		},
+		"kommando": {
+			"verbeugen": "Verbeugen",
+			"drehen": "Drehen",
+			"steigen": "Steigen",
+			"kompliment": "Kompliment",
+			"kuss": "Kuss"
+		},
+		"lauf": {
+			"perfekt": "Perfekt!",
+			"abwurf": "Abwurf!",
+			"verweigert": "Verweigert!",
+			"tor_ok": "Tor {n}!",
+			"tor_verpasst": "Tor verpasst!",
+			"beruehrung": "Berührung!",
+			"tonne_ok": "Tonne {n}!",
+			"tonne_um": "Tonne umgekippt!",
+			"runde": "Runde {n}!",
+			"aufgabe_ok": "Sauber! +{punkte} P",
+			"aufgabe_ausgelassen": "Aufgabe ausgelassen!",
+			"figur_ok": "Figur geschafft! +{punkte} P",
+			"gangart_ok": "Gangart sitzt!",
+			"zu_frueh": "Noch nicht — warte aufs Signal!",
+			"windschatten": "Windschatten +3 %!",
+			"taktbonus": "Taktbonus +10!",
+			"jetzt": "Jetzt!",
+			"treffer": "Getroffen!",
+			"daneben": "Daneben!",
+			"ziel": "Ziel!",
+			"wechsel_zu": "Wechsle zu: {gangart}!"
+		},
+		"ergebnis": {
+			"titel": "Endstand",
+			"du": "Du auf {pferd}",
+			"platz": "{platz}.",
+			"punkte": "{n} P",
+			"zeit": "{s} s",
+			"gold": "+{n} Gold",
+			"xp": "+{n} XP",
+			"liga": "+{n} Liga-Punkte",
+			"schleife": "Neue Schleife: {disziplin}!",
+			"trophaee": "Neue Trophäe für die Ranch!",
+			"aufstieg": "AUFSTIEG in die {klasse}!",
+			"geist": "Neuer Bestlauf als Geist gespeichert!",
+			"weiter": "Weiter"
+		},
+		"zeremonie": {
+			"titel": "Siegerehrung",
+			"platz1": "1. Platz: {name}",
+			"platz2": "2. Platz: {name}",
+			"platz3": "3. Platz: {name}",
+			"weiter": "Zur Übersicht"
+		},
+		"select": {
+			"sterne": "Sterne: {n}/{max}",
+			"best": "Bestzeit: {s} s",
+			"offen": "Noch verschlossen — schaffe erst Lauf {n}!"
+		}
+	}
+}

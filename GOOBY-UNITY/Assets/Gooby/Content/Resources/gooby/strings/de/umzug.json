@@ -1,0 +1,20 @@
+{
+	"umzug": {
+		"settings_eintrag": "Account umziehen",
+		"titel": "Account umziehen",
+		"intro": "Dein Spielstand bleibt auf diesem Gerät — das hier verknüpft nur dein Online-Konto (Freunde & Co.) neu.",
+		"erklaerung": "Auf dem ALTEN Gerät (bzw. im Server-Panel) wird ein Umzugs-Code erzeugt. Gib ihn hier ein: Dann gehören Freundes-Code, Freundesliste und GoobyPal-Verlauf diesem Gerät.",
+		"warnung_alt": "Das alte Gerät wird dabei online abgemeldet.",
+		"code_label": "Umzugs-Code",
+		"code_hint": "8 Zeichen, z. B. K7QWX2MP",
+		"einloesen": "Code einlösen",
+		"laeuft": "Zieht um…",
+		"erfolg": "Geschafft! Dein Online-Konto ist jetzt hier zu Hause — Freundes-Code: {code}",
+		"fehler_kurz": "Der Code hat 8 Zeichen — schau nochmal nach.",
+		"fehler_code": "Diesen Code kennt der Server nicht (schon benutzt oder vertippt?).",
+		"fehler_abgelaufen": "Der Code ist abgelaufen — Umzugs-Codes gelten 24 Stunden. Bitte einen neuen erzeugen.",
+		"fehler_offline": "Gerade offline — der Umzug braucht eine Verbindung zum Server.",
+		"fehler_generisch": "Das hat nicht geklappt: {code}",
+		"schliessen": "Schließen"
+	}
+}

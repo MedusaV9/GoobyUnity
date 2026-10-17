@@ -1,0 +1,56 @@
+{
+	"onboarding": {
+		"guide": {
+			"schritt": "Step {n}/{gesamt}",
+			"geschafft": "Well done!",
+			"beenden": "End tour",
+			"los": "Let's go!",
+			"alles_klar": "Got it!",
+			"s": {
+				"ankunft": {
+					"titel": "{nickname} is moving in!",
+					"text": "Welcome home! {nickname} is already looking around curiously. Let me quickly show you around — no rush."
+				},
+				"streicheln": {
+					"titel": "Say Hello",
+					"text": "Tap {nickname} and give a little pet. Gooby loves that more than anything.",
+					"feier": "Hehe, that tickles! {nickname} beams at you."
+				},
+				"fuettern": {
+					"titel": "The Fridge Is Stocked",
+					"text": "The fridge in the kitchen is full of treats. Give {nickname} something to eat.",
+					"feier": "Yum! A full tummy makes a happy Gooby."
+				},
+				"waschen": {
+					"titel": "Into the Tub",
+					"text": "The bathtub is ready in the bathroom. Give {nickname} a good scrub.",
+					"feier": "Squeaky clean! {nickname} smells like fresh laundry."
+				},
+				"muenzen": {
+					"titel": "Your First Coins",
+					"text": "You earn coins by playing and caring — even petting pays off. Earn your first coins!",
+					"feier": "Cha-ching! Your first coins are in."
+				},
+				"minispiel": {
+					"titel": "Time to Play",
+					"text": "Open the arcade in the dock below and play a round — the first round of the day counts double!",
+					"feier": "What a round! Minigames earn coins and XP."
+				},
+				"moebel": {
+					"titel": "Something Nice for Home",
+					"text": "Browse the furniture store or the shop and buy a little something for your home.",
+					"feier": "So cozy! {nickname} is trying it out right away."
+				},
+				"sticker": {
+					"titel": "Your First Sticker",
+					"text": "Almost everything you do earns stickers for the album. One is surely waiting for you already!",
+					"feier": "A sticker for the album! Collectors, rejoice."
+				},
+				"ausblick": {
+					"titel": "The Rest Is Yours to Discover",
+					"text": "Out there the city, the arcade, and from level 20 the Gooby Ranch are waiting. And every day brings three fresh daily quests — check the Quests button!"
+				}
+			}
+		}
+	}
+}

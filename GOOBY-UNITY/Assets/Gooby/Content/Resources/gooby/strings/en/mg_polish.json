@@ -1,0 +1,22 @@
+{
+  "mgp": {
+    "end": {
+      "time_up": "Time's up!",
+      "done": "Well done!",
+      "over": "Round over!"
+    },
+    "pause": {
+      "give_up": "Give up"
+    },
+    "arcade": {
+      "new": "New",
+      "spotlight": "✦ +{prozent}%",
+      "best": "Best {best}",
+      "stars": "{sterne} / {max}"
+    },
+    "side": {
+      "goal": "Goal: {ziel} points for the star",
+      "endless": "Keep going as long as you can — every point counts!"
+    }
+  }
+}

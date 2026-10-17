@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_marta",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "marta",
+			"text": "FRISCHE WARE! FRISCHER MORGEN! Beides heute im Angebot! Der Morgen ist gratis, den Rest verhandeln wir!",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "marta",
+			"text": "Marta! Marktfrau! Beste Ware im Tal! Ich schreie nicht, ich spreche BEGEISTERT!",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "marta",
+			"text": "Feierabendpreise! Alles muss weg! Also nicht ALLES alles. Der Stand bleibt. Die Marta auch.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "marta",
+			"text": "REGENRABATT! Zehn Prozent auf alles, was nass werden darf! Auf dich gibt's nichts, du bist unbezahlbar!",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "marta",
+			"text": "DA ist ja mein Goldstück! Komm her! Für dich hab ich unterm Tresen was zurückgelegt. Unterm Tresen ist das VIP-Regal!",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "marta",
+			"text": "Was darf's sein, was darf's sein?",
+			"optionen": [
+				{"text": "Brauchst du Hilfe?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Lieferung ausgeführt!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "Wie ist die Marktlage?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "Wie ist die Marktlage?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "Wie ist die Marktlage?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Das letzte Stück — ehrlich?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Warum wurdest du Marktfrau?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Bis bald, Marta!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "marta",
+			"text": [
+				"Die Beeren gehen weg wie warme Semmeln! Die warmen Semmeln übrigens auch. Alles geht weg wie irgendwas!",
+				"Nur der krumme Kürbis bleibt liegen. Ich hab ihn Kurt getauft. Kurt gehört jetzt zur Familie."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "marta",
+			"text": [
+				"Zwischen uns: Das Marktgeschrei ist Show. Nach Feierabend flüstere ich sogar. Fast.",
+				"Gestern hab ich leise Danke gesagt und drei Kunden sind erschrocken. Man hat einen Ruf zu verteidigen!"
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "marta",
+			"text": [
+				"Du bist mein Lieblingskunde, weißt du das? Und ich sag das nicht zu jedem! Nur zu fast jedem!",
+				"Nein, ehrlich. Bei dir mein ich's. Kurt der Kürbis nickt auch. Siehst du? Familienbeschluss."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "marta",
+			"text": "Und OB ich Hilfe brauche! Sonderauftrag! Exklusiv! Nur heute! Nur du!",
+			"optionen": [
+				{"text": "Verkauft! Ich mach's!", "next": "quest_annahme"},
+				{"text": "Zu teuer, meine Zeit …", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "marta",
+			"text": "TOPP, die Waldfee gilt! Handschlag! Fester! FESTER! So machen wir Geschäfte!",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "marta",
+			"text": "Harte Verhandlung! Respekt! Das Angebot bleibt stehen — wie Kurt. Der geht auch nirgendwohin.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "marta",
+			"text": "LIEFERUNG KOMPLETT! Erstklassige Arbeit, wie bestellt! Hier, dein Lohn — und ich leg was drauf, sag's aber keinem!",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "marta",
+			"text": "BEEREN! Und was für welche! Prall! Glänzend! Die verkauf ich nicht, die ess ich! Sofort! Zeuge bist du!",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "marta",
+			"text": "Für MICH? Goldstück, du weißt, wie man eine Marktfrau rührt! Das kommt ins Schaufenster. Als Deko. MEINE Deko.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "marta",
+			"text": "Oh! Äh! Marktwert … schwer zu schätzen! Aber der Liebhaberwert — ENORM! Danke, Goldstück!",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "marta",
+			"text": [
+				"Ob das letzte Stück wirklich das letzte ist? … Also gut. Dir sag ich's. Es gibt immer noch eine Kiste.",
+				"IMMER. Hinterm Stand. Das letzte Stück ist eine Geisteshaltung, kein Lagerbestand.",
+				"Aber wehe, du verrätst mich! Dann sind die Beeren nächste Woche ZUFÄLLIG aus. Für dich. Persönlich."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "marta",
+			"text": [
+				"Warum Marktfrau? Kind, ich war früher schüchtern. SCHÜCHTERN! Ich hab mich nicht mal getraut, Brötchen zu bestellen.",
+				"Eines Tages hat mir eine alte Marktfrau eine Kiste Äpfel in die Hand gedrückt und gesagt: Schrei oder verhungere.",
+				"Ich hab geschrien. Drei Äpfel verkauft. An mich selbst. Aber es war ein ANFANG!"
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "marta",
+			"text": "Bis bald, Goldstück! Ich schrei dir hinterher, damit du den Weg nicht vergisst! BIS BAAAALD!",
+			"ende": true
+		}
+	}
+}

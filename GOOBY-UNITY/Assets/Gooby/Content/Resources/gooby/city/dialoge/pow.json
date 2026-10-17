@@ -1,0 +1,72 @@
+{
+  "id": "pow_besuch",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "baem",
+      "text": [
+        "POW!!! … Entschuldige. Ich sage das jedes Mal, wenn die Tür aufgeht. Steht so im Arbeitsvertrag.",
+        "Ich bin Bäm. Hier gibt es alles, was blinkt, quietscht oder umfällt."
+      ],
+      "optionen": [
+        {"text": "Was ist heute im Angebot?", "next": "angebote"},
+        {"text": "Ich hätte gern eine Kamera.", "next": "kamera", "cond": "!flag:kamera_gekauft"},
+        {"text": "Die Kamera läuft super!", "next": "kamera_dank", "cond": "flag:kamera_gekauft"},
+        {"text": "Warum heißt der Laden POW!?", "next": "name"},
+        {"text": "Ich schaue nur.", "next": "gucken"}
+      ]
+    },
+    "angebote": {
+      "sprecher": "baem",
+      "text": [
+        "Drei Angebote. Jeden Tag neu. Ich würfle sie nicht aus — ich frage den Kalender.",
+        "Morgen sind es andere. Das ist keine Drohung, das ist ein Versprechen."
+      ],
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "kamera": {
+      "sprecher": "baem",
+      "text": [
+        "Die GOOBY-Knipse! Handgefertigt. Naja — maschinengefertigt, aber von einer Maschine mit Herz.",
+        "Damit knipst du alles: Gooby, den Sonnenuntergang, versehentlich deinen Daumen."
+      ],
+      "optionen": [
+        {"text": "Wozu brauche ich die?", "next": "kamera_warum"},
+        {"text": "Zeig her, ich kaufe.", "next": "angebote"}
+      ]
+    },
+    "kamera_warum": {
+      "sprecher": "baem",
+      "text": [
+        "Ohne Kamera kein Fotomodus. Ohne Fotomodus keine Fotos. Ohne Fotos … nur Erinnerungen.",
+        "Und Erinnerungen verblassen. Fotos verstauben nur. Deutlich haltbarer."
+      ],
+      "next": "hallo"
+    },
+    "kamera_dank": {
+      "sprecher": "baem",
+      "text": [
+        "Ha! Ich wusste es. Wer einmal knipst, knipst immer.",
+        "Mein Rekord sind übrigens 400 Fotos von einer Straßenlaterne. Sie stand einfach gut da."
+      ],
+      "next": "hallo"
+    },
+    "name": {
+      "sprecher": "baem",
+      "text": [
+        "POW! Das ist das Geräusch, wenn Spaß auf Regal trifft.",
+        "Der Steuerberater sagt, es sei ein Ausrufezeichen zu viel. Der Steuerberater hat noch nie POW gesagt."
+      ],
+      "next": "hallo"
+    },
+    "gucken": {
+      "sprecher": "baem",
+      "text": [
+        "Gucken ist gratis! Anfassen auch. Umwerfen kostet ein Lächeln.",
+        "Ich stelle es dann wieder hin. Ich stelle den ganzen Tag Dinge wieder hin."
+      ],
+      "ende": true
+    }
+  }
+}

@@ -1,0 +1,306 @@
+{
+	"schema": 1,
+	"items": [
+		{
+			"id": "buch_moehrenmond",
+			"titel_de": "Goobys Möhrenmond-Fibel",
+			"preis": 0,
+			"start": true,
+			"entertainment": 3,
+			"geschichten": [
+				{
+					"id": "moehren_abenteuer",
+					"titel_de": "Das große Möhren-Abenteuer",
+					"saetze_de": [
+						"Tief im Garten entdeckte Gooby eine {0}, die größer war als er selbst.",
+						"Er zog und zog, bis sein {1} vor Anstrengung ganz rosa wurde.",
+						"Am Ende plumpste er rückwärts ins {2} und beschloss, dort gleich wohnen zu bleiben."
+					],
+					"luecken": ["riesenmoehre", "bauch", "blumenbeet"],
+					"woerter_de": [
+						{ "id": "riesenmoehre", "text": "Riesenmöhre" },
+						{ "id": "bauch", "text": "Bäuchlein" },
+						{ "id": "blumenbeet", "text": "Blumenbeet" },
+						{ "id": "gartenzwerg", "text": "Gartenzwerg" },
+						{ "id": "pantoffel", "text": "Pantoffel" },
+						{ "id": "giesskanne", "text": "Gießkanne" }
+					]
+				},
+				{
+					"id": "moehrensuppe",
+					"titel_de": "Die schläfrige Möhrensuppe",
+					"saetze_de": [
+						"Gooby rührte eine Suppe, die nach {0} und Abendsonne duftete.",
+						"Jeder Löffel machte seine {1} ein bisschen schwerer.",
+						"Beim letzten Schluck schnarchte sogar der {2} auf der Fensterbank mit."
+					],
+					"luecken": ["honig", "augenlider", "kochloeffel"],
+					"woerter_de": [
+						{ "id": "honig", "text": "Honig" },
+						{ "id": "augenlider", "text": "Augenlider" },
+						{ "id": "kochloeffel", "text": "Kochlöffel" },
+						{ "id": "traktor", "text": "Traktor" },
+						{ "id": "zahnbuerste", "text": "Zahnbürste" },
+						{ "id": "regenschirm", "text": "Regenschirm" }
+					]
+				},
+				{
+					"id": "moehrenmond",
+					"titel_de": "Der Möhrenmond",
+					"saetze_de": [
+						"In manchen Nächten sieht der Mond aus wie eine riesige {0}.",
+						"Gooby winkte ihm mit beiden {1}, ganz vorsichtig, um ihn nicht zu wecken.",
+						"Der Mond gähnte, zog sich eine {2} aus Wolken über und träumte orange."
+					],
+					"luecken": ["moehre", "ohren", "bettdecke"],
+					"woerter_de": [
+						{ "id": "moehre", "text": "Möhre" },
+						{ "id": "ohren", "text": "Ohren" },
+						{ "id": "bettdecke", "text": "Bettdecke" },
+						{ "id": "bratpfanne", "text": "Bratpfanne" },
+						{ "id": "socke", "text": "Socke" },
+						{ "id": "laterne", "text": "Laterne" }
+					]
+				}
+			]
+		},
+		{
+			"id": "buch_weltraum",
+			"titel_de": "Weltraum-Hoppel",
+			"preis": 35,
+			"entertainment": 4,
+			"geschichten": [
+				{
+					"id": "weltraum_hoppel",
+					"titel_de": "Weltraum-Hoppel hebt ab",
+					"saetze_de": [
+						"Gooby baute sich eine Rakete aus einem alten {0} und ganz viel Mut.",
+						"Beim Countdown hielt er sich an seiner {1} fest: drei, zwei, eins — hops!",
+						"Oben angekommen stellte er fest: Die Sterne funkeln wie {2} im Dunkeln."
+					],
+					"luecken": ["karton", "schnuffeldecke", "kekskruemel"],
+					"woerter_de": [
+						{ "id": "karton", "text": "Karton" },
+						{ "id": "schnuffeldecke", "text": "Schnuffeldecke" },
+						{ "id": "kekskruemel", "text": "Kekskrümel" },
+						{ "id": "badewanne", "text": "Badewanne" },
+						{ "id": "salatkopf", "text": "Salatkopf" },
+						{ "id": "wecker", "text": "Wecker" }
+					]
+				},
+				{
+					"id": "sternen_picknick",
+					"titel_de": "Das Sternen-Picknick",
+					"saetze_de": [
+						"Auf dem Mond breitete Gooby seine {0} aus und lud alle Sternschnuppen ein.",
+						"Es gab Mondkäse, Milchstraßen-Milch und einen Berg {1}.",
+						"Satt und rund rollte er in einen {2} und schlief schwerelos ein."
+					],
+					"luecken": ["picknickdecke", "moehrenkuchen", "mondkrater"],
+					"woerter_de": [
+						{ "id": "picknickdecke", "text": "Picknickdecke" },
+						{ "id": "moehrenkuchen", "text": "Möhrenkuchen" },
+						{ "id": "mondkrater", "text": "Mondkrater" },
+						{ "id": "staubsauger", "text": "Staubsauger" },
+						{ "id": "gummistiefel", "text": "Gummistiefel" },
+						{ "id": "briefkasten", "text": "Briefkasten" }
+					]
+				}
+			]
+		},
+		{
+			"id": "buch_piraten",
+			"titel_de": "Der Piraten-Nutella-Schatz",
+			"preis": 40,
+			"entertainment": 4,
+			"geschichten": [
+				{
+					"id": "nutella_schatz",
+					"titel_de": "Die Schatzkarte aus dem Frühstücksbrett",
+					"saetze_de": [
+						"Unter seinem Frühstücksbrett fand Käpt’n Gooby eine geheime {0}.",
+						"Sie führte über sieben Sofakissen bis zur einsamen {1} hinterm Kühlschrank.",
+						"Dort glänzte er: ein Schatz aus purem {2} — und Gooby leckte die Karte gleich mit ab."
+					],
+					"luecken": ["schatzkarte", "insel", "nutella"],
+					"woerter_de": [
+						{ "id": "schatzkarte", "text": "Schatzkarte" },
+						{ "id": "insel", "text": "Insel" },
+						{ "id": "nutella", "text": "Nutella" },
+						{ "id": "spuelbuerste", "text": "Spülbürste" },
+						{ "id": "seeigel", "text": "Seeigel" },
+						{ "id": "huehnerleiter", "text": "Hühnerleiter" }
+					]
+				},
+				{
+					"id": "kapitaen_schlappohr",
+					"titel_de": "Käpt’n Schlappohr sticht in See",
+					"saetze_de": [
+						"Käpt’n Gooby setzte die Segel — also seine {0} — und die Badewanne legte ab.",
+						"Der wilde Sturm war in Wahrheit nur der {1}, aber pssst.",
+						"Als Proviant gab es Schiffszwieback und ein ganzes Fass {2}, natürlich nur für Notfälle."
+					],
+					"luecken": ["ohren", "foehn", "kakao"],
+					"woerter_de": [
+						{ "id": "ohren", "text": "Ohren" },
+						{ "id": "foehn", "text": "Föhn" },
+						{ "id": "kakao", "text": "Kakao" },
+						{ "id": "anker", "text": "Anker" },
+						{ "id": "wischmopp", "text": "Wischmopp" },
+						{ "id": "leuchtturm", "text": "Leuchtturm" }
+					]
+				}
+			]
+		},
+		{
+			"id": "buch_ritter",
+			"titel_de": "Ritter Gooby von Flauschfels",
+			"preis": 45,
+			"entertainment": 5,
+			"geschichten": [
+				{
+					"id": "kissendrache",
+					"titel_de": "Ritter Gooby und der Kissendrache",
+					"saetze_de": [
+						"Ritter Gooby schnallte sich einen {0} als Helm auf den Kopf.",
+						"Der gefürchtete Kissendrache schnaufte {1} statt Feuer — sehr gemütlich.",
+						"Nach dem Kampf kuschelten beide im {2} und teilten sich das letzte Gute-Nacht-Plätzchen."
+					],
+					"luecken": ["kochtopf", "federn", "burggraben"],
+					"woerter_de": [
+						{ "id": "kochtopf", "text": "Kochtopf" },
+						{ "id": "federn", "text": "Federn" },
+						{ "id": "burggraben", "text": "Burggraben" },
+						{ "id": "drachenzahn", "text": "Drachenzahn" },
+						{ "id": "marmelade", "text": "Marmelade" },
+						{ "id": "fahrrad", "text": "Fahrrad" }
+					]
+				},
+				{
+					"id": "burg_kuschelstein",
+					"titel_de": "Die Burg Kuschelstein",
+					"saetze_de": [
+						"Burg Kuschelstein hatte Mauern aus {0} und ein Tor aus Bettlaken.",
+						"Wer hinein wollte, musste dreimal höflich {1} und einmal winken.",
+						"Nachts zog Ritter Gooby die {2} hoch und die ganze Burg schnarchte im Chor."
+					],
+					"luecken": ["sofakissen", "klopfen", "zugbruecke"],
+					"woerter_de": [
+						{ "id": "sofakissen", "text": "Sofakissen" },
+						{ "id": "klopfen", "text": "klopfen" },
+						{ "id": "zugbruecke", "text": "Zugbrücke" },
+						{ "id": "niesen", "text": "niesen" },
+						{ "id": "pudding", "text": "Pudding" },
+						{ "id": "ritterruestung", "text": "Ritterrüstung" }
+					]
+				}
+			]
+		},
+		{
+			"id": "buch_tiefsee",
+			"titel_de": "Die Tiefsee-Schnarchnasen",
+			"preis": 50,
+			"entertainment": 5,
+			"geschichten": [
+				{
+					"id": "quallen_schlummerdisco",
+					"titel_de": "Die Quallen-Schlummerdisco",
+					"saetze_de": [
+						"Tief unten im Meer leuchten die Quallen wie kleine {0}.",
+						"Gooby tanzte in Zeitlupe mit, bis seine {1} ganz langsam wippten.",
+						"Zum Schluss spielte der Tintenfisch ein {2} auf acht Armen gleichzeitig."
+					],
+					"luecken": ["nachtlichter", "ohren", "schlaflied"],
+					"woerter_de": [
+						{ "id": "nachtlichter", "text": "Nachtlichter" },
+						{ "id": "ohren", "text": "Ohren" },
+						{ "id": "schlaflied", "text": "Schlaflied" },
+						{ "id": "poolnudel", "text": "Poolnudel" },
+						{ "id": "taucherbrille", "text": "Taucherbrille" },
+						{ "id": "sandburg", "text": "Sandburg" }
+					]
+				},
+				{
+					"id": "walross_gaehnt",
+					"titel_de": "Das Walross gähnt",
+					"saetze_de": [
+						"Das alte Walross gähnte so breit, dass eine ganze {0} hineinpasste.",
+						"„Entschuldigung“, murmelte es und legte sich auf seinen {1} aus Seetang.",
+						"Gooby deckte es mit einer {2} zu und paddelte leise nach Hause."
+					],
+					"luecken": ["sardinenschule", "schlafplatz", "welle"],
+					"woerter_de": [
+						{ "id": "sardinenschule", "text": "Sardinenschule" },
+						{ "id": "schlafplatz", "text": "Schlafplatz" },
+						{ "id": "welle", "text": "Welle" },
+						{ "id": "muschel", "text": "Muschel" },
+						{ "id": "schnorchel", "text": "Schnorchel" },
+						{ "id": "eiswuerfel", "text": "Eiswürfel" }
+					]
+				}
+			]
+		},
+		{
+			"id": "buch_traumbaeckerei",
+			"titel_de": "Die Traumbäckerei",
+			"preis": 60,
+			"entertainment": 6,
+			"geschichten": [
+				{
+					"id": "traumbaeckerei",
+					"titel_de": "Die Traumbäckerei öffnet",
+					"saetze_de": [
+						"Jede Nacht backt die Traumbäckerei frische Träume mit extra viel {0}.",
+						"Gooby durfte den Teig kneten und naschte heimlich vom {1}.",
+						"Sein Lieblingstraum kam warm aus dem Ofen und roch nach {2}."
+					],
+					"luecken": ["zimt", "sternenzucker", "sommerwiese"],
+					"woerter_de": [
+						{ "id": "zimt", "text": "Zimt" },
+						{ "id": "sternenzucker", "text": "Sternenzucker" },
+						{ "id": "sommerwiese", "text": "Sommerwiese" },
+						{ "id": "backblech", "text": "Backblech" },
+						{ "id": "spinat", "text": "Spinat" },
+						{ "id": "nudelholz", "text": "Nudelholz" }
+					]
+				},
+				{
+					"id": "kuschelwolke",
+					"titel_de": "Kuschelwolke Nummer Sieben",
+					"saetze_de": [
+						"Über Goobys Haus parkt jede Nacht eine {0}, weich wie Puderzucker.",
+						"Man klettert hinauf, indem man ganz fest an {1} denkt.",
+						"Oben wartet schon ein {2}, das genau in Hasenform gemuldet ist."
+					],
+					"luecken": ["kuschelwolke", "pfannkuchen", "wolkenbett"],
+					"woerter_de": [
+						{ "id": "kuschelwolke", "text": "Kuschelwolke" },
+						{ "id": "pfannkuchen", "text": "Pfannkuchen" },
+						{ "id": "wolkenbett", "text": "Wolkenbett" },
+						{ "id": "gewitter", "text": "Gewitter" },
+						{ "id": "leiter", "text": "Leiter" },
+						{ "id": "duschkopf", "text": "Duschkopf" }
+					]
+				},
+				{
+					"id": "schnuffelzug",
+					"titel_de": "Der Schnuffelzug ins Traumland",
+					"saetze_de": [
+						"Am Gleis drei-viertel-neun wartet der Schnuffelzug und schnauft leise {0}.",
+						"Als Fahrkarte reicht ein herzhaftes {1} — der Schaffner gähnt dann immer mit.",
+						"Die Endstation heißt {2}, und wer ankommt, träumt schon längst."
+					],
+					"luecken": ["gutenacht", "gaehnen", "traumland"],
+					"woerter_de": [
+						{ "id": "gutenacht", "text": "Gutenacht" },
+						{ "id": "gaehnen", "text": "Gähnen" },
+						{ "id": "traumland", "text": "Traumland" },
+						{ "id": "fahrplan", "text": "Fahrplan" },
+						{ "id": "bahnhofsuhr", "text": "Bahnhofsuhr" },
+						{ "id": "niesanfall", "text": "Niesanfall" }
+					]
+				}
+			]
+		}
+	]
+}

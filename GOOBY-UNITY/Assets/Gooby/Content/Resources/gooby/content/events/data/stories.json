@@ -1,0 +1,43 @@
+{
+	"schema": 1,
+	"items": [
+		{
+			"id": "moehrenreise",
+			"titel_de": "Die große Möhrenreise",
+			"saetze_de": [
+				"Gooby packte seine {0} und stapfte mutig in den Garten.",
+				"Dort wartete eine riesige {1}, die bis zum Mond duftete.",
+				"Er nahm einen großen Happs und träumte danach von {2}."
+			],
+			"luecken": ["giesskanne", "moehre", "nutella"],
+			"woerter_de": [
+				{ "id": "giesskanne", "text": "Gießkanne" },
+				{ "id": "moehre", "text": "Möhre" },
+				{ "id": "nutella", "text": "Nutella" },
+				{ "id": "socke", "text": "Socke" },
+				{ "id": "wolke", "text": "Wolke" },
+				{ "id": "badewanne", "text": "Badewanne" }
+			],
+			"entertainment": 3
+		},
+		{
+			"id": "kissenkoenigreich",
+			"titel_de": "Das Kissen-Königreich",
+			"saetze_de": [
+				"Im Wohnzimmer baute Gooby eine Burg aus {0}.",
+				"Als König brauchte er natürlich eine {1} aus Möhren.",
+				"Und wer zu laut schnarchte, musste sofort ins {2}."
+			],
+			"luecken": ["kissen", "krone", "bett"],
+			"woerter_de": [
+				{ "id": "kissen", "text": "Kissen" },
+				{ "id": "krone", "text": "Krone" },
+				{ "id": "bett", "text": "Bett" },
+				{ "id": "teller", "text": "Teller" },
+				{ "id": "regenwurm", "text": "Regenwurm" },
+				{ "id": "schrank", "text": "Schrank" }
+			],
+			"entertainment": 2
+		}
+	]
+}

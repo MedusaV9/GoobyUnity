@@ -1,0 +1,52 @@
+{
+  "id": "wochenmarkt_besuch",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "greta",
+      "text": [
+        "Samstag! Der einzige Tag, an dem dieser Platz nach Erdbeeren riecht statt nach Platz.",
+        "Greta Grün, Stand drei. Was hast du dabei?"
+      ],
+      "optionen": [
+        {"text": "Ich möchte Ernte verkaufen.", "next": "verkaufen"},
+        {"text": "Wie kommen die Preise zustande?", "next": "preise"},
+        {"text": "Warum nur samstags?", "next": "samstag"},
+        {"text": "Ich schlendere nur.", "next": "schlendern"}
+      ]
+    },
+    "verkaufen": {
+      "sprecher": "greta",
+      "text": [
+        "Her damit! Ich zahle fünfzehn Prozent über Kompostpreis — dafür bist du früh aufgestanden.",
+        "Aber Achtung: Ich kaufe nicht endlos. Der zehnte Kürbis begeistert mich weniger als der erste."
+      ],
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "preise": {
+      "sprecher": "greta",
+      "text": [
+        "Ganz einfach: Je mehr du HEUTE von einer Sorte bringst, desto günstiger wird jedes weitere Stück.",
+        "Unter die Hälfte gehe ich nie. Nächste Woche ist der Preis wieder oben — der Markt vergisst schnell."
+      ],
+      "next": "hallo"
+    },
+    "samstag": {
+      "sprecher": "greta",
+      "text": [
+        "Weil wir sechs Tage lang Gemüse ziehen und einen Tag lang darüber reden.",
+        "Unter der Woche steht hier nur das Schild. Bitte nicht am Schild knabbern."
+      ],
+      "next": "hallo"
+    },
+    "schlendern": {
+      "sprecher": "greta",
+      "text": [
+        "Schlendern ist erlaubt. Probieren auch — einmal. Zweimal ist ein Mittagessen.",
+        "Der Kollege am Käsestand zählt übrigens mit."
+      ],
+      "ende": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "goobyman_verkaeufer",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "goobyman",
+      "text": "Willkommen beim GOOBYMAN! Wenn’s kaputtgeht, hab ich’s neu.",
+      "optionen": [
+        {"text": "Einkaufen!", "next": "laden"},
+        {"text": "Wer ist eigentlich Goobyman?", "next": "held"}
+      ]
+    },
+    "held": {
+      "sprecher": "goobyman",
+      "text": "Tagsüber Drogerist. Nachts … auch Drogerist. Aber mit Umhang!",
+      "next": "hallo"
+    },
+    "laden": {
+      "sprecher": "goobyman",
+      "text": "Zahnbürsten links, Pflaster rechts, Heldenposen gratis.",
+      "effekt": ["laden"],
+      "ende": true
+    }
+  }
+}

@@ -1,0 +1,1067 @@
+{
+ "schema": "gooby.homeLayouts/1",
+ "comment": "Liebevolles Start-Layout (auch Migrations-Umzugstag). Schlafzimmer OHNE Bett — das Bett liegt im Lager (Erste-Male-Bauquest, Doc D §3.1). Wohnzimmer nach Konzeptboard 08 (Sofa vorn, Couchtisch + Karton auf dem runden Teppich, Sessel rechts, Bett unter dem Fenster, Fernseher auf der Kommode neben der Tür, Bücherregal an der Westwand, Bilder-Galerie + Regalbrett an den Wänden). Garten nach Board 05 (Trittsteine von der Cottage-Tür zur Rasenmitte, Pflanzkübel neben der Tür, Tulpen am Westzaun, Büsche am Ostzaun, Laterne am Beetfeld).",
+ "storage": [
+  {
+   "item": "bedSingle",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "loungeChair",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "rugDoormat",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "plantSmall2",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "pillowBlue",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "gardenBush",
+   "variant": "default",
+   "count": 2
+  },
+  {
+   "item": "flowerRed",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "flowerYellow",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "treeSapling",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "pathStonesShort",
+   "variant": "default",
+   "count": 3
+  },
+  {
+   "item": "gardenLantern",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "gardenBench",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "crateWood",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "flowerWhite",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "loungeSofa",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "tableCoffee",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "pottedPlant",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "rugRound",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "bookcaseClosedWide",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "lampRoundFloor",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "cabinetBed",
+   "variant": "default",
+   "count": 1
+  },
+  {
+   "item": "bedKaro",
+   "variant": "default",
+   "count": 1
+  }
+ ],
+ "rooms": {
+  "living": [
+   {
+    "item": "pottedPlant",
+    "at": [
+     1,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "lampRoundFloor",
+    "at": [
+     0,
+     2
+    ],
+    "rot": 0
+   },
+   {
+    "item": "bookcaseClosedWide",
+    "at": [
+     0,
+     6
+    ],
+    "rot": 1
+   },
+   {
+    "item": "cabinetTelevision",
+    "at": [
+     4,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "televisionModern",
+    "at": [
+     4,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "bedSingle",
+    "at": [
+     8,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "cabinetBed",
+    "at": [
+     10,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "lampRoundTable",
+    "at": [
+     10,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "pottedPlant",
+    "at": [
+     11,
+     2
+    ],
+    "rot": 0
+   },
+   {
+    "item": "rugRound",
+    "at": [
+     4,
+     4
+    ],
+    "rot": 0
+   },
+   {
+    "item": "tableCoffee",
+    "at": [
+     2,
+     5
+    ],
+    "rot": 0
+   },
+   {
+    "item": "books",
+    "at": [
+     2,
+     5
+    ],
+    "rot": 0
+   },
+   {
+    "item": "plantSmall1",
+    "at": [
+     3,
+     5
+    ],
+    "rot": 0
+   },
+   {
+    "item": "loungeSofa",
+    "at": [
+     3,
+     8
+    ],
+    "rot": 2
+   },
+   {
+    "item": "loungeChair",
+    "at": [
+     8,
+     5
+    ],
+    "rot": 3
+   },
+   {
+    "item": "crateWood",
+    "at": [
+     1,
+     8
+    ],
+    "rot": 0
+   },
+   {
+    "item": "bear",
+    "at": [
+     1,
+     8
+    ],
+    "rot": 0
+   },
+   {
+    "item": "sansevieriaPlant",
+    "at": [
+     11,
+     7
+    ],
+    "rot": 0
+   },
+   {
+    "item": "rugDoormat",
+    "at": [
+     9,
+     8
+    ],
+    "rot": 0
+   },
+   {
+    "item": "pictureFrameWall",
+    "at": [
+     0,
+     0
+    ],
+    "rot": 0,
+    "wall": "N"
+   },
+   {
+    "item": "pictureFrameWall",
+    "at": [
+     3,
+     0
+    ],
+    "rot": 0,
+    "wall": "E"
+   },
+   {
+    "item": "postkartenWand",
+    "at": [
+     1,
+     0
+    ],
+    "rot": 0,
+    "wall": "W"
+   },
+   {
+    "item": "pictureFrameWall",
+    "at": [
+     10,
+     0
+    ],
+    "rot": 0,
+    "wall": "N"
+   },
+   {
+    "item": "monsteraPlant",
+    "at": [
+     10,
+     3
+    ],
+    "rot": 0
+   },
+   {
+    "item": "pictureFrameWall",
+    "at": [
+     1,
+     0
+    ],
+    "rot": 0,
+    "wall": "N"
+   },
+   {
+    "item": "pictureFrameWall",
+    "at": [
+     7,
+     0
+    ],
+    "rot": 0,
+    "wall": "N"
+   },
+   {
+    "item": "pictureFrameWall",
+    "at": [
+     11,
+     0
+    ],
+    "rot": 0,
+    "wall": "N"
+   },
+   {
+    "item": "souvenirRegal",
+    "at": [
+     0,
+     0
+    ],
+    "rot": 0,
+    "wall": "E"
+   },
+   {
+    "item": "pictureFrameWall",
+    "at": [
+     8,
+     0
+    ],
+    "rot": 0,
+    "wall": "E"
+   },
+   {
+    "item": "lampWall",
+    "at": [
+     0,
+     0
+    ],
+    "rot": 0,
+    "wall": "W"
+   },
+   {
+    "item": "pictureFrameWall",
+    "at": [
+     7,
+     0
+    ],
+    "rot": 0,
+    "wall": "W"
+   },
+   {
+    "item": "plantBushLarge",
+    "at": [
+     0,
+     9
+    ],
+    "rot": 0
+   },
+   {
+    "item": "plantBushLarge",
+    "at": [
+     11,
+     9
+    ],
+    "rot": 0
+   }
+  ],
+  "kitchen": [
+   {
+    "item": "kitchenFridge",
+    "at": [
+     0,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "kitchenSink",
+    "at": [
+     2,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "kitchenStove",
+    "at": [
+     4,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "kitchenCabinet",
+    "at": [
+     6,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "toaster",
+    "at": [
+     6,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "kitchenCabinetDrawer",
+    "at": [
+     8,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "table",
+    "at": [
+     4,
+     4
+    ],
+    "rot": 0
+   },
+   {
+    "item": "plantSmall1",
+    "at": [
+     5,
+     4
+    ],
+    "rot": 0
+   },
+   {
+    "item": "chair",
+    "at": [
+     4,
+     3
+    ],
+    "rot": 2
+   },
+   {
+    "item": "chair",
+    "at": [
+     5,
+     6
+    ],
+    "rot": 0
+   },
+   {
+    "item": "chairCushion",
+    "at": [
+     7,
+     4
+    ],
+    "rot": 3
+   },
+   {
+    "item": "rugRound",
+    "at": [
+     1,
+     5
+    ],
+    "rot": 0
+   },
+   {
+    "item": "stoolBar",
+    "at": [
+     9,
+     5
+    ],
+    "rot": 0
+   },
+   {
+    "item": "trashcan",
+    "at": [
+     9,
+     7
+    ],
+    "rot": 0
+   },
+   {
+    "item": "rugDoormat",
+    "at": [
+     2,
+     3
+    ],
+    "rot": 1
+   }
+  ],
+  "bathroom": [
+   {
+    "item": "bathtub",
+    "at": [
+     4,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "toilet",
+    "at": [
+     0,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "bathroomSink",
+    "at": [
+     2,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "bathroomMirror",
+    "wall": "N",
+    "at": [
+     2,
+     0
+    ]
+   },
+   {
+    "item": "bathroomCabinet",
+    "at": [
+     3,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "washer",
+    "at": [
+     6,
+     5
+    ],
+    "rot": 0
+   },
+   {
+    "item": "rugSquare",
+    "at": [
+     2,
+     4
+    ],
+    "rot": 0
+   },
+   {
+    "item": "pottedPlant",
+    "at": [
+     0,
+     6
+    ],
+    "rot": 0
+   }
+  ],
+  "bedroom": [
+   {
+    "item": "boxA",
+    "at": [
+     2,
+     2
+    ],
+    "rot": 0
+   },
+   {
+    "item": "boxB",
+    "at": [
+     3,
+     2
+    ],
+    "rot": 1
+   },
+   {
+    "item": "boxA",
+    "at": [
+     2,
+     3
+    ],
+    "rot": 2
+   },
+   {
+    "item": "boxB",
+    "at": [
+     5,
+     5
+    ],
+    "rot": 0
+   },
+   {
+    "item": "sideTable",
+    "at": [
+     0,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "lampRoundTable",
+    "at": [
+     0,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "rugRound",
+    "at": [
+     3,
+     4
+    ],
+    "rot": 0
+   },
+   {
+    "item": "coatRackStanding",
+    "at": [
+     9,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "bookcaseOpen",
+    "at": [
+     4,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "monsteraPlant",
+    "at": [
+     0,
+     6
+    ],
+    "rot": 0
+   }
+  ],
+  "garden": [
+   {
+    "item": "treeDefault",
+    "at": [
+     0,
+     4
+    ],
+    "rot": 0
+   },
+   {
+    "item": "treeFat",
+    "at": [
+     24,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "gardenBench",
+    "at": [
+     0,
+     12
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerRed",
+    "at": [
+     0,
+     9
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerPurple",
+    "at": [
+     1,
+     9
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerYellow",
+    "at": [
+     9,
+     12
+    ],
+    "rot": 0
+   },
+   {
+    "item": "gardenBush",
+    "at": [
+     0,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "gardenBush",
+    "at": [
+     27,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "potLarge",
+    "at": [
+     27,
+     4
+    ],
+    "rot": 0
+   },
+   {
+    "item": "grassTuft",
+    "at": [
+     2,
+     13
+    ],
+    "rot": 0
+   },
+   {
+    "item": "grassTuft",
+    "at": [
+     20,
+     13
+    ],
+    "rot": 0
+   },
+   {
+    "item": "grassTuft",
+    "at": [
+     26,
+     2
+    ],
+    "rot": 0
+   },
+   {
+    "item": "pathStonesShort",
+    "at": [
+     8,
+     2
+    ],
+    "rot": 0
+   },
+   {
+    "item": "pathStonesShort",
+    "at": [
+     9,
+     3
+    ],
+    "rot": 0
+   },
+   {
+    "item": "pathStonesShort",
+    "at": [
+     10,
+     4
+    ],
+    "rot": 0
+   },
+   {
+    "item": "pathStonesShort",
+    "at": [
+     11,
+     5
+    ],
+    "rot": 0
+   },
+   {
+    "item": "planter_box",
+    "at": [
+     7,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "planter_box",
+    "at": [
+     10,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerRed",
+    "at": [
+     0,
+     2
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerPurple",
+    "at": [
+     0,
+     3
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerBedPink",
+    "at": [
+     0,
+     7
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerBedSmall",
+    "at": [
+     0,
+     8
+    ],
+    "rot": 0
+   },
+   {
+    "item": "treeStump",
+    "at": [
+     3,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "mushroomRed",
+    "at": [
+     4,
+     1
+    ],
+    "rot": 0
+   },
+   {
+    "item": "gardenBush",
+    "at": [
+     27,
+     2
+    ],
+    "rot": 0
+   },
+   {
+    "item": "gardenBush",
+    "at": [
+     26,
+     0
+    ],
+    "rot": 0
+   },
+   {
+    "item": "gardenLantern",
+    "at": [
+     13,
+     12
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerYellow",
+    "at": [
+     4,
+     12
+    ],
+    "rot": 0
+   },
+   {
+    "item": "gardenBush",
+    "at": [
+     6,
+     13
+    ],
+    "rot": 0
+   },
+   {
+    "item": "rockFlat",
+    "at": [
+     17,
+     13
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerPurple",
+    "at": [
+     10,
+     11
+    ],
+    "rot": 0
+   },
+   {
+    "item": "gardenBush",
+    "at": [
+     27,
+     6
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerYellow",
+    "at": [
+     27,
+     9
+    ],
+    "rot": 0
+   },
+   {
+    "item": "gardenBush",
+    "at": [
+     27,
+     12
+    ],
+    "rot": 0
+   },
+   {
+    "item": "gardenBush",
+    "at": [
+     10,
+     13
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerRed",
+    "at": [
+     14,
+     13
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerPurple",
+    "at": [
+     16,
+     13
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerYellow",
+    "at": [
+     3,
+     3
+    ],
+    "rot": 0
+   },
+   {
+    "item": "grassTuft",
+    "at": [
+     5,
+     6
+    ],
+    "rot": 0
+   },
+   {
+    "item": "mushroomRed",
+    "at": [
+     6,
+     9
+    ],
+    "rot": 0
+   },
+   {
+    "item": "rockSmall",
+    "at": [
+     2,
+     7
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerPurple",
+    "at": [
+     13,
+     3
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerBedSmall",
+    "at": [
+     0,
+     1
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerBedPink",
+    "at": [
+     0,
+     6
+    ],
+    "rot": 0
+   },
+   {
+    "item": "gardenBush",
+    "at": [
+     0,
+     10
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerRed",
+    "at": [
+     0,
+     11
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerBedSmall",
+    "at": [
+     27,
+     3
+    ],
+    "rot": 0
+   },
+   {
+    "item": "gardenBush",
+    "at": [
+     27,
+     8
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerBedPink",
+    "at": [
+     27,
+     10
+    ],
+    "rot": 0
+   },
+   {
+    "item": "flowerRed",
+    "at": [
+     27,
+     11
+    ],
+    "rot": 0
+   }
+  ]
+ }
+}

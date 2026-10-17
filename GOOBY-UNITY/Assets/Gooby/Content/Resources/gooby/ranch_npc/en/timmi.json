@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_timmi",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "timmi",
+			"text": "YOU'RE AWAKE! I'm awake too! I've been awake for HOURS! The chickens were still sleepy, I woke them up!",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "timmi",
+			"text": "Hello hello HELLO! I'm Timmi! I live next door! Over there! Basically everywhere, Mom says!",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "timmi",
+			"text": "I'm allowed EXACTLY ten more minutes outside! That's... lots of seconds! Quick, let's talk!",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "timmi",
+			"text": "RAIN! You know what that means? PUDDLES! I've already tried seven. The third one was the best.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "timmi",
+			"text": "MY BEST FRIEND IS HERE! That's you! I told everyone! Even the mailbox!",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "timmi",
+			"text": "What are we doing, what are we doing?",
+			"optionen": [
+				{"text": "Need help with something?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "I did it, Timmi!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "What's new?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "What's new?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "What's new?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Show me your collection!", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "What do you want to be?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Gotta run, Timmi!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "timmi",
+			"text": [
+				"I looked at a horse today and it looked BACK. We're basically family now.",
+				"And I can almost whistle! Listen! ... Okay, that was spit. But ALMOST!"
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "timmi",
+			"text": [
+				"Grandpa Alwin says I ask too many questions. But how do you know how many questions are too many?",
+				"See! SEE! That was another question! It never stops! It's FANTASTIC!"
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "timmi",
+			"text": [
+				"You're my favorite grown-up. You listen and you don't run away. Most grown-ups run.",
+				"When I'm big, I'll be like you. Just faster. And with more horseshoes. WAY more horseshoes."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "timmi",
+			"text": "YES! So, it's SUPER important and SUPER secret and I need EXACTLY you for it!",
+			"optionen": [
+				{"text": "I'm in!", "next": "quest_annahme"},
+				{"text": "Later, okay?", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "timmi",
+			"text": "YESSS! You're the BEST! I'll just hop in circles here until you're back, okay? Okay!",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "timmi",
+			"text": "Awwww. Fiiiine. I'll wait here. I'm VERY good at waiting. How long is later, actually?",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "timmi",
+			"text": "YOU DID IT! This goes in my hero book! Only you are in it. And one pony. Here, for you!",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "timmi",
+			"text": "A COOKIE! For ME? I'll eat it really slowly. In two bites. That's slow for me!",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "timmi",
+			"text": "Ooooh, thanks! I'll NEVER trade this. Unless it's for something really good. But otherwise NEVER!",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "timmi",
+			"text": "What is that? Doesn't matter! It's from YOU, so it's awesome! I'll add it to my collection!",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "timmi",
+			"text": [
+				"My horseshoe collection! I have ELEVEN! That one's Rusty, that's Shiny, that's Mr. Bent.",
+				"Mr. Bent is bent because a horse stepped on him. Like... again. Stepped back on, sort of.",
+				"When I have twelve, the collection is complete. Then I'll start the second collection!"
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "timmi",
+			"text": [
+				"What I want to be? EVERYTHING. But most of all: a rancher. Like you.",
+				"I'm already practicing. I have a stick, it's my horse. His name is Lightning and he eats grass when nobody's looking.",
+				"Don't tell Lightning he's a stick. He really believes in himself."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "timmi",
+			"text": "Byeeeee! I'll wave until you're TINY! That always takes such a nice long time with you!",
+			"ende": true
+		}
+	}
+}

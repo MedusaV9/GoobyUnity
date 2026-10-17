@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"id": "core",
+	"version": "1.0.0",
+	"priority": 100,
+	"min_native": "5.0.0",
+	"domains": [],
+	"name_de": "Core",
+	"notes_de": "Basis-Content-Daten (Kataloge/Quests/Level-Daten). M1: leeres Gerüst — die Basis-Kataloge anderer Wellen liegen unter content/base/ und wandern erst bei Bedarf in diesen Pack."
+}

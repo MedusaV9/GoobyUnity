@@ -1,0 +1,44 @@
+{
+  "id": "post_besuch",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "pia",
+      "text": [
+        "Willkommen bei der Post! Ich bin Pia. Schalter zwei ist gerade unbesetzt — ich BIN Schalter zwei.",
+        "Tagespaket, Postkarten oder nur den Stempel bewundern?"
+      ],
+      "optionen": [
+        {"text": "Liegt ein Paket für mich bereit?", "next": "paket"},
+        {"text": "Was macht mein Postkarten-Archiv?", "next": "postkarten"},
+        {"text": "Nur den Stempel.", "next": "stempel"}
+      ]
+    },
+    "paket": {
+      "sprecher": "pia",
+      "text": [
+        "Jeden Tag lege ich ein Paket für Gooby zurück. Gewogen habe ich es dreimal — sicher ist sicher.",
+        "Einfach am Schalter abholen. Einmal pro Tag, sonst kippt mein Regal."
+      ],
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "postkarten": {
+      "sprecher": "pia",
+      "text": [
+        "Alle Urlaubs-Postkarten kommen zuerst über meinen Tisch. Ich lese natürlich nicht mit.",
+        "Die vom Glitzermeer war aber wirklich hübsch. … Ich habe NICHT mitgelesen."
+      ],
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "stempel": {
+      "sprecher": "pia",
+      "text": [
+        "Bitte sehr. (Sie stempelt dreimal auf die Unterlage, einmal in die Luft.)",
+        "Der in die Luft war der schönste. Den kann man leider nicht mitnehmen."
+      ],
+      "ende": true
+    }
+  }
+}

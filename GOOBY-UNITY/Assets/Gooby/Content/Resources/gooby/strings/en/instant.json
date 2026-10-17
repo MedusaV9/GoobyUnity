@@ -1,0 +1,41 @@
+{
+	"instant": {
+		"titel": "InstantGooby",
+		"feed_leer": "Nothing in the feed yet — go post the first photo!",
+		"aktualisieren": "Reload",
+		"posten": "Post",
+		"offline": "Offline — the feed needs a connection.",
+		"outbox": "Waiting for upload: {n}",
+		"cap_hinweis": "Showing the latest {n} posts — older ones have moved on.",
+		"dein_post": "Your post",
+		"moehre": "Leave a carrot",
+		"moehre_gelassen": "Carrot left",
+		"compose": {
+			"titel": "New post",
+			"foto": "Photo",
+			"foto_waehlen": "Pick a photo…",
+			"galerie_leer": "The gallery is empty — snap first, post second!",
+			"caption_hint": "Short and adorable…",
+			"zeichen": "{n}/{max}",
+			"senden": "Post to all friends",
+			"zurueck": "‹ Back to the feed"
+		},
+		"toast": {
+			"gepostet": "Post is out — to {n} friends!",
+			"queued": "Will be posted as soon as you are online!",
+			"moehre_da": "{name} left you a carrot! 🥕"
+		},
+		"err": {
+			"offline": "No connection right now — the post waits in the basket.",
+			"daily_limit": "That is it for today: 20 deliveries per day is plenty!",
+			"no_photo": "No photo, no post — InstantGooby is a photo app, after all.",
+			"no_friends": "Find friends first — then the feed has an audience!",
+			"caption_too_long": "The caption is too long — trim it a little.",
+			"photo": "That photo will not go in the feed — too big or too odd.",
+			"not_found": "The feed does not know that post anymore.",
+			"self": "Your own carrot does not count — nice try!",
+			"rate_limit": "Slow down — the feed cannot keep up!",
+			"generic": "Oof — something went wrong while posting."
+		}
+	}
+}

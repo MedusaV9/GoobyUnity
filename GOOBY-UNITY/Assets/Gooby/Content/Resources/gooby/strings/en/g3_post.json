@@ -1,0 +1,8 @@
+{
+	"mail": {
+		"compose": {
+			"verwerfen_frage": "Toss your unfinished letter?",
+			"weiterschreiben": "Keep writing"
+		}
+	}
+}

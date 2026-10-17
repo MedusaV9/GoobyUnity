@@ -1,0 +1,149 @@
+{
+	"schema": 1,
+	"kommentar": "McGooby-DLC Welle A+B+C (P25/W19) — Start-Menü + Balance. Quelle: docs/godot-rewrite/DLC-MCGOOBY.md §2/§3/§6. Parodie-Namen liegen BEIDSPRACHIG hier (Muster dlcs.json); alle Zahlen sind Balance-Daten und per Update-Pack überschattbar (Ranch-Blaupause). Gelesen von McGoobyKatalog (scripts/dlc/mcgooby/mcgooby_katalog.gd). Welle B: preis/freischalt_level = Kauf-Gate (Doc §6.2: Level 14 + 3000), belegen_* = Belegstation (burger_build-Grammatik +5/−2). Welle C: fritteuse_*/shake_* = Timing-Punkte der neuen Stationen (Doc §2.2 #3/#4, perfekt/halbe wie am Grill), raenge = Laden-Sterne-Leiter (Doc §6.1 auf messbare Größen verdichtet: gespielte Schichten, Punkte-Bestwert, fehlerfreie Schichten).",
+	"balance": {
+		"preis": 3000,
+		"freischalt_level": 14,
+		"bestellungen_min": 2,
+		"bestellungen_max": 4,
+		"punkte_perfekt": 10,
+		"punkte_roestaroma": 5,
+		"belegen_punkte_richtig": 5,
+		"belegen_malus_falsch": 2,
+		"fritteuse_punkte_perfekt": 10,
+		"fritteuse_punkte_dunkel": 5,
+		"shake_punkte_perfekt": 10,
+		"shake_punkte_schaum": 5,
+		"bestellung_fertig_bonus": 15,
+		"coin_divisor": 4,
+		"coin_min": 6,
+		"coin_max": 30,
+		"trinkgeld_basis": 2,
+		"combo_start": 1.0,
+		"combo_schritt": 0.1,
+		"combo_max": 2.0,
+		"bot_skill": 0.9
+	},
+	"raenge": [
+		{ "stern": 1, "schichten": 1, "bestwert": 0, "perfekt": 0 },
+		{ "stern": 2, "schichten": 5, "bestwert": 80, "perfekt": 0 },
+		{ "stern": 3, "schichten": 12, "bestwert": 130, "perfekt": 0 },
+		{ "stern": 4, "schichten": 25, "bestwert": 170, "perfekt": 1 },
+		{ "stern": 5, "schichten": 40, "bestwert": 200, "perfekt": 3 }
+	],
+	"timing": {
+		"grill": { "gar_sec": 4.0, "fenster_sec": 1.4, "nachlauf_sec": 2.0 },
+		"fritteuse": { "gar_sec": 5.0, "fenster_sec": 1.2, "nachlauf_sec": 2.0 },
+		"shake": { "gar_sec": 3.5, "fenster_sec": 1.6, "nachlauf_sec": 2.4 },
+		"belegen": { "gar_sec": 0.0, "fenster_sec": 0.0, "nachlauf_sec": 0.0 }
+	},
+	"stationen": [
+		{ "id": "grill", "name_de": "Grill", "name_en": "Grill", "geste_de": "Timing-Tap: im goldenen Fenster wenden", "geste_en": "Timing tap: flip inside the golden window" },
+		{ "id": "belegen", "name_de": "Belegstation", "name_en": "Assembly station", "geste_de": "Zutaten in Ticket-Reihenfolge aufs Brötchen wischen", "geste_en": "Swipe ingredients onto the bun in ticket order" },
+		{ "id": "fritteuse", "name_de": "Fritteuse", "name_en": "Fryer", "geste_de": "Korb halten, im goldenen Fenster loslassen", "geste_en": "Hold the basket, release inside the golden window" },
+		{ "id": "shake", "name_de": "Shake-Bar", "name_en": "Shake bar", "geste_de": "Im Takt kreisen, bis die Flausch-Krone steht", "geste_en": "Stir in circles until the floof crown stands" }
+	],
+	"rezepte": [
+		{
+			"id": "gooby_mac",
+			"name_de": "GoobyMac",
+			"name_en": "GoobyMac",
+			"stationen": ["grill", "belegen"],
+			"schritte": [
+				{ "station": "grill", "aktion": "wenden", "anzahl": 2 },
+				{ "station": "belegen", "aktion": "stapeln", "zutaten": ["broetchen", "patty", "gold_sosse", "salat", "patty", "kaese", "broetchen"] }
+			]
+		},
+		{
+			"id": "kaese_knusperle",
+			"name_de": "Käse-Knusperle",
+			"name_en": "Cheese Crispy",
+			"stationen": ["grill", "belegen"],
+			"schritte": [
+				{ "station": "grill", "aktion": "wenden", "anzahl": 1 },
+				{ "station": "belegen", "aktion": "stapeln", "zutaten": ["broetchen", "patty", "kaese", "kaese", "broetchen"] }
+			]
+		},
+		{
+			"id": "garten_gooby",
+			"name_de": "Garten-Gooby",
+			"name_en": "Garden Gooby",
+			"stationen": ["grill", "belegen"],
+			"schritte": [
+				{ "station": "grill", "aktion": "wenden", "anzahl": 1 },
+				{ "station": "belegen", "aktion": "stapeln", "zutaten": ["broetchen", "kuerbis_patty", "tomate", "salat", "broetchen"] }
+			]
+		},
+		{
+			"id": "gurken_deluxe",
+			"name_de": "Gurken-Deluxe",
+			"name_en": "Cucumber Deluxe",
+			"stationen": ["grill", "belegen"],
+			"schritte": [
+				{ "station": "grill", "aktion": "wenden", "anzahl": 1 },
+				{ "station": "belegen", "aktion": "stapeln", "zutaten": ["broetchen", "patty", "gurke", "gurke", "gurke", "gurke", "gurke", "gurke", "gurke", "broetchen"] }
+			]
+		},
+		{
+			"id": "moehren_pommes",
+			"name_de": "Möhren-Pommes",
+			"name_en": "Carrot Fries",
+			"stationen": ["fritteuse"],
+			"fenster_mult": 0.75,
+			"schritte": [
+				{ "station": "fritteuse", "aktion": "frittieren", "anzahl": 1 },
+				{ "station": "fritteuse", "aktion": "glitzersalz", "anzahl": 1 }
+			]
+		},
+		{
+			"id": "pommes_klassik",
+			"name_de": "Pommes Klassik",
+			"name_en": "Fries Classic",
+			"stationen": ["fritteuse"],
+			"schritte": [
+				{ "station": "fritteuse", "aktion": "frittieren", "anzahl": 1 },
+				{ "station": "fritteuse", "aktion": "salz", "anzahl": 1 }
+			]
+		},
+		{
+			"id": "nugget_woelkchen",
+			"name_de": "Nugget-Wölkchen",
+			"name_en": "Nugget Clouds",
+			"stationen": ["fritteuse"],
+			"schritte": [
+				{ "station": "fritteuse", "aktion": "formen", "anzahl": 1 },
+				{ "station": "fritteuse", "aktion": "frittieren", "anzahl": 1 },
+				{ "station": "fritteuse", "aktion": "wolken_dip", "anzahl": 1 }
+			]
+		},
+		{
+			"id": "rosa_flausch",
+			"name_de": "Der rosa Flausch",
+			"name_en": "The Pink Floof",
+			"stationen": ["shake"],
+			"schritte": [
+				{ "station": "shake", "aktion": "mixen", "anzahl": 1 },
+				{ "station": "shake", "aktion": "flausch_krone", "anzahl": 1 }
+			]
+		},
+		{
+			"id": "gruener_galopp",
+			"name_de": "Shake „Grüner Galopp“",
+			"name_en": "“Green Gallop” shake",
+			"stationen": ["shake"],
+			"schritte": [
+				{ "station": "shake", "aktion": "mixen", "anzahl": 1 }
+			]
+		},
+		{
+			"id": "schoko_flausch",
+			"name_de": "Schoko-Flausch",
+			"name_en": "Choco Floof",
+			"stationen": ["shake"],
+			"schritte": [
+				{ "station": "shake", "aktion": "mixen", "anzahl": 1 },
+				{ "station": "shake", "aktion": "raspel_regen", "anzahl": 1 }
+			]
+		}
+	]
+}

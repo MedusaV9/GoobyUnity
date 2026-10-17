@@ -1,0 +1,64 @@
+/* gooby-mgfields.uss — see header comment in GoobyTheme.tss */
+/* Scenery inside the portrait minigame fields (MgScenery.cs, board 06 "weiche Formen, liebevolle Details"): layers of
+   soft sky, puffy clouds, rounded hills, meadow strips, tufts, dot flowers, picket fences, pillow tiles, a kitchen
+   window. Shapes are placed and coloured inline per host (the host picks its pastel palette); this sheet only holds
+   the shared defaults. Scenery never takes the pointer (pickingMode Ignore in code) and never animates via
+   transition-*: the few moving groups are translated per frame by the host. */
+
+.gb-mgf-layer { position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+.gb-mgf-group { position: absolute; }
+.gb-mgf-shape { position: absolute; }
+
+/* sun, clouds */
+.gb-mgf-sun-core { border-width: 3px; border-color: rgba(255, 255, 255, 0.7); }
+.gb-mgf-puff { background-color: rgb(255, 255, 255); }
+
+/* land */
+.gb-mgf-meadow { border-top-width: 5px; }
+.gb-mgf-sprite { position: absolute; }
+
+/* kitchen / diner bits */
+.gb-mgf-tile { border-bottom-width: 3px; }
+.gb-mgf-pane { overflow: hidden; }
+
+/* painted pieces (MgScenery.Painted: bunting, string lights, waves, scallops, gingham, checker floors, beams, reeds,
+   lily pads, puffs/fog/hedges, dots, roofs) — Painter2D into their own box, redrawn only when the box resizes */
+.gb-mgf-painted { position: absolute; }
+/* state tints some hosts used to put on the field colour now sit as a veil on top of their scenery */
+.gb-mgf-veil { position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+/* graveyard / theatre / street pieces (tombstones, lanterns, houses) are plain rounded shapes */
+.gb-mgf-tomb-body { border-bottom-width: 4px; }
+.gb-mgf-house-wall { border-bottom-width: 4px; }
+
+
+/* ── the landscape bands beside the portrait field (MinigameHostScreen.BuildSideBands) ── */
+.gb-mg-bands { position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+.gb-mg-side {
+    padding: 16px 18px 16px 18px;
+    border-radius: 26px;
+    background-color: rgba(255, 250, 240, 0.92);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.10);
+    border-bottom-width: 5px;
+    border-bottom-color: rgba(107, 79, 58, 0.14);
+}
+.gb-mg-side--dark { background-color: rgba(255, 250, 240, 0.86); }
+.gb-mg-side-head { flex-direction: row; align-items: center; margin-bottom: 8px; }
+.gb-mg-side-head > .gb-icon-tile { margin-right: 12px; flex-shrink: 0; }
+.gb-mg-side-title {
+    flex-shrink: 1;
+    font-size: 22px;
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    color: var(--gb-text);
+    white-space: normal;
+}
+.gb-mg-side-tip { font-size: 15px; color: var(--gb-text-mild); white-space: normal; }
+.gb-mg-side-best {
+    flex-direction: row; align-items: center; align-self: flex-start;
+    margin-bottom: 8px; padding: 4px 14px 4px 8px;
+    border-radius: 99px;
+    background-color: #FFF1C2;
+    border-width: 2px; border-color: rgba(230, 170, 40, 0.35);
+}
+.gb-mg-side-star { width: 26px; height: 26px; margin-right: 6px; }
+.gb-mg-side-best-text { font-size: 17px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #8A5A10; }

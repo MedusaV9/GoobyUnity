@@ -1,0 +1,53 @@
+{
+  "kommentar": "GOOBERANDO-Restaurants (W13B, Doc E §5.1): 3 virtuelle Lieferküchen mit eigenen Menüs/Preisen/Wartezeiten. gerichte[].id MUSS eine FoodCatalog-Id sein (scripts/logic/food_catalog.gd) — die Lieferung bucht 1:1 in inventory.food. strasse = Straßen-Tile der Karte (Fahrer-Startknoten der Fahrer-Sim, scripts/city/delivery/fahrer_sim.gd). prep_min_s/prep_max_s = Küchen-Wartezeit in REAL-Sekunden, die Fahrzeit auf dem road_graph kommt obendrauf. sterne + gag_key füttern die Bewertungs-Gag-Zeile (strings phone.gooberando.*).",
+  "restaurants": [
+    {
+      "id": "moehrenschmiede",
+      "name_de": "Möhrenschmiede",
+      "sterne": "4,9",
+      "gag_key": "phone.gooberando.gag_moehrenschmiede",
+      "prep_min_s": 90,
+      "prep_max_s": 180,
+      "strasse": [4, 3],
+      "gerichte": [
+        {"id": "carrot", "name_de": "Möhren-Duo, frisch geschmiedet", "preis": 7},
+        {"id": "salad", "name_de": "Amboss-Salat", "preis": 16},
+        {"id": "tomato", "name_de": "Glutrote Tomate", "preis": 9},
+        {"id": "corn", "name_de": "Funkenflug-Maiskolben", "preis": 12},
+        {"id": "watermelon", "name_de": "Melone vom Schleifstein", "preis": 14}
+      ]
+    },
+    {
+      "id": "pasta_hoppel",
+      "name_de": "Pasta Hoppel",
+      "sterne": "4,7",
+      "gag_key": "phone.gooberando.gag_pasta_hoppel",
+      "prep_min_s": 150,
+      "prep_max_s": 300,
+      "strasse": [1, 8],
+      "gerichte": [
+        {"id": "pizza", "name_de": "Pizza Hoppelroni", "preis": 32},
+        {"id": "bread", "name_de": "Knusper-Baguette della Nonna", "preis": 11},
+        {"id": "cheese", "name_de": "Käseteller Goobia", "preis": 14},
+        {"id": "salad", "name_de": "Insalata Hoppelese", "preis": 15},
+        {"id": "ice-cream", "name_de": "Gelato Möhrella", "preis": 17}
+      ]
+    },
+    {
+      "id": "burger_bau",
+      "name_de": "Burger-Bau",
+      "sterne": "4,8",
+      "gag_key": "phone.gooberando.gag_burger_bau",
+      "prep_min_s": 120,
+      "prep_max_s": 240,
+      "strasse": [7, 11],
+      "gerichte": [
+        {"id": "burger", "name_de": "Richtfest-Burger", "preis": 27},
+        {"id": "fries", "name_de": "Baustellen-Pommes", "preis": 15},
+        {"id": "hot-dog", "name_de": "Dachlatten-Dog", "preis": 19},
+        {"id": "sundae", "name_de": "Betonmischer-Becher", "preis": 18},
+        {"id": "cookie", "name_de": "Ziegel-Keks", "preis": 9}
+      ]
+    }
+  ]
+}

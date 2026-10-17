@@ -1,0 +1,1212 @@
+{
+  "modes": {
+    "easy": [
+      {
+        "seed": 1,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 2,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 3,
+        "score": 385,
+        "solved": 15,
+        "failures": 0
+      },
+      {
+        "seed": 4,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 5,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 6,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 7,
+        "score": 385,
+        "solved": 15,
+        "failures": 0
+      },
+      {
+        "seed": 8,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 9,
+        "score": 385,
+        "solved": 15,
+        "failures": 0
+      },
+      {
+        "seed": 10,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 11,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 12,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 13,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 14,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 15,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 16,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 17,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 18,
+        "score": 385,
+        "solved": 15,
+        "failures": 0
+      },
+      {
+        "seed": 19,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 20,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 21,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 22,
+        "score": 385,
+        "solved": 15,
+        "failures": 0
+      },
+      {
+        "seed": 23,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 24,
+        "score": 385,
+        "solved": 15,
+        "failures": 0
+      },
+      {
+        "seed": 25,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 26,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 27,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 28,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 29,
+        "score": 385,
+        "solved": 15,
+        "failures": 0
+      },
+      {
+        "seed": 30,
+        "score": 385,
+        "solved": 15,
+        "failures": 0
+      },
+      {
+        "seed": 31,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 32,
+        "score": 410,
+        "solved": 16,
+        "failures": 0
+      },
+      {
+        "seed": 33,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 34,
+        "score": 385,
+        "solved": 15,
+        "failures": 0
+      },
+      {
+        "seed": 35,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 36,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 37,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 38,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 39,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 40,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 41,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 42,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 43,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 44,
+        "score": 385,
+        "solved": 15,
+        "failures": 0
+      },
+      {
+        "seed": 45,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 46,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 47,
+        "score": 385,
+        "solved": 15,
+        "failures": 0
+      },
+      {
+        "seed": 48,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 49,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 50,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 2,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 3,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 4,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 5,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 6,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 7,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 8,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 9,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 10,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 11,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 12,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 13,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 14,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 15,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 16,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 17,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 18,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 19,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 20,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 21,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 22,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 23,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 24,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 25,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 26,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 27,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 28,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 29,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 30,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 31,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 32,
+        "score": 360,
+        "solved": 14,
+        "failures": 0
+      },
+      {
+        "seed": 33,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 34,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 35,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 36,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 37,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 38,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 39,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 40,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 41,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 42,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 43,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 44,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 45,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 46,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 47,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 48,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 49,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 50,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      }
+    ],
+    "hard": [
+      {
+        "seed": 1,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 2,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 3,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 4,
+        "score": 260,
+        "solved": 10,
+        "failures": 0
+      },
+      {
+        "seed": 5,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 6,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 7,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 8,
+        "score": 260,
+        "solved": 10,
+        "failures": 0
+      },
+      {
+        "seed": 9,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 10,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 11,
+        "score": 260,
+        "solved": 10,
+        "failures": 0
+      },
+      {
+        "seed": 12,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 13,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 14,
+        "score": 260,
+        "solved": 10,
+        "failures": 0
+      },
+      {
+        "seed": 15,
+        "score": 260,
+        "solved": 10,
+        "failures": 0
+      },
+      {
+        "seed": 16,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 17,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 18,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 19,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 20,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 21,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 22,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 23,
+        "score": 260,
+        "solved": 10,
+        "failures": 0
+      },
+      {
+        "seed": 24,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 25,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 26,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 27,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 28,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 29,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 30,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 31,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 32,
+        "score": 335,
+        "solved": 13,
+        "failures": 0
+      },
+      {
+        "seed": 33,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 34,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 35,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 36,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 37,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 38,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 39,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 40,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 41,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 42,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 43,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 44,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 45,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 46,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 47,
+        "score": 310,
+        "solved": 12,
+        "failures": 0
+      },
+      {
+        "seed": 48,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 49,
+        "score": 285,
+        "solved": 11,
+        "failures": 0
+      },
+      {
+        "seed": 50,
+        "score": 260,
+        "solved": 10,
+        "failures": 0
+      }
+    ],
+    "endless": [
+      {
+        "seed": 1,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 2,
+        "score": 455,
+        "solved": 18,
+        "failures": 1
+      },
+      {
+        "seed": 3,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 4,
+        "score": 430,
+        "solved": 17,
+        "failures": 1
+      },
+      {
+        "seed": 5,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 6,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 7,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 8,
+        "score": 455,
+        "solved": 18,
+        "failures": 1
+      },
+      {
+        "seed": 9,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 10,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 11,
+        "score": 455,
+        "solved": 18,
+        "failures": 1
+      },
+      {
+        "seed": 12,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 13,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 14,
+        "score": 455,
+        "solved": 18,
+        "failures": 1
+      },
+      {
+        "seed": 15,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 16,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 17,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 18,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 19,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 20,
+        "score": 455,
+        "solved": 18,
+        "failures": 1
+      },
+      {
+        "seed": 21,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 22,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 23,
+        "score": 455,
+        "solved": 18,
+        "failures": 1
+      },
+      {
+        "seed": 24,
+        "score": 530,
+        "solved": 21,
+        "failures": 1
+      },
+      {
+        "seed": 25,
+        "score": 455,
+        "solved": 18,
+        "failures": 1
+      },
+      {
+        "seed": 26,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 27,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 28,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 29,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 30,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 31,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 32,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 33,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 34,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 35,
+        "score": 455,
+        "solved": 18,
+        "failures": 1
+      },
+      {
+        "seed": 36,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 37,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 38,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 39,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 40,
+        "score": 455,
+        "solved": 18,
+        "failures": 1
+      },
+      {
+        "seed": 41,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 42,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 43,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 44,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 45,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 46,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 47,
+        "score": 505,
+        "solved": 20,
+        "failures": 1
+      },
+      {
+        "seed": 48,
+        "score": 480,
+        "solved": 19,
+        "failures": 1
+      },
+      {
+        "seed": 49,
+        "score": 455,
+        "solved": 18,
+        "failures": 1
+      },
+      {
+        "seed": 50,
+        "score": 430,
+        "solved": 17,
+        "failures": 1
+      }
+    ]
+  }
+}

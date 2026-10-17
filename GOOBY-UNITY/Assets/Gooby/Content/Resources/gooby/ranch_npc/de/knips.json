@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_knips",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "knips",
+			"text": "Stopp! Nicht bewegen! Das Morgenlicht auf deinem Ohr — das ist ein MOTIV! … Zu spät, es ist weg. Guten Morgen.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "knips",
+			"text": "Knips! Fotograf, Künstler, Jäger des perfekten Augenblicks! Der perfekte Augenblick flieht meistens. Wie alles vor Füchsen.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "knips",
+			"text": "Die goldene Stunde! Alles sieht aus wie in Honig getaucht! Ich hab 400 Fotos gemacht. Von einem Zaunpfahl. Er trägt das Licht FANTASTISCH.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "knips",
+			"text": "Regen! Reflexionen! Dramatik! Die Pfützen sind heute Spiegel und die ganze Ranch ist doppelt da! ZWEI Motive zum Preis von einem!",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "knips",
+			"text": "Mein Lieblingsmotiv auf zwei Beinen! Weißt du, dass du von links besser aussiehst? Von rechts aber auch. Es ist verwirrend gut.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "knips",
+			"text": "Was steht an — Kunst oder Plauderei?",
+			"optionen": [
+				{"text": "Brauchst du Hilfe?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Auftrag im Kasten!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "Was hast du geknipst?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "Was hast du geknipst?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "Was hast du geknipst?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Dein bestes Foto?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Das Foto, das fehlt?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Gut Licht!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "knips",
+			"text": [
+				"Heute: ein Huhn im Anflug auf den Futtertrog. Flügel weit, Blick entschlossen. Ich nenne es: Der Adler.",
+				"Das Huhn besteht auf dem Titel. Wir verhandeln noch über die Bildrechte. Es will Körner."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "knips",
+			"text": [
+				"Ich arbeite an einer Serie: Die Ranch erwacht. Dein Hof macht sich hervorragend, ehrlich.",
+				"Vorher war meine beste Serie: Der Zaun bei Wetter. Sechshundert Bilder. Kein Käufer. BANAUSEN."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "knips",
+			"text": [
+				"Unter uns Künstlern: Die besten Bilder entstehen, wenn keiner posiert. Deshalb fotografiere ich dich meistens heimlich.",
+				"Das klang jetzt falsch. Ich meine: künstlerisch heimlich. Mit Respekt und Teleobjektiv. Hm. Auch nicht besser."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "knips",
+			"text": "Ja! Ein Auftrag! Die Kunst braucht dich! Genauer: Die Kunst braucht deine Beine, meine sind kurz.",
+			"optionen": [
+				{"text": "Für die Kunst!", "next": "quest_annahme"},
+				{"text": "Ich bin unfotogen beschäftigt …", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "knips",
+			"text": "WUNDERBAR! Und denk dran: Sollte dabei zufällig etwas Großartiges passieren — GESICHT ZUR SONNE!",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "knips",
+			"text": "Verstehe. Die Muse zwingt man nicht. Man wartet, bis sie vorbeikommt, und knipst sie dann sehr schnell.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "knips",
+			"text": "PERFEKT! Halt — genau so stehen bleiben! Der Stolz in deinem Gesicht! KLICK! Das kommt in die Ausstellung. Hier, dein Honorar!",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "knips",
+			"text": "Beeren! Die FARBE! Dieses Rot! Ich muss sie erst fotografieren, dann essen! Stillleben mit Beeren, dann Stillleben ohne Beeren!",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "knips",
+			"text": "Oh, danke! Sehr fotogen! Fast so fotogen wie der Zaunpfahl. Das ist bei mir ein RIESEN-Kompliment.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "knips",
+			"text": "Interessante Textur. Schwieriges Licht. Ich nehme es an — als künstlerische Herausforderung. Und weil du nett bist.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "knips",
+			"text": [
+				"Mein bestes Foto? Ein Wildpferd im Morgennebel, oben auf dem Hügel. Nur ein Schatten mit Mähne.",
+				"Ich hab drei Wochen im Gebüsch gewartet. Ein Igel hielt mich für ein größeres, dümmeres Gebüsch.",
+				"Als das Bild fertig war, hab ich geweint. Der Igel auch. Wir waren ein gutes Team."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "knips",
+			"text": [
+				"Das Foto, das mir fehlt? Es klingt verrückt: die ganze Ranch. Alle. An einem Tisch. Beim Fest.",
+				"Rosi, die lacht. Eisenhuf, der fast lächelt. Timmi, der stillsitzt — gut, das wird eine Langzeitbelichtung.",
+				"Eines Tages machst du dieses Fest möglich, das spüre ich. Und ich? Ich steh bereit. Mit sauberer Linse."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "knips",
+			"text": "Gut Licht! Und falls du irgendwo einen Regenbogen siehst: SOFORT Bescheid sagen. Das ist ein NOTFALL.",
+			"ende": true
+		}
+	}
+}

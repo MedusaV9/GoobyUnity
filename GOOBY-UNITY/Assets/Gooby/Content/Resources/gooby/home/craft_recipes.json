@@ -1,0 +1,70 @@
+{
+	"schema": "gooby.recipes/1",
+	"pack": "base",
+	"recipes": [
+		{
+			"id": "r_zaun_holz",
+			"output": { "item": "fence_wood", "count": 4 },
+			"materialien": { "stock": 2, "holz": 1, "naegel": 4 },
+			"station": "werkbank",
+			"bauplan": null,
+			"craft_sek": 3
+		},
+		{
+			"id": "r_hocker_rustikal",
+			"output": { "item": "stool_rustic", "count": 1 },
+			"materialien": { "holz": 2, "naegel": 4 },
+			"station": "werkbank",
+			"bauplan": null,
+			"craft_sek": 3
+		},
+		{
+			"id": "r_blumenkasten",
+			"output": { "item": "planter_box", "count": 1 },
+			"materialien": { "holz": 2, "blatt": 3, "naegel": 2 },
+			"station": "werkbank",
+			"bauplan": null,
+			"craft_sek": 4
+		},
+		{
+			"id": "r_gartentisch",
+			"output": { "item": "table_rustic", "count": 1 },
+			"materialien": { "holz": 4, "naegel": 8, "eisen": 1 },
+			"station": "werkbank",
+			"bauplan": "bp_gartentisch",
+			"craft_sek": 5
+		},
+		{
+			"id": "r_regal_rustikal",
+			"output": { "item": "shelf_rustic", "count": 1 },
+			"materialien": { "holz": 6, "naegel": 10, "eisen": 2 },
+			"station": "werkbank",
+			"bauplan": "bp_regal_rustikal",
+			"craft_sek": 6
+		},
+		{
+			"id": "r_vogelhaus",
+			"output": { "item": "vogelhaus", "count": 1 },
+			"materialien": { "holz": 3, "naegel": 6 },
+			"station": "werkbank",
+			"bauplan": "bp_vogelhaus",
+			"craft_sek": 4
+		},
+		{
+			"id": "r_kraeuterkasten",
+			"output": { "item": "kraeuterkasten", "count": 1 },
+			"materialien": { "holz": 2, "saatgut": 2 },
+			"station": "werkbank",
+			"bauplan": "bp_kraeuterkasten",
+			"craft_sek": 4
+		},
+		{
+			"id": "r_windrad_deko",
+			"output": { "item": "windrad_deko", "count": 1 },
+			"materialien": { "holz": 2, "eisen": 1 },
+			"station": "werkbank",
+			"bauplan": "bp_windrad_deko",
+			"craft_sek": 5
+		}
+	]
+}

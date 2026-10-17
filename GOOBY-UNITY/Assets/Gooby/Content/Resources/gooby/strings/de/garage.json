@@ -1,0 +1,11 @@
+{
+	"garage": {
+		"name": "Garage",
+		"gebaut": "Garage steht schon!",
+		"schon_gebaut": "Du hast schon eine Garage — eine reicht!",
+		"fertig": "Tadaa! Die Garage steht — Blechberts Bestes parkt jetzt trocken!",
+		"tor_auf": "Tor auf",
+		"tor_zu": "Tor zu",
+		"kein_auto": "Noch kein Auto? Schau mal bei Blechbert vorbei!"
+	}
+}

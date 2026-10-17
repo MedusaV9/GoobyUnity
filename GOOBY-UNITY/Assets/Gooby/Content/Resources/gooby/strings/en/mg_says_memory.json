@@ -1,0 +1,11 @@
+{
+	"mg": {
+		"goobySays": {
+			"intro": "Curtain up! Watch Gooby’s cues!"
+		},
+		"memoryMatch": {
+			"intro": "Find the pairs on the blanket!",
+			"oops": "No match!"
+		}
+	}
+}

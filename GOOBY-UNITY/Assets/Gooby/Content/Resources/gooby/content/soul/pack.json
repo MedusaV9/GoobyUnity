@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"id": "soul",
+	"version": "1.0.0",
+	"priority": 310,
+	"min_native": "5.0.0",
+	"domains": ["soul"],
+	"name_de": "Seele",
+	"notes_de": "FB-6/SEELE: Momente, die Gooby lebendig machen — Begrüßungen (Tageszeit + Abwesenheit), Rituale (Geburtstage, Jubiläen, Feiertage, erster Schnee, Zähneputzen, Gute Nacht), Wetter-Reaktionen, persönliche Erinnerungen aus echten Daten, Idle-Leben und seltene Überraschungen. Texte in strings/{de,en}/soul.json."
+}

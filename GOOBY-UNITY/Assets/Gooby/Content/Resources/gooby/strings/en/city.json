@@ -1,0 +1,177 @@
+{
+  "city": {
+    "ort": {
+      "rehwei": "REHWEI",
+      "goobytheke": "GOOBYTHEKE",
+      "gouhbus": "Dr. Dr. Professor Dr. Dr. GOOUHBUS",
+      "flughafen": "Airport",
+      "baumarkt": "Bodo Beam's Hardware",
+      "post": "Post Office",
+      "pow": "POW!",
+      "autohaus": "Tinbert Motors",
+      "wochenmarkt": "Farmers' Market",
+      "zuhause": "Home",
+      "bald_offen": "Opening soon!",
+      "geschlossen": "Closed. Says so on the sign.",
+      "nur_samstag": "Saturdays only, 8 am to 2 pm. The market sleeps in.",
+      "verlassen": "‹ Leave",
+      "item_erhalten": "Into the bag it goes!",
+      "ikea": "IKEA",
+      "goobyman": "GOOBYMAN",
+      "raumstation": "GOOB-1"
+    },
+    "karte": {
+      "titel": "City map",
+      "du": "You"
+    },
+    "fahren": {
+      "bremse": "BRAKE",
+      "rueckwaerts": "R",
+      "nach_hause": "Go Home",
+      "betreten": "Enter",
+      "betreten_energie": "Enter {ort}? (Energy −{energie})",
+      "betreten_frei": "Enter {ort}? (free)",
+      "zu_muede": "Gooby is too tired… Call a taxi via IGohbie!",
+      "beinahe": "Phew! That was close.",
+      "beinahe_hupe": "HOOONK! The other Gooby waves. Probably in a friendly way."
+    },
+    "laden": {
+      "titel": "Shopping",
+      "coins": "You have {coins} coins",
+      "kaufen": "{preis} ᴳ",
+      "rezept_noetig": "Prescription only!",
+      "buecher_titel": "Books",
+      "saatgut_titel": "Seeds",
+      "im_regal": "On the shelf"
+    },
+    "pow": {
+      "sheet_titel": "POW! — Everything that makes noise",
+      "kamera_titel": "The GOOBY Snapper",
+      "kamera_text": "A real camera. Unlocks photo mode — from then on you can snap a picture wherever you stand.",
+      "kamera_gate": "Unlocks photo mode + camera app",
+      "kamera_hast_du": "You already have it. Bam nods approvingly.",
+      "kamera_gekauft": "Camera bought! The camera app is waiting in your IGohbie.",
+      "angebote_titel": "Today's deals",
+      "angebote_neu": "Three of them. New in {stunden} h.",
+      "rabatt": "−{rabatt} % · normally {alt} ᴳ"
+    },
+    "post": {
+      "sheet_titel": "Post Office — counter 1 of 1",
+      "titel": "How may I help?",
+      "paket": "Parcel counter",
+      "paket_text": "Mrs. Slip sets aside a parcel for Gooby every day. Pick it up once a day — better safe than sorry.",
+      "paket_holen": "Pick up parcel",
+      "paket_geholt": "Already picked up today — a new one arrives tomorrow.",
+      "paket_toast": "Inside the daily parcel: {n} coins!",
+      "archiv": "Postcard archive",
+      "archiv_leer": "No postcards yet. Gooby has to travel first.",
+      "archiv_zahl": "{n} postcards in the box. All with dog-eared corners."
+    },
+    "autohaus": {
+      "sheet_titel": "Tinbert Motors",
+      "stats": "Top speed {tempo} · Pull {start} · Steering {lenkung}",
+      "farbe": "Buy in {farbe}",
+      "faehrt_gerade": "you drive this one",
+      "im_besitz": "Parked in your driveway",
+      "fahren": "Drive this one",
+      "gekauft_toast": "Congratulations! The key is already jingling in your pocket."
+    },
+    "baumarkt": {
+      "sheet_titel": "Bodo Beam's Hardware",
+      "material": "Materials",
+      "bauplaene": "Blueprints",
+      "werkstatt": "Blueprints are unlocked in the workshop — here you only get the paper.",
+      "vorrat": "you have {n}",
+      "gekauft": "Owned",
+      "bauplan_toast": "Blueprint rolled up. The workshop knows it now."
+    },
+    "markt": {
+      "sheet_titel": "Farmers' Market — sell your harvest",
+      "schild_titel": "Info sign",
+      "schild_text": "Saturdays, 8 am to 2 pm. We pay 15 % more than the compost bin.",
+      "erstes_mal": "But careful: the market is small. Every item you sell pushes the price down a little — down to half at most. Next week it pays full price again.",
+      "nichts_dabei": "Your basket is empty. Come back when something is ripe in the garden!",
+      "vorrat": "{n} in the basket",
+      "gedrueckt": "pushed down, full would be {voll} ᴳ",
+      "verkauf_eins": "Sell one",
+      "verkauf_alle": "All {n}",
+      "verkauft": "Sold {n} — {coins} coins jingle into your pocket."
+    }
+  },
+  "travel": {
+    "titel": "Travel ✈",
+    "ziel_waehlen": "Where should Gooby fly?",
+    "ziel": {
+      "beach": "Glitter Sea",
+      "harbor": "Harbor Town",
+      "meadowTrip": "Flower Meadow",
+      "spookGarden": "Spooky Garden",
+      "bakery": "Bakery Village",
+      "bigCity": "Big City",
+      "nightSky": "Night Sky",
+      "toyRoom": "Toy Room",
+      "space": "Outer Space"
+    },
+    "confirm": {
+      "titel": "Gooby flies for {tage} days: {ziel}",
+      "preis": "Price: {preis} coins (+ 10 for the taxi)",
+      "warnung": "⚠️ Gooby will be gone for {tage} days! His stats are frozen — the resort takes care of everything. Don't forget to pick him up!",
+      "nutzen": "He'll bring back souvenirs & postcards!",
+      "taxi_hinweis": "The taxi takes a few minutes — we'll let you know when it arrives.",
+      "buchen": "Book ✈",
+      "doch_nicht": "Never mind"
+    },
+    "schalter": {
+      "knopf": "Book a trip ✈"
+    },
+    "taxi": {
+      "bestellt": "Taxi called! It's on its way.",
+      "gerufen": "🚕 Your taxi is on its way…",
+      "countdown": "Arriving in approx. {min}:{s} min",
+      "storno": "Cancel (2 ᴳ)",
+      "storniert": "Cancelled. The driver sighs quietly.",
+      "da": "🚕 Your taxi is at the door!",
+      "fenster": "{s} s left to hop in!",
+      "einsteigen": "Hop in!",
+      "verpasst": "The taxi drove off… (5 coin fee). The driver sends regards. Literally: 'regards'.",
+      "notif_gleich_da": "🚕 Your taxi is almost there!",
+      "notif_da": "🚕 Your taxi is at the door!",
+      "notif_weg": "The taxi drove away again 😾"
+    },
+    "weg": {
+      "titel": "Gooby is on vacation ☀",
+      "rest": "About {tage} more sleeps and he's back!"
+    },
+    "abholen": {
+      "titel": "Gooby is waiting at the airport!",
+      "overdue": "He took a taxi himself — that costs 60 coins.",
+      "knopf": "Pick up 🧳",
+      "fertig": "Reunited! Gooby brings {coins} souvenir coins & postcards!"
+    },
+    "cutscene": {
+      "skip": "Skip ›",
+      "karte_1": "Gooby drags the trolley case out the back door…",
+      "karte_2": "One last wave in the driveway.",
+      "karte_3": "The taxi is already waiting at the curb.",
+      "karte_4": "Once across the whole city…",
+      "karte_5": "And off into the clouds! Safe travels, Gooby! ✈",
+      "karte_rueckkehr": "Gooby is back — with a bag, a suitcase and a giant grin!"
+    },
+    "gooberando": {
+      "slogan": "Gooby first.",
+      "gebuehr": "Delivery fee: {gebuehr} ᴳ per order",
+      "unterwegs": "🍜 Your food is on its way…",
+      "countdown": "Arriving in approx. {min}:{s} min",
+      "klingel": "DING DONG! The delivery Gooby is here!",
+      "annehmen": "Open the door",
+      "uebergeben": "Here you go, still warm! Bow included.",
+      "trinkgeld_geben": "Tip (5 ᴳ) 💛",
+      "nur_winken": "Just wave",
+      "bestellt": "Order placed! The kitchen is goobying already.",
+      "abgestellt": "The bag was left at the door. Note: \"I rang! – G.\"",
+      "buff": "Extra grin 😁 — Gooby tires more slowly for 2 hours!",
+      "trinkgeld_hinweis": "Tipping never hurts ;)",
+      "notif_da": "🍜 Your food is here! DING DONG"
+    }
+  }
+}

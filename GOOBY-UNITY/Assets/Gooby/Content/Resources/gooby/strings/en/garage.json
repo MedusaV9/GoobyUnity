@@ -1,0 +1,11 @@
+{
+	"garage": {
+		"name": "Garage",
+		"gebaut": "Garage already built!",
+		"schon_gebaut": "You already have a garage — one is plenty!",
+		"fertig": "Tadaa! The garage is up — Blechbert's finest parks dry now!",
+		"tor_auf": "Open door",
+		"tor_zu": "Close door",
+		"kein_auto": "No car yet? Pay Blechbert a visit!"
+	}
+}

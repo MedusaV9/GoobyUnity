@@ -1,0 +1,52 @@
+{
+  "id": "raumstation_besuch",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "kosmo",
+      "text": [
+        "Welcome aboard GOOB-1! Please don't knock on the window — outer space startles so easily.",
+        "I'm Kosmo: station chief, snack officer and manager on duty. All at once. We're a little understaffed up here."
+      ],
+      "optionen": [
+        {"text": "Why am I bouncing so weirdly?", "next": "schwerkraft"},
+        {"text": "What are those machines over there?", "next": "terminals"},
+        {"text": "Anything to eat up here?", "next": "snacks"},
+        {"text": "Just looking out the window.", "next": "fenster"}
+      ]
+    },
+    "schwerkraft": {
+      "sprecher": "kosmo",
+      "text": [
+        "That's the onboard gravity! We set it to \"cozy\".",
+        "Jump higher, land slower. Your knees will thank you. The ceiling padding, less so."
+      ],
+      "next": "hallo"
+    },
+    "terminals": {
+      "sprecher": "kosmo",
+      "text": [
+        "Our two game terminals! Rocket Rescue and Star Hopper — straight from the source, so to speak.",
+        "There's plenty of room to practice outside, after all. Please crash INSIDE only."
+      ],
+      "ende": true
+    },
+    "snacks": {
+      "sprecher": "kosmo",
+      "text": [
+        "The astro snack machine! House specialty: the Space Carrot. Crunches like a tiny meteorite.",
+        "The surcharge covers shipping, by the way. 400 kilometres of delivery route — straight up!"
+      ],
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "fenster": {
+      "sprecher": "kosmo",
+      "text": [
+        "Go ahead! Best view in the whole solar system — at least that's what our brochure says.",
+        "The photo spot by the window is marked. Earth poses all day long anyway."
+      ],
+      "ende": true
+    }
+  }
+}

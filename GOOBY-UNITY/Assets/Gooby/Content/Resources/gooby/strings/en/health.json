@@ -1,0 +1,12 @@
+{
+	"health": {
+		"warnung_bauch": "Gooby's tummy is gurgling ominously …",
+		"kraenklich": "Gooby feels queasy. Rest and something healthy will help.",
+		"krank": "Gooby is properly sick. Medicine or the vet will help.",
+		"erholt": "Gooby feels right as rain again!",
+		"hatschi": "Achoo!",
+		"medizin_ok": "Swallowed like a champ. The medicine is already working.",
+		"medizin_keine": "No medicine in the house — the GOOBYTHEKE can help.",
+		"medizin_gesund": "Gooby is healthy. Let's save the medicine for later."
+	}
+}

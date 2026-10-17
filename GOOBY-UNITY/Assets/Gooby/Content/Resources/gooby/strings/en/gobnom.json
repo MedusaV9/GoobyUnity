@@ -1,0 +1,86 @@
+{
+	"gobnom": {
+		"select": {
+			"title": "GOB NOM",
+			"campaign": "Campaign",
+			"coop": "Co-op (2 players — left A, right B)",
+			"done": "Done",
+			"stars": "Nutella jars: {n}/{max}",
+			"new": "NEW"
+		},
+		"hud": {
+			"level": "Level {n}",
+			"coop_level": "Co-op {n}",
+			"cuts": "Cuts left: {n}",
+			"jar": "+Nutella!",
+			"wrong_side": "Wrong side!"
+		},
+		"intro": {
+			"rope": "Swipe through the rope — into the mouth!",
+			"ropes": "Two ropes: timing is everything.",
+			"timing": "Let it swing, then cut!",
+			"bubble": "Bubbles lift you up — tap to pop.",
+			"bubble_rope": "Bubble + rope: swing first, then rise.",
+			"cushion": "Tap the cushion for an air blast!",
+			"cushion_combo": "Flipper cushions: up left, over right.",
+			"slider": "Drag the anchor along the rail!",
+			"shooter": "The shooter catches — you cut free.",
+			"spikes": "Careful, spikes! Swing with precision.",
+			"fan": "The fan is blowing — push against it!",
+			"cloud": "Cotton candy softens the fall.",
+			"all": "Everything at once: rail, cushion, bubble, cloud.",
+			"cut_limit": "Only 3 cuts — let the wind help.",
+			"finale": "Finale! Swing, puff, bubble, cloud, NOM.",
+			"relay": "Relay: A cuts left, B cuts right!",
+			"shooter_relay": "A starts, B releases the shooter.",
+			"bubble_relay": "A cuts, B pops it over the mouth.",
+			"cushion_volley": "Cushion volley: A flips, B counters.",
+			"slider_relay": "Rail relay: A slides, B takes over.",
+			"y_split": "A cuts up top, B puffs below!",
+			"fan_off": "B: kill the storm! A: swing away.",
+			"shooter_chain": "Chain: A releases left, B right.",
+			"combo": "Teamwork: A rail+cushion, B bubble.",
+			"finale_coop": "Co-op finale: A swing+puff, B the pop."
+		},
+		"end": {
+			"win": "NOM! Yummy!",
+			"lose": "Oh no — the candy is gone…",
+			"lose_hint": "Tip: watch where it swings first!",
+			"score": "{n} points",
+			"first_clear": "First-clear bonus!",
+			"next": "Next ›",
+			"retry": "Retry",
+			"select": "Level select"
+		},
+		"netz": {
+			"button": "Play with a friend",
+			"bereit": "Invite a friend — play the co-op levels together!",
+			"offline": "Offline — online co-op needs a connection.",
+			"keine_freunde": "No friend is online right now.",
+			"einladen": "Invite",
+			"eingeladen": "Invite sent to {name} — waiting for a reply…",
+			"laedt_ein": "{name} invites you to co-op!",
+			"annehmen": "Accept",
+			"ablehnen": "Decline",
+			"abgelehnt": "{name} declined.",
+			"fehler": "That didn't work ({code}).",
+			"verbunden": "Connected with {name} — pick a co-op level together!",
+			"trennen": "Disconnect",
+			"eigenes_level": "You: co-op {n}",
+			"partner_level": "{name}: co-op {n}",
+			"start_banner": "Here we go — with {name}!",
+			"warte_partner": "Waiting for partner…",
+			"partner_weg": "{name} has connection trouble…",
+			"partner_da": "{name} is back!",
+			"desync": "Oops — you fell out of sync. Round ended.",
+			"abbruch": "The co-op round was ended."
+		},
+		"editor": {
+			"loesbar": "SOLVABLE ✔",
+			"nicht_loesbar": "NOT SOLVABLE ✘",
+			"nichts_gewaehlt": "Nothing selected — click an element in the field.",
+			"hint_f6": "GOB-NOM level editor: run the scene with F6 (see README.md).",
+			"snap_raster": "Snap grid (px)"
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+  "goobyman": {
+    "laden": {
+      "claim": "Alles, was kaputtgehen kann — und der Ersatz dazu!",
+      "erstes_mal": "Erster Besuch! Merk dir den Laden: Wenn deine Zahnbürste bricht, hat der Goobyman neue.",
+      "buerste_status": "Deine Bürste: {name} — {zustand}",
+      "haltbarkeit": "Haltbarkeit: {n} Punkte",
+      "pflaster_heute": "Heute schon verarztet. Morgen wieder!",
+      "abschnitt_zahnbuersten": "Zahnbürsten",
+      "abschnitt_pflege": "Erste Hilfe & Schlaf"
+    },
+    "buerste": {
+      "standard": "Standard",
+      "flausch": "Flausch",
+      "turbo": "Turbo 3000",
+      "zustand_neu": "wie neu",
+      "zustand_benutzt": "gut eingeputzt",
+      "zustand_ausgefranst": "ganz schön ausgefranst",
+      "zustand_gebrochen": "hinüber"
+    },
+    "zahnputz": {
+      "blockiert": "Die Bürste ist hinüber! Der Goobyman in der Stadt hat neue.",
+      "neue_buerste": "Neue Bürste eingespannt — weiter geht’s!"
+    },
+    "bruch_info": {
+      "titel": "Ups, Bürste kaputt!",
+      "text": "Das passiert den Besten. Der GOOBYMAN-Laden in der Stadt verkauft neue Zahnbürsten — Flausch und Turbo halten länger durch.",
+      "ok": "Alles klar!"
+    },
+    "umhang": {
+      "gag": "FÜNF Artikel?! Das ist ein Fall für… GOOBYMAN!",
+      "pose": "*posiert mit wehendem Handtuch*"
+    }
+  }
+}

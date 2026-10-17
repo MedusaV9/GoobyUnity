@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"id": "ranch_bau",
+	"version": "1.0.0",
+	"priority": 520,
+	"min_native": "5.0.0",
+	"domains": ["balance"],
+	"name_de": "Ranch-Ausbau und Hufingen",
+	"notes_de": "RW-4: Grid-Ausbau der Ranch + Reit-Dorf Hufingen. Kosten/Stufen/Waren liegen als Daten in den balance-Namespaces 'ranchbau' (bau_balance.json) und 'ranchdorf' (dorf_waren.json) und sind per Deep-Merge Content-Pack-updatebar. Dieses Pack demonstriert das rein ADDITIV: ein zusaetzliches Deko-Item (Windspiel) erscheint im Bau-Katalog, ohne App-Update und ohne bestehende Preise anzufassen."
+}

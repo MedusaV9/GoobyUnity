@@ -1,0 +1,188 @@
+{
+ "v": 2,
+ "createdAt": 1763294400000,
+ "lastTickAt": 1768460400000,
+ "stats": {
+  "hunger": 40,
+  "energy": 80,
+  "hygiene": 30,
+  "fun": 66
+ },
+ "sleep": {
+  "sleeping": false,
+  "startedAt": 0,
+  "wakeAt": 0
+ },
+ "grumpyUntil": 0,
+ "coins": 812,
+ "xp": 40,
+ "level": 7,
+ "inventory": {
+  "carrot": 1
+ },
+ "furniture": {
+  "owned": [
+   "bedDouble"
+  ],
+  "placed": {
+   "bedroom:bed": "bedDouble"
+  }
+ },
+ "decor": {
+  "wallpaper": {},
+  "floor": {}
+ },
+ "outfits": {
+  "owned": [
+   "partyHat"
+  ],
+  "equipped": {
+   "hat": "partyHat",
+   "glasses": null,
+   "neck": null
+  }
+ },
+ "minigames": {
+  "best": {
+   "carrotCatch": 33
+  },
+  "plays": {
+   "carrotCatch": 9
+  },
+  "lastPlayDay": {}
+ },
+ "achievements": {
+  "unlocked": {
+   "firstNom": 1764158400000
+  },
+  "counters": {
+   "feeds": 60,
+   "washes": 10,
+   "sleeps": 12,
+   "trips": 2,
+   "tickles": 5,
+   "petsToday": 0,
+   "petsDay": "",
+   "harvests": 3,
+   "plantings": 4,
+   "waterings": 9,
+   "sells": 1,
+   "cures": 0,
+   "vetTrips": 0,
+   "deliveries": 0,
+   "questsDone": 2,
+   "photosTaken": 0,
+   "nightPlays": 0,
+   "medsGiven": 0,
+   "balls": 7
+  }
+ },
+ "daily": {
+  "lastClaimDay": "2026-01-10",
+  "streak": 2
+ },
+ "quickDelivery": false,
+ "settings": {
+  "lang": "de",
+  "sfx": true,
+  "music": false,
+  "haptics": true,
+  "notifications": "unasked"
+ },
+ "onboarding": {
+  "done": true,
+  "step": 99,
+  "whatsNew2Seen": false
+ },
+ "garden": {
+  "plotsOwned": 4,
+  "plots": [
+   {
+    "crop": "radish",
+    "plantedAt": 1768474800000,
+    "progressMin": 5,
+    "wateredUntil": 0,
+    "waterings": 1,
+    "fertilized": false
+   },
+   {
+    "crop": null,
+    "plantedAt": 0,
+    "progressMin": 0,
+    "wateredUntil": 0,
+    "waterings": 0,
+    "fertilized": false
+   },
+   {
+    "crop": null,
+    "plantedAt": 0,
+    "progressMin": 0,
+    "wateredUntil": 0,
+    "waterings": 0,
+    "fertilized": false
+   },
+   {
+    "crop": null,
+    "plantedAt": 0,
+    "progressMin": 0,
+    "wateredUntil": 0,
+    "waterings": 0,
+    "fertilized": false
+   },
+   {
+    "crop": null,
+    "plantedAt": 0,
+    "progressMin": 0,
+    "wateredUntil": 0,
+    "waterings": 0,
+    "fertilized": false
+   },
+   {
+    "crop": null,
+    "plantedAt": 0,
+    "progressMin": 0,
+    "wateredUntil": 0,
+    "waterings": 0,
+    "fertilized": false
+   }
+  ],
+  "lastTickAt": 1768474800000
+ },
+ "health": {
+  "state": "healthy",
+  "junkScore": 10,
+  "neglectMin": 0,
+  "recoverMin": 0,
+  "since": 0
+ },
+ "weight": {
+  "value": 48
+ },
+ "quests": {
+  "day": "",
+  "active": [],
+  "rerolledDay": "",
+  "completedTotal": 2
+ },
+ "collections": {
+  "entries": {},
+  "claimedSets": {}
+ },
+ "skins": {
+  "owned": [
+   "cream"
+  ],
+  "equipped": "cream"
+ },
+ "items": {
+  "medicine": 0,
+  "fertilizer": 1
+ },
+ "profile": {
+  "playtimeMin": 300,
+  "coinsEarned": 1500,
+  "coinsSpent": 688,
+  "distanceM": 900,
+  "photos": 0
+ }
+}

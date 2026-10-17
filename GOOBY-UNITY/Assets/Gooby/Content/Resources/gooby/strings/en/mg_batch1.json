@@ -1,0 +1,105 @@
+{
+	"mg": {
+		"bubblePop": {
+			"title": "Bubble Pop",
+			"hint": "Only tap the bubbles carrying the wanted food!",
+			"target": "Pop: {food}",
+			"wrong": "Wrong bubble! −2",
+			"spiky": "Ouch! Spiky! −1",
+			"chain": "Chain reaction!",
+			"spikes": "Spikes: {n}/{max}",
+			"food_carrot": "Carrot",
+			"food_apple": "Apple",
+			"food_banana": "Banana",
+			"food_cheese": "Cheese",
+			"food_donut": "Sprinkle donut",
+			"food_cupcake": "Cupcake"
+		},
+		"memoryMatch": {
+			"title": "Memory Match",
+			"hint": "Tap two cards and find the pairs!",
+			"peek": "Peek! Remember them!",
+			"peek_ready": "Peek earned — tap the button!",
+			"peek_button": "Peek",
+			"cleared": "All pairs found!",
+			"pairs": "Pairs: {n}/{max}",
+			"misses": "Misses: {n}/{max}"
+		},
+		"goobySays": {
+			"title": "Gooby Says",
+			"hint": "Memorise the sequence and tap it back!",
+			"round": "Round {n}",
+			"watch": "Watch closely…",
+			"go": "Your turn!",
+			"chord": "Chord! Tap both pads!",
+			"oops": "Missed it!"
+		},
+		"pipeFlow": {
+			"title": "Pipe Panic",
+			"hint": "Rotate the pipes until the water reaches the sprinkler!",
+			"puzzle": "Puzzle {n}",
+			"solved": "Connected! Water flows!",
+			"leak": "It's dripping! −5",
+			"taps": "Turns: {n}",
+			"failures": "Slip-ups: {n}/{max}"
+		},
+		"carrotGuard": {
+			"title": "Carrot Guard",
+			"hint": "Tap the moles before they duck away!",
+			"combo": "Combo! +3",
+			"steal": "A carrot got stolen!",
+			"king": "Mole King! 3 bonks!",
+			"king_defeated": "King bonked! +8 + 2 coins",
+			"empty": "All carrots gone!",
+			"carrots": "Carrots: {n}/{max}",
+			"stolen": "Stolen: {n}/{max}"
+		},
+		"bunnyHop": {
+			"title": "Bunny Hop",
+			"hint": "Tap to make Gooby hop — fly through the gates!",
+			"crash": "Bonk!",
+			"gust": "Gust! Gates score ×2",
+			"gust_warn": "Watch out, wind!",
+			"gates": "Gates: {n}",
+			"narrow": "Getting tighter!"
+		},
+		"trampoline": {
+			"title": "Trampoline Tricks",
+			"hint": "Tap just before the mat — swipe mid-air for tricks!",
+			"intro": "Tap in the green window!",
+			"boost": "Boost!",
+			"butt": "Ouch — butt landing!",
+			"flip": "Flip!",
+			"spin": "Spin!",
+			"twist": "Twist!",
+			"combo": "All three! +12",
+			"mult": "Height ×{n}",
+			"tier": "Height ×{n}!",
+			"fails": "Crash landings: {n}/{max}"
+		},
+		"veggieChop": {
+			"title": "Veggie Chop",
+			"hint": "Swipe through the veggies — leave the junk alone!",
+			"intro": "Swipe through the veggies!",
+			"combo": "Combo! +1",
+			"junk": "Yuck! −3",
+			"miss": "Dropped! {n} left…",
+			"over": "Too many dropped…",
+			"frenzy": "FRENZY! 8 veggies!",
+			"missed": "Dropped: {n}/{max}",
+			"junk_hits": "Junk: {n}/{max}"
+		},
+		"gardenRush": {
+			"title": "Watering Rush",
+			"hint": "Hold on a pot until the ring turns green — then let go!",
+			"perfect": "Perfect! +3",
+			"early": "Okay +1",
+			"wilted": "Wilted… −2",
+			"weed": "A weed! −1",
+			"sprinkler_ready": "Sprinkler ready! Tap it!",
+			"sprinkler_used": "Sprinkler! {n} rings +50%",
+			"more_pots": "More pots!",
+			"withered": "Withered: {n}/{max}"
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"mg": {
+		"goobySays": {
+			"intro": "Bühne frei! Merk dir Goobys Zeichen!"
+		},
+		"memoryMatch": {
+			"intro": "Finde die Paare auf der Decke!",
+			"oops": "Kein Paar!"
+		}
+	}
+}

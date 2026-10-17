@@ -1,0 +1,14 @@
+{
+	"daily": {
+		"titel": "Daily Bonus",
+		"untertitel": "A little gift every day you visit Gooby!",
+		"serie": "Streak: day {tag}",
+		"belohnung": "+{coins} coins",
+		"snack": "+ a snack surprise",
+		"kulanz": "Missed a day — no worries, your streak carries on!",
+		"abholen": "Claim!",
+		"spaeter": "Later",
+		"claimed_toast": "+{coins} coins — see you tomorrow!",
+		"claimed_snack_toast": "+{coins} coins and {snack} — see you tomorrow!"
+	}
+}

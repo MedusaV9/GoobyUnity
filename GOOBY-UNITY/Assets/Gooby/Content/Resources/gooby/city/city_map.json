@@ -1,0 +1,176 @@
+{
+  "kommentar": "Stadtplan GOOBY 5.0 (Doc E §1.2): 15×12-Lattice, 20-m-Tiles, fest geauthort. Seed variiert NUR Deko (Bäume/Props). Reihen/Spalten = Straßen-Lattice, kreisel = road-roundabout-Tiles, extra = Flughafen-Zubringer (Sackgasse).",
+  "grid_spalten": 15,
+  "grid_reihen": 12,
+  "tile_m": 20.0,
+  "deko_seed": 20260725,
+  "strassen": {
+    "reihen": [1, 4, 7, 10],
+    "reihen_spalten": [1, 13],
+    "spalten": [1, 6, 10, 13],
+    "spalten_reihen": [1, 10],
+    "extra": [[0, 4]],
+    "kreisel": [[1, 6], [7, 6]]
+  },
+  "distrikte": {
+    "gewerbe": {"zonen": [[2, 2, 3, 12]], "energie": 5},
+    "zentrum": {"zonen": [[5, 2, 6, 12]], "energie": 4},
+    "wohnen": {"zonen": [[8, 2, 9, 5], [8, 11, 9, 12]], "energie": 4},
+    "park": {"zonen": [[8, 7, 9, 9]], "energie": 6},
+    "flughafen": {"zonen": [[0, 2, 0, 5]], "energie": 6},
+    "funkelpark": {"zonen": [[11, 6, 11, 9]], "energie": 6}
+  },
+  "zuhause": {"tile": [9, 2], "strasse": [9, 1], "einfahrt_m": 11.5},
+  "gooberando_kueche": {"tile": [5, 5], "strasse": [5, 6]},
+  "orte": [
+    {
+      "id": "rehwei",
+      "name_key": "city.ort.rehwei",
+      "typ": "laden",
+      "tiles": [[5, 2], [5, 3]],
+      "strasse": [5, 1],
+      "distrikt": "zentrum",
+      "szene": "res://scenes/city/orte/rehwei.tscn",
+      "fassade": {"glb": "building-c", "awning": true, "tint": "#E8524A"}
+    },
+    {
+      "id": "goobytheke",
+      "name_key": "city.ort.goobytheke",
+      "typ": "laden",
+      "tiles": [[6, 2], [6, 3]],
+      "strasse": [6, 1],
+      "distrikt": "zentrum",
+      "szene": "res://scenes/city/orte/goobytheke.tscn",
+      "fassade": {"glb": "building-a", "awning": true, "tint": "#4FBF8B"}
+    },
+    {
+      "id": "gouhbus",
+      "name_key": "city.ort.gouhbus",
+      "typ": "praxis",
+      "tiles": [[6, 11], [6, 12]],
+      "strasse": [6, 10],
+      "distrikt": "zentrum",
+      "szene": "res://scenes/city/orte/gouhbus.tscn",
+      "fassade": {"glb": "building-f", "awning": false, "tint": "#F0EFE9"}
+    },
+    {
+      "id": "tierarzt",
+      "name_key": "vet.ort_name",
+      "typ": "praxis",
+      "tiles": [[6, 4]],
+      "strasse": [7, 4],
+      "distrikt": "zentrum",
+      "szene": "res://scenes/city/orte/tierarzt.tscn",
+      "fassade": {"glb": "building-f", "awning": true, "tint": "#8ED0A0"}
+    },
+    {
+      "id": "flughafen",
+      "name_key": "city.ort.flughafen",
+      "typ": "flughafen",
+      "tiles": [[0, 2], [0, 3]],
+      "strasse": [0, 4],
+      "distrikt": "flughafen",
+      "szene": "res://scenes/city/orte/flughafen.tscn",
+      "fassade": {"glb": "building-e", "awning": false, "tint": "#FFFFFF"}
+    },
+    {
+      "id": "baumarkt",
+      "name_key": "city.ort.baumarkt",
+      "typ": "laden",
+      "tiles": [[2, 7], [2, 8], [3, 7]],
+      "strasse": [1, 7],
+      "distrikt": "gewerbe",
+      "szene": "res://scenes/city/orte/baumarkt.tscn",
+      "fassade": {"glb": "building-g", "awning": true, "tint": "#F2A03D"}
+    },
+    {
+      "id": "post",
+      "name_key": "city.ort.post",
+      "typ": "amt",
+      "tiles": [[5, 11]],
+      "strasse": [4, 11],
+      "distrikt": "zentrum",
+      "szene": "res://scenes/city/orte/post.tscn",
+      "fassade": {"glb": "building-b", "awning": false, "tint": "#FFD166"}
+    },
+    {
+      "id": "pow",
+      "name_key": "city.ort.pow",
+      "typ": "laden",
+      "tiles": [[5, 9]],
+      "strasse": [5, 10],
+      "distrikt": "zentrum",
+      "szene": "res://scenes/city/orte/pow.tscn",
+      "fassade": {"glb": "building-b", "awning": true, "tint": "#F2C14E"}
+    },
+    {
+      "id": "autohaus",
+      "name_key": "city.ort.autohaus",
+      "typ": "laden",
+      "tiles": [[2, 11], [2, 12], [3, 12]],
+      "strasse": [2, 10],
+      "distrikt": "gewerbe",
+      "szene": "res://scenes/city/orte/autohaus.tscn",
+      "fassade": {"glb": "building-g", "awning": false, "tint": "#8FD0E8"}
+    },
+    {
+      "id": "wochenmarkt",
+      "name_key": "city.ort.wochenmarkt",
+      "typ": "markt",
+      "tiles": [[6, 7], [6, 8]],
+      "strasse": [6, 6],
+      "distrikt": "zentrum",
+      "szene": "res://scenes/city/orte/wochenmarkt.tscn",
+      "oeffnung": {"wochentage": [6], "von_stunde": 8, "bis_stunde": 14},
+      "fassade": {"glb": "", "awning": false, "tint": ""}
+    },
+    {
+      "id": "goobyman",
+      "name_key": "city.ort.goobyman",
+      "typ": "laden",
+      "tiles": [[6, 5]],
+      "strasse": [7, 5],
+      "distrikt": "zentrum",
+      "szene": "res://scenes/city/orte/goobyman.tscn",
+      "fassade": {"glb": "building-b", "awning": true, "tint": "#D94F8C"}
+    },
+    {
+      "id": "funkelpark",
+      "name_key": "park.ort.funkelpark",
+      "typ": "freizeitpark",
+      "tiles": [[11, 7], [11, 8]],
+      "strasse": [10, 7],
+      "distrikt": "funkelpark",
+      "szene": "res://scenes/park/funkelpark.tscn",
+      "fassade": {"glb": "building-e", "awning": true, "tint": "#F781B0"}
+    }
+  ],
+  "deko": [
+    {"id": "ikea", "glb": "gebaeude/building-e.glb", "tile": [2.5, 2.5], "rot": 180, "scale": 15, "tint": "#4E79D6", "name_key": "city.ort.ikea", "schild_tint": "#FFD100", "schild_strasse": [4, 2]},
+    {"id": "markt_stand_a", "glb": "gebaeude/detail-awning.glb", "tile": [5.75, 6.8], "rot": 0, "scale": 7, "tint": "#E8524A"},
+    {"id": "markt_stand_b", "glb": "gebaeude/detail-awning.glb", "tile": [5.75, 7.9], "rot": 0, "scale": 7, "tint": "#4FBF8B"},
+    {"id": "markt_stand_c", "glb": "gebaeude/detail-awning.glb", "tile": [6.3, 6.8], "rot": 180, "scale": 7, "tint": "#4E79D6"},
+    {"id": "markt_stand_d", "glb": "gebaeude/detail-awning.glb", "tile": [6.3, 7.9], "rot": 180, "scale": 7, "tint": "#F2C14E"},
+    {"id": "wochenmarkt_kisten", "glb": "innen/crate_tomatoes.gltf", "tile": [5.95, 7.4], "rot": 15, "scale": 4.0},
+    {"id": "wochenmarkt_kisten2", "glb": "innen/crate_buns.gltf", "tile": [5.95, 8.0], "rot": 340, "scale": 4.0},
+    {"id": "wochenmarkt_schild", "glb": "innen/menu.gltf", "tile": [6.05, 6.6], "rot": 270, "scale": 4.0},
+    {"id": "haus_a", "glb": "res://assets/models/cc0/kenney_city_suburban/building_type_b.glb", "tile": [8, 2], "rot": 0, "scale": 5, "tint": "#CDE7FF"},
+    {"id": "haus_b", "glb": "res://assets/models/cc0/kenney_city_suburban/building_type_d.glb", "tile": [8, 4], "rot": 0, "scale": 5, "tint": "#FFD9D0"},
+    {"id": "haus_c", "glb": "res://assets/models/cc0/kenney_city_suburban/building_type_g.glb", "tile": [9, 4], "rot": 270, "scale": 5.5, "tint": "#E4F1D0"},
+    {"id": "haus_d", "glb": "res://assets/models/cc0/kenney_city_suburban/building_type_j.glb", "tile": [8, 11], "rot": 90, "scale": 5.5, "tint": "#F5E6FF"},
+    {"id": "haus_e", "glb": "res://assets/models/cc0/kenney_city_suburban/building_type_o.glb", "tile": [9, 11.7], "rot": 90, "scale": 6, "tint": "#FFE2B8"},
+    {"id": "haus_f", "glb": "res://assets/models/cc0/kenney_city_suburban/building_type_p.glb", "tile": [9, 12.4], "rot": 90, "scale": 6, "tint": "#CDE7FF"},
+    {"id": "spielerhaus", "glb": "res://assets/models/cc0/kenney_city_suburban/building_type_e.glb", "tile": [9, 2], "rot": 270, "scale": 6, "tint": "#FFE2B8"},
+    {"id": "tower_gewerbe", "glb": "gebaeude/building-skyscraper-a.glb", "tile": [2, 9.5], "rot": 0, "scale": 10},
+    {"id": "flughafen_tower", "glb": "gebaeude/low-detail-building-a.glb", "tile": [0, 5], "rot": 0, "scale": 11}
+  ],
+  "parken": {"radius_m": 4.0, "trigger_offset_m": 9.5},
+  "traffic_loops": [
+    [[1, 1], [1, 6], [4, 6], [4, 1]],
+    [[4, 6], [4, 13], [7, 13], [7, 6]],
+    [[1, 1], [1, 13], [10, 13], [10, 1]],
+    [[4, 1], [4, 6], [7, 6], [7, 1]],
+    [[7, 10], [7, 13], [10, 13], [10, 10]],
+    [[1, 6], [1, 10], [7, 10], [7, 6]]
+  ]
+}

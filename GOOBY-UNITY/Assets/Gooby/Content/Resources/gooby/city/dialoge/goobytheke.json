@@ -1,0 +1,35 @@
+{
+  "id": "goobytheke_hilde",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "hilde",
+      "text": "Willkommen in der GOOBYTHEKE. Rezept oder Ratschlag?",
+      "optionen": [
+        {"text": "Rezept, bitte!", "next": "rezept_einloesen", "cond": "flag:rezept_tropfen"},
+        {"text": "Was hilft gegen Bauchweh?", "next": "ratschlag"},
+        {"text": "Ich schau mich nur um.", "next": "laden"}
+      ]
+    },
+    "rezept_einloesen": {
+      "sprecher": "hilde",
+      "text": [
+        "Vom GOOUHBUS? Kann man das überhaupt lesen? … Ah. ‚Käsebrot‘. Der alte Gauner.",
+        "Hier, die Gooby-Tropfen. Dreimal täglich, nicht auf die Möbel."
+      ],
+      "effekt": ["flag_weg:rezept_tropfen", "item:medicine"],
+      "ende": true
+    },
+    "ratschlag": {
+      "sprecher": "hilde",
+      "text": "Weniger Nutella. — Ich weiß. Ich sage es trotzdem jedes Mal.",
+      "next": "hallo"
+    },
+    "laden": {
+      "sprecher": "hilde",
+      "text": "Gerne! Die Tropfen gibt’s aber nur mit Rezept, Schatz.",
+      "effekt": ["laden"],
+      "ende": true
+    }
+  }
+}

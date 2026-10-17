@@ -1,0 +1,52 @@
+{
+  "id": "raumstation_besuch",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "kosmo",
+      "text": [
+        "Willkommen an Bord der GOOB-1! Bitte nicht gegen das Fenster klopfen — das Weltall erschrickt so leicht.",
+        "Ich bin Kosmo, Stationsleiter, Snackwart und Chef vom Dienst. Alles gleichzeitig. Wir sind hier oben etwas unterbesetzt."
+      ],
+      "optionen": [
+        {"text": "Warum hüpfe ich hier so komisch?", "next": "schwerkraft"},
+        {"text": "Was machen die Automaten da?", "next": "terminals"},
+        {"text": "Gibt es hier oben was zu essen?", "next": "snacks"},
+        {"text": "Ich schaue nur aus dem Fenster.", "next": "fenster"}
+      ]
+    },
+    "schwerkraft": {
+      "sprecher": "kosmo",
+      "text": [
+        "Das ist die Bord-Schwerkraft! Wir haben sie auf »gemütlich« gestellt.",
+        "Höher hüpfen, langsamer landen. Die Knie danken es dir. Das Deckenpolster leider nicht."
+      ],
+      "next": "hallo"
+    },
+    "terminals": {
+      "sprecher": "kosmo",
+      "text": [
+        "Unsere zwei Spiel-Terminals! Raketen-Rettung und Sternenhüpfer — direkt an der Quelle, sozusagen.",
+        "Draußen ist schließlich genug Platz zum Üben. Bitte nur DRINNEN abstürzen."
+      ],
+      "ende": true
+    },
+    "snacks": {
+      "sprecher": "kosmo",
+      "text": [
+        "Der Astro-Snack-Automat! Eine Spezialität: die Weltraum-Möhre. Knackt wie ein kleiner Meteorit.",
+        "Der Aufpreis ist übrigens für den Transport. 400 Kilometer Lieferweg, senkrecht!"
+      ],
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "fenster": {
+      "sprecher": "kosmo",
+      "text": [
+        "Nur zu! Bester Blick im ganzen Sonnensystem — sagt jedenfalls unser Prospekt.",
+        "Der Foto-Spot am Fenster ist markiert. Die Erde posiert sowieso den ganzen Tag."
+      ],
+      "ende": true
+    }
+  }
+}

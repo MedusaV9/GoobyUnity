@@ -1,0 +1,11 @@
+{
+	"mg": {
+		"lanternFloat": {
+			"intro": "Rise gently — fly through the star rings!",
+			"win": "You made it! {hits} rings collected!"
+		},
+		"miniGolf": {
+			"intro": "Few strokes — into the hole!"
+		}
+	}
+}

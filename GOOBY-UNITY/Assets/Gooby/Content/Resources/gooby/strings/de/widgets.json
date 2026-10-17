@@ -1,0 +1,36 @@
+{
+	"widgets": {
+		"status": {
+			"schlaeft": "{gooby} schläft bis {zeit}",
+			"urlaub": "{gooby} macht Urlaub: {ziel}",
+			"abholbereit": "{gooby} wartet am Flughafen auf dich!",
+			"ueberfaellig": "{gooby} wartet sehnsüchtig am Flughafen!",
+			"hunger": "{gooby} hat Hunger!",
+			"muede": "{gooby} ist müde …",
+			"dreckig": "{gooby} braucht ein Bad!",
+			"gelangweilt": "{gooby} will spielen!",
+			"uebergluecklich": "{gooby} ist überglücklich!",
+			"gluecklich": "{gooby} ist glücklich.",
+			"zufrieden": "{gooby} ist zufrieden.",
+			"muffelig": "{gooby} braucht dich!",
+			"elend": "{gooby} braucht dich DRINGEND!"
+		},
+		"countdown": {
+			"rueckkehr": "Rückkehr aus: {ziel}",
+			"abholung": "Abholung am Flughafen",
+			"aufwachen": "{gooby} wacht auf",
+			"tagesbonus": "Nächster Tagesbonus",
+			"tagesbonus_bereit": "Tagesbonus bereit!"
+		},
+		"la": {
+			"urlaub_titel": "{gooby} im Urlaub: {ziel}",
+			"urlaub_text": "Rückkehr um {zeit}",
+			"abholung_titel": "{gooby} ist zurück!",
+			"abholung_text": "Wartet am Flughafen — Abholung bis {zeit}",
+			"schlaf_titel": "{gooby} schläft",
+			"schlaf_text": "Wacht um {zeit} auf",
+			"bonus_titel": "Tagesbonus-Serie: Tag {tag}",
+			"bonus_text": "Nächster Bonus ab Mitternacht"
+		}
+	}
+}

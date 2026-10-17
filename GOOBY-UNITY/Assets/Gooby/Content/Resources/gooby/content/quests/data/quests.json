@@ -1,0 +1,212 @@
+{
+	"schema": "gooby.quest/1",
+	"items": [
+		{
+			"id": "feed3",
+			"kategorie": "care",
+			"messung": {"typ": "counter", "key": "feeds"},
+			"ziel": 3,
+			"muenzen": 20,
+			"xp": 10
+		},
+		{
+			"id": "wash1",
+			"kategorie": "care",
+			"messung": {"typ": "counter", "key": "washes"},
+			"ziel": 1,
+			"muenzen": 20,
+			"xp": 10
+		},
+		{
+			"id": "pet5",
+			"kategorie": "care",
+			"messung": {"typ": "streicheln_heute"},
+			"ziel": 5,
+			"muenzen": 15,
+			"xp": 8
+		},
+		{
+			"id": "tickle3",
+			"kategorie": "care",
+			"messung": {"typ": "counter", "key": "tickles"},
+			"ziel": 3,
+			"muenzen": 15,
+			"xp": 8
+		},
+		{
+			"id": "zahn1",
+			"kategorie": "care",
+			"messung": {"typ": "counter", "key": "teeth_brushed"},
+			"ziel": 1,
+			"muenzen": 10,
+			"xp": 5
+		},
+		{
+			"id": "play3",
+			"kategorie": "games",
+			"messung": {"typ": "spiele_gesamt"},
+			"ziel": 3,
+			"muenzen": 30,
+			"xp": 15
+		},
+		{
+			"id": "play2distinct",
+			"kategorie": "games",
+			"messung": {"typ": "spiele_verschieden"},
+			"ziel": 2,
+			"muenzen": 25,
+			"xp": 12
+		},
+		{
+			"id": "earn60",
+			"kategorie": "games",
+			"messung": {"typ": "muenzen_verdient"},
+			"ziel": 60,
+			"muenzen": 30,
+			"xp": 15
+		},
+		{
+			"id": "catch30",
+			"kategorie": "games",
+			"messung": {"typ": "spiel_punkte", "spiel": "carrotCatch"},
+			"ziel": 30,
+			"muenzen": 25,
+			"xp": 12,
+			"braucht": {"minigame": "carrotCatch"}
+		},
+		{
+			"id": "hop10",
+			"kategorie": "games",
+			"messung": {"typ": "spiel_punkte", "spiel": "bunnyHop"},
+			"ziel": 10,
+			"muenzen": 25,
+			"xp": 12,
+			"braucht": {"minigame": "bunnyHop"}
+		},
+		{
+			"id": "run200",
+			"kategorie": "games",
+			"messung": {"typ": "spiel_punkte", "spiel": "runner"},
+			"ziel": 200,
+			"muenzen": 30,
+			"xp": 15,
+			"braucht": {"minigame": "runner"}
+		},
+		{
+			"id": "fisch40",
+			"kategorie": "games",
+			"messung": {"typ": "spiel_punkte", "spiel": "fishingPond"},
+			"ziel": 40,
+			"muenzen": 25,
+			"xp": 12,
+			"braucht": {"minigame": "fishingPond"}
+		},
+		{
+			"id": "dance150",
+			"kategorie": "games",
+			"messung": {"typ": "spiel_punkte", "spiel": "danceParty"},
+			"ziel": 150,
+			"muenzen": 30,
+			"xp": 15,
+			"braucht": {"minigame": "danceParty"}
+		},
+		{
+			"id": "golf70",
+			"kategorie": "games",
+			"messung": {"typ": "spiel_punkte", "spiel": "miniGolf"},
+			"ziel": 70,
+			"muenzen": 30,
+			"xp": 15,
+			"braucht": {"minigame": "miniGolf"}
+		},
+		{
+			"id": "says60",
+			"kategorie": "games",
+			"messung": {"typ": "spiel_punkte", "spiel": "goobySays"},
+			"ziel": 60,
+			"muenzen": 25,
+			"xp": 12,
+			"braucht": {"minigame": "goobySays"}
+		},
+		{
+			"id": "tramp50",
+			"kategorie": "games",
+			"messung": {"typ": "spiel_punkte", "spiel": "trampoline"},
+			"ziel": 50,
+			"muenzen": 25,
+			"xp": 12,
+			"braucht": {"minigame": "trampoline"}
+		},
+		{
+			"id": "liefer60",
+			"kategorie": "games",
+			"messung": {"typ": "spiel_punkte", "spiel": "deliveryRush"},
+			"ziel": 60,
+			"muenzen": 30,
+			"xp": 15,
+			"braucht": {"minigame": "deliveryRush"}
+		},
+		{
+			"id": "tee1",
+			"kategorie": "games",
+			"messung": {"typ": "spiel_runden", "spiel": "teaParty"},
+			"ziel": 1,
+			"muenzen": 20,
+			"xp": 10,
+			"braucht": {"minigame": "teaParty"}
+		},
+		{
+			"id": "gvz1",
+			"kategorie": "games",
+			"messung": {"typ": "spiel_runden", "spiel": "gvz"},
+			"ziel": 1,
+			"muenzen": 25,
+			"xp": 12,
+			"braucht": {"minigame": "gvz"}
+		},
+		{
+			"id": "gobnom1",
+			"kategorie": "games",
+			"messung": {"typ": "spiel_runden", "spiel": "gobnom"},
+			"ziel": 1,
+			"muenzen": 25,
+			"xp": 12,
+			"braucht": {"minigame": "gobnom"}
+		},
+		{
+			"id": "plant2",
+			"kategorie": "garden",
+			"messung": {"typ": "counter", "key": "plantings"},
+			"ziel": 2,
+			"muenzen": 20,
+			"xp": 10,
+			"braucht": {"garden": true}
+		},
+		{
+			"id": "water4",
+			"kategorie": "garden",
+			"messung": {"typ": "counter", "key": "waterings"},
+			"ziel": 4,
+			"muenzen": 20,
+			"xp": 10,
+			"braucht": {"garden": true}
+		},
+		{
+			"id": "harvest2",
+			"kategorie": "garden",
+			"messung": {"typ": "counter", "key": "harvests"},
+			"ziel": 2,
+			"muenzen": 30,
+			"xp": 15,
+			"braucht": {"garden": true}
+		},
+		{
+			"id": "einkauf1",
+			"kategorie": "economy",
+			"messung": {"typ": "muenzen_ausgegeben"},
+			"ziel": 1,
+			"muenzen": 15,
+			"xp": 8
+		}
+	]
+}

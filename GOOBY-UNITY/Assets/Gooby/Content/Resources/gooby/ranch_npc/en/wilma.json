@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_wilma",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "wilma",
+			"text": "An exquisite morning to you! The horse gentry have already dined. In proper style: from a bucket.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "wilma",
+			"text": "Wilma von Wiehernstein, breeder in the third generation. The horses are nobility. I merely pretend.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "wilma",
+			"text": "Good evening! The paddock is at rest. Only Count Gallop is still rolling about. He calls it his evening toilette.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "wilma",
+			"text": "What a downpour! The horses are wearing mud today. They say it is very much in demand this season.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "wilma",
+			"text": "Ah, my dearest soul! The herd has long since knighted you. You may wear the invisible crest.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "wilma",
+			"text": "How may I be of service?",
+			"optionen": [
+				{"text": "Is there a task?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Mission accomplished!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "How is the herd?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "How is the herd?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "How is the herd?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Tell me about the pedigree!", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Why so formal with the horses?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "I take my leave!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "wilma",
+			"text": [
+				"The herd? Splendid. Baroness Trot cleared an obstacle today. It was a bucket.",
+				"We are celebrating anyway. Nobility obliges one to low standards at grand festivities."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "wilma",
+			"text": [
+				"Count Gallop has been asking about you. He snorts twice, which means: where is the good one?",
+				"One snort means food, by the way. Three snorts too. Frankly, almost everything means food."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "wilma",
+			"text": [
+				"Let me confess something: the von is invented. Wiehernstein is a boulder behind the stable.",
+				"But the horses firmly believe in our title. And who am I to contradict nobility?"
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "wilma",
+			"text": "Indeed! A matter of stately urgency. It concerns — naturally — horses.",
+			"optionen": [
+				{"text": "At your service!", "next": "quest_annahme"},
+				{"text": "I am indisposed...", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "wilma",
+			"text": "Splendid! The herd will thank you. Presumably by leaning on you. With their full weight.",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "wilma",
+			"text": "But of course. Good things mature. Like cheese. Or pedigrees.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "wilma",
+			"text": "Excellently executed! I hereby knight you Knight of the Ranch. No need to kneel, there is manure here.",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "wilma",
+			"text": "Hay! The finest hay! You understand true luxury. The herd will turn pale with envy — I am not sharing.",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "wilma",
+			"text": "How gallant! I accept it with both gloves. I own no gloves, but the gesture counts.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "wilma",
+			"text": "Ah. Unusual. I shall display it in the east wing. The east wing is a shelf.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "wilma",
+			"text": [
+				"The pedigree! Count Gallop's ancestor was the fastest horse in the valley. Allegedly.",
+				"In truth he only ran very fast once — from a bee. Three villages far.",
+				"By accident, he won the great race doing it. That, my friend, is how dynasties are born."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "wilma",
+			"text": [
+				"Why so formal? As a child I was tiny and the horses were enormous. I thought they were kings.",
+				"My first sentence to a horse was: Excuse me, Sir, might I pet you?",
+				"It nodded. I have kept it up ever since. One does not break a promise to a king."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "wilma",
+			"text": "Farewell! The herd and I wave. The herd is eating, but inwardly it waves.",
+			"ende": true
+		}
+	}
+}

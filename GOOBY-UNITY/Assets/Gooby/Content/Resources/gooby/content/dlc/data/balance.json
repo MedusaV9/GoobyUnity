@@ -1,0 +1,14 @@
+{
+	"schema": 1,
+	"kommentar": "G5/P24 DLC-GOOBYE-A — Balance-Werte des „Goo und Bye“ (deep-merge, Domain balance — Muster content/ranch/data/balance.json). Freischalt-Gate Level 12 + 2500 Münzen (Doc §7.2: erster Riesen-DLC-Moment, entzerrt 12 → 14 → 15). Margen nach Doc §2.2/§4.4: Einkauf = 60 % des empfohlenen Verkaufspreises, Preis-Schieber ±30 %, Eigenmarke −20 %, Bio +10 %. Alles live per Pack-Update nachsteuerbar.",
+	"values": {
+		"gooundbye": {
+			"preis": 2500,
+			"freischalt_level": 12,
+			"ek_faktor": 0.6,
+			"preis_spanne": 0.3,
+			"eigenmarke_rabatt": 0.2,
+			"bio_aufschlag": 0.1
+		}
+	}
+}

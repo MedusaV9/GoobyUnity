@@ -1,0 +1,36 @@
+{
+	"modifier": {
+		"name": {
+			"doppelGold": "Doppel-Gold",
+			"muenzregen": "Münzregen",
+			"turbo": "Turbo",
+			"lernrausch": "Lernrausch",
+			"federleicht": "Federleicht",
+			"glueckspilz": "Glückspilz"
+		},
+		"desc": {
+			"doppelGold": "Rundenmünzen ×2 bei der Auszahlung!",
+			"muenzregen": "Münzauszahlung ×1,5 für diese Runde!",
+			"turbo": "Turbo-Runde: Punkte ×1,5 am Ende!",
+			"lernrausch": "Doppelte XP für diese Runde!",
+			"federleicht": "Diese Runde kostet keine Energie!",
+			"glueckspilz": "Glücksrolle nach der Runde: +10–60 Münzen!"
+		},
+		"start": "Bonus-Event: {name} in {game}!",
+		"badge": "{name} · {rest}",
+		"pregame": {
+			"titel": "Bonus-Event aktiv!",
+			"runden": "Noch {n} Runden · {rest} übrig",
+			"runde_eine": "Letzte Runde · {rest} übrig"
+		},
+		"results": {
+			"aktiv": "{name} aktiv",
+			"bonus_coins": "+{n} extra",
+			"score_mult": "Punkte ×1,5",
+			"xp_mult": "XP ×2",
+			"energie": "Keine Energie verbraucht",
+			"gluecksrolle": "Glücksrolle +{n}",
+			"capped": "Tagesbonus erreicht"
+		}
+	}
+}

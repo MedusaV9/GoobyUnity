@@ -1,0 +1,133 @@
+{
+	"id": "rnpc_rosi",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "rosi",
+			"text": "Morgenstund hat Mist im Mund! Ich meine … na, du weißt schon. Guten Morgen, Kücken!",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "rosi",
+			"text": "Na, Kücken? Der Stall fegt sich nicht von allein. Hab ich probiert. Dreimal.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "rosi",
+			"text": "Feierabendlicht! Die Pferde schnarchen schon. Eins davon pfeift dabei die Ranch-Hymne.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "rosi",
+			"text": "Rein mit dir! Bei dem Wetter jagt man keinen Gooby vor die Tür. Die Pferde finden's übrigens herrlich.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "rosi",
+			"text": "Ah, mein Lieblingskücken! Komm her, für dich ist der Kaffee im Trog immer warm.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "rosi",
+			"text": "Was liegt an?",
+			"optionen": [
+				{"text": "Gibt's was zu tun?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Erledigt, Chefin!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "Kurz plaudern?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "Kurz plaudern?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "Kurz plaudern?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Erzähl mir von früher!", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Was ist mit dem Kopftuch?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Bis später!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "rosi",
+			"text": [
+				"Merk dir eins: Ein sauberer Stall ist ein halber Sieg.",
+				"Die andere Hälfte ist Heu. Streng genommen ist also alles Heu."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "rosi",
+			"text": [
+				"Du machst dich, Kücken. Die Pferde drehen schon die Ohren, wenn du kommst.",
+				"Das machen die sonst nur bei mir. Und beim Futterwagen. Gut, hauptsächlich beim Futterwagen."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "rosi",
+			"text": [
+				"Weißt du, ich sag's nicht oft: Ohne dich wäre der Hof noch immer ein Haufen Bretter mit Meinung.",
+				"Sag's nicht weiter. Ich hab einen Ruf als Raubein zu verlieren."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "rosi",
+			"text": "Ich hätte da was. Nichts Wildes — außer es geht schief, dann wird's wild.",
+			"optionen": [
+				{"text": "Mach ich!", "next": "quest_annahme"},
+				{"text": "Gerade schlecht …", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "rosi",
+			"text": "So mag ich das! Zack, zack — und wehe, du machst es besser als ich.",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "rosi",
+			"text": "Kein Drama. Der Mist läuft nicht weg. Das ist das Schöne und das Traurige an Mist.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "rosi",
+			"text": "Sieh an, sieh an! Sauber gemacht, Kücken. Hier, halt die Hufe auf.",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "rosi",
+			"text": "Ein Apfel?! Für MICH? Kücken, jetzt werd ich weich. Sag's keinem.",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "rosi",
+			"text": "Oh, danke! Das wandert nicht in den Futtertrog. Höchstens halb.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "rosi",
+			"text": "Hm. Es ist der Gedanke, der zählt. Der Gedanke zählt gerade sehr, sehr laut.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "rosi",
+			"text": [
+				"Früher? Früher stand hier gar nichts. Nur ich, ein Eimer und ein Pony namens Bruno.",
+				"Bruno hat den Eimer gefressen. Da wusste ich: Das wird ein guter Hof."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "rosi",
+			"text": [
+				"Das Kopftuch? Das war von meiner Oma. Sie hat damit den großen Sturm von damals überstanden.",
+				"Nicht das Tuch hat geholfen. Aber Oma sah dabei fantastisch aus, und darauf kommt es an.",
+				"Jetzt weißt du's. Wenn du es weitererzählst, muss ich dich leider adoptieren."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "rosi",
+			"text": "Lauf, Kücken! Und denk dran: Erst das Pferd, dann das Vergnügen. Meistens ist beides dasselbe.",
+			"ende": true
+		}
+	}
+}

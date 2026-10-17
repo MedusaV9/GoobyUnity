@@ -1,0 +1,132 @@
+/* gooby-instant.uss — see header comment in GoobyTheme.tss */
+/* Photos: polaroids for photo letters (MailboxScreen) and the InstantGooby feed (InstantScreen), on the online-window
+   kit of gooby-base.uss (.gb-online-panel, .gb-on-head, .gb-on-card, .gb-on-chip).
+   .gb-polaroid > .gb-polaroid-photo (background = the photo texture, set from code; > .gb-polaroid-empty while it loads
+   or is missing) + .gb-polaroid-caption. Tilt comes from code (rotate), --loaded once the texture is in.
+   Feed: .gb-instant-feed (wrapping row) > .gb-instant-card (--mine for own posts) > polaroid, .gb-instant-who,
+   .gb-instant-likes (.gb-instant-carrots count pill + .gb-instant-like button, --done after our carrot). */
+
+/* ---------- polaroid ---------- */
+.gb-polaroid {
+    align-self: flex-start;
+    flex-shrink: 0;
+    padding: 10px 10px 12px 10px;
+    border-radius: 6px;
+    background-color: var(--gb-weiss);
+    border-width: 1px;
+    border-color: rgba(107, 79, 58, 0.10);
+    border-bottom-width: 4px;
+    border-bottom-color: rgba(107, 79, 58, 0.14);
+}
+.gb-polaroid-photo {
+    border-radius: 3px;
+    background-color: #F3E6D6;
+    -unity-background-scale-mode: scale-and-crop;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.gb-polaroid-empty {
+    flex-grow: 1;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDF1E4;
+}
+.gb-polaroid-empty-icon { width: 38px; height: 38px; opacity: 0.55; }
+.gb-polaroid-status {
+    margin-top: 6px;
+    padding: 0 10px 0 10px;
+    font-size: var(--gb-sm);
+    -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf");
+    color: var(--gb-text-mild);
+    white-space: normal;
+    -unity-text-align: middle-center;
+}
+.gb-polaroid-caption {
+    margin-top: 10px;
+    padding: 0 4px 0 4px;
+    font-size: 15px;
+    -unity-font-definition: url("../Fonts/Nunito-Bold.ttf");
+    color: #6B4F3A;
+    white-space: normal;
+    -unity-text-align: middle-center;
+}
+
+/* ---------- photo letters (Briefkasten) ---------- */
+.gb-letter-polaroid { margin: 12px 0 4px 8px; }
+.gb-compose-photo { flex-direction: row; align-items: flex-start; }
+.gb-compose-photo-side { flex-grow: 1; flex-shrink: 1; margin-right: 14px; }
+.gb-compose-photo-side > .gb-on-chip { align-self: flex-start; }
+.gb-compose-photo-note { margin-top: 2px; max-width: 320px; }
+.gb-compose-photo-retake { align-self: flex-start; margin-top: 2px; }
+.gb-on-chip--photo.gb-on-chip--active { background-color: var(--gb-himmelblau); border-color: var(--gb-himmelblau); }
+.gb-compose-polaroid { margin: 0 10px 6px 0; padding: 6px 6px 8px 6px; }
+
+/* ---------- InstantGooby window ---------- */
+.gb-instant-open > .gb-badge { top: -8px; right: -8px; }
+.gb-instant-side { width: 312px; }
+.gb-instant-compose { background-color: #FFFBF4; border-color: rgba(255, 201, 166, 0.55); }
+.gb-instant-preview-slot { justify-content: center; margin: 2px 0 12px 0; }
+.gb-instant-preview { align-self: center; }
+.gb-instant-caption { margin-top: 12px; }
+.gb-online .gb-instant-caption > #unity-text-input { font-size: var(--gb-lg); }
+.gb-instant-count { margin-top: 4px; }
+.gb-instant-offline {
+    margin-top: 10px;
+    padding: 6px 10px 6px 10px;
+    border-radius: 14px;
+    background-color: #FFF0C8;
+    color: var(--gb-schoko);
+}
+
+.gb-instant-feed-scroll { flex-grow: 1; flex-shrink: 1; }
+.gb-instant-feed { flex-direction: row; flex-wrap: wrap; align-items: flex-start; padding: 2px 0 8px 4px; }
+.gb-instant-empty { flex-grow: 1; min-height: 360px; }
+
+.gb-instant-card {
+    width: 276px;
+    margin: 0 16px 16px 0;
+    padding: 14px 14px 12px 14px;
+    border-radius: var(--gb-r-lg);
+    background-color: #FFF9EE;
+    border-width: 2px;
+    border-color: #EBD5B8;
+    border-bottom-width: 4px;
+    border-bottom-color: #E2C7A6;
+    align-items: center;
+}
+.gb-instant-card--mine { background-color: #F2FAF4; border-color: rgba(127, 207, 155, 0.45); border-bottom-color: rgba(95, 184, 132, 0.45); }
+.gb-instant-polaroid { align-self: center; }
+.gb-instant-who { flex-direction: row; align-items: center; align-self: stretch; margin-top: 12px; }
+.gb-instant-who > .gb-avatar { width: 34px; height: 34px; margin-right: 8px; border-width: 2px; border-color: #FFE3D1; }
+.gb-instant-who-text { flex-grow: 1; flex-shrink: 1; min-width: 0; }
+.gb-instant-author { font-size: 15px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-instant-meta { font-size: var(--gb-sm); color: var(--gb-text-mild); }
+.gb-instant-likes { flex-direction: row; align-items: center; align-self: stretch; margin-top: 10px; }
+.gb-instant-carrots {
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 0;
+    height: 34px;
+    padding: 0 12px 0 6px;
+    margin-right: 8px;
+    border-radius: var(--gb-r-pill);
+    background-color: #FFE8D6;
+    border-width: 2px;
+    border-color: rgba(255, 201, 166, 0.9);
+}
+.gb-instant-carrots > .gb-icon { width: 22px; height: 22px; margin-right: 4px; }
+.gb-instant-carrot-n { font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); }
+.gb-instant-like { flex-grow: 1; flex-shrink: 1; }
+.gb-instant-like--done { opacity: 1; }
+.gb-instant-like--done:disabled { opacity: 0.8; }
+.gb-instant-mine {
+    flex-shrink: 1;
+    padding: 4px 12px 4px 12px;
+    border-radius: var(--gb-r-pill);
+    background-color: rgba(127, 207, 155, 0.22);
+    font-size: var(--gb-sm);
+    -unity-font-definition: url("../Fonts/Nunito-Bold.ttf");
+    color: #3E8F62;
+}

@@ -1,0 +1,20 @@
+{
+	"coop": {
+		"fahrt": {
+			"button": "Gemeinsam fahren",
+			"einladung": "{name} will mit dir durch die Stadt düsen!",
+			"mitfahren": "Mitfahren",
+			"ablehnen": "Lieber nicht",
+			"titel": "Du fährst mit {name} mit — genieß die Aussicht!",
+			"abgelehnt": "{name} bleibt lieber hier — vielleicht später!",
+			"beendet": "Die Spritztour ist vorbei.",
+			"fahrer_weg": "Der Fahrer ist weg — Fahrt vorbei.",
+			"aussteigen": "Aussteigen"
+		},
+		"radio": {
+			"titel": "Beifahrer-Radio",
+			"skip": "Nächster Song",
+			"kaufhinweis": "Dein Kumpel hat noch kein Radio — ab zu IKEA, dann drehst du hier auf!"
+		}
+	}
+}

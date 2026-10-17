@@ -1,0 +1,108 @@
+{
+	"urlaub": {
+		"knopf": {
+			"besuchen": "Gooby besuchen ✈",
+			"streicheln": "Streicheln",
+			"foto": "Urlaubsfoto",
+			"souvenir": "Souvenir-Spot",
+			"mini": {
+				"strand": "Muscheln sammeln",
+				"berge": "Bergblumen finden",
+				"stadt": "Beim Kellner bestellen",
+				"weltraum": "Sternsplitter sammeln"
+			},
+			"heim": "Nach Hause"
+		},
+		"titel": {
+			"strand": "Gooby am Strand",
+			"berge": "Gooby in den Bergen",
+			"stadt": "Gooby in der Stadt",
+			"weltraum": "Gooby im Weltraum"
+		},
+		"toast": {
+			"mini_fertig": "Alle gefunden! Gooby platzt fast vor Stolz.",
+			"souvenir": "{name} gefunden! (+{coins} ᴳ)",
+			"souvenir_leer": "Der Souvenir-Spot ist leer — morgen liegt hier bestimmt was Neues!",
+			"keine_kamera": "Ohne Kamera kein Urlaubsfoto! Bäm im POW! hat bestimmt eine für dich."
+		},
+		"souvenir": {
+			"beach": "Glitzernde Riesenmuschel",
+			"harbor": "Winziges Buddelschiff",
+			"meadowTrip": "Gepresste Wiesenblume",
+			"spookGarden": "Freundlicher Spuk-Kiesel",
+			"bakery": "Kandiertes Mini-Croissant",
+			"bigCity": "Schnappschuss-Schneekugel",
+			"nightSky": "Funkelnder Sternsplitter",
+			"toyRoom": "Aufzieh-Hüpf-Gooby",
+			"space": "Echter Weltraum-Kiesel"
+		},
+		"bubble": {
+			"strand": [
+				"DU BIST DA! Ich hab dem Meer schon von dir erzählt. Es rauscht vor Freude!",
+				"Ich hab eine Welle angefasst! Sie war nass. Forschung abgeschlossen.",
+				"Meine Sandburg hat vier Türme. Einer ist für dich reserviert!",
+				"Eine Möwe wollte meinen Keks. Wir haben verhandelt. Sie hat gewonnen.",
+				"Sand zwischen den Zehen kitzelt WISSENSCHAFTLICH nachweisbar am schönsten.",
+				"Ich hab dem Sonnenschirm einen Namen gegeben: Schatti. Schatti ist treu.",
+				"Das Salzwasser schmeckt wie Pommes ohne Pommes. Faszinierend!",
+				"Abends wird das Meer orange. Ich hab dir die schönste Welle aufgehoben."
+			],
+			"berge": [
+				"DU BIST DA! Die Berge haben ein Echo — es kennt jetzt deinen Namen!",
+				"Ich hab eine Bergblume angeschaut, bis sie verlegen wurde. Glaub ich.",
+				"Das Zelt und ich sind jetzt Freunde. Es schnarcht nachts ein bisschen.",
+				"Lagerfeuer-Regel Nummer eins: Marshmallow-Gedanken sind erlaubt.",
+				"Die Luft hier oben schmeckt nach frisch gewaschenen Wolken!",
+				"Ich bin einen ganzen Hügel hochgehopst. Ohne Pause! Fast ohne Pause.",
+				"Ein Murmeltier hat gepfiffen. Ich hab zurückgepfiffen. Wir sind im Gespräch.",
+				"Nachts sind hier SO viele Sterne. Ich hab bei drei Millionen aufgehört zu zählen."
+			],
+			"stadt": [
+				"DU BIST DA! Die Stadt ist riesig — aber mit dir gleich viel gemütlicher.",
+				"Der Kellner kennt mich schon. Ich bin offiziell Stammgast. Seit gestern.",
+				"Mein Eis hatte drei Kugeln. Jetzt hat es null Kugeln. Zeit ist seltsam.",
+				"Ich hab dem großen Turm zugewinkt. Ich bin sicher, er hat zurückgeglitzert.",
+				"In den Gassen riecht es nach frischen Waffeln. Ich hab eine Duftkarte im Kopf.",
+				"Die Lichterkette geht abends an und der ganze Platz wird golden. Wie für uns!",
+				"Ich hab in ein Schaufenster geschaut und ein sehr hübscher Gooby sah zurück.",
+				"Straßenmusik! Ich hab mitgetanzt, bis der Hut voller Applaus war."
+			],
+			"weltraum": [
+				"DU BIST DA! Hier oben ist alles so leicht — sogar meine Ohren schweben!",
+				"Ich hab die Erde angewinkt. Sie hat sich weitergedreht. Ich glaube, das heißt ja.",
+				"Mondstaub ist wie Puderzucker, nur ohne Geschmack. Leider. Ich hab nachgeprüft.",
+				"Mein Helm beschlägt, wenn ich mich freue. Er ist gerade SEHR beschlagen.",
+				"Ein Sternschnuppen-Wunsch für dich ist schon unterwegs. Bitte Briefkasten offen lassen!",
+				"Ich hab einen Krater nach dir benannt. Er ist rund und gemütlich. Wie du!"
+			]
+		},
+		"bestellung": [
+			"Einmal das Übliche für Herrn Gooby: ein Teller Sonnenschein, extra warm!",
+			"Heute empfehle ich: Wolkensuppe mit Glitzer-Croutons. Sehr fluffig!",
+			"Ein Eisbecher „Urlaubsgruß“ — mit drei Kugeln Fernweh und Streuseln!",
+			"Für den feinen Gast: Muschelnudeln OHNE Muscheln, dafür MIT Extra-Hihi.",
+			"Unser Spezial: ein Krümelteller vom Vortag. Der Chef besteht darauf!"
+		],
+		"soul": {
+			"1": "Weißt du noch, als du mich im Urlaub besucht hast? BESTER Tag!",
+			"2": "Urlaub ist toll. Urlaub mit Besuch ist toller. Das ist Mathe.",
+			"3": "Ich hab uns ein Souvenir-Plätzchen gemerkt. Für nächstes Mal!",
+			"4": "Mein Herz macht immer noch kleine Wellen, wenn ich ans Meer denke.",
+			"5": "Zusammen Sachen erleben ist mein Lieblingshobby. Direkt nach Snacks.",
+			"6": "Nächsten Urlaub zeig ICH dir die besten Ecken. Ich hab alles kartiert!"
+		},
+		"karte": {
+			"titel": "Gooby ist im Urlaub",
+			"text": "{ziel} — noch {tage}× schlafen. Besuch ihn!"
+		},
+		"mini": {
+			"fortschritt": "{n} von {gesamt}",
+			"los": {
+				"strand": "Such die Muscheln im Sand — tipp sie an!",
+				"berge": "Irgendwo blühen fünf Bergblumen — findest du sie?",
+				"weltraum": "Fünf Sternsplitter glitzern im Mondstaub — sammel sie ein!"
+			}
+		},
+		"streicheln": "Gooby tanzt vor Urlaubsfreude! (+{n} Spaß)"
+	}
+}

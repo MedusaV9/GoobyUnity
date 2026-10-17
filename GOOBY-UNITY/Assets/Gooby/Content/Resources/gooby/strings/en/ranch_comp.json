@@ -1,0 +1,169 @@
+{
+	"mg": {
+		"ranchTurnier": {
+			"title": "Tournament League",
+			"hint": "Ride 7 disciplines against the paddock — places 1 to 3 bring gold, ribbons and league points for promotion!"
+		},
+		"ranchTonnen": {
+			"title": "Barrel Racing",
+			"hint": "Round all 3 barrels and dash back — bumping one costs 5 s!",
+			"intro": "Run {n}: Round all 3 barrels — get ready!",
+			"level": "Run {n}",
+			"geschafft": "Finish! {s} s · {stars} stars",
+			"zu_langsam": "Too slow — go again, you can do it!"
+		},
+		"ranchZeit": {
+			"title": "Time Trial",
+			"hint": "Ride through every gate to the finish — your best run rides along as a ghost!",
+			"intro": "Course {n}: Through every flag gate — get ready!",
+			"level": "Route {n}",
+			"geschafft": "Finish! {s} s · {stars} stars",
+			"geist_zeit": "Ghost: {s} s",
+			"neuer_geist": "New best run!",
+			"zu_langsam": "Too slow — go again, you can do it!"
+		},
+		"rcomp": {
+			"steuerung": "Drag left: steer · swipe right or ▲ ▼: gait"
+		}
+	},
+	"rcomp": {
+		"disziplin": {
+			"springen": "Show Jumping",
+			"dressur": "Dressage Freestyle",
+			"gelaende": "Cross-Country",
+			"rennen": "Turf Race",
+			"trail": "Western Trail",
+			"schau": "Horse Show",
+			"tonnen": "Barrel Racing"
+		},
+		"klasse": {
+			"holz": "Wood Class",
+			"bronze": "Bronze Class",
+			"silber": "Silver Class",
+			"gold": "Gold Class",
+			"sternenklasse": "Star Class"
+		},
+		"regeln": {
+			"springen": "Ride the course in order and jump every obstacle (Space or the Jump button). A knockdown costs 40 points, a refusal 20 — every second over the target time costs 5. Perfect take-offs earn +15!",
+			"dressur": "Follow the glowing line through all figures and hold the required gait. The closer to the ideal line, the more points. Switch gaits exactly on the signal for the rhythm bonus!",
+			"gelaende": "Across the meadow: ride through all flag gates in order to the finish. Every skipped gate costs 8 seconds. Manage your stamina wisely!",
+			"rennen": "3 laps on the turf track against the field. Tuck into the slipstream of the horse ahead (+3% speed) and overtake on the straight. The finishing order counts!",
+			"trail": "6 precision tasks: ride slowly and cleanly through every marker. Each touch costs 2 points, skipping costs all 10. Quick AND clean earns the time bonus.",
+			"schau": "All about splendor: your horse's grooming and mood, your gear style — and the freestyle! Tap the 5 commands right on the beat (±300 ms).",
+			"tonnen": "Cloverleaf pattern: round the right, the left and the far barrel, then race back to the start. A toppled barrel costs 5 seconds!"
+		},
+		"menu": {
+			"title": "Tournament Grounds",
+			"untertitel": "Pick your event — today is tournament day!",
+			"liga": "Your league: {klasse}",
+			"punkte": "{n}/{ziel} points to promotion",
+			"punkte_dach": "You ride in the top class!",
+			"klasse_wahl": "Enter in:",
+			"turniertag": "Tournament day bonus: +25% gold",
+			"start": "Start",
+			"gesperrt_liga": "Reach this league first",
+			"gesperrt_level": "Horse needs level {level}",
+			"pferd": "Your horse: {name} · level {level}",
+			"bilanz": "Ribbons: {schleifen} · Trophies: {trophaeen} · Wins: {siege}",
+			"geist": "Show ghost",
+			"leihpferd": "Loaner horse Cloudy",
+			"bonus": "Tournament day: bonus gold!",
+			"gespielt": "Ridden today · place {platz}",
+			"schleife": "Ribbon: place {platz}",
+			"fertig": "Done"
+		},
+		"einweisung": {
+			"titel": "{disziplin} · {klasse}",
+			"richtzeit": "Target time: {s} s",
+			"starterfeld": "Starting today:",
+			"starter": "{name} on {pferd}",
+			"los": "Let's go!",
+			"zurueck": "Back"
+		},
+		"hud": {
+			"zeit": "Time: {s} s",
+			"hindernis": "Obstacle {n}/{max}",
+			"fehler": "Faults: {n}",
+			"tor": "Gate {n}/{max}",
+			"runde": "Lap {n}/{max}",
+			"windschatten": "Slipstream!",
+			"figur": "Figure {n}/{max}: {name} · {gangart}",
+			"aufgabe": "Task {n}/{max}: {name}",
+			"tonnen": "Barrels: {n}/3",
+			"punkte": "Points: {n}",
+			"kommando": "Command {n}/{max}"
+		},
+		"figur": {
+			"zirkel": "Circle",
+			"acht": "Figure Eight",
+			"schlangenlinie": "Serpentine",
+			"halten": "Halt",
+			"rueckwaerts": "Rein-Back"
+		},
+		"aufgabe": {
+			"tor": "Open the gate",
+			"rueckwaerts_l": "Back-through L",
+			"slalom": "Pole slalom",
+			"bruecke": "Bridge",
+			"plane": "Tarp field",
+			"kreisel": "360° spin"
+		},
+		"kommando": {
+			"verbeugen": "Bow",
+			"drehen": "Spin",
+			"steigen": "Rear",
+			"kompliment": "Curtsy",
+			"kuss": "Kiss"
+		},
+		"lauf": {
+			"perfekt": "Perfect!",
+			"abwurf": "Knockdown!",
+			"verweigert": "Refused!",
+			"tor_ok": "Gate {n}!",
+			"tor_verpasst": "Gate missed!",
+			"beruehrung": "Touch!",
+			"tonne_ok": "Barrel {n}!",
+			"tonne_um": "Barrel down!",
+			"runde": "Lap {n}!",
+			"aufgabe_ok": "Clean! +{punkte} pts",
+			"aufgabe_ausgelassen": "Task skipped!",
+			"figur_ok": "Figure done! +{punkte} pts",
+			"gangart_ok": "Gait locked in!",
+			"zu_frueh": "Not yet — wait for the signal!",
+			"windschatten": "Slipstream +3%!",
+			"taktbonus": "Rhythm bonus +10!",
+			"jetzt": "Now!",
+			"treffer": "Hit!",
+			"daneben": "Missed!",
+			"ziel": "Finish!",
+			"wechsel_zu": "Switch to: {gangart}!"
+		},
+		"ergebnis": {
+			"titel": "Final Standings",
+			"du": "You on {pferd}",
+			"platz": "{platz}.",
+			"punkte": "{n} pts",
+			"zeit": "{s} s",
+			"gold": "+{n} gold",
+			"xp": "+{n} XP",
+			"liga": "+{n} league points",
+			"schleife": "New ribbon: {disziplin}!",
+			"trophaee": "New trophy for the ranch!",
+			"aufstieg": "PROMOTED to {klasse}!",
+			"geist": "New best run saved as ghost!",
+			"weiter": "Continue"
+		},
+		"zeremonie": {
+			"titel": "Award Ceremony",
+			"platz1": "1st place: {name}",
+			"platz2": "2nd place: {name}",
+			"platz3": "3rd place: {name}",
+			"weiter": "Back to overview"
+		},
+		"select": {
+			"sterne": "Stars: {n}/{max}",
+			"best": "Best time: {s} s",
+			"offen": "Still locked — clear run {n} first!"
+		}
+	}
+}

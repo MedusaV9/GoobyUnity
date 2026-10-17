@@ -1,0 +1,10 @@
+{
+	"mg": {
+		"pancakeTower": {
+			"intro": "Bau einen hohen Pfannkuchen-Turm!"
+		},
+		"pipeFlow": {
+			"intro": "Verbinde den Hahn mit dem Sprenger!"
+		}
+	}
+}

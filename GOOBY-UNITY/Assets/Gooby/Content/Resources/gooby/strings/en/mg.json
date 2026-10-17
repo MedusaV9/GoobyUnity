@@ -1,0 +1,84 @@
+{
+	"mg": {
+		"teaParty": {
+			"title": "Tea Party",
+			"cups": "Cups: {n}",
+			"hint": "Hold: pour — release: serve!",
+			"spill": "Spilled!",
+			"streak_bonus": "Streak bonus!",
+			"spills": "Spilled: {spills}/{max}"
+		},
+		"carrotCatch": {
+			"title": "Carrot Catch",
+			"hint": "Drag the basket around!",
+			"yuck": "Yuck!",
+			"missed": "Dropped: {n}/{max}"
+		},
+		"gvz": {
+			"title": "Goobys vs. Zombies",
+			"hint": "Tap a card, then a lawn cell — collect the Nutella blobs and keep the zombies away from the house!"
+		},
+		"gobnom": {
+			"title": "GOB NOM",
+			"hint": "Swipe through ropes, tap bubbles, cushions and fans — feed Gooby the candy and grab the Nutella jars on the way!"
+		},
+		"arcade": {
+			"title": "Arcade",
+			"back": "‹ Back",
+			"coming_soon": "Soon!",
+			"zaehler": "{n} games"
+		},
+		"pregame": {
+			"difficulty": "Difficulty",
+			"orientation": "Orientation",
+			"best": "Best: {best}",
+			"play": "Play!",
+			"back": "‹ Back",
+			"energy": "Costs {energy} energy per round",
+			"too_sleepy": "Gooby is too sleepy to play — nap first!"
+		},
+		"diff": {
+			"easy": "Easy",
+			"normal": "Normal",
+			"hard": "Hard",
+			"endless": "Endless"
+		},
+		"orient": {
+			"auto": "Auto",
+			"portrait": "Portrait",
+			"landscape": "Landscape"
+		},
+		"host": {
+			"score": "★ {score}",
+			"pause": "❚❚ Pause",
+			"paused": "Paused",
+			"resume": "Resume",
+			"restart": "Restart",
+			"quit": "Quit",
+			"sound_on": "Sound: On",
+			"sound_off": "Sound: Off",
+			"help": "Help",
+			"help_none": "Score points before the round ends — you got this!",
+			"go": "Go!"
+		},
+		"results": {
+			"title": "Round over!",
+			"score": "{score} points",
+			"best": "Best: {best}",
+			"new_best": "New record!",
+			"coins": "+{coins} coins",
+			"daily_bonus": "Daily bonus ×2!",
+			"day_cap": "Daily bonus used up — the coins jingle again tomorrow!",
+			"xp": "+{xp} XP",
+			"level_up": "Level up! +{coins} coins",
+			"beat_target": "Target beaten!",
+			"again": "Again",
+			"back": "To the arcade",
+			"home": "Go home"
+		},
+		"game": {
+			"time": "{sec} s",
+			"streak": "Streak ×{n}"
+		}
+	}
+}

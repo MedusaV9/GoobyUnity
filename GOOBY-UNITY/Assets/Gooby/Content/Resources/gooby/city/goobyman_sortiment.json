@@ -1,0 +1,53 @@
+{
+  "kommentar": "GOOBYMAN-Drogerie-Sortiment (W13C GOOBYMAN, Doc H §6.4). Geladen wie rehwei_sortiment.json (CitySortiment via GoobymanKatalog.PFAD) UND remote-config-fähig: liefert ein Pack die Domain 'goobyman' (content/<pack>/data/goobyman.json mit items[]), gewinnt sie über diese Datei (GoobymanKatalog.waren). kategorie: zahnbuerste = inventory.items + haltbarkeit-Punkte (ZahnbuersteState; Bruch-CHANCE pro Putz-Session kommt weiter aus dem Balance-Pack 'zahnbuersten_bruch_chance'), pflaster = Sofort-Wirkung heilt Gesundheits-Druckpunkte (junkScore), Cap 1/Tag, einmalig = genau ein Kauf (Schlafmaske: 10 % weniger Vorlese-Wörter bis zum Einschlafen). glyph = prozedurales Regal-/Zeilen-Icon (kein Bild-Asset nötig). Seife/Shampoo stehen bewusst NICHT im Sortiment: es gibt keinen bestehenden Bad-Verbrauchs-Mechanismus (BadState kennt keine Vorräte) — s. Handoff W13C-goobyman.md.",
+  "waren": [
+    {
+      "id": "zahnbuerste_standard",
+      "name_de": "Zahnbürste Standard",
+      "preis": 8,
+      "inventar": "zahnbuerste_standard",
+      "kategorie": "zahnbuerste",
+      "haltbarkeit": 3,
+      "glyph": "🪥",
+      "hinweis_de": "Der Klassiker. Putzt, bis sie nicht mehr putzt."
+    },
+    {
+      "id": "zahnbuerste_flausch",
+      "name_de": "Zahnbürste Flausch",
+      "preis": 18,
+      "inventar": "zahnbuerste_flausch",
+      "kategorie": "zahnbuerste",
+      "haltbarkeit": 5,
+      "glyph": "🪥",
+      "hinweis_de": "Extra weich, extra zäh. Hält deutlich länger."
+    },
+    {
+      "id": "zahnbuerste_turbo",
+      "name_de": "Zahnbürste Turbo 3000",
+      "preis": 35,
+      "inventar": "zahnbuerste_turbo",
+      "kategorie": "zahnbuerste",
+      "haltbarkeit": 8,
+      "glyph": "🪥",
+      "hinweis_de": "Die Heldenbürste. Bricht quasi nie. Quasi."
+    },
+    {
+      "id": "goobyman_pflaster",
+      "name_de": "Goobyman-Pflaster",
+      "preis": 10,
+      "kategorie": "pflaster",
+      "heilt": 5,
+      "glyph": "🩹",
+      "hinweis_de": "Heilt 5 Gesundheit sofort. Eins pro Tag — Heldenregel."
+    },
+    {
+      "id": "schlafmaske",
+      "name_de": "Schlafmaske",
+      "preis": 45,
+      "inventar": "schlafmaske",
+      "kategorie": "einmalig",
+      "glyph": "😴",
+      "hinweis_de": "Einmal kaufen, für immer schneller einschlafen (10 %)."
+    }
+  ]
+}

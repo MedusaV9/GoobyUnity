@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_moehrchen",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "moehrchen",
+			"text": "Guten Morgen! Schon gefrühstückt? Ich empfehle Karotten. Ich empfehle immer Karotten.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "moehrchen",
+			"text": "Ah, Patient — äh, Besuch! Dr. Dr. Möhrchen, zweifach promoviert. Einmal davon echt.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "moehrchen",
+			"text": "Sprechstunde vorbei! Aber für dich horche ich noch mal kurz rein. Sag Aaaah. Nein? Auch gut.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "moehrchen",
+			"text": "Regen! Hervorragend fürs Immunsystem. Sagt man. Ich sage: Komm unter mein Vordach.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "moehrchen",
+			"text": "Mein Lieblingsfall! Beste Werte, treues Herz. Fachlich gesehen bist du gesund vor Freundschaft.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "moehrchen",
+			"text": "Womit kann ich dienen?",
+			"optionen": [
+				{"text": "Brauchst du Hilfe?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Auftrag erledigt!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "Wie läuft die Praxis?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "Wie läuft die Praxis?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "Wie läuft die Praxis?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Woher der Doppel-Doktor?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Dein schwierigster Fall?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Gute Besserung allerseits!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "moehrchen",
+			"text": [
+				"Heute drei Patienten: ein Huster, ein Humpler und ein Huhn, das sich für ein Pferd hält.",
+				"Dem Huhn hab ich einen Mini-Sattel verschrieben. Placebo. Es strahlt."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "moehrchen",
+			"text": [
+				"Unter uns: Die halbe Medizin ist Zuhören. Die andere Hälfte ist Karotten.",
+				"Die dritte Hälfte ist Rechnen. Mathe war nie mein Doktortitel."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "moehrchen",
+			"text": [
+				"Ich hab dich übrigens in meiner Kartei. Unter B wie Bester Besuch.",
+				"Fachlich fragwürdig, menschlich korrekt. So arbeite ich."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "moehrchen",
+			"text": "Tatsächlich, ja! Ärztliche Anordnung — und die verweigert man nicht. Außer man ist ein Huhn.",
+			"optionen": [
+				{"text": "Verschreib's mir!", "next": "quest_annahme"},
+				{"text": "Ich bin gerade in Behandlung …", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "moehrchen",
+			"text": "Wunderbar! Zweimal täglich, am besten sofort. Nebenwirkung: Man fühlt sich nützlich.",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "moehrchen",
+			"text": "Verstehe, verstehe. Ich stelle es zurück in den Medikamentenschrank. Fach: Später.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "moehrchen",
+			"text": "Befund: hervorragend! Du bist geheilt. Von der Aufgabe. Hier, deine Belohnung — rezeptfrei.",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "moehrchen",
+			"text": "Eine KAROTTE! Objektiv das beste Gemüse. Ich habe dazu geforscht. Zweimal.",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "moehrchen",
+			"text": "Oh, danke! Reich an Vitaminen und Zuneigung. Beides senkt den Blutdruck.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "moehrchen",
+			"text": "Interessant. Ich verordne … ein höfliches Dankeschön. Nimm zwei davon.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "moehrchen",
+			"text": [
+				"Der erste Doktor war für Tiermedizin. Der zweite … für Möhrenkunde. Fernstudium.",
+				"Die Universität war eine Scheune und der Professor ein sehr überzeugtes Kaninchen.",
+				"Aber das Diplom ist echt! Es riecht nur leicht nach Salat."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "moehrchen",
+			"text": [
+				"Mein schwierigster Fall? Ein Fohlen, das nicht schlafen wollte. Drei Nächte wach.",
+				"Ich hab ihm vorgesungen. Es schlief ein. Der ganze Stall schlief ein. Ich auch.",
+				"Seitdem steht in meiner Akte: Gesang nur in Notfällen. Unterschrieben von Rosi."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "moehrchen",
+			"text": "Bleib gesund! Und falls nicht: Ich bin da. Mit Karotten.",
+			"ende": true
+		}
+	}
+}

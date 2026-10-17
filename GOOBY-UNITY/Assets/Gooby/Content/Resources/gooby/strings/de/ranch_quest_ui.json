@@ -1,0 +1,56 @@
+{
+  "rquest": {
+    "ui": {
+      "abholen": "Abholbereit — zurück zu {name}!",
+      "fertig": "Geschafft: {quest} — bring es {name}!",
+      "angenommen": "Neue Quest: {quest}",
+      "abgegeben": "{quest} abgeschlossen! {text}",
+      "freischaltung": "eine Freischaltung",
+      "frei_toast": "Freigeschaltet: {was}",
+      "frei_deko": "{was} liegt im Bau-Lager — stell sie auf!",
+      "frei_gear": "{was} hängt im Sattelschrank — leg es an!",
+      "frei_look": "{was}: im Hof unter Ausrüstung → Look.",
+      "frei_trophae": "{was} hängt jetzt am Anbindebalken — und an deiner Schleifenwand, sobald sie steht.",
+      "frei_quelle": "Belohnung für „{quest}“ — frag {name}.",
+      "reihe_fertig": "Die Hauptreihe ist geschafft — die Ranch glänzt!",
+      "erledigt_n": "{n} erledigt",
+      "knopf": "Quests",
+      "sprechen": "Mit {name} sprechen",
+      "aufgesammelt": "+{n} {item}",
+      "tracker_leer": "Sprich mit Rosi am Hof — sie hat einen Plan.",
+      "tracker_neu": "Neue Quest: {quest} — frag {name}!"
+    },
+    "frei": {
+      "deko_mistgabel_gold": "Goldene Mistgabel",
+      "deko_schleifenwand": "Schleifenwand",
+      "fellmuster_nebel": "Fellmuster Nebel",
+      "fohlen_flauschig": "Flauschiges Fohlen",
+      "girlande_ranchfest": "Ranchfest-Girlande",
+      "sattel_kartoffel": "Kartoffelsack-Sattel",
+      "schabracke_schleife": "Schabracke mit Schleife",
+      "schleife_bronze": "Bronze-Schleife"
+    },
+    "bei": {
+      "stall": "am Stall",
+      "trog": "am Trog",
+      "koppel_pferde": "an der Pferdekoppel",
+      "hof_mitte": "auf dem Hofplatz",
+      "heulager": "am Heulager",
+      "weide": "auf der Wiese",
+      "scheune": "in der Scheune",
+      "haus": "zu Hause",
+      "teich": "am See",
+      "reitplatz": "am Reitplatz",
+      "tor": "am Hoftor",
+      "waldrand": "am Waldrand beim Weidetal",
+      "huegel": "auf dem Hügelkamm",
+      "markt": "auf dem Markt",
+      "schmiede": "in der Schmiede",
+      "sattlerei": "in der Sattlerei"
+    },
+    "wo": {
+      "jetzt": "{name} ist gerade {ort}",
+      "bis": "{name} ist {ort} – ab {zeit} Uhr {danach}"
+    }
+  }
+}

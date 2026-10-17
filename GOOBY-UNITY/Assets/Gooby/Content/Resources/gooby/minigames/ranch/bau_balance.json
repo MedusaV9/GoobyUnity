@@ -1,0 +1,108 @@
+{
+	"grid": {
+		"breite": 16,
+		"tiefe": 16,
+		"zonen": {
+			"start": {"rect": [0, 6, 10, 10], "kosten": 0},
+			"nord": {"rect": [0, 0, 10, 6], "kosten": 800},
+			"ost": {"rect": [10, 0, 6, 16], "kosten": 1600}
+		}
+	},
+	"abriss_erstattung": 0.5,
+	"anlagen": {
+		"stallboxen": {"footprint": [2, 3], "stufen": [0, 400, 900, 1800]},
+		"weide": {"footprint": [4, 4], "stufen": [0, 350, 800]},
+		"wasserstelle": {"footprint": [1, 1], "stufen": [150, 400, 900]},
+		"heulager": {"footprint": [2, 2], "stufen": [200, 500, 1000]},
+		"waschplatz": {"footprint": [2, 2], "stufen": [300, 700, 1400]},
+		"fuehranlage": {"footprint": [3, 3], "stufen": [600, 1300, 2600]},
+		"reithalle": {"footprint": [5, 4], "stufen": [1500, 3000, 5000]},
+		"parcours": {"footprint": [5, 5], "stufen": [300, 900, 2000]},
+		"sattelkammer": {"footprint": [2, 2], "stufen": [250, 650, 1300]},
+		"zuchtstall": {"footprint": [3, 3], "stufen": [2000, 3500]},
+		"fohlenweide": {"footprint": [3, 3], "stufen": [800]},
+		"tribuene": {"footprint": [4, 2], "stufen": [1200, 2400]},
+		"weidezaun": {"upgrade": true, "stufen": [250, 600, 1200]}
+	},
+	"deko": {
+		"beet_blumen": {"kosten": 40},
+		"beet_kraeuter": {"kosten": 60},
+		"bank_holz": {"kosten": 80},
+		"laterne": {"kosten": 70},
+		"fahne": {"kosten": 50},
+		"blumenkuebel": {"kosten": 45},
+		"vogelhaus": {"kosten": 90},
+		"heuballen_deko": {"kosten": 40},
+		"wegweiser": {"kosten": 55},
+		"strohpuppe": {"kosten": 120}
+	},
+	"boeden": {
+		"weg_schotter": {"kosten": 15},
+		"weg_pflaster": {"kosten": 25},
+		"sand": {"kosten": 20},
+		"blumenwiese": {"kosten": 30}
+	},
+	"zaeune": {
+		"zaun_holz": {"kosten": 20}
+	},
+	"effekte": {
+		"stallboxen": {"kapazitaet": [2, 4, 6, 8]},
+		"weide": {"hunger_mult": [1.0, 0.85, 0.85], "laune_bonus_h": [0, 0, 1]},
+		"weidezaun": {"sauberkeit_mult": [0.8, 0.7, 0.6]},
+		"wasserstelle": {
+			"durst_mult": [0.7, 0.7, 0.7],
+			"selbsttraenke": [false, true, true],
+			"teich": [false, false, true]
+		},
+		"heulager": {"heu_kapazitaet": [12, 24, 48], "heurutsche": [false, false, true]},
+		"waschplatz": {
+			"striegel_wert": [50, 50, 50],
+			"warmwasser_bonus": [0, 2, 2],
+			"schau_pflege_bonus": [0, 0, 5]
+		},
+		"fuehranlage": {"xp_pro_tag": [40, 60, 80], "plaetze": [1, 2, 3]},
+		"reithalle": {
+			"regen_training": [true, true, true],
+			"dressur_xp_mult": [1.2, 1.2, 1.2],
+			"spiegelwand": [false, true, true],
+			"heim_dressur": [false, false, true]
+		},
+		"parcours": {
+			"coin_mult": [1.1, 1.1, 1.1],
+			"spring_xp_mult": [1.0, 1.2, 1.2],
+			"zeitmessung": [false, false, true]
+		},
+		"sattelkammer": {
+			"outfit_sets": [true, true, true],
+			"extra_slots": [false, true, true],
+			"mannequin": [false, false, true],
+			"gear_rabatt": [10, 15, 20]
+		},
+		"zuchtstall": {"traechtigkeiten": [1, 2]},
+		"fohlenweide": {"aufzucht_xp_mult": [1.15]},
+		"tribuene": {"zuschauer": [6, 12], "heim_gold_mult": [1.0, 1.15]},
+		"striegel_wert_basis": 35,
+		"heu_kapazitaet_basis": 10,
+		"boxen_kapazitaet_basis": 2,
+		"deko_stil_pro": 5,
+		"deko_stil_max": 10
+	},
+	"wirtschaft_modell": {
+		"einnahmen_pro_stunde": {
+			"minispiele": 200,
+			"hof_momente": 60,
+			"turnier": 40,
+			"ernte_verkauf": 10
+		},
+		"grind_grenzen_stunden": {
+			"deko": 0.5,
+			"boden": 0.25,
+			"zaun_kante": 0.25,
+			"anlage_stufe1": 7.0,
+			"anlage_stufe_max": 17.0,
+			"pferd_guenstig": 2.0,
+			"pferd_teuer": 8.0,
+			"zone": 6.0
+		}
+	}
+}

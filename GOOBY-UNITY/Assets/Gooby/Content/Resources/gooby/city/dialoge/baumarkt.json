@@ -1,0 +1,53 @@
+{
+  "id": "baumarkt_besuch",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "bodo",
+      "text": [
+        "Moin! Bodo Balken. Wenn du es bauen kannst, habe ich es. Wenn nicht, habe ich es auch.",
+        "Gang sieben ist übrigens verschwunden. Ich suche ihn seit Dienstag."
+      ],
+      "optionen": [
+        {"text": "Ich brauche Material.", "next": "material"},
+        {"text": "Habt ihr Baupläne?", "next": "bauplaene"},
+        {"text": "Ich brauche eine Beratung.", "next": "beratung"},
+        {"text": "Ich schaue nur.", "next": "gucken"}
+      ]
+    },
+    "material": {
+      "sprecher": "bodo",
+      "text": [
+        "Bretter, Nägel, Eisen, Stöcke. Alles ehrliche Sachen. Nichts davon blinkt.",
+        "Nimm zwei Nägel mehr, als du rechnest. Immer. Das ist keine Verkaufsmasche, das ist Physik."
+      ],
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "bauplaene": {
+      "sprecher": "bodo",
+      "text": [
+        "Baupläne habe ich. Gebaut wird bei DIR — an der Werkbank, mit deinen eigenen Daumen.",
+        "Steht alles drauf: Material, Reihenfolge, und ganz unten „Ruhe bewahren“."
+      ],
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "beratung": {
+      "sprecher": "bodo",
+      "text": [
+        "Beratung! Gerne. Also: du brauchst mehr Bretter, als du denkst, und weniger Werkzeug, als du willst.",
+        "Und wenn es wackelt: einmal draufhauen. Wackelt es dann immer noch, war es Absicht."
+      ],
+      "next": "hallo"
+    },
+    "gucken": {
+      "sprecher": "bodo",
+      "text": [
+        "Gucken ist auch bauen. Nur langsamer.",
+        "Ich bin hinten bei den Schrauben, falls du Gang sieben findest."
+      ],
+      "ende": true
+    }
+  }
+}

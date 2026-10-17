@@ -1,0 +1,76 @@
+{
+	"veil": {
+		"laedt": "Lädt…",
+		"home": {
+			"titel": "Trautes Heim",
+			"bereit": "Auf dem Heimweg…",
+			"tips": [
+				"Kissen werden aufgeschüttelt…",
+				"Der Tee wird aufgesetzt…",
+				"Die Blumen werden gegossen…"
+			]
+		},
+		"trip": {
+			"titel": "Auf geht’s!",
+			"bereit": "Zeit für einen kleinen Ausflug…",
+			"tips": [
+				"Snacks für unterwegs werden eingepackt…",
+				"Der Einkaufszettel wird geprüft…",
+				"Die kleinen Schuhe werden geschnürt…"
+			]
+		},
+		"game": {
+			"bereit": "Mach dich bereit!",
+			"tips": [
+				"Tipp: Mit der Pause-Taste kannst du jederzeit pausieren.",
+				"Tipp: Die erste Runde pro Spiel am Tag bringt doppelte Münzen!",
+				"Tipp: Schwer zahlt ×1,3 Münzen — Endlos ist für den Ruhm."
+			]
+		},
+		"dlc": {
+			"titel": "DLC-Bibliothek",
+			"bereit": "Zeit zum Stöbern…",
+			"tips": [
+				"Die Regale werden abgestaubt…",
+				"Neue Abenteuer werden einsortiert…",
+				"Das Kommt-bald-Regal wird poliert…"
+			]
+		},
+		"ranch": {
+			"titel": "Ab zur Ranch!",
+			"bereit": "Raus ins Grüne…",
+			"tips": [
+				"Das Heu wird aufgeschüttelt…",
+				"Die Sättel werden geputzt…",
+				"Möhren fürs Pferd werden eingepackt…"
+			]
+		},
+		"arcade": {
+			"titel": "Ab in die Arcade!",
+			"bereit": "Die Automaten glühen schon…",
+			"tips": [
+				"Die Highscores werden gewienert…",
+				"Ein Becher Münzen steht bereit…",
+				"Die Bildschirme flimmern sich warm…"
+			]
+		},
+		"reise": {
+			"titel": "Gute Reise!",
+			"bereit": "Der Flieger wartet schon…",
+			"tips": [
+				"Der Reisepass wird gestempelt…",
+				"Die Bordkarte wird gedruckt…",
+				"Ein Fensterplatz wird freigehalten…"
+			]
+		},
+		"unterwegs": {
+			"titel": "Unterwegs…",
+			"bereit": "Gleich bist du da…",
+			"tips": [
+				"Die kleinen Schuhe sind geschnürt…",
+				"Der Weg wird freigekehrt…",
+				"Gooby summt ein Reiselied…"
+			]
+		}
+	}
+}

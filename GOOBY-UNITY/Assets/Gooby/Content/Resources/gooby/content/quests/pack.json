@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"id": "quests",
+	"version": "1.0.0",
+	"priority": 320,
+	"min_native": "5.0.0",
+	"domains": ["quests"],
+	"name_de": "Tagesquests",
+	"notes_de": "REST-2: Tagesquest-Pool (Port der 28 Web-Quests aus GOOBY/src/data/constants.js QUEST_POOL, angepasst auf die in Godot tatsaechlich verdrahteten Zaehler). Append-by-id: ein per Updater nachgeliefertes Pack mit hoeherer Prioritaet ergaenzt oder ersetzt einzelne Quests ohne App-Update. Texte in strings/{de,en}/quests.json (Konvention quests.q.<id>.titel/text, ueberschreibbar via titel_key/text_key)."
+}

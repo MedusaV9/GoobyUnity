@@ -1,0 +1,105 @@
+{
+	"dlc_mcgooby": {
+		"titel": "McGooby",
+		"zurueck": "‹ Zurück",
+		"knopf": {
+			"schicht": "Schicht starten!",
+			"probeschicht": "Probeschicht starten!",
+			"angebot": "Angebot ansehen"
+		},
+		"demo_verbraucht": "Heute schon probiert — komm morgen wieder an den Grill!",
+		"angebot": {
+			"titel": "Deine eigenen Löffel-Bögen",
+			"text": "Die Probeschichten haben es bewiesen: Die Stadt liebt deine Burger. Kauf das Eckgrundstück, häng die Löffel-Bögen auf — und der Laden gehört dir, mit so vielen Schichten, wie du magst.",
+			"preis": "{preis} Münzen",
+			"frage": "Übernimmst du den Laden unter den Löffel-Bögen?",
+			"kaufen": "Laden kaufen!",
+			"spaeter": "Später",
+			"zu_wenig": "Noch nicht genug Münzen — der Laden kostet {preis}. Die Probeschicht bleibt dir: eine pro Tag.",
+			"demo": "Bis dahin gilt: eine Probeschicht pro Tag — dein Fortschritt bleibt."
+		},
+		"intro": {
+			"titel": "Die große Eröffnung",
+			"zeile1": "Die Stadt hat REHWEI, Wochenmarkt, GOOBYTHEKE — aber keinen Ort, an dem man um 18 Uhr mit den Pfoten isst.",
+			"zeile2": "Ein leerstehendes Eckgrundstück, ein Bauschild, ein Traum: zwei goldene Bögen, die bei genauem Hinsehen aussehen wie Löffel mit Ohren.",
+			"zeile3": "Heute ist Probeschicht! Der Grill ist heiß, die Bestellglocke blitzblank — und die ersten Kunden haben Hunger.",
+			"knopf": "Schürze umbinden!"
+		},
+		"schicht": {
+			"bestellung": "Bestellung {nr}/{gesamt}",
+			"patty": "Patty {nr}/{gesamt}",
+			"turm": "Turm: {platziert}/{gesamt}",
+			"schritt": "Schritt {nr}/{gesamt}: {aktion}",
+			"roh": "Brutzel … noch roh!",
+			"goldbraun": "JETZT wenden!",
+			"kohle": "Uups — Kohle-Style!",
+			"perfekt": "Perfekt!",
+			"passt": "Sitzt!",
+			"falsch": "Uups — falsche Zutat!",
+			"kette": "Perfekt-Kette ×{n}!",
+			"roestaroma": "Röstaroma-Spezial!",
+			"knusper": "Knusper-Deluxe!",
+			"schaum": "Übergeschäumt — Wischtuch!",
+			"frit_blass": "Blubber … noch blass!",
+			"frit_goldgelb": "JETZT den Korb heben!",
+			"frit_dunkel": "Uups — Knusper-Deluxe!",
+			"shake_fluessig": "Kreisen … noch flüssig!",
+			"shake_krone": "Die Krone steht — JETZT stoppen!",
+			"shake_schaum": "Uups — übergeschäumt!",
+			"shake_hinweis": "Becher gedrückt halten = im Takt kreisen, im goldenen Moment loslassen.",
+			"belegen_leer": "Gerade nichts zu belegen — der Grill ruft!",
+			"station_leer": "Hier blubbert gerade nichts — schau auf die aktive Station!",
+			"punkte": "Punkte: {punkte}",
+			"pause": "Pause",
+			"hilfe": "Tippe den Patty, sobald er goldbraun leuchtet — im goldenen Fenster gibt es ein „Perfekt!“. Danach unten zum Belegen wechseln und die Zutaten in Ticket-Reihenfolge aufs Brötchen wischen. An der Fritteuse ziehst du den Korb im goldenen Moment, an der Shake-Bar hältst du den Becher und kreist, bis die Flausch-Krone steht. Zu spät oder daneben ist nie verloren: dann gibt es eben ein Röstaroma-Spezial, ein Knusper-Deluxe oder ein paar Pünktchen weniger."
+		},
+		"aktion": {
+			"wenden": "Wenden",
+			"stapeln": "Stapeln",
+			"frittieren": "Frittieren",
+			"salz": "Salz",
+			"glitzersalz": "Glitzersalz",
+			"formen": "Formen",
+			"wolken_dip": "Wolken-Dip",
+			"mixen": "Mixen",
+			"flausch_krone": "Flausch-Krone",
+			"raspel_regen": "Raspel-Regen"
+		},
+		"fortschritt": {
+			"rang": "Laden-Rang: {sterne}",
+			"ziel": "Nächster Stern: {ziele}",
+			"ziel_schichten": "noch {n} Schichten",
+			"ziel_bestwert": "Bestwert {punkte}",
+			"ziel_perfekt": "noch {n} fehlerfreie Schichten",
+			"voll": "Fünf Sterne — die Löffel-Bögen glänzen!",
+			"aufstieg_titel": "Neuer Laden-Rang!",
+			"aufstieg_unter": "Stern {n} erreicht — der Laden glänzt!"
+		},
+		"zutat": {
+			"broetchen": "Brötchen",
+			"patty": "Patty",
+			"gold_sosse": "Gold-Soße",
+			"salat": "Salat",
+			"kaese": "Käse",
+			"kuerbis_patty": "Kürbis-Patty",
+			"tomate": "Tomate",
+			"gurke": "Gurke"
+		},
+		"sperre": {
+			"titel": "Für heute: Feierabend!",
+			"text": "Die Probeschicht des Tages ist gespielt — die Löffel-Bögen leuchten schon mal für dich. Morgen kannst du wieder ran; mit eigenem Laden gehört dir jede Schicht."
+		},
+		"ende": {
+			"titel": "Feierabend!",
+			"untertitel": "Gooby dreht das Schild auf GESCHLOSSEN — die Löffel-Bögen leuchten.",
+			"punkte": "Punkte",
+			"perfekt": "Perfekt-Momente",
+			"trinkgeld": "Trinkgeld",
+			"muenzen": "Münzen",
+			"rang": "Laden-Rang",
+			"nochmal": "Noch eine Schicht",
+			"demo_hinweis": "Eine Probeschicht pro Tag — morgen wieder! Mit eigenem Laden grillst du, sooft du willst.",
+			"feierabend": "Feierabend machen"
+		}
+	}
+}

@@ -1,0 +1,130 @@
+{
+	"hud": {
+		"quests": "Quests"
+	},
+	"quests": {
+		"titel": "Tagesquests",
+		"untertitel": "Drei kleine Aufgaben — jeden Tag frisch gewürfelt.",
+		"fortschritt": "{n}/{ziel}",
+		"abholen": "Abholen",
+		"erledigt": "Erledigt!",
+		"belohnung": "+{muenzen} · {xp} XP",
+		"bonus_offen": "Alle drei schaffen: +{muenzen} Münzen und {xp} XP extra!",
+		"bonus_bezahlt": "Tagesbonus abgeholt — bis morgen!",
+		"bonus_toast": "Tagesbonus! +{muenzen} Münzen extra",
+		"claim_toast": "Quest geschafft! +{muenzen} Münzen, +{xp} XP",
+		"reroll": "Neu würfeln",
+		"reroll_hinweis": "1× am Tag, tauscht nur unangefangene Aufgaben.",
+		"reroll_toast": "Neue Aufgaben sind da!",
+		"leer": "Heute liegt nichts an — schau morgen wieder rein!",
+		"wasnun": {
+			"titel": "Was nun?",
+			"abholen": "Eine Quest-Belohnung wartet auf dich — hol sie ab!",
+			"quest": "Tagesquest: {titel}",
+			"pflege_hunger": "Gooby hat Hunger — schau mal in den Kühlschrank.",
+			"pflege_hygiene": "Zeit für ein Bad — Gooby müffelt ein bisschen.",
+			"pflege_energie": "Gooby ist müde — ein Nickerchen wäre gut.",
+			"level": "Nächstes Ziel: Level {level}. Minispiele bringen XP!",
+			"ranch": "Die Gooby-Ranch wartet — nimm die Stadtausfahrt!",
+			"arcade": "Lust auf eine Runde? Die Arcade hat offen."
+		},
+		"q": {
+			"feed3": {
+				"titel": "Leckerchen-Zeit",
+				"text": "Füttere Gooby 3-mal — der Kühlschrank ist voll."
+			},
+			"wash1": {
+				"titel": "Blitzeblank",
+				"text": "Wasch Gooby einmal in der Badewanne."
+			},
+			"pet5": {
+				"titel": "Streicheleinheiten",
+				"text": "Streichle Gooby heute 5-mal."
+			},
+			"tickle3": {
+				"titel": "Kicher-Attacke",
+				"text": "Kitzle Gooby 3-mal durch."
+			},
+			"zahn1": {
+				"titel": "Zahnfee-Alarm",
+				"text": "Putz Gooby einmal die Zähne."
+			},
+			"play3": {
+				"titel": "Arcade-Nachmittag",
+				"text": "Spiel 3 Runden in der Arcade."
+			},
+			"play2distinct": {
+				"titel": "Abwechslung, bitte!",
+				"text": "Spiel 2 verschiedene Minispiele."
+			},
+			"earn60": {
+				"titel": "Taschengeld",
+				"text": "Verdiene 60 Münzen."
+			},
+			"catch30": {
+				"titel": "Möhren-Regen",
+				"text": "Hol heute 30 Punkte bei Möhrenfang."
+			},
+			"hop10": {
+				"titel": "Hüpfmeister",
+				"text": "Hol heute 10 Punkte beim Hasenhüpfer."
+			},
+			"run200": {
+				"titel": "Lauf, Gooby, lauf!",
+				"text": "Hol heute 200 Punkte im Gooby-Renner."
+			},
+			"fisch40": {
+				"titel": "Petri Heil",
+				"text": "Hol heute 40 Punkte am Angelteich."
+			},
+			"dance150": {
+				"titel": "Tanzfieber",
+				"text": "Hol heute 150 Punkte bei der Tanzparty."
+			},
+			"golf70": {
+				"titel": "Eingelocht",
+				"text": "Hol heute 70 Punkte beim Minigolf."
+			},
+			"says60": {
+				"titel": "Gut gemerkt",
+				"text": "Hol heute 60 Punkte bei Gooby sagt."
+			},
+			"tramp50": {
+				"titel": "Hoch hinaus",
+				"text": "Hol heute 50 Punkte bei Trampolin-Tricks."
+			},
+			"liefer60": {
+				"titel": "Flinke Pfoten",
+				"text": "Hol heute 60 Punkte in der Liefer-Hetze."
+			},
+			"tee1": {
+				"titel": "Teekränzchen",
+				"text": "Spiel eine Runde in der Teestube."
+			},
+			"gvz1": {
+				"titel": "Garten-Verteidiger",
+				"text": "Spiel eine Runde Goobys vs. Zombies."
+			},
+			"gobnom1": {
+				"titel": "Großer Hunger",
+				"text": "Spiel eine Runde GOB NOM."
+			},
+			"plant2": {
+				"titel": "Grüner Daumen",
+				"text": "Pflanze 2 Setzlinge im Garten."
+			},
+			"water4": {
+				"titel": "Gieß-Runde",
+				"text": "Gieße 4-mal im Garten."
+			},
+			"harvest2": {
+				"titel": "Erntedank",
+				"text": "Ernte 2 reife Beete."
+			},
+			"einkauf1": {
+				"titel": "Einkaufsbummel",
+				"text": "Gönn dir was — gib ein paar Münzen aus."
+			}
+		}
+	}
+}

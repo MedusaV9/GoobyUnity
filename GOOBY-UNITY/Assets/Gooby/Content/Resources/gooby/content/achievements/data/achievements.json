@@ -1,0 +1,313 @@
+{
+	"schema": 1,
+	"items": [
+		{
+			"id": "firstFeed",
+			"cat": "pflege",
+			"order": 1,
+			"coins": 10,
+			"cond": { "type": "counter", "key": "feeds", "count": 1 }
+		},
+		{
+			"id": "feed100",
+			"cat": "pflege",
+			"order": 2,
+			"coins": 100,
+			"cond": { "type": "counter", "key": "feeds", "count": 100 }
+		},
+		{
+			"id": "firstWash",
+			"cat": "pflege",
+			"order": 3,
+			"coins": 10,
+			"cond": { "type": "counter", "key": "washes", "count": 1 }
+		},
+		{
+			"id": "wash50",
+			"cat": "pflege",
+			"order": 4,
+			"coins": 80,
+			"cond": { "type": "counter", "key": "washes", "count": 50 }
+		},
+		{
+			"id": "firstSleep",
+			"cat": "pflege",
+			"order": 5,
+			"coins": 15,
+			"cond": { "type": "counter", "key": "sleeps", "count": 1 }
+		},
+		{
+			"id": "sleep20",
+			"cat": "pflege",
+			"order": 6,
+			"coins": 100,
+			"cond": { "type": "counter", "key": "sleeps", "count": 20 }
+		},
+		{
+			"id": "firstDrive",
+			"cat": "reisen",
+			"order": 7,
+			"coins": 20,
+			"cond": { "type": "counter", "key": "trips", "count": 1 }
+		},
+		{
+			"id": "drive25",
+			"cat": "reisen",
+			"order": 8,
+			"coins": 120,
+			"cond": { "type": "counter", "key": "trips", "count": 25 }
+		},
+		{
+			"id": "noCrash",
+			"cat": "reisen",
+			"order": 9,
+			"coins": 40,
+			"cond": { "type": "counter", "key": "cleanTrips", "count": 1 }
+		},
+		{
+			"id": "play12",
+			"cat": "spiel",
+			"order": 10,
+			"coins": 150,
+			"cond": { "type": "special", "key": "play12", "count": 12 }
+		},
+		{
+			"id": "coins1000",
+			"cat": "fortschritt",
+			"order": 11,
+			"coins": 50,
+			"cond": { "type": "special", "key": "coins", "count": 1000 }
+		},
+		{
+			"id": "level10",
+			"cat": "fortschritt",
+			"order": 12,
+			"coins": 100,
+			"cond": { "type": "special", "key": "level", "count": 10 }
+		},
+		{
+			"id": "fullOutfit",
+			"cat": "sammeln",
+			"order": 13,
+			"coins": 60,
+			"cond": { "type": "special", "key": "fullOutfit", "count": 3 }
+		},
+		{
+			"id": "decorator",
+			"cat": "sammeln",
+			"order": 14,
+			"coins": 80,
+			"cond": { "type": "special", "key": "decor", "count": 10 }
+		},
+		{
+			"id": "streak7",
+			"cat": "fortschritt",
+			"order": 15,
+			"coins": 150,
+			"cond": { "type": "special", "key": "streak", "count": 7 }
+		},
+		{
+			"id": "tickle100",
+			"cat": "pflege",
+			"order": 16,
+			"coins": 60,
+			"cond": { "type": "counter", "key": "tickles", "count": 100 }
+		},
+		{
+			"id": "firstHarvest",
+			"cat": "garten",
+			"order": 17,
+			"coins": 15,
+			"cond": { "type": "counter", "key": "harvests", "count": 1 }
+		},
+		{
+			"id": "harvest50",
+			"cat": "garten",
+			"order": 18,
+			"coins": 100,
+			"cond": { "type": "counter", "key": "harvests", "count": 50 }
+		},
+		{
+			"id": "allCrops",
+			"cat": "garten",
+			"order": 19,
+			"coins": 120,
+			"cond": { "type": "special", "key": "allCrops", "count": 8 }
+		},
+		{
+			"id": "firstQuest",
+			"cat": "fortschritt",
+			"order": 20,
+			"coins": 10,
+			"cond": { "type": "counter", "key": "questsDone", "count": 1 }
+		},
+		{
+			"id": "quest50",
+			"cat": "fortschritt",
+			"order": 21,
+			"coins": 120,
+			"cond": { "type": "counter", "key": "questsDone", "count": 50 }
+		},
+		{
+			"id": "firstSticker",
+			"cat": "sammeln",
+			"order": 22,
+			"coins": 10,
+			"cond": { "type": "special", "key": "stickers", "count": 1 }
+		},
+		{
+			"id": "setComplete",
+			"cat": "sammeln",
+			"order": 23,
+			"coins": 60,
+			"cond": { "type": "special", "key": "setsClaimed", "count": 1 }
+		},
+		{
+			"id": "albumFull",
+			"cat": "sammeln",
+			"order": 24,
+			"coins": 300,
+			"cond": { "type": "special", "key": "setsClaimed", "count": 4 }
+		},
+		{
+			"id": "firstCure",
+			"cat": "pflege",
+			"order": 25,
+			"coins": 20,
+			"cond": { "type": "counter", "key": "cures", "count": 1 }
+		},
+		{
+			"id": "vetVisit",
+			"cat": "pflege",
+			"order": 26,
+			"coins": 20,
+			"cond": { "type": "counter", "key": "vetTrips", "count": 1 }
+		},
+		{
+			"id": "neverSick",
+			"cat": "pflege",
+			"order": 27,
+			"coins": 150,
+			"cond": { "type": "special", "key": "neverSick", "count": 1 }
+		},
+		{
+			"id": "chonkZone",
+			"cat": "pflege",
+			"order": 28,
+			"coins": 40,
+			"cond": { "type": "special", "key": "weightMax", "count": 86 }
+		},
+		{
+			"id": "sleekMode",
+			"cat": "pflege",
+			"order": 29,
+			"coins": 40,
+			"cond": { "type": "special", "key": "weightMin", "count": 25 }
+		},
+		{
+			"id": "play21",
+			"cat": "spiel",
+			"order": 30,
+			"coins": 250,
+			"cond": { "type": "special", "key": "play21", "count": 21 }
+		},
+		{
+			"id": "delivery10",
+			"cat": "reisen",
+			"order": 31,
+			"coins": 80,
+			"cond": { "type": "counter", "key": "deliveries", "count": 10 }
+		},
+		{
+			"id": "holeInOne",
+			"cat": "spiel",
+			"order": 32,
+			"coins": 50,
+			"cond": { "type": "special", "key": "holeInOne", "count": 1 }
+		},
+		{
+			"id": "shutterbug",
+			"cat": "sammeln",
+			"order": 33,
+			"coins": 60,
+			"cond": { "type": "counter", "key": "photosTaken", "count": 10 }
+		},
+		{
+			"id": "stickerBook10",
+			"cat": "sammeln",
+			"order": 34,
+			"coins": 50,
+			"cond": { "type": "special", "key": "stickerCount", "count": 10 }
+		},
+		{
+			"id": "stickerBook20",
+			"cat": "sammeln",
+			"order": 35,
+			"coins": 100,
+			"cond": { "type": "special", "key": "stickerCount", "count": 20 }
+		},
+		{
+			"id": "stickerBookFull",
+			"cat": "sammeln",
+			"order": 36,
+			"coins": 300,
+			"cond": { "type": "special", "key": "stickerCount", "count": 28 }
+		},
+		{
+			"id": "nougatmeister",
+			"cat": "spiel",
+			"order": 37,
+			"coins": 80,
+			"cond": { "type": "counter", "key": "nougatGlobs", "count": 25 }
+		},
+		{
+			"id": "parkDay",
+			"cat": "reisen",
+			"order": 38,
+			"coins": 20,
+			"cond": { "type": "special", "key": "parkVisits", "count": 1 }
+		},
+		{
+			"id": "coasterFan",
+			"cat": "reisen",
+			"order": 39,
+			"coins": 40,
+			"cond": { "type": "special", "key": "coasterRides", "count": 5 }
+		},
+		{
+			"id": "wheelRide",
+			"cat": "reisen",
+			"order": 40,
+			"coins": 20,
+			"cond": { "type": "special", "key": "wheelRides", "count": 1 }
+		},
+		{
+			"id": "funkelnacht",
+			"cat": "reisen",
+			"order": 41,
+			"coins": 30,
+			"cond": { "type": "special", "key": "parkNight", "count": 1 }
+		},
+		{
+			"id": "postmaster",
+			"cat": "reisen",
+			"order": 42,
+			"coins": 40,
+			"cond": { "type": "special", "key": "postcards", "count": 10 }
+		},
+		{
+			"id": "stickerBook84",
+			"cat": "sammeln",
+			"order": 43,
+			"coins": 60,
+			"cond": { "type": "special", "key": "stickerCount", "count": 84 }
+		},
+		{
+			"id": "weltenbummler",
+			"cat": "reisen",
+			"order": 44,
+			"coins": 80,
+			"cond": { "type": "special", "key": "vacationDestinations", "count": 9 }
+		}
+	]
+}

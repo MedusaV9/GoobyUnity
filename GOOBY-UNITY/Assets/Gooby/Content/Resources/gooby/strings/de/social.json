@@ -1,0 +1,120 @@
+{
+	"social": {
+		"screen": {
+			"title": "Freunde & Besuche",
+			"back": "‹ Zurück",
+			"empty": "Noch keine Freunde — teile deinen Freundes-Code!",
+			"empty_art": "( \\ (\\\n(  . .)\no_(\")(\")",
+			"offline_hint": "Offline — Besuche & Spiele brauchen Internet."
+		},
+		"visit": {
+			"button": "Besuchen",
+			"request_sent": "Besuchs\u00adanfrage an {name} verschickt…",
+			"request_failed": "Anfrage fehlgeschlagen: {code}",
+			"incoming": "{name} möchte dich besuchen!",
+			"accept": "Reinlassen",
+			"decline": "Ablehnen",
+			"denied": "{name} hat gerade keine Zeit.",
+			"ended": "Der Besuch ist vorbei.",
+			"at": "Zu Besuch bei {gooby}",
+			"host_label": "{name} ist zu Besuch!",
+			"build_warning": "Bauen während des Besuchs kann Probleme machen!",
+			"build_button": "Bauen",
+			"upload_failed": "Haus-Upload fehlgeschlagen: {code}",
+			"fetch_failed": "Haus laden fehlgeschlagen: {code}",
+			"target_offline": "Dein Freund ist gerade nicht online.",
+			"end_button": "Besuch beenden",
+			"peer_left": "{name} ist gegangen.",
+			"peer_joined": "{name} ist da!"
+		},
+		"selfie": {
+			"emote": "Snap A Gooby!",
+			"hinweis": "Selfie-Zeit! In Position…",
+			"gesendet": "Selfie gespeichert — Kopie ist unterwegs zu {name}!",
+			"nur_lokal": "Selfie gespeichert — Versand klappte nicht.",
+			"fehler": "Das Selfie hat nicht geklappt.",
+			"mail_text": "Snap A Gooby! Unser Besuchs-Selfie."
+		},
+		"pal": {
+			"button": "GoobyPal",
+			"title": "GoobyPal",
+			"to": "An {name}",
+			"amount": "Betrag",
+			"send": "Senden",
+			"remaining": "Heute noch {rest} Münzen",
+			"sent": "{amount} Münzen an {name} geschickt!",
+			"received": "{name} hat dir {amount} Münzen geschickt!",
+			"boot_received": "Du hast {amount} Münzen von Freunden bekommen!",
+			"err": {
+				"offline": "Offline — GoobyPal braucht Internet.",
+				"daily_limit": "Tageslimit erreicht — morgen geht mehr!",
+				"bad_amount": "Der Betrag passt nicht (1–250).",
+				"not_friends": "Ihr seid keine Freunde.",
+				"not_found": "Diesen Freund gibt es nicht.",
+				"rate_limit": "Langsam! Zu viele Über\u00adweisungen.",
+				"no_coins": "So viele Münzen hast du nicht.",
+				"generic": "Das hat nicht geklappt."
+			}
+		},
+		"nap": {
+			"host_bubble": "Dein Kumpel pennt auf deiner Couch. Gemütlich!",
+			"host_bubble_boden": "Keine Couch da — dein Kumpel macht ein Boden-Nickerchen. Auch gemütlich!",
+			"host_wake": "Der Besucher-Gooby ist wieder wach!",
+			"guest_bubble": "Es ist spät und alle sind müde — dein Gooby kuschelt sich auf die Couch…",
+			"guest_bubble_boden": "Keine Couch gefunden — dein Gooby pennt einfach auf dem Boden. Legende!",
+			"wake_button": "Aufwecken",
+			"wake_toast_guest": "Sanft geweckt — dein Gooby blinzelt sich wach."
+		}
+	},
+	"board": {
+		"button": "Schiffe versenken",
+		"invite_sent": "Heraus\u00adforderung an {name} verschickt…",
+		"invite_failed": "Einladung fehlgeschlagen: {code}",
+		"invited": "{name} fordert dich zu „Schiffe versenken“ heraus!",
+		"accept": "Annehmen",
+		"decline": "Ablehnen",
+		"declined": "{name} hat abgelehnt.",
+		"table_hint": "Tipp: Mit einem Brettspieltisch im Haus wird’s gemütlicher!",
+		"your_turn": "Du bist dran!",
+		"their_turn": "{name} ist dran…",
+		"hit": "Treffer!",
+		"miss": "Wasser…",
+		"sunk": "Versenkt!",
+		"win": "GEWONNEN! Alle Schiffe versenkt!",
+		"lose": "Verloren… deine Flotte ist weg.",
+		"forfeit": "{name} hat aufgegeben — du gewinnst!",
+		"resumed": "Weiter geht’s — Spiel fortgesetzt!",
+		"leave": "Aufgeben",
+		"exit": "Verlassen",
+		"surrender_confirm": "Wirklich aufgeben?",
+		"rematch": {
+			"button": "Revanche!",
+			"waiting": "Wartet auf {name}…",
+			"incoming": "{name} will eine Revanche!",
+			"declined": "{name} ist gegangen — vielleicht später!",
+			"failed": "Revanche klappt gerade nicht: {code}"
+		},
+		"peer": {
+			"down": "{name} hat gerade keine Verbindung — das Spiel wartet…",
+			"up": "{name} ist wieder da!"
+		},
+		"setup": {
+			"title": "Deine Flotte",
+			"reroll": "Neu würfeln",
+			"ready": "Bereit!"
+		},
+		"emote": {
+			"button": "Emote",
+			"dance": "Tanzen",
+			"angry": "Wütend",
+			"laugh": "Lachen",
+			"sleep": "Schlafen",
+			"selfie": "Selfie!"
+		},
+		"tomato": {
+			"button": "Tomate!",
+			"limit": "Nur eine Tomate pro Runde!",
+			"hit": "PLATSCH! Tomate im Gesicht!"
+		}
+	}
+}

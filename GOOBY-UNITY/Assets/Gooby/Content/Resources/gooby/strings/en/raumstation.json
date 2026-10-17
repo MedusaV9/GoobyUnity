@@ -1,0 +1,34 @@
+{
+	"raumstation": {
+		"automat": {
+			"titel": "Astro Snack Machine",
+			"knopf": "Astro Snacks",
+			"schild": "ASTRO SNACKS",
+			"moehre": "Space Carrot"
+		},
+		"foto": {
+			"knopf": "Star Photo",
+			"keine_kamera": "No camera, no star photo! Bäm at POW! surely has one for you."
+		},
+		"weltengooby": {
+			"toast": "WORLD GOOBY! All 9 destinations visited — Gooby is at home everywhere now. Even in space!",
+			"badge": "🌍 World Gooby"
+		}
+	},
+	"gfree": {
+		"knopf": "GOOBY FREE",
+		"schild": "GOOBY FREE",
+		"titel": "GOOBY FREE Shop",
+		"hinweis": "Airport prices! But exclusive, duty-free and wrapped with a whole lot of wanderlust.",
+		"zu": "GOOBY FREE only opens before departure — book first, browse second!",
+		"exklusiv": "Only here!",
+		"gekauft": "{name} packed! Safe travels!",
+		"lager_voll": "Your storage is full — make room at home first!",
+		"shuttle_knopf": "GOOB-1 Shuttle"
+	},
+	"rewards": {
+		"food": {
+			"weltraumMoehre": "Space Carrot"
+		}
+	}
+}

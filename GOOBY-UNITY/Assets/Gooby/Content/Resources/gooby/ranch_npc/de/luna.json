@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_luna",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "luna",
+			"text": "… guten Morgen … der Tau hat heute Nacht Geschichten erzählt … ich habe für dich mitgehört …",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "luna",
+			"text": "… ich bin Luna … sprich leise … die Wildpferde da oben zählen unsere Worte mit …",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "luna",
+			"text": "… schön, dass du kommst, wenn das Licht weich wird … um diese Stunde sind alle Herzen zahmer …",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "luna",
+			"text": "… hörst du den Regen? … das ist Applaus für alle, die trotzdem rausgehen … er meint dich …",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "luna",
+			"text": "… du … die Wildpferde haben dir einen Namen gegeben … Der-mit-dem-guten-Schritt … das vergeben sie fast nie …",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "luna",
+			"text": "… frag den Wind … oder mich …",
+			"optionen": [
+				{"text": "Kann ich helfen?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Es ist vollbracht …", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "Was flüstern die Hügel?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "Was flüstern die Hügel?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "Was flüstern die Hügel?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Warum flüsterst du?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Wer ist Kling-Klang?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Leise Grüße!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "luna",
+			"text": [
+				"… die Leitstute hat heute dreimal geschnaubt … das bedeutet: gutes Heu-Jahr …",
+				"… oder Heuschnupfen … mein Wildpferdisch hat noch Lücken …"
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "luna",
+			"text": [
+				"… die Herde redet über dich … nur Gutes … und einmal was über deine Frisur …",
+				"… Pferde verstehen Frisuren nicht … sie haben Mähnen … da wächst Meinung gleich mit …"
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "luna",
+			"text": [
+				"… ich habe den Wildpferden von dir erzählt … sie haben zugehört, ohne wegzulaufen …",
+				"… weißt du, was das heißt? … bei Wildpferden ist Stehenbleiben eine Liebeserklärung …"
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "luna",
+			"text": "… ja … es gibt etwas … die Hügel haben darum gebeten … sie bitten selten …",
+			"optionen": [
+				{"text": "Für die Hügel: immer.", "next": "quest_annahme"},
+				{"text": "Der Wind sagt: später …", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "luna",
+			"text": "… gut … geh mit weichem Schritt … und wenn dich etwas Großes anschnaubt … einfach zurückatmen …",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "luna",
+			"text": "… der Wind versteht das … er verschiebt auch ständig alles … meistens Blätter …",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "luna",
+			"text": "… ich weiß … die Hügel haben es schon erzählt … sie sind schrecklich schnell mit Neuigkeiten … hier, dein Dank …",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "luna",
+			"text": "… eine Blume … du hast sie gepflückt, ohne die Wiese zu erschrecken … das spüre ich … danke …",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "luna",
+			"text": "… wie freundlich … ich teile es mit dem Wind … der Wind nimmt aber nur den Duft …",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "luna",
+			"text": "… oh … es ist sehr … laut, dieses Geschenk … aber es meint es gut … wie du …",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "luna",
+			"text": [
+				"… warum ich flüstere? … als Kind habe ich einmal geschrien … einmal …",
+				"… eine ganze Wildpferdherde rannte drei Tage lang … sie schicken mir bis heute die Rechnung …",
+				"… seitdem flüstere ich … die Welt hört besser zu, wenn man sie nicht anbrüllt …"
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "luna",
+			"text": [
+				"… Kling-Klang … das alte Wildpferd mit dem geschmiedeten Huf … Eisenhufs Meisterstück …",
+				"… es führt die Herde über die Hügel … du hörst es, bevor du es siehst … kling, klang …",
+				"… eines Tages stelle ich euch vor … wenn dein Schritt noch etwas weicher wird … wir üben …"
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "luna",
+			"text": "… geh sanft … und lass die Tür im Wind offen … er kommt gern mit rein …",
+			"ende": true
+		}
+	}
+}

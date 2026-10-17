@@ -1,0 +1,11 @@
+{
+	"mg": {
+		"hudkit": {
+			"beat_paar": "Pair found!",
+			"beat_schaf": "Sheep in the pen! {n}/{max}",
+			"beat_welle": "Wave survived!",
+			"beat_gold": "Golden carrot! +{n}",
+			"beat_perfekt": "Perfect! +{n}"
+		}
+	}
+}

@@ -1,0 +1,105 @@
+{
+	"mg": {
+		"bubblePop": {
+			"title": "Blasen-Platzer",
+			"hint": "Tippe nur die Blasen mit dem gesuchten Essen!",
+			"target": "Zerplatze: {food}",
+			"wrong": "Falsche Blase! −2",
+			"spiky": "Autsch! Stachelig! −1",
+			"chain": "Kettenreaktion!",
+			"spikes": "Stacheln: {n}/{max}",
+			"food_carrot": "Möhre",
+			"food_apple": "Apfel",
+			"food_banana": "Banane",
+			"food_cheese": "Käse",
+			"food_donut": "Streusel-Donut",
+			"food_cupcake": "Törtchen"
+		},
+		"memoryMatch": {
+			"title": "Memory",
+			"hint": "Tippe zwei Karten und finde die Paare!",
+			"peek": "Spicken! Gut merken!",
+			"peek_ready": "Spicken verdient — tippe den Knopf!",
+			"peek_button": "Spicken",
+			"cleared": "Alle Paare gefunden!",
+			"pairs": "Paare: {n}/{max}",
+			"misses": "Fehlgriffe: {n}/{max}"
+		},
+		"goobySays": {
+			"title": "Gooby sagt",
+			"hint": "Merk dir die Folge und tippe sie nach!",
+			"round": "Runde {n}",
+			"watch": "Gut aufpassen…",
+			"go": "Du bist dran!",
+			"chord": "Akkord! Beide Felder!",
+			"oops": "Daneben!"
+		},
+		"pipeFlow": {
+			"title": "Rohr-Wirrwarr",
+			"hint": "Dreh die Rohre, bis das Wasser den Sprenger erreicht!",
+			"puzzle": "Rätsel {n}",
+			"solved": "Verbunden! Wasser marsch!",
+			"leak": "Es tropft! −5",
+			"taps": "Drehungen: {n}",
+			"failures": "Patzer: {n}/{max}"
+		},
+		"carrotGuard": {
+			"title": "Möhrenwache",
+			"hint": "Tippe die Maulwürfe, bevor sie abtauchen!",
+			"combo": "Kombo! +3",
+			"steal": "Eine Möhre geklaut!",
+			"king": "Maulwurfkönig! 3 Treffer!",
+			"king_defeated": "König besiegt! +8 + 2 Münzen",
+			"empty": "Alle Möhren weg!",
+			"carrots": "Möhren: {n}/{max}",
+			"stolen": "Geklaut: {n}/{max}"
+		},
+		"bunnyHop": {
+			"title": "Hasenhüpfer",
+			"hint": "Tippen lässt Gooby hüpfen — flieg durch die Tore!",
+			"crash": "Rums!",
+			"gust": "Windstoß! Tore zählen ×2",
+			"gust_warn": "Achtung, Wind!",
+			"gates": "Tore: {n}",
+			"narrow": "Enger wird’s!"
+		},
+		"trampoline": {
+			"title": "Trampolin-Tricks",
+			"hint": "Kurz vor der Matte tippen — in der Luft wischen für Tricks!",
+			"intro": "Tipp im grünen Fenster!",
+			"boost": "Boost!",
+			"butt": "Autsch — Po-Landung!",
+			"flip": "Salto!",
+			"spin": "Drehung!",
+			"twist": "Schraube!",
+			"combo": "Dreierpack! +12",
+			"mult": "Höhe ×{n}",
+			"tier": "Höhe ×{n}!",
+			"fails": "Bruchlandungen: {n}/{max}"
+		},
+		"veggieChop": {
+			"title": "Gemüse-Schnippler",
+			"hint": "Wisch durchs Gemüse — Müll lässt du liegen!",
+			"intro": "Wisch durchs Gemüse!",
+			"combo": "Kombo! +1",
+			"junk": "Igitt! −3",
+			"miss": "Verpasst! Noch {n}…",
+			"over": "Zu viel verpasst…",
+			"frenzy": "FRENZY! 8 Gemüse!",
+			"missed": "Verpasst: {n}/{max}",
+			"junk_hits": "Müll: {n}/{max}"
+		},
+		"gardenRush": {
+			"title": "Gießkannen-Wirbel",
+			"hint": "Halte auf einem Topf, bis der Ring grün ist — dann loslassen!",
+			"perfect": "Perfekt! +3",
+			"early": "Okay +1",
+			"wilted": "Verwelkt… −2",
+			"weed": "Unkraut! −1",
+			"sprinkler_ready": "Sprinkler bereit! Antippen!",
+			"sprinkler_used": "Sprinkler! {n} Ringe +50 %",
+			"more_pots": "Mehr Töpfe!",
+			"withered": "Verwelkt: {n}/{max}"
+		}
+	}
+}

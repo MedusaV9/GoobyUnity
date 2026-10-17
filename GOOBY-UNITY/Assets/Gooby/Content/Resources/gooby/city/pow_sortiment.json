@@ -1,0 +1,25 @@
+{
+  "kommentar": "POW!-Sortiment (Doc E §2.3): die KAMERA ist das Gate für den Fotomodus (USER §E61) und wird nur EINMAL verkauft. Alles unter `pool` ist Deko/Spielzeug und speist die 3 Tagesangebote (deterministisch aus dem Kalendertag, kein Server). `inventar` = Ziel-Key in inventory.items.",
+  "kamera": {
+    "id": "kamera",
+    "name_de": "GOOBY-Knipse (Kamera)",
+    "preis": 250,
+    "inventar": "kamera",
+    "einmalig": true
+  },
+  "rabatte": [20, 30, 50],
+  "pool": [
+    {"id": "flummi", "name_de": "Flummi (springt bis zur Decke)", "preis": 15, "inventar": "flummi"},
+    {"id": "poster_gooby", "name_de": "Poster „Ein Gooby blickt in die Ferne“", "preis": 22, "inventar": "poster_gooby"},
+    {"id": "knallbonbon", "name_de": "Knallbonbon (Inhalt: Konfetti)", "preis": 25, "inventar": "knallbonbon"},
+    {"id": "quietschhammer", "name_de": "Quietschhammer", "preis": 28, "inventar": "quietschhammer"},
+    {"id": "stickerheft", "name_de": "Leeres Stickerheft", "preis": 30, "inventar": "stickerheft"},
+    {"id": "pluesch_moehre", "name_de": "Plüsch-Möhre (lebensgroß)", "preis": 35, "inventar": "pluesch_moehre"},
+    {"id": "gummiente", "name_de": "Gummiente mit Sonnenbrille", "preis": 40, "inventar": "gummiente"},
+    {"id": "riesenpuzzle", "name_de": "Riesenpuzzle (2 Teile)", "preis": 45, "inventar": "riesenpuzzle"},
+    {"id": "wasserpistole", "name_de": "Wasserpistole „Platschmeister“", "preis": 55, "inventar": "wasserpistole"},
+    {"id": "sammelfigur", "name_de": "Sammelfigur (Serie 3, doppelt)", "preis": 60, "inventar": "sammelfigur"},
+    {"id": "lavalampe", "name_de": "Lavalampe (blubbert vorwurfsvoll)", "preis": 90, "inventar": "lavalampe"},
+    {"id": "diskokugel", "name_de": "Diskokugel für den Flur", "preis": 120, "inventar": "diskokugel"}
+  ]
+}

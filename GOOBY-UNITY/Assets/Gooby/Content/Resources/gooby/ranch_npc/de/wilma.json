@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_wilma",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "wilma",
+			"text": "Einen erlesenen Morgen! Die Herrschaften Pferde haben bereits gespeist. Standesgemäß: aus dem Eimer.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "wilma",
+			"text": "Wilma von Wiehernstein, Züchterin in dritter Generation. Die Pferde sind adelig. Ich tue nur so.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "wilma",
+			"text": "Guten Abend! Die Koppel ruht. Nur Graf Galopp wälzt sich noch. Er nennt es Abendtoilette.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "wilma",
+			"text": "Welch ein Schauer! Die Pferde tragen heute Matsch. Sie sagen, es sei diese Saison sehr gefragt.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "wilma",
+			"text": "Ah, mein Herzensmensch! Die Herde hat dich längst geadelt. Du darfst das unsichtbare Wappen tragen.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "wilma",
+			"text": "Womit darf ich aufwarten?",
+			"optionen": [
+				{"text": "Gibt es eine Aufgabe?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Auftrag ausgeführt!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "Wie geht's der Herde?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "Wie geht's der Herde?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "Wie geht's der Herde?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Erzähl vom Stammbaum!", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Warum siezt du die Pferde?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Empfehle mich!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "wilma",
+			"text": [
+				"Die Herde? Bestens. Baroness Trab hat heute ein Hindernis übersprungen. Es war ein Eimer.",
+				"Wir feiern trotzdem. Adel verpflichtet zu niedrigen Standards bei großen Festen."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "wilma",
+			"text": [
+				"Graf Galopp fragt neuerdings nach dir. Er schnaubt zweimal, das heißt: Wo ist der Gute?",
+				"Einmal schnauben heißt übrigens Futter. Dreimal auch. Eigentlich heißt fast alles Futter."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "wilma",
+			"text": [
+				"Ich will dir etwas gestehen: Das von ist erfunden. Wiehernstein ist ein Findling hinterm Stall.",
+				"Aber die Pferde glauben fest an unseren Titel. Und wer bin ich, dem Adel zu widersprechen?"
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "wilma",
+			"text": "In der Tat! Eine Angelegenheit von herrschaftlicher Dringlichkeit. Es geht — natürlich — um Pferde.",
+			"optionen": [
+				{"text": "Zu Diensten!", "next": "quest_annahme"},
+				{"text": "Ich bin unpässlich …", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "wilma",
+			"text": "Vortrefflich! Die Herde wird es dir danken. Vermutlich durch Anlehnen. Mit vollem Gewicht.",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "wilma",
+			"text": "Selbstredend. Gute Dinge reifen. Wie Käse. Oder Stammbäume.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "wilma",
+			"text": "Exzellent ausgeführt! Ich schlage dich hiermit zum Ritter der Ranch. Bitte knien ist nicht nötig, hier liegt Mist.",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "wilma",
+			"text": "Heu! Feinstes Heu! Du verstehst den wahren Luxus. Die Herde wird vor Neid erblassen — ich teile nicht.",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "wilma",
+			"text": "Wie galant! Das nehme ich mit beiden Handschuhen an. Ich besitze keine Handschuhe, aber die Geste zählt.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "wilma",
+			"text": "Ah. Ungewöhnlich. Ich werde es im Ostflügel ausstellen. Der Ostflügel ist ein Regalbrett.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "wilma",
+			"text": [
+				"Der Stammbaum! Graf Galopps Urahn war das schnellste Pferd des Tals. Angeblich.",
+				"In Wahrheit rannte er nur einmal sehr schnell — vor einer Biene. Drei Dörfer weit.",
+				"Aus Versehen gewann er dabei das große Rennen. So entstehen Dynastien, mein Freund."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "wilma",
+			"text": [
+				"Warum ich sie sieze? Als Kind war ich winzig und die Pferde riesig. Ich dachte, das sind Könige.",
+				"Mein erster Satz an ein Pferd war: Entschuldigen Sie, dürfte ich Sie streicheln?",
+				"Es hat genickt. Seitdem bleibe ich dabei. Man bricht kein Versprechen an einen König."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "wilma",
+			"text": "Lebewohl! Die Herde und ich winken. Die Herde frisst, aber innerlich winkt sie.",
+			"ende": true
+		}
+	}
+}

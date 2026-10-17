@@ -1,0 +1,147 @@
+{
+  "rhof": {
+    "untertitel": "Your farm · {pferde} horses",
+    "level": "Lv {n}",
+    "reiten": "Ride & compete",
+    "hof": "Farm & shop",
+    "tor_gesperrt": "From level {level} you can buy the ranch — you are level {aktuell}.",
+    "tor_umschauen": "Just look around",
+    "nur_schauen": "Buy the ranch to look after the horses.",
+    "leer": {
+      "heu": "No hay left — mow the hay meadow or buy bales in the farm shop.",
+      "apfel": "No apples in store — the apple trees will bear again soon.",
+      "karotte": "No carrots in the fridge — grow them in the garden or grab some at the supermarket.",
+      "hafer": "No oats left — the feed store in Hufingen has them.",
+      "leckerli": "No treats left — Marta at the Hufingen feed store has some."
+    },
+    "waechst": "growing ({zeit})",
+    "wiese": "Hay meadow",
+    "wiese_reif": "The hay meadow is ready — tap it to mow!",
+    "wiese_waechst": "The hay meadow is still growing ({zeit}).",
+    "wiese_tag": "Mow!",
+    "baum_waechst": "The apple tree bears again in {zeit}.",
+    "gemaeht": "+{n} hay bales!",
+    "gepflueckt": "+{n} apples!",
+    "reaktion": {
+      "heu": "Munch, munch — {name} chews happily.",
+      "apfel": "Crunch! {name} loves apples.",
+      "karotte": "A carrot! {name} snorts with joy.",
+      "traenken": "Slurp … ahh! {name} has had enough to drink.",
+      "striegeln": "{name} shines like new!",
+      "ausmisten": "Spotless! The stable smells of fresh straw.",
+      "hafer": "Oats! {name} eats with relish and is properly full.",
+      "leckerli": "A treat! {name} nudges you with its nose."
+    },
+    "voll": "{name} is perfectly content — that's plenty for today!",
+    "stufe": "{name} and you: {stufe}!",
+    "event": {
+      "hungrig": "{name} is hungry!",
+      "durstig": "{name} is thirsty!",
+      "stinkig": "{name} is waiting for the brush.",
+      "stallDreckig": "The stable is getting smelly — time to muck out!",
+      "ausgebuext": {
+        "start": "Neighing at the fence — a horse got out!",
+        "hinweis": "Tap the horse by the hay bales and it trots back into the paddock.",
+        "geschafft": "Caught! {name} snuggles up to you. +25 ᴳ and more bond."
+      },
+      "heudieb": {
+        "start": "Caw! Cheeky crows are stealing your hay!",
+        "hinweis": "Tap every crow on the hay stack!",
+        "geschafft": "Gone! Hay saved — and 2 bales extra."
+      },
+      "hufschmied": {
+        "start": "The travelling farrier stops by!",
+        "hinweis": "Tap him at the gate — he checks every hoof.",
+        "geschafft": "All hooves checked — your horses wear the hoof seal for a day.",
+        "chip": "Hooves checked"
+      },
+      "karottenregen": {
+        "start": "GOOBY weather: carrot rain over the hay meadow!",
+        "hinweis": "Pick up the carrots on the hay meadow!",
+        "geschafft": "{n} carrots in the fridge!"
+      }
+    },
+    "schlaeft": "Shh … the horses are asleep in the stable. A treat still works.",
+    "willkommen": "Welcome to your farm! Tap a horse.",
+    "tipp": "Tap the trees, meadow, trough or stable.",
+    "fuettern": "Feed",
+    "futter": {
+      "heu": "Hay",
+      "apfel": "Apple",
+      "karotte": "Carrot",
+      "hafer": "Oats",
+      "leckerli": "Treat"
+    },
+    "tage": {
+      "titel": "Daily tasks",
+      "untertitel": "Three little tasks for today on the ranch",
+      "abholen": "Collect +{n} ᴳ",
+      "abgeholt": "Collected",
+      "geschafft": "Task done: {text}",
+      "morgen": "New tasks tomorrow — you can never miss anything.",
+      "text": {
+        "tages_ausmisten": "Muck out the stable",
+        "tages_aepfel": "Pick 2 apples",
+        "tages_striegeln": "Brush a horse",
+        "tages_fuettern": "Feed 3 times",
+        "tages_heu": "Mow the hay meadow",
+        "tages_dorf": "Ride to Hufingen",
+        "tages_reiten": "Ride a ranch game"
+      }
+    },
+    "zucht": {
+      "titel": "Breeding",
+      "text": "{stute} will have a foal — who will be the father?",
+      "decken": "Foal with {name}",
+      "traechtig": "Expecting · foal in {zeit}",
+      "fuersorge": "Stroke the belly",
+      "fuersorge_ok": "{name} loves it — the foal comes 2 hours sooner.",
+      "start": "Expecting! A foal arrives in about two days.",
+      "geboren": "A foal is born! {name} is here.",
+      "jung": "Too young to ride — {name} is still growing.",
+      "waechst": "{alter} · {naechste} in {tage} d",
+      "alter": {
+        "fohlen": "Foal",
+        "jaehrling": "Yearling",
+        "jungpferd": "Young horse",
+        "ausgewachsen": "Grown"
+      },
+      "keiner": "For a foal you need a second grown horse.",
+      "fehler": {
+        "traechtig": "{name} is already expecting.",
+        "voll": "Two mares are already expecting.",
+        "ruhezeit": "{name} is still resting after the birth.",
+        "level": "Both horses need level 8 — tournaments give horse XP.",
+        "bindung": "Both need a bond of at least 45 (“friend”).",
+        "laune": "{name} must be really happy (mood 60) — care for her first.",
+        "jung": "Foals and yearlings do not have foals yet.",
+        "selbe": "Pick a second horse.",
+        "keinPferd": "I do not know this horse."
+      }
+    },
+    "zaehmen": {
+      "aufmerksam": "Attention",
+      "ruhe": "Calm",
+      "start": "A wild horse grazes at the forest edge. Sneak up — crouched it hardly notices you!",
+      "ducken": "Crouch",
+      "schleichen": "Sneak",
+      "beruhigen": "Calm",
+      "bereit": "Really close! Tap “Calm” every time it snorts.",
+      "weg": "Oops — it trotted off. Wait a moment, it comes back.",
+      "wieder": "There it is again! Quietly this time …",
+      "gezaehmt": "Tamed! {name} moves to your ranch.",
+      "kein_platz": "Tamed — but there is no room left in the stable.",
+      "karte": "To the forest edge",
+      "karte_text": "A wild horse grazes there today — sneak up and calm it.",
+      "karte_morgen": "Already tamed today — a new wild horse grazes there tomorrow.",
+      "stall_voll": "A wild horse needs a free box — build more boxes."
+    },
+    "wetter": {
+      "klar": "Clear night",
+      "bis": "{wetter} until {zeit} — then {danach}.",
+      "bleibt": "{wetter} — it stays like this today.",
+      "regenbogen_toast": "A rainbow over the ranch!",
+      "regen_tipp": "The puddles sparkle — the air is so fresh after the rain."
+    }
+  }
+}

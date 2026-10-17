@@ -1,0 +1,41 @@
+{
+	"recap": {
+		"title": "Gooby's Recap",
+		"level_headline": "Level {level}!",
+		"weiter": "Continue",
+		"ueberspringen": "Skip",
+		"station": {
+			"home": "Home",
+			"kitchen": "Kitchen",
+			"garden": "Garden",
+			"city": "Big City",
+			"shop": "REHWEI",
+			"arcade": "The Arcade",
+			"park": "Sparkle Park",
+			"vacation": "Vacation",
+			"bath": "Bathroom",
+			"night": "Good Night"
+		},
+		"stat": {
+			"days": "Since then: {n} days",
+			"days_one": "Since then: 1 day",
+			"games": "{n} games played",
+			"coinsEarned": "{n} coins earned",
+			"tickles": "belly rubbed {n}×",
+			"feeds": "{n} tasty meals",
+			"harvests": "{n} harvests brought in",
+			"stickers": "{n} new stickers",
+			"quests": "{n} quests done",
+			"washes": "{n} squeaky-clean baths",
+			"sleeps": "{n} good nights of sleep",
+			"trips": "{n} trips to town",
+			"distance": "{n} m traveled",
+			"photos": "{n} photos snapped",
+			"deliveries": "{n} parcels delivered",
+			"cures": "sick {n}× (get well soon!)",
+			"cakes": "{n} cakes served",
+			"nougat": "{n} nougat globs",
+			"coinsSpent": "{n} coins spent"
+		}
+	}
+}

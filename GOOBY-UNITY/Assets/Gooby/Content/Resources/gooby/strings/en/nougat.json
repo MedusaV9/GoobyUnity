@@ -1,0 +1,13 @@
+{
+	"nougat": {
+		"installiert": "The nougat chute is installed! Gooby stares at it in awe.",
+		"schlaeft": "Shhh … Gooby is asleep. The chute will chute again later.",
+		"krank": "Gooby’s tummy is off duty today — no nougat experiments.",
+		"pause": "Nougat break! It drips again in {minuten} min.",
+		"klecks1": "SCHLORP! A nougat glob, right on the snoot!",
+		"klecks2": "The crank squeaks — and Gooby squeaks along with delight.",
+		"klecks3": "Nougat away! Gooby smacks his lips blissfully.",
+		"glas_bonus": "PLOP! A bonus jar of Nutella rolls into the pantry.",
+		"kurbeln": "Crank it!"
+	}
+}

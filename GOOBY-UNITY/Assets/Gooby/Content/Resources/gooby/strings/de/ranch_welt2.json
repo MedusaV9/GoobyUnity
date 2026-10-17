@@ -1,0 +1,26 @@
+{
+ "rwelt": {
+  "zone": {
+   "bergmassiv": "Wolkenhorn-Massiv",
+   "blumenwiese": "Lavendelwiese",
+   "moor": "Nebelmoor",
+   "ruine": "Turmruine Altfels",
+   "strand": "Muschelbucht",
+   "obstgarten": "Apfelgarten",
+   "kornfeld": "Goldkornfeld"
+  },
+  "fund": {
+   "gipfelkreuz": "Das Gipfelkreuz am Wolkenhorn",
+   "bergsee_perle": "Die Perle vom Bergsee",
+   "ruine_schatz": "Der Schatz der Turmruine",
+   "moor_irrlicht": "Das Irrlicht im Nebelmoor",
+   "strand_muschel": "Die Riesenmuschel",
+   "lavendel_bienen": "Die Bienenstöcke im Lavendel",
+   "kornkreis": "Der geheimnisvolle Kornkreis"
+  },
+  "hud": {
+   "plateau": "Plateau-Rundblick",
+   "rastplatz": "Rastplatz"
+  }
+ }
+}

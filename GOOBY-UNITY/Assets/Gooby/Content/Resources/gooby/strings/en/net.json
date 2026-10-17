@@ -1,0 +1,55 @@
+{
+	"net": {
+		"status": {
+			"offline": "Offline",
+			"connecting": "Connecting…",
+			"online": "Online"
+		},
+		"friends": {
+			"title": "Friends",
+			"back": "‹ Back",
+			"my_code": "Your friend code",
+			"copy": "Copy",
+			"copied": "Copied!",
+			"add_title": "Add a friend",
+			"add_placeholder": "GOOBY code or name",
+			"add_button": "Send request",
+			"add_sent": "Request sent!",
+			"add_error": "That did not work: {code}",
+			"requests_title": "Requests",
+			"accept": "Accept",
+			"decline": "Decline",
+			"list_title": "Your friends",
+			"empty": "No friends yet — share your friend code!",
+			"empty_art": "( \\ (\\\n(  . .)\no_(\")(\")",
+			"offline_hint": "Offline — friends need internet.",
+			"online": "is online",
+			"offline": "offline right now",
+			"coins": "ᴳ {coins}",
+			"request_from": "{name} ({gooby})"
+		},
+		"presence": {
+			"online": "is online",
+			"home": "is at home with {gooby}",
+			"park": "is at the park with {gooby}",
+			"city": "is out in the city with {gooby}",
+			"ikea": "is browsing the furniture store with {gooby}",
+			"garden": "is in the garden with {gooby}",
+			"visit": "is visiting a friend with {gooby}",
+			"board": "is playing a round of battleship",
+			"drive": "is driving through the city with {gooby}",
+			"vacation": "is on vacation with {gooby}",
+			"sleep": "is asleep — shhh, so is {gooby}",
+			"ranch": "is at the ranch with {gooby}",
+			"ranchbesuch": "is visiting a friend’s ranch with {gooby}",
+			"ausritt": "is out on a trail ride with friends",
+			"rennen": "is riding a race on the grass track",
+			"fangen": "is playing tag in the meadow",
+			"parcours": "is riding a jumping duel",
+			"minigame": "is playing “{name}”"
+		},
+		"gate": {
+			"ws_heimnetz": "Unencrypted connections are home-network only — use wss:// (TLS)"
+		}
+	}
+}

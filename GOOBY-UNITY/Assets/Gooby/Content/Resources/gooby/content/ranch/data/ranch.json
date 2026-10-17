@@ -1,0 +1,127 @@
+{
+	"schema": "gooby.ranch/1",
+	"items": [
+		{
+			"id": "welt",
+			"typ": "welt",
+			"feld_breite_m": 480.0,
+			"feld_tiefe_m": 380.0,
+			"strasse_laenge_m": 520.0,
+			"strasse_breite_m": 10.0,
+			"schild_km": 8,
+			"deko_seed": 20260726
+		},
+		{
+			"id": "tier_pferd_karamell",
+			"typ": "tier",
+			"art": "pferd",
+			"start": true,
+			"name_key": "ranch.tiere.karamell",
+			"farbe": "#D9A066",
+			"maehne": "#8A5A33",
+			"fell_id": "palomino"
+		},
+		{
+			"id": "tier_pferd_wolke",
+			"typ": "tier",
+			"art": "pferd",
+			"start": true,
+			"name_key": "ranch.tiere.wolke",
+			"farbe": "#F2E9DC",
+			"maehne": "#C9B79C",
+			"fell_id": "weiss"
+		},
+		{
+			"id": "tier_pferd_beere",
+			"typ": "tier",
+			"art": "pferd",
+			"start": true,
+			"name_key": "ranch.tiere.beere",
+			"farbe": "#C98BB9",
+			"maehne": "#8A5A7A",
+			"fell_id": "schecke"
+		},
+		{
+			"id": "tier_kuh_frieda",
+			"typ": "tier",
+			"art": "kuh",
+			"start": true,
+			"name_key": "ranch.tiere.frieda",
+			"farbe": "#F5EFE4",
+			"flecken": "#7A5C43"
+		},
+		{
+			"id": "tier_kuh_paula",
+			"typ": "tier",
+			"art": "kuh",
+			"start": true,
+			"name_key": "ranch.tiere.paula",
+			"farbe": "#E8D9C4",
+			"flecken": "#4E4038"
+		},
+		{
+			"id": "tier_schaf_wolli",
+			"typ": "tier",
+			"art": "schaf",
+			"start": true,
+			"name_key": "ranch.tiere.wolli",
+			"farbe": "#F7F3EA"
+		},
+		{
+			"id": "tier_schaf_lotte",
+			"typ": "tier",
+			"art": "schaf",
+			"start": true,
+			"name_key": "ranch.tiere.lotte",
+			"farbe": "#EFE3D0"
+		},
+		{
+			"id": "tier_schaf_milo",
+			"typ": "tier",
+			"art": "schaf",
+			"start": true,
+			"name_key": "ranch.tiere.milo",
+			"farbe": "#E4DACB"
+		},
+		{
+			"id": "tier_huhn_kiki",
+			"typ": "tier",
+			"art": "huhn",
+			"start": true,
+			"name_key": "ranch.tiere.kiki",
+			"farbe": "#F2C14E"
+		},
+		{
+			"id": "tier_huhn_nugget",
+			"typ": "tier",
+			"art": "huhn",
+			"start": false,
+			"name_key": "ranch.tiere.nugget",
+			"farbe": "#E8524A"
+		},
+		{
+			"id": "ausbau_stall_2",
+			"typ": "ausbau",
+			"anlage": "stall",
+			"stufe": 2,
+			"preis": 900,
+			"name_key": "ranch.ausbau.stall_2"
+		},
+		{
+			"id": "ausbau_koppel_2",
+			"typ": "ausbau",
+			"anlage": "koppel",
+			"stufe": 2,
+			"preis": 700,
+			"name_key": "ranch.ausbau.koppel_2"
+		},
+		{
+			"id": "ausbau_reitplatz_2",
+			"typ": "ausbau",
+			"anlage": "reitplatz",
+			"stufe": 2,
+			"preis": 800,
+			"name_key": "ranch.ausbau.reitplatz_2"
+		}
+	]
+}

@@ -1,0 +1,123 @@
+{
+	"dialog": {
+		"weiter_hinweis": "Tipp für mehr"
+	},
+	"hud": {
+		"album": "Album",
+		"arcade": "Arcade",
+		"arcade_kurz": "Spiele",
+		"auge": "Zeig mir alles!",
+		"bau": "Bauen",
+		"coachmark_ok": "Alles klar!",
+		"coachmark_text": "Hier findest du alles Wichtige: Bauen, Gestalten, Reise, Arcade, Album, Garderobe, Möbel, Profil und IGohbie. Das Auge unten zeigt dir, was Gooby gerade will.",
+		"coachmark_titel": "Deine Knöpfe",
+		"einstellungen": "Einstellungen",
+		"gestalten": "Gestalten",
+		"gestalten_kurz": "Deko",
+		"igohbie": "IGohbie",
+		"igohbie_kurz": "Handy",
+		"ikea": "Möbel",
+		"ikea_kurz": "Möbel",
+		"level_pill": "Lv {level}",
+		"mehr": "Mehr",
+		"profil": "Profil",
+		"quests_kurz": "Ziele",
+		"reise": "Reise",
+		"sheet_buff": "{wert} Buff",
+		"sheet_titel": "Gooby-Status",
+		"stat_energie": "Energie",
+		"stat_hunger": "Hunger",
+		"stat_hygiene": "Hygiene",
+		"stat_spass": "Spaß",
+		"wardrobe": "Garderobe",
+		"wardrobe_kurz": "Outfit",
+		"weniger": "Weniger",
+		"wo_ist_gooby": "Wo ist mein Gooby?"
+	},
+	"news": {
+		"button": "Alles klar!",
+		"items": [
+			{
+				"text": "GOOBY wurde von Grund auf neu gebaut — schneller, hübscher und noch flauschiger.",
+				"titel": "Alles neu in 3D!"
+			},
+			{
+				"text": "Stell Möbel frei im Raster auf, räum um und mach es dir richtig gemütlich.",
+				"titel": "Bau dein Haus!"
+			},
+			{
+				"text": "Fahr selbst durch die Stadt, entdecke Orte und flieg in den Urlaub.",
+				"titel": "Reise & Stadt"
+			},
+			{
+				"text": "Besuch deine Freunde, spielt zusammen Brettspiele — und werft liebevoll Tomaten.",
+				"titel": "Freunde"
+			},
+			{
+				"text": "Die Arcade ist zurück — mit Goobys vs Zombies und weiteren Minispielen.",
+				"titel": "Neue Spiele"
+			},
+			{
+				"text": "Dein alter Spielstand zieht mit um — nichts geht verloren.",
+				"titel": "Umzugskoffer"
+			}
+		],
+		"titel": "Neu in 5.0",
+		"untertitel": "Alles neu gebaut — mit ganz viel Liebe.",
+		"version": "Version {version}"
+	},
+	"onboarding": {
+		"done_button": "Los geht’s!",
+		"done_text": "{nickname} kann es kaum erwarten, {name}! Auf ins neue Zuhause!",
+		"done_titel": "Los geht’s!",
+		"editor_hinweis": "Ziehen zum Drehen · Kneifen zum Zoomen",
+		"editor_text": "Dreh an den Reglern, bis dein Gooby genau richtig flauschig guckt.",
+		"editor_titel": "So sieht {nickname} aus!",
+		"name_pflicht": "Verrätst du mir deinen Namen? Gooby möchte wissen, wen er anhoppeln darf!",
+		"name_placeholder": "Dein Name",
+		"nickname_placeholder": "Gooby",
+		"nickname_text": "Willst du Gooby einen Spitznamen geben? Musst du aber nicht — Gooby ist auch ein schöner Name.",
+		"nickname_titel": "Dein Gooby!",
+		"slider_augengroesse": "Augengröße",
+		"slider_augenweite": "Augenabstand",
+		"slider_ohrenlaenge": "Ohrenlänge",
+		"slider_pausbacken": "Pausbäckchen",
+		"welcome_text": "Hallo! Schön, dass du da bist. Wie heißt du denn?",
+		"welcome_titel": "Willkommen!"
+	},
+	"settings": {
+		"allgemein": "Allgemein",
+		"audio": "Audio",
+		"laut_effekte": "Effekte",
+		"laut_master": "Gesamt",
+		"laut_musik": "Musik",
+		"news_button": "Neu in 5.0 ansehen",
+		"orientierung": "Minispiel-Ausrichtung",
+		"orientierung_auto": "Automatisch",
+		"orientierung_hochkant": "Hochkant",
+		"orientierung_quer": "Querformat",
+		"reduced_motion": "Weniger Bewegung",
+		"sprache": "Sprache",
+		"sprache_de": "Deutsch",
+		"sprache_en": "English",
+		"titel": "Einstellungen",
+		"tuer_animation": "Tür-Animation",
+		"ueber": "Über",
+		"update_bald": "Updates kommen bald — schau später wieder rein!",
+		"update_suchen": "Nach Updates suchen",
+		"updates": "Updates",
+		"version": "Version {version}"
+	},
+	"settings.spielstand": "Spielstand",
+	"settings.spielstand_uebertragen": "Alten Spielstand übertragen",
+	"settings.tuer_bestaetigung": "Nachfragen vor Türen",
+	"ui": {
+		"abbrechen": "Abbrechen",
+		"fertig": "Fertig",
+		"ok": "Okay!",
+		"schliessen": "Schließen",
+		"ueberspringen": "Überspringen",
+		"weiter": "Weiter",
+		"zurueck": "Zurück"
+	}
+}

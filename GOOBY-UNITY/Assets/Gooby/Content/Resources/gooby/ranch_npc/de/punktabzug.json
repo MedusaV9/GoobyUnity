@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_punktabzug",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "punktabzug",
+			"text": "Sie sind früh. Ein Punkt Anerkennung. Ihre Frisur: zwei Punkte Abzug. Saldo: Sie schulden mir einen Punkt.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "punktabzug",
+			"text": "Herr Punktabzug, Turnierrichter, gestreift und unbestechlich. Die Streifen sind Natur. Die Strenge auch.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "punktabzug",
+			"text": "Der Abend erhält von mir eine glatte Neun. Der Sonnenuntergang übertreibt mit dem Orange. Abzug.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "punktabzug",
+			"text": "Regen. Drei Punkte Abzug für das Wetter. Es legt Widerspruch ein? Abgelehnt.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "punktabzug",
+			"text": "Ah, Sie. Für Sie gilt heute mein Freundschaftstarif: Ich runde die Abzüge liebevoll ab.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "punktabzug",
+			"text": "Tragen Sie Ihr Anliegen vor. Haltung beachten.",
+			"optionen": [
+				{"text": "Haben Sie einen Auftrag?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Auftrag ausgeführt!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "Wie war das letzte Turnier?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "Wie war das letzte Turnier?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "Wie war das letzte Turnier?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Warum wurden Sie Richter?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Stimmt das mit der Marmelade?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Ich ziehe mich zurück!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "punktabzug",
+			"text": [
+				"Das letzte Turnier? Ein Pony ist rückwärts durch den Parcours. Fehlerfrei, aber rückwärts.",
+				"Ich musste ein neues Formular erfinden. Es heißt jetzt Formular P wie Pony."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "punktabzug",
+			"text": [
+				"Unter uns: Ich gebe auch mir selbst Punkte. Heute Morgen: Zähneputzen, acht Komma fünf.",
+				"Der Abzug war für die Technik. Man wird nachlässig, wenn keiner richtet."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "punktabzug",
+			"text": [
+				"Ich habe Ihre Fortschritte beobachtet. Notiert. Tabelliert. Und, nun ja … bewundert.",
+				"Streichen Sie das aus dem Protokoll. Richter bewundern nicht. Richter nicken knapp."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "punktabzug",
+			"text": "In der Tat. Eine Aufgabe. Bewertungskriterien: Sorgfalt, Haltung, Ergebnis. Und Pünktlichkeit. Und Stil.",
+			"optionen": [
+				{"text": "Ich nehme an!", "next": "quest_annahme"},
+				{"text": "Ich bin befangen …", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "punktabzug",
+			"text": "Angenommen. Startpunktzahl: zehn. Was Sie daraus machen, liegt bei Ihnen. Keine Panik. Etwas Panik.",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "punktabzug",
+			"text": "Notiert. Kein Abzug für Ehrlichkeit. Es bleibt Ihr einziger Freifahrtschein, verwenden Sie ihn weise.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "punktabzug",
+			"text": "Prüfung … Haltung gut, Ausführung sauber. Neun Komma acht! Die Bestnote, die ich je vergeben habe. Weinen Sie nicht.",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "punktabzug",
+			"text": "MARMELADE. Ähem. Ich meine: ungewöhnliche Gabe, zehn von zehn Punkten, keine weiteren Fragen, das Glas gehört jetzt mir.",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "punktabzug",
+			"text": "Akzeptabel. Acht Punkte. Einen extra für die Verpackung. Ja, ich habe Gefühle. Einen Abzug für Ihre Überraschung.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "punktabzug",
+			"text": "Hm. Sechs Punkte. Es erfüllt die Grundanforderungen eines Geschenks: Es existiert, und ich halte es jetzt.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "punktabzug",
+			"text": [
+				"Warum Richter? Ich war Turnierpferd, müssen Sie wissen. Ein gutes. Ein gestreiftes.",
+				"Man sagte, Zebras dürften nicht starten. Regelwerk, Seite zwölf. Ich habe die Seite gelesen. Hundertmal.",
+				"Da beschloss ich: Wenn ich nicht mitspielen darf, schreibe ich künftig die Noten. Seite zwölf wurde übrigens gestrichen. Von mir."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "punktabzug",
+			"text": [
+				"Die Marmelade. Also gut. Beim Turnier von damals stand ein Glas Beerenmarmelade auf dem Richtertisch.",
+				"Ich wollte nur kosten. Eine Geste der Höflichkeit. Als ich aufsah, war das Glas leer und das Turnier vorbei.",
+				"Sieger: unbekannt. Protokoll: klebrig. Wir sprechen nie wieder darüber. Zehn Punkte für Ihr Schweigen."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "punktabzug",
+			"text": "Wegtreten. Ihre Verabschiedung: neun Punkte. Der Abgang entscheidet über die Zehn.",
+			"ende": true
+		}
+	}
+}

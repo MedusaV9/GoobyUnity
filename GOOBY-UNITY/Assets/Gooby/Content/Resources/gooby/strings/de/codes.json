@@ -1,0 +1,36 @@
+{
+	"codes": {
+		"titel": "Aktionscodes",
+		"hinweis": "Gib ein geheimes Codewort ein — Groß/Klein und Leerzeichen sind egal.",
+		"platzhalter": "Codewort eingeben",
+		"einloesen": "Einlösen",
+		"fehler": {
+			"leer": "Erst ein Codewort eingeben.",
+			"unbekannt": "Diesen Code kennt Gooby nicht. Tippfehler?",
+			"schon": "Diesen Code hast du schon eingelöst — jeder gilt nur einmal.",
+			"gesperrt": "Zu viele Versuche. Warte noch {s} Sekunden."
+		},
+		"erfolg": {
+			"titel": "Code eingelöst!",
+			"muenzen": "+{n} Münzen",
+			"sticker": "Neuer Sticker im Album!",
+			"buff": "Doppelte Münzen für {min} Minuten!",
+			"flag": {
+				"goldiGold": "Goldi hoppelt in dein GvZ-Team — er glänzt schon vor Stolz!"
+			}
+		},
+		"buff_aktiv": "Doppel-Münzen aktiv: noch {rest}",
+		"verlauf": {
+			"titel": "Bereits eingelöst",
+			"leer": "Noch kein Code eingelöst.",
+			"eintrag": "{name} — {datum}"
+		},
+		"name": {
+			"updateLiebe": "UpdateLiebe",
+			"herzGooby": "Herz-Gooby",
+			"goldiGold": "GoldiGold"
+		},
+		"zurueck": "Zurück",
+		"settings_eintrag": "Aktionscodes einlösen"
+	}
+}

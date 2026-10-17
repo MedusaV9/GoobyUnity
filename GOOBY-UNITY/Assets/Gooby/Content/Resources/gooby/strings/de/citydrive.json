@@ -1,0 +1,22 @@
+{
+	"mg": {
+		"cityDrive": {
+			"title": "Einkaufsfahrt",
+			"hint": "Sammle Münzen, flitz durch die rosa Ringe — tipp links/rechts zum Lenken!",
+			"intro": "Sammle Münzen — beim dritten Rumms wirst du abgeschleppt!",
+			"offroad": "Huch, Wiese! Zurück auf die Straße!",
+			"crash": "Rumms! Strike {n}/{max}",
+			"checkpoint": "Checkpoint {n}! Weiter geht’s!",
+			"zero_crash": "Ohne Kratzer! +{n}",
+			"endless_coins": "Münzen: {n}"
+		},
+		"host": {
+			"strike_title": "Abgeschleppt!",
+			"strike_teleport": "Dreimal gerumst — Gooby wird sanft nach Hause teleportiert…",
+			"strike_count": "Strike {n}/{max}"
+		},
+		"pregame": {
+			"car": "Dein Auto: {name} — Tempo {tempo}"
+		}
+	}
+}

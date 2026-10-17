@@ -1,0 +1,48 @@
+{
+ "rwelt": {
+  "titel": "Ranch Region",
+  "zone": {
+   "hof": "Ranch Yard",
+   "weidetal": "Meadow Valley",
+   "waeldchen": "Little Woods",
+   "see": "Glitter Lake",
+   "huegelkamm": "Hilltop Ridge",
+   "bachlauf": "Bubble Brook",
+   "scheune_alt": "Old Barn",
+   "turnierplatz": "Tournament Grounds",
+   "hufingen": "Hufingen Village Edge",
+   "frei": "Green Country"
+  },
+  "entdeckt": "New discovery: {zone}!",
+  "fund_entdeckt": "Discovered: {name}! +{muenzen} coins",
+  "fund": {
+   "wasserfall": "The Rushing Waterfall",
+   "hoehle": "The Sparkle Cave",
+   "alter_baum": "The Ancient Tree",
+   "steinkreis": "The Stone Circle",
+   "aussicht_kamm": "Ridge Lookout",
+   "aussicht_see": "Glitter Lake Lookout",
+   "truhe_wald": "Hidden Forest Chest",
+   "truhe_scheune": "Chest Behind the Barn",
+   "truhe_ufer": "Lakeshore Chest"
+  },
+  "wetter": {
+   "sonne": "Sunny",
+   "wolken": "Cloudy",
+   "niesel": "Drizzle",
+   "regen": "Rain",
+   "gewitter": "Thunderstorm",
+   "nebel": "Fog",
+   "regenbogen": "A rainbow!"
+  },
+  "hud": {
+   "zur_ranch": "To the yard",
+   "aussicht": "Lookout point",
+   "steg_schild": "Glitter Lake",
+   "scheune_schild": "Psst … old barn",
+   "turnier_schild": "Tournament grounds",
+   "hufingen_schild": "Hufingen",
+   "ausreiten": "Ride out!"
+  }
+ }
+}

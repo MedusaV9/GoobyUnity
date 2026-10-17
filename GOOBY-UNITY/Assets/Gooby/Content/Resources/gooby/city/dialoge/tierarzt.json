@@ -1,0 +1,112 @@
+{
+  "id": "tierarzt_besuch",
+  "start": "empfang",
+  "nodes": {
+    "empfang": {
+      "sprecher": "moehrchen",
+      "text": [
+        "Willkommen im Wartezimmer! Nimm Platz, blättere in einer Zeitschrift … der Nächste, bitte!",
+        "Das bist du. Es ist sonst niemand da. Meine Praxis läuft hervorragend übersichtlich."
+      ],
+      "optionen": [
+        {"text": "Gooby ist richtig krank.", "next": "untersuchung", "cond": "flag:schwer_krank"},
+        {"text": "Gooby fühlt sich kränklich.", "next": "untersuchung", "cond": "flag:krank"},
+        {"text": "Gooby geht es blendend!", "next": "gesund_lob", "cond": "flag:gesund"},
+        {"text": "Nur ein Check-up, bitte.", "next": "checkup_frage"},
+        {"text": "Wer sind Sie eigentlich?", "next": "vorstellung"}
+      ]
+    },
+    "vorstellung": {
+      "sprecher": "moehrchen",
+      "text": [
+        "Dr. Dr. Möhrchen! Zweifach promoviert, einmal davon echt.",
+        "Auf der Ranch heißt es Koppel, hier heißt es Praxis. Die Karotten sind dieselben."
+      ],
+      "next": "empfang"
+    },
+    "gesund_lob": {
+      "sprecher": "moehrchen",
+      "text": [
+        "Das sehe ich gern! Vorsorge ist die beste Sorge.",
+        "Karotte als Belohnung? Ärztliche Anordnung. Für mich. Ich teile aber."
+      ],
+      "next": "empfang"
+    },
+    "untersuchung": {
+      "sprecher": "moehrchen",
+      "text": [
+        "Dann wollen wir mal. Aufs Bänkchen, bitte!",
+        "(Er horcht mit einer Möhre ab. Sie ist kein Stethoskop, aber sie ist orange.)",
+        "Sag mal Aaaah. … Ein solides Aaaah. Ich habe alles gehört, was ich hören wollte."
+      ],
+      "effekt": ["flag:vet_untersuchung"],
+      "next": "diagnose"
+    },
+    "diagnose": {
+      "sprecher": "moehrchen",
+      "text": [
+        "Diagnose: ein klassischer Fall von Zuviel-oder-Zuwenig. Vermutlich beides.",
+        "Behandlungsplan liegt vor. Was darf’s sein?"
+      ],
+      "optionen": [
+        {"text": "Behandlung, bitte. (120 Münzen)", "next": "behandlung"},
+        {"text": "Ein Rezept für Gooby-Tropfen.", "next": "rezept", "cond": "!flag:rezept_tropfen"},
+        {"text": "Ein Rezept für Gooby-Tropfen.", "next": "rezept_schon", "cond": "flag:rezept_tropfen"},
+        {"text": "Erst mal nur Ruhe.", "next": "ruhe"}
+      ]
+    },
+    "behandlung": {
+      "sprecher": "moehrchen",
+      "text": [
+        "(Er verarztet Gooby mit Salbe, Pflaster und einem Karotten-Lutscher. Hauptwirkstoff: Zuwendung.)",
+        "Rechnung: 120 Münzen. Der Lutscher geht aufs Haus."
+      ],
+      "effekt": ["flag:vet_cure"],
+      "next": "nachsorge"
+    },
+    "rezept": {
+      "sprecher": "moehrchen",
+      "text": [
+        "(Er stempelt feierlich. Zweimal auf das Rezept, einmal auf die eigene Stirn.)",
+        "Gooby-Tropfen, zweimal täglich. Hilde in der GOOBYTHEKE hat sie vorrätig."
+      ],
+      "effekt": ["flag:rezept_tropfen", "flag:vet_rezept"],
+      "next": "nachsorge"
+    },
+    "rezept_schon": {
+      "sprecher": "moehrchen",
+      "text": "Du hast schon eins! Steht hier: Gooby-Tropfen. Meine Handschrift, mein Stempel, meine Stirn.",
+      "next": "diagnose"
+    },
+    "ruhe": {
+      "sprecher": "moehrchen",
+      "text": "Auch gut! Schlaf ist die halbe Medizin. Die andere Hälfte ist … na? Richtig. Karotten.",
+      "next": "nachsorge"
+    },
+    "nachsorge": {
+      "sprecher": "moehrchen",
+      "text": [
+        "Nachsorge: viel schlafen, was Gesundes essen, warm und sauber bleiben.",
+        "Und falls das Niesen bleibt: Ich bin da. Mit Karotten."
+      ],
+      "ende": true
+    },
+    "checkup_frage": {
+      "sprecher": "moehrchen",
+      "text": "Ein Check-up! Sehr vernünftig. 30 Münzen, inklusive Ohrenwackel-Test.",
+      "optionen": [
+        {"text": "Ja, gerne. (30 Münzen)", "next": "checkup"},
+        {"text": "Lieber doch nicht.", "next": "empfang"}
+      ]
+    },
+    "checkup": {
+      "sprecher": "moehrchen",
+      "text": [
+        "(Er prüft Ohren, Bauch und Flausch. Alles vorschriftsmäßig.)",
+        "Befund: zum Knuddeln. Komm wieder, bevor etwas zwickt!"
+      ],
+      "effekt": ["flag:vet_checkup"],
+      "ende": true
+    }
+  }
+}

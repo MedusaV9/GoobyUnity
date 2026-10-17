@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_punktabzug",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "punktabzug",
+			"text": "You are early. One point of recognition. Your hairstyle: two points deducted. Balance: you owe me a point.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "punktabzug",
+			"text": "Mr. Pointsoff, tournament judge, striped and incorruptible. The stripes are natural. So is the strictness.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "punktabzug",
+			"text": "The evening receives a flat nine from me. The sunset is overdoing the orange. Deduction.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "punktabzug",
+			"text": "Rain. Three points deducted for the weather. It files an objection? Overruled.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "punktabzug",
+			"text": "Ah, you. For you, my friendship rate applies today: I round the deductions down lovingly.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "punktabzug",
+			"text": "State your business. Mind your posture.",
+			"optionen": [
+				{"text": "Do you have an assignment?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Assignment executed!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "How was the last tournament?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "How was the last tournament?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "How was the last tournament?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Why did you become a judge?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Is the jam story true?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "I shall withdraw!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "punktabzug",
+			"text": [
+				"The last tournament? A pony went through the course backwards. Faultless, but backwards.",
+				"I had to invent a new form. It is now called Form P, as in Pony."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "punktabzug",
+			"text": [
+				"Between us: I score myself as well. This morning: toothbrushing, eight point five.",
+				"The deduction was for technique. One grows careless when nobody judges."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "punktabzug",
+			"text": [
+				"I have observed your progress. Noted it. Tabulated it. And, well... admired it.",
+				"Strike that from the record. Judges do not admire. Judges nod curtly."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "punktabzug",
+			"text": "Indeed. A task. Evaluation criteria: diligence, posture, results. And punctuality. And style.",
+			"optionen": [
+				{"text": "I accept!", "next": "quest_annahme"},
+				{"text": "I must recuse myself...", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "punktabzug",
+			"text": "Accepted. Starting score: ten. What you make of it is up to you. No panic. Some panic.",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "punktabzug",
+			"text": "Noted. No deduction for honesty. It remains your only free pass, use it wisely.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "punktabzug",
+			"text": "Reviewing... posture good, execution clean. Nine point eight! The highest score I have ever awarded. Do not cry.",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "punktabzug",
+			"text": "JAM. Ahem. I mean: an unusual offering, ten out of ten points, no further questions, the jar is mine now.",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "punktabzug",
+			"text": "Acceptable. Eight points. One extra for the wrapping. Yes, I have feelings. One deduction for your surprise.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "punktabzug",
+			"text": "Hm. Six points. It fulfills the basic requirements of a gift: it exists, and I am now holding it.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "punktabzug",
+			"text": [
+				"Why a judge? I was a tournament horse, you must know. A good one. A striped one.",
+				"They said zebras were not allowed to compete. Rulebook, page twelve. I read that page. A hundred times.",
+				"So I decided: if I may not play, I shall write the scores from now on. Page twelve was deleted, by the way. By me."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "punktabzug",
+			"text": [
+				"The jam. Very well. At the tournament back then, a jar of berry jam stood on the judges' table.",
+				"I only meant to taste it. A gesture of politeness. When I looked up, the jar was empty and the tournament over.",
+				"Winner: unknown. Records: sticky. We shall never speak of this again. Ten points for your silence."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "punktabzug",
+			"text": "Dismissed. Your farewell: nine points. The exit decides the ten.",
+			"ende": true
+		}
+	}
+}

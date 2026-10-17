@@ -1,0 +1,11 @@
+{
+	"g4travel": {
+		"ziele": {
+			"fortschritt": "🌍 World-Gooby pass: {n}/{max} destinations visited"
+		},
+		"feier": {
+			"titel": "World Gooby!",
+			"weiter": "Onwards!"
+		}
+	}
+}

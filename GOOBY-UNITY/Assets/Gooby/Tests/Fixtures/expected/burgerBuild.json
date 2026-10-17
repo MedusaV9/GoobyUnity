@@ -1,0 +1,1212 @@
+{
+  "modes": {
+    "easy": [
+      {
+        "seed": 1,
+        "score": 272.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 2,
+        "score": 290,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 3,
+        "score": 262.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 4,
+        "score": 270,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 5,
+        "score": 280,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 6,
+        "score": 280,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 7,
+        "score": 307.5,
+        "completed": 7,
+        "expired": 0
+      },
+      {
+        "seed": 8,
+        "score": 265,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 9,
+        "score": 265,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 10,
+        "score": 310,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 11,
+        "score": 292.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 12,
+        "score": 290,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 13,
+        "score": 295,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 14,
+        "score": 257.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 15,
+        "score": 292.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 16,
+        "score": 265,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 17,
+        "score": 260,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 18,
+        "score": 287.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 19,
+        "score": 270,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 20,
+        "score": 287.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 21,
+        "score": 300,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 22,
+        "score": 282.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 23,
+        "score": 287.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 24,
+        "score": 302.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 25,
+        "score": 257.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 26,
+        "score": 290,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 27,
+        "score": 282.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 28,
+        "score": 267.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 29,
+        "score": 262.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 30,
+        "score": 255,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 31,
+        "score": 297.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 32,
+        "score": 265,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 33,
+        "score": 275,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 34,
+        "score": 292.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 35,
+        "score": 300,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 36,
+        "score": 280,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 37,
+        "score": 270,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 38,
+        "score": 285,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 39,
+        "score": 270,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 40,
+        "score": 262.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 41,
+        "score": 285,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 42,
+        "score": 272.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 43,
+        "score": 275,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 44,
+        "score": 295,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 45,
+        "score": 270,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 46,
+        "score": 287.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 47,
+        "score": 285,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 48,
+        "score": 285,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 49,
+        "score": 272.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 50,
+        "score": 250,
+        "completed": 5,
+        "expired": 0
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1,
+        "score": 272.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 2,
+        "score": 290,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 3,
+        "score": 262.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 4,
+        "score": 270,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 5,
+        "score": 280,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 6,
+        "score": 280,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 7,
+        "score": 262.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 8,
+        "score": 265,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 9,
+        "score": 265,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 10,
+        "score": 260,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 11,
+        "score": 292.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 12,
+        "score": 290,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 13,
+        "score": 260,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 14,
+        "score": 257.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 15,
+        "score": 257.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 16,
+        "score": 265,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 17,
+        "score": 260,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 18,
+        "score": 287.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 19,
+        "score": 270,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 20,
+        "score": 252.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 21,
+        "score": 255,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 22,
+        "score": 282.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 23,
+        "score": 247.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 24,
+        "score": 257.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 25,
+        "score": 257.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 26,
+        "score": 290,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 27,
+        "score": 282.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 28,
+        "score": 267.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 29,
+        "score": 262.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 30,
+        "score": 255,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 31,
+        "score": 257.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 32,
+        "score": 265,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 33,
+        "score": 275,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 34,
+        "score": 257.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 35,
+        "score": 250,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 36,
+        "score": 280,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 37,
+        "score": 270,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 38,
+        "score": 285,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 39,
+        "score": 270,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 40,
+        "score": 262.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 41,
+        "score": 250,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 42,
+        "score": 272.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 43,
+        "score": 275,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 44,
+        "score": 255,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 45,
+        "score": 270,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 46,
+        "score": 287.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 47,
+        "score": 285,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 48,
+        "score": 250,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 49,
+        "score": 272.5,
+        "completed": 6,
+        "expired": 0
+      },
+      {
+        "seed": 50,
+        "score": 250,
+        "completed": 5,
+        "expired": 0
+      }
+    ],
+    "hard": [
+      {
+        "seed": 1,
+        "score": 147.5,
+        "completed": 3,
+        "expired": 1
+      },
+      {
+        "seed": 2,
+        "score": 132.5,
+        "completed": 3,
+        "expired": 2
+      },
+      {
+        "seed": 3,
+        "score": 87.5,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 4,
+        "score": 75,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 5,
+        "score": 0,
+        "completed": 0,
+        "expired": 4
+      },
+      {
+        "seed": 6,
+        "score": 132.5,
+        "completed": 3,
+        "expired": 1
+      },
+      {
+        "seed": 7,
+        "score": 222.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 8,
+        "score": 97.5,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 9,
+        "score": 100,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 10,
+        "score": 145,
+        "completed": 3,
+        "expired": 1
+      },
+      {
+        "seed": 11,
+        "score": 132.5,
+        "completed": 3,
+        "expired": 1
+      },
+      {
+        "seed": 12,
+        "score": 135,
+        "completed": 3,
+        "expired": 1
+      },
+      {
+        "seed": 13,
+        "score": 145,
+        "completed": 3,
+        "expired": 1
+      },
+      {
+        "seed": 14,
+        "score": 132.5,
+        "completed": 3,
+        "expired": 1
+      },
+      {
+        "seed": 15,
+        "score": 97.5,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 16,
+        "score": 105,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 17,
+        "score": 85,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 18,
+        "score": 140,
+        "completed": 3,
+        "expired": 1
+      },
+      {
+        "seed": 19,
+        "score": 190,
+        "completed": 4,
+        "expired": 0
+      },
+      {
+        "seed": 20,
+        "score": 40,
+        "completed": 1,
+        "expired": 3
+      },
+      {
+        "seed": 21,
+        "score": 97.5,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 22,
+        "score": 197.5,
+        "completed": 4,
+        "expired": 0
+      },
+      {
+        "seed": 23,
+        "score": 132.5,
+        "completed": 3,
+        "expired": 1
+      },
+      {
+        "seed": 24,
+        "score": 140,
+        "completed": 3,
+        "expired": 1
+      },
+      {
+        "seed": 25,
+        "score": 87.5,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 26,
+        "score": 132.5,
+        "completed": 3,
+        "expired": 1
+      },
+      {
+        "seed": 27,
+        "score": 237.5,
+        "completed": 5,
+        "expired": 0
+      },
+      {
+        "seed": 28,
+        "score": 100,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 29,
+        "score": 60,
+        "completed": 1,
+        "expired": 3
+      },
+      {
+        "seed": 30,
+        "score": 97.5,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 31,
+        "score": 80,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 32,
+        "score": 80,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 33,
+        "score": 40,
+        "completed": 1,
+        "expired": 3
+      },
+      {
+        "seed": 34,
+        "score": 150,
+        "completed": 3,
+        "expired": 1
+      },
+      {
+        "seed": 35,
+        "score": 200,
+        "completed": 4,
+        "expired": 0
+      },
+      {
+        "seed": 36,
+        "score": 105,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 37,
+        "score": 80,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 38,
+        "score": 80,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 39,
+        "score": 80,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 40,
+        "score": 105,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 41,
+        "score": 140,
+        "completed": 3,
+        "expired": 1
+      },
+      {
+        "seed": 42,
+        "score": 105,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 43,
+        "score": 105,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 44,
+        "score": 145,
+        "completed": 3,
+        "expired": 1
+      },
+      {
+        "seed": 45,
+        "score": 80,
+        "completed": 2,
+        "expired": 2
+      },
+      {
+        "seed": 46,
+        "score": 162.5,
+        "completed": 4,
+        "expired": 1
+      },
+      {
+        "seed": 47,
+        "score": 190,
+        "completed": 4,
+        "expired": 0
+      },
+      {
+        "seed": 48,
+        "score": 137.5,
+        "completed": 3,
+        "expired": 1
+      },
+      {
+        "seed": 49,
+        "score": 197.5,
+        "completed": 4,
+        "expired": 0
+      },
+      {
+        "seed": 50,
+        "score": 87.5,
+        "completed": 2,
+        "expired": 2
+      }
+    ],
+    "endless": [
+      {
+        "seed": 1,
+        "score": 427.5,
+        "completed": 10,
+        "expired": 3
+      },
+      {
+        "seed": 2,
+        "score": 212.5,
+        "completed": 5,
+        "expired": 3
+      },
+      {
+        "seed": 3,
+        "score": 87.5,
+        "completed": 2,
+        "expired": 3
+      },
+      {
+        "seed": 4,
+        "score": 120,
+        "completed": 3,
+        "expired": 3
+      },
+      {
+        "seed": 5,
+        "score": 0,
+        "completed": 0,
+        "expired": 3
+      },
+      {
+        "seed": 6,
+        "score": 757.5,
+        "completed": 18,
+        "expired": 3
+      },
+      {
+        "seed": 7,
+        "score": 772.5,
+        "completed": 19,
+        "expired": 3
+      },
+      {
+        "seed": 8,
+        "score": 97.5,
+        "completed": 2,
+        "expired": 3
+      },
+      {
+        "seed": 9,
+        "score": 185,
+        "completed": 4,
+        "expired": 3
+      },
+      {
+        "seed": 10,
+        "score": 390,
+        "completed": 9,
+        "expired": 3
+      },
+      {
+        "seed": 11,
+        "score": 662.5,
+        "completed": 16,
+        "expired": 3
+      },
+      {
+        "seed": 12,
+        "score": 430,
+        "completed": 10,
+        "expired": 3
+      },
+      {
+        "seed": 13,
+        "score": 465,
+        "completed": 11,
+        "expired": 3
+      },
+      {
+        "seed": 14,
+        "score": 327.5,
+        "completed": 8,
+        "expired": 3
+      },
+      {
+        "seed": 15,
+        "score": 372.5,
+        "completed": 9,
+        "expired": 3
+      },
+      {
+        "seed": 16,
+        "score": 415,
+        "completed": 10,
+        "expired": 3
+      },
+      {
+        "seed": 17,
+        "score": 165,
+        "completed": 4,
+        "expired": 3
+      },
+      {
+        "seed": 18,
+        "score": 385,
+        "completed": 9,
+        "expired": 3
+      },
+      {
+        "seed": 19,
+        "score": 400,
+        "completed": 9,
+        "expired": 3
+      },
+      {
+        "seed": 20,
+        "score": 40,
+        "completed": 1,
+        "expired": 3
+      },
+      {
+        "seed": 21,
+        "score": 287.5,
+        "completed": 7,
+        "expired": 3
+      },
+      {
+        "seed": 22,
+        "score": 847.5,
+        "completed": 20,
+        "expired": 3
+      },
+      {
+        "seed": 23,
+        "score": 212.5,
+        "completed": 5,
+        "expired": 3
+      },
+      {
+        "seed": 24,
+        "score": 270,
+        "completed": 6,
+        "expired": 3
+      },
+      {
+        "seed": 25,
+        "score": 587.5,
+        "completed": 15,
+        "expired": 3
+      },
+      {
+        "seed": 26,
+        "score": 247.5,
+        "completed": 6,
+        "expired": 3
+      },
+      {
+        "seed": 27,
+        "score": 492.5,
+        "completed": 11,
+        "expired": 3
+      },
+      {
+        "seed": 28,
+        "score": 100,
+        "completed": 2,
+        "expired": 3
+      },
+      {
+        "seed": 29,
+        "score": 0,
+        "completed": 0,
+        "expired": 3
+      },
+      {
+        "seed": 30,
+        "score": 187.5,
+        "completed": 4,
+        "expired": 3
+      },
+      {
+        "seed": 31,
+        "score": 355,
+        "completed": 9,
+        "expired": 3
+      },
+      {
+        "seed": 32,
+        "score": 190,
+        "completed": 5,
+        "expired": 3
+      },
+      {
+        "seed": 33,
+        "score": 40,
+        "completed": 1,
+        "expired": 3
+      },
+      {
+        "seed": 34,
+        "score": 1140,
+        "completed": 28,
+        "expired": 2
+      },
+      {
+        "seed": 35,
+        "score": 355,
+        "completed": 8,
+        "expired": 3
+      },
+      {
+        "seed": 36,
+        "score": 300,
+        "completed": 7,
+        "expired": 3
+      },
+      {
+        "seed": 37,
+        "score": 120,
+        "completed": 3,
+        "expired": 3
+      },
+      {
+        "seed": 38,
+        "score": 725,
+        "completed": 17,
+        "expired": 3
+      },
+      {
+        "seed": 39,
+        "score": 200,
+        "completed": 5,
+        "expired": 3
+      },
+      {
+        "seed": 40,
+        "score": 340,
+        "completed": 8,
+        "expired": 3
+      },
+      {
+        "seed": 41,
+        "score": 215,
+        "completed": 5,
+        "expired": 3
+      },
+      {
+        "seed": 42,
+        "score": 105,
+        "completed": 2,
+        "expired": 3
+      },
+      {
+        "seed": 43,
+        "score": 225,
+        "completed": 5,
+        "expired": 3
+      },
+      {
+        "seed": 44,
+        "score": 290,
+        "completed": 7,
+        "expired": 3
+      },
+      {
+        "seed": 45,
+        "score": 410,
+        "completed": 10,
+        "expired": 3
+      },
+      {
+        "seed": 46,
+        "score": 197.5,
+        "completed": 5,
+        "expired": 3
+      },
+      {
+        "seed": 47,
+        "score": 580,
+        "completed": 14,
+        "expired": 3
+      },
+      {
+        "seed": 48,
+        "score": 417.5,
+        "completed": 10,
+        "expired": 3
+      },
+      {
+        "seed": 49,
+        "score": 427.5,
+        "completed": 10,
+        "expired": 3
+      },
+      {
+        "seed": 50,
+        "score": 167.5,
+        "completed": 4,
+        "expired": 3
+      }
+    ]
+  }
+}

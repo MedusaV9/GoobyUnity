@@ -1,0 +1,21 @@
+{
+	"revents": {
+		"ausgebuext": {
+			"bubble": "Hilfe, ein Pferd ist ausgebüxt! Schnapp es dir, bevor es die Petunien probiert!",
+			"danke": "Wieder eingefangen! Das Pferd tut ganz unschuldig — Bindung und Münzen gibt’s trotzdem."
+		},
+		"heudieb": {
+			"bubble": "Freche Krähen plündern deinen Heustapel! Verscheuch sie — tipp, tipp, tipp!",
+			"kraah": "KRAAH! Eine weniger…",
+			"danke": "Heu gerettet! Die Ballen wandern zurück ins Lager."
+		},
+		"hufschmied": {
+			"bubble": "Der wandernde Hufschmied macht kurz Halt — Gratis-Huf-Check, nur heute!",
+			"danke": "Klopf, klopf, glänzt! Deine Pferde haben 24 Stunden Wohlfühl-Hufe."
+		},
+		"karottenregen": {
+			"bubble": "GOOBY-Wetterphänomen: Es regnet KAROTTEN auf die Lavendelwiese! Schnell einsammeln!",
+			"danke": "{n} Karotten eingesammelt — ab damit ins Inventar. Gooby sabbert schon."
+		}
+	}
+}

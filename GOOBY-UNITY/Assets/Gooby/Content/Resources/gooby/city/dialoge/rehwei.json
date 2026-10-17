@@ -1,0 +1,30 @@
+{
+  "id": "rehwei_rehwald",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "rehwald",
+      "text": "Willkommen bei REHWEI! Heute im Angebot: alles, was rund ist.",
+      "optionen": [
+        {"text": "Einkaufen!", "next": "laden"},
+        {"text": "Sammeln Sie Treuepunkte?", "next": "treue"}
+      ]
+    },
+    "treue": {
+      "sprecher": "rehwald",
+      "text": "Sammelst du Treuepunkte? Nein? Ich auch nicht, ich erfinde sie nur gern.",
+      "next": "hallo"
+    },
+    "laden": {
+      "sprecher": "rehwald",
+      "text": "Körbchen stehen links. Nicht am Salat knabbern, bevor er bezahlt ist!",
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "festmahl": {
+      "sprecher": "rehwald",
+      "text": "Das wird ein Festmahl. Oder ein Dienstag. Bei Goobys weiß man nie.",
+      "ende": true
+    }
+  }
+}

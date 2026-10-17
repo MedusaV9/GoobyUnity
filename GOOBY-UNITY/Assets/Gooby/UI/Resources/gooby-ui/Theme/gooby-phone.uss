@@ -1,0 +1,179 @@
+/* IGohbie phone (PhoneScreen), camera app (PhotoModeScreen), gallery (GalleryScreen), ride app (TaxiScreen).
+   The phone is a landscape device: dark lilac frame, cream screen, a status bar, a grid of coloured app tiles with white
+   glyphs and labels, and the home bar. Never put transition-* / opacity / scale on .gb-phone: gb-pop-in drives those. */
+
+.gb-phone-scrim { background-color: rgba(43, 36, 64, 0.42); }
+.gb-phone {
+    position: absolute;
+    left: 50%; top: 50%;
+    translate: -50% -50%;
+    width: 700px;
+    max-width: 92%;
+    padding: 14px;
+    border-radius: 52px;
+    background-color: #3B364F;
+    border-width: 3px;
+    border-color: #5A5370;
+}
+.gb-phone-screen {
+    padding: 14px 22px 10px 22px;
+    border-radius: 40px;
+    background-color: #FFF8EE;
+    align-items: stretch;
+}
+.gb-phone-status { flex-direction: row; align-items: center; margin-bottom: 10px; }
+.gb-phone-brand { font-size: 16px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #FF7B8B; margin-right: 10px; }
+.gb-phone-clock { font-size: 16px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-phone-status-icon { width: 20px; height: 20px; margin-right: 4px; }
+.gb-phone-status-text { font-size: 15px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-phone-grid { flex-direction: row; flex-wrap: wrap; justify-content: center; padding: 4px 0 6px 0; }
+.gb-phone-app {
+    width: 118px;
+    margin: 6px 4px 10px 4px;
+    padding: 0;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+}
+.gb-phone-tile {
+    width: 84px; height: 84px;
+    border-radius: 26px;
+    justify-content: center;
+    align-items: center;
+    border-bottom-width: 5px;
+    border-bottom-color: rgba(59, 54, 79, 0.18);
+}
+.gb-phone-tile > .gb-badge { position: absolute; top: -6px; right: -6px; }
+.gb-phone-glyph { width: 50px; height: 50px; }
+.gb-phone-lock { position: absolute; width: 28px; height: 28px; right: 4px; bottom: 4px; }
+.gb-phone-label {
+    margin-top: 6px;
+    font-size: 14px;
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    color: var(--gb-text);
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+}
+.gb-phone-app--locked > .gb-phone-tile { opacity: 0.55; }
+.gb-phone-app--locked > .gb-phone-label { color: #A39BB4; }
+.gb-phone-home { align-self: center; width: 150px; height: 8px; margin-top: 4px; border-radius: 4px; background-color: rgba(59, 54, 79, 0.35); }
+
+/* ---------- camera app ---------- */
+.gb-photo-finder { position: absolute; left: 6%; right: 6%; top: 9%; bottom: 13%; }
+.gb-photo-corner { position: absolute; width: 54px; height: 54px; border-color: rgba(255, 255, 255, 0.92); }
+.gb-photo-corner--tl { left: 0; top: 0; border-left-width: 6px; border-top-width: 6px; border-top-left-radius: 18px; }
+.gb-photo-corner--tr { right: 0; top: 0; border-right-width: 6px; border-top-width: 6px; border-top-right-radius: 18px; }
+.gb-photo-corner--bl { left: 0; bottom: 0; border-left-width: 6px; border-bottom-width: 6px; border-bottom-left-radius: 18px; }
+.gb-photo-corner--br { right: 0; bottom: 0; border-right-width: 6px; border-bottom-width: 6px; border-bottom-right-radius: 18px; }
+.gb-photo-third { position: absolute; background-color: rgba(255, 255, 255, 0.22); }
+.gb-photo-title {
+    position: absolute; top: 22px; left: 50%; translate: -50% 0;
+    flex-direction: row; align-items: center;
+    padding: 6px 18px 6px 12px;
+    border-radius: var(--gb-r-pill);
+    background-color: rgba(255, 248, 238, 0.92);
+}
+.gb-photo-title > .gb-icon { width: 30px; height: 30px; margin-right: 8px; }
+.gb-photo-side { position: absolute; top: 50%; translate: 0 -50%; padding: 12px; border-radius: 26px; background-color: rgba(59, 54, 79, 0.55); }
+.gb-photo-side--left { left: 28px; }
+.gb-photo-side--right { right: 28px; }
+.gb-photo-kicker { color: #FFF8EE; font-size: 14px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); margin-bottom: 6px; -unity-text-align: middle-center; }
+.gb-photo-chip { margin: 4px 0; min-width: 120px; height: 48px; }
+.gb-photo-shutter {
+    position: absolute; bottom: 26px; left: 50%; translate: -50% 0;
+    width: 104px; height: 104px;
+    border-radius: 52px;
+    border-width: 7px;
+    border-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.2);
+    justify-content: center; align-items: center;
+    padding: 0;
+}
+.gb-photo-shutter-core { width: 72px; height: 72px; border-radius: 36px; background-color: #FFFFFF; }
+.gb-photo-shot {
+    position: absolute; right: 34px; bottom: 30px;
+    width: 196px;
+    padding: 8px 8px 6px 8px;
+    border-radius: 14px;
+    background-color: #FFFDF8;
+    rotate: 4deg;
+    opacity: 0; scale: 0.5;
+    transition-property: opacity, scale; transition-duration: 0.35s; transition-timing-function: ease-out-back;
+}
+.gb-photo-shot--in { opacity: 1; scale: 1; }
+.gb-photo-shot-img { height: 108px; border-radius: 8px; -unity-background-scale-mode: scale-and-crop; background-color: #EDE3D6; }
+.gb-photo-shot-text { margin-top: 4px; font-size: 14px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); -unity-text-align: middle-center; }
+.gb-photo-flash { position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-color: #FFFFFF; opacity: 0; }
+
+/* ---------- gallery ---------- */
+.gb-gallery-grid { flex-direction: row; flex-wrap: wrap; justify-content: center; padding: 10px 0; }
+.gb-gallery-card {
+    width: 236px;
+    margin: 10px;
+    padding: 9px 9px 6px 9px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    border-width: 0;
+    border-bottom-width: 4px;
+    border-bottom-color: rgba(107, 79, 58, 0.12);
+}
+.gb-gallery-pic { height: 132px; border-radius: 6px; -unity-background-scale-mode: scale-and-crop; background-color: #EDE3D6; }
+.gb-gallery-date { margin-top: 5px; font-size: 13px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text-mild); -unity-text-align: middle-center; }
+.gb-gallery-empty { align-items: center; padding: 24px; }
+.gb-gallery-empty-gooby { width: 180px; height: 180px; margin-bottom: 10px; -unity-background-scale-mode: scale-to-fit; }
+.gb-gallery-viewer { position: absolute; left: 0; top: 0; right: 0; bottom: 0; justify-content: center; align-items: center; }
+.gb-gallery-shade { position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-color: rgba(43, 36, 64, 0.6); }
+.gb-gallery-big { width: 72%; max-width: 980px; padding: 14px 14px 12px 14px; border-radius: 18px; background-color: #FFFDF8; }
+.gb-gallery-big-pic { height: 420px; border-radius: 10px; -unity-background-scale-mode: scale-to-fit; background-color: #2B2440; }
+.gb-gallery-actions { flex-direction: row; justify-content: center; margin-top: 12px; }
+
+/* ---------- ride app ---------- */
+.gb-taxi-grid { flex-direction: row; flex-wrap: wrap; justify-content: flex-start; }
+.gb-taxi-dest {
+    flex-direction: row; align-items: center;
+    width: 47%;
+    margin: 0 2% 10px 0;
+    padding: 10px 12px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.08);
+    border-bottom-width: 4px;
+}
+.gb-taxi-dest--closed { opacity: 0.5; }
+.gb-taxi-ride {
+    position: absolute; left: 50%; bottom: 40px; translate: -50% 0;
+    flex-direction: row; align-items: center;
+    width: 560px; max-width: 86%;
+    padding: 16px 22px;
+    border-radius: 26px;
+}
+
+/* the arcade's action on the home bar wears a sun rim: the game's core loop, easy to find */
+.gb-hud .gb-action.gb-action--spiele { border-color: rgba(255, 209, 102, 0.95); border-width: 3px; }
+
+/* bedtime story (StoryTimeScreen): a cream book page with big readable lines, word chips sized for a thumb */
+.gb-story-page { border-radius: 24px; border-width: 2px; border-color: rgba(201, 183, 156, 0.45); }
+.gb-story-page .gb-lg { font-size: 21px; color: #4A3B36; }
+.gb-story-word {
+    height: 48px; padding: 0 20px;
+    font-size: 19px;
+    background-color: #FFF1D8;
+    border-width: 2px; border-color: rgba(201, 160, 110, 0.35); border-bottom-width: 4px;
+}
+.gb-story-word:hover { background-color: #FFE7BF; }
+.gb-story-word--used { opacity: 0.32; }
+.gb-story-moon { -unity-background-image-tint-color: #8C7BE0; }
+.gb-story-book { border-radius: 22px; }
+.gb-story-chevron { width: 22px; height: 22px; opacity: 0.5; }
+
+/* random events (EventRescueScreen + the HUD card): the mess as big round buttons over a cream scene */
+.gb-event-scene { border-radius: 24px; margin-left: 12px; overflow: hidden; }
+.gb-event-prop {
+    width: 76px; height: 76px; border-radius: 38px;
+    align-items: center; justify-content: center;
+    background-color: #FFFFFF;
+    border-width: 2px; border-color: rgba(201, 160, 110, 0.35); border-bottom-width: 5px;
+}
+.gb-event-prop:hover { background-color: #FFF4DE; scale: 1.06 1.06; }
+.gb-event-card { border-color: rgba(233, 140, 160, 0.9); border-width: 3px; }

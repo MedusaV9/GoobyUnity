@@ -1,0 +1,25 @@
+{
+  "id": "goobyman_verkaeufer",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "goobyman",
+      "text": "Welcome to GOOBYMAN! If it breaks, I've got a new one.",
+      "optionen": [
+        {"text": "Let's shop!", "next": "laden"},
+        {"text": "Who exactly is Goobyman?", "next": "held"}
+      ]
+    },
+    "held": {
+      "sprecher": "goobyman",
+      "text": "Drugstore clerk by day. By night … also a drugstore clerk. But with a cape!",
+      "next": "hallo"
+    },
+    "laden": {
+      "sprecher": "goobyman",
+      "text": "Toothbrushes on the left, plasters on the right, hero poses free of charge.",
+      "effekt": ["laden"],
+      "ende": true
+    }
+  }
+}

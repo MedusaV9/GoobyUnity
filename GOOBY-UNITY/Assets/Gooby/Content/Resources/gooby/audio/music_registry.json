@@ -1,0 +1,628 @@
+{
+ "_source": "GOOBY-GODOT/scripts/audio/music_registry.gd (tools/audio/export_music_registry.py)",
+ "stinger_max_sec": 10.0,
+ "stations": [
+  {
+   "id": "bordmusik",
+   "name_key": "audio.station.bordmusik",
+   "unlock_level": 1
+  },
+  {
+   "id": "gooby-fm",
+   "name_key": "audio.station.gooby_fm",
+   "unlock_level": 1
+  },
+  {
+   "id": "recap-fm",
+   "name_key": "audio.station.recap_fm",
+   "unlock_level": 5
+  },
+  {
+   "id": "game-fm",
+   "name_key": "audio.station.game_fm",
+   "unlock_level": 8
+  },
+  {
+   "id": "alle",
+   "name_key": "audio.station.alle",
+   "unlock_level": 1
+  }
+ ],
+ "context_aliases": {
+  "home": "room:living",
+  "home_night": "room:bedroom",
+  "garden": "room:garden",
+  "city": "location:city",
+  "shop": "location:shop",
+  "vet": "location:vet",
+  "arcade": "arcade",
+  "ranch": "ranch:hof",
+  "ranch_reiten": "ranch:reiten",
+  "ranch_turnier": "ranch:turnier",
+  "ranch_nacht": "ranch:nacht",
+  "ranch_menue": "ranch:menue"
+ },
+ "extra_context_tracks": {
+  "vacation": "bordmusik-vacation-day"
+ },
+ "required_contexts": [
+  "home",
+  "home_night",
+  "garden",
+  "city",
+  "shop",
+  "vet",
+  "arcade",
+  "vacation",
+  "room:kitchen",
+  "room:bathroom",
+  "room:bedroom",
+  "ranch",
+  "ranch_reiten",
+  "ranch_turnier",
+  "ranch_nacht",
+  "ranch_menue"
+ ],
+ "tracks": {
+  "bordmusik-candy": {
+   "file": "bordmusik/bordmusik-candy.ogg",
+   "category": "Bordmusik",
+   "title": "Candy",
+   "duration_sec": 52.2,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "bordmusik-magic-bottle-town": {
+   "file": "bordmusik/bordmusik-magic-bottle-town.ogg",
+   "category": "Bordmusik",
+   "title": "Magic Bottle Town",
+   "duration_sec": 104.7,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "bordmusik-penguin-town": {
+   "file": "bordmusik/bordmusik-penguin-town.ogg",
+   "category": "Bordmusik",
+   "title": "Penguin Town",
+   "duration_sec": 35.3,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "bordmusik-piano-atmos": {
+   "file": "bordmusik/bordmusik-piano-atmos.ogg",
+   "category": "Bordmusik",
+   "title": "Piano Atmos",
+   "duration_sec": 51.2,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "bordmusik-piano-jazz": {
+   "file": "bordmusik/bordmusik-piano-jazz.ogg",
+   "category": "Bordmusik",
+   "title": "Piano Jazz",
+   "duration_sec": 51.2,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "bordmusik-piano-melodie": {
+   "file": "bordmusik/bordmusik-piano-melodie.ogg",
+   "category": "Bordmusik",
+   "title": "Piano Melodie",
+   "duration_sec": 51.2,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "bordmusik-piano-streicher": {
+   "file": "bordmusik/bordmusik-piano-streicher.ogg",
+   "category": "Bordmusik",
+   "title": "Piano Streicher",
+   "duration_sec": 51.2,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "bordmusik-playful-piano": {
+   "file": "bordmusik/bordmusik-playful-piano.ogg",
+   "category": "Bordmusik",
+   "title": "Playful Piano",
+   "duration_sec": 51.2,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "bordmusik-puzzle-pieces": {
+   "file": "bordmusik/bordmusik-puzzle-pieces.ogg",
+   "category": "Bordmusik",
+   "title": "Puzzle Pieces",
+   "duration_sec": 91.2,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "bordmusik-rabbit-town": {
+   "file": "bordmusik/bordmusik-rabbit-town.ogg",
+   "category": "Bordmusik",
+   "title": "Rabbit Town",
+   "duration_sec": 45.5,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "bordmusik-seaside": {
+   "file": "bordmusik/bordmusik-seaside.ogg",
+   "category": "Bordmusik",
+   "title": "Seaside",
+   "duration_sec": 53.3,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "bordmusik-vacation-day": {
+   "file": "bordmusik/bordmusik-vacation-day.ogg",
+   "category": "Bordmusik",
+   "title": "Vacation Day",
+   "duration_sec": 10.2,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "bordmusik-werkstatt": {
+   "file": "bordmusik/bordmusik-werkstatt.ogg",
+   "category": "Bordmusik",
+   "title": "Werkstatt",
+   "duration_sec": 22.6,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "game-hafenhupfer": {
+   "file": "games/game-hafenhupfer.ogg",
+   "category": "Game",
+   "title": "Hafenhüpfer",
+   "duration_sec": 64.7,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "game:harborHopper",
+   "variant": ""
+  },
+  "game-kichergeister": {
+   "file": "games/game-kichergeister.ogg",
+   "category": "Game",
+   "title": "Kichergeister",
+   "duration_sec": 93.8,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "game:ghostHunt",
+   "variant": ""
+  },
+  "game-kuchenwirbel": {
+   "file": "games/game-kuchenwirbel.ogg",
+   "category": "Game",
+   "title": "Kuchenwirbel",
+   "duration_sec": 94.8,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "game:purblePlace",
+   "variant": ""
+  },
+  "game-running-loops": {
+   "file": "games/game-running-loops.ogg",
+   "category": "Game",
+   "title": "Running Loops",
+   "duration_sec": 70.0,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "game:shoppingSurf",
+   "variant": ""
+  },
+  "game-spielzeugflitzer": {
+   "file": "games/game-spielzeugflitzer.ogg",
+   "category": "Game",
+   "title": "Spielzeugflitzer",
+   "duration_sec": 74.1,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "game:toyRacer",
+   "variant": ""
+  },
+  "game-splat-wunderwelt": {
+   "file": "games/game-splat-wunderwelt.ogg",
+   "category": "Game",
+   "title": "Splat-Wunderwelt",
+   "duration_sec": 65.4,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "game-sternenhopser": {
+   "file": "games/game-sternenhopser.ogg",
+   "category": "Game",
+   "title": "Sternenhopser",
+   "duration_sec": 94.8,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "game:starHopper",
+   "variant": ""
+  },
+  "location-ikea-quest": {
+   "file": "locations/location-ikea-quest.ogg",
+   "category": "Location",
+   "title": "Ikea Quest",
+   "duration_sec": 36.3,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "location:shop",
+   "variant": ""
+  },
+  "location-sanfte-pfoten": {
+   "file": "locations/location-sanfte-pfoten.ogg",
+   "category": "Location",
+   "title": "Sanfte Pfoten",
+   "duration_sec": 77.5,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "location:vet",
+   "variant": ""
+  },
+  "location-stadtrundfahrt": {
+   "file": "locations/location-stadtrundfahrt.ogg",
+   "category": "Location",
+   "title": "Stadtrundfahrt",
+   "duration_sec": 115.5,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "location:city",
+   "variant": ""
+  },
+  "radio-der-dicke-hase-gooby": {
+   "file": "radio/radio-der-dicke-hase-gooby.ogg",
+   "category": "Radio",
+   "title": "Der Dicke Hase Gooby",
+   "duration_sec": 130.6,
+   "gain_trim": 1.0,
+   "unlock_level": 5,
+   "context": "",
+   "variant": ""
+  },
+  "radio-der-gartenkonig-gooby": {
+   "file": "radio/radio-der-gartenkonig-gooby.ogg",
+   "category": "Radio",
+   "title": "Der Gartenkönig Gooby",
+   "duration_sec": 135.5,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "radio-der-gartenkonig-gooby-2": {
+   "file": "radio/radio-der-gartenkonig-gooby-2.ogg",
+   "category": "Radio",
+   "title": "Der Gartenkönig Gooby",
+   "duration_sec": 135.5,
+   "gain_trim": 1.0,
+   "unlock_level": 15,
+   "context": "",
+   "variant": ""
+  },
+  "radio-goldene-karotten": {
+   "file": "radio/radio-goldene-karotten.ogg",
+   "category": "Radio",
+   "title": "Goldene Karotten",
+   "duration_sec": 155.7,
+   "gain_trim": 1.0,
+   "unlock_level": 20,
+   "context": "",
+   "variant": ""
+  },
+  "radio-gooby-der-dicke-hase": {
+   "file": "radio/radio-gooby-der-dicke-hase.ogg",
+   "category": "Radio",
+   "title": "Gooby der Dicke Hase",
+   "duration_sec": 181.7,
+   "gain_trim": 1.0,
+   "unlock_level": 10,
+   "context": "",
+   "variant": ""
+  },
+  "radio-goobys-abenteuer": {
+   "file": "radio/radio-goobys-abenteuer.ogg",
+   "category": "Radio",
+   "title": "Goobys Abenteuer",
+   "duration_sec": 125.2,
+   "gain_trim": 1.0,
+   "unlock_level": 5,
+   "context": "",
+   "variant": ""
+  },
+  "radio-hopp-hopp-gooby": {
+   "file": "radio/radio-hopp-hopp-gooby.ogg",
+   "category": "Radio",
+   "title": "Hopp Hopp Gooby!",
+   "duration_sec": 172.6,
+   "gain_trim": 1.0,
+   "unlock_level": 5,
+   "context": "",
+   "variant": ""
+  },
+  "radio-konig-im-kleefeld": {
+   "file": "radio/radio-konig-im-kleefeld.ogg",
+   "category": "Radio",
+   "title": "König im Kleefeld",
+   "duration_sec": 166.3,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "radio-konig-im-kleefeld-2": {
+   "file": "radio/radio-konig-im-kleefeld-2.ogg",
+   "category": "Radio",
+   "title": "König im Kleefeld",
+   "duration_sec": 166.3,
+   "gain_trim": 1.0,
+   "unlock_level": 15,
+   "context": "",
+   "variant": ""
+  },
+  "radio-kronenfest": {
+   "file": "radio/radio-kronenfest.ogg",
+   "category": "Radio",
+   "title": "Kronenfest",
+   "duration_sec": 136.3,
+   "gain_trim": 1.0,
+   "unlock_level": 30,
+   "context": "",
+   "variant": ""
+  },
+  "radio-mohrenberg-monarch": {
+   "file": "radio/radio-mohrenberg-monarch.ogg",
+   "category": "Radio",
+   "title": "Möhrenberg Monarch",
+   "duration_sec": 145.6,
+   "gain_trim": 1.0,
+   "unlock_level": 10,
+   "context": "",
+   "variant": ""
+  },
+  "radio-mohrenmond-tanz": {
+   "file": "radio/radio-mohrenmond-tanz.ogg",
+   "category": "Radio",
+   "title": "Möhrenmond-Tanz",
+   "duration_sec": 150.3,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "radio-round-rabbit-rock": {
+   "file": "radio/radio-round-rabbit-rock.ogg",
+   "category": "Radio",
+   "title": "Round Rabbit Rock",
+   "duration_sec": 152.2,
+   "gain_trim": 1.0,
+   "unlock_level": 10,
+   "context": "",
+   "variant": ""
+  },
+  "radio-wackelpo-im-klee": {
+   "file": "radio/radio-wackelpo-im-klee.ogg",
+   "category": "Radio",
+   "title": "Wackelpo im Klee",
+   "duration_sec": 169.2,
+   "gain_trim": 1.0,
+   "unlock_level": 15,
+   "context": "",
+   "variant": ""
+  },
+  "radio-wolkenkonig": {
+   "file": "radio/radio-wolkenkonig.ogg",
+   "category": "Radio",
+   "title": "Wolkenkönig",
+   "duration_sec": 138.8,
+   "gain_trim": 1.0,
+   "unlock_level": 25,
+   "context": "",
+   "variant": ""
+  },
+  "radio-zuckende-nase": {
+   "file": "radio/radio-zuckende-nase.ogg",
+   "category": "Radio",
+   "title": "Zuckende Nase",
+   "duration_sec": 164.1,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "ranch-menue": {
+   "file": "ranch/musik_menue.ogg",
+   "category": "Ranch",
+   "title": "Ranch-Menü",
+   "duration_sec": 114.5,
+   "gain_trim": 0.821,
+   "unlock_level": 1,
+   "context": "ranch:menue",
+   "variant": ""
+  },
+  "ranch-nacht": {
+   "file": "ranch/musik_nacht.ogg",
+   "category": "Ranch",
+   "title": "Nacht am Teich",
+   "duration_sec": 235.0,
+   "gain_trim": 0.919,
+   "unlock_level": 1,
+   "context": "ranch:nacht",
+   "variant": ""
+  },
+  "ranch-reiten": {
+   "file": "ranch/musik_reiten.ogg",
+   "category": "Ranch",
+   "title": "Weites Land",
+   "duration_sec": 73.7,
+   "gain_trim": 0.947,
+   "unlock_level": 1,
+   "context": "ranch:reiten",
+   "variant": ""
+  },
+  "ranch-tag": {
+   "file": "ranch/musik_ranch_tag.ogg",
+   "category": "Ranch",
+   "title": "Ranch-Tag",
+   "duration_sec": 199.8,
+   "gain_trim": 0.731,
+   "unlock_level": 1,
+   "context": "ranch:hof",
+   "variant": ""
+  },
+  "ranch-turnier": {
+   "file": "ranch/musik_turnier.ogg",
+   "category": "Ranch",
+   "title": "Turnier-Galopp",
+   "duration_sec": 187.5,
+   "gain_trim": 0.785,
+   "unlock_level": 1,
+   "context": "ranch:turnier",
+   "variant": ""
+  },
+  "recap-abenteuer": {
+   "file": "recap/recap-abenteuer.ogg",
+   "category": "Recap",
+   "title": "Abenteuer",
+   "duration_sec": 109.7,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "recap-bonus-stage-blitz": {
+   "file": "recap/recap-bonus-stage-blitz.ogg",
+   "category": "Recap",
+   "title": "Bonus Stage Blitz",
+   "duration_sec": 83.3,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "recap-recap-song-2-moreepic-victory": {
+   "file": "recap/recap-recap-song-2-moreepic-victory.ogg",
+   "category": "Recap",
+   "title": "Recap Song 2 MoreEpic Victory",
+   "duration_sec": 165.1,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "room-blubberbad": {
+   "file": "rooms/room-blubberbad.ogg",
+   "category": "Room",
+   "title": "Blubberbad",
+   "duration_sec": 63.6,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "room:bathroom",
+   "variant": ""
+  },
+  "room-cloud-hopper-s-day-off": {
+   "file": "rooms/room-cloud-hopper-s-day-off.ogg",
+   "category": "Room",
+   "title": "Cloud Hopper's Day Off",
+   "duration_sec": 99.2,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "room:living",
+   "variant": ""
+  },
+  "room-kitchen-dance-party": {
+   "file": "rooms/room-kitchen-dance-party.ogg",
+   "category": "Room",
+   "title": "Kitchen Dance Party",
+   "duration_sec": 85.5,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "room:kitchen",
+   "variant": ""
+  },
+  "room-petal-path-picnic": {
+   "file": "rooms/room-petal-path-picnic.ogg",
+   "category": "Room",
+   "title": "Petal Path Picnic",
+   "duration_sec": 98.7,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "room:garden",
+   "variant": ""
+  },
+  "room-pitter-patter-fun": {
+   "file": "rooms/room-pitter-patter-fun.ogg",
+   "category": "Room",
+   "title": "Pitter Patter Fun",
+   "duration_sec": 75.5,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "arcade",
+   "variant": ""
+  },
+  "room-pixie-puddle-awake": {
+   "file": "rooms/room-pixie-puddle-awake.ogg",
+   "category": "Room",
+   "title": "Pixie Puddle",
+   "duration_sec": 59.4,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "room:bedroom",
+   "variant": "awake"
+  },
+  "room-pixie-puddle-sleeping": {
+   "file": "rooms/room-pixie-puddle-sleeping.ogg",
+   "category": "Room",
+   "title": "Pixie Puddle",
+   "duration_sec": 36.1,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "room:bedroom",
+   "variant": "sleeping"
+  },
+  "stinger-levelup": {
+   "file": "stinger/stinger-levelup.ogg",
+   "category": "Stinger",
+   "title": "LevelUp",
+   "duration_sec": 6.0,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  },
+  "stinger-results": {
+   "file": "stinger/stinger-results.ogg",
+   "category": "Stinger",
+   "title": "Results",
+   "duration_sec": 4.0,
+   "gain_trim": 1.0,
+   "unlock_level": 1,
+   "context": "",
+   "variant": ""
+  }
+ }
+}

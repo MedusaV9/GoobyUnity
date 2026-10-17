@@ -1,0 +1,14 @@
+{
+	"mg": {
+		"spotlight": {
+			"badge": "★ Spiel des Tages",
+			"pregame": {
+				"aktiv": "★ Spiel des Tages: +{prozent} % Münzen — einmal heute!",
+				"eingeloest": "★ Spiel des Tages — Tagesbonus schon eingelöst."
+			},
+			"results": {
+				"bonus": "Spiel des Tages: +{coins} Münzen"
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"vet": {
+		"ort_name": "Veterinary Practice Dr. Dr. Möhrchen",
+		"untersuchung": {
+			"horchen": "Dr. Dr. Möhrchen listens closely with a carrot …",
+			"temperatur": "Temperature: snuggly warm. Very good.",
+			"ohren": "Ear-wiggle test: passed by the book."
+		},
+		"behandlung_ok": "Dr. Dr. Möhrchen has patched Gooby up. All will be well!",
+		"behandlung_gesund": "Gooby is perfectly healthy — we only treat what actually hurts.",
+		"checkup_ok": "Check-up done — Gooby is well looked after.",
+		"zu_wenig": "There aren't quite enough coins in the pouch right now.",
+		"rezept_ok": "Prescription pocketed — off to the GOOBYTHEKE with it."
+	}
+}

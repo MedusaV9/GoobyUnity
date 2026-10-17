@@ -1,0 +1,81 @@
+{
+	"schema": 1,
+	"kommentar": "G5/P24 DLC-GOOBYE-A — Startsortiment des „Goo und Bye“ (Doc DLC-GOO-UND-BYE §4.1). Warengruppen sind IMMER Form + Farbe kodiert (§2.5, nie nur Farbe); `ton` ist die Gebrabbel-Tonhöhe der Kassen-Melodie (§1.2, Pitch-Reihe 0.9–1.6 nach AUDIO-GRAMMATIK). Waren-IDs identisch mit scripts/city/data/rehwei_sortiment.json (§4.1 — gekaufte Ware ist ECHTES Gooby-Essen), `vk` = Richtwert-Verkaufspreis (= REHWEI-Ladenpreis); den Einkaufspreis (60 %) rechnet GoobyePreis aus dem Balance-Pack. Eigenmarken („Goobys Gute Ware“) sind Parodie-Neuware mit eigenen name_keys (strings/de+en/dlc_goobye.json). `start` = Stückzahl im Eröffnungspaket (Warengutschein, §2.2).",
+	"items": [
+		{
+			"id": "obst",
+			"typ": "gruppe",
+			"name_key": "dlc_goobye.gruppe.obst",
+			"form": "rund",
+			"farbe": "#7BB661",
+			"ton": 1.0
+		},
+		{
+			"id": "gemuese",
+			"typ": "gruppe",
+			"name_key": "dlc_goobye.gruppe.gemuese",
+			"form": "tropfen",
+			"farbe": "#E8934A",
+			"ton": 1.1
+		},
+		{
+			"id": "backwaren",
+			"typ": "gruppe",
+			"name_key": "dlc_goobye.gruppe.backwaren",
+			"form": "dreieck",
+			"farbe": "#C89A6B",
+			"ton": 1.2
+		},
+		{
+			"id": "suesses",
+			"typ": "gruppe",
+			"name_key": "dlc_goobye.gruppe.suesses",
+			"form": "stern",
+			"farbe": "#E88BB5",
+			"ton": 1.35
+		},
+		{
+			"id": "kuehlware",
+			"typ": "gruppe",
+			"name_key": "dlc_goobye.gruppe.kuehlware",
+			"form": "eckig",
+			"farbe": "#6FA8DC",
+			"ton": 1.5
+		},
+		{
+			"id": "eigenmarke",
+			"typ": "gruppe",
+			"name_key": "dlc_goobye.gruppe.eigenmarke",
+			"form": "raute",
+			"farbe": "#F2C94C",
+			"ton": 0.9
+		},
+		{"id": "apple", "typ": "ware", "gruppe": "obst", "vk": 6, "name_key": "rewards.food.apple", "start": 6},
+		{"id": "banana", "typ": "ware", "gruppe": "obst", "vk": 6, "name_key": "rewards.food.banana"},
+		{"id": "strawberry", "typ": "ware", "gruppe": "obst", "vk": 8, "name_key": "rewards.food.strawberry"},
+		{"id": "grapes", "typ": "ware", "gruppe": "obst", "vk": 9, "name_key": "rewards.food.grapes"},
+		{"id": "watermelon", "typ": "ware", "gruppe": "obst", "vk": 12, "name_key": "rewards.food.watermelon"},
+		{"id": "carrot", "typ": "ware", "gruppe": "gemuese", "vk": 5, "name_key": "rewards.food.carrot", "start": 8},
+		{"id": "tomato", "typ": "ware", "gruppe": "gemuese", "vk": 7, "name_key": "rewards.food.tomato"},
+		{"id": "corn", "typ": "ware", "gruppe": "gemuese", "vk": 10, "name_key": "rewards.food.corn"},
+		{"id": "salad", "typ": "ware", "gruppe": "gemuese", "vk": 14, "name_key": "rewards.food.salad"},
+		{"id": "pumpkin", "typ": "ware", "gruppe": "gemuese", "vk": 22, "name_key": "rewards.food.pumpkin"},
+		{"id": "bread", "typ": "ware", "gruppe": "backwaren", "vk": 10, "name_key": "rewards.food.bread", "start": 5},
+		{"id": "croissant", "typ": "ware", "gruppe": "backwaren", "vk": 12, "name_key": "rewards.food.croissant"},
+		{"id": "muffin", "typ": "ware", "gruppe": "backwaren", "vk": 12, "name_key": "rewards.food.muffin"},
+		{"id": "cinnamonRoll", "typ": "ware", "gruppe": "backwaren", "vk": 16, "name_key": "rewards.food.cinnamonRoll"},
+		{"id": "donut-sprinkles", "typ": "ware", "gruppe": "backwaren", "vk": 12, "name_key": "rewards.food.donut-sprinkles"},
+		{"id": "lollypop", "typ": "ware", "gruppe": "suesses", "vk": 6, "name_key": "rewards.food.lollypop"},
+		{"id": "cookie", "typ": "ware", "gruppe": "suesses", "vk": 8, "name_key": "rewards.food.cookie", "start": 5},
+		{"id": "chocolate", "typ": "ware", "gruppe": "suesses", "vk": 9, "name_key": "rewards.food.chocolate"},
+		{"id": "candy-bar", "typ": "ware", "gruppe": "suesses", "vk": 10, "name_key": "rewards.food.candy-bar"},
+		{"id": "cupcakePink", "typ": "ware", "gruppe": "suesses", "vk": 14, "name_key": "rewards.food.cupcakePink"},
+		{"id": "cake", "typ": "ware", "gruppe": "suesses", "vk": 40, "name_key": "rewards.food.cake"},
+		{"id": "cheese", "typ": "ware", "gruppe": "kuehlware", "vk": 12, "name_key": "rewards.food.cheese", "start": 4},
+		{"id": "ice-cream", "typ": "ware", "gruppe": "kuehlware", "vk": 16, "name_key": "rewards.food.ice-cream"},
+		{"id": "sundae", "typ": "ware", "gruppe": "kuehlware", "vk": 18, "name_key": "rewards.food.sundae"},
+		{"id": "gb_hoppel_pops", "typ": "ware", "gruppe": "eigenmarke", "vk": 8, "name_key": "dlc_goobye.ware.gb_hoppel_pops", "eigenmarke": true, "start": 4},
+		{"id": "gb_moehrenperlen", "typ": "ware", "gruppe": "eigenmarke", "vk": 6, "name_key": "dlc_goobye.ware.gb_moehrenperlen", "eigenmarke": true},
+		{"id": "gb_goo_cola", "typ": "ware", "gruppe": "eigenmarke", "vk": 7, "name_key": "dlc_goobye.ware.gb_goo_cola", "eigenmarke": true}
+	]
+}

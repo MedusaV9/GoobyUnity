@@ -1,0 +1,51 @@
+{
+  "kommentar": "REHWEI-Lebensmittel-Sortiment (Doc E §2.3). IDs + Preise + Stat-Deltas 1:1 aus der Web-Referenz FOOD_TABLE (GOOBY/src/data/constants.js + foods.js V4-Bakery-Override für croissant; W13/FOOD: +cupcakePink/cinnamonRoll/ice-cream/sundae/pumpkin/cake/nutella). glb zeigt auf assets/city/essen/. gooberando=true markiert die Gerichte der GOOBERANDO-App (Doc E §5). Hinweis: energy-Deltas führt nur scripts/logic/food_catalog.gd (dieses Format kennt kein energie-Feld). W15/CROPS: Saatgut steht in der EIGENEN Liste `saatgut` weiter unten (s. kommentar_saatgut) — bewusst nicht in `waren`.",
+  "waren": [
+    {"id": "carrot", "name_de": "Möhre", "preis": 5, "glb": "carrot.glb", "hunger": 10, "spass": 2, "favorit": true},
+    {"id": "apple", "name_de": "Apfel", "preis": 6, "glb": "apple.glb", "hunger": 10, "spass": 1},
+    {"id": "banana", "name_de": "Banane", "preis": 6, "glb": "banana.glb", "hunger": 11, "spass": 0},
+    {"id": "lollypop", "name_de": "Lutscher", "preis": 6, "glb": "lollypop.glb", "hunger": 2, "spass": 8, "junk": true},
+    {"id": "tomato", "name_de": "Tomate", "preis": 7, "glb": "tomato.glb", "hunger": 12, "spass": 1},
+    {"id": "strawberry", "name_de": "Erdbeere", "preis": 8, "glb": "strawberry.glb", "hunger": 6, "spass": 6},
+    {"id": "cookie", "name_de": "Keks", "preis": 8, "glb": "cookie.glb", "hunger": 5, "spass": 8, "junk": true},
+    {"id": "grapes", "name_de": "Trauben", "preis": 9, "glb": "grapes.glb", "hunger": 8, "spass": 5},
+    {"id": "chocolate", "name_de": "Schokolade", "preis": 9, "glb": "chocolate.glb", "hunger": 5, "spass": 9, "junk": true},
+    {"id": "bread", "name_de": "Brot", "preis": 10, "glb": "bread.glb", "hunger": 18, "spass": 0},
+    {"id": "corn", "name_de": "Mais", "preis": 10, "glb": "corn.glb", "hunger": 15, "spass": 2},
+    {"id": "candy-bar", "name_de": "Schokoriegel", "preis": 10, "glb": "candy-bar.glb", "hunger": 4, "spass": 11, "junk": true},
+    {"id": "cheese", "name_de": "Käse", "preis": 12, "glb": "cheese.glb", "hunger": 16, "spass": 2},
+    {"id": "watermelon", "name_de": "Wassermelone", "preis": 12, "glb": "watermelon.glb", "hunger": 14, "spass": 4},
+    {"id": "croissant", "name_de": "Croissant", "preis": 12, "glb": "croissant.glb", "hunger": 14, "spass": 4},
+    {"id": "muffin", "name_de": "Muffin", "preis": 12, "glb": "muffin.glb", "hunger": 10, "spass": 8, "junk": true},
+    {"id": "donut-sprinkles", "name_de": "Streusel-Donut", "preis": 12, "glb": "donut.glb", "hunger": 10, "spass": 10, "junk": true},
+    {"id": "salad", "name_de": "Salat", "preis": 14, "glb": "salad.glb", "hunger": 20, "spass": 0, "hygiene": 2},
+    {"id": "cupcakePink", "name_de": "Rosa Törtchen", "preis": 14, "glb": "cupcake-pink.glb", "hunger": 10, "spass": 10, "hygiene": -2, "junk": true},
+    {"id": "fries", "name_de": "Pommes", "preis": 14, "glb": "fries.glb", "hunger": 12, "spass": 9, "hygiene": -1, "junk": true},
+    {"id": "cinnamonRoll", "name_de": "Zimtschnecke", "preis": 16, "glb": "cinnamon-roll.glb", "hunger": 16, "spass": 8, "hygiene": -2, "junk": true},
+    {"id": "ice-cream", "name_de": "Eistüte", "preis": 16, "glb": "ice-cream.glb", "hunger": 6, "spass": 15, "junk": true},
+    {"id": "sandwich", "name_de": "Sandwich", "preis": 16, "glb": "sandwich.glb", "hunger": 24, "spass": 3, "gooberando": true},
+    {"id": "hot-dog", "name_de": "Hotdog", "preis": 18, "glb": "hot-dog.glb", "hunger": 25, "spass": 4},
+    {"id": "sundae", "name_de": "Eisbecher", "preis": 18, "glb": "sundae.glb", "hunger": 7, "spass": 14, "junk": true},
+    {"id": "pancakes", "name_de": "Pfannkuchen", "preis": 20, "glb": "pancakes.glb", "hunger": 28, "spass": 6},
+    {"id": "pumpkin", "name_de": "Kürbis", "preis": 22, "glb": "pumpkin.glb", "hunger": 26, "spass": 4},
+    {"id": "burger", "name_de": "Burger", "preis": 25, "glb": "burger.glb", "hunger": 40, "spass": 6, "gooberando": true},
+    {"id": "pizza", "name_de": "Pizza", "preis": 30, "glb": "pizza.glb", "hunger": 45, "spass": 8, "hygiene": -2, "junk": true, "gooberando": true},
+    {"id": "cake", "name_de": "Torte", "preis": 40, "glb": "cake.glb", "hunger": 30, "spass": 20, "junk": true},
+    {"id": "nutella", "name_de": "Nutella-Glas", "preis": 45, "glb": "nutella.glb", "hunger": 18, "spass": 6, "hygiene": -4, "junk": true}
+  ],
+  "kommentar_saatgut": "W15/CROPS: Saatgut für die vier neuen Garten-Crops (radish/corn/eggplant/pumpkin — schließt das veggies-Album-Set). Preise = Web-Referenz CROP_TABLE.seedPrice VERBATIM (GOOBY/src/data/constants.js). Eigene Liste statt waren-Zeilen, weil der waren-Datenvertrag Lebensmittel verlangt (FoodCatalog-Deckung + glb + Preis-Sortierung, test_ef1_fuettern/test_w13_food_nougat). inventar=samen_* → HaendlerSheet.kaufe legt den Kauf in inventory.items, GardenState.pflanzen verbraucht ihn. Einbindung ins REHWEI-Sheet: Saatgut-Abschnitt in haendler_sheet.gd (Muster Bücher, W13B).",
+  "saatgut": [
+    {"id": "samen_radish", "name_de": "Radieschen-Samen", "preis": 5, "inventar": "samen_radish", "kategorie": "saatgut"},
+    {"id": "samen_corn", "name_de": "Mais-Samen", "preis": 20, "inventar": "samen_corn", "kategorie": "saatgut"},
+    {"id": "samen_eggplant", "name_de": "Auberginen-Samen", "preis": 25, "inventar": "samen_eggplant", "kategorie": "saatgut"},
+    {"id": "samen_pumpkin", "name_de": "Kürbis-Samen", "preis": 35, "inventar": "samen_pumpkin", "kategorie": "saatgut"}
+  ],
+  "kommentar_buecher": "W13B/GESCHICHTEN (Doc F §3.2): Bücher-Kategorie für die Geschichten-Stunde — Ids/Preise 1:1 aus content/books/data/books.json (Wache: tests/unit/test_w13b_geschichten.gd). inventar=BuchId → HaendlerSheet.kaufe legt den Kauf in inventory.items ab, StoryBooks.owned_book_ids liest ihn. Das Startbuch (buch_moehrenmond) ist gratis und steht bewusst NICHT im Laden. Einbindung ins REHWEI-Sheet: Request [GESCHICHTEN] in /tmp/gooby-godot/handoffs/W13-requests.md (CitySortiment.buecher + OrtRehwei.oeffne_laden).",
+  "buecher": [
+    {"id": "buch_weltraum", "name_de": "Weltraum-Hoppel", "preis": 35, "inventar": "buch_weltraum", "kategorie": "buch"},
+    {"id": "buch_piraten", "name_de": "Der Piraten-Nutella-Schatz", "preis": 40, "inventar": "buch_piraten", "kategorie": "buch"},
+    {"id": "buch_ritter", "name_de": "Ritter Gooby von Flauschfels", "preis": 45, "inventar": "buch_ritter", "kategorie": "buch"},
+    {"id": "buch_tiefsee", "name_de": "Die Tiefsee-Schnarchnasen", "preis": 50, "inventar": "buch_tiefsee", "kategorie": "buch"},
+    {"id": "buch_traumbaeckerei", "name_de": "Die Traumbäckerei", "preis": 60, "inventar": "buch_traumbaeckerei", "kategorie": "buch"}
+  ]
+}

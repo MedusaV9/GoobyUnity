@@ -1,0 +1,11 @@
+{
+	"mg": {
+		"shoppingSurf": {
+			"intro": "Surf the shopping street — dodge the obstacles!"
+		},
+		"toyRacer": {
+			"intro": "3 laps around the playroom — hold to drift!",
+			"pos_pill": "Place {p}"
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "stadt": {
+    "bus": {
+      "schild": "BUS"
+    },
+    "cafe": {
+      "name": "Café Crumble"
+    }
+  },
+  "park_deko": {
+    "banner": "Welcome to Funkelpark!",
+    "ballons": "Balloons",
+    "warte": "Please queue here"
+  }
+}

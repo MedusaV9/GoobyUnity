@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_alwin",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "alwin",
+			"text": "Morgen, junges Gemüse. Früher waren die Morgen früher. Da war um sechs schon Mittag.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "alwin",
+			"text": "Alwin. Rancher im Ruhestand. Der Ruhestand besteht darin, dass ich im Stehen ruhe.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "alwin",
+			"text": "Schöner Abend. Zu meiner Zeit gab's die auch schon. Waren aber größer, die Abende.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "alwin",
+			"text": "Das nennst du Regen? Anno dazumal fiel der Regen von unten nach oben. Wir mussten die Schirme umdrehen.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "alwin",
+			"text": "Na, wenn das nicht mein Lieblingsjungspund ist. Setz dich auf den Zaun. Der Platz neben mir ist reserviert. Für dich.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "alwin",
+			"text": "Nu?",
+			"optionen": [
+				{"text": "Hast du was für mich?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Erledigt, Alwin!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "Erzähl von früher!", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "Erzähl von früher!", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "Erzähl von früher!", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Die Sache mit dem Wolf?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Wem gehörte die Ranch?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Bis dann, Alwin!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "alwin",
+			"text": [
+				"Früher, da hatten wir nichts. Nicht mal Heu. Wir haben das Gras einzeln gekämmt.",
+				"Die Pferde fanden's albern. Aber ordentlich sah es aus."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "alwin",
+			"text": [
+				"Hab ich dir von der großen Dürre erzählt? Drei Sommer kein Tropfen. Der Teich war nur noch eine Idee.",
+				"Beim letzten Mal waren es übrigens noch zwei Sommer. Gute Geschichten wachsen mit, weißt du."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "alwin",
+			"text": [
+				"Weißt du, was das Beste an früher war? Nichts. Das Beste ist jetzt, wo du hier alles aufmöbelst.",
+				"Sag's nicht weiter. Wenn rauskommt, dass ich das Jetzt lobe, verliere ich meine Lizenz als alter Mann."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "alwin",
+			"text": "Hätte da was. Meine Knochen sagen nein, aber die Sache muss gemacht werden. Deine Knochen sind jünger.",
+			"optionen": [
+				{"text": "Meine Knochen sagen ja!", "next": "quest_annahme"},
+				{"text": "Meine Knochen zieren sich …", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "alwin",
+			"text": "Braver Jungspund. Früher hätte das drei Leute gebraucht. Und einen Esel. Der Esel war der Klügste.",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "alwin",
+			"text": "Versteh ich. Eile war noch nie mein Tempo. Ich hab mal zwei Jahre für eine Antwort gebraucht. Sie war: Jein.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "alwin",
+			"text": "Sieh mal einer an. Sauber. Zu meiner Zeit hätten wir dafür ein Fest gefeiert. Machen wir auch. Hier, dein Anteil.",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "alwin",
+			"text": "Heu. Riech mal. RIECH mal! Das ist der Duft von fünfzig guten Jahren. Junge, du machst einen alten Mann froh.",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "alwin",
+			"text": "Dankeschön. Früher gab's sowas nicht. Da haben wir uns gegenseitig Steine geschenkt. Schöne Steine, immerhin.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "alwin",
+			"text": "Hm. Weißt du was, das ist das schönste Sowas, das mir je jemand gegeben hat. Ehrenwort.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "alwin",
+			"text": [
+				"Die Sache mit dem Wolf. Also. Eines Nachts: Geheul überm Hügel. Die Herde nervös, ich mit der Laterne raus.",
+				"Ich steh da, Herz klopft, und aus dem Busch kommt … der Mops vom Nachbarn. Erkältet.",
+				"Sein Schnupfenheulen hat drei Dörfer wachgehalten. Ich hab ihm Tee gekocht. So besiegt man Wölfe, Junge."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "alwin",
+			"text": [
+				"Wem die Ranch gehörte? Mir, Junge. Vor langer Zeit. Jeder Balken hier kennt meinen Vornamen.",
+				"Dann wurden die Winter härter und ich langsamer. Irgendwann stand sie leer. Hat mir das Herz zerdrückt, jeden Tag beim Vorbeigehen.",
+				"Und dann kamst du. Und jetzt schau sie dir an. Ich sag dir was: Sie hat auf dich gewartet. Ich übrigens auch."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "alwin",
+			"text": "Lauf, Jungspund. Ich bleib hier und pass auf den Horizont auf. Einer muss es ja tun.",
+			"ende": true
+		}
+	}
+}

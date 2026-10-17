@@ -1,0 +1,15 @@
+{
+	"audio": {
+		"station": {
+			"bordmusik": "House Tunes",
+			"gooby_fm": "GOOBY FM",
+			"recap_fm": "Recap FM",
+			"game_fm": "Games FM",
+			"alle": "All Stations"
+		},
+		"radio": {
+			"aus": "Radio off",
+			"naechster": "Next track"
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"sleep": {
+		"bett": {
+			"titel": "Bettzeit",
+			"schlafen": "Schlafen gehen",
+			"nickerchen": "Nickerchen ({minuten} Minuten)",
+			"geschichte": "Gute-Nacht-Geschichte",
+			"medizin": "Medizin geben",
+			"wecken": "Sanft wecken",
+			"wecken_noch_nicht": "Psst — Gooby ist gerade erst eingeschlafen.",
+			"wach": "Gooby ist noch viel zu wach. Vielleicht später.",
+			"zu": "Später"
+		},
+		"ritual": {
+			"zaehne": "Erst noch Zähne putzen…",
+			"kuscheln": "Und jetzt tief einkuscheln."
+		},
+		"nap": {
+			"los": "Ein kleines Nickerchen zwischendurch."
+		},
+		"gute_nacht": "Gute Nacht, {gooby}. Träum was Weiches.",
+		"frueh_geweckt": "Hmpf… fünf Minuten noch…",
+		"aufgewacht": "Guten Morgen! Gooby hat wunderbar geschlafen.",
+		"gaehnen": "Gooby gähnt herzhaft. Ein Nickerchen wäre schön.",
+		"story": {
+			"bibliothek_titel": "Goobys Bücherregal",
+			"waehlen": "Welches Buch lesen wir heute?",
+			"frisch": "Knisterfrisch und furchtbar spannend!",
+			"gelesen": "Schon {mal}× vorgelesen.",
+			"abgenutzt": "Das kennt Gooby schon fast auswendig…",
+			"naechste_seite": "Gooby blinzelt noch… noch eine Seite!",
+			"gesperrt": "Bei REHWEI kaufen ({preis} ᴳ)",
+			"nachschub": "Nachschub für müde Ohren gibt’s bei REHWEI in der Stadt."
+		}
+	}
+}

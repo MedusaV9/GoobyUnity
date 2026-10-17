@@ -1,0 +1,67 @@
+{
+	"markt": {
+		"tab": {
+			"ankauf": "Ankauf",
+			"eigenstand": "Mein Stand"
+		},
+		"stand": {
+			"titel": "Dein Marktstand",
+			"nachfrage": "Heute lieben alle {ware}!",
+			"slots": "Auf dem Stand",
+			"slots_frei": "Noch {n} freie Plätze."
+		},
+		"status": {
+			"leer": "Der Stand ist leer — leg vor Samstag etwas drauf!",
+			"wartet": "Alles bereit! Am Samstag um 8 Uhr geht’s los.",
+			"laeuft": "Der Markttag läuft gerade!",
+			"fertig": "Der Markttag ist vorbei — hol deine Abrechnung ab!"
+		},
+		"kommentar": {
+			"1": "Frisch vom Beet! Also… das meiste. Der Stand wackelt nur ein bisschen.",
+			"2": "Bodo sagt, das ist der beste Platz vom ganzen Markt. Bodo sagt das über jeden Platz.",
+			"3": "Der ganze Platz riecht heute nach Ernte. Und ein kleines bisschen nach Kürbis."
+		},
+		"kraeuter": {
+			"ertrag": "Dein Kräuterkasten hat {n}× Kräuterbund nachgelegt!"
+		},
+		"erste_male": {
+			"titel": "Dein eigener Stand!",
+			"text": "Leg vor Marktbeginn Ware aus Garten, Werkstatt und Reisegepäck auf den Stand und stell je Ware den Preis ein — bis zur Hälfte über oder unter dem Basiswert. Am Samstag läuft der Markttag dann von allein: Billiger verkauft sich schneller, und mit jeder verkauften Einheit wird die Kundschaft ein bisschen satter. Schau zu oder hol später einfach die Abrechnung ab — Unverkauftes liegt danach wieder im Lager."
+		},
+		"lager": {
+			"titel": "Dein Lager",
+			"leer": "Nichts zum Verkaufen da — ernte, bau oder bring etwas mit!",
+			"vorrat": "Vorrat: {n}",
+			"plus_eins": "+1",
+			"plus_alle": "Alle {n}"
+		},
+		"slot": {
+			"zeile": "{name} ×{n}",
+			"runter": "Runter",
+			"preis": "{preis} ᴳ · Basis {basis} ᴳ"
+		},
+		"markttag": {
+			"laeuft": "Der Markt ist in vollem Gange — zuschauen oder gleich abrechnen?",
+			"fertig": "Alle Kunden sind durch. Zeit für die Abrechnung!"
+		},
+		"replay": {
+			"knopf": "Zuschauen",
+			"laeuft": "So lief dein Markttag…",
+			"kauf": "{name} verkauft — +{preis} ᴳ!",
+			"vorbei": "Ein Kunde schaut sich {name} an… und zieht weiter."
+		},
+		"abholen": {
+			"knopf": "Abrechnung holen"
+		},
+		"abrechnung": {
+			"titel": "Markttag-Abrechnung",
+			"zeile": "{name}: {verkauft} verkauft · {uebrig} übrig · {erloes} ᴳ",
+			"nichts": "Heute hat leider niemand zugegriffen. Nächsten Samstag klappt’s!",
+			"summe": "Erlös: {erloes} ᴳ",
+			"beste": "Beste Ware: {name}",
+			"rueck": "Alles Unverkaufte liegt wieder in deinem Lager.",
+			"ok": "Alles klar!"
+		},
+		"schuerze": "Die Schürze? Die gehört zum Geschäft. Ohne Schürze kauft hier NIEMAND."
+	}
+}

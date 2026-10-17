@@ -1,0 +1,135 @@
+{
+	"id": "rnpc_eisenhuf",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "eisenhuf",
+			"text": "Morgen. Feuer brennt. Kaffee auch. Alles, wie es sein soll.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "eisenhuf",
+			"text": "Tag. Berthold Eisenhuf. Ich schmiede. Der Rest ergibt sich.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "eisenhuf",
+			"text": "Abend. Das Eisen ruht. Ich fast auch.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "eisenhuf",
+			"text": "Regen. Gut für die Wiese. Schlecht für den Rost. Komm ans Feuer.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "eisenhuf",
+			"text": "Du. Schön. Setz dich. Für Freunde ist der Amboss-Hocker frei. Das ist der gute Hocker.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "eisenhuf",
+			"text": "Hm?",
+			"optionen": [
+				{"text": "Hast du Arbeit für mich?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Ist erledigt.", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "Wie geht's?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "Wie geht's?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "Wie geht's?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Wer ist Frau Amboss?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Dein bestes Hufeisen?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Mach's gut!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "eisenhuf",
+			"text": [
+				"Gut. Eisen ist geduldig. Ich auch.",
+				"Einer von uns beiden glüht schneller. Sag ich nicht, wer."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "eisenhuf",
+			"text": [
+				"Du kommst oft. Gefällt mir. Die meisten kommen nur, wenn was klemmt.",
+				"Du kommst auch so. Das ist … viel. Für mich ist das viel."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "eisenhuf",
+			"text": [
+				"Weißt du, was selten ist? Gutes Eisen. Weißt du, was seltener ist? Gute Leute.",
+				"Du bist gute Leute. So. Jetzt hab ich für ein Jahr geredet."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "eisenhuf",
+			"text": "Hab was. Braucht Hände. Deine sind dran, wie ich sehe.",
+			"optionen": [
+				{"text": "Pack ich an.", "next": "quest_annahme"},
+				{"text": "Heute nicht.", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "eisenhuf",
+			"text": "Gut. Kein Gerede. Nur Funken.",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "eisenhuf",
+			"text": "Passt. Eisen wartet. Ich warte mit.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "eisenhuf",
+			"text": "Sauber. Ehrliche Arbeit. Hier. Nicht bedanken, sonst wird's emotional.",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "eisenhuf",
+			"text": "Hafertaler. Mein Laster. Woher … egal. Danke. Ehrlich jetzt.",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "eisenhuf",
+			"text": "Hm. Gut. Nehm ich. Danke.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "eisenhuf",
+			"text": "Aha. Nun. Es hat … Form. Danke.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "eisenhuf",
+			"text": [
+				"Frau Amboss? Der Amboss. Erbstück. Drei Generationen Eisenhuf.",
+				"Mein Opa hat mit ihr geredet. Mein Vater hat mit ihr geredet. Ich rede mit ihr.",
+				"Sie antwortet nie. Beste Zuhörerin im ganzen Tal."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "eisenhuf",
+			"text": [
+				"Mein bestes Hufeisen? Hängt nicht an der Wand. Läuft rum.",
+				"Vor Jahren. Klapperdürres Wildpferd, Huf gebrochen. Alle sagten: lass es.",
+				"Ich hab die ganze Nacht geschmiedet. Es läuft heute noch oben in den Hügeln.",
+				"Wenn der Wind stimmt, hörst du es. Kling, klang. Das ist mein Meisterstück."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "eisenhuf",
+			"text": "Geh. Komm wieder. Beides gut.",
+			"ende": true
+		}
+	}
+}

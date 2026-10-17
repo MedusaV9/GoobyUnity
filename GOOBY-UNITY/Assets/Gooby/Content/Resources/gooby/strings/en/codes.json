@@ -1,0 +1,36 @@
+{
+	"codes": {
+		"titel": "Action Codes",
+		"hinweis": "Enter a secret code word — case and spaces do not matter.",
+		"platzhalter": "Enter code word",
+		"einloesen": "Redeem",
+		"fehler": {
+			"leer": "Type a code word first.",
+			"unbekannt": "Gooby does not know this code. Typo?",
+			"schon": "You already redeemed this code — each one works only once.",
+			"gesperrt": "Too many tries. Wait {s} more seconds."
+		},
+		"erfolg": {
+			"titel": "Code redeemed!",
+			"muenzen": "+{n} coins",
+			"sticker": "New sticker in the album!",
+			"buff": "Double coins for {min} minutes!",
+			"flag": {
+				"goldiGold": "Goldi hops into your GvZ team — he is already gleaming with pride!"
+			}
+		},
+		"buff_aktiv": "Double coins active: {rest} left",
+		"verlauf": {
+			"titel": "Already redeemed",
+			"leer": "No code redeemed yet.",
+			"eintrag": "{name} — {datum}"
+		},
+		"name": {
+			"updateLiebe": "UpdateLove",
+			"herzGooby": "Heart Gooby",
+			"goldiGold": "GoldiGold"
+		},
+		"zurueck": "Back",
+		"settings_eintrag": "Redeem action codes"
+	}
+}

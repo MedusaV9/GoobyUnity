@@ -1,0 +1,51 @@
+{
+	"foto": {
+		"werkzeug": {
+			"pose": "Pose",
+			"emotion": "Mood",
+			"rahmen": "Frame"
+		},
+		"pose": {
+			"frei": "Free",
+			"sitzen": "Sit",
+			"winken": "Wave",
+			"huepfen": "Hop",
+			"schlafen": "Sleep",
+			"jubeln": "Cheer"
+		},
+		"emotion": {
+			"keine": "None",
+			"schreck": "Startled",
+			"freude": "Joy",
+			"begeisterung": "Excited",
+			"ueberraschung": "Surprised",
+			"verlegenheit": "Bashful",
+			"trotz": "Grumpy",
+			"traurigkeit": "Sad",
+			"muedigkeit": "Sleepy",
+			"neugier": "Curious",
+			"stolz": "Proud",
+			"angst": "Scared",
+			"verliebtheit": "In Love"
+		},
+		"rahmen": {
+			"kein": "None",
+			"polaroid": "Polaroid",
+			"herzen": "Hearts",
+			"sterne": "Stars",
+			"postkarte": "Postcard",
+			"filmstreifen": "Film Strip",
+			"stempel": "Stamp",
+			"postkarte_gruss": "Greetings from {ort}!",
+			"postkarte_unterwegs": "Greetings from the road!",
+			"stempel_text": "GOOBY PASS"
+		},
+		"selfie": {
+			"an": "Selfie",
+			"aus": "End selfie"
+		}
+	},
+	"settings": {
+		"parallax": "Gyro parallax (backgrounds tilt along)"
+	}
+}

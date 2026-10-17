@@ -1,0 +1,72 @@
+{
+  "id": "pow_besuch",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "baem",
+      "text": [
+        "POW!!! … Sorry. I say that every time the door opens. It’s in my contract.",
+        "I’m Bam. Everything here flashes, squeaks or falls over."
+      ],
+      "optionen": [
+        {"text": "What’s on offer today?", "next": "angebote"},
+        {"text": "I’d like a camera.", "next": "kamera", "cond": "!flag:kamera_gekauft"},
+        {"text": "The camera works great!", "next": "kamera_dank", "cond": "flag:kamera_gekauft"},
+        {"text": "Why is the shop called POW!?", "next": "name"},
+        {"text": "Just browsing.", "next": "gucken"}
+      ]
+    },
+    "angebote": {
+      "sprecher": "baem",
+      "text": [
+        "Three deals. New every day. I don’t roll dice for them — I ask the calendar.",
+        "Tomorrow they’ll be different. That’s not a threat, that’s a promise."
+      ],
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "kamera": {
+      "sprecher": "baem",
+      "text": [
+        "The GOOBY Snapper! Handmade. Well — machine-made, but by a machine with heart.",
+        "Snap anything: Gooby, the sunset, accidentally your own thumb."
+      ],
+      "optionen": [
+        {"text": "What do I need it for?", "next": "kamera_warum"},
+        {"text": "Show me, I’ll buy.", "next": "angebote"}
+      ]
+    },
+    "kamera_warum": {
+      "sprecher": "baem",
+      "text": [
+        "No camera, no photo mode. No photo mode, no photos. No photos … only memories.",
+        "And memories fade. Photos just gather dust. Much more durable."
+      ],
+      "next": "hallo"
+    },
+    "kamera_dank": {
+      "sprecher": "baem",
+      "text": [
+        "Ha! I knew it. Once you start snapping, you never stop.",
+        "My record is 400 photos of one street lamp. It was standing there so nicely."
+      ],
+      "next": "hallo"
+    },
+    "name": {
+      "sprecher": "baem",
+      "text": [
+        "POW! That’s the sound of fun hitting a shelf.",
+        "My accountant says it’s one exclamation mark too many. My accountant has never said POW."
+      ],
+      "next": "hallo"
+    },
+    "gucken": {
+      "sprecher": "baem",
+      "text": [
+        "Looking is free! Touching too. Knocking things over costs one smile.",
+        "I’ll put it back. I put things back all day long."
+      ],
+      "ende": true
+    }
+  }
+}

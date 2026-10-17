@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"id": "stickers",
+	"version": "1.3.0",
+	"priority": 500,
+	"min_native": "5.0.0",
+	"domains": ["stickers", "sticker_pages"],
+	"name_de": "Sticker",
+	"notes_de": "W13B: 144 Sticker (141 Bestand + 2 GvZ-Meilensteine + Geheim-Sticker 'Ganz blümerant' fürs Schüttel-Secret) + 23 Seiten."
+}

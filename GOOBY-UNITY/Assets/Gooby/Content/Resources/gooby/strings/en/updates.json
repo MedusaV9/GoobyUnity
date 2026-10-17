@@ -1,0 +1,26 @@
+{
+	"updates": {
+		"alles_aktuell": "Everything is up to date!",
+		"update_geladen": "Update downloaded! It kicks in on the next start.",
+		"braucht_ipa": "New app version required — please install the new app.",
+		"fehler": "Currently unreachable — you can keep playing as usual.",
+		"pruefe": "Checking for updates…",
+		"pack_deaktiviert": "An update caused problems and has been disabled.",
+		"safe_mode": "We'll keep playing with the built-in stuff for now — updates are taking a little break.",
+		"erneut_versuchen": "Try again",
+		"jetzt_neu_laden": "Reload now",
+		"neu_laden_titel": "Quick reload?",
+		"neu_laden_text": "This activates your update. Just a quick hop!",
+		"neu_laden_los": "Let's go!",
+		"neu_laden_spaeter": "Later",
+		"neu_laden_besuch": "You have a visitor right now — end the visit first, then reload.",
+		"neu_laden_brettspiel": "Your match is still running — finish it first, then reload.",
+		"neu_laden_minigame": "Mid-minigame! Finish the round first, then reload.",
+		"neu_laden_reise": "On the move right now — wait a moment and try again.",
+		"token_label": "GitHub token (optional)",
+		"token_platzhalter": "github_pat_…",
+		"token_hinweis": "Leave empty for the public main repository. Only private forks need an operator-provided token.",
+		"token_gespeichert": "Saved — applies from the next update check.",
+		"token_fehlt": "Updates need an access key — Settings → Updates."
+	}
+}

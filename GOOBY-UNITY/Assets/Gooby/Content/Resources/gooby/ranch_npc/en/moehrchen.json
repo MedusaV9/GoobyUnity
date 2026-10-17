@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_moehrchen",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "moehrchen",
+			"text": "Good morning! Had breakfast yet? I recommend carrots. I always recommend carrots.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "moehrchen",
+			"text": "Ah, patient — er, visitor! Dr. Dr. Moehrchen, twice a doctor. One of them genuine.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "moehrchen",
+			"text": "Office hours are over! But for you I'll have one more quick listen. Say Aaaah. No? Fine too.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "moehrchen",
+			"text": "Rain! Excellent for the immune system. So they say. I say: come under my porch roof.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "moehrchen",
+			"text": "My favorite case! Perfect vitals, loyal heart. Medically speaking, you are healthy with friendship.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "moehrchen",
+			"text": "How can I help?",
+			"optionen": [
+				{"text": "Need any help?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Task complete!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "How's the practice?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "How's the practice?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "How's the practice?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Why the double doctorate?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Your hardest case?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Get well soon, everyone!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "moehrchen",
+			"text": [
+				"Three patients today: one cougher, one limper and one chicken that thinks it's a horse.",
+				"I prescribed the chicken a mini saddle. Placebo. It's beaming."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "moehrchen",
+			"text": [
+				"Between us: half of medicine is listening. The other half is carrots.",
+				"The third half is math. Math was never one of my doctorates."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "moehrchen",
+			"text": [
+				"By the way, you're in my files. Under B, for Best Visitor.",
+				"Medically questionable, personally correct. That's how I work."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "moehrchen",
+			"text": "Actually, yes! Doctor's orders — and you don't refuse those. Unless you're a chicken.",
+			"optionen": [
+				{"text": "Prescribe it to me!", "next": "quest_annahme"},
+				{"text": "I'm currently in treatment...", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "moehrchen",
+			"text": "Wonderful! Twice a day, ideally right now. Side effect: feeling useful.",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "moehrchen",
+			"text": "I see, I see. I'll put it back in the medicine cabinet. Shelf: Later.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "moehrchen",
+			"text": "Diagnosis: excellent! You are cured. Of the task. Here, your reward — no prescription needed.",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "moehrchen",
+			"text": "A CARROT! Objectively the best vegetable. I have done research on this. Twice.",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "moehrchen",
+			"text": "Oh, thank you! Rich in vitamins and affection. Both lower blood pressure.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "moehrchen",
+			"text": "Interesting. I prescribe... one polite thank-you. Take two of them.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "moehrchen",
+			"text": [
+				"The first doctorate was veterinary medicine. The second... carrotology. Correspondence course.",
+				"The university was a barn and the professor a very convinced rabbit.",
+				"But the diploma is real! It just smells faintly of salad."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "moehrchen",
+			"text": [
+				"My hardest case? A foal that refused to sleep. Awake for three nights.",
+				"I sang to it. It fell asleep. The whole stable fell asleep. So did I.",
+				"Since then my file says: singing in emergencies only. Signed by Rosi."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "moehrchen",
+			"text": "Stay healthy! And if you don't: I'll be here. With carrots.",
+			"ende": true
+		}
+	}
+}

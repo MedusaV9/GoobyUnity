@@ -1,0 +1,125 @@
+{
+	"mg": {
+		"ranchParcours": {
+			"title": "Hindernis-Parcours",
+			"hint": "Galopp halten, am Hindernis springen!",
+			"galopp": "Galopp",
+			"sprung": "Sprung",
+			"zeit": "Zeit: {s} s",
+			"punkte": "Punkte: {n} · Serie: {kombo}",
+			"perfekt": "Perfekt!",
+			"gut": "Sauber!",
+			"abwurf": "Abwurf!",
+			"geschafft": "Geschafft! {stars} Sterne · +{score}"
+		},
+		"ranchHerde": {
+			"title": "Schaf-Hüten",
+			"hint": "Tippe aufs Feld — die Herde flieht vor dir zum Tor!",
+			"zeit": "Noch {s} s",
+			"drin": "Im Pferch: {n}/{max}",
+			"geschafft": "Alle drin! {stars} Sterne · +{score}",
+			"zeit_um": "Zeit um!"
+		}
+	},
+	"ranchplay": {
+		"select": {
+			"done": "Fertig",
+			"stars": "Sterne: {n}/{max}",
+			"hint_parcours": "Zeit + saubere Sprünge: fehlerfrei unter Par gibt 3 Sterne.",
+			"hint_herde": "Treibe alle Schafe durchs gelbe Tor, bevor die Zeit abläuft."
+		},
+		"werte": {
+			"hunger": "Hunger",
+			"durst": "Durst",
+			"sauberkeit": "Sauberkeit",
+			"bindung": "Bindung",
+			"stall": "Stall"
+		},
+		"laune": {
+			"strahlend": "strahlend",
+			"froh": "froh",
+			"zufrieden": "zufrieden",
+			"muffig": "muffig",
+			"elend": "elend"
+		},
+		"bindung": {
+			"seelenpferd": "Seelenpferd",
+			"vertraut": "Vertraut",
+			"freund": "Freund",
+			"bekannt": "Bekannt",
+			"fremd": "Fremd"
+		},
+		"gear": {
+			"sattel": "Sattel",
+			"decke": "Decke",
+			"halfter": "Halfter",
+			"ohne": "ohne"
+		},
+		"gearfarbe": {
+			"rot": "Rot",
+			"blau": "Blau",
+			"gruen": "Grün",
+			"lila": "Lila",
+			"gold": "Gold",
+			"kartoffel": "Kartoffelsack",
+			"schleife": "Schleife"
+		},
+		"look": {
+			"titel": "Look",
+			"nebel": "Nebel-Fell",
+			"flausch": "Flausch",
+			"an": "{look} steht {name} wunderbar!",
+			"ab": "{look} abgelegt.",
+			"quelle": "Quest-Belohnung"
+		},
+		"sets": {
+			"titel": "Outfit-Sets",
+			"set": "Set {n}",
+			"leer": "leer",
+			"speichern": "Speichern",
+			"anlegen": "Anlegen",
+			"gespeichert": "Set {n} gespeichert: {teile}",
+			"angelegt": "Set {n} angelegt — schnell umgesattelt!",
+			"gesperrt": "Mit einer Sattelkammer speicherst du Outfit-Sets zum schnellen Umsatteln.",
+			"nichts": "nichts an"
+		},
+		"pflege": {
+			"zurueck": "Zurück",
+			"status": "Laune: {laune} · Bindung: {stufe}",
+			"lager": "Vorrat: {heu} Heu · {apfel} Äpfel · {karotte} Karotten",
+			"heu": "Heu füttern",
+			"apfel": "Apfel geben",
+			"karotte": "Karotte geben",
+			"traenken": "Tränken",
+			"striegeln": "Striegeln",
+			"ausmisten": "Stall ausmisten",
+			"gear": "Ausrüstung anlegen",
+			"bindung_plus": "+{n} Bindung",
+			"gemacht": "Gemacht!"
+		},
+		"ausbau": {
+			"titel": "Ranch-Ausbau",
+			"coins": "{n} Münzen",
+			"lager": "Lager & Felder",
+			"bestand": "{heu} Heu · {apfel} Äpfel · Platz für {boxen} Pferde",
+			"heu_kaufen": "Heu kaufen ({preis})",
+			"heu_ernten": "Heu ernten",
+			"apfel_pfluecken": "Apfel pflücken",
+			"waechst": "wächst ({min} min)",
+			"stufen": "Ausbaustufen",
+			"boxen2": "Zweite Box",
+			"boxen3": "Dritte Box",
+			"reitplatz": "Reitplatz",
+			"weidezaun": "Weidezaun",
+			"gebaut": "Gebaut",
+			"preis": "{n} Münzen",
+			"gekauft": "Gekauft",
+			"gear": "Ausrüstungs-Laden",
+			"heu_da": "Heu ist im Lager!",
+			"geerntet": "+{n} Heu geerntet!",
+			"gepflueckt": "+{n} Äpfel gepflückt!",
+			"gebaut_toast": "Ausgebaut!",
+			"gear_toast": "Gekauft!"
+		}
+	}
+}

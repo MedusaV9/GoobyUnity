@@ -1,0 +1,21 @@
+{
+	"revents": {
+		"ausgebuext": {
+			"bubble": "Help, a horse broke loose! Catch it before it samples the petunias!",
+			"danke": "Caught again! The horse acts all innocent — you still get bond and coins."
+		},
+		"heudieb": {
+			"bubble": "Cheeky crows are raiding your haystack! Shoo them away — tap, tap, tap!",
+			"kraah": "CAW! One down…",
+			"danke": "Hay rescued! The bales go right back into storage."
+		},
+		"hufschmied": {
+			"bubble": "The wandering farrier is stopping by — free hoof check, today only!",
+			"danke": "Tap, tap, shiny! Your horses get 24 hours of happy hooves."
+		},
+		"karottenregen": {
+			"bubble": "GOOBY weather alert: it is raining CARROTS on the lavender meadow! Collect them, quick!",
+			"danke": "{n} carrots collected — straight into your inventory. Gooby is drooling already."
+		}
+	}
+}

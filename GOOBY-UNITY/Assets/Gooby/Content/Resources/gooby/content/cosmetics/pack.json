@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"id": "cosmetics",
+	"version": "1.0.0",
+	"priority": 400,
+	"min_native": "5.0.0",
+	"domains": ["cosmetics"],
+	"name_de": "Cosmetics",
+	"notes_de": "Basis-Garderobe: 30 Hüte, 17 Brillen, 18 Halsteile, 14 Rückenteile, 13 Fellfarben. Items sind prozedurale Meshes (build-Feld → CosmeticBuilders), Nachschub kommt per Auto-Update als Pack mit HÖHERER version."
+}

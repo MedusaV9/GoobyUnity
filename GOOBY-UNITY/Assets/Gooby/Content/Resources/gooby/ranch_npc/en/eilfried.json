@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_eilfried",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "eilfried",
+			"text": "No time, no time! Morning mail! Eighteen letters, three parcels, one suspiciously buzzing box! ... Fine, two minutes.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "eilfried",
+			"text": "Eilfried, postman, extremely stressed! You can tell by my walk! ... It's always like that, but the stress is REAL.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "eilfried",
+			"text": "Final round of the day! The last round I walk slowly. Well... more slowly. It's complicated with my feet.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "eilfried",
+			"text": "Rain! AT LAST! Best delivery weather! For me. The letters disagree, but they sit in the waterproof bag.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "eilfried",
+			"text": "Oh! YOU! For you I always have time! Strike that from the record, I NEVER have time. For you I make time. Out of nothing!",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "eilfried",
+			"text": "Quick, quick — what's up?",
+			"optionen": [
+				{"text": "Need any help?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Delivery complete!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "What's new?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "What's new?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "What's new?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Your strangest parcel?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Why a postman?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Have a good route!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "eilfried",
+			"text": [
+				"News? I AM the news! Everything this valley knows went through my bag!",
+				"Strictly confidential, of course. I don't read anything. I just... weigh very attentively."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "eilfried",
+			"text": [
+				"Forty kilometers waddled today already! Okay, four. But in duck kilometers that's A LOT.",
+				"The conversion rate is one to ten. I set it myself. As the competent authority."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "eilfried",
+			"text": [
+				"You know, I always take an extra break at your place. Officially because of the heavy bag.",
+				"Unofficially... you're the best address in the valley. Don't tell the other addresses!"
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "eilfried",
+			"text": "YES! Special dispatch! Express delivery! And my feet are... thematically opposed today. Will you take over?",
+			"optionen": [
+				{"text": "Express delivery — me!", "next": "quest_annahme"},
+				{"text": "My mailbox is full...", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "eilfried",
+			"text": "MAGNIFICENT! You are hereby honorary assistant postman! The cap comes at five hearts, that's civil service law!",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "eilfried",
+			"text": "Understood, understood! Then the dispatch goes into interim storage. Under my hat. There's a surprising amount of room.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "eilfried",
+			"text": "Delivered and signed for! CLEAN work! You get my golden postmark! It's made of potato, but painted GOLD!",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "eilfried",
+			"text": "A COOKIE! Provisions for the road! You understand the postal service at heart! It will be ceremonially consumed at kilometer two!",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "eilfried",
+			"text": "For me? No sender? Then I get to keep it, paragraph seven! My favorite paragraph!",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "eilfried",
+			"text": "Oh! Thanks! I classify this as... a small parcel of affection. Postage due from the recipient: one smile. Here you go!",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "eilfried",
+			"text": [
+				"The strangest parcel? A box, addressed to The fastest animal in the valley. No name. Nothing.",
+				"I walked around for three days asking. The hare said it was him. The horse said it was him. Embarrassing for both.",
+				"In the end it turned out: the box was for ME. From my mother. Slippers. She knows me well."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "eilfried",
+			"text": [
+				"Why a postman? Little Eilfried couldn't fly. All the ducks flew away in autumn — I stayed on the ground.",
+				"I cried until the old postman said: son, if you can't fly, you'd better carry important things.",
+				"Now I carry important things every day. And in autumn? The others wave from above. I wave back with letters."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "eilfried",
+			"text": "Onwards! The mail never rests! At most it takes... strategic waddle breaks! BYE!",
+			"ende": true
+		}
+	}
+}

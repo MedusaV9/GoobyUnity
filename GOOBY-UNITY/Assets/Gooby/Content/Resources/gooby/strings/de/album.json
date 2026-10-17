@@ -1,0 +1,21 @@
+{
+	"album": {
+		"titel": "Sticker-Album",
+		"zurueck": "‹ Zurück",
+		"zaehler": "{n} / {total} Sticker",
+		"unbekannt": "???",
+		"hint_label": "So bekommst du ihn:",
+		"unlock_toast": "Neuer Sticker: {name}!",
+		"unlock_toast_selten": "Seltener Sticker: {name}!",
+		"unlock_toast_episch": "Epischer Gold-Sticker: {name}!",
+		"rarity_haeufig": "Häufig",
+		"rarity_selten": "Selten",
+		"rarity_episch": "Episch",
+		"rarity_geheim": "Geheim",
+		"neu": "NEU",
+		"set_fortschritt": "{n} von {total} gefunden",
+		"set_komplett": "Set komplett!",
+		"set_belohnung": "Set „{title}“ komplett! +{coins} Münzen",
+		"tausch_hinweis": "Tipp: Vergleich dein Album mit einem Freund — zusammen findet ihr fehlende Sticker viel schneller!"
+	}
+}

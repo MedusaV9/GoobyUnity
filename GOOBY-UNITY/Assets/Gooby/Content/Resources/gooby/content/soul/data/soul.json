@@ -1,0 +1,532 @@
+{
+	"schema": 1,
+	"items": [
+		{
+			"id": "gruss_morgen",
+			"kind": "gruss",
+			"text_keys": [
+				"soul.gruss.morgen.a",
+				"soul.gruss.morgen.b",
+				"soul.gruss.morgen.c"
+			],
+			"emotion": "happy",
+			"sfx": "ui_toast",
+			"text_keys_stufe": {
+				"vertraut": [
+					"soul.gruss.morgen.vertraut_a"
+				],
+				"beste_freunde": [
+					"soul.gruss.morgen.beste_a",
+					"soul.gruss.morgen.beste_b"
+				]
+			}
+		},
+		{
+			"id": "gruss_mittag",
+			"kind": "gruss",
+			"text_keys": [
+				"soul.gruss.mittag.a",
+				"soul.gruss.mittag.b"
+			],
+			"emotion": "happy",
+			"sfx": "ui_toast"
+		},
+		{
+			"id": "gruss_nachmittag",
+			"kind": "gruss",
+			"text_keys": [
+				"soul.gruss.nachmittag.a",
+				"soul.gruss.nachmittag.b"
+			],
+			"emotion": "happy",
+			"sfx": "ui_toast"
+		},
+		{
+			"id": "gruss_abend",
+			"kind": "gruss",
+			"text_keys": [
+				"soul.gruss.abend.a",
+				"soul.gruss.abend.b"
+			],
+			"emotion": "happy",
+			"sfx": "ui_toast",
+			"text_keys_stufe": {
+				"vertraut": [
+					"soul.gruss.abend.vertraut_a"
+				],
+				"beste_freunde": [
+					"soul.gruss.abend.beste_a"
+				]
+			}
+		},
+		{
+			"id": "gruss_nacht",
+			"kind": "gruss",
+			"text_keys": [
+				"soul.gruss.nacht.a",
+				"soul.gruss.nacht.b"
+			],
+			"emotion": "sleepy",
+			"sfx": "ui_toast"
+		},
+		{
+			"id": "gruss_gefreut",
+			"kind": "gruss",
+			"text_keys": [
+				"soul.gruss.gefreut.a",
+				"soul.gruss.gefreut.b"
+			],
+			"emotion": "ecstatic",
+			"clip": "hop",
+			"sfx": "ui_sticker",
+			"text_keys_stufe": {
+				"beste_freunde": [
+					"soul.gruss.gefreut.beste_a"
+				]
+			}
+		},
+		{
+			"id": "gruss_eingeschnappt",
+			"kind": "gruss",
+			"text_keys": [
+				"soul.gruss.eingeschnappt.a",
+				"soul.gruss.eingeschnappt.b"
+			],
+			"emotion": "angry",
+			"sfx": "ui_toast"
+		},
+		{
+			"id": "gruss_vermisst",
+			"kind": "gruss",
+			"text_keys": [
+				"soul.gruss.vermisst.a",
+				"soul.gruss.vermisst.b"
+			],
+			"emotion": "ecstatic",
+			"clip": "celebrate",
+			"sfx": "ui_levelup"
+		},
+		{
+			"id": "ritual_geburtstag_spieler",
+			"kind": "ritual",
+			"text_keys": [
+				"soul.ritual.geburtstag_spieler.a",
+				"soul.ritual.geburtstag_spieler.b"
+			],
+			"emotion": "ecstatic",
+			"clip": "celebrate",
+			"sfx": "ui_levelup",
+			"aktion": "konfetti"
+		},
+		{
+			"id": "ritual_geburtstag_gooby",
+			"kind": "ritual",
+			"text_keys": [
+				"soul.ritual.geburtstag_gooby.a",
+				"soul.ritual.geburtstag_gooby.b"
+			],
+			"emotion": "ecstatic",
+			"clip": "celebrate",
+			"sfx": "ui_levelup",
+			"aktion": "konfetti"
+		},
+		{
+			"id": "ritual_jubilaeum",
+			"kind": "ritual",
+			"text_keys": [
+				"soul.ritual.jubilaeum.a",
+				"soul.ritual.jubilaeum.b"
+			],
+			"emotion": "ecstatic",
+			"clip": "celebrate",
+			"sfx": "ui_sticker",
+			"aktion": "konfetti"
+		},
+		{
+			"id": "ritual_neujahr",
+			"kind": "ritual",
+			"text_keys": [
+				"soul.ritual.neujahr"
+			],
+			"emotion": "ecstatic",
+			"clip": "celebrate",
+			"sfx": "ui_levelup"
+		},
+		{
+			"id": "ritual_ostern",
+			"kind": "ritual",
+			"text_keys": [
+				"soul.ritual.ostern"
+			],
+			"emotion": "happy",
+			"clip": "hop",
+			"sfx": "ui_sticker"
+		},
+		{
+			"id": "ritual_halloween",
+			"kind": "ritual",
+			"text_keys": [
+				"soul.ritual.halloween"
+			],
+			"emotion": "scared",
+			"sfx": "ui_toast"
+		},
+		{
+			"id": "ritual_nikolaus",
+			"kind": "ritual",
+			"text_keys": [
+				"soul.ritual.nikolaus"
+			],
+			"emotion": "happy",
+			"sfx": "ui_sticker"
+		},
+		{
+			"id": "ritual_heiligabend",
+			"kind": "ritual",
+			"text_keys": [
+				"soul.ritual.heiligabend"
+			],
+			"emotion": "ecstatic",
+			"sfx": "ui_levelup"
+		},
+		{
+			"id": "ritual_weihnachten",
+			"kind": "ritual",
+			"text_keys": [
+				"soul.ritual.weihnachten"
+			],
+			"emotion": "happy",
+			"sfx": "ui_sticker"
+		},
+		{
+			"id": "ritual_silvester",
+			"kind": "ritual",
+			"text_keys": [
+				"soul.ritual.silvester"
+			],
+			"emotion": "ecstatic",
+			"clip": "celebrate",
+			"sfx": "ui_levelup"
+		},
+		{
+			"id": "ritual_erster_schnee",
+			"kind": "ritual",
+			"text_keys": [
+				"soul.ritual.erster_schnee"
+			],
+			"emotion": "ecstatic",
+			"clip": "hop",
+			"sfx": "ui_sticker",
+			"aktion": "fenster"
+		},
+		{
+			"id": "alltag_zaehne",
+			"kind": "alltag",
+			"text_keys": [
+				"soul.alltag.zaehne.a",
+				"soul.alltag.zaehne.b"
+			],
+			"emotion": "happy",
+			"clip": "brush_teeth",
+			"sfx": "ui_toast"
+		},
+		{
+			"id": "alltag_gutenacht",
+			"kind": "alltag",
+			"text_keys": [
+				"soul.alltag.gutenacht.a",
+				"soul.alltag.gutenacht.b"
+			],
+			"emotion": "sleepy",
+			"sfx": "ui_toast"
+		},
+		{
+			"id": "wetter_regen",
+			"kind": "wetter",
+			"text_keys": [
+				"soul.wetter.regen.a",
+				"soul.wetter.regen.b"
+			],
+			"emotion": "neutral",
+			"sfx": "ui_toast",
+			"aktion": "fenster"
+		},
+		{
+			"id": "wetter_gewitter",
+			"kind": "wetter",
+			"text_keys": [
+				"soul.wetter.gewitter"
+			],
+			"emotion": "scared",
+			"sfx": "ui_toast"
+		},
+		{
+			"id": "wetter_schnee",
+			"kind": "wetter",
+			"text_keys": [
+				"soul.wetter.schnee"
+			],
+			"emotion": "happy",
+			"sfx": "ui_toast",
+			"aktion": "fenster"
+		},
+		{
+			"id": "erinnerung",
+			"kind": "erinnerung",
+			"text_keys": [],
+			"emotion": "happy",
+			"sfx": "ui_toast"
+		},
+		{
+			"id": "idle_aufraeumen",
+			"kind": "idle",
+			"weight": 3,
+			"text_keys": [
+				"soul.idle.aufraeumen.a",
+				"soul.idle.aufraeumen.b"
+			],
+			"emotion": "neutral",
+			"aktion": "moebel",
+			"mindest_laune": "neutral"
+		},
+		{
+			"id": "idle_fernsehen",
+			"kind": "idle",
+			"weight": 2,
+			"braucht": "hat_tv",
+			"text_keys": [
+				"soul.idle.fernsehen"
+			],
+			"emotion": "neutral",
+			"clip": "sit",
+			"aktion": "tv",
+			"mindest_laune": "neutral"
+		},
+		{
+			"id": "idle_doesen",
+			"kind": "idle",
+			"weight": 2,
+			"text_keys": [],
+			"emotion": "sleepy",
+			"clip": "sleep"
+		},
+		{
+			"id": "idle_fenster",
+			"kind": "idle",
+			"weight": 2,
+			"text_keys": [
+				"soul.idle.fenster"
+			],
+			"emotion": "neutral",
+			"aktion": "fenster"
+		},
+		{
+			"id": "idle_tanzen",
+			"kind": "idle",
+			"weight": 3,
+			"braucht": "radio_an",
+			"text_keys": [
+				"soul.idle.tanzen"
+			],
+			"emotion": "ecstatic",
+			"clip": "celebrate",
+			"mindest_laune": "happy"
+		},
+		{
+			"id": "idle_lieblingsplatz",
+			"kind": "idle",
+			"weight": 1,
+			"braucht": "hat_fav",
+			"text_keys": [
+				"soul.idle.lieblingsplatz"
+			],
+			"emotion": "happy",
+			"aktion": "fav"
+		},
+		{
+			"id": "sup_sofa_fund",
+			"kind": "ueberraschung",
+			"chance": 0.25,
+			"cooldown_h": 48,
+			"text_keys": [
+				"soul.sup.sofa_fund"
+			],
+			"emotion": "ecstatic",
+			"clip": "hop",
+			"sfx": "ui_coins",
+			"aktion": "muenze"
+		},
+		{
+			"id": "sup_traum",
+			"kind": "ueberraschung",
+			"chance": 0.3,
+			"cooldown_h": 24,
+			"text_keys": [
+				"soul.sup.traum.a",
+				"soul.sup.traum.b"
+			],
+			"emotion": "sleepy",
+			"clip": "sleep"
+		},
+		{
+			"id": "sup_turm",
+			"kind": "ueberraschung",
+			"chance": 0.15,
+			"cooldown_h": 96,
+			"text_keys": [
+				"soul.sup.turm"
+			],
+			"emotion": "ecstatic",
+			"sfx": "mg_perfect",
+			"aktion": "turm"
+		},
+		{
+			"id": "sup_winken",
+			"kind": "ueberraschung",
+			"chance": 0.3,
+			"cooldown_h": 48,
+			"text_keys": [
+				"soul.sup.winken"
+			],
+			"emotion": "happy",
+			"clip": "wave",
+			"aktion": "winken"
+		},
+		{
+			"id": "kommentar_moebel_neu",
+			"kind": "kommentar",
+			"text_keys": [
+				"soul.kommentar.moebel_neu.a",
+				"soul.kommentar.moebel_neu.b"
+			],
+			"emotion": "happy",
+			"sfx": "ui_toast"
+		},
+		{
+			"id": "kommentar_geschenk",
+			"kind": "kommentar",
+			"text_keys": [
+				"soul.kommentar.geschenk.a",
+				"soul.kommentar.geschenk.b"
+			],
+			"emotion": "ecstatic",
+			"sfx": "ui_sticker"
+		},
+		{
+			"id": "kommentar_lieblingsessen",
+			"kind": "kommentar",
+			"text_keys": [
+				"soul.kommentar.lieblingsessen"
+			],
+			"emotion": "ecstatic",
+			"clip": "hop",
+			"sfx": "ui_sticker"
+		},
+		{
+			"id": "kommentar_traurig",
+			"kind": "kommentar",
+			"text_keys": [
+				"soul.kommentar.traurig.a",
+				"soul.kommentar.traurig.b"
+			],
+			"emotion": "sad"
+		},
+		{
+			"id": "tipp_kicher",
+			"kind": "kommentar",
+			"text_keys": [
+				"soul.tipp.kicher.a",
+				"soul.tipp.kicher.b"
+			],
+			"emotion": "happy",
+			"sfx": "gvz_pop"
+		},
+		{
+			"id": "tipp_kitzlig",
+			"kind": "kommentar",
+			"text_keys": [
+				"soul.tipp.kitzlig"
+			],
+			"emotion": "ecstatic",
+			"clip": "hop",
+			"sfx": "ui_sticker"
+		},
+		{
+			"id": "tipp_schwindelig",
+			"kind": "kommentar",
+			"text_keys": [
+				"soul.tipp.schwindelig"
+			],
+			"emotion": "dizzy",
+			"sfx": "ui_toast"
+		},
+		{
+			"id": "frage_geburtstag",
+			"kind": "kommentar",
+			"text_keys": [
+				"soul.frage.geburtstag"
+			],
+			"emotion": "happy",
+			"sfx": "ui_open"
+		},
+		{
+			"id": "wunsch",
+			"kind": "wunsch",
+			"text_keys": [],
+			"emotion": "happy",
+			"sfx": "ui_toast"
+		},
+		{
+			"id": "wunsch_erfuellt",
+			"kind": "wunsch_erfuellt",
+			"text_keys": [],
+			"emotion": "ecstatic",
+			"clip": "celebrate",
+			"sfx": "mg_perfect",
+			"aktion": "konfetti"
+		},
+		{
+			"id": "absicht_hunger",
+			"kind": "absicht",
+			"text_keys": [
+				"soul.absicht.hunger_a",
+				"soul.absicht.hunger_b"
+			],
+			"emotion": "neutral"
+		},
+		{
+			"id": "absicht_langeweile",
+			"kind": "absicht",
+			"text_keys": [
+				"soul.absicht.langeweile_a",
+				"soul.absicht.langeweile_b"
+			],
+			"emotion": "neutral"
+		},
+		{
+			"id": "absicht_muede",
+			"kind": "absicht",
+			"text_keys": [
+				"soul.absicht.muede_a",
+				"soul.absicht.muede_b"
+			],
+			"emotion": "sleepy"
+		},
+		{
+			"id": "absicht_dreckig",
+			"kind": "absicht",
+			"text_keys": [
+				"soul.absicht.dreckig_a"
+			],
+			"emotion": "neutral"
+		},
+		{
+			"id": "absicht_regen",
+			"kind": "absicht",
+			"text_keys": [
+				"soul.absicht.regen_a"
+			],
+			"emotion": "neutral"
+		}
+	]
+}

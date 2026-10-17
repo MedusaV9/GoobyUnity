@@ -1,0 +1,74 @@
+{
+	"schema": 1,
+	"items": [
+		{
+			"id": "ranch",
+			"name": "GOOBY RANCH",
+			"status": "verfuegbar",
+			"cover": "res://assets/dlc/ranch.png",
+			"teaser_de": "Ein eigener Hof vor den Toren der Stadt — mit Stall, Koppel und ganz viel Wiese. Wer einmal losreitet, will gar nicht mehr zurück.",
+			"teaser_en": "A farmstead of your own just outside town — with a stable, a paddock and endless meadows. Once you ride out, you won't want to turn back.",
+			"unlock_de": "Ab Level {level} · {preis} Münzen",
+			"unlock_en": "From level {level} · {preis} coins",
+			"features_de": [
+				"Eigene Ranch ausbauen",
+				"Pferde zähmen, pflegen & reiten",
+				"Turniere & Dorffeste",
+				"Gemeinsame Ausritte mit Freunden"
+			],
+			"features_en": [
+				"Build up your own ranch",
+				"Tame, care for & ride horses",
+				"Tournaments & village festivals",
+				"Group rides with friends"
+			],
+			"route": "ranch_angebot"
+		},
+		{
+			"id": "goo_und_bye",
+			"name": "Goo und Bye",
+			"status": "verfuegbar",
+			"cover": "res://assets/dlc/goo_und_bye.png",
+			"teaser_de": "Onkel Alwin hängt seine Schürze an den Nagel — und drückt Gooby einen Schlüssel in die Pfote, der größer ist als sein Kopf. Was aus dem leeren Eckladen mit dem lustigen Namen wird, entscheidest du: Regal für Regal, Möhre für Möhre, Piep für Piep.",
+			"teaser_en": "Uncle Alwin is hanging up his apron — and presses a key into Gooby's paw that's bigger than his head. What becomes of the empty corner store with the funny name is up to you: shelf by shelf, carrot by carrot, beep by beep.",
+			"unlock_de": "Ab Level {level} · {preis} Münzen",
+			"unlock_en": "From level {level} · {preis} coins",
+			"features_de": [
+				"Dein eigener Supermarkt: Regale stellen, Sortiment listen, Preise machen — das Layout ist das Spielbrett",
+				"Ware wirklich transportieren: mit dem eigenen Auto zum Großmarkt, mit dem Garten als Bio-Quelle",
+				"Tagesangebote, Kühlmodule und ein eigener Lieferwagen wachsen mit deinem Laden",
+				"Onkel Alwin kommt täglich für genau eine Möhre vorbei — mit Kassenpiep und Gebrabbel"
+			],
+			"features_en": [
+				"Your very own supermarket: place shelves, list your range, set prices — the layout is the game board",
+				"Really haul the goods: drive your own car to the wholesale market, grow organic stock in your garden",
+				"Daily deals, cooling modules and your own delivery van grow alongside the store",
+				"Uncle Alwin visits every day for exactly one carrot — complete with till beep and babble"
+			],
+			"route": "goobye_angebot"
+		},
+		{
+			"id": "mcgooby",
+			"name": "McGooby",
+			"status": "verfuegbar",
+			"cover": "res://assets/dlc/mcgooby.png",
+			"teaser_de": "In der Stadt duftet es neuerdings verdächtig nach Pommes — und über einem leeren Eckgrundstück hängen zwei goldene Bögen, die bei genauem Hinsehen aussehen wie Löffel mit Ohren. Gooby bindet sich die Schürze um: Bald hat hier jemand seinen eigenen Laden.",
+			"teaser_en": "Lately the city smells suspiciously of fries — and above an empty corner lot hang two golden arches that, on closer inspection, look like spoons with ears. Gooby is tying on his apron: soon somebody around here will have a place of their own.",
+			"unlock_de": "Ab Level {level} · {preis} Münzen — Probeschicht täglich frei",
+			"unlock_en": "From level {level} · {preis} coins — free daily trial shift",
+			"features_de": [
+				"Zehn Rezepte an vier Stationen: wenden, belegen, frittieren und Shakes mixen",
+				"Der Bestell-Rush als echtes Geschicklichkeitsspiel mit mehreren Tickets gleichzeitig",
+				"Perfekt-Ketten und Trinkgeld belohnen fehlerfreie Bestellungen über alle Stationen",
+				"Fünf Ladenränge mit eigener Sterne-Feier und sichtbarem Schichtabschluss"
+			],
+			"features_en": [
+				"Ten recipes across four stations: flip, stack, fry and mix shakes",
+				"The order rush is a genuine skill game with several tickets at once",
+				"Perfect chains and tips reward flawless orders across every station",
+				"Five shop ranks, each with a star celebration and visible shift summary"
+			],
+			"route": "mcgooby_schicht"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "goobytheke_hilde",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "hilde",
+      "text": "Welcome to the GOOBYTHEKE. Prescription or advice?",
+      "optionen": [
+        {"text": "Prescription, please!", "next": "rezept_einloesen", "cond": "flag:rezept_tropfen"},
+        {"text": "What helps with a tummy ache?", "next": "ratschlag"},
+        {"text": "Just looking around.", "next": "laden"}
+      ]
+    },
+    "rezept_einloesen": {
+      "sprecher": "hilde",
+      "text": [
+        "From GOOUHBUS? Can anyone even read this? … Ah. 'Cheese sandwich'. That old rascal.",
+        "Here, the Gooby Drops. Three times a day, not on the furniture."
+      ],
+      "effekt": ["flag_weg:rezept_tropfen", "item:medicine"],
+      "ende": true
+    },
+    "ratschlag": {
+      "sprecher": "hilde",
+      "text": "Less Nutella. — I know. I still say it every single time.",
+      "next": "hallo"
+    },
+    "laden": {
+      "sprecher": "hilde",
+      "text": "Of course! But the drops are prescription only, sweetie.",
+      "effekt": ["laden"],
+      "ende": true
+    }
+  }
+}

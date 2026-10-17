@@ -1,0 +1,24 @@
+{
+	"dlc": {
+		"titel": "DLC",
+		"intro": "Große Zusatz-Abenteuer für Gooby. Tippe ein Cover an, um mehr zu erfahren — ganz ohne Spoiler.",
+		"settings_titel": "DLC",
+		"settings_info": "{spielbar} spielbar · {bald} in Arbeit",
+		"settings_knopf": "Alle DLCs ansehen",
+		"ribbon": {
+			"neu": "NEU",
+			"bald": "BALD",
+			"installiert": "INSTALLIERT"
+		},
+		"features_titel": "Das erwartet dich",
+		"unlock_titel": "Freischaltung",
+		"knopf": {
+			"ansehen": "Ansehen",
+			"zur_ranch": "Zur Ranch",
+			"losreiten": "Losreiten!"
+		},
+		"gesperrt_hinweis": "Noch nicht so weit — Gooby ist gerade Level {aktuell} und trainiert fleißig.",
+		"bald_hinweis": "Gooby arbeitet dran… 🔨 Er trägt sogar einen Bauhelm — Sicherheit geht vor. Mehr wird noch nicht verraten!",
+		"zurueck": "Zurück"
+	}
+}

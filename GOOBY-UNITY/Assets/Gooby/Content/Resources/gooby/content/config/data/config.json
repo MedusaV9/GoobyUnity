@@ -1,0 +1,11 @@
+{
+	"schema": 1,
+	"manifest_url": "https://api.github.com/repos/MedusaV9/BiggerRepo/releases/tags/updates",
+	"net": {
+		"host": "",
+		"port": 443,
+		"tls": true
+	},
+	"flags": {},
+	"news_text_de": ""
+}

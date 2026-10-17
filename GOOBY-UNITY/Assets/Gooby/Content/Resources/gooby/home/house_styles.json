@@ -1,0 +1,288 @@
+{
+	"schema": "gooby.housestyles/1",
+	"fassade": {
+		"farben": [
+			"creme",
+			"weiss",
+			"butter",
+			"rose",
+			"himmel",
+			"mint",
+			"salbei",
+			"lavendel",
+			"sandstein",
+			"terracotta",
+			"ocker",
+			"schiefer"
+		]
+	},
+	"dach": {
+		"formen": [
+			{ "id": "sattel", "name_de": "Satteldach", "name_en": "Gable Roof", "preis": 0 },
+			{ "id": "walm", "name_de": "Walmdach", "name_en": "Hip Roof", "preis": 300 },
+			{ "id": "flach", "name_de": "Flachdach", "name_en": "Flat Roof", "preis": 300 }
+		],
+		"farben": [
+			"ziegelrot",
+			"terracotta",
+			"anthrazit",
+			"grau",
+			"tannengruen",
+			"marine",
+			"nussbaum",
+			"schiefer"
+		]
+	},
+	"tuer": {
+		"farben": [
+			"nussbaum",
+			"teal",
+			"pink",
+			"ziegelrot",
+			"tannengruen",
+			"marine",
+			"butter",
+			"weiss",
+			"anthrazit",
+			"eiche"
+		]
+	},
+	"fenster": {
+		"farben": ["weiss", "creme", "nussbaum", "anthrazit", "teal", "grau_hell"]
+	},
+	"hausnummer": [
+		{ "id": "holz", "name_de": "Holzschild", "name_en": "Wooden Sign", "preis": 0 },
+		{ "id": "emaille", "name_de": "Emaille-Schild", "name_en": "Enamel Sign", "preis": 120 },
+		{ "id": "modern", "name_de": "Modernes Schild", "name_en": "Modern Sign", "preis": 180 }
+	],
+	"briefkasten": [
+		{
+			"id": "standard",
+			"name_de": "Klassischer Briefkasten",
+			"name_en": "Classic Mailbox",
+			"preis": 0,
+			"farben": ["ziegelrot", "teal", "pink", "butter", "anthrazit", "weiss"]
+		},
+		{
+			"id": "kugel",
+			"name_de": "Kugel-Briefkasten",
+			"name_en": "Round Mailbox",
+			"preis": 150,
+			"farben": ["teal", "pink", "butter", "marine"]
+		},
+		{
+			"id": "holz",
+			"name_de": "Holz-Briefkasten",
+			"name_en": "Wooden Mailbox",
+			"preis": 200,
+			"farben": ["eiche", "nussbaum", "weiss"]
+		},
+		{
+			"id": "modern",
+			"name_de": "Design-Briefkasten",
+			"name_en": "Designer Mailbox",
+			"preis": 260,
+			"farben": ["anthrazit", "weiss", "teal", "ocker"]
+		}
+	],
+	"vordach": [
+		{ "id": "keins", "name_de": "Kein Vordach", "name_en": "No Canopy", "preis": 0, "farben": [] },
+		{
+			"id": "vordach_holz",
+			"name_de": "Holz-Vordach",
+			"name_en": "Wooden Canopy",
+			"preis": 260,
+			"farben": ["eiche", "nussbaum", "weiss"]
+		},
+		{
+			"id": "markise",
+			"name_de": "Markise",
+			"name_en": "Awning",
+			"preis": 320,
+			"farben": ["rose", "teal", "butter", "marine"]
+		},
+		{
+			"id": "markise_gestreift",
+			"name_de": "Gestreifte Markise",
+			"name_en": "Striped Awning",
+			"preis": 380,
+			"farben": ["rose", "teal", "tannengruen", "marine"]
+		}
+	],
+	"grundstueck": {
+		"boeden": [
+			{
+				"id": "rasen_kurz",
+				"muster": "rasen",
+				"name_de": "Kurzer Rasen",
+				"name_en": "Short Lawn",
+				"preis": 0,
+				"farben": ["blattgruen", "salbei", "tannengruen"]
+			},
+			{
+				"id": "rasen_lang",
+				"muster": "rasen_lang",
+				"name_de": "Hohe Wiese",
+				"name_en": "Tall Meadow",
+				"preis": 120,
+				"farben": ["blattgruen", "tannengruen", "salbei"]
+			},
+			{
+				"id": "wildblumen",
+				"muster": "wildblumen",
+				"name_de": "Wildblumenwiese",
+				"name_en": "Wildflower Meadow",
+				"preis": 220,
+				"farben": ["blattgruen", "salbei", "tannengruen"]
+			},
+			{
+				"id": "kies",
+				"muster": "kies",
+				"name_de": "Kiesfläche",
+				"name_en": "Gravel Yard",
+				"preis": 180,
+				"farben": ["grau_hell", "grau", "sandstein"]
+			},
+			{
+				"id": "steinplatten",
+				"muster": "platten",
+				"name_de": "Steinplatten",
+				"name_en": "Stone Slabs",
+				"preis": 260,
+				"farben": ["grau_hell", "sandstein", "anthrazit"]
+			},
+			{
+				"id": "sand",
+				"muster": "sand",
+				"name_de": "Sandfläche",
+				"name_en": "Sandy Yard",
+				"preis": 160,
+				"farben": ["sandstein", "butter", "creme"]
+			},
+			{
+				"id": "waldboden",
+				"muster": "waldboden",
+				"name_de": "Waldboden",
+				"name_en": "Forest Floor",
+				"preis": 200,
+				"farben": ["nussbaum", "walnuss", "eiche"]
+			}
+		],
+		"wege": [
+			{ "id": "keins", "muster": "", "name_de": "Kein Weg", "name_en": "No Path", "preis": 0, "farben": [] },
+			{
+				"id": "platten",
+				"muster": "weg_platten",
+				"name_de": "Wegplatten",
+				"name_en": "Paving Slabs",
+				"preis": 140,
+				"farben": ["grau_hell", "sandstein", "anthrazit"]
+			},
+			{
+				"id": "rund",
+				"muster": "weg_rund",
+				"name_de": "Trittsteine rund",
+				"name_en": "Round Stepping Stones",
+				"preis": 180,
+				"farben": ["grau_hell", "sandstein", "grau"]
+			},
+			{
+				"id": "ziegel",
+				"muster": "weg_ziegel",
+				"name_de": "Ziegelweg",
+				"name_en": "Brick Path",
+				"preis": 220,
+				"farben": ["ziegelrot", "terracotta", "sandstein"]
+			},
+			{
+				"id": "schach",
+				"muster": "weg_schach",
+				"name_de": "Schachbrett-Weg",
+				"name_en": "Checker Path",
+				"preis": 200,
+				"farben": ["grau_hell", "sandstein", "himmel"]
+			}
+		],
+		"zaeune": [
+			{ "id": "keins", "name_de": "Kein Zaun", "name_en": "No Fence", "preis": 0, "farben": [] },
+			{
+				"id": "latten",
+				"name_de": "Lattenzaun",
+				"name_en": "Picket Fence",
+				"preis": 0,
+				"farben": ["eiche", "weiss", "creme", "teal", "rose"]
+			},
+			{
+				"id": "staketen",
+				"name_de": "Staketenzaun",
+				"name_en": "Split-Rail Fence",
+				"preis": 200,
+				"farben": ["eiche", "nussbaum", "weiss"]
+			},
+			{
+				"id": "metall",
+				"name_de": "Metallzaun",
+				"name_en": "Metal Fence",
+				"preis": 280,
+				"farben": ["anthrazit", "weiss", "tannengruen"]
+			},
+			{
+				"id": "hecke",
+				"name_de": "Hecke",
+				"name_en": "Hedge",
+				"preis": 240,
+				"farben": ["blattgruen", "tannengruen"]
+			}
+		]
+	},
+	"defaults": {
+		"haus": {
+			"fassade": "creme",
+			"dachForm": "sattel",
+			"dachFarbe": "ziegelrot",
+			"tuerFarbe": "nussbaum",
+			"fensterFarbe": "weiss",
+			"hausnummer": "holz",
+			"hausnummerZahl": 5,
+			"briefkasten": "standard",
+			"briefkastenFarbe": "ziegelrot",
+			"vordach": "keins",
+			"vordachFarbe": "rose"
+		},
+		"grundstueck": {
+			"boden": "rasen_kurz",
+			"bodenFarbe": "blattgruen",
+			"weg": "keins",
+			"wegFarbe": "grau_hell",
+			"zaun": "latten",
+			"zaunFarbe": "eiche"
+		},
+		"raum": { "wand": "uni", "wandFarbe": "creme", "boden": "dielen_hell", "bodenFarbe": "eiche" },
+		"raeume": {
+			"living": {
+				"wand": "uni",
+				"wandFarbe": "creme",
+				"boden": "dielen_hell",
+				"bodenFarbe": "eiche"
+			},
+			"kitchen": {
+				"wand": "uni",
+				"wandFarbe": "creme",
+				"boden": "fliesen_gross",
+				"bodenFarbe": "creme"
+			},
+			"bathroom": {
+				"wand": "uni",
+				"wandFarbe": "weiss",
+				"boden": "fliesen_gross",
+				"bodenFarbe": "himmel"
+			},
+			"bedroom": {
+				"wand": "uni",
+				"wandFarbe": "creme",
+				"boden": "dielen_dunkel",
+				"bodenFarbe": "nussbaum"
+			}
+		}
+	}
+}

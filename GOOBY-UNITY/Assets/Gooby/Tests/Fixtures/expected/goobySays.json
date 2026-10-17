@@ -1,0 +1,1012 @@
+{
+  "modes": {
+    "easy": [
+      {
+        "seed": 1,
+        "rounds": 2,
+        "score": 28
+      },
+      {
+        "seed": 2,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 3,
+        "rounds": 10,
+        "score": 108
+      },
+      {
+        "seed": 4,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 5,
+        "rounds": 7,
+        "score": 78
+      },
+      {
+        "seed": 6,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 7,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 8,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 9,
+        "rounds": 13,
+        "score": 138
+      },
+      {
+        "seed": 10,
+        "rounds": 11,
+        "score": 118
+      },
+      {
+        "seed": 11,
+        "rounds": 10,
+        "score": 108
+      },
+      {
+        "seed": 12,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 13,
+        "rounds": 12,
+        "score": 128
+      },
+      {
+        "seed": 14,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 15,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 16,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 17,
+        "rounds": 7,
+        "score": 78
+      },
+      {
+        "seed": 18,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 19,
+        "rounds": 12,
+        "score": 128
+      },
+      {
+        "seed": 20,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 21,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 22,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 23,
+        "rounds": 11,
+        "score": 118
+      },
+      {
+        "seed": 24,
+        "rounds": 1,
+        "score": 18
+      },
+      {
+        "seed": 25,
+        "rounds": 12,
+        "score": 128
+      },
+      {
+        "seed": 26,
+        "rounds": 15,
+        "score": 158
+      },
+      {
+        "seed": 27,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 28,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 29,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 30,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 31,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 32,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 33,
+        "rounds": 10,
+        "score": 108
+      },
+      {
+        "seed": 34,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 35,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 36,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 37,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 38,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 39,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 40,
+        "rounds": 13,
+        "score": 138
+      },
+      {
+        "seed": 41,
+        "rounds": 14,
+        "score": 148
+      },
+      {
+        "seed": 42,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 43,
+        "rounds": 13,
+        "score": 138
+      },
+      {
+        "seed": 44,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 45,
+        "rounds": 13,
+        "score": 138
+      },
+      {
+        "seed": 46,
+        "rounds": 7,
+        "score": 78
+      },
+      {
+        "seed": 47,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 48,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 49,
+        "rounds": 14,
+        "score": 148
+      },
+      {
+        "seed": 50,
+        "rounds": 4,
+        "score": 48
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1,
+        "rounds": 2,
+        "score": 28
+      },
+      {
+        "seed": 2,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 3,
+        "rounds": 10,
+        "score": 108
+      },
+      {
+        "seed": 4,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 5,
+        "rounds": 7,
+        "score": 78
+      },
+      {
+        "seed": 6,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 7,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 8,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 9,
+        "rounds": 13,
+        "score": 138
+      },
+      {
+        "seed": 10,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 11,
+        "rounds": 10,
+        "score": 108
+      },
+      {
+        "seed": 12,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 13,
+        "rounds": 11,
+        "score": 118
+      },
+      {
+        "seed": 14,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 15,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 16,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 17,
+        "rounds": 7,
+        "score": 78
+      },
+      {
+        "seed": 18,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 19,
+        "rounds": 12,
+        "score": 128
+      },
+      {
+        "seed": 20,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 21,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 22,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 23,
+        "rounds": 11,
+        "score": 118
+      },
+      {
+        "seed": 24,
+        "rounds": 1,
+        "score": 18
+      },
+      {
+        "seed": 25,
+        "rounds": 12,
+        "score": 128
+      },
+      {
+        "seed": 26,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 27,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 28,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 29,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 30,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 31,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 32,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 33,
+        "rounds": 10,
+        "score": 108
+      },
+      {
+        "seed": 34,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 35,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 36,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 37,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 38,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 39,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 40,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 41,
+        "rounds": 2,
+        "score": 28
+      },
+      {
+        "seed": 42,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 43,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 44,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 45,
+        "rounds": 13,
+        "score": 138
+      },
+      {
+        "seed": 46,
+        "rounds": 7,
+        "score": 78
+      },
+      {
+        "seed": 47,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 48,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 49,
+        "rounds": 13,
+        "score": 138
+      },
+      {
+        "seed": 50,
+        "rounds": 4,
+        "score": 48
+      }
+    ],
+    "hard": [
+      {
+        "seed": 1,
+        "rounds": 2,
+        "score": 28
+      },
+      {
+        "seed": 2,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 3,
+        "rounds": 10,
+        "score": 108
+      },
+      {
+        "seed": 4,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 5,
+        "rounds": 7,
+        "score": 78
+      },
+      {
+        "seed": 6,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 7,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 8,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 9,
+        "rounds": 13,
+        "score": 138
+      },
+      {
+        "seed": 10,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 11,
+        "rounds": 10,
+        "score": 108
+      },
+      {
+        "seed": 12,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 13,
+        "rounds": 11,
+        "score": 118
+      },
+      {
+        "seed": 14,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 15,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 16,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 17,
+        "rounds": 7,
+        "score": 78
+      },
+      {
+        "seed": 18,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 19,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 20,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 21,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 22,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 23,
+        "rounds": 11,
+        "score": 118
+      },
+      {
+        "seed": 24,
+        "rounds": 1,
+        "score": 18
+      },
+      {
+        "seed": 25,
+        "rounds": 12,
+        "score": 128
+      },
+      {
+        "seed": 26,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 27,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 28,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 29,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 30,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 31,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 32,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 33,
+        "rounds": 10,
+        "score": 108
+      },
+      {
+        "seed": 34,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 35,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 36,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 37,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 38,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 39,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 40,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 41,
+        "rounds": 2,
+        "score": 28
+      },
+      {
+        "seed": 42,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 43,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 44,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 45,
+        "rounds": 13,
+        "score": 138
+      },
+      {
+        "seed": 46,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 47,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 48,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 49,
+        "rounds": 13,
+        "score": 138
+      },
+      {
+        "seed": 50,
+        "rounds": 4,
+        "score": 48
+      }
+    ],
+    "endless": [
+      {
+        "seed": 1,
+        "rounds": 2,
+        "score": 28
+      },
+      {
+        "seed": 2,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 3,
+        "rounds": 10,
+        "score": 108
+      },
+      {
+        "seed": 4,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 5,
+        "rounds": 7,
+        "score": 78
+      },
+      {
+        "seed": 6,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 7,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 8,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 9,
+        "rounds": 13,
+        "score": 138
+      },
+      {
+        "seed": 10,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 11,
+        "rounds": 10,
+        "score": 108
+      },
+      {
+        "seed": 12,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 13,
+        "rounds": 11,
+        "score": 118
+      },
+      {
+        "seed": 14,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 15,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 16,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 17,
+        "rounds": 7,
+        "score": 78
+      },
+      {
+        "seed": 18,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 19,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 20,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 21,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 22,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 23,
+        "rounds": 11,
+        "score": 118
+      },
+      {
+        "seed": 24,
+        "rounds": 1,
+        "score": 18
+      },
+      {
+        "seed": 25,
+        "rounds": 12,
+        "score": 128
+      },
+      {
+        "seed": 26,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 27,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 28,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 29,
+        "rounds": 5,
+        "score": 58
+      },
+      {
+        "seed": 30,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 31,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 32,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 33,
+        "rounds": 10,
+        "score": 108
+      },
+      {
+        "seed": 34,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 35,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 36,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 37,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 38,
+        "rounds": 4,
+        "score": 48
+      },
+      {
+        "seed": 39,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 40,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 41,
+        "rounds": 2,
+        "score": 28
+      },
+      {
+        "seed": 42,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 43,
+        "rounds": 8,
+        "score": 88
+      },
+      {
+        "seed": 44,
+        "rounds": 9,
+        "score": 98
+      },
+      {
+        "seed": 45,
+        "rounds": 13,
+        "score": 138
+      },
+      {
+        "seed": 46,
+        "rounds": 6,
+        "score": 68
+      },
+      {
+        "seed": 47,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 48,
+        "rounds": 3,
+        "score": 38
+      },
+      {
+        "seed": 49,
+        "rounds": 13,
+        "score": 138
+      },
+      {
+        "seed": 50,
+        "rounds": 4,
+        "score": 48
+      }
+    ]
+  }
+}

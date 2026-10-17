@@ -1,0 +1,18 @@
+{
+	"mg": {
+		"arcade": {
+			"fortschritt": {
+				"kopf": "{n}/{total} gespielt · {sterne} Sterne",
+				"kopf_einzahl": "{n}/{total} gespielt · 1 Stern"
+			},
+			"reihe": {
+				"geschick": "Geschick & Timing",
+				"action": "Tempo & Action",
+				"fahren": "Fahren & Liefern",
+				"denken": "Puzzle & Denken",
+				"ranch": "Ranch & Turnier",
+				"ruhig": "Ruhig & Gemütlich"
+			}
+		}
+	}
+}

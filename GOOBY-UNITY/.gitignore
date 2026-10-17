@@ -1,0 +1,30 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/MemoryCaptures/
+/Recordings/
+/*.csproj
+/*.sln
+/*.slnx
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.unitypackage
+*.app
+crashlytics-build.properties
+# written by the Performance Testing package on every build/test run
+/Assets/Resources/PerformanceTestRun*
+/Assets/Resources.meta
+# dotnet mirror build of Gooby.Core
+/CoreTests~/bin/
+/CoreTests~/obj/
+/CoreTests~/TestResults/

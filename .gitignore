@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+
+# Credentials never belong in this public repo.
+.env
+.env.*
+!.env.example
+*.ulf
+UnityEntitlementLicense.xml

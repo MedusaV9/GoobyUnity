@@ -1,0 +1,72 @@
+{
+	"collections": {
+		"titel": "Sammlungen",
+		"chip": "Sammlungen",
+		"gesamt": "{n} von {total} Schätzen gefunden",
+		"fortschritt": "{n}/{total}",
+		"unbekannt": "???",
+		"claim": "Belohnung abholen",
+		"claimed": "Abgeholt!",
+		"claim_toast": "„{name}“ komplett! +{coins} Münzen & „{item}“ dazu!",
+		"set": {
+			"fish": "Teichfische",
+			"veggies": "Gemüsegarten",
+			"landmarks": "Stadt-Sehenswürdigkeiten",
+			"treats": "Süße Sünden"
+		},
+		"hinweis": {
+			"fish": "Wer fleißig am Teich angelt, fischt sie alle!",
+			"veggies": "Ernte jede Gemüsesorte einmal im Garten!",
+			"landmarks": "Fahr in der Stadt ganz nah an die Sehenswürdigkeiten!",
+			"treats": "Nasch dich einmal quer durchs Süßigkeiten-Regal!"
+		},
+		"reward": {
+			"fish": "Goldfischglas",
+			"veggies": "Goldene Gießkanne",
+			"landmarks": "Spielzeugstadt",
+			"treats": "Bonbonglas"
+		},
+		"eintrag": {
+			"fish": {
+				"sunnyCarp": "Sonnenkarpfen",
+				"blueDace": "Blauer Döbel",
+				"pinkKoi": "Rosa Koi",
+				"stripeBass": "Streifenbarsch",
+				"tinyMinnow": "Mini-Elritze",
+				"bigWhopper": "Riesenbrocken",
+				"nightEel": "Nachtaal",
+				"goldenFish": "Goldfisch"
+			},
+			"veggies": {
+				"radish": "Radieschen",
+				"carrot": "Möhre",
+				"salad": "Salat",
+				"tomato": "Tomate",
+				"corn": "Mais",
+				"eggplant": "Aubergine",
+				"pumpkin": "Kürbis",
+				"watermelon": "Wassermelone"
+			},
+			"landmarks": {
+				"shop": "Der Laden",
+				"vetClinic": "Tierarztpraxis",
+				"fountain": "Springbrunnen",
+				"skyTower": "Himmelsturm",
+				"parkGazebo": "Parkpavillon",
+				"windmillCafe": "Windmühlen-Café"
+			},
+			"treats": {
+				"donut-sprinkles": "Streusel-Donut",
+				"cupcake": "Törtchen",
+				"ice-cream": "Eistüte",
+				"cake": "Torte",
+				"cookie": "Keks",
+				"candy-bar": "Schokoriegel",
+				"lollypop": "Lutscher",
+				"sundae": "Eisbecher",
+				"chocolate": "Schokolade",
+				"muffin": "Muffin"
+			}
+		}
+	}
+}

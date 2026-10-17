@@ -1,0 +1,41 @@
+{
+	"recap": {
+		"title": "Goobys Rückblick",
+		"level_headline": "Level {level}!",
+		"weiter": "Weiter",
+		"ueberspringen": "Überspringen",
+		"station": {
+			"home": "Zuhause",
+			"kitchen": "Küche",
+			"garden": "Garten",
+			"city": "Große Stadt",
+			"shop": "REHWEI",
+			"arcade": "Die Arcade",
+			"park": "Funkelpark",
+			"vacation": "Urlaub",
+			"bath": "Badezimmer",
+			"night": "Gute Nacht"
+		},
+		"stat": {
+			"days": "Seitdem: {n} Tage vergangen",
+			"days_one": "Seitdem: 1 Tag vergangen",
+			"games": "{n} Spiele gespielt",
+			"coinsEarned": "{n} Münzen verdient",
+			"tickles": "{n}× Bauch gekrault",
+			"feeds": "{n}× lecker gefuttert",
+			"harvests": "{n} Ernten eingeholt",
+			"stickers": "{n} neue Sticker",
+			"quests": "{n} Quests geschafft",
+			"washes": "{n}× blitzblank gebadet",
+			"sleeps": "{n}× tief geschlafen",
+			"trips": "{n} Ausflüge in die Stadt",
+			"distance": "{n} m unterwegs",
+			"photos": "{n} Fotos geknipst",
+			"deliveries": "{n} Pakete geliefert",
+			"cures": "{n}× krank (gute Besserung!)",
+			"cakes": "{n} Torten serviert",
+			"nougat": "{n} Nougat-Kleckse",
+			"coinsSpent": "{n} Münzen ausgegeben"
+		}
+	}
+}

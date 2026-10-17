@@ -1,0 +1,99 @@
+{
+	"mg": {
+		"basketBounce": {
+			"title": "Korbwurf",
+			"hint": "Schnipp den Ball nach oben in den Korb!",
+			"miss": "Daneben!",
+			"on_fire": "Der läuft heiß!",
+			"misses": "Fehlwürfe: {n}/{max}"
+		},
+		"pancakeTower": {
+			"title": "Pancake-Turm",
+			"hint": "Tippen, wenn der Pfannkuchen genau passt!",
+			"layers": "Lagen: {n}",
+			"width": "Breite: {pct}%",
+			"perfect": "Perfekt gestapelt!",
+			"topple": "Der Turm wackelt!"
+		},
+		"miniGolf": {
+			"title": "Minigolf",
+			"hint": "Ziehen zum Zielen, loslassen zum Putten.",
+			"hole": "Bahn {n}/{max}",
+			"strokes": "Schläge: {n} · Par {par}",
+			"over_par": "Über Par: {n}/{max}",
+			"ace": "HOLE-IN-ONE! +30",
+			"gave_up": "Puh! Nächste Bahn…"
+		},
+		"fishingPond": {
+			"title": "Angelteich",
+			"hint": "Tippen zum Auswerfen · im Takt kurbeln!",
+			"depth": "Tiefe: {m} m",
+			"failures": "Abrisse: {n}/{max}",
+			"line_break": "Schnur gerissen!",
+			"rare_set": "Seltener Fang! +{n}",
+			"reel": "Kurbeln!"
+		},
+		"goalieGooby": {
+			"title": "Torwart Gooby",
+			"hint": "In die Ecke tippen, in die du hechten willst!",
+			"saves": "Paraden: {n}",
+			"conceded": "Gegentore: {n}/{max}",
+			"super": "Superparade! +6",
+			"goal": "Tor kassiert…",
+			"cheer": "Die Menge jubelt! Schneller!"
+		},
+		"starHopper": {
+			"title": "Sternenhüpfer",
+			"hint": "Seitlich wischen, um die Spur zu wechseln.",
+			"intro": "Weich den Meteoren aus — sammle Sterne!",
+			"distance": "{m} m",
+			"speed": "Tempo {v}",
+			"shield": "Schild aktiv!",
+			"shield_pop": "Das Schild hat dich gerettet!",
+			"shower": "Meteorschauer!",
+			"wormhole": "Wurmloch!",
+			"speed_up": "Tempo hoch!"
+		},
+		"rocketRescue": {
+			"title": "Raketen-Rettung",
+			"hint": "Halten für Schub · links/rechts zum Neigen",
+			"fuel": "Tank: {n}",
+			"rescued": "Gerettet: {n}/{max}",
+			"aboard": "Hase an Bord!",
+			"saved": "Sicher gelandet!",
+			"hard": "Harte Landung! −10 Treibstoff",
+			"low_fuel": "Treibstoff knapp!",
+			"towed": "Tank leer — Abschleppdienst kommt…"
+		},
+		"danceParty": {
+			"title": "Tanzparty",
+			"hint": "Tippe die Noten auf der Linie — bleib im Takt!",
+			"encore": "ZUGABE!",
+			"breaks": "Serienbrüche: {n}/{max}",
+			"kalib_knopf": "Timing anpassen ({ms} ms)",
+			"kalib_titel": "Timing anpassen",
+			"kalib_text": "Tippe im Takt der 8 Metronom-Schläge — dein Timing merken wir uns.",
+			"kalib_offset": "Offset: {ms} ms",
+			"kalib_beat": "Schlag {n}/{max}",
+			"kalib_ergebnis": "Dein Offset: {ms} ms — gespeichert!",
+			"kalib_tap": "TIPPEN!",
+			"kalib_start": "Los!",
+			"kalib_reset": "Zurücksetzen",
+			"kalib_zu": "Fertig"
+		},
+		"ghostHunt": {
+			"title": "Geisterjagd",
+			"hint": "Tippe die Geister, die aus den Gräbern lugen!",
+			"chainPill": "Kette ×{n}",
+			"netPill": "Netz {n}",
+			"lanternPill": "Laterne {n}s",
+			"decoy": "Autsch — Kürbis-Attrappe! −2",
+			"boo": "BUH-WELLE!",
+			"booBonus": "Buh-Bonus +{n}!",
+			"booMiss": "Welle vorbei — {n}/5 gefangen",
+			"lantern": "Laterne! Verstecke enthüllt",
+			"net": "Netz! Die nächsten 3 Fänge verketten sich",
+			"escapes": "Entwischt: {n}/{max}"
+		}
+	}
+}

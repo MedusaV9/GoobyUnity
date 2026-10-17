@@ -1,0 +1,293 @@
+{
+ "v": 4,
+ "createdAt": 1763294400000,
+ "lastTickAt": 1768460400000,
+ "stats": {
+  "hunger": 40,
+  "energy": 80,
+  "hygiene": 30,
+  "fun": 66
+ },
+ "sleep": {
+  "sleeping": false,
+  "startedAt": 0,
+  "wakeAt": 0
+ },
+ "grumpyUntil": 0,
+ "coins": 812,
+ "xp": 40,
+ "level": 7,
+ "inventory": {
+  "carrot": 1
+ },
+ "furniture": {
+  "owned": [
+   "bedDouble",
+   "radio"
+  ],
+  "placed": {
+   "bedroom:bed": "bedDouble",
+   "living:shelf1": "radio"
+  }
+ },
+ "decor": {
+  "wallpaper": {},
+  "floor": {}
+ },
+ "outfits": {
+  "owned": [
+   "partyHat"
+  ],
+  "equipped": {
+   "hat": "partyHat",
+   "glasses": null,
+   "neck": null,
+   "back": null
+  }
+ },
+ "minigames": {
+  "best": {
+   "carrotCatch": 33
+  },
+  "plays": {
+   "carrotCatch": 9
+  },
+  "lastPlayDay": {},
+  "difficulty": {},
+  "beaten": {},
+  "bestByDiff": {},
+  "endlessBest": {}
+ },
+ "achievements": {
+  "unlocked": {
+   "firstNom": 1764158400000
+  },
+  "counters": {
+   "feeds": 60,
+   "washes": 10,
+   "sleeps": 12,
+   "trips": 2,
+   "tickles": 5,
+   "petsToday": 0,
+   "petsDay": "",
+   "harvests": 3,
+   "plantings": 4,
+   "waterings": 9,
+   "sells": 1,
+   "cures": 0,
+   "vetTrips": 0,
+   "deliveries": 0,
+   "questsDone": 2,
+   "photosTaken": 0,
+   "nightPlays": 0,
+   "medsGiven": 0,
+   "balls": 7,
+   "nougatGlobs": 0,
+   "cakesServed": 0,
+   "perfectCakes": 0,
+   "surfRuns": 0,
+   "surfDistanceM": 0,
+   "races": 0,
+   "ghostsCaught": 0,
+   "rescues": 0,
+   "cratesShipped": 0,
+   "codesRedeemed": 0,
+   "modifierPlays": 0,
+   "recapsSeen": 0,
+   "radioMinutes": 0,
+   "galleryPhotos": 0
+  }
+ },
+ "daily": {
+  "lastClaimDay": "2026-01-10",
+  "streak": 2
+ },
+ "quickDelivery": false,
+ "settings": {
+  "lang": "de",
+  "sfx": true,
+  "music": false,
+  "haptics": true,
+  "notifications": "unasked",
+  "uiScale": 100,
+  "volumes": {
+   "master": 80,
+   "sfx": 100,
+   "music": 70,
+   "voice": 100,
+   "ambience": 80
+  },
+  "devUnlocked": false,
+  "gyro": false,
+  "controls": {
+   "invertX": false,
+   "invertY": false
+  },
+  "goobyWeltQuality": "high"
+ },
+ "onboarding": {
+  "done": true,
+  "step": 99,
+  "whatsNew2Seen": false,
+  "whatsNew3Seen": false,
+  "whatsNew4Seen": false
+ },
+ "garden": {
+  "plotsOwned": 4,
+  "plots": [
+   {
+    "crop": "radish",
+    "plantedAt": 1768474800000,
+    "progressMin": 5,
+    "wateredUntil": 0,
+    "waterings": 1,
+    "fertilized": false
+   },
+   {
+    "crop": null,
+    "plantedAt": 0,
+    "progressMin": 0,
+    "wateredUntil": 0,
+    "waterings": 0,
+    "fertilized": false
+   },
+   {
+    "crop": null,
+    "plantedAt": 0,
+    "progressMin": 0,
+    "wateredUntil": 0,
+    "waterings": 0,
+    "fertilized": false
+   },
+   {
+    "crop": null,
+    "plantedAt": 0,
+    "progressMin": 0,
+    "wateredUntil": 0,
+    "waterings": 0,
+    "fertilized": false
+   },
+   {
+    "crop": null,
+    "plantedAt": 0,
+    "progressMin": 0,
+    "wateredUntil": 0,
+    "waterings": 0,
+    "fertilized": false
+   },
+   {
+    "crop": null,
+    "plantedAt": 0,
+    "progressMin": 0,
+    "wateredUntil": 0,
+    "waterings": 0,
+    "fertilized": false
+   }
+  ],
+  "lastTickAt": 1768474800000
+ },
+ "health": {
+  "state": "healthy",
+  "junkScore": 10,
+  "neglectMin": 0,
+  "recoverMin": 0,
+  "since": 0
+ },
+ "weight": {
+  "value": 48
+ },
+ "quests": {
+  "day": "",
+  "active": [],
+  "rerolledDay": "",
+  "completedTotal": 2
+ },
+ "collections": {
+  "entries": {},
+  "claimedSets": {}
+ },
+ "skins": {
+  "owned": [
+   "cream"
+  ],
+  "equipped": "cream"
+ },
+ "items": {
+  "medicine": 0,
+  "fertilizer": 1
+ },
+ "profile": {
+  "playtimeMin": 300,
+  "coinsEarned": 1500,
+  "coinsSpent": 688,
+  "distanceM": 900,
+  "photos": 0
+ },
+ "stickers": {
+  "unlocked": {},
+  "seen": {}
+ },
+ "nougat": {
+  "lastGlobAt": 0,
+  "installed": false
+ },
+ "radio": {
+  "station": "bordmusik",
+  "playing": false,
+  "shuffle": true,
+  "replaceContext": true,
+  "lastTrack": "",
+  "trims": {},
+  "recapHeard": {}
+ },
+ "codes": {
+  "redeemed": {},
+  "lockUntil": 0,
+  "buffs": {
+   "doubleCoinsUntil": 0
+  }
+ },
+ "modifiers": {
+  "nextAt": 0,
+  "seed": 2357808640,
+  "current": null,
+  "lastGameId": "",
+  "dayCoins": 0,
+  "dayCoinsDay": ""
+ },
+ "recap": {
+  "lastRecapLevel": 5,
+  "baseline": {
+   "snapshotAtMs": 1768478400000,
+   "level": 7,
+   "coinsEarned": 1500,
+   "coinsSpent": 688,
+   "distanceM": 900,
+   "photos": 0,
+   "playsTotal": 9,
+   "stickerCount": 0,
+   "feeds": 60,
+   "washes": 10,
+   "sleeps": 12,
+   "tickles": 5,
+   "trips": 2,
+   "harvests": 3,
+   "plantings": 4,
+   "waterings": 9,
+   "questsDone": 2,
+   "deliveries": 0,
+   "cures": 0,
+   "nougatGlobs": 0,
+   "cakesServed": 0,
+   "surfRuns": 0
+  },
+  "baselineAt": 1768478400000,
+  "pendingLevel": 0,
+  "history": []
+ },
+ "gallery": {
+  "count": 0,
+  "lastAddedAt": 0,
+  "hintShown": false
+ }
+}

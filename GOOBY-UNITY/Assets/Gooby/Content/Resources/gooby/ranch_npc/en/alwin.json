@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_alwin",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "alwin",
+			"text": "Morning, young sprout. Mornings used to be earlier back in the day. Noon started at six.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "alwin",
+			"text": "Alwin. Retired rancher. Retirement means I now do my resting standing up.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "alwin",
+			"text": "Nice evening. We had those in my day too. They were bigger though, the evenings.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "alwin",
+			"text": "You call that rain? Back in the day the rain fell bottom to top. We had to hold our umbrellas upside down.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "alwin",
+			"text": "Well, if it isn't my favorite whippersnapper. Sit on the fence. The spot next to me is reserved. For you.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "alwin",
+			"text": "Well?",
+			"optionen": [
+				{"text": "Got something for me?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Done, Alwin!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "Tell me about the old days!", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "Tell me about the old days!", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "Tell me about the old days!", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "The thing with the wolf?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Who owned the ranch?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "See you, Alwin!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "alwin",
+			"text": [
+				"Back in the day, we had nothing. Not even hay. We combed the grass blade by blade.",
+				"The horses thought it was silly. But it did look tidy."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "alwin",
+			"text": [
+				"Did I tell you about the great drought? Three summers without a drop. The pond was just an idea.",
+				"Last time I told it, it was two summers. Good stories grow with you, you know."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "alwin",
+			"text": [
+				"You know what the best thing about the old days was? Nothing. The best is now, with you fixing this place up.",
+				"Don't spread it around. If word gets out that I'm praising the present, I'll lose my license as an old man."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "alwin",
+			"text": "Got a thing. My bones say no, but the thing needs doing. Your bones are younger.",
+			"optionen": [
+				{"text": "My bones say yes!", "next": "quest_annahme"},
+				{"text": "My bones are hesitant...", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "alwin",
+			"text": "Good sprout. Back in the day this would've taken three people. And a donkey. The donkey was the smart one.",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "alwin",
+			"text": "Understood. Hurry was never my pace. I once took two years to answer a question. The answer was: maybe.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "alwin",
+			"text": "Well, would you look at that. Clean. In my day we'd have thrown a party for this. We still will. Here's your share.",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "alwin",
+			"text": "Hay. Smell it. SMELL it! That's the scent of fifty good years. Kid, you're making an old man happy.",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "alwin",
+			"text": "Thank you kindly. Didn't have things like this back then. We gave each other rocks. Nice rocks, mind you.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "alwin",
+			"text": "Hm. You know what, this is the finest whatsit anyone has ever given me. Word of honor.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "alwin",
+			"text": [
+				"The thing with the wolf. Right. One night: howling over the hill. The herd nervous, me out with the lantern.",
+				"There I stand, heart pounding, and out of the bush comes... the neighbor's pug. With a cold.",
+				"His sniffly howling kept three villages awake. I made him tea. That's how you defeat wolves, kid."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "alwin",
+			"text": [
+				"Who owned the ranch? Me, kid. Long ago. Every beam here knows my first name.",
+				"Then the winters got harder and I got slower. At some point it stood empty. Crushed my heart every day walking past.",
+				"And then you came. Now look at her. I'll tell you something: she was waiting for you. So was I, by the way."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "alwin",
+			"text": "Run along, sprout. I'll stay here and keep an eye on the horizon. Somebody has to.",
+			"ende": true
+		}
+	}
+}

@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Mirror build of Gooby.Core (the engine-free game core) + its NUnit tests.
+    Runs WITHOUT the Unity editor (dotnet test) and is the same source that the
+    Unity EditMode test assembly compiles inside the editor.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <RootNamespace>Gooby</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../Assets/Gooby/Core/**/*.cs" />
+    <Compile Include="../Assets/Gooby/Tests/EditMode/Core/**/*.cs" />
+    <!-- dotnet-only: real GOOBY-SERVER (node) + multiple clients; not compiled by Unity. -->
+    <Compile Include="Integration/**/*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+  </ItemGroup>
+
+</Project>

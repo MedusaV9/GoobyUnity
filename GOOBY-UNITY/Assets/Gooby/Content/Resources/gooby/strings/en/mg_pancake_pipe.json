@@ -1,0 +1,10 @@
+{
+	"mg": {
+		"pancakeTower": {
+			"intro": "Build a tall pancake tower!"
+		},
+		"pipeFlow": {
+			"intro": "Connect the tap to the sprinkler!"
+		}
+	}
+}

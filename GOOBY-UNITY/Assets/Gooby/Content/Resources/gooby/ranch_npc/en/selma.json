@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_selma",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "selma",
+			"text": "Good morning! Smell that? Fresh leather and possibilities. Mostly leather.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "selma",
+			"text": "Welcome to the saddlery! Watch your step — needles with ambitions everywhere.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "selma",
+			"text": "Still up? Me too. A seam gave me a crooked look. I will not take that sitting down.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "selma",
+			"text": "Rainy weather! Perfect. They say stitching is most honest in the rain. Well, I say that.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "selma",
+			"text": "There you are! I cleared the good chair for you. The one with only one needle in it.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "selma",
+			"text": "So — what will it be?",
+			"optionen": [
+				{"text": "Need any help?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Done, as promised!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "What are you working on?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "What are you working on?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "What are you working on?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Your first saddle?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "That seam up there...?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "I'll let you stitch!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "selma",
+			"text": [
+				"A halter for a pony with very firm opinions. It wants glitter. It gets glitter.",
+				"You don't argue with ponies. You just lose more elegantly."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "selma",
+			"text": [
+				"A double seam, eight stitches per thumb's width. The royal league. The opera of the craft.",
+				"You're actually listening, aren't you? Most people flee at the words double seam."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "selma",
+			"text": [
+				"Between us: I'm stitching a secret project. It has four buckles and your name on it.",
+				"That's all I'm saying. Unless you bring cake. No! Stay strong, Selma."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "selma",
+			"text": "Since you're here — I could use someone with hands and heart. I'll provide the needle.",
+			"optionen": [
+				{"text": "Count me in!", "next": "quest_annahme"},
+				{"text": "I'm a bit tied up in knots...", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "selma",
+			"text": "Wonderful! Work cleanly, yes? I can see crooked results through three walls.",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "selma",
+			"text": "No problem. Good work is happy to wait. So is bad work, mind you — it has nothing better to do.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "selma",
+			"text": "Let me see... checked stitch by stitch and... flawless! You could stitch houses onto people. Here, your pay.",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "selma",
+			"text": "WOOL! Soft, wonderful wool! I must make something out of it immediately. You get the first piece!",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "selma",
+			"text": "How thoughtful! This goes on the shelf of honor. Next to the pincushion. Its name is Norbert.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "selma",
+			"text": "Oh. Thank you! I'll... find a use for it. I ALWAYS find a use. That is a threat.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "selma",
+			"text": [
+				"My first saddle? A catastrophe. Crooked as a barn door in the wind.",
+				"The horse looked at it, looked at me — and sat down on it. On the saddle. Like a chair.",
+				"That's when I knew: I had to get better. Or build chairs. It was a close call."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "selma",
+			"text": [
+				"The seam up there? That's Mom's. Her last piece before she handed the workshop to me.",
+				"She said: never copy it. Make it better. I've tried a thousand times.",
+				"I'm at nine hundred ninety-nine. But shhh — the seam is listening."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "selma",
+			"text": "See you soon! And if anything tears anywhere: breathe first, then come to me.",
+			"ende": true
+		}
+	}
+}

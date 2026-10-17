@@ -1,0 +1,61 @@
+{
+	"mail": {
+		"schalter": {
+			"titel": "Letters",
+			"text": "Write to your friends — Mrs. Zettel stamps every letter herself!",
+			"offen": "Open mailbox",
+			"neu": "{n} new",
+			"offline": "Offline — letters wait in the basket.",
+			"outbox": "Waiting for delivery: {n}"
+		},
+		"titel": "Mailbox",
+		"leer": "No mail yet — why not write the first letter!",
+		"schreiben": "Write a letter",
+		"zurueck": "‹ Back",
+		"aktualisieren": "Reload",
+		"ungelesen": "New!",
+		"gelesen_knopf": "Read",
+		"loeschen": "Toss it",
+		"von": "From {name}",
+		"foto_laedt": "Photo fluttering in…",
+		"foto_fehlt": "Photo could not be loaded.",
+		"geschenk": "Gift: {name} ×{n}",
+		"annehmen": "Accept",
+		"angenommen": "Unwrapped!",
+		"compose": {
+			"an": "To",
+			"kein_freund": "Find friends first — then letters!",
+			"text_hint": "Warm wishes…",
+			"zeichen": "{n}/{max}",
+			"foto": "Photo",
+			"kein_foto": "No photo",
+			"geschenk": "Gift",
+			"kein_geschenk": "No gift",
+			"senden": "Send ({porto} ᴳ postage)"
+		},
+		"toast": {
+			"gesendet": "Letter to {name} is on its way!",
+			"queued": "Will be delivered as soon as you are online!",
+			"kein_porto": "You still need the postage ({porto} coins).",
+			"kein_item": "That gift is no longer in your inventory.",
+			"geschenk_da": "{name} ×{n} is now in your inventory!"
+		},
+		"err": {
+			"offline": "No connection right now — the letter waits in the basket.",
+			"daily_limit": "Mrs. Zettel waves you off: 20 letters a day is plenty!",
+			"mailbox_full": "Your friend’s mailbox is overflowing.",
+			"not_friends": "Letters are a friends-only thing.",
+			"not_found": "Mrs. Zettel doesn’t know that mailbox.",
+			"bad_mail": "An empty envelope? Something’s missing.",
+			"text_too_long": "The letter is too long — trim it a little.",
+			"photo_too_large": "The photo doesn’t fit into the envelope.",
+			"already_claimed": "That gift has already been unwrapped.",
+			"rate_limit": "Slow down — Mrs. Zettel can’t keep up!",
+			"generic": "Oof — something went wrong at the stamping desk."
+		},
+		"item": {
+			"medicine": "Medicine",
+			"fertilizer": "Fertilizer"
+		}
+	}
+}

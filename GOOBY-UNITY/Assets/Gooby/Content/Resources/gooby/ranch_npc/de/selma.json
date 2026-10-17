@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_selma",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "selma",
+			"text": "Guten Morgen! Riechst du das? Frisches Leder und Möglichkeiten. Hauptsächlich Leder.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "selma",
+			"text": "Willkommen in der Sattlerei! Vorsicht, wo du hintrittst — überall Nadeln mit Ambitionen.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "selma",
+			"text": "Noch wach? Ich auch. Eine Naht hat mich schief angesehen. Das lasse ich nicht auf mir sitzen.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "selma",
+			"text": "Regenwetter! Perfekt. Bei Regen näht es sich am ehrlichsten, sagt man. Also, ich sage das.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "selma",
+			"text": "Da bist du ja! Ich hab dir den guten Stuhl freigeräumt. Der mit nur einer Nadel drin.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "selma",
+			"text": "Also — was darf's sein?",
+			"optionen": [
+				{"text": "Brauchst du Hilfe?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Fertig, wie versprochen!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "Woran arbeitest du?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "Woran arbeitest du?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "Woran arbeitest du?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Dein erster Sattel?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Die Naht dort oben …?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Ich lass dich nähen!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "selma",
+			"text": [
+				"Ein Halfter für ein Pony mit sehr festen Vorstellungen. Es will Glitzer. Es kriegt Glitzer.",
+				"Man diskutiert nicht mit Ponys. Man verliert nur eleganter."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "selma",
+			"text": [
+				"Eine Doppelnaht, acht Stiche pro Daumenbreit. Die Königsklasse. Die Oper des Handwerks.",
+				"Du hörst mir wirklich zu, oder? Die meisten fliehen beim Wort Doppelnaht."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "selma",
+			"text": [
+				"Unter uns: Ich nähe gerade an einem Geheimprojekt. Es hat vier Schnallen und deinen Namen.",
+				"Mehr verrate ich nicht. Außer du bringst Kuchen. Nein! Stark bleiben, Selma."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "selma",
+			"text": "Wo du gerade da bist — ich bräuchte da jemanden mit Händen und Herz. Nadel bringe ich mit.",
+			"optionen": [
+				{"text": "Bin dabei!", "next": "quest_annahme"},
+				{"text": "Ich bin gerade vernäht …", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "selma",
+			"text": "Wunderbar! Sauber arbeiten, ja? Ich sehe schiefe Ergebnisse durch drei Wände.",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "selma",
+			"text": "Kein Problem. Gute Arbeit wartet gern. Schlechte Arbeit übrigens auch, die hat ja sonst nichts.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "selma",
+			"text": "Zeig her … Stich für Stich geprüft und … tadellos! Auf dich näht man Häuser. Hier, dein Lohn.",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "selma",
+			"text": "WOLLE! Weiche, wunderbare Wolle! Ich muss sofort etwas daraus machen. Du bekommst das Erste!",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "selma",
+			"text": "Wie aufmerksam! Das kommt auf den Ehrenplatz. Neben das Nadelkissen. Es heißt Norbert.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "selma",
+			"text": "Oh. Danke! Ich … finde eine Verwendung. Ich finde IMMER eine Verwendung. Das ist eine Drohung.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "selma",
+			"text": [
+				"Mein erster Sattel? Eine Katastrophe. Schief wie ein Scheunentor im Wind.",
+				"Das Pferd hat ihn angeschaut, mich angeschaut — und sich draufgesetzt. Auf den Sattel. Wie ein Stuhl.",
+				"Da wusste ich: Ich muss besser werden. Oder Stühle bauen. Es wurde knapp."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "selma",
+			"text": [
+				"Die Naht da oben? Die ist von Mama. Ihr letztes Stück, bevor sie die Werkstatt mir gab.",
+				"Sie sagte: Mach sie nie nach. Mach sie besser. Ich hab's tausendmal versucht.",
+				"Ich bin bei neunhundertneunundneunzig. Aber pssst — die Naht hört mit."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "selma",
+			"text": "Bis bald! Und wenn irgendwo was reißt: erst atmen, dann zu mir.",
+			"ende": true
+		}
+	}
+}

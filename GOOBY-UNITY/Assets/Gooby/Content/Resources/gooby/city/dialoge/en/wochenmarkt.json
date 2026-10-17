@@ -1,0 +1,52 @@
+{
+  "id": "wochenmarkt_besuch",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "greta",
+      "text": [
+        "Saturday! The one day this square smells of strawberries instead of square.",
+        "Greta Green, stall three. What have you brought?"
+      ],
+      "optionen": [
+        {"text": "I’d like to sell my harvest.", "next": "verkaufen"},
+        {"text": "How are the prices set?", "next": "preise"},
+        {"text": "Why only on Saturdays?", "next": "samstag"},
+        {"text": "Just strolling.", "next": "schlendern"}
+      ]
+    },
+    "verkaufen": {
+      "sprecher": "greta",
+      "text": [
+        "Hand it over! I pay fifteen percent above compost price — you got up early, after all.",
+        "Careful though: I don’t buy endlessly. The tenth pumpkin thrills me less than the first."
+      ],
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "preise": {
+      "sprecher": "greta",
+      "text": [
+        "Simple: the more of one kind you bring TODAY, the cheaper each further piece gets.",
+        "I never go below half. Next week the price is back up — the market forgets quickly."
+      ],
+      "next": "hallo"
+    },
+    "samstag": {
+      "sprecher": "greta",
+      "text": [
+        "Because we grow vegetables for six days and talk about them for one.",
+        "During the week only the sign stands here. Please don’t nibble the sign."
+      ],
+      "next": "hallo"
+    },
+    "schlendern": {
+      "sprecher": "greta",
+      "text": [
+        "Strolling is allowed. Tasting too — once. Twice is lunch.",
+        "My colleague at the cheese stall keeps count, by the way."
+      ],
+      "ende": true
+    }
+  }
+}

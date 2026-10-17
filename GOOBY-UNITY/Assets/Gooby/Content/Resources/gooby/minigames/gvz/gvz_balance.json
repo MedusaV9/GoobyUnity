@@ -1,0 +1,228 @@
+{
+	"schema": 1,
+	"ticks_per_second": 20,
+	"grid": {
+		"lanes": 5,
+		"cols": 9,
+		"cell_mm": 1000
+	},
+	"economy": {
+		"start_nutella": 50,
+		"max_nutella": 9975,
+		"sky_drop_amount": 25,
+		"sky_drop_first_ticks": 120,
+		"sky_drop_interval_ticks": 200,
+		"sky_drop_lifetime_ticks": 160,
+		"rain_drop_lifetime_ticks": 90
+	},
+	"combat": {
+		"zombie_speed_mm_per_tick": 10,
+		"bite_damage_per_tick": 5,
+		"projectile_speed_mm_per_tick": 250,
+		"slow_floor_pct": 20,
+		"mower_speed_mm_per_tick": 160
+	},
+	"score": {
+		"kill": 2,
+		"star_bonus": 10,
+		"level_bonus": 4,
+		"first_clear_bonus": 50
+	},
+	"difficulty": {
+		"easy": {
+			"zombie_hp_pct": 70,
+			"zombie_speed_bonus_pct": -10,
+			"start_nutella_bonus": 0,
+			"tower_hp_pct": 160
+		},
+		"normal": {
+			"zombie_hp_pct": 100,
+			"zombie_speed_bonus_pct": 0,
+			"start_nutella_bonus": 0,
+			"tower_hp_pct": 100
+		},
+		"hard": {
+			"zombie_hp_pct": 110,
+			"zombie_speed_bonus_pct": 5,
+			"start_nutella_bonus": 0,
+			"tower_hp_pct": 100
+		}
+	},
+	"towers": {
+		"moehrenschuetze": {
+			"cost": 100,
+			"hp": 300,
+			"cooldown_ticks": 150,
+			"damage": 20,
+			"fire_interval_ticks": 28,
+			"projectile": "carrot"
+		},
+		"nutella_sammler": {
+			"cost": 50,
+			"hp": 300,
+			"cooldown_ticks": 150,
+			"produce_amount": 25,
+			"produce_interval_ticks": 480
+		},
+		"dicker_bert": {
+			"cost": 50,
+			"hp": 4000,
+			"cooldown_ticks": 400
+		},
+		"schnarch_knolle": {
+			"cost": 25,
+			"hp": 300,
+			"cooldown_ticks": 400,
+			"arm_ticks": 280,
+			"damage": 1800
+		},
+		"boom_beere": {
+			"cost": 150,
+			"hp": 300,
+			"cooldown_ticks": 600,
+			"fuse_ticks": 24,
+			"damage": 1800,
+			"radius_cells": 1
+		},
+		"eis_gooby": {
+			"cost": 175,
+			"hp": 300,
+			"cooldown_ticks": 150,
+			"damage": 20,
+			"fire_interval_ticks": 28,
+			"projectile": "frost",
+			"slow_pct": 50,
+			"slow_ticks": 60
+		},
+		"doppelmoehre": {
+			"cost": 200,
+			"hp": 300,
+			"cooldown_ticks": 150,
+			"damage": 20,
+			"fire_interval_ticks": 28,
+			"projectile": "carrot",
+			"volley": 2
+		},
+		"magnet_gooby": {
+			"cost": 100,
+			"hp": 300,
+			"cooldown_ticks": 150,
+			"steal_interval_ticks": 240,
+			"range_cols": 4
+		},
+		"trampolin_gooby": {
+			"cost": 125,
+			"hp": 300,
+			"cooldown_ticks": 300,
+			"charges": 3
+		},
+		"pust_gooby": {
+			"cost": 150,
+			"hp": 300,
+			"cooldown_ticks": 300,
+			"gust_interval_ticks": 60,
+			"lane_slow_pct": 20
+		},
+		"sternchen_gooby": {
+			"cost": 140,
+			"hp": 300,
+			"cooldown_ticks": 150,
+			"damage": 15,
+			"fire_interval_ticks": 28,
+			"projectile": "star"
+		},
+		"melonen_meier": {
+			"cost": 300,
+			"hp": 300,
+			"cooldown_ticks": 300,
+			"damage": 80,
+			"splash_damage": 40,
+			"fire_interval_ticks": 60,
+			"projectile": "melon"
+		},
+		"goldi": {
+			"cost": 75,
+			"hp": 300,
+			"cooldown_ticks": 150,
+			"produce_amount": 50,
+			"produce_interval_ticks": 480,
+			"code_gate": true
+		}
+	},
+	"zombies": {
+		"schlurfi": {
+			"hp": 200,
+			"speed_pct": 100
+		},
+		"huetchen": {
+			"hp": 200,
+			"armor_hp": 370,
+			"armor": "huetchen",
+			"speed_pct": 100
+		},
+		"sprinter": {
+			"hp": 150,
+			"speed_pct": 200
+		},
+		"eimer": {
+			"hp": 200,
+			"armor_hp": 1100,
+			"armor": "eimer",
+			"speed_pct": 100
+		},
+		"zeitungsopa": {
+			"hp": 150,
+			"armor_hp": 150,
+			"armor": "zeitung",
+			"speed_pct": 80,
+			"rage_speed_pct": 250
+		},
+		"tuersteher": {
+			"hp": 200,
+			"armor_hp": 600,
+			"armor": "schild",
+			"speed_pct": 90,
+			"shield": true
+		},
+		"huepfer": {
+			"hp": 270,
+			"speed_pct": 120,
+			"jumps": 1
+		},
+		"maulwurf": {
+			"hp": 250,
+			"speed_pct": 100,
+			"digger": true
+		},
+		"ballon": {
+			"hp": 150,
+			"speed_pct": 110,
+			"flying": true
+		},
+		"brocken": {
+			"hp": 3000,
+			"speed_pct": 50,
+			"crusher": true,
+			"throw_mini_at_pct": 50,
+			"mini_type": "schlurfi"
+		},
+		"boss_knurps": {
+			"hp": 9000,
+			"phases": 3,
+			"lane_move_interval_ticks": 90,
+			"toss_interval_ticks": 300,
+			"summon_interval_ticks": 340,
+			"phase2_speedup_pct": 75,
+			"phase3_speedup_pct": 65,
+			"summon_types": [
+				"schlurfi",
+				"huetchen",
+				"sprinter",
+				"eimer",
+				"huepfer"
+			],
+			"summon_count_min": 2,
+			"summon_count_max": 3
+		}
+	}
+}

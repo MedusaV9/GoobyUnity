@@ -1,0 +1,14 @@
+{
+	"sys": {
+		"save": {
+			"recovered_backup": "Small hiccup while loading — Gooby fetched your latest backup. All good again!",
+			"recovered_fresh": "Ouch, your save was broken. Gooby starts fresh — the old save is kept as a safety copy."
+		},
+		"err": {
+			"offline": "Offline right now — this needs internet.",
+			"timeout": "This is taking too long — try again in a moment.",
+			"rate_limit": "Slow down! Take a breath and try again.",
+			"generic": "That didn't work ({code})."
+		}
+	}
+}

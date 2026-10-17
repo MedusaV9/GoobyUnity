@@ -1,0 +1,239 @@
+{
+	"soul": {
+		"gruss": {
+			"morgen": {
+				"a": "Good morning{namek}! Did you sleep well?",
+				"b": "Moooorning! I've been waiting for you!",
+				"c": "Good morning! Today's going to be a good day, I can feel it!",
+				"vertraut_a": "Good morning{namek}! {tage} days of us already — and every morning is better with you.",
+				"beste_a": "There's my favorite person! Good morning!",
+				"beste_b": "Morning, you! With you I don't have to explain anything. You just know me."
+			},
+			"mittag": {
+				"a": "Hey{namek}! I'm getting a little hungry…",
+				"b": "Hello you! So glad you're here!"
+			},
+			"nachmittag": {
+				"a": "Hey{namek}! How's your day been so far?",
+				"b": "Heeey! Perfect time for the two of us!"
+			},
+			"abend": {
+				"a": "Good evening{namek}! Shall we get cozy?",
+				"b": "Hello you! The evening is ours!",
+				"vertraut_a": "Good evening{namek}! Our evening ritual, hm? I like that.",
+				"beste_a": "Evening, you. Sofa, the two of us — like always?"
+			},
+			"nacht": {
+				"a": "You're still awake{namek}…? Me too. Shhh.",
+				"b": "Midnight visit! That stays our secret."
+			},
+			"gefreut": {
+				"a": "There you are! I was thinking about you!",
+				"b": "Yay, you're back! What are we doing today?",
+				"beste_a": "There you are! Without you this place is only half as nice. Honestly."
+			},
+			"eingeschnappt": {
+				"a": "Hmpf. You were gone a LONG time. … Fine, I missed you anyway.",
+				"b": "I'm sulking. A little. Okay, done sulking — glad you're here!"
+			},
+			"vermisst": {
+				"a": "YOU'RE BACK!! I missed you sooo much!",
+				"b": "Finally! I looked out the window every day to see if you were coming!"
+			}
+		},
+		"ritual": {
+			"geburtstag_spieler": {
+				"a": "HAPPY BIRTHDAY, {name}!! I remembered!",
+				"b": "Happy birthday, {name}! Today we celebrate YOU!"
+			},
+			"geburtstag_gooby": {
+				"a": "Today is MY birthday! Remember when I moved in?",
+				"b": "It's my birthday!! Is there… cake?"
+			},
+			"jubilaeum": {
+				"a": "You know what? We've known each other for {tage} days now! Nice, right?",
+				"b": "{tage} days, the two of us! Here's to many, many more!"
+			},
+			"neujahr": "Happy New Year!! This year is going to be OUR year!",
+			"ostern": "Happy Easter! I looked for eggs everywhere… none behind the sofa.",
+			"halloween": "Boo! … Did I scare you? A LITTLE? Happy Halloween!",
+			"nikolaus": "St. Nick's day! I polished my shoe. Just in case.",
+			"heiligabend": "Christmas Eve!! I'm SO excited. Can you hear the bells?",
+			"weihnachten": "Merry Christmas! The best present is you anyway.",
+			"silvester": "New Year's Eve! Let's stay up until midnight… or try to.",
+			"erster_schnee": "SNOW!! The first snow!! Look, LOOK!!"
+		},
+		"alltag": {
+			"zaehne": {
+				"a": "Teeth first! Squeaky clean!",
+				"b": "Toothbrush time! Scrub, scrub, scrub…"
+			},
+			"gutenacht": {
+				"a": "I'm getting sleeeepy… Will you tell me one more thing before I sleep?",
+				"b": "Yawn… Good night, you. Dream something nice about us."
+			}
+		},
+		"wetter": {
+			"regen": {
+				"a": "It's raining… I like the sound on the window.",
+				"b": "Pitter, patter… Good thing we're inside, right?"
+			},
+			"gewitter": "Was that THUNDER?! I-I'm not scared. Almost not.",
+			"schnee": "It's snowing again! Every flake is different, did you know that?"
+		},
+		"erinnerung": {
+			"rekord": "Remember your record in {spiel}? {punkte} points! That was pretty good!",
+			"urlaub": "Remember when we went on vacation? {ziel} was so beautiful!",
+			"kitzeln": "You've tickled me {anzahl} times already. I'm counting. Hehe.",
+			"garten": "{anzahl} harvests! Our garden is the best.",
+			"streak": "{tage} days in a row together! You and me, we're a team.",
+			"funkelpark": "Remember the theme park? {anzahl} visits! I still get dizzy.",
+			"spielzeit": "We've already spent {stunden} hours together. The best ones!",
+			"vorliebe_spiel": "I think {spiel} is OUR game. You always light up the most playing it!",
+			"vorliebe_essen": "You bring me {essen} most of all, I've noticed. Tastes the best, too.",
+			"goobye_markttag": "Remember our first market day at Goo and Bye? Uncle Alwin bought EXACTLY ONE carrot. I was so proud of us!",
+			"goobye_umsatz": "{tage} market days at our little store and already {muenzen} coins in the till! I helped count. Twice.",
+			"goobye_lieferwagen": "Remember when our delivery van arrived? I honked. With my mouth, but from the heart.",
+			"mcgooby_schichten": "{anzahl} shifts at McGooby already! Sometimes I dream of fries. Okay… more than sometimes.",
+			"mcgooby_bestwert": "Remember your best McGooby shift? {punkte} points! The trays were practically flying.",
+			"mcgooby_perfekt": "Your McGooby shift without a single slip — not ONE mistake! I almost lost my cap out of pure pride.",
+			"ranch_fund": "Remember when we discovered {ort}? My ears still tingle when I think about it.",
+			"ranch_funde": "{anzahl} secret spots found on the ranch! The two of us are real explorers.",
+			"ranch_karte": "Remember poring over the explorer map together? I made a dog-ear in it. Sorry.",
+			"geist_rekord": "Your ghost best run in {spiel}: {punkte} points! Your ghost probably practices in secret, but YOU are faster.",
+			"geist_sammlung": "{anzahl} ghost best runs already! A whole ghost gang — and every single one is YOU.",
+			"heimkehr": "Remember when I came home from {ziel}? The hug was the very best part of the whole vacation.",
+			"mitbringsel": "Our souvenir corner! {anzahl} treasures already. Each one tells a little journey when you look at it.",
+			"spotlight_a": "Remember your game of the day at the arcade? Extra coins! I applauded very quietly.",
+			"spotlight_b": "The arcade spotlight! You just went and got the daily bonus. You're still my favorite player."
+		},
+		"idle": {
+			"aufraeumen": {
+				"a": "Just tidying up a bit. A place for everything!",
+				"b": "Wasn't there… ah, there!"
+			},
+			"fernsehen": "Shhh, the exciting part is coming up!",
+			"fenster": "Just checking what's going on outside…",
+			"tanzen": "This song!! I HAVE to dance!",
+			"lieblingsplatz": "My favorite spot. {moebel} and I, we get each other."
+		},
+		"sup": {
+			"sofa_fund": "LOOK! Under the sofa! Coins! They're ours now!",
+			"traum": {
+				"a": "Zzz… no… YOU are the cookie…",
+				"b": "Zzz… five more minutes, Mr. Carrot…"
+			},
+			"turm": "I built a TOWER! I call it… Towery.",
+			"winken": "Hello! Yes, YOU there! I can see you! *wave*"
+		},
+		"kommentar": {
+			"moebel_neu": {
+				"a": "Oooh, {moebel}! Brand new! I already tested it — very good!",
+				"b": "{moebel}! It suits us, don't you think?"
+			},
+			"geschenk": {
+				"a": "Mmmh! Thank you!! You just know what I like!",
+				"b": "For ME? You're the best!"
+			},
+			"lieblingsessen": "{essen}!! My absolute FAVORITE! How did you know?",
+			"traurig": {
+				"a": "…it's okay. I'm just glad when you're here.",
+				"b": "*sigh* … Would you stay with me for a bit?"
+			}
+		},
+		"tipp": {
+			"kicher": {
+				"a": "Hihi!",
+				"b": "Hehe, that tickles!"
+			},
+			"kitzlig": "Hihihi!! Stop it — no, KEEP GOING — no, hihi!!",
+			"schwindelig": "Phew… I'm all dizzy… but that was fun."
+		},
+		"frage": {
+			"geburtstag": "Hey… when is your birthday, actually? I want to remember it!"
+		},
+		"essen": {
+			"carrot": "Carrot",
+			"apple": "Apple",
+			"cupcake": "Cupcake"
+		},
+		"geburtstag_panel": {
+			"titel": "When is your birthday?",
+			"monat": "Month",
+			"tag": "Day",
+			"speichern": "Remember it!",
+			"abbrechen": "Not telling",
+			"danke": "{tag}.{monat}. — saved! I will NEVER forget it!"
+		},
+		"wunsch": {
+			"funkelpark": "You know what? I've always wanted to visit the sparkle park. Do the lights REALLY sparkle there?",
+			"funkelpark_erfuellt": "Remember how I dreamed about the sparkle park? We REALLY went! Thank you!",
+			"urlaub": "I've always wanted to travel. Pack a suitcase once and just go!",
+			"urlaub_erfuellt": "We really went on vacation! I talked about it — and then we actually WENT!",
+			"streak7": "I wish we could see each other seven days in a row. A whole week of us!",
+			"streak7_erfuellt": "Seven days in a row! I wished for it, and you made it come true.",
+			"kissenturm": "I've always wanted to build a HUGE pillow tower. One day I'll dare!",
+			"kissenturm_erfuellt": "I built it! The pillow tower! Just like I always wanted!"
+		},
+		"absicht": {
+			"hunger_a": "Just taking a tiny peek at what's in the fridge…",
+			"hunger_b": "My tummy is rumbling a little. Can you hear it too?",
+			"langeweile_a": "I'm sooo bored… Will you play with me?",
+			"langeweile_b": "I'll find something to do. Or… do you have an idea?",
+			"muede_a": "I'm tired… The bed looks so cozy…",
+			"muede_b": "Yaaawn… Just lying down for a bit. Just a bit.",
+			"dreckig_a": "I feel a little sticky. Bath time?",
+			"regen_a": "It's raining… I'll sit by the window and watch the drops."
+		},
+		"feel": {
+			"schreck": {
+				"a": "WAAH! W-what was THAT?!",
+				"b": "Yikes!! My heart is pounding up to my ears!"
+			},
+			"freude": {
+				"a": "Hehe! Today is simply a good day!",
+				"b": "That makes me happy, you know?"
+			},
+			"begeisterung": {
+				"a": "YESSS! This is the BEST!",
+				"b": "Again! Again! Please, again!"
+			},
+			"ueberraschung": {
+				"a": "Oh!! I did NOT expect that!",
+				"b": "What?! Really? For me?"
+			},
+			"verlegenheit": {
+				"a": "Um… you saw nothing, okay?",
+				"b": "T-that wasn't what it looked like…"
+			},
+			"trotz": {
+				"a": "Hmpf. I'm sulking. Officially.",
+				"b": "Nope. Just nope."
+			},
+			"traurigkeit": {
+				"a": "I'm feeling a bit small right now…",
+				"b": "Could you stay with me for a moment…?"
+			},
+			"muedigkeit": {
+				"a": "Mhhh… just five more minutes…",
+				"b": "So… sleeeepy…"
+			},
+			"neugier": {
+				"a": "Oh? What is THAT?",
+				"b": "I need a closer look at this!"
+			},
+			"stolz": {
+				"a": "Did you see that? THAT WAS ME!",
+				"b": "New record! I'm basically famous!"
+			},
+			"angst": {
+				"a": "I-is somebody there…? It's so dark…",
+				"b": "I'm not scared! Just… careful!"
+			},
+			"verliebtheit": {
+				"a": "My FAVORITE food! You know me so well!",
+				"b": "I… I think this is love."
+			}
+		}
+	}
+}

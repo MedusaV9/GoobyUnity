@@ -1,0 +1,35 @@
+{
+  "goobyman": {
+    "laden": {
+      "claim": "Everything that can break — and the spares to match!",
+      "erstes_mal": "First visit! Remember this shop: when your toothbrush breaks, the Goobyman has new ones.",
+      "buerste_status": "Your brush: {name} — {zustand}",
+      "haltbarkeit": "Durability: {n} points",
+      "pflaster_heute": "Already patched up today. Come back tomorrow!",
+      "abschnitt_zahnbuersten": "Toothbrushes",
+      "abschnitt_pflege": "First Aid & Sleep"
+    },
+    "buerste": {
+      "standard": "Standard",
+      "flausch": "Fluff",
+      "turbo": "Turbo 3000",
+      "zustand_neu": "like new",
+      "zustand_benutzt": "nicely broken in",
+      "zustand_ausgefranst": "pretty frayed",
+      "zustand_gebrochen": "done for"
+    },
+    "zahnputz": {
+      "blockiert": "The brush is done for! The Goobyman in town has new ones.",
+      "neue_buerste": "New brush locked in — back to scrubbing!"
+    },
+    "bruch_info": {
+      "titel": "Oops, brush broke!",
+      "text": "Happens to the best of us. The GOOBYMAN shop in town sells new toothbrushes — Fluff and Turbo last longer.",
+      "ok": "Got it!"
+    },
+    "umhang": {
+      "gag": "FIVE items?! That's a job for … GOOBYMAN!",
+      "pose": "*strikes a pose with a billowing towel*"
+    }
+  }
+}

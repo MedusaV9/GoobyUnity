@@ -1,0 +1,99 @@
+{
+	"mg": {
+		"basketBounce": {
+			"title": "Basket Bounce",
+			"hint": "Flick the ball up into the hoop!",
+			"miss": "Missed!",
+			"on_fire": "He's on fire!",
+			"misses": "Misses: {n}/{max}"
+		},
+		"pancakeTower": {
+			"title": "Pancake Tower",
+			"hint": "Tap when the pancake lines up!",
+			"layers": "Layers: {n}",
+			"width": "Width: {pct}%",
+			"perfect": "Perfect stack!",
+			"topple": "The tower is wobbling!"
+		},
+		"miniGolf": {
+			"title": "Mini Golf",
+			"hint": "Drag to aim, release to putt.",
+			"hole": "Hole {n}/{max}",
+			"strokes": "Strokes: {n} · Par {par}",
+			"over_par": "Over par: {n}/{max}",
+			"ace": "HOLE-IN-ONE! +30",
+			"gave_up": "Phew! Next hole…"
+		},
+		"fishingPond": {
+			"title": "Fishing Pond",
+			"hint": "Tap to cast · reel in rhythm!",
+			"depth": "Depth: {m} m",
+			"failures": "Line breaks: {n}/{max}",
+			"line_break": "The line snapped!",
+			"rare_set": "Rare catch! +{n}",
+			"reel": "Reel it in!"
+		},
+		"goalieGooby": {
+			"title": "Goalie Gooby",
+			"hint": "Tap the corner you want to dive to!",
+			"saves": "Saves: {n}",
+			"conceded": "Goals against: {n}/{max}",
+			"super": "Super save! +6",
+			"goal": "Goal conceded…",
+			"cheer": "The crowd cheers! Faster!"
+		},
+		"starHopper": {
+			"title": "Star Hopper",
+			"hint": "Swipe sideways to switch lanes.",
+			"intro": "Dodge the meteors — grab the stars!",
+			"distance": "{m} m",
+			"speed": "Speed {v}",
+			"shield": "Shield up!",
+			"shield_pop": "The shield saved you!",
+			"shower": "Meteor shower!",
+			"wormhole": "Wormhole!",
+			"speed_up": "Speed up!"
+		},
+		"rocketRescue": {
+			"title": "Rocket Rescue",
+			"hint": "Hold to thrust · left/right to tilt",
+			"fuel": "Fuel: {n}",
+			"rescued": "Rescued: {n}/{max}",
+			"aboard": "Bunny aboard!",
+			"saved": "Safe landing!",
+			"hard": "Hard landing! −10 fuel",
+			"low_fuel": "Fuel low!",
+			"towed": "Out of fuel — towing you home…"
+		},
+		"danceParty": {
+			"title": "Dance Party",
+			"hint": "Tap the notes on the line — stay on beat!",
+			"encore": "ENCORE!",
+			"breaks": "Combo breaks: {n}/{max}",
+			"kalib_knopf": "Adjust timing ({ms} ms)",
+			"kalib_titel": "Adjust timing",
+			"kalib_text": "Tap along with the 8 metronome beats — we'll remember your timing.",
+			"kalib_offset": "Offset: {ms} ms",
+			"kalib_beat": "Beat {n}/{max}",
+			"kalib_ergebnis": "Your offset: {ms} ms — saved!",
+			"kalib_tap": "TAP!",
+			"kalib_start": "Go!",
+			"kalib_reset": "Reset",
+			"kalib_zu": "Done"
+		},
+		"ghostHunt": {
+			"title": "Ghost Hunt",
+			"hint": "Tap the ghosts peeking out of the graves!",
+			"chainPill": "Chain ×{n}",
+			"netPill": "Net {n}",
+			"lanternPill": "Lantern {n}s",
+			"decoy": "Ouch — decoy lantern! −2",
+			"boo": "BOO-WAVE!",
+			"booBonus": "Boo bonus +{n}!",
+			"booMiss": "Wave over — {n}/5 caught",
+			"lantern": "Lantern! Hiding spots revealed",
+			"net": "Net! Next 3 catches auto-chain",
+			"escapes": "Escaped: {n}/{max}"
+		}
+	}
+}

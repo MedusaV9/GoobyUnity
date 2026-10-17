@@ -1,0 +1,291 @@
+{
+ "v": 4,
+ "createdAt": 1763294400000,
+ "lastTickAt": 1763294400000,
+ "stats": {
+  "hunger": 80,
+  "energy": 90,
+  "hygiene": 85,
+  "fun": 70
+ },
+ "sleep": {
+  "sleeping": false,
+  "startedAt": 0,
+  "wakeAt": 0
+ },
+ "grumpyUntil": 0,
+ "coins": 1234,
+ "xp": 0,
+ "level": 9,
+ "inventory": {
+  "carrot": 3,
+  "apple": 1,
+  "cupcake": 1
+ },
+ "furniture": {
+  "owned": [
+   "radio"
+  ],
+  "placed": {
+   "living:shelf1": "radio"
+  }
+ },
+ "decor": {
+  "wallpaper": {},
+  "floor": {}
+ },
+ "outfits": {
+  "owned": [],
+  "equipped": {
+   "hat": null,
+   "glasses": null,
+   "neck": null,
+   "back": null
+  }
+ },
+ "minigames": {
+  "best": {
+   "carrotCatch": 44
+  },
+  "plays": {},
+  "lastPlayDay": {},
+  "difficulty": {
+   "carrotCatch": "easy",
+   "bunnyHop": "hard"
+  },
+  "beaten": {},
+  "bestByDiff": {},
+  "endlessBest": {}
+ },
+ "achievements": {
+  "unlocked": {},
+  "counters": {
+   "feeds": 0,
+   "washes": 0,
+   "sleeps": 0,
+   "trips": 0,
+   "tickles": 0,
+   "petsToday": 0,
+   "petsDay": "",
+   "harvests": 0,
+   "plantings": 0,
+   "waterings": 0,
+   "sells": 0,
+   "cures": 0,
+   "vetTrips": 0,
+   "deliveries": 0,
+   "questsDone": 0,
+   "photosTaken": 0,
+   "nightPlays": 0,
+   "medsGiven": 0,
+   "balls": 0,
+   "nougatGlobs": 0,
+   "cakesServed": 0,
+   "perfectCakes": 0,
+   "surfRuns": 0,
+   "surfDistanceM": 0,
+   "races": 0,
+   "ghostsCaught": 0,
+   "rescues": 0,
+   "cratesShipped": 0,
+   "codesRedeemed": 0,
+   "modifierPlays": 0,
+   "recapsSeen": 0,
+   "radioMinutes": 0,
+   "galleryPhotos": 0,
+   "sickEver": 2,
+   "holeInOnes": 3,
+   "photoXpDay": "2026-01-15",
+   "photoXpToday": 2
+  }
+ },
+ "daily": {
+  "lastClaimDay": "",
+  "streak": 0
+ },
+ "quickDelivery": false,
+ "settings": {
+  "lang": "auto",
+  "sfx": true,
+  "music": true,
+  "haptics": true,
+  "notifications": "unasked",
+  "uiScale": 100,
+  "volumes": {
+   "master": 80,
+   "sfx": 100,
+   "music": 70,
+   "voice": 100,
+   "ambience": 80
+  },
+  "devUnlocked": false,
+  "gyro": false,
+  "controls": {
+   "invertX": false,
+   "invertY": false
+  },
+  "goobyWeltQuality": "high"
+ },
+ "onboarding": {
+  "done": true,
+  "step": 99,
+  "whatsNew2Seen": true,
+  "whatsNew3Seen": true,
+  "whatsNew4Seen": true
+ },
+ "garden": {
+  "plotsOwned": 4,
+  "plots": [
+   {
+    "crop": null,
+    "plantedAt": 0,
+    "progressMin": 0,
+    "wateredUntil": 0,
+    "waterings": 0,
+    "fertilized": false
+   },
+   {
+    "crop": null,
+    "plantedAt": 0,
+    "progressMin": 0,
+    "wateredUntil": 0,
+    "waterings": 0,
+    "fertilized": false
+   },
+   {
+    "crop": null,
+    "plantedAt": 0,
+    "progressMin": 0,
+    "wateredUntil": 0,
+    "waterings": 0,
+    "fertilized": false
+   },
+   {
+    "crop": null,
+    "plantedAt": 0,
+    "progressMin": 0,
+    "wateredUntil": 0,
+    "waterings": 0,
+    "fertilized": false
+   },
+   {
+    "crop": null,
+    "plantedAt": 0,
+    "progressMin": 0,
+    "wateredUntil": 0,
+    "waterings": 0,
+    "fertilized": false
+   },
+   {
+    "crop": null,
+    "plantedAt": 0,
+    "progressMin": 0,
+    "wateredUntil": 0,
+    "waterings": 0,
+    "fertilized": false
+   }
+  ],
+  "lastTickAt": 0
+ },
+ "health": {
+  "state": "healthy",
+  "junkScore": 0,
+  "neglectMin": 0,
+  "recoverMin": 0,
+  "since": 0
+ },
+ "weight": {
+  "value": 50
+ },
+ "quests": {
+  "day": "",
+  "active": [],
+  "rerolledDay": "",
+  "completedTotal": 0
+ },
+ "collections": {
+  "entries": {},
+  "claimedSets": {}
+ },
+ "skins": {
+  "owned": [
+   "cream"
+  ],
+  "equipped": "cream"
+ },
+ "items": {
+  "medicine": 0,
+  "fertilizer": 0
+ },
+ "profile": {
+  "playtimeMin": 0,
+  "coinsEarned": 0,
+  "coinsSpent": 0,
+  "distanceM": 0,
+  "photos": 0
+ },
+ "stickers": {
+  "unlocked": {},
+  "seen": {}
+ },
+ "nougat": {
+  "lastGlobAt": 0,
+  "installed": false
+ },
+ "radio": {
+  "station": "bordmusik",
+  "playing": false,
+  "shuffle": true,
+  "replaceContext": true,
+  "lastTrack": "",
+  "trims": {},
+  "recapHeard": {}
+ },
+ "codes": {
+  "redeemed": {},
+  "lockUntil": 0,
+  "buffs": {
+   "doubleCoinsUntil": 0
+  }
+ },
+ "modifiers": {
+  "nextAt": 0,
+  "seed": 2357808640,
+  "current": null,
+  "lastGameId": "",
+  "dayCoins": 0,
+  "dayCoinsDay": ""
+ },
+ "recap": {
+  "lastRecapLevel": 0,
+  "baseline": {},
+  "baselineAt": 0,
+  "pendingLevel": 0,
+  "history": []
+ },
+ "gallery": {
+  "count": 0,
+  "lastAddedAt": 0,
+  "hintShown": false
+ },
+ "cutscenes": {
+  "seen": {
+   "vacDeparture": true,
+   "versaryMonth": true
+  }
+ },
+ "care": {
+  "toiletAt": 1768474800000,
+  "sickNotifyAt": 1768471200000
+ },
+ "themePark": {
+  "visits": 1000000000000000,
+  "nightVisit": "ja",
+  "rides": {
+   "coaster": -5,
+   "ufo": 9
+  },
+  "handsUp": 1000000000000000,
+  "candyBought": 12
+ }
+}

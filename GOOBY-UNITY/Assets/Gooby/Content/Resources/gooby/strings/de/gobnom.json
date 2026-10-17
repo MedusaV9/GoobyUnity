@@ -1,0 +1,86 @@
+{
+	"gobnom": {
+		"select": {
+			"title": "GOB NOM",
+			"campaign": "Kampagne",
+			"coop": "Coop (2 Spieler — links A, rechts B)",
+			"done": "Fertig",
+			"stars": "Nutella-Gläser: {n}/{max}",
+			"new": "NEU"
+		},
+		"hud": {
+			"level": "Level {n}",
+			"coop_level": "Coop {n}",
+			"cuts": "Schnitte übrig: {n}",
+			"jar": "+Nutella!",
+			"wrong_side": "Falsche Seite!"
+		},
+		"intro": {
+			"rope": "Swipe durchs Seil — ab in den Mund!",
+			"ropes": "Zwei Seile: Timing ist alles.",
+			"timing": "Pendeln lassen, dann schneiden!",
+			"bubble": "Blasen tragen nach oben — antippen platzt.",
+			"bubble_rope": "Blase + Seil: erst schwingen, dann steigen.",
+			"cushion": "Kissen antippen = Luftstoß!",
+			"cushion_combo": "Flipper-Kissen: links hoch, rechts rüber.",
+			"slider": "Zieh den Anker über die Schiene!",
+			"shooter": "Der Schießer fängt — du schneidest frei.",
+			"spikes": "Vorsicht, Stacheln! Präzise pendeln.",
+			"fan": "Der Ventilator bläst — dagegenhalten!",
+			"cloud": "Zuckerwatte bremst den Fall.",
+			"all": "Alles zusammen: Schiene, Kissen, Blase, Wolke.",
+			"cut_limit": "Nur 3 Schnitte — der Wind hilft.",
+			"finale": "Finale! Pendel, Puff, Blase, Wolke, NOM.",
+			"relay": "Staffel: A schneidet links, B rechts!",
+			"shooter_relay": "A startet, B released den Schießer.",
+			"bubble_relay": "A schneidet, B poppt über dem Mund.",
+			"cushion_volley": "Kissen-Volley: A flippert, B kontert.",
+			"slider_relay": "Schienen-Staffel: A schiebt, B übernimmt.",
+			"y_split": "A oben schneiden, B unten puffen!",
+			"fan_off": "B: Sturm abschalten! A: pendeln.",
+			"shooter_chain": "Kette: A released links, B rechts.",
+			"combo": "Alles im Team: A Schiene+Kissen, B Blase.",
+			"finale_coop": "Coop-Finale: A Pendel+Puff, B der Pop."
+		},
+		"end": {
+			"win": "NOM! Lecker!",
+			"lose": "Ohje — das Bonbon ist weg…",
+			"lose_hint": "Tipp: Erst schauen, wohin es schwingt!",
+			"score": "{n} Punkte",
+			"first_clear": "Erst-Abschluss-Bonus!",
+			"next": "Weiter ›",
+			"retry": "Nochmal",
+			"select": "Level-Wahl"
+		},
+		"netz": {
+			"button": "Mit Freund spielen",
+			"bereit": "Lade einen Freund ein — ihr spielt die Coop-Level zu zweit!",
+			"offline": "Offline — Netz-Coop braucht eine Verbindung.",
+			"keine_freunde": "Gerade ist kein Freund online.",
+			"einladen": "Einladen",
+			"eingeladen": "Einladung an {name} geschickt — warte auf Antwort…",
+			"laedt_ein": "{name} lädt dich zum Coop ein!",
+			"annehmen": "Annehmen",
+			"ablehnen": "Ablehnen",
+			"abgelehnt": "{name} hat abgelehnt.",
+			"fehler": "Klappt gerade nicht ({code}).",
+			"verbunden": "Verbunden mit {name} — wählt zusammen ein Coop-Level!",
+			"trennen": "Trennen",
+			"eigenes_level": "Du: Coop {n}",
+			"partner_level": "{name}: Coop {n}",
+			"start_banner": "Los geht's — mit {name}!",
+			"warte_partner": "Warte auf Partner…",
+			"partner_weg": "{name} hat Verbindungsprobleme…",
+			"partner_da": "{name} ist wieder da!",
+			"desync": "Ups — ihr wart nicht mehr synchron. Runde beendet.",
+			"abbruch": "Die Coop-Runde wurde beendet."
+		},
+		"editor": {
+			"loesbar": "LÖSBAR ✔",
+			"nicht_loesbar": "NICHT LÖSBAR ✘",
+			"nichts_gewaehlt": "Nichts gewählt — Element im Feld anklicken.",
+			"hint_f6": "GOB-NOM-Level-Editor: Szene mit F6 starten (siehe README.md).",
+			"snap_raster": "Snap-Raster (px)"
+		}
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"collections": {
+		"titel": "Collections",
+		"chip": "Collections",
+		"gesamt": "{n} of {total} treasures found",
+		"fortschritt": "{n}/{total}",
+		"unbekannt": "???",
+		"claim": "Claim reward",
+		"claimed": "Claimed!",
+		"claim_toast": "\u201c{name}\u201d complete! +{coins} coins & \u201c{item}\u201d added!",
+		"set": {
+			"fish": "Pond Fish",
+			"veggies": "Veggie Garden",
+			"landmarks": "City Landmarks",
+			"treats": "Sweet Sins"
+		},
+		"hinweis": {
+			"fish": "Keep fishing at the pond and you will catch them all!",
+			"veggies": "Harvest every veggie once in your garden!",
+			"landmarks": "Drive right up to the city landmarks!",
+			"treats": "Nibble your way across the candy shelf!"
+		},
+		"reward": {
+			"fish": "Goldfish Bowl",
+			"veggies": "Golden Watering Can",
+			"landmarks": "Toy City",
+			"treats": "Candy Jar"
+		},
+		"eintrag": {
+			"fish": {
+				"sunnyCarp": "Sunny Carp",
+				"blueDace": "Blue Dace",
+				"pinkKoi": "Pink Koi",
+				"stripeBass": "Stripe Bass",
+				"tinyMinnow": "Tiny Minnow",
+				"bigWhopper": "Big Whopper",
+				"nightEel": "Night Eel",
+				"goldenFish": "Golden Fish"
+			},
+			"veggies": {
+				"radish": "Radish",
+				"carrot": "Carrot",
+				"salad": "Lettuce",
+				"tomato": "Tomato",
+				"corn": "Corn",
+				"eggplant": "Eggplant",
+				"pumpkin": "Pumpkin",
+				"watermelon": "Watermelon"
+			},
+			"landmarks": {
+				"shop": "The Shop",
+				"vetClinic": "Vet Clinic",
+				"fountain": "Fountain",
+				"skyTower": "Sky Tower",
+				"parkGazebo": "Park Gazebo",
+				"windmillCafe": "Windmill Cafe"
+			},
+			"treats": {
+				"donut-sprinkles": "Sprinkle Donut",
+				"cupcake": "Cupcake",
+				"ice-cream": "Ice Cream",
+				"cake": "Cake",
+				"cookie": "Cookie",
+				"candy-bar": "Candy Bar",
+				"lollypop": "Lollipop",
+				"sundae": "Sundae",
+				"chocolate": "Chocolate",
+				"muffin": "Muffin"
+			}
+		}
+	}
+}

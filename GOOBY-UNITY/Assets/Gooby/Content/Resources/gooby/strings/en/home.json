@@ -1,0 +1,115 @@
+{
+	"home": {
+		"raum": {
+			"living": "Living Room",
+			"kitchen": "Kitchen",
+			"bathroom": "Bathroom",
+			"bedroom": "Bedroom",
+			"garden": "Garden"
+		},
+		"tuer": {
+			"stuck": "Gooby got stuck!",
+			"mash_hint": "Tap! Tap! Tap!",
+			"confirm_raum": "Enter {raum}?",
+			"confirm_draussen": "Go outside?",
+			"confirm_ja": "Let's go!",
+			"confirm_nein": "Not now"
+		},
+		"blocked": {
+			"bubble": "I'm not that good at climbing… awww man!",
+			"umbauen": "I'll rebuild",
+			"lava": "FLOOR IS LAVA",
+			"spidergooby": "I AM SPIDERGOOBY!!"
+		},
+		"gooby": {
+			"watch": "Oooh, is it gonna be pretty?"
+		},
+		"suche": {
+			"hier": "I'm right here! I was just waiting for you!",
+			"unterwegs": "I'm on a stroll! This way, then that way!",
+			"schlaeft": "Shhh… I'm dreaming of a giant carrot…",
+			"baumodus": "I'm here! I'm watching you redecorate!",
+			"akt": {
+				"idle_aufraeumen": "I tidied up a little — almost all of it voluntarily!",
+				"idle_fernsehen": "I was watching TV! The carrot show is on soon!",
+				"idle_doesen": "I only closed my eyes for a teeny moment. Honest!",
+				"idle_fenster": "I was looking out the window — so much going on out there!",
+				"idle_tanzen": "I was dancing! Look: my wiggly-ears move!",
+				"idle_lieblingsplatz": "I was at my favorite spot. It's the snuggliest!",
+				"absicht_hunger": "My tummy is growling like a bear! Looking for a snack…",
+				"absicht_langeweile": "I was sooo bored — looking for something to play with!",
+				"absicht_muede": "I'm sooo sleepy… where's my bed?",
+				"absicht_dreckig": "I'm a bit sticky… off to the bathroom with me!",
+				"absicht_regen": "It's raining! I'm watching the drops race each other!"
+			}
+		},
+		"auge": {
+			"hinweis": "Everything that sparkles can be tapped!"
+		},
+		"umzug": "Moving day! Everything is still in boxes…",
+		"aktion_bald": "Coming soon!"
+	},
+	"build": {
+		"lager": "Storage {used}/{cap}",
+		"lager_kurz": "{used}/{cap}",
+		"lager_voll": "Storage full! Place something first or sell a piece of furniture.",
+		"leer": "Your storage is empty.",
+		"fertig": "Done",
+		"rotieren": "Rotate",
+		"bestaetigen": "Place",
+		"einlagern": "Store",
+		"abbrechen": "Cancel",
+		"bett_quest": "Place your bed! Gooby wants to snuggle!",
+		"hammer_fertig": "Tadaa! Built it myself!",
+		"kamera": {
+			"oben": "Top view",
+			"schraeg": "Angled view",
+			"links": "⟲ 90°",
+			"rechts": "90° ⟳"
+		},
+		"pflicht": {
+			"bett": "Gooby needs his bed! 😤",
+			"couch": "Gooby needs his couch! 😤",
+			"kuehlschrank": "Gooby needs his fridge! 😤"
+		},
+		"ebene": {
+			"boden": "Floor",
+			"wand": "Wall",
+			"decke": "Ceiling"
+		},
+		"status": {
+			"ebene": "Building · Layer: {ebene}",
+			"girlande_a": "Garland: pick the first spot",
+			"girlande_b": "Garland: pick the second spot"
+		},
+		"girlande": {
+			"punkt_a": "Tap the first ceiling spot!",
+			"punkt_b": "Now the second one — watch it drape!",
+			"haengt": "Tadaa! The garland is dangling!",
+			"ungueltig": "Oops, that won't work — pick two ceiling cells!",
+			"entfernt": "Garland taken down and stored!",
+			"nur_drinnen": "Garlands hang from a ceiling indoors — out in the garden the sky is the ceiling!"
+		},
+		"preset": {
+			"knopf": "Presets",
+			"titel": "Save room",
+			"schliessen": "Back",
+			"name_platzhalter": "Layout name",
+			"name_hinweis": "Type a name up top first!",
+			"frei": "Empty slot",
+			"info": "{moebel} furniture · {girlanden} garlands",
+			"info_eine": "{moebel} furniture · 1 garland",
+			"speichern": "Save",
+			"ueberschreiben": "Overwrite",
+			"anwenden": "Apply",
+			"loeschen": "Delete",
+			"sicher": "Sure?",
+			"gespeichert": "Layout saved!",
+			"geloescht": "Preset deleted.",
+			"angewendet": "Tadaa! Layout swapped!",
+			"fehlend": "Layout swapped — {anzahl} pieces were missing and left out.",
+			"lager_voll": "Storage would overflow — nothing changed!"
+		},
+		"moebel_kaufen": "Buy furniture"
+	}
+}

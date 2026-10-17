@@ -1,0 +1,76 @@
+{
+	"veil": {
+		"laedt": "Loading…",
+		"home": {
+			"titel": "Home sweet home",
+			"bereit": "Heading home…",
+			"tips": [
+				"Fluffing the pillows…",
+				"Putting the kettle on…",
+				"Watering the flowers…"
+			]
+		},
+		"trip": {
+			"titel": "Off we go!",
+			"bereit": "Time for a little outing…",
+			"tips": [
+				"Packing snacks for the ride…",
+				"Checking the shopping list…",
+				"Lacing up the tiny shoes…"
+			]
+		},
+		"game": {
+			"bereit": "Get ready!",
+			"tips": [
+				"Tip: You can pause any time with the Pause button.",
+				"Tip: The first round of each game every day pays double coins!",
+				"Tip: Hard mode pays ×1.3 coins — Endless is pure bragging rights."
+			]
+		},
+		"dlc": {
+			"titel": "DLC Library",
+			"bereit": "Time to browse…",
+			"tips": [
+				"Dusting off the shelves…",
+				"Sorting in new adventures…",
+				"Polishing the coming-soon shelf…"
+			]
+		},
+		"ranch": {
+			"titel": "Off to the ranch!",
+			"bereit": "Out into the green…",
+			"tips": [
+				"Fluffing up the hay…",
+				"Polishing the saddles…",
+				"Packing carrots for the horse…"
+			]
+		},
+		"arcade": {
+			"titel": "Off to the arcade!",
+			"bereit": "The cabinets are glowing…",
+			"tips": [
+				"Buffing the high scores…",
+				"A cup of coins is ready…",
+				"The screens are flickering awake…"
+			]
+		},
+		"reise": {
+			"titel": "Safe travels!",
+			"bereit": "The plane is waiting…",
+			"tips": [
+				"Stamping the passport…",
+				"Printing the boarding pass…",
+				"Saving you a window seat…"
+			]
+		},
+		"unterwegs": {
+			"titel": "On the way…",
+			"bereit": "Almost there…",
+			"tips": [
+				"The tiny shoes are laced up…",
+				"Sweeping the path clear…",
+				"Gooby hums a little travel tune…"
+			]
+		}
+	}
+}

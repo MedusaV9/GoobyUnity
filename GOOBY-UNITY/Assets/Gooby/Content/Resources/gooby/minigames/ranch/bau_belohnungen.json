@@ -1,0 +1,7 @@
+{
+	"deko": {
+		"deko_mistgabel_gold": {"kosten": 0, "belohnung": true, "stil": 5},
+		"deko_schleifenwand": {"kosten": 0, "belohnung": true, "stil": 5},
+		"girlande_ranchfest": {"kosten": 0, "belohnung": true, "stil": 5}
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"instant": {
+		"titel": "InstantGooby",
+		"feed_leer": "Noch nichts im Feed — poste doch das erste Foto!",
+		"aktualisieren": "Neu laden",
+		"posten": "Posten",
+		"offline": "Offline — der Feed braucht Verbindung.",
+		"outbox": "Wartet auf Upload: {n}",
+		"cap_hinweis": "Zeigt die letzten {n} Posts — ältere sind weitergezogen.",
+		"dein_post": "Dein Post",
+		"moehre": "Möhre da lassen",
+		"moehre_gelassen": "Möhre da gelassen",
+		"compose": {
+			"titel": "Neuer Post",
+			"foto": "Foto",
+			"foto_waehlen": "Foto wählen…",
+			"galerie_leer": "Die Galerie ist leer — erst knipsen, dann posten!",
+			"caption_hint": "Kurz und knuffig…",
+			"zeichen": "{n}/{max}",
+			"senden": "An alle Freunde posten",
+			"zurueck": "‹ Zurück zum Feed"
+		},
+		"toast": {
+			"gepostet": "Post ist raus — an {n} Freunde!",
+			"queued": "Wird gepostet, sobald du online bist!",
+			"moehre_da": "{name} hat dir eine Möhre da gelassen! 🥕"
+		},
+		"err": {
+			"offline": "Gerade keine Verbindung — der Post wartet im Körbchen.",
+			"daily_limit": "Für heute reicht’s: 20 Sendungen pro Tag sind genug!",
+			"no_photo": "Ohne Foto kein Post — InstantGooby ist nun mal eine Foto-App.",
+			"no_friends": "Erst Freunde finden — dann hat der Feed auch Publikum!",
+			"caption_too_long": "Die Caption ist zu lang — kürz sie ein bisschen.",
+			"photo": "Das Foto mag nicht in den Feed — zu groß oder zu seltsam.",
+			"not_found": "Diesen Post kennt der Feed nicht mehr.",
+			"self": "Die eigene Möhre zählt nicht — netter Versuch!",
+			"rate_limit": "Langsam — der Feed kommt nicht hinterher!",
+			"generic": "Uff — da ist beim Posten was schiefgegangen."
+		}
+	}
+}

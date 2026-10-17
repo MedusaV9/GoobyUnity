@@ -1,0 +1,111 @@
+/* gooby-arcade-friends.uss — see header comment in GoobyTheme.tss */
+/* Arcade friends leaderboard (arcade.js), board-06 look: cream pills with pastel accents.
+   Results card (MinigameHostScreen): .gb-mgf (#mg-friends-board, hidden until a board with a friend arrives) >
+   .gb-mgf-head (.gb-mgf-title "Freunde" + .gb-mgf-rankline #mg-friends-rank, --top for #1) + .gb-mgf-list (row of up
+   to 3 .gb-mgf-pill (--1/--2/--3 accent, --me for the own line) > .gb-mgf-rank tile, .gb-mgf-name, .gb-mgf-score).
+   Arcade cards (ArcadeScreen): .gb-arcf-top (#arc-friend-top-<gameId>) > .gb-arcf-crown "♛" (GoobyFallback) + .gb-arcf-text.
+   Never put transition-* / opacity on .gb-mgf: gb-fade-in (base) drives it. */
+
+/* ---------- results card: "Freunde" block under the score card ---------- */
+.gb-mgf {
+    flex-shrink: 0;
+    margin-bottom: 10px;
+    padding: 8px 12px 10px 12px;
+    border-radius: var(--gb-r-lg);
+    background-color: var(--gb-creme);
+    border-width: 2px;
+    border-color: rgba(152, 231, 225, 0.55);
+    border-bottom-width: 4px;
+    border-bottom-color: rgba(62, 207, 178, 0.35);
+}
+.gb-mgf-head { flex-direction: row; align-items: center; margin: 0 2px 6px 2px; }
+.gb-mgf-title {
+    font-size: var(--gb-sm);
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    color: var(--gb-text-mild);
+    letter-spacing: 1px;
+}
+.gb-mgf-rankline {
+    flex-shrink: 1;
+    font-size: 13px;
+    -unity-font-definition: url("../Fonts/Nunito-Bold.ttf");
+    color: var(--gb-schoko);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.gb-mgf-rankline--top { -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #D98A00; }
+.gb-mgf-list { flex-direction: row; align-items: center; margin: 0 -4px 0 -4px; }
+.gb-mgf-pill {
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+    height: 34px;
+    margin: 0 4px 0 4px;
+    padding: 0 12px 0 4px;
+    border-radius: var(--gb-r-pill);
+    background-color: var(--gb-weiss);
+    border-width: 2px;
+    border-color: var(--gb-sand-mittel);
+}
+.gb-mgf-pill--me { background-color: #FFF0F0; border-color: rgba(255, 139, 139, 0.65); }
+.gb-mgf-rank {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+    flex-shrink: 0;
+    border-radius: var(--gb-r-pill);
+    background-color: var(--gb-sand-hell);
+    font-size: 13px;
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    color: var(--gb-schoko);
+    -unity-text-align: middle-center;
+}
+.gb-mgf-pill--1 > .gb-mgf-rank { background-color: #FFE3A3; color: #9A6200; }
+.gb-mgf-pill--2 > .gb-mgf-rank { background-color: var(--gb-eisblau); color: #2F5E9E; }
+.gb-mgf-pill--3 > .gb-mgf-rank { background-color: #FFD9C2; color: #A0522D; }
+.gb-mgf-name {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+    font-size: 14px;
+    -unity-font-definition: url("../Fonts/Nunito-Bold.ttf");
+    color: var(--gb-text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.gb-mgf-score {
+    flex-shrink: 0;
+    margin-left: 6px;
+    font-size: 14px;
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    color: var(--gb-schoko);
+}
+
+/* ---------- arcade card: the friend holding the top score ---------- */
+.gb-arcf-top {
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    flex-shrink: 0;
+    max-width: 100%;
+    margin-top: 6px;
+    padding: 1px 10px 1px 6px;
+    border-radius: var(--gb-r-pill);
+    background-color: #EAF9F6;
+    border-width: 1px;
+    border-color: rgba(62, 207, 178, 0.45);
+}
+.gb-arcf-crown { margin-right: 4px; font-size: 13px; color: #E0A100; }
+.gb-arcf-text {
+    flex-shrink: 1;
+    font-size: 12px;
+    -unity-font-definition: url("../Fonts/Nunito-Bold.ttf");
+    color: var(--gb-schoko);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

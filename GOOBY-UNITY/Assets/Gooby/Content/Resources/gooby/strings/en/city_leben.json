@@ -1,0 +1,126 @@
+{
+  "city_leben": {
+    "ziel_gesetzt": "GPS on: off to {ort}!",
+    "ziel_weg": "GPS off. Just drifting for a bit.",
+    "ziel_erreicht": "Destination reached — {ort} is waiting!",
+    "zuhause": "Home",
+    "stammkunden": {
+      "rosine": "Mrs. Rosine",
+      "hatschi": "Grandpa Hatschi",
+      "fernweh": "Ms. Fernweh",
+      "duebel": "Mr. Dowel",
+      "rollo": "Rollo"
+    },
+    "sprueche": {
+      "laden": [
+        "I wonder if the carrots are crunchy today?",
+        "Mmm, it smells like fresh buns in here!",
+        "I'll just take one... okay, two.",
+        "Where's the cheese again?",
+        "Shopping list? Left it at home. Classic.",
+        "Those tomatoes are smiling at me!"
+      ],
+      "baumarkt": [
+        "Three planks, one dream!",
+        "Which screw fits here, I wonder?",
+        "Measure first, then saw!",
+        "I'm building this shelf MYSELF.",
+        "Ahh, that wood smell!",
+        "For my next project I need... everything."
+      ],
+      "markt": [
+        "It really doesn't get any fresher!",
+        "That stall over there smells wonderful.",
+        "Saturday is simply the best day.",
+        "There's always room for a taste test."
+      ],
+      "apotheke": [
+        "Something for the hiccups, please.",
+        "It smells so nicely of herbs in here.",
+        "These lozenges are surely healthy.",
+        "Wishing everyone a speedy recovery in advance."
+      ],
+      "drogerie": [
+        "Which shampoo sparkles the most?",
+        "Berry-flavored toothpaste? Yes please!",
+        "This soap smells like vacation.",
+        "Just a quick sniff through every shelf."
+      ],
+      "pow": [
+        "ZAP! Another high score already.",
+        "That poster HAS to go on my wall.",
+        "So, which hero are you?",
+        "I instantly feel stronger in here."
+      ],
+      "post": [
+        "A parcel for me? Fingers crossed!",
+        "Stamp collecting is back in style.",
+        "This has to go out today!",
+        "I wonder if my postcard has arrived yet?"
+      ],
+      "autohaus": [
+        "The red one... or the blue one after all?",
+        "One test sit, please!",
+        "Such a shine. Freshly polished!",
+        "As long as the horn sounds funny."
+      ],
+      "tierarzt": [
+        "My wool pug is only here for cuddles.",
+        "It's our turn soon, stay calm.",
+        "The treatment here is simply fluffy.",
+        "A treat afterwards always helps."
+      ],
+      "praxis": [
+        "Just the yearly check-up, no worries.",
+        "The waiting room music is really relaxing.",
+        "Breathe in deep... and out.",
+        "Hopefully there's a Gooby band-aid again."
+      ],
+      "flughafen": [
+        "Gate 3? Or was it gate 7?",
+        "My suitcase rolls extra smooth today.",
+        "One trip to the sun and back, please!",
+        "Boarding! No, wait... snacks first.",
+        "Juice tastes better above the clouds."
+      ],
+      "raumstation": [
+        "Earth looks SO tiny from up here.",
+        "Floating weightlessly — what a dream.",
+        "Do stars tickle, I wonder?",
+        "One step for goobys, one hop for me."
+      ],
+      "funkelpark": [
+        "The Ferris wheel sparkles extra bright today!",
+        "Cotton candy first, coaster after. Or the other way?",
+        "I can hear the music all the way home.",
+        "One more ride. Just one more!"
+      ],
+      "goobye": [
+        "This shop simply has charm.",
+        "You HAVE to peek in when passing by.",
+        "What's on the shelf today, I wonder?",
+        "Even Uncle Alwin shops here."
+      ],
+      "stammkunde_rosine": [
+        "These carrots smell heavenly again today.",
+        "Just looking... fine, I'll take ONE."
+      ],
+      "stammkunde_hatschi": [
+        "My herbal lozenges, same as every week please.",
+        "Achoo! ...That's exactly why I'm here."
+      ],
+      "stammkunde_fernweh": [
+        "Somewhere out there my next adventure is waiting.",
+        "The suitcase stays packed. You never know!"
+      ],
+      "stammkunde_duebel": [
+        "There's always room for one more dowel in the wall.",
+        "Quitting time? Not until the shelf is up!"
+      ],
+      "stammkunde_rollo": [
+        "The plaza has the smoothest floor in town.",
+        "The trick will land this time. I can feel it!"
+      ]
+    }
+  }
+}

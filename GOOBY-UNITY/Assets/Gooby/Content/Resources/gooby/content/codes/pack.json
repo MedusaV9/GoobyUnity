@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"id": "codes",
+	"version": "1.0.0",
+	"priority": 600,
+	"min_native": "5.0.0",
+	"domains": ["codes"],
+	"name_de": "Codes",
+	"notes_de": "Eingebauter Basisstand: 2 Test-Codes."
+}

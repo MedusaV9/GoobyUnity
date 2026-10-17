@@ -1,0 +1,21 @@
+{
+	"album": {
+		"titel": "Sticker Album",
+		"zurueck": "Back",
+		"zaehler": "{n} / {total} stickers",
+		"unbekannt": "???",
+		"hint_label": "How to get it:",
+		"unlock_toast": "New sticker: {name}!",
+		"unlock_toast_selten": "Rare sticker: {name}!",
+		"unlock_toast_episch": "Epic gold sticker: {name}!",
+		"rarity_haeufig": "Common",
+		"rarity_selten": "Rare",
+		"rarity_episch": "Epic",
+		"rarity_geheim": "Secret",
+		"neu": "NEW",
+		"set_fortschritt": "{n} of {total} found",
+		"set_komplett": "Set complete!",
+		"set_belohnung": "Set “{title}” complete! +{coins} coins",
+		"tausch_hinweis": "Tip: Compare your album with a friend — together you'll find missing stickers much faster!"
+	}
+}

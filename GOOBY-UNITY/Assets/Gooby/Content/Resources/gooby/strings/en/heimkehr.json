@@ -1,0 +1,25 @@
+{
+	"heimkehr": {
+		"titel": "Home again!",
+		"tuete": "Out of the souvenir bag: {name}!",
+		"knopf": {
+			"umarmen": "Big hug!"
+		},
+		"spruch": {
+			"1": "THERE YOU ARE! I thought of you around every corner — and I brought the prettiest corner home for you!",
+			"2": "Home again! I missed the sofa. I missed you way more. Please don’t tell the sofa."
+		},
+		"mitbringsel": {
+			"typ": {
+				"schneekugel": "Snow Globe “{ziel}”",
+				"magnet": "Fridge Magnet “{ziel}”",
+				"wimpel": "Pennant Chain “{ziel}”"
+			}
+		},
+		"gfree": {
+			"fenster": "Psst: GOOBY FREE at the airport still has {stunden} h of exclusive deco from {ziel}!",
+			"hinweis": "Souvenir window open: deco from {ziel} — {stunden} h left!",
+			"exklusiv": "24 h only"
+		}
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"loading": {
+		"laedt": "Loading…",
+		"boot": {
+			"sprueche": [
+				"Washing the carrots…",
+				"Fluffing up those ears…",
+				"Plumping the sofa cushions…",
+				"Winding up the sun…",
+				"Hiding crumbs under the rug…",
+				"Giving the flowers a sip of water…",
+				"Brushing the fur to maximum fluff…",
+				"Smoothing out the rug…",
+				"Pre-warming the snuggle blanket…",
+				"Gooby is practicing his wave…"
+			]
+		},
+		"tips": [
+			"Hoofbeats reveal the ground: sand sounds soft, wood hollow, stone bright — and mud slows your horse down.",
+			"Petting your horse during a break grants a second wind once per ride when stamina runs out.",
+			"Galloping drains stamina. Drop into a walk now and then so your horse can recover.",
+			"Time your jumps: take off just before the obstacle to earn a \"Perfect\" rating.",
+			"Brushing, feeding, mucking out — a well-groomed horse bonds with you faster.",
+			"After a rain shower, check the evening sky: with a little luck a rainbow appears.",
+			"Foxes and fireflies roam at night, while meadow and sky belong to the birds by day.",
+			"The ford at the creek is shallow enough to ride through — take the bridge to stay dry.",
+			"Wild horses graze far out in the meadow valley. Approach slowly or they will flee.",
+			"Every zone wants to be discovered: the lookout on the ridge shows you the whole region.",
+			"The old barn in the southwest keeps a secret. A ride out there is worth it.",
+			"Ducks waddle across the jetty at the lake — the pond is especially pretty in the evening.",
+			"Tölting horses carry you swiftly without tiring. Not every breed can tölt.",
+			"If your horse spooks, keep a calm pace: the fright passes after a few seconds.",
+			"Hay rustles when you fill the trough — hungry horses thank you with a whinny.",
+			"The tournament grounds lie southeast of the yard: rails, wall and oxer want clean jumps.",
+			"Villagers with tasks wait in Hufingen. The dirt road at the village edge leads you there.",
+			"The weather can be planned: the daily forecast tells you when rain rolls in — great for dry rides.",
+			"Thunderstorms sound mighty but are harmless. Sheltering in the stable still feels cozy.",
+			"A foal inherits values from both parents — pick the breeding pair with care.",
+			"Training is specific: lots of galloping builds speed, lots of jumping builds jump power.",
+			"The dirt road connects every zone. Follow it and you will never get lost.",
+			"Bonding pays off: a trusting horse spooks less and answers the reins more finely.",
+			"A deep snort means your horse is exhausted — give it a break at a walk.",
+			"The stable can be upgraded: more boxes mean room for new horses.",
+			"Saddle up, mount, go — \"Ride out!\" takes you from the yard into the open region.",
+			"Music and sound effects can be adjusted separately in the settings — to your taste.",
+			"Rain makes the ground wet and muddy. Allow a little extra time after a shower."
+		],
+		"moment": {
+			"willkommen": "Welcome to Gooby Ranch!",
+			"willkommen_sub": "Your adventure begins.",
+			"entdeckt": "Newly discovered",
+			"turniersieg": "Tournament victory!",
+			"turniersieg_sub": "What a ride!",
+			"fohlen": "A foal is born!",
+			"fohlen_sub": "{name} has arrived."
+		}
+	}
+}

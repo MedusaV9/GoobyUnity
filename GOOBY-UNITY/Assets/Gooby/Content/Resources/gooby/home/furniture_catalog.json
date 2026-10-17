@@ -1,0 +1,4370 @@
+{
+  "schema": "gooby.furniture/1",
+  "pack": "base",
+  "items": [
+    {
+      "id": "bedSingle",
+      "name_de": "Kuschelbett",
+      "name_en": "Cozy Bed",
+      "glb": "bedSingle.glb",
+      "footprint": [
+        2,
+        3
+      ],
+      "layer": "FLOOR",
+      "preis": 300,
+      "lagerwert": 3,
+      "pflicht": "bett",
+      "kategorie": "schlafen"
+    },
+    {
+      "id": "bedKaro",
+      "name_de": "Karo-Bett",
+      "name_en": "Gingham Bed",
+      "glb": "bedKaro.glb",
+      "footprint": [
+        2,
+        3
+      ],
+      "layer": "FLOOR",
+      "preis": 300,
+      "lagerwert": 3,
+      "pflicht": "bett",
+      "kategorie": "schlafen"
+    },
+    {
+      "id": "bedDouble",
+      "name_de": "Riesenbett",
+      "name_en": "Big Bed",
+      "glb": "bedDouble.glb",
+      "footprint": [
+        3,
+        3
+      ],
+      "layer": "FLOOR",
+      "preis": 550,
+      "lagerwert": 3,
+      "pflicht": "bett",
+      "kategorie": "schlafen"
+    },
+    {
+      "id": "loungeSofa",
+      "name_de": "Gemütliches Sofa",
+      "name_en": "Comfy Sofa",
+      "glb": "loungeSofa.glb",
+      "footprint": [
+        4,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 250,
+      "lagerwert": 3,
+      "pflicht": "couch",
+      "kategorie": "sitzen"
+    },
+    {
+      "id": "loungeSofaCorner",
+      "name_de": "Ecksofa",
+      "name_en": "Corner Sofa",
+      "glb": "loungeSofaCorner.glb",
+      "footprint": [
+        4,
+        4
+      ],
+      "layer": "FLOOR",
+      "preis": 420,
+      "lagerwert": 4,
+      "pflicht": "couch",
+      "kategorie": "sitzen"
+    },
+    {
+      "id": "loungeChair",
+      "name_de": "Fernsehsessel",
+      "name_en": "Lounge Chair",
+      "glb": "loungeChair.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 120,
+      "lagerwert": 2,
+      "kategorie": "sitzen"
+    },
+    {
+      "id": "chair",
+      "name_de": "Stuhl",
+      "name_en": "Chair",
+      "glb": "chair.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 40,
+      "lagerwert": 1,
+      "kategorie": "sitzen"
+    },
+    {
+      "id": "chairCushion",
+      "name_de": "Polsterstuhl",
+      "name_en": "Cushion Chair",
+      "glb": "chairCushion.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 55,
+      "lagerwert": 1,
+      "kategorie": "sitzen"
+    },
+    {
+      "id": "stoolBar",
+      "name_de": "Barhocker",
+      "name_en": "Bar Stool",
+      "glb": "stoolBar.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 35,
+      "lagerwert": 1,
+      "kategorie": "sitzen"
+    },
+    {
+      "id": "table",
+      "name_de": "Esstisch",
+      "name_en": "Dining Table",
+      "glb": "table.glb",
+      "footprint": [
+        3,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 150,
+      "lagerwert": 2,
+      "kategorie": "tische",
+      "surface": true
+    },
+    {
+      "id": "tableCoffee",
+      "name_de": "Couchtisch",
+      "name_en": "Coffee Table",
+      "glb": "tableCoffee.glb",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 90,
+      "lagerwert": 2,
+      "kategorie": "tische",
+      "surface": true
+    },
+    {
+      "id": "sideTable",
+      "name_de": "Beistelltisch",
+      "name_en": "Side Table",
+      "glb": "sideTable.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 45,
+      "lagerwert": 1,
+      "kategorie": "tische",
+      "surface": true
+    },
+    {
+      "id": "bookcaseOpen",
+      "name_de": "Bücherregal",
+      "name_en": "Bookcase",
+      "glb": "bookcaseOpen.glb",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 110,
+      "lagerwert": 2,
+      "kategorie": "regale"
+    },
+    {
+      "id": "bookcaseClosedWide",
+      "name_de": "Breites Regal",
+      "name_en": "Wide Shelf",
+      "glb": "bookcaseClosedWide.glb",
+      "footprint": [
+        3,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 180,
+      "lagerwert": 2,
+      "kategorie": "regale"
+    },
+    {
+      "id": "bookcaseOpenLow",
+      "name_de": "Sideboard",
+      "name_en": "Low Shelf",
+      "glb": "bookcaseOpenLow.glb",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 80,
+      "lagerwert": 2,
+      "kategorie": "regale",
+      "surface": true
+    },
+    {
+      "id": "lampRoundFloor",
+      "name_de": "Stehlampe",
+      "name_en": "Floor Lamp",
+      "glb": "lampRoundFloor.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 70,
+      "lagerwert": 1,
+      "kategorie": "lampen",
+      "blocks_movement": false,
+      "can_toggle_light": true
+    },
+    {
+      "id": "lampSquareFloor",
+      "name_de": "Eckige Stehlampe",
+      "name_en": "Square Floor Lamp",
+      "glb": "lampSquareFloor.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 70,
+      "lagerwert": 1,
+      "kategorie": "lampen",
+      "blocks_movement": false,
+      "can_toggle_light": true
+    },
+    {
+      "id": "lampRoundTable",
+      "name_de": "Tischlampe",
+      "name_en": "Table Lamp",
+      "glb": "lampRoundTable.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 45,
+      "lagerwert": 1,
+      "kategorie": "lampen",
+      "can_toggle_light": true
+    },
+    {
+      "id": "lampWall",
+      "name_de": "Wandlampe",
+      "name_en": "Wall Lamp",
+      "glb": "lampWall.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "WALL",
+      "wall_size": 1,
+      "preis": 40,
+      "lagerwert": 1,
+      "kategorie": "lampen",
+      "can_toggle_light": true
+    },
+    {
+      "id": "cabinetTelevision",
+      "name_de": "TV-Schrank",
+      "name_en": "TV Cabinet",
+      "glb": "cabinetTelevision.glb",
+      "footprint": [
+        3,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 140,
+      "lagerwert": 2,
+      "kategorie": "unterhaltung",
+      "surface": true
+    },
+    {
+      "id": "televisionModern",
+      "name_de": "Fernseher",
+      "name_en": "Television",
+      "glb": "televisionModern.glb",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 320,
+      "lagerwert": 2,
+      "kategorie": "unterhaltung"
+    },
+    {
+      "id": "televisionVintage",
+      "name_de": "Röhren-TV",
+      "name_en": "Vintage TV",
+      "glb": "televisionVintage.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 150,
+      "lagerwert": 1,
+      "kategorie": "unterhaltung"
+    },
+    {
+      "id": "radio",
+      "name_de": "Radio-Gerät",
+      "name_en": "Radio",
+      "glb": "radio.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 120,
+      "lagerwert": 1,
+      "kategorie": "unterhaltung"
+    },
+    {
+      "id": "speaker",
+      "name_de": "Lautsprecher",
+      "name_en": "Speaker",
+      "glb": "speaker.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 90,
+      "lagerwert": 1,
+      "kategorie": "unterhaltung"
+    },
+    {
+      "id": "rugRectangle",
+      "name_de": "Großer Teppich",
+      "name_en": "Big Rug",
+      "glb": "rugRectangle.glb",
+      "footprint": [
+        4,
+        3
+      ],
+      "layer": "RUG",
+      "preis": 130,
+      "lagerwert": 2,
+      "kategorie": "teppiche",
+      "fill": 1.0
+    },
+    {
+      "id": "rugRound",
+      "name_de": "Runder Teppich",
+      "name_en": "Round Rug",
+      "glb": "rugRound.glb",
+      "footprint": [
+        3,
+        3
+      ],
+      "layer": "RUG",
+      "preis": 100,
+      "lagerwert": 2,
+      "kategorie": "teppiche",
+      "fill": 1.0
+    },
+    {
+      "id": "rugSquare",
+      "name_de": "Eckiger Teppich",
+      "name_en": "Square Rug",
+      "glb": "rugSquare.glb",
+      "footprint": [
+        3,
+        3
+      ],
+      "layer": "RUG",
+      "preis": 90,
+      "lagerwert": 2,
+      "kategorie": "teppiche",
+      "fill": 1.0
+    },
+    {
+      "id": "rugDoormat",
+      "name_de": "Fußmatte",
+      "name_en": "Doormat",
+      "glb": "rugDoormat.glb",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "RUG",
+      "preis": 25,
+      "lagerwert": 1,
+      "kategorie": "teppiche",
+      "fill": 1.0
+    },
+    {
+      "id": "pottedPlant",
+      "name_de": "Topfpflanze",
+      "name_en": "Potted Plant",
+      "glb": "pottedPlant.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 60,
+      "lagerwert": 1,
+      "kategorie": "pflanzen",
+      "blocks_movement": false
+    },
+    {
+      "id": "plantSmall1",
+      "name_de": "Pflänzchen",
+      "name_en": "Little Plant",
+      "glb": "plantSmall1.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 25,
+      "lagerwert": 1,
+      "kategorie": "pflanzen"
+    },
+    {
+      "id": "plantSmall2",
+      "name_de": "Kaktus-Freund",
+      "name_en": "Cactus Friend",
+      "glb": "plantSmall2.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 25,
+      "lagerwert": 1,
+      "kategorie": "pflanzen"
+    },
+    {
+      "id": "plantSmall3",
+      "name_de": "Mini-Farn",
+      "name_en": "Mini Fern",
+      "glb": "plantSmall3.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 25,
+      "lagerwert": 1,
+      "kategorie": "pflanzen"
+    },
+    {
+      "id": "monsteraPlant",
+      "name_de": "Monstera",
+      "name_en": "Monstera",
+      "glb": "pflanzen/monstera_plant_large_potted.gltf",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 140,
+      "lagerwert": 2,
+      "kategorie": "pflanzen",
+      "blocks_movement": false
+    },
+    {
+      "id": "pothosPlant",
+      "name_de": "Efeutute",
+      "name_en": "Pothos",
+      "glb": "pflanzen/pothos_plant_large_potted.gltf",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 120,
+      "lagerwert": 2,
+      "kategorie": "pflanzen",
+      "blocks_movement": false
+    },
+    {
+      "id": "sansevieriaPlant",
+      "name_de": "Bogenhanf",
+      "name_en": "Snake Plant",
+      "glb": "pflanzen/sansevieria_plant_small_potted.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 60,
+      "lagerwert": 1,
+      "kategorie": "pflanzen",
+      "blocks_movement": false
+    },
+    {
+      "id": "kitchenFridge",
+      "name_de": "Kühlschrank",
+      "name_en": "Fridge",
+      "glb": "kitchenFridge.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 400,
+      "lagerwert": 3,
+      "pflicht": "kuehlschrank",
+      "kategorie": "kueche"
+    },
+    {
+      "id": "kitchenStove",
+      "name_de": "Herd",
+      "name_en": "Stove",
+      "glb": "kitchenStove.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 220,
+      "lagerwert": 2,
+      "kategorie": "kueche"
+    },
+    {
+      "id": "kitchenSink",
+      "name_de": "Spüle",
+      "name_en": "Kitchen Sink",
+      "glb": "kitchenSink.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 180,
+      "lagerwert": 2,
+      "kategorie": "kueche"
+    },
+    {
+      "id": "kitchenCabinet",
+      "name_de": "Küchenzeile",
+      "name_en": "Kitchen Counter",
+      "glb": "kitchenCabinet.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 120,
+      "lagerwert": 2,
+      "kategorie": "kueche",
+      "surface": true
+    },
+    {
+      "id": "kitchenCabinetDrawer",
+      "name_de": "Küchenschrank",
+      "name_en": "Kitchen Drawer",
+      "glb": "kitchenCabinetDrawer.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 120,
+      "lagerwert": 2,
+      "kategorie": "kueche",
+      "surface": true
+    },
+    {
+      "id": "toaster",
+      "name_de": "Toaster (Deko)",
+      "name_en": "Toaster (Deco)",
+      "glb": "toaster.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 35,
+      "lagerwert": 1,
+      "kategorie": "kueche"
+    },
+    {
+      "id": "toilet",
+      "name_de": "Klo",
+      "name_en": "Toilet",
+      "glb": "toilet.glb",
+      "footprint": [
+        1,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 150,
+      "lagerwert": 2,
+      "kategorie": "bad"
+    },
+    {
+      "id": "bathtub",
+      "name_de": "Badewanne",
+      "name_en": "Bathtub",
+      "glb": "bathtub.glb",
+      "footprint": [
+        4,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 350,
+      "lagerwert": 4,
+      "kategorie": "bad"
+    },
+    {
+      "id": "shower",
+      "name_de": "Dusche",
+      "name_en": "Shower",
+      "glb": "shower.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 280,
+      "lagerwert": 3,
+      "kategorie": "bad"
+    },
+    {
+      "id": "bathroomSink",
+      "name_de": "Waschbecken",
+      "name_en": "Bathroom Sink",
+      "glb": "bathroomSink.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 90,
+      "lagerwert": 1,
+      "kategorie": "bad"
+    },
+    {
+      "id": "bathroomMirror",
+      "name_de": "Badspiegel",
+      "name_en": "Bathroom Mirror",
+      "glb": "bathroomMirror.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "WALL",
+      "wall_size": 1,
+      "preis": 60,
+      "lagerwert": 1,
+      "kategorie": "bad"
+    },
+    {
+      "id": "bathroomCabinet",
+      "name_de": "Badschränkchen",
+      "name_en": "Bathroom Cabinet",
+      "glb": "bathroomCabinet.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 70,
+      "lagerwert": 1,
+      "kategorie": "bad"
+    },
+    {
+      "id": "washer",
+      "name_de": "Waschmaschine",
+      "name_en": "Washer",
+      "glb": "washer.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 260,
+      "lagerwert": 3,
+      "kategorie": "bad"
+    },
+    {
+      "id": "bear",
+      "name_de": "Bärchen",
+      "name_en": "Teddy Bear",
+      "glb": "bear.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 45,
+      "lagerwert": 1,
+      "kategorie": "deko"
+    },
+    {
+      "id": "books",
+      "name_de": "Bücherstapel",
+      "name_en": "Book Pile",
+      "glb": "books.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 20,
+      "lagerwert": 1,
+      "kategorie": "deko"
+    },
+    {
+      "id": "pillow",
+      "name_de": "Kissen",
+      "name_en": "Pillow",
+      "glb": "pillow.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 20,
+      "lagerwert": 1,
+      "kategorie": "deko"
+    },
+    {
+      "id": "pillowBlue",
+      "name_de": "Blaues Kissen",
+      "name_en": "Blue Pillow",
+      "glb": "pillowBlue.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 20,
+      "lagerwert": 1,
+      "kategorie": "deko"
+    },
+    {
+      "id": "trashcan",
+      "name_de": "Mülleimer",
+      "name_en": "Trash Can",
+      "glb": "trashcan.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 25,
+      "lagerwert": 1,
+      "kategorie": "deko",
+      "blocks_movement": false
+    },
+    {
+      "id": "coatRackStanding",
+      "name_de": "Garderobe",
+      "name_en": "Coat Rack",
+      "glb": "coatRackStanding.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 55,
+      "lagerwert": 1,
+      "kategorie": "deko"
+    },
+    {
+      "id": "boxA",
+      "name_de": "Umzugskarton",
+      "name_en": "Moving Box",
+      "glb": "deko/box_A.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 10,
+      "lagerwert": 1,
+      "kategorie": "deko",
+      "blocks_movement": false
+    },
+    {
+      "id": "boxB",
+      "name_de": "Kleiner Karton",
+      "name_en": "Small Box",
+      "glb": "deko/box_B.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 10,
+      "lagerwert": 1,
+      "kategorie": "deko",
+      "blocks_movement": false
+    },
+    {
+      "id": "gardenBench",
+      "name_de": "Gartenbank",
+      "name_en": "Garden Bench",
+      "glb": "garten/bench.glb",
+      "footprint": [
+        3,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 120,
+      "lagerwert": 2,
+      "kategorie": "garten"
+    },
+    {
+      "id": "flowerRed",
+      "name_de": "Rote Blume",
+      "name_en": "Red Flower",
+      "glb": "garten/flower_redA.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 15,
+      "lagerwert": 1,
+      "kategorie": "garten",
+      "blocks_movement": false
+    },
+    {
+      "id": "flowerPurple",
+      "name_de": "Lila Blume",
+      "name_en": "Purple Flower",
+      "glb": "garten/flower_purpleA.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 15,
+      "lagerwert": 1,
+      "kategorie": "garten",
+      "blocks_movement": false
+    },
+    {
+      "id": "flowerYellow",
+      "name_de": "Gelbe Blume",
+      "name_en": "Yellow Flower",
+      "glb": "garten/flower_yellowA.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 15,
+      "lagerwert": 1,
+      "kategorie": "garten",
+      "blocks_movement": false
+    },
+    {
+      "id": "flowerWhite",
+      "name_de": "Weiße Tulpen",
+      "name_en": "White Tulips",
+      "glb": "garten/flower_whiteA.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 15,
+      "lagerwert": 1,
+      "kategorie": "garten",
+      "blocks_movement": false
+    },
+    {
+      "id": "gardenBush",
+      "name_de": "Busch",
+      "name_en": "Bush",
+      "glb": "garten/plant_bush.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 30,
+      "lagerwert": 1,
+      "kategorie": "garten",
+      "blocks_movement": false
+    },
+    {
+      "id": "treeDefault",
+      "name_de": "Baum",
+      "name_en": "Tree",
+      "glb": "garten/tree_default.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 200,
+      "lagerwert": 3,
+      "kategorie": "garten"
+    },
+    {
+      "id": "treeFat",
+      "name_de": "Dicker Baum",
+      "name_en": "Chunky Tree",
+      "glb": "garten/tree_fat.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 180,
+      "lagerwert": 3,
+      "kategorie": "garten"
+    },
+    {
+      "id": "potLarge",
+      "name_de": "Großer Blumentopf",
+      "name_en": "Big Pot",
+      "glb": "garten/pot_large.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 40,
+      "lagerwert": 1,
+      "kategorie": "garten"
+    },
+    {
+      "id": "grassTuft",
+      "name_de": "Grasbüschel",
+      "name_en": "Grass Tuft",
+      "glb": "garten/grass_large.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 10,
+      "lagerwert": 1,
+      "kategorie": "garten",
+      "blocks_movement": false
+    },
+    {
+      "id": "brettspieltisch",
+      "name_de": "Brettspieltisch",
+      "name_en": "Board game table",
+      "glb": "table.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 350,
+      "lagerwert": 4,
+      "kategorie": "wohnen",
+      "pflicht": ""
+    },
+    {
+      "id": "fence_wood",
+      "name_de": "Holzzaun",
+      "name_en": "Wooden Fence",
+      "glb": "garten/fence_simple.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 0,
+      "verkaufswert": 8,
+      "lagerwert": 1,
+      "kategorie": "garten",
+      "blocks_movement": false,
+      "pflicht": ""
+    },
+    {
+      "id": "stool_rustic",
+      "name_de": "Rustikaler Hocker",
+      "name_en": "Rustic Stool",
+      "glb": "stoolBar.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 0,
+      "verkaufswert": 30,
+      "lagerwert": 1,
+      "kategorie": "sitzen",
+      "pflicht": ""
+    },
+    {
+      "id": "planter_box",
+      "name_de": "Blumenkasten",
+      "name_en": "Planter Box",
+      "glb": "garten/pot_large.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 0,
+      "verkaufswert": 25,
+      "lagerwert": 1,
+      "kategorie": "garten",
+      "pflicht": ""
+    },
+    {
+      "id": "table_rustic",
+      "name_de": "Rustikaler Gartentisch",
+      "name_en": "Rustic Garden Table",
+      "glb": "table.glb",
+      "footprint": [
+        3,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 0,
+      "verkaufswert": 70,
+      "lagerwert": 2,
+      "kategorie": "tische",
+      "surface": true,
+      "pflicht": ""
+    },
+    {
+      "id": "shelf_rustic",
+      "name_de": "Rustikales Regal",
+      "name_en": "Rustic Shelf",
+      "glb": "bookcaseOpenLow.glb",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 0,
+      "verkaufswert": 90,
+      "lagerwert": 2,
+      "kategorie": "regale",
+      "surface": true,
+      "pflicht": ""
+    },
+    {
+      "id": "window_small",
+      "name_de": "Kleines Fenster",
+      "name_en": "Small Window",
+      "glb": "",
+      "proc": "fenster",
+      "footprint": [
+        2,
+        2
+      ],
+      "wall_size": 2,
+      "layer": "WALL",
+      "preis": 400,
+      "verkaufswert": 150,
+      "lagerwert": 2,
+      "kategorie": "fenster",
+      "exterior": true,
+      "vista": "strasse",
+      "pflicht": ""
+    },
+    {
+      "id": "window_wide",
+      "name_de": "Breites Fenster",
+      "name_en": "Wide Window",
+      "glb": "",
+      "proc": "fenster",
+      "footprint": [
+        3,
+        2
+      ],
+      "wall_size": 3,
+      "layer": "WALL",
+      "preis": 650,
+      "verkaufswert": 240,
+      "lagerwert": 2,
+      "kategorie": "fenster",
+      "exterior": true,
+      "vista": "strasse",
+      "pflicht": ""
+    },
+    {
+      "id": "kitchenMicrowave",
+      "name_de": "Mikrowelle",
+      "name_en": "Microwave",
+      "glb": "kenney-furniture/kitchenMicrowave.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 90,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "mint",
+        "himmel",
+        "butter",
+        "koralle"
+      ]
+    },
+    {
+      "id": "kitchenCoffeeMachine",
+      "name_de": "Kaffeemaschine",
+      "name_en": "Coffee Machine",
+      "glb": "kenney-furniture/kitchenCoffeeMachine.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 110,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "mint",
+        "himmel",
+        "butter",
+        "koralle"
+      ]
+    },
+    {
+      "id": "kitchenBlender",
+      "name_de": "Standmixer",
+      "name_en": "Blender",
+      "glb": "kenney-furniture/kitchenBlender.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 75,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "mint",
+        "himmel",
+        "butter",
+        "koralle"
+      ]
+    },
+    {
+      "id": "kitchenFridgeLarge",
+      "name_de": "Familien-Kühlschrank",
+      "name_en": "Family Fridge",
+      "glb": "kenney-furniture/kitchenFridgeLarge.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 480,
+      "lagerwert": 4,
+      "pflicht": "kuehlschrank",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "mint",
+        "himmel",
+        "butter",
+        "koralle"
+      ],
+      "surface": true
+    },
+    {
+      "id": "kitchenCabinetUpper",
+      "name_de": "Hängeschrank",
+      "name_en": "Wall Cabinet",
+      "glb": "kenney-furniture/kitchenCabinetUpper.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "WALL",
+      "preis": 95,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "wall_size": 2
+    },
+    {
+      "id": "kitchenCabinetUpperDouble",
+      "name_de": "Doppel-Hängeschrank",
+      "name_en": "Double Wall Cabinet",
+      "glb": "kenney-furniture/kitchenCabinetUpperDouble.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "WALL",
+      "preis": 130,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "wall_size": 2
+    },
+    {
+      "id": "kitchenBar",
+      "name_de": "Küchentresen",
+      "name_en": "Kitchen Bar",
+      "glb": "kenney-furniture/kitchenBar.glb",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 190,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "surface": true
+    },
+    {
+      "id": "kitchenCounter",
+      "name_de": "Arbeitsplatte",
+      "name_en": "Work Counter",
+      "glb": "kaykit-restaurant/kitchencounter_straight.gltf",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 220,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "surface": true
+    },
+    {
+      "id": "kitchenCounterSink",
+      "name_de": "Spülzeile",
+      "name_en": "Counter with Sink",
+      "glb": "kaykit-restaurant/kitchencounter_sink.gltf",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 240,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "kitchenOven",
+      "name_de": "Backofen",
+      "name_en": "Oven",
+      "glb": "kaykit-restaurant/oven.gltf",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 310,
+      "lagerwert": 4,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "mint",
+        "himmel",
+        "butter",
+        "koralle"
+      ]
+    },
+    {
+      "id": "kitchenFridgeRetro",
+      "name_de": "Retro-Kühlschrank",
+      "name_en": "Retro Fridge",
+      "glb": "kaykit-restaurant/fridge_A.gltf",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 420,
+      "lagerwert": 4,
+      "pflicht": "kuehlschrank",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "mint",
+        "himmel",
+        "butter",
+        "koralle"
+      ]
+    },
+    {
+      "id": "kitchenKettle",
+      "name_de": "Wasserkocher",
+      "name_en": "Kettle",
+      "glb": "tt-kitchen/kettle.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 60,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "mint",
+        "himmel",
+        "butter",
+        "koralle"
+      ]
+    },
+    {
+      "id": "kitchenPot",
+      "name_de": "Kochtopf",
+      "name_en": "Cooking Pot",
+      "glb": "tt-kitchen/pot.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 45,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "mint",
+        "himmel",
+        "butter",
+        "koralle"
+      ]
+    },
+    {
+      "id": "kitchenPan",
+      "name_de": "Bratpfanne",
+      "name_en": "Frying Pan",
+      "glb": "tt-kitchen/pan.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 40,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "mint",
+        "himmel",
+        "butter",
+        "koralle"
+      ]
+    },
+    {
+      "id": "mugBlue",
+      "name_de": "Blaue Tasse",
+      "name_en": "Blue Mug",
+      "glb": "tt-kitchen/mug_blue.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 15,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "mugRed",
+      "name_de": "Rote Tasse",
+      "name_en": "Red Mug",
+      "glb": "tt-kitchen/mug_red.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 15,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "dishrackPlates",
+      "name_de": "Abtropfgitter",
+      "name_en": "Dish Rack",
+      "glb": "tt-kitchen/dishrack_plates.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 55,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "mint",
+        "himmel",
+        "butter",
+        "koralle"
+      ]
+    },
+    {
+      "id": "standMixer",
+      "name_de": "Küchenmaschine",
+      "name_en": "Stand Mixer",
+      "glb": "tt-bakery/stand_mixer.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 140,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "mint",
+        "himmel",
+        "butter",
+        "koralle"
+      ]
+    },
+    {
+      "id": "kitchenScale",
+      "name_de": "Küchenwaage",
+      "name_en": "Kitchen Scale",
+      "glb": "tt-bakery/scale.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 50,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "mint",
+        "himmel",
+        "butter",
+        "koralle"
+      ]
+    },
+    {
+      "id": "doughRoller",
+      "name_de": "Nudelholz",
+      "name_en": "Rolling Pin",
+      "glb": "tt-bakery/dough_roller.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 20,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "jarLarge",
+      "name_de": "Großes Vorratsglas",
+      "name_en": "Large Jar",
+      "glb": "kaykit-restaurant/jar_A_large.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 30,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "jarMedium",
+      "name_de": "Vorratsglas",
+      "name_en": "Storage Jar",
+      "glb": "kaykit-restaurant/jar_A_medium.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 25,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "jarSmall",
+      "name_de": "Gewürzglas",
+      "name_en": "Spice Jar",
+      "glb": "kaykit-restaurant/jar_C_small.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 18,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "servingBowl",
+      "name_de": "Servierschale",
+      "name_en": "Serving Bowl",
+      "glb": "kaykit-restaurant/bowl.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 22,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "dinnerPlate",
+      "name_de": "Essteller",
+      "name_en": "Dinner Plate",
+      "glb": "kaykit-restaurant/plate.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 14,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "sidePlate",
+      "name_de": "Kuchenteller",
+      "name_en": "Side Plate",
+      "glb": "kaykit-restaurant/plate_small.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 12,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "choppingBoard",
+      "name_de": "Schneidebrett",
+      "name_en": "Chopping Board",
+      "glb": "kaykit-restaurant/cuttingboard.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 26,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "stewPot",
+      "name_de": "Suppentopf",
+      "name_en": "Stew Pot",
+      "glb": "kenney-food/pot-stew.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 48,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "mint",
+        "himmel",
+        "butter",
+        "koralle"
+      ]
+    },
+    {
+      "id": "fryingPanEgg",
+      "name_de": "Pfanne mit Spiegelei",
+      "name_en": "Pan with Fried Egg",
+      "glb": "kenney-food/frying-pan.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 42,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "mint",
+        "himmel",
+        "butter",
+        "koralle"
+      ]
+    },
+    {
+      "id": "cerealBowl",
+      "name_de": "Müslischale",
+      "name_en": "Cereal Bowl",
+      "glb": "kenney-food/bowl-cereal.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 16,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "dinnerSet",
+      "name_de": "Gedeck",
+      "name_en": "Dinner Set",
+      "glb": "kenney-food/plate-dinner.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 34,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "bathroomCabinetDrawer",
+      "name_de": "Badschrank mit Schublade",
+      "name_en": "Bathroom Drawer Cabinet",
+      "glb": "kenney-furniture/bathroomCabinetDrawer.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 130,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "bad",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "surface": true
+    },
+    {
+      "id": "showerRound",
+      "name_de": "Runddusche",
+      "name_en": "Round Shower",
+      "glb": "kenney-furniture/showerRound.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 360,
+      "lagerwert": 4,
+      "pflicht": "",
+      "kategorie": "bad",
+      "variants": [
+        "natur",
+        "mint",
+        "himmel",
+        "butter",
+        "koralle"
+      ]
+    },
+    {
+      "id": "bathDucky",
+      "name_de": "Quietsche-Entchen",
+      "name_en": "Rubber Ducky",
+      "glb": "tt-bathroom/ducky.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 12,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "bad",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "soapDish",
+      "name_de": "Seifenschale",
+      "name_en": "Soap Dish",
+      "glb": "tt-bathroom/soap_dish_pink.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 18,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "bad",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "toiletRollHolder",
+      "name_de": "Klopapierhalter",
+      "name_en": "Toilet Roll Holder",
+      "glb": "tt-bathroom/toilet_roll_holder.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "WALL",
+      "preis": 24,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "bad",
+      "variants": [
+        "natur",
+        "mint",
+        "himmel",
+        "butter",
+        "koralle"
+      ],
+      "wall_size": 1
+    },
+    {
+      "id": "toiletRollStack",
+      "name_de": "Klopapier-Turm",
+      "name_en": "Toilet Roll Stack",
+      "glb": "tt-bathroom/toilet_roll_stack.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 15,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "bad",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "toothbrushCup",
+      "name_de": "Zahnputzbecher",
+      "name_en": "Toothbrush Cup",
+      "glb": "tt-bathroom/toothbrush_cup_decorated.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 20,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "bad",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "towelStack",
+      "name_de": "Handtuchstapel",
+      "name_en": "Towel Stack",
+      "glb": "tt-bathroom/towel_stacked.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 28,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "bad",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "himmel",
+        "butter",
+        "lavendel"
+      ]
+    },
+    {
+      "id": "cabinetBed",
+      "name_de": "Nachttisch",
+      "name_en": "Nightstand",
+      "glb": "kenney-furniture/cabinetBed.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 85,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "schlafen",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "surface": true
+    },
+    {
+      "id": "cabinetBedDrawer",
+      "name_de": "Nachttisch mit Schublade",
+      "name_en": "Nightstand with Drawer",
+      "glb": "kenney-furniture/cabinetBedDrawer.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 105,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "schlafen",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "surface": true
+    },
+    {
+      "id": "bedWood",
+      "name_de": "Holzbett",
+      "name_en": "Wooden Bed",
+      "glb": "kenney-nature/bed.glb",
+      "footprint": [
+        2,
+        3
+      ],
+      "layer": "FLOOR",
+      "preis": 340,
+      "lagerwert": 3,
+      "pflicht": "bett",
+      "kategorie": "schlafen",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "himmel",
+        "butter",
+        "lavendel"
+      ]
+    },
+    {
+      "id": "loungeDesignSofa",
+      "name_de": "Designer-Sofa",
+      "name_en": "Designer Sofa",
+      "glb": "kenney-furniture/loungeDesignSofa.glb",
+      "footprint": [
+        4,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 520,
+      "lagerwert": 4,
+      "pflicht": "couch",
+      "kategorie": "sitzen",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "himmel",
+        "butter",
+        "lavendel"
+      ]
+    },
+    {
+      "id": "armchairCosy",
+      "name_de": "Ohrensessel",
+      "name_en": "Wing Chair",
+      "glb": "kaykit-furniture/armchair.gltf",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 210,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "sitzen",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "himmel",
+        "butter",
+        "lavendel"
+      ]
+    },
+    {
+      "id": "chairBistro",
+      "name_de": "Bistrostuhl",
+      "name_en": "Bistro Chair",
+      "glb": "kaykit-restaurant/chair_A.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 48,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "sitzen",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "stoolWood",
+      "name_de": "Holzhocker",
+      "name_en": "Wooden Stool",
+      "glb": "kaykit-restaurant/chair_stool.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 38,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "sitzen",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "surface": true
+    },
+    {
+      "id": "sideTableDrawers",
+      "name_de": "Beistelltisch mit Schublade",
+      "name_en": "Side Table with Drawers",
+      "glb": "kenney-furniture/sideTableDrawers.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 95,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "tische",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "surface": true
+    },
+    {
+      "id": "tableCloth",
+      "name_de": "Tisch mit Tischdecke",
+      "name_en": "Table with Cloth",
+      "glb": "kenney-furniture/tableCloth.glb",
+      "footprint": [
+        3,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 175,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "tische",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "himmel",
+        "butter",
+        "lavendel"
+      ],
+      "surface": true
+    },
+    {
+      "id": "tableCoffeeGlass",
+      "name_de": "Glas-Couchtisch",
+      "name_en": "Glass Coffee Table",
+      "glb": "kenney-furniture/tableCoffeeGlass.glb",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 135,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "tische",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "surface": true
+    },
+    {
+      "id": "tableRound",
+      "name_de": "Runder Esstisch",
+      "name_en": "Round Dining Table",
+      "glb": "kaykit-restaurant/table_round_A.gltf",
+      "footprint": [
+        3,
+        3
+      ],
+      "layer": "FLOOR",
+      "preis": 230,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "tische",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "surface": true
+    },
+    {
+      "id": "bookshelfTall",
+      "name_de": "Hohes Bücherregal",
+      "name_en": "Tall Bookshelf",
+      "glb": "aline/bookshelf.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 260,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "regale",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "surface": true
+    },
+    {
+      "id": "displayCaseShort",
+      "name_de": "Kleine Vitrine",
+      "name_en": "Small Display Case",
+      "glb": "tt-bakery/display_case_short.gltf",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 240,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "regale",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "surface": true
+    },
+    {
+      "id": "displayCaseLong",
+      "name_de": "Große Vitrine",
+      "name_en": "Large Display Case",
+      "glb": "tt-bakery/display_case_long.gltf",
+      "footprint": [
+        4,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 390,
+      "lagerwert": 4,
+      "pflicht": "",
+      "kategorie": "regale",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "surface": true
+    },
+    {
+      "id": "crateWood",
+      "name_de": "Holzkiste",
+      "name_en": "Wooden Crate",
+      "glb": "kaykit-restaurant/crate.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 30,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "regale",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "surface": true
+    },
+    {
+      "id": "crateBuns",
+      "name_de": "Brötchenkiste",
+      "name_en": "Bun Crate",
+      "glb": "kaykit-restaurant/crate_buns.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 34,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "regale",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "crateCarrots",
+      "name_de": "Möhrenkiste",
+      "name_en": "Carrot Crate",
+      "glb": "kaykit-restaurant/crate_carrots.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 34,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "regale",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "crateCheese",
+      "name_de": "Käsekiste",
+      "name_en": "Cheese Crate",
+      "glb": "kaykit-restaurant/crate_cheese.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 34,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "regale",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "crateTomatoes",
+      "name_de": "Tomatenkiste",
+      "name_en": "Tomato Crate",
+      "glb": "kaykit-restaurant/crate_tomatoes.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 34,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "regale",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "lampStandingArc",
+      "name_de": "Bogenlampe",
+      "name_en": "Arc Floor Lamp",
+      "glb": "kaykit-furniture/lamp_standing.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 150,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "lampen",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ],
+      "can_toggle_light": true
+    },
+    {
+      "id": "lampSquareTable",
+      "name_de": "Eckige Tischlampe",
+      "name_en": "Square Table Lamp",
+      "glb": "kenney-furniture/lampSquareTable.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 65,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "lampen",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ],
+      "can_toggle_light": true
+    },
+    {
+      "id": "lampSquareCeiling",
+      "name_de": "Deckenlampe",
+      "name_en": "Ceiling Lamp",
+      "glb": "kenney-furniture/lampSquareCeiling.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "CEILING",
+      "preis": 80,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "lampen",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ],
+      "can_toggle_light": true
+    },
+    {
+      "id": "ceilingFan",
+      "name_de": "Deckenventilator",
+      "name_en": "Ceiling Fan",
+      "glb": "kenney-furniture/ceilingFan.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "CEILING",
+      "preis": 170,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "lampen",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ],
+      "can_toggle_light": true
+    },
+    {
+      "id": "radioRetro",
+      "name_de": "Retro-Radio",
+      "name_en": "Retro Radio",
+      "glb": "tt-picnic/radio.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 160,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "unterhaltung",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "rugRounded",
+      "name_de": "Ovaler Teppich",
+      "name_en": "Oval Rug",
+      "glb": "kenney-furniture/rugRounded.glb",
+      "footprint": [
+        4,
+        3
+      ],
+      "layer": "RUG",
+      "preis": 120,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "teppiche",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "himmel",
+        "butter",
+        "lavendel"
+      ]
+    },
+    {
+      "id": "pictureFrameWall",
+      "name_de": "Wandbild",
+      "name_en": "Wall Picture",
+      "glb": "kaykit-furniture/pictureframe_medium.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "WALL",
+      "preis": 70,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "bilder",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ],
+      "wall_size": 1
+    },
+    {
+      "id": "postkartenWand",
+      "name_de": "Postkartenwand",
+      "name_en": "Postcard Wall",
+      "glb": "",
+      "proc": "postkartenwand",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "WALL",
+      "wall_size": 2,
+      "preis": 60,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "bilder"
+    },
+    {
+      "id": "souvenirRegal",
+      "name_de": "Souvenirregal",
+      "name_en": "Souvenir Shelf",
+      "glb": "",
+      "proc": "souvenirregal",
+      "footprint": [
+        3,
+        1
+      ],
+      "layer": "WALL",
+      "wall_size": 3,
+      "preis": 90,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "bilder"
+    },
+    {
+      "id": "pictureFrameStanding",
+      "name_de": "Bilderrahmen",
+      "name_en": "Standing Frame",
+      "glb": "kaykit-furniture/pictureframe_standing_A.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 40,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "bilder",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "chalkboardMenu",
+      "name_de": "Wandtafel",
+      "name_en": "Chalkboard",
+      "glb": "kaykit-restaurant/menu.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "WALL",
+      "preis": 55,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "bilder",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "wall_size": 1
+    },
+    {
+      "id": "lampionHanging",
+      "name_de": "Lampion-Kette",
+      "name_en": "Hanging Lantern",
+      "glb": "kaykit-halloween/lantern_hanging.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "CEILING",
+      "preis": 45,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ],
+      "can_toggle_light": true
+    },
+    {
+      "id": "girlande_wimpel",
+      "name_de": "Wimpel-Girlande",
+      "name_en": "Pennant Garland",
+      "proc": "girlande",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "CEILING",
+      "preis": 120,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "girlanden"
+    },
+    {
+      "id": "girlande_lichter",
+      "name_de": "Lichterketten-Girlande",
+      "name_en": "Fairy Light Garland",
+      "proc": "girlande",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "CEILING",
+      "preis": 180,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "girlanden"
+    },
+    {
+      "id": "girlande_pompons",
+      "name_de": "Pompon-Girlande",
+      "name_en": "Pompom Garland",
+      "proc": "girlande",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "CEILING",
+      "preis": 140,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "girlanden"
+    },
+    {
+      "id": "lampionStanding",
+      "name_de": "Steh-Lampion",
+      "name_en": "Standing Lantern",
+      "glb": "kaykit-halloween/lantern_standing.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 55,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ],
+      "can_toggle_light": true
+    },
+    {
+      "id": "partyPumpkin",
+      "name_de": "Deko-Kürbis",
+      "name_en": "Decorative Pumpkin",
+      "glb": "kaykit-halloween/pumpkin_orange.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 32,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "partyJackolantern",
+      "name_de": "Kürbislaterne",
+      "name_en": "Jack-o'-Lantern",
+      "glb": "kaykit-halloween/pumpkin_orange_jackolantern.gltf",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 70,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ],
+      "can_toggle_light": true
+    },
+    {
+      "id": "partyPumpkinSmall",
+      "name_de": "Mini-Kürbis",
+      "name_en": "Mini Pumpkin",
+      "glb": "kaykit-halloween/pumpkin_orange_small.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 18,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "partyPumpkinYellow",
+      "name_de": "Gelber Mini-Kürbis",
+      "name_en": "Yellow Mini Pumpkin",
+      "glb": "kaykit-halloween/pumpkin_yellow_small.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 18,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "partyCake",
+      "name_de": "Geburtstagstorte",
+      "name_en": "Birthday Cake",
+      "glb": "kenney-food/cake-birthday.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 65,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "partyMacaronPink",
+      "name_de": "Rosa Macaron-Turm",
+      "name_en": "Pink Macaron Tower",
+      "glb": "tt-bakery/macaron_pink.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 22,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "partyMacaronBlue",
+      "name_de": "Blauer Macaron-Turm",
+      "name_en": "Blue Macaron Tower",
+      "glb": "tt-bakery/macaron_blue.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 22,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "partyMacaronYellow",
+      "name_de": "Gelber Macaron-Turm",
+      "name_en": "Yellow Macaron Tower",
+      "glb": "tt-bakery/macaron_yellow.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 22,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "partyCupcake",
+      "name_de": "Cupcake",
+      "name_en": "Cupcake",
+      "glb": "tt-baked/cupcake.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 16,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "partyCroissant",
+      "name_de": "Croissant",
+      "name_en": "Croissant",
+      "glb": "tt-baked/croissant.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 14,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "partyCinnamonRoll",
+      "name_de": "Zimtschnecke",
+      "name_en": "Cinnamon Roll",
+      "glb": "tt-baked/cinnamon-roll.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 14,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "partyPie",
+      "name_de": "Obstkuchen",
+      "name_en": "Fruit Pie",
+      "glb": "kenney-food/pie.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 38,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "partyPizza",
+      "name_de": "Pizza",
+      "name_en": "Pizza",
+      "glb": "kenney-food/pizza.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 30,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "partySundae",
+      "name_de": "Eisbecher",
+      "name_en": "Ice Cream Sundae",
+      "glb": "kenney-food/sundae.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 26,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "partySoda",
+      "name_de": "Limo-Dose",
+      "name_en": "Soda Can",
+      "glb": "kenney-food/soda.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 10,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "partyHoney",
+      "name_de": "Honigglas",
+      "name_en": "Honey Jar",
+      "glb": "kenney-food/honey.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 20,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "partyWatermelon",
+      "name_de": "Melone",
+      "name_en": "Watermelon",
+      "glb": "kenney-food/watermelon.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 24,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "bookStack",
+      "name_de": "Buchstapel",
+      "name_en": "Book Stack",
+      "glb": "kaykit-furniture/book_set.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 28,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "cashRegister",
+      "name_de": "Registrierkasse",
+      "name_en": "Cash Register",
+      "glb": "tt-bakery/cash_register.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 180,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "deko",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "picnicBasketRound",
+      "name_de": "Picknickkorb",
+      "name_en": "Picnic Basket",
+      "glb": "tt-picnic/picnic_basket_round.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 60,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "picnicBasketSquare",
+      "name_de": "Eckiger Picknickkorb",
+      "name_en": "Square Picnic Basket",
+      "glb": "tt-picnic/picnic_basket_square.gltf",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 70,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "deko",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "dekoBird",
+      "name_de": "Vögelchen",
+      "name_en": "Little Bird",
+      "glb": "tt-park/bird.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 25,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "cactusPot",
+      "name_de": "Kaktus im Topf",
+      "name_en": "Potted Cactus",
+      "glb": "aline/cactus.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 45,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "pflanzen",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "plantAline",
+      "name_de": "Zimmerpflanze",
+      "name_en": "House Plant",
+      "glb": "aline/plant.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 70,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "pflanzen",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "bushOrnamental",
+      "name_de": "Zierbusch",
+      "name_en": "Ornamental Bush",
+      "glb": "kaykit-city/bush.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 40,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "pflanzen",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "plantBushLarge",
+      "name_de": "Großer Busch",
+      "name_en": "Large Bush",
+      "glb": "kenney-nature/plant_bushLarge.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 55,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "pflanzen",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "treeDetailed",
+      "name_de": "Laubbaum",
+      "name_en": "Leafy Tree",
+      "glb": "kenney-nature/tree_detailed.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 180,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "treeOak",
+      "name_de": "Eiche",
+      "name_en": "Oak Tree",
+      "glb": "kenney-nature/tree_oak.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 200,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "treePineRound",
+      "name_de": "Rundtanne",
+      "name_en": "Round Pine",
+      "glb": "kenney-nature/tree_pineRoundA.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 175,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "treePineTall",
+      "name_de": "Hohe Tanne",
+      "name_en": "Tall Pine",
+      "glb": "kenney-nature/tree_pineTallA.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 165,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "treeAutumn",
+      "name_de": "Herbsttanne",
+      "name_en": "Autumn Pine",
+      "glb": "kaykit-halloween/tree_pine_orange_small.gltf",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 190,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "treeGnarled",
+      "name_de": "Knorriger Baum",
+      "name_en": "Gnarled Tree",
+      "glb": "kaykit-halloween/tree_dead_large.gltf",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 150,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "treeSlim",
+      "name_de": "Schlanker Baum",
+      "name_en": "Slim Tree",
+      "glb": "kenney-suburb/tree-large.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 130,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "treeSapling",
+      "name_de": "Bäumchen",
+      "name_en": "Sapling",
+      "glb": "kenney-suburb/tree-small.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 90,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "potSmall",
+      "name_de": "Kleiner Blumentopf",
+      "name_en": "Small Pot",
+      "glb": "kenney-nature/pot_small.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 25,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "planterBoxSuburb",
+      "name_de": "Vorgarten-Kasten",
+      "name_en": "Front Yard Planter",
+      "glb": "kenney-suburb/planter.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 45,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "rockLarge",
+      "name_de": "Großer Findling",
+      "name_en": "Large Boulder",
+      "glb": "kenney-nature/rock_largeA.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 60,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "rockSmall",
+      "name_de": "Kleiner Stein",
+      "name_en": "Small Rock",
+      "glb": "kenney-nature/rock_smallA.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 20,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "rockFlat",
+      "name_de": "Flacher Stein",
+      "name_en": "Flat Rock",
+      "glb": "kenney-nature/rock_smallFlatA.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 18,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "treeStump",
+      "name_de": "Baumstumpf",
+      "name_en": "Tree Stump",
+      "glb": "kenney-nature/stump_round.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 35,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "surface": true
+    },
+    {
+      "id": "woodLog",
+      "name_de": "Holzscheit",
+      "name_en": "Wooden Log",
+      "glb": "kenney-nature/log.glb",
+      "footprint": [
+        1,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 22,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "mushroomRed",
+      "name_de": "Fliegenpilz",
+      "name_en": "Red Mushroom",
+      "glb": "kenney-nature/mushroom_red.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 15,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "bridgeWood",
+      "name_de": "Holzbrücke",
+      "name_en": "Wooden Bridge",
+      "glb": "kenney-nature/bridge_wood.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 140,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "fenceGate",
+      "name_de": "Gartentor",
+      "name_en": "Garden Gate",
+      "glb": "kenney-nature/fence_gate.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 55,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "fenceLong",
+      "name_de": "Langer Lattenzaun",
+      "name_en": "Long Picket Fence",
+      "glb": "kenney-suburb/fence-1x4.glb",
+      "footprint": [
+        3,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 65,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "fenceCorner",
+      "name_de": "Eckzaun",
+      "name_en": "Corner Fence",
+      "glb": "kenney-suburb/fence-2x2.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 60,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "fenceLow",
+      "name_de": "Niedriger Zaun",
+      "name_en": "Low Fence",
+      "glb": "kenney-suburb/fence-low.glb",
+      "footprint": [
+        3,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 58,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "pathStonesLong",
+      "name_de": "Trittsteine",
+      "name_en": "Stepping Stones",
+      "glb": "kenney-suburb/path-stones-long.glb",
+      "footprint": [
+        1,
+        2
+      ],
+      "layer": "RUG",
+      "preis": 20,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "pathStonesShort",
+      "name_de": "Trittstein",
+      "name_en": "Stepping Stone",
+      "glb": "kenney-suburb/path-stones-short.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "RUG",
+      "preis": 12,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "parkBenchCity",
+      "name_de": "Parkbank",
+      "name_en": "Park Bench",
+      "glb": "kaykit-city/bench.gltf",
+      "footprint": [
+        3,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 120,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "parkBenchPretty",
+      "name_de": "Verzierte Parkbank",
+      "name_en": "Ornate Park Bench",
+      "glb": "tt-park/bench.gltf",
+      "footprint": [
+        3,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 160,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "gardenFountain",
+      "name_de": "Gartenbrunnen",
+      "name_en": "Garden Fountain",
+      "glb": "tt-park/fountain.gltf",
+      "footprint": [
+        4,
+        4
+      ],
+      "layer": "FLOOR",
+      "preis": 520,
+      "lagerwert": 4,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "gardenLantern",
+      "name_de": "Gartenlaterne",
+      "name_en": "Garden Lantern",
+      "glb": "tt-park/street_lantern.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 110,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ],
+      "can_toggle_light": true
+    },
+    {
+      "id": "flowerBedPink",
+      "name_de": "Blumenbeet",
+      "name_en": "Flower Bed",
+      "glb": "tt-park/flower_A.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 30,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "flowerBedSmall",
+      "name_de": "Kleines Blümchen",
+      "name_en": "Little Flower",
+      "glb": "tt-park/flower_B.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 20,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "streetLampCity",
+      "name_de": "Straßenlaterne",
+      "name_en": "Street Lamp",
+      "glb": "kaykit-city/streetlight.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 125,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ],
+      "can_toggle_light": true
+    },
+    {
+      "id": "dumpsterCity",
+      "name_de": "Mülltonne",
+      "name_en": "Dumpster",
+      "glb": "kaykit-city/dumpster.gltf",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 45,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "hydrantCity",
+      "name_de": "Hydrant",
+      "name_en": "Fire Hydrant",
+      "glb": "kaykit-city/firehydrant.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 40,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "deskOffice",
+      "name_de": "Schreibtisch",
+      "name_en": "Office Desk",
+      "glb": "table.glb",
+      "footprint": [
+        3,
+        2
+      ],
+      "layer": "FLOOR",
+      "preis": 195,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "buero",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "surface": true
+    },
+    {
+      "id": "deskMonitor",
+      "name_de": "PC-Monitor",
+      "name_en": "Computer Monitor",
+      "glb": "televisionModern.glb",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 240,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "buero",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "officeChair",
+      "name_de": "Bürostuhl",
+      "name_en": "Office Chair",
+      "glb": "chairCushion.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 90,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "buero",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "himmel",
+        "butter",
+        "lavendel"
+      ]
+    },
+    {
+      "id": "officeShelf",
+      "name_de": "Aktenregal",
+      "name_en": "Filing Shelf",
+      "glb": "bookcaseClosedWide.glb",
+      "footprint": [
+        3,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 160,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "buero",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ],
+      "surface": true
+    },
+    {
+      "id": "deskLamp",
+      "name_de": "Schreibtischlampe",
+      "name_en": "Desk Lamp",
+      "glb": "lampRoundTable.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 60,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "buero",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ],
+      "can_toggle_light": true
+    },
+    {
+      "id": "wastePaperBin",
+      "name_de": "Papierkorb",
+      "name_en": "Waste Paper Bin",
+      "glb": "trashcan.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 22,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "buero",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "nougatschleuse",
+      "name_de": "Nougatschleuse",
+      "name_en": "Nougat Chute",
+      "glb": "nougatschleuse.glb",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "WALL",
+      "wall_size": 2,
+      "preis": 400,
+      "lagerwert": 2,
+      "pflicht": "",
+      "kategorie": "kueche"
+    },
+    {
+      "id": "vogelhaus",
+      "name_de": "Vogelhäuschen",
+      "name_en": "Birdhouse",
+      "glb": "../ranch/gebaeude/huehnerstall.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 0,
+      "verkaufswert": 35,
+      "lagerwert": 1,
+      "kategorie": "garten",
+      "pflicht": ""
+    },
+    {
+      "id": "kraeuterkasten",
+      "name_de": "Kräuterkasten",
+      "name_en": "Herb Box",
+      "glb": "kenney-suburb/planter.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 0,
+      "verkaufswert": 40,
+      "lagerwert": 1,
+      "kategorie": "garten",
+      "pflicht": ""
+    },
+    {
+      "id": "windrad_deko",
+      "name_de": "Windrad-Deko",
+      "name_en": "Pinwheel Decoration",
+      "glb": "../minigames/mini_golf/windmill.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 0,
+      "verkaufswert": 55,
+      "lagerwert": 1,
+      "kategorie": "garten",
+      "pflicht": ""
+    },
+    {
+      "id": "gfree_shuttle",
+      "name_de": "Mini-Shuttle GOOB-1",
+      "name_en": "Mini Shuttle GOOB-1",
+      "glb": "gfree_shuttle.glb",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 0,
+      "verkaufswert": 90,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko"
+    },
+    {
+      "id": "gfree_flitzer",
+      "name_de": "Sternen-Flitzer",
+      "name_en": "Star Speeder",
+      "glb": "gfree_flitzer.glb",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 0,
+      "verkaufswert": 80,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko"
+    },
+    {
+      "id": "gfree_meteorit",
+      "name_de": "Meteorit (fast echt)",
+      "name_en": "Meteorite (Almost Real)",
+      "glb": "gfree_meteorit.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 0,
+      "verkaufswert": 60,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko"
+    },
+    {
+      "id": "gfree_mondstein",
+      "name_de": "Mondstein",
+      "name_en": "Moon Rock",
+      "glb": "gfree_mondstein.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 0,
+      "verkaufswert": 40,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko"
+    },
+    {
+      "id": "gfree_sternmoehre",
+      "name_de": "Goldene Sternen-Möhre",
+      "name_en": "Golden Star Carrot",
+      "glb": "gfree_sternmoehre.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 0,
+      "verkaufswert": 50,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko"
+    },
+    {
+      "id": "pow_poster",
+      "name_de": "Poster „Ein Gooby blickt in die Ferne“",
+      "name_en": "Poster “A Gooby Gazes into the Distance”",
+      "glb": "pow_poster.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "WALL",
+      "preis": 0,
+      "verkaufswert": 11,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "bilder",
+      "wall_size": 1
+    },
+    {
+      "id": "pow_lavalampe",
+      "name_de": "Lavalampe",
+      "name_en": "Lava Lamp",
+      "glb": "pow_lavalampe.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 0,
+      "verkaufswert": 45,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "lampen",
+      "can_toggle_light": true
+    },
+    {
+      "id": "pow_diskokugel",
+      "name_de": "Diskokugel",
+      "name_en": "Disco Ball",
+      "glb": "pow_diskokugel.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "CEILING",
+      "preis": 0,
+      "verkaufswert": 60,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "party"
+    },
+    {
+      "id": "pow_sammelfigur",
+      "name_de": "Sammelfigur (Serie 3)",
+      "name_en": "Collectible Figure (Series 3)",
+      "glb": "pow_sammelfigur.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 0,
+      "verkaufswert": 30,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko"
+    },
+    {
+      "id": "pow_pluesch_moehre",
+      "name_de": "Plüsch-Möhre (lebensgroß)",
+      "name_en": "Plush Carrot (Life-Size)",
+      "glb": "pow_pluesch_moehre.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 0,
+      "verkaufswert": 18,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko"
+    },
+    {
+      "id": "proc:goldfishBowl",
+      "name_de": "Goldfischglas",
+      "name_en": "Goldfish Bowl",
+      "glb": "album_goldfischglas.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 0,
+      "verkaufswert": 60,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko"
+    },
+    {
+      "id": "proc:goldenWateringCan",
+      "name_de": "Goldene Gießkanne",
+      "name_en": "Golden Watering Can",
+      "glb": "album_giesskanne.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 0,
+      "verkaufswert": 50,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko"
+    },
+    {
+      "id": "proc:toyCity",
+      "name_de": "Spielzeugstadt",
+      "name_en": "Toy Town",
+      "glb": "album_spielzeugstadt.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 0,
+      "verkaufswert": 50,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko"
+    },
+    {
+      "id": "proc:candyJar",
+      "name_de": "Bonbonglas",
+      "name_en": "Candy Jar",
+      "glb": "album_bonbonglas.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 0,
+      "verkaufswert": 50,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+	"schema": 1,
+	"values": {
+		"zahnbuersten_bruch_chance": 0.02,
+		"tuer_klemm_chance": 0.07,
+		"muenzen_tageslimit": 150
+	}
+}

@@ -1,0 +1,470 @@
+{
+	"steps": [
+		{
+			"econ": {
+				"coins": 146,
+				"coinsEarned": 46,
+				"coinsSpent": 0,
+				"dayCoins": 0,
+				"dayCoinsDay": "",
+				"endlessCoins": 0,
+				"endlessCoinsDay": ""
+			},
+			"fun": 85.0,
+			"label": "first_normal_70",
+			"mg": {
+				"dayCoins": 46,
+				"dayCoinsDay": "2026-01-15",
+				"legacy": {
+					"beaten": {
+						"carrotCatch": {
+							"normal": true
+						}
+					},
+					"best": {
+						"carrotCatch": 70
+					},
+					"bestByDiff": {
+
+					},
+					"endlessBest": {
+
+					},
+					"lastPlayDay": {
+						"carrotCatch": "2026-01-15"
+					}
+				},
+				"plays": {
+					"carrotCatch": 1
+				}
+			},
+			"prog": {
+				"level": 1,
+				"xp": 25.0
+			},
+			"result": {
+				"beatTarget": true,
+				"best": 70,
+				"coins": 46,
+				"coinsFromLevels": 0,
+				"dayCapReached": false,
+				"difficulty": "normal",
+				"firstToday": true,
+				"gameId": "carrotCatch",
+				"gluecksrolleCoins": 0,
+				"level": 1,
+				"levelsGained": 0,
+				"modifier": {
+
+				},
+				"modifierBonusCoins": 0,
+				"modifierCapped": false,
+				"newBest": true,
+				"score": 70,
+				"spotlightBonusCoins": 0,
+				"xp": 25
+			}
+		},
+		{
+			"econ": {
+				"coins": 161,
+				"coinsEarned": 61,
+				"coinsSpent": 0,
+				"dayCoins": 0,
+				"dayCoinsDay": "",
+				"endlessCoins": 0,
+				"endlessCoinsDay": ""
+			},
+			"label": "second_normal_45",
+			"mg": {
+				"dayCoins": 61,
+				"dayCoinsDay": "2026-01-15",
+				"legacy": {
+					"beaten": {
+						"carrotCatch": {
+							"normal": true
+						}
+					},
+					"best": {
+						"carrotCatch": 70
+					},
+					"bestByDiff": {
+
+					},
+					"endlessBest": {
+
+					},
+					"lastPlayDay": {
+						"carrotCatch": "2026-01-15"
+					}
+				},
+				"plays": {
+					"carrotCatch": 2
+				}
+			},
+			"prog": {
+				"level": 1,
+				"xp": 42.0
+			},
+			"result": {
+				"beatTarget": false,
+				"best": 70,
+				"coins": 15,
+				"coinsFromLevels": 0,
+				"dayCapReached": false,
+				"difficulty": "normal",
+				"firstToday": false,
+				"gameId": "carrotCatch",
+				"gluecksrolleCoins": 0,
+				"level": 1,
+				"levelsGained": 0,
+				"modifier": {
+
+				},
+				"modifierBonusCoins": 0,
+				"modifierCapped": false,
+				"newBest": false,
+				"score": 45,
+				"spotlightBonusCoins": 0,
+				"xp": 17
+			}
+		},
+		{
+			"econ": {
+				"coins": 186,
+				"coinsEarned": 86,
+				"coinsSpent": 0,
+				"dayCoins": 0,
+				"dayCoinsDay": "",
+				"endlessCoins": 0,
+				"endlessCoinsDay": ""
+			},
+			"label": "hard_120",
+			"mg": {
+				"dayCoins": 86,
+				"dayCoinsDay": "2026-01-15",
+				"legacy": {
+					"beaten": {
+						"carrotCatch": {
+							"hard": true,
+							"normal": true
+						}
+					},
+					"best": {
+						"carrotCatch": 70
+					},
+					"bestByDiff": {
+						"carrotCatch": {
+							"hard": 120
+						}
+					},
+					"endlessBest": {
+
+					},
+					"lastPlayDay": {
+						"carrotCatch": "2026-01-15"
+					}
+				},
+				"plays": {
+					"carrotCatch": 3
+				}
+			},
+			"prog": {
+				"level": 1,
+				"xp": 64.0
+			},
+			"result": {
+				"beatTarget": true,
+				"best": 120,
+				"coins": 25,
+				"coinsFromLevels": 0,
+				"dayCapReached": false,
+				"difficulty": "hard",
+				"firstToday": false,
+				"gameId": "carrotCatch",
+				"gluecksrolleCoins": 0,
+				"level": 1,
+				"levelsGained": 0,
+				"modifier": {
+
+				},
+				"modifierBonusCoins": 0,
+				"modifierCapped": false,
+				"newBest": true,
+				"score": 120,
+				"spotlightBonusCoins": 0,
+				"xp": 22
+			}
+		},
+		{
+			"econ": {
+				"coins": 191,
+				"coinsEarned": 91,
+				"coinsSpent": 0,
+				"dayCoins": 0,
+				"dayCoinsDay": "",
+				"endlessCoins": 5,
+				"endlessCoinsDay": "2026-01-15"
+			},
+			"label": "endless_300",
+			"mg": {
+				"dayCoins": 86,
+				"dayCoinsDay": "2026-01-15",
+				"legacy": {
+					"beaten": {
+						"carrotCatch": {
+							"hard": true,
+							"normal": true
+						}
+					},
+					"best": {
+						"carrotCatch": 70
+					},
+					"bestByDiff": {
+						"carrotCatch": {
+							"hard": 120
+						}
+					},
+					"endlessBest": {
+						"carrotCatch": 300
+					},
+					"lastPlayDay": {
+						"carrotCatch": "2026-01-15"
+					}
+				},
+				"plays": {
+					"carrotCatch": 4
+				}
+			},
+			"prog": {
+				"level": 1,
+				"xp": 76.0
+			},
+			"result": {
+				"beatTarget": false,
+				"best": 300,
+				"coins": 5,
+				"coinsFromLevels": 0,
+				"dayCapReached": false,
+				"difficulty": "endless",
+				"firstToday": false,
+				"gameId": "carrotCatch",
+				"gluecksrolleCoins": 0,
+				"level": 1,
+				"levelsGained": 0,
+				"modifier": {
+
+				},
+				"modifierBonusCoins": 0,
+				"modifierCapped": false,
+				"newBest": true,
+				"score": 300,
+				"spotlightBonusCoins": 0,
+				"xp": 12
+			}
+		},
+		{
+			"econ": {
+				"coins": 271,
+				"coinsEarned": 171,
+				"coinsSpent": 0,
+				"dayCoins": 0,
+				"dayCoinsDay": "",
+				"endlessCoins": 5,
+				"endlessCoinsDay": "2026-01-15"
+			},
+			"label": "teaParty_easy_chunks",
+			"mg": {
+				"dayCoins": 116,
+				"dayCoinsDay": "2026-01-15",
+				"legacy": {
+					"beaten": {
+						"carrotCatch": {
+							"hard": true,
+							"normal": true
+						},
+						"teaParty": {
+							"easy": true
+						}
+					},
+					"best": {
+						"carrotCatch": 70
+					},
+					"bestByDiff": {
+						"carrotCatch": {
+							"hard": 120
+						},
+						"teaParty": {
+							"easy": 90
+						}
+					},
+					"endlessBest": {
+						"carrotCatch": 300
+					},
+					"lastPlayDay": {
+						"carrotCatch": "2026-01-15",
+						"teaParty": "2026-01-15"
+					}
+				},
+				"plays": {
+					"carrotCatch": 4,
+					"teaParty": 1
+				}
+			},
+			"prog": {
+				"level": 2,
+				"xp": 1.0
+			},
+			"result": {
+				"beatTarget": true,
+				"best": 90,
+				"coins": 30,
+				"coinsFromLevels": 50,
+				"dayCapReached": false,
+				"difficulty": "easy",
+				"firstToday": true,
+				"gameId": "teaParty",
+				"gluecksrolleCoins": 0,
+				"level": 2,
+				"levelsGained": 1,
+				"modifier": {
+
+				},
+				"modifierBonusCoins": 0,
+				"modifierCapped": false,
+				"newBest": true,
+				"score": 90,
+				"spotlightBonusCoins": 0,
+				"xp": 25
+			}
+		},
+		{
+			"econ": {
+				"coins": 305,
+				"coinsEarned": 205,
+				"coinsSpent": 0,
+				"dayCoins": 0,
+				"dayCoinsDay": "",
+				"endlessCoins": 5,
+				"endlessCoinsDay": "2026-01-15"
+			},
+			"label": "after_cap",
+			"mg": {
+				"dayCoins": 150,
+				"dayCoinsDay": "2026-01-15",
+				"legacy": {
+					"beaten": {
+						"carrotCatch": {
+							"hard": true,
+							"normal": true
+						},
+						"teaParty": {
+							"easy": true
+						}
+					},
+					"best": {
+						"carrotCatch": 200
+					},
+					"bestByDiff": {
+						"carrotCatch": {
+							"hard": 120
+						},
+						"teaParty": {
+							"easy": 90
+						}
+					},
+					"endlessBest": {
+						"carrotCatch": 300
+					},
+					"lastPlayDay": {
+						"carrotCatch": "2026-01-15",
+						"teaParty": "2026-01-15"
+					}
+				},
+				"plays": {
+					"carrotCatch": 16,
+					"teaParty": 1
+				}
+			},
+			"prog": {
+				"level": 2,
+				"xp": 137.0
+			}
+		},
+		{
+			"econ": {
+				"coins": 412,
+				"coinsEarned": 312,
+				"coinsSpent": 0,
+				"dayCoins": 0,
+				"dayCoinsDay": "",
+				"endlessCoins": 5,
+				"endlessCoinsDay": "2026-01-15"
+			},
+			"label": "next_day_50",
+			"mg": {
+				"dayCoins": 32,
+				"dayCoinsDay": "2026-01-16",
+				"legacy": {
+					"beaten": {
+						"carrotCatch": {
+							"hard": true,
+							"normal": true
+						},
+						"teaParty": {
+							"easy": true
+						}
+					},
+					"best": {
+						"carrotCatch": 200
+					},
+					"bestByDiff": {
+						"carrotCatch": {
+							"hard": 120
+						},
+						"teaParty": {
+							"easy": 90
+						}
+					},
+					"endlessBest": {
+						"carrotCatch": 300
+					},
+					"lastPlayDay": {
+						"carrotCatch": "2026-01-16",
+						"teaParty": "2026-01-15"
+					}
+				},
+				"plays": {
+					"carrotCatch": 17,
+					"teaParty": 1
+				}
+			},
+			"prog": {
+				"level": 3,
+				"xp": 12.0
+			},
+			"result": {
+				"beatTarget": false,
+				"best": 200,
+				"coins": 32,
+				"coinsFromLevels": 75,
+				"dayCapReached": false,
+				"difficulty": "normal",
+				"firstToday": true,
+				"gameId": "carrotCatch",
+				"gluecksrolleCoins": 0,
+				"level": 3,
+				"levelsGained": 1,
+				"modifier": {
+
+				},
+				"modifierBonusCoins": 0,
+				"modifierCapped": false,
+				"newBest": false,
+				"score": 50,
+				"spotlightBonusCoins": 0,
+				"xp": 25
+			}
+		}
+	]
+}

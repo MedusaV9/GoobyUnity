@@ -1,0 +1,14 @@
+{
+	"mg": {
+		"spotlight": {
+			"badge": "★ Game of the Day",
+			"pregame": {
+				"aktiv": "★ Game of the Day: +{prozent}% coins — once today!",
+				"eingeloest": "★ Game of the Day — daily bonus already claimed."
+			},
+			"results": {
+				"bonus": "Game of the Day: +{coins} coins"
+			}
+		}
+	}
+}

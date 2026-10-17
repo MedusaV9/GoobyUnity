@@ -1,0 +1,115 @@
+{
+	"home": {
+		"raum": {
+			"living": "Wohnzimmer",
+			"kitchen": "Küche",
+			"bathroom": "Bad",
+			"bedroom": "Schlafzimmer",
+			"garden": "Garten"
+		},
+		"tuer": {
+			"stuck": "Gooby ist stecken geblieben!",
+			"mash_hint": "Tipp! Tipp! Tipp!",
+			"confirm_raum": "{raum} betreten?",
+			"confirm_draussen": "Nach draußen gehen?",
+			"confirm_ja": "Los!",
+			"confirm_nein": "Lieber nicht"
+		},
+		"blocked": {
+			"bubble": "Ich kann nicht so gut klettern… manno!",
+			"umbauen": "Ich baue um",
+			"lava": "BODEN IST LAVA",
+			"spidergooby": "ICH BIN SPIDERGOOBY!!"
+		},
+		"gooby": {
+			"watch": "Ohh, wird das schön?"
+		},
+		"suche": {
+			"hier": "Hier bin ich doch! Ich hab nur auf dich gewartet!",
+			"unterwegs": "Ich bin auf Streifzug! Erst hier lang, dann da lang!",
+			"schlaeft": "Psst… ich träum grad von einer Riesenmöhre…",
+			"baumodus": "Ich bin hier! Ich guck dir beim Umbauen zu!",
+			"akt": {
+				"idle_aufraeumen": "Ich hab ein bisschen aufgeräumt — fast alles freiwillig!",
+				"idle_fernsehen": "Ich hab ferngesehen! Gleich kommt die Möhren-Show!",
+				"idle_doesen": "Ich hab nur kuuurz die Augen zugemacht. Ehrlich!",
+				"idle_fenster": "Ich hab aus dem Fenster geschaut — draußen ist so viel los!",
+				"idle_tanzen": "Ich hab getanzt! Schau mal: mein Wackelohren-Move!",
+				"idle_lieblingsplatz": "Ich war an meinem Lieblingsplatz. Da ist es am kuscheligsten!",
+				"absicht_hunger": "Mein Bauch knurrt wie ein Bär! Ich such was Leckeres…",
+				"absicht_langeweile": "Mir war laaangweilig — ich such was zum Spielen!",
+				"absicht_muede": "Ich bin soooo müde… wo ist mein Bettchen?",
+				"absicht_dreckig": "Ich kleb ein bisschen… ab ins Bad mit mir!",
+				"absicht_regen": "Es regnet! Ich schau den Tropfen beim Wettrennen zu!"
+			}
+		},
+		"auge": {
+			"hinweis": "Alles, was funkelt, kannst du antippen!"
+		},
+		"umzug": "Umzugstag! Alles ist noch in Kartons…",
+		"aktion_bald": "Kommt bald!"
+	},
+	"build": {
+		"lager": "Lager {used}/{cap}",
+		"lager_kurz": "{used}/{cap}",
+		"lager_voll": "Lager voll! Stell erst was auf oder verkauf ein Möbel.",
+		"leer": "Dein Lager ist leer.",
+		"fertig": "Fertig",
+		"rotieren": "Drehen",
+		"bestaetigen": "Platzieren",
+		"einlagern": "Einlagern",
+		"abbrechen": "Abbrechen",
+		"bett_quest": "Platzier dein Bett! Gooby will kuscheln!",
+		"hammer_fertig": "Tadaa! Selbst gebaut!",
+		"kamera": {
+			"oben": "Draufsicht",
+			"schraeg": "Schrägsicht",
+			"links": "⟲ 90°",
+			"rechts": "90° ⟳"
+		},
+		"pflicht": {
+			"bett": "Gooby braucht sein Bett! 😤",
+			"couch": "Gooby braucht seine Couch! 😤",
+			"kuehlschrank": "Gooby braucht seinen Kühlschrank! 😤"
+		},
+		"ebene": {
+			"boden": "Boden",
+			"wand": "Wand",
+			"decke": "Decke"
+		},
+		"status": {
+			"ebene": "Bauen · Ebene: {ebene}",
+			"girlande_a": "Girlande: ersten Punkt wählen",
+			"girlande_b": "Girlande: zweiten Punkt wählen"
+		},
+		"girlande": {
+			"punkt_a": "Tipp den ersten Decken-Punkt an!",
+			"punkt_b": "Und jetzt den zweiten — dann hängt sie schön durch!",
+			"haengt": "Tadaa! Die Girlande baumelt!",
+			"ungueltig": "Huch, so klappt das nicht — such dir zwei Decken-Zellen aus!",
+			"entfernt": "Girlande abgenommen und eingelagert!",
+			"nur_drinnen": "Girlanden hängen drinnen unter der Decke — im Garten ist der Himmel die Decke!"
+		},
+		"preset": {
+			"knopf": "Presets",
+			"titel": "Raum speichern",
+			"schliessen": "Zurück",
+			"name_platzhalter": "Name fürs Layout",
+			"name_hinweis": "Erst oben einen Namen eintippen!",
+			"frei": "Freier Slot",
+			"info": "{moebel} Möbel · {girlanden} Girlanden",
+			"info_eine": "{moebel} Möbel · 1 Girlande",
+			"speichern": "Speichern",
+			"ueberschreiben": "Überschreiben",
+			"anwenden": "Anwenden",
+			"loeschen": "Löschen",
+			"sicher": "Sicher?",
+			"gespeichert": "Layout gespeichert!",
+			"geloescht": "Preset gelöscht.",
+			"angewendet": "Tadaa! Layout getauscht!",
+			"fehlend": "Layout getauscht — {anzahl} Teile fehlten und blieben weg.",
+			"lager_voll": "Das Lager würde überlaufen — nichts geändert!"
+		},
+		"moebel_kaufen": "Möbel kaufen"
+	}
+}

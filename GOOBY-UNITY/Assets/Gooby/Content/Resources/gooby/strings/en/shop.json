@@ -1,0 +1,58 @@
+{
+  "shop": {
+    "ikea": {
+      "title": "GOOBEA furniture store",
+      "back": "Back",
+      "search": "Search furniture …",
+      "alle": "All",
+      "leer": "Nothing found — try another search term.",
+      "buy": "Buy",
+      "preis": "{n} coins",
+      "muenzen": "{n} coins",
+      "felder": "takes up {x}×{y} tiles",
+      "lagerwert": "Storage value {n}",
+      "lager": "Storage: {frei} of {gesamt} free",
+      "zoom": "Zoom",
+      "variants": "Colour",
+      "gekauft": "{name} is ordered — the delivery van brings it as soon as you are home!",
+      "zu_teuer": "Not enough coins for that one.",
+      "lager_voll": "Storage is full — clear it out or upgrade the shed.",
+      "fehler": "That did not work, sorry.",
+      "untertitel": "Look, turn, pick a colour — off to storage!",
+      "im_lager": "Already {n}× in storage.",
+      "app": "GOOBEA"
+    },
+    "kategorie": {
+      "bad": "Bathroom",
+      "bilder": "Pictures",
+      "buero": "Office",
+      "deko": "Decor",
+      "fenster": "Windows",
+      "garten": "Garden",
+      "girlanden": "Garlands",
+      "kueche": "Kitchen",
+      "lampen": "Lamps",
+      "party": "Party",
+      "pflanzen": "Plants",
+      "regale": "Shelves",
+      "schlafen": "Bedroom",
+      "sitzen": "Seating",
+      "teppiche": "Rugs",
+      "tische": "Tables",
+      "unterhaltung": "Entertainment",
+      "wohnen": "Living"
+    },
+    "variant": {
+      "natur": "Natural",
+      "rose": "Rose",
+      "mint": "Mint",
+      "himmel": "Sky Blue",
+      "butter": "Butter",
+      "lavendel": "Lavender",
+      "salbei": "Sage",
+      "sand": "Sand",
+      "koralle": "Coral",
+      "schiefer": "Slate"
+    }
+  }
+}

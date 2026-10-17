@@ -1,0 +1,504 @@
+{
+	"kurse": [
+		{
+			"id": 1,
+			"tempo": 6.0,
+			"laenge_m": 205.6,
+			"par_s": 34.3,
+			"hindernisse": [
+				{
+					"at": 26.0,
+					"typ": "zaun"
+				},
+				{
+					"at": 44.3,
+					"typ": "zaun"
+				},
+				{
+					"at": 67.1,
+					"typ": "zaun"
+				},
+				{
+					"at": 90.7,
+					"typ": "zaun"
+				},
+				{
+					"at": 118.1,
+					"typ": "zaun"
+				},
+				{
+					"at": 146.5,
+					"typ": "zaun"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"tempo": 6.15,
+			"laenge_m": 222.1,
+			"par_s": 36.1,
+			"hindernisse": [
+				{
+					"at": 26.0,
+					"typ": "zaun"
+				},
+				{
+					"at": 51.6,
+					"typ": "hecke"
+				},
+				{
+					"at": 71.7,
+					"typ": "zaun"
+				},
+				{
+					"at": 93.2,
+					"typ": "hecke"
+				},
+				{
+					"at": 117.9,
+					"typ": "zaun"
+				},
+				{
+					"at": 138.3,
+					"typ": "hecke"
+				},
+				{
+					"at": 163.3,
+					"typ": "zaun"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"tempo": 6.3,
+			"laenge_m": 229.2,
+			"par_s": 36.4,
+			"hindernisse": [
+				{
+					"at": 26.0,
+					"typ": "zaun"
+				},
+				{
+					"at": 45.8,
+					"typ": "hecke"
+				},
+				{
+					"at": 69.8,
+					"typ": "oxer"
+				},
+				{
+					"at": 86.7,
+					"typ": "zaun"
+				},
+				{
+					"at": 112.7,
+					"typ": "hecke"
+				},
+				{
+					"at": 134.6,
+					"typ": "oxer"
+				},
+				{
+					"at": 153.1,
+					"typ": "zaun"
+				},
+				{
+					"at": 176.3,
+					"typ": "hecke"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"tempo": 6.45,
+			"laenge_m": 254.7,
+			"par_s": 39.5,
+			"hindernisse": [
+				{
+					"at": 26.0,
+					"typ": "zaun"
+				},
+				{
+					"at": 50.4,
+					"typ": "hecke"
+				},
+				{
+					"at": 76.0,
+					"typ": "oxer"
+				},
+				{
+					"at": 100.0,
+					"typ": "zaun"
+				},
+				{
+					"at": 117.7,
+					"typ": "hecke"
+				},
+				{
+					"at": 140.5,
+					"typ": "oxer"
+				},
+				{
+					"at": 166.2,
+					"typ": "zaun"
+				},
+				{
+					"at": 185.1,
+					"typ": "hecke"
+				},
+				{
+					"at": 203.0,
+					"typ": "oxer"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"tempo": 6.6,
+			"laenge_m": 271.8,
+			"par_s": 41.2,
+			"hindernisse": [
+				{
+					"at": 26.0,
+					"typ": "wasser"
+				},
+				{
+					"at": 49.7,
+					"typ": "hecke"
+				},
+				{
+					"at": 74.4,
+					"typ": "zaun"
+				},
+				{
+					"at": 98.0,
+					"typ": "zaun"
+				},
+				{
+					"at": 120.7,
+					"typ": "hecke"
+				},
+				{
+					"at": 139.3,
+					"typ": "zaun"
+				},
+				{
+					"at": 159.0,
+					"typ": "oxer"
+				},
+				{
+					"at": 177.3,
+					"typ": "oxer"
+				},
+				{
+					"at": 195.6,
+					"typ": "oxer"
+				},
+				{
+					"at": 216.9,
+					"typ": "oxer"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"tempo": 6.75,
+			"laenge_m": 285.6,
+			"par_s": 42.3,
+			"hindernisse": [
+				{
+					"at": 26.0,
+					"typ": "oxer"
+				},
+				{
+					"at": 47.1,
+					"typ": "wasser"
+				},
+				{
+					"at": 64.4,
+					"typ": "wasser"
+				},
+				{
+					"at": 85.7,
+					"typ": "hecke"
+				},
+				{
+					"at": 106.5,
+					"typ": "oxer"
+				},
+				{
+					"at": 127.9,
+					"typ": "zaun"
+				},
+				{
+					"at": 150.7,
+					"typ": "zaun"
+				},
+				{
+					"at": 173.9,
+					"typ": "zaun"
+				},
+				{
+					"at": 192.5,
+					"typ": "zaun"
+				},
+				{
+					"at": 210.0,
+					"typ": "hecke"
+				},
+				{
+					"at": 230.5,
+					"typ": "hecke"
+				}
+			]
+		},
+		{
+			"id": 7,
+			"tempo": 6.9,
+			"laenge_m": 300.8,
+			"par_s": 43.6,
+			"hindernisse": [
+				{
+					"at": 26.0,
+					"typ": "hecke"
+				},
+				{
+					"at": 46.8,
+					"typ": "wasser"
+				},
+				{
+					"at": 68.4,
+					"typ": "hecke"
+				},
+				{
+					"at": 91.2,
+					"typ": "oxer"
+				},
+				{
+					"at": 108.5,
+					"typ": "wasser"
+				},
+				{
+					"at": 129.2,
+					"typ": "wasser"
+				},
+				{
+					"at": 148.0,
+					"typ": "oxer"
+				},
+				{
+					"at": 166.3,
+					"typ": "hecke"
+				},
+				{
+					"at": 189.5,
+					"typ": "hecke"
+				},
+				{
+					"at": 207.7,
+					"typ": "wasser"
+				},
+				{
+					"at": 228.8,
+					"typ": "oxer"
+				},
+				{
+					"at": 248.4,
+					"typ": "wasser"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"tempo": 7.05,
+			"laenge_m": 317.4,
+			"par_s": 45.0,
+			"hindernisse": [
+				{
+					"at": 26.0,
+					"typ": "hecke"
+				},
+				{
+					"at": 46.0,
+					"typ": "hecke"
+				},
+				{
+					"at": 67.6,
+					"typ": "wasser"
+				},
+				{
+					"at": 87.1,
+					"typ": "oxer"
+				},
+				{
+					"at": 108.2,
+					"typ": "wasser"
+				},
+				{
+					"at": 125.7,
+					"typ": "hecke"
+				},
+				{
+					"at": 145.1,
+					"typ": "oxer"
+				},
+				{
+					"at": 166.9,
+					"typ": "hecke"
+				},
+				{
+					"at": 188.3,
+					"typ": "oxer"
+				},
+				{
+					"at": 209.3,
+					"typ": "oxer"
+				},
+				{
+					"at": 228.2,
+					"typ": "oxer"
+				},
+				{
+					"at": 246.9,
+					"typ": "wasser"
+				},
+				{
+					"at": 264.6,
+					"typ": "wasser"
+				}
+			]
+		},
+		{
+			"id": 9,
+			"tempo": 7.2,
+			"laenge_m": 335.1,
+			"par_s": 46.5,
+			"hindernisse": [
+				{
+					"at": 26.0,
+					"typ": "wasser"
+				},
+				{
+					"at": 47.0,
+					"typ": "zaun"
+				},
+				{
+					"at": 66.8,
+					"typ": "hecke"
+				},
+				{
+					"at": 84.3,
+					"typ": "hecke"
+				},
+				{
+					"at": 102.1,
+					"typ": "zaun"
+				},
+				{
+					"at": 121.0,
+					"typ": "oxer"
+				},
+				{
+					"at": 140.6,
+					"typ": "zaun"
+				},
+				{
+					"at": 160.4,
+					"typ": "zaun"
+				},
+				{
+					"at": 181.4,
+					"typ": "zaun"
+				},
+				{
+					"at": 201.9,
+					"typ": "hecke"
+				},
+				{
+					"at": 223.0,
+					"typ": "zaun"
+				},
+				{
+					"at": 244.2,
+					"typ": "wasser"
+				},
+				{
+					"at": 262.8,
+					"typ": "hecke"
+				},
+				{
+					"at": 283.2,
+					"typ": "zaun"
+				}
+			]
+		},
+		{
+			"id": 10,
+			"tempo": 7.35,
+			"laenge_m": 344.1,
+			"par_s": 46.8,
+			"hindernisse": [
+				{
+					"at": 26.0,
+					"typ": "hecke"
+				},
+				{
+					"at": 43.7,
+					"typ": "oxer"
+				},
+				{
+					"at": 61.4,
+					"typ": "wasser"
+				},
+				{
+					"at": 80.9,
+					"typ": "wasser"
+				},
+				{
+					"at": 99.8,
+					"typ": "wasser"
+				},
+				{
+					"at": 119.7,
+					"typ": "wasser"
+				},
+				{
+					"at": 138.4,
+					"typ": "wasser"
+				},
+				{
+					"at": 157.5,
+					"typ": "hecke"
+				},
+				{
+					"at": 175.2,
+					"typ": "oxer"
+				},
+				{
+					"at": 194.8,
+					"typ": "wasser"
+				},
+				{
+					"at": 213.3,
+					"typ": "hecke"
+				},
+				{
+					"at": 232.7,
+					"typ": "oxer"
+				},
+				{
+					"at": 252.2,
+					"typ": "oxer"
+				},
+				{
+					"at": 272.4,
+					"typ": "hecke"
+				},
+				{
+					"at": 290.6,
+					"typ": "wasser"
+				}
+			]
+		}
+	]
+}

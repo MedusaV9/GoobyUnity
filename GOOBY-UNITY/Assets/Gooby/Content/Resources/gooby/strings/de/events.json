@@ -1,0 +1,87 @@
+{
+	"events": {
+		"choice": {
+			"wartet": "{gooby} wartet…"
+		},
+		"marienkaefer": {
+			"bubble": "Hnnng… ich komm nicht hoch!",
+			"danke": "Puh! Danke, Kumpel!"
+		},
+		"kuehlschrank": {
+			"bubble": "Der Kühlschrank ist umgekippt! Hilfst du mir beim Aufsammeln?",
+			"danke": "Alles wieder drin. Nichts angeknabbert. Ehrenwort."
+		},
+		"glas": {
+			"bubble": "Da… da war ein Glas. Jetzt ist es Puzzle."
+		},
+		"teller": {
+			"bubble": "Der Teller wollte fliegen. Er konnte nicht."
+		},
+		"scherben": {
+			"danke": "Danke! Keine Scherben mehr. Fast wie neu hier."
+		},
+		"nutella": {
+			"upps": "uhhh UPPPS…",
+			"ab_ins_bett": "Ab ins Bett!",
+			"weitermachen": "Lass ihn machen",
+			"murmel": "mmmh… okay okay… ich geh ja schon… war eh nicht mal meine Lieblingssorte…",
+			"strahlen": "Du bist der BESTE! Nur noch ein Löffelchen!",
+			"aufraeumen": "Ich räum das weg. Spurlos. Niemand wird es je erfahren.",
+			"fleck_weg": "Fleck? Welcher Fleck? Da war NIE ein Fleck."
+		},
+		"sockensuche": {
+			"bubble": "Eine einzelne Socke?! Wo sind ihre Freunde?!",
+			"danke": "Alle Socken vereint! Familientreffen!"
+		},
+		"robo": {
+			"bubble": "ER WEISS, DASS ICH KRÜMEL BIN!",
+			"ausweichen": "Er ist zu schnell! FANG IHN!",
+			"danke": "Sieg über die Maschine! Und der Boden glänzt sogar."
+		},
+		"kleber": {
+			"bubble": "Ich bin jetzt ein Stuhlgooby. Das ist mein Leben jetzt.",
+			"rubbel": "Rubbel weiter! Ich spür schon was!",
+			"plopp": "PLOPP! Freiheit! Ich hab sie nie zu schätzen gewusst!"
+		},
+		"wurm": {
+			"bubble": "Er heißt Herbert. Er sagt nichts. Ich mag ihn.",
+			"draussen": "Herbert bleibt draußen",
+			"giessen": "Gieß ihn mit ein",
+			"winken": "Bis morgen, Herbert.",
+			"giessen_danke": "Herbert kriegt eine eigene Dusche! Bester Tag seines Lebens!"
+		},
+		"fernbedienung": {
+			"bubble": "ICH FINDE SIE NICHT UND ICH FINDE AUCH MEINE GEDANKEN NICHT.",
+			"nix": "Hier nicht! Nur Krümel. Verdächtig viele Krümel.",
+			"danke": "Ahhh. Stille. Ich höre meine Ohren wieder."
+		},
+		"karton": {
+			"bubble": "Ich bin jetzt ein Möbel. Stell mich zu den anderen.",
+			"raus": "Raus da!",
+			"moebel": "Ok, du bist ein Möbel",
+			"raus_danke": "Okay okay! Wohnen kann ich auch woanders!",
+			"moebel_ok": "Gute Wahl. Ich bin das stillste Möbel der Welt.",
+			"moebel_ende": "Möbel sein ist anstrengender, als es aussieht."
+		},
+		"gewitter": {
+			"bubble": "Es donnert… und Gooby ist verschwunden. Such ihn mit der Taschenlampe!",
+			"gefunden": "D-Donner ist nur… Himmel-Rülpsen, oder?",
+			"streicheln": "Streichel ihn sanft — dreimal tippen!",
+			"danke": "Danke… bei dir ist der Donner nur halb so laut… zzz…"
+		},
+		"mehl": {
+			"bubble": "Ich wollte dir Pfannkuchen machen. Der Sack war… explosiver als gedacht.",
+			"danke": "Wieder flauschig statt bestäubt! Und hier: EIN Pfannkuchen. Er ist gelungen."
+		},
+		"mumie": {
+			"bubble": "Ich bin eine MUMIE! …War ich. Jetzt bin ich ein Knäuel. Wickel mich aus!",
+			"wickel": "Weiter, weiter! Ich hab schon wieder ein Ohr frei!",
+			"danke": "Nie wieder! …Oder vielleicht Halloween nochmal."
+		},
+		"story": {
+			"hinweis": "Tippe ein Wort, um die Lücke zu füllen",
+			"kichern": "Hihi… so stand das bestimmt nicht im Buch…",
+			"einschlafen": "Mmmh… schöne Geschichte… gute Nacht…"
+		}
+	}
+}

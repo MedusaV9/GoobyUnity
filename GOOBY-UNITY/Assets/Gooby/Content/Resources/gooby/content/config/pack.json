@@ -1,0 +1,11 @@
+{
+	"schema": 1,
+	"id": "config",
+	"version": "1.2.0",
+	"priority": 700,
+	"min_native": "5.0.0",
+	"domains": ["config"],
+	"type": "json",
+	"name_de": "Config",
+	"notes_de": "Updates kommen jetzt ohne Zugangsschlüssel aus dem öffentlichen Haupt-Repo."
+}

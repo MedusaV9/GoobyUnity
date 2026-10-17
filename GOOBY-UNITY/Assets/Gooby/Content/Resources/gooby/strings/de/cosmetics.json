@@ -1,0 +1,20 @@
+{
+	"wardrobe": {
+		"titel": "Garderobe",
+		"zurueck": "Zurück",
+		"muenzen": "{n} Münzen",
+		"drehen": "Ziehen zum Drehen",
+		"angelegt": "Angelegt",
+		"besessen": "Anlegen",
+		"preis": "{n} Münzen",
+		"level": "Ab Level {n}",
+		"fell_hinweis": "Fellfarben gibt es nur hier im Shop.",
+		"kat": {
+			"hut": "Hüte",
+			"brille": "Brillen",
+			"hals": "Hals",
+			"ruecken": "Rücken",
+			"fell": "Fell"
+		}
+	}
+}

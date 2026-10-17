@@ -1,0 +1,105 @@
+{
+	"dlc_mcgooby": {
+		"titel": "McGooby",
+		"zurueck": "‹ Back",
+		"knopf": {
+			"schicht": "Start a shift!",
+			"probeschicht": "Start the trial shift!",
+			"angebot": "View the offer"
+		},
+		"demo_verbraucht": "You already tried today — come back to the grill tomorrow!",
+		"angebot": {
+			"titel": "Your very own spoon arches",
+			"text": "The trial shifts proved it: the city loves your burgers. Buy the corner lot, hang up the spoon arches — and the place is yours, with as many shifts as you like.",
+			"preis": "{preis} coins",
+			"frage": "Will you take over the place under the spoon arches?",
+			"kaufen": "Buy the place!",
+			"spaeter": "Later",
+			"zu_wenig": "Not enough coins yet — the place costs {preis}. The trial shift stays yours: one per day.",
+			"demo": "Until then: one trial shift per day — your progress is kept."
+		},
+		"intro": {
+			"titel": "The Grand Opening",
+			"zeile1": "The city has REHWEI, the weekly market, the GOOBYTHEKE — but no place to eat with your paws at 6 pm.",
+			"zeile2": "An empty corner lot, a construction sign, a dream: two golden arches that, on closer inspection, look like spoons with ears.",
+			"zeile3": "Today is the trial shift! The grill is hot, the order bell is polished — and the first customers are hungry.",
+			"knopf": "Tie on the apron!"
+		},
+		"schicht": {
+			"bestellung": "Order {nr}/{gesamt}",
+			"patty": "Patty {nr}/{gesamt}",
+			"turm": "Stack: {platziert}/{gesamt}",
+			"schritt": "Step {nr}/{gesamt}: {aktion}",
+			"roh": "Sizzle … still raw!",
+			"goldbraun": "Flip it NOW!",
+			"kohle": "Oops — charcoal style!",
+			"perfekt": "Perfect!",
+			"passt": "Nailed it!",
+			"falsch": "Oops — wrong ingredient!",
+			"kette": "Perfect chain ×{n}!",
+			"roestaroma": "Roast Aroma Special!",
+			"knusper": "Crunchy Deluxe!",
+			"schaum": "Foamed over — grab the cloth!",
+			"frit_blass": "Bubble … still pale!",
+			"frit_goldgelb": "Lift the basket NOW!",
+			"frit_dunkel": "Oops — Crunchy Deluxe!",
+			"shake_fluessig": "Stir … still liquid!",
+			"shake_krone": "The crown stands — stop NOW!",
+			"shake_schaum": "Oops — foamed over!",
+			"shake_hinweis": "Hold the cup to stir in rhythm, let go at the golden moment.",
+			"belegen_leer": "Nothing to stack right now — the grill is calling!",
+			"station_leer": "Nothing bubbling here right now — check the active station!",
+			"punkte": "Points: {punkte}",
+			"pause": "Pause",
+			"hilfe": "Tap the patty as soon as it glows golden brown — inside the golden window you get a “Perfect!”. Then switch to the assembly station below and swipe the ingredients onto the bun in ticket order. At the fryer you pull the basket at the golden moment, at the shake bar you hold the cup and stir until the floof crown stands. Too late or a miss is never a loss: you simply get a Roast Aroma Special, a Crunchy Deluxe or a few points less."
+		},
+		"aktion": {
+			"wenden": "Flip",
+			"stapeln": "Stack",
+			"frittieren": "Fry",
+			"salz": "Salt",
+			"glitzersalz": "Glitter salt",
+			"formen": "Shape",
+			"wolken_dip": "Cloud dip",
+			"mixen": "Mix",
+			"flausch_krone": "Floof crown",
+			"raspel_regen": "Sprinkle rain"
+		},
+		"fortschritt": {
+			"rang": "Shop rank: {sterne}",
+			"ziel": "Next star: {ziele}",
+			"ziel_schichten": "{n} more shifts",
+			"ziel_bestwert": "best score {punkte}",
+			"ziel_perfekt": "{n} more flawless shifts",
+			"voll": "Five stars — the spoon arches sparkle!",
+			"aufstieg_titel": "New shop rank!",
+			"aufstieg_unter": "Star {n} earned — the shop is shining!"
+		},
+		"zutat": {
+			"broetchen": "Bun",
+			"patty": "Patty",
+			"gold_sosse": "Gold sauce",
+			"salat": "Lettuce",
+			"kaese": "Cheese",
+			"kuerbis_patty": "Pumpkin patty",
+			"tomate": "Tomato",
+			"gurke": "Pickle"
+		},
+		"sperre": {
+			"titel": "That’s it for today!",
+			"text": "Today’s trial shift is played — the spoon arches already glow for you. Come back tomorrow; with a place of your own, every shift is yours."
+		},
+		"ende": {
+			"titel": "Closing time!",
+			"untertitel": "Gooby flips the sign to CLOSED — the spoon arches light up.",
+			"punkte": "Points",
+			"perfekt": "Perfect moments",
+			"trinkgeld": "Tips",
+			"muenzen": "Coins",
+			"rang": "Shop rank",
+			"nochmal": "One more shift",
+			"demo_hinweis": "One trial shift per day — see you tomorrow! With your own place you can grill as often as you like.",
+			"feierabend": "Call it a day"
+		}
+	}
+}

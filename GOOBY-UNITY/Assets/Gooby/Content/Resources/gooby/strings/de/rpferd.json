@@ -1,0 +1,126 @@
+{
+	"rpferd": {
+		"gang": {
+			"stand": "Stand",
+			"schritt": "Schritt",
+			"trab": "Trab",
+			"toelt": "Tölt",
+			"galopp": "Galopp"
+		},
+		"reiten": {
+			"perfekt": "Perfekt!",
+			"gut": "Gut!",
+			"springen": "Springen",
+			"ausdauer": "Puste",
+			"puste_leer": "Puste leer — kurz verschnaufen",
+			"streicheln": "Streicheln",
+			"zweiter_wind": "Zweiter Wind!"
+		},
+		"levelup": {
+			"titel": "Level {level}!",
+			"untertitel": "{name} ist stärker geworden",
+			"punkt": "+1 Trainingspunkt: {stat}"
+		},
+		"training": {
+			"titel": "Training",
+			"xp": "{name}: +{n} XP vom Ausritt",
+			"regen": "Im Regen lernt {name} nur halb so viel – eine Reithalle hält euch trocken.",
+			"halle": "Regen? In der Reithalle trainiert {name} trocken weiter.",
+			"wert": "{stat} {wert}/20"
+		},
+		"meilenstein": {
+			"titel": "Meilenstein-Geschenk!",
+			"schleife_jungstar": "Schleife „Jungstar“",
+			"maehnenfrisur": "Neue Mähnenfrisur",
+			"sattel_gold": "Sattel mit Goldnähten",
+			"fanpost_besuch": "Fanpost: Besuch am Zaun",
+			"namensschild_gold": "Goldenes Namensschild",
+			"statue_legende": "Statue auf dem Hofplatz"
+		},
+		"stat": {
+			"tempo": "Tempo",
+			"ausdauer": "Ausdauer",
+			"sprungkraft": "Sprungkraft",
+			"wendigkeit": "Wendigkeit",
+			"gelassenheit": "Gelassenheit"
+		},
+		"rasse": {
+			"puschelhufer": "Puschelhufer",
+			"knuffpony": "Knuffpony",
+			"zottelgnuff": "Zottelgnuff",
+			"wolkentraber": "Wolkentraber",
+			"flitzewind": "Flitzewind",
+			"moosmaehne": "Moosmähne",
+			"donnerbommel": "Donnerbommel",
+			"federsprung": "Federsprung",
+			"westernwuschel": "Westernwuschel",
+			"toelterle": "Tölterle",
+			"miniknopf": "Miniknopf",
+			"sternschnuppler": "Sternschnuppler",
+			"puschelmix": "Puschelmix"
+		},
+		"zug": {
+			"mutig": "mutig",
+			"scheu": "scheu",
+			"verfressen": "verfressen",
+			"verspielt": "verspielt",
+			"gelassen": "gelassen",
+			"fleissig": "fleißig",
+			"eitel": "eitel",
+			"anhaenglich": "anhänglich",
+			"stur": "stur",
+			"neugierig": "neugierig"
+		},
+		"eigenheit": {
+			"allrounder": "Allrounder",
+			"slalom_ass": "Slalom-Ass",
+			"kuschelherz": "Kuschelherz",
+			"taktgefuehl": "Taktgefühl",
+			"langer_antritt": "Langer Antritt",
+			"gelaende_profi": "Gelände-Profi",
+			"unerschrocken": "Unerschrocken",
+			"sprunggefuehl": "Sprunggefühl",
+			"trail_praezision": "Trail-Präzision",
+			"toelt": "Tölt",
+			"schauliebling": "Schauliebling",
+			"glitzerfell": "Glitzerfell"
+		},
+		"zaehmen": {
+			"titel": "Wildpferd",
+			"anschleichen_hint": "Geduckt und langsam anschleichen",
+			"beruhigen_hint": "Tippe sanft im Takt des Schnaubens",
+			"aufmerksamkeit": "Aufmerksamkeit",
+			"ruhe": "Ruhe",
+			"treffer": "Sanft!",
+			"daneben": "Zu hastig…",
+			"gezaehmt": "Es vertraut dir!",
+			"davongetrabt": "Es trabt davon… es kommt wieder.",
+			"wieder_da": "Da ist es wieder!",
+			"ducken": "Ducken",
+			"beruhigen": "Beruhigen"
+		},
+		"stammbaum": {
+			"titel": "Stammbaum",
+			"fohlen": "Fohlen",
+			"mutter": "Mutter",
+			"vater": "Vater",
+			"unbekannt": "Unbekannt",
+			"erbe_titel": "Geerbt",
+			"erbe_stat": "Glückswurf: {stat}",
+			"erbe_glitzer": "Glitzer-Geheimnis"
+		},
+		"bindung": {
+			"titel": "Bindung",
+			"level": "Bindungs-Level {level}",
+			"maennchen": "Begrüßungs-Männchen",
+			"rutsch_stopp": "Rutsch-Stopp",
+			"pfiff": "Rückruf-Pfiff",
+			"konfetti_drift": "Konfetti-Drift",
+			"zweiter_wind_plus": "Zweiter Wind+",
+			"autopilot": "Weg-Autopilot",
+			"kopf_dreht": "Es schaut nach dir",
+			"emotes": "Besondere Emotes",
+			"seelenpferd_aura": "Seelenpferd-Aura"
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"mg": {
+		"lanternFloat": {
+			"intro": "Sanft steigen — triff die Sternenringe!",
+			"win": "Geschafft! {hits} Ringe eingesammelt!"
+		},
+		"miniGolf": {
+			"intro": "Wenig Schläge — ab ins Loch!"
+		}
+	}
+}

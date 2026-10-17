@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"id": "books",
+	"version": "1.0.0",
+	"priority": 340,
+	"min_native": "5.0.0",
+	"domains": ["books"],
+	"name_de": "Bücher",
+	"notes_de": "W13B/GESCHICHTEN (Doc F §3.2): Bücher-Katalog der Geschichten-Stunde — 6 Bücher mit je 2–3 Lückentext-Geschichten (Format wie stories.json), entertainment-Wert pro Buch, REHWEI-Preise. Das Startbuch (start=true, preis 0) gehört jedem Spieler; Nicht-Startbücher spiegeln sich als buecher-Kategorie in scripts/city/data/rehwei_sortiment.json."
+}

@@ -1,0 +1,9 @@
+{
+	"mg": {
+		"goalieGooby": {
+			"intro": "Dive into the glowing lane!",
+			"intro_lob": "Blue = lob: swipe up!",
+			"intro_roller": "Pink = roller: swipe down!"
+		}
+	}
+}

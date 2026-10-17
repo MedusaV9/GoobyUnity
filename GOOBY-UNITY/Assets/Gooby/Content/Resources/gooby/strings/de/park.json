@@ -1,0 +1,81 @@
+{
+	"park": {
+		"ort": {
+			"funkelpark": "Funkelpark"
+		},
+		"gate": {
+			"titel": "Willkommen im Funkelpark",
+			"text": "Karten bitte! Heute funkelt alles doppelt.",
+			"tafel": "Kasse"
+		},
+		"ride": {
+			"fahren": "Fahren ({preis} Münzen)",
+			"gratis": "Zuschauen",
+			"zu_teuer": "Nicht genug Münzen. Die Kasse bleibt hart, aber freundlich.",
+			"zu_muede": "Gooby ist zu müde für diese Fahrt. Erst ausruhen!",
+			"spaeter": "Später",
+			"laeuft": "Gerade unterwegs — gleich ist die Bahn zurück."
+		},
+		"coaster": {
+			"name": "Funkel-Looping",
+			"beschreibung": "Kettenlift, Sturzflug, Looping — Gooby fährt vorne mit.",
+			"board": "Einsteigen bitte! Gooby hüpft in den vorderen Wagen.",
+			"lift": "Klack… klack… hoch, hoch, hoch…",
+			"drop": "Guuut festhalten!",
+			"loop": "Looping! Juchhuu!",
+			"photo": "Bitte lächeln!",
+			"hills": "Hügelhüpfer! Boing, boing.",
+			"brake": "Uuund… ausatmen.",
+			"done": "Was für eine Fahrt! Gooby zittert noch.",
+			"hands_up": "Hände hoch!",
+			"hands_up_hint": "Halten: Hände hoch!",
+			"photo_saved": "Fahrtfoto in der Galerie gespeichert!"
+		},
+		"wheel": {
+			"name": "Riesenrad",
+			"beschreibung": "Eine sanfte Runde hoch über den Funkelpark.",
+			"board": "Gooby kuschelt sich in eine Pastell-Gondel.",
+			"apex": "Ganz oben! Gooby winkt dem ganzen Park zu.",
+			"done": "Wieder unten — was für eine schöne Aussicht.",
+			"photo_saved": "Aussichtsfoto in der Galerie gespeichert!"
+		},
+		"karussell": {
+			"name": "Funkel-Karussell",
+			"beschreibung": "Runde um Runde auf bunten Ponys.",
+			"done": "Hach, schön rund gelaufen."
+		},
+		"scooter": {
+			"name": "Autoscooter",
+			"beschreibung": "Die Flitzer stupsen sich — Gooby schaut lachend zu.",
+			"hint": "Heute nur zuschauen: Goobys Pfoten reichen nicht ans Pedal."
+		},
+		"alley": {
+			"title": "Naschgasse",
+			"hint": "Jahrmarkt-Leckereien! Snacks landen in Goobys Futter-Tablett."
+		},
+		"stall": {
+			"cottonCandy": {
+				"name": "Zuckerwolke",
+				"pitch": "Eine rosa Wolke am Stiel — pure Jahrmarktmagie."
+			},
+			"softServe": {
+				"name": "Eiswirbel",
+				"pitch": "Cremiger Wirbel mit Waffelhütchen."
+			},
+			"waffle": {
+				"name": "Waffelzauber",
+				"pitch": "Frisch vom Eisen, goldig und warm."
+			},
+			"kaufen": "Kaufen ({preis} Münzen)",
+			"gekauft": "{name} liegt jetzt in Goobys Tablett!"
+		},
+		"food": {
+			"cottonCandy": "Zuckerwatte",
+			"softServe": "Softeis",
+			"waffle": "Waffel"
+		},
+		"nacht": {
+			"lichter": "Die Lichter gehen an — der Park funkelt jetzt wirklich."
+		}
+	}
+}

@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_marta",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "marta",
+			"text": "FRESH GOODS! FRESH MORNING! Both on offer today! The morning is free, the rest we negotiate!",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "marta",
+			"text": "Marta! Market woman! Best goods in the valley! I'm not shouting, I'm speaking ENTHUSIASTICALLY!",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "marta",
+			"text": "Closing-time prices! Everything must go! Well, not EVERYTHING everything. The stall stays. So does Marta.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "marta",
+			"text": "RAIN DISCOUNT! Ten percent off everything that's allowed to get wet! Nothing off you, you're priceless!",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "marta",
+			"text": "THERE'S my treasure! Come here! I put something aside for you under the counter. Under the counter is the VIP shelf!",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "marta",
+			"text": "What'll it be, what'll it be?",
+			"optionen": [
+				{"text": "Need any help?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Delivery complete!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "How's the market?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "How's the market?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "How's the market?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "The last piece — honestly?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Why did you become a market woman?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "See you, Marta!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "marta",
+			"text": [
+				"The berries are selling like hotcakes! The hotcakes too, by the way. Everything sells like something!",
+				"Only the crooked pumpkin stays behind. I named him Kurt. Kurt is family now."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "marta",
+			"text": [
+				"Between us: the market shouting is showbiz. After closing time I even whisper. Almost.",
+				"Yesterday I said thank you quietly and three customers got startled. A reputation must be defended!"
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "marta",
+			"text": [
+				"You're my favorite customer, you know that? And I don't say that to everyone! Only to almost everyone!",
+				"No, honestly. With you I mean it. Kurt the pumpkin nods too. See? Family resolution."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "marta",
+			"text": "Do I EVER need help! Special order! Exclusive! Today only! Only you!",
+			"optionen": [
+				{"text": "Sold! I'll do it!", "next": "quest_annahme"},
+				{"text": "My time is too expensive...", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "marta",
+			"text": "DEAL! Handshake! Firmer! FIRMER! That's how we do business!",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "marta",
+			"text": "Hard bargaining! Respect! The offer stands — like Kurt. He's not going anywhere either.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "marta",
+			"text": "DELIVERY COMPLETE! First-class work, as ordered! Here's your pay — and I'll throw in extra, but don't tell anyone!",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "marta",
+			"text": "BERRIES! And what berries! Plump! Glossy! I'm not selling these, I'm eating them! Right now! You're my witness!",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "marta",
+			"text": "For ME? Treasure, you know how to move a market woman! This goes in the display window. As decoration. MY decoration.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "marta",
+			"text": "Oh! Er! Market value... hard to appraise! But the sentimental value — ENORMOUS! Thanks, treasure!",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "marta",
+			"text": [
+				"Whether the last piece is really the last? ... Fine. I'll tell you. There is always one more crate.",
+				"ALWAYS. Behind the stall. The last piece is a state of mind, not an inventory count.",
+				"But don't you dare rat me out! Or next week the berries will HAPPEN to be sold out. For you. Personally."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "marta",
+			"text": [
+				"Why a market woman? Child, I used to be shy. SHY! I didn't even dare order bread rolls.",
+				"One day an old market woman shoved a crate of apples into my hands and said: shout or starve.",
+				"I shouted. Sold three apples. To myself. But it was a START!"
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "marta",
+			"text": "See you soon, treasure! I'll shout after you so you don't forget the way! SEE YOU SOOOOON!",
+			"ende": true
+		}
+	}
+}

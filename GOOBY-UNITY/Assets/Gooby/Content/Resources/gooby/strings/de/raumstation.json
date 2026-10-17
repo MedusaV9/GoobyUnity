@@ -1,0 +1,34 @@
+{
+	"raumstation": {
+		"automat": {
+			"titel": "Astro-Snack-Automat",
+			"knopf": "Astro-Snacks",
+			"schild": "ASTRO-SNACKS",
+			"moehre": "Weltraum-Möhre"
+		},
+		"foto": {
+			"knopf": "Sternenfoto",
+			"keine_kamera": "Ohne Kamera kein Sternenfoto! Bäm im POW! hat bestimmt eine für dich."
+		},
+		"weltengooby": {
+			"toast": "WELTENGOOBY! Alle 9 Reiseziele besucht — Gooby ist jetzt überall zuhause. Sogar im Weltall!",
+			"badge": "🌍 Weltengooby"
+		}
+	},
+	"gfree": {
+		"knopf": "GOOBY FREE",
+		"schild": "GOOBY FREE",
+		"titel": "GOOBY-FREE-Shop",
+		"hinweis": "Flughafenpreise! Dafür exklusiv, steuerfrei und mit ganz viel Fernweh eingepackt.",
+		"zu": "Der GOOBY FREE öffnet nur vor dem Abflug — erst buchen, dann bummeln!",
+		"exklusiv": "Nur hier!",
+		"gekauft": "{name} eingepackt! Gute Reise!",
+		"lager_voll": "Dein Lager ist voll — erst zuhause Platz schaffen!",
+		"shuttle_knopf": "GOOB-1-Shuttle"
+	},
+	"rewards": {
+		"food": {
+			"weltraumMoehre": "Weltraum-Möhre"
+		}
+	}
+}

@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_knips",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "knips",
+			"text": "Stop! Don't move! The morning light on your ear — that is a SUBJECT! ... Too late, it's gone. Good morning.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "knips",
+			"text": "Knips! Photographer, artist, hunter of the perfect moment! The perfect moment usually flees. Like everything from foxes.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "knips",
+			"text": "The golden hour! Everything looks dipped in honey! I took 400 photos. Of a fence post. It wears the light FANTASTICALLY.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "knips",
+			"text": "Rain! Reflections! Drama! The puddles are mirrors today and the whole ranch exists twice! TWO subjects for the price of one!",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "knips",
+			"text": "My favorite subject on two legs! Did you know you look better from the left? From the right too, though. It's confusingly good.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "knips",
+			"text": "What's on — art or chit-chat?",
+			"optionen": [
+				{"text": "Need any help?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Assignment in the can!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "What did you shoot?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "What did you shoot?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "What did you shoot?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Your best photo?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "The photo that's missing?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Good light!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "knips",
+			"text": [
+				"Today: a chicken on final approach to the feed trough. Wings wide, gaze determined. I call it: The Eagle.",
+				"The chicken insists on the title. We're still negotiating the image rights. It wants grains."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "knips",
+			"text": [
+				"I'm working on a series: The Ranch Awakens. Your farm is doing marvelously in it, honestly.",
+				"My best series before that: The Fence In Weather. Six hundred pictures. No buyer. PHILISTINES."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "knips",
+			"text": [
+				"Between us artists: the best pictures happen when nobody poses. That's why I mostly photograph you secretly.",
+				"That came out wrong. I mean: artistically secretly. With respect and a telephoto lens. Hm. Not better."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "knips",
+			"text": "Yes! An assignment! Art needs you! More precisely: art needs your legs, mine are short.",
+			"optionen": [
+				{"text": "For art!", "next": "quest_annahme"},
+				{"text": "I'm unphotogenically busy...", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "knips",
+			"text": "WONDERFUL! And remember: should something magnificent happen along the way — FACE TO THE SUN!",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "knips",
+			"text": "I understand. One does not force the muse. One waits until she passes by and then photographs her very quickly.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "knips",
+			"text": "PERFECT! Wait — hold that pose! The pride on your face! CLICK! That goes in the exhibition. Here, your fee!",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "knips",
+			"text": "Berries! The COLOR! That red! I must photograph them first, then eat them! Still life with berries, then still life without berries!",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "knips",
+			"text": "Oh, thank you! Very photogenic! Almost as photogenic as the fence post. From me, that is a HUGE compliment.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "knips",
+			"text": "Interesting texture. Difficult light. I accept it — as an artistic challenge. And because you're nice.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "knips",
+			"text": [
+				"My best photo? A wild horse in the morning mist, up on the hill. Just a shadow with a mane.",
+				"I waited in a bush for three weeks. A hedgehog mistook me for a larger, dumber bush.",
+				"When the picture was done, I cried. So did the hedgehog. We were a good team."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "knips",
+			"text": [
+				"The photo I'm missing? It sounds crazy: the whole ranch. Everyone. At one table. At the festival.",
+				"Rosi, laughing. Ironhoof, almost smiling. Timmi, sitting still — fine, that one will be a long exposure.",
+				"One day you'll make that festival happen, I can feel it. And me? I'll be ready. With a clean lens."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "knips",
+			"text": "Good light! And if you see a rainbow anywhere: report IMMEDIATELY. That is an EMERGENCY.",
+			"ende": true
+		}
+	}
+}

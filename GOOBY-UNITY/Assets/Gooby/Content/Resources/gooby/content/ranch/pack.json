@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"id": "ranch",
+	"version": "1.0.0",
+	"priority": 500,
+	"min_native": "5.0.0",
+	"domains": ["ranch", "balance"],
+	"name_de": "Die Gooby Ranch",
+	"notes_de": "RANCH-1: erstes Riesen-DLC (Map-/Content-Erweiterung). Blaupause für Content-Erweiterungen per Auto-Update: Preis + Freischalt-Level liegen in der balance-Domain (deep-merge), Weltdaten/Tiere/Ausbaustufen in der ranch-Domain (append-by-id). Ein per Updater nachgeliefertes Pack mit höherer Priorität überschattet diese Einträge ohne App-Update."
+}

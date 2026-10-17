@@ -1,0 +1,1273 @@
+/* gooby-screens.uss — see header comment in GoobyTheme.tss */
+/* Sheets, place counters and settings (boards 06 "Fenster / Panels", 07 Einstellungen, 08 HUD sheets, 10 counters).
+   Imported last by GoobyTheme.tss, so equal-specificity rules here win over gooby-base.uss.
+   Window kit (CounterPanel): .gb-win (floating window) / .gb-win-sheet (bottom sheet), white title band .gb-win-head
+   (icon tile, title, subtitle, coin pill, round close), .gb-win-body with tabs + scroll + .gb-win-grid of ware cards.
+   Ware card: white rounded tile, pastel thumb square, name (ellipsis), sub (wraps), tag, coin price / action pill.
+   Screens put .gb-sheets on their root so the hover/press rules stay local; the settings root adds .gb-set. */
+
+/* ---------- window chrome ---------- */
+.gb-win {
+    background-color: var(--gb-panel);
+    border-radius: var(--gb-r-xl);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.12);
+    border-bottom-width: 4px;
+    border-bottom-color: rgba(107, 79, 58, 0.16);
+    padding: 0;
+}
+/* fitted window (CounterPanel.Build fit): at the foot of the screen, as wide and tall as its content up to the frame;
+   the frame lets taps through to the scrim around the window */
+.gb-win-frame { position: absolute; left: 0; top: 0; right: 0; bottom: 0; padding: 36px 120px 24px 120px; justify-content: flex-end; align-items: center; }
+.gb-win--fit { flex-shrink: 1; min-width: 640px; max-width: 100%; max-height: 100%; }
+.gb-win-sheet {
+    background-color: var(--gb-panel);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.12);
+    padding: 0;
+}
+.gb-win-head {
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 14px 16px 12px 16px;
+    background-color: rgba(255, 255, 255, 0.74);
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    border-bottom-width: 2px;
+    border-bottom-color: rgba(107, 79, 58, 0.08);
+}
+.gb-win-head > .gb-icon-tile { width: 54px; height: 54px; border-radius: 18px; flex-shrink: 0; border-width: 2px; border-color: rgba(255, 255, 255, 0.95); }
+.gb-win-head > .gb-icon-tile > .gb-icon { width: 62%; height: 62%; }
+.gb-win-texts { flex-grow: 1; flex-shrink: 1; min-width: 60px; margin-left: 14px; margin-right: 10px; }
+.gb-win-title { font-size: var(--gb-h2); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gb-win-sub { margin-top: 2px; font-size: 13px; color: var(--gb-text-mild); white-space: normal; }
+.gb-win-coins { flex-shrink: 0; height: 42px; margin-left: 8px; padding: 0 16px 0 6px; background-color: #FFF4D6; border-color: rgba(255, 209, 102, 0.75); }
+.gb-win-coins > .gb-icon { width: 30px; height: 30px; margin-right: 6px; }
+.gb-win-coins > .gb-pill-wert { color: var(--gb-schoko); }
+.gb-win-close {
+    flex-shrink: 0;
+    width: 46px; height: 46px;
+    margin-left: 12px;
+    background-color: var(--gb-sand-hell);
+    border-color: rgba(107, 79, 58, 0.10);
+    transition-property: scale, background-color;
+    transition-duration: 0.12s;
+}
+.gb-win-close > .gb-icon { width: 44%; height: 44%; }
+.gb-win-close:hover { background-color: var(--gb-weiss); border-color: rgba(107, 79, 58, 0.24); scale: 1.06; }
+.gb-win-close:hover:active { scale: 0.92; }
+
+/* body: tabs row, scroll, wrapping grid, sections, action rows, notes, foot line */
+.gb-win-body { flex-grow: 1; flex-shrink: 1; padding: 12px 20px 16px 20px; }
+.gb-win-tabs { flex-direction: row; flex-wrap: wrap; align-items: center; flex-shrink: 0; margin-bottom: 4px; }
+.gb-win-tabs > .gb-chip { min-width: 0; margin: 0 8px 8px 0; transition-property: scale, background-color; transition-duration: 0.12s; }
+.gb-win-scroll { flex-grow: 1; flex-shrink: 1; }
+.gb-win-grid { flex-direction: row; flex-wrap: wrap; align-items: stretch; padding-top: 4px; }
+.gb-win-section { flex-direction: row; align-items: center; flex-shrink: 0; margin: 12px 0 8px 2px; }
+.gb-win-section > .gb-icon { width: 22px; height: 22px; margin-right: 8px; }
+.gb-win-section > Label { flex-shrink: 1; font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-win-section > .gb-win-section-hint { margin-left: 10px; font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-Medium.ttf"); color: var(--gb-text-mild); white-space: normal; }
+.gb-win-lead { margin: 2px 0 8px 2px; font-size: var(--gb-md); color: var(--gb-text-mild); white-space: normal; }
+.gb-win-actions { flex-direction: row; align-items: center; flex-wrap: wrap; flex-shrink: 0; margin-top: 4px; }
+.gb-win-actions > .gb-btn { margin: 0 10px 8px 0; }
+.gb-win-actions--end { justify-content: flex-end; margin-top: 14px; }
+.gb-win-actions--end > .gb-btn { margin: 0 0 0 10px; }
+.gb-win-actions-hint { flex-shrink: 1; margin-right: 12px; font-size: var(--gb-sm); color: var(--gb-text-mild); white-space: normal; }
+.gb-win-note {
+    flex-direction: row; align-items: center; flex-shrink: 0;
+    margin-top: 6px;
+    padding: 8px 12px 8px 8px;
+    border-radius: 18px;
+    background-color: #E4F6EA;
+    border-width: 2px;
+    border-color: rgba(95, 184, 132, 0.25);
+}
+.gb-win-note--warn { background-color: #FFEDED; border-color: rgba(242, 109, 109, 0.28); }
+.gb-win-note--sand { background-color: var(--gb-sand-hell); border-color: rgba(107, 79, 58, 0.10); }
+.gb-win-note--white { background-color: var(--gb-weiss); border-color: rgba(107, 79, 58, 0.08); }
+.gb-win-note > .gb-icon-tile { width: 36px; height: 36px; border-radius: 12px; margin-right: 10px; flex-shrink: 0; background-color: var(--gb-weiss); }
+.gb-win-note-text { flex-grow: 1; flex-shrink: 1; font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: var(--gb-text); white-space: normal; }
+.gb-win-note-tag { flex-shrink: 0; margin-left: 10px; padding: 2px 10px; border-radius: var(--gb-r-pill); background-color: var(--gb-weiss); color: var(--gb-primary-tief); font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-win-foot { flex-direction: row; align-items: center; flex-shrink: 0; margin-top: 10px; padding-top: 10px; border-top-width: 2px; border-top-color: rgba(107, 79, 58, 0.08); }
+.gb-win-foot > .gb-icon { width: 22px; height: 22px; margin-right: 8px; }
+.gb-win-foot > Label { flex-shrink: 1; font-size: 13px; color: var(--gb-text-mild); white-space: normal; }
+
+/* ---------- ware cards (shop, counters, fridge, storage, wardrobe, beds) ---------- */
+.gb-ware {
+    width: 184px;
+    margin: 0 12px 12px 0;
+    padding: 8px 8px 10px 8px;
+    border-radius: var(--gb-r-lg);
+    background-color: var(--gb-weiss);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.08);
+    border-bottom-width: 4px;
+    border-bottom-color: rgba(107, 79, 58, 0.12);
+    transition-property: scale, border-color, background-color;
+    transition-duration: 0.12s;
+}
+.gb-ware:hover { border-color: rgba(107, 79, 58, 0.20); }
+.gb-ware--sm { width: 148px; }
+.gb-ware--wide { width: 212px; }
+.gb-ware--tap:hover { border-color: rgba(255, 139, 139, 0.60); }
+.gb-ware--tap:active { scale: 0.97; }
+.gb-ware--selected { background-color: #FFF0F0; border-color: var(--gb-primary); }
+.gb-ware--selected:hover { border-color: var(--gb-primary); }
+.gb-ware-thumb { height: 96px; flex-shrink: 0; border-radius: 18px; justify-content: center; align-items: center; background-color: var(--gb-sand-hell); }
+.gb-ware--sm > .gb-ware-thumb { height: 80px; }
+.gb-ware-thumb > .gb-icon { width: 56px; height: 56px; }
+.gb-ware--sm > .gb-ware-thumb > .gb-icon { width: 46px; height: 46px; }
+.gb-ware-thumb > .gb-item-thumb { width: 90px; height: 90px; }
+.gb-ware--sm > .gb-ware-thumb > .gb-item-thumb { width: 76px; height: 76px; }
+.gb-ware-thumb > .gb-icon-tile { width: 60px; height: 60px; border-radius: 18px; background-color: rgba(255, 255, 255, 0.72); }
+.gb-ware-swatches { flex-direction: row; align-items: center; justify-content: center; }
+.gb-ware-swatches > .gb-swatch { width: 26px; height: 26px; border-radius: 13px; margin: 0 3px; border-width: 3px; border-color: var(--gb-weiss); }
+.gb-ware-seed { width: 44px; height: 44px; border-radius: 22px; border-width: 4px; border-color: var(--gb-weiss); }
+.gb-ware-tag {
+    position: absolute;
+    top: 14px; right: 14px;
+    padding: 1px 8px;
+    border-radius: var(--gb-r-pill);
+    background-color: var(--gb-weiss);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.10);
+    color: var(--gb-schoko);
+    font-size: var(--gb-sm);
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    white-space: nowrap;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.gb-ware-tag--left { right: auto; left: 14px; }
+.gb-ware-tag--mint { background-color: #DDF3E4; border-color: rgba(95, 184, 132, 0.45); color: #3E8F62; }
+.gb-ware-tag--sonne { background-color: #FFF0C8; border-color: rgba(255, 209, 102, 0.85); }
+.gb-ware-tag--rosa { background-color: #FFE3E3; border-color: rgba(242, 109, 109, 0.35); color: var(--gb-primary-tief); }
+.gb-ware-tag--blau { background-color: #DCEBFF; border-color: rgba(127, 184, 255, 0.55); color: #3F6FB5; }
+.gb-ware-tag--angebot { flex-direction: row; align-items: center; background-color: #FFE3EC; border-color: rgba(242, 109, 150, 0.55); color: #C2456E; }
+.gb-ware-tag-icon { width: 14px; height: 14px; margin-right: 3px; }
+.gb-ware--angebot { border-color: #F7A8C2; }
+.gb-ware-name {
+    margin-top: 8px;
+    padding: 0 4px;
+    font-size: 15px;
+    -unity-font-definition: url("../Fonts/Nunito-Bold.ttf");
+    color: var(--gb-text);
+    -unity-text-align: middle-center;
+    white-space: normal;
+    max-height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.gb-ware--sm > .gb-ware-name { font-size: 14px; }
+.gb-ware-sub { margin-top: 2px; padding: 0 4px; font-size: var(--gb-sm); color: var(--gb-text-mild); -unity-text-align: middle-center; white-space: normal; }
+.gb-ware-meta { margin-top: 2px; padding: 0 4px; font-size: var(--gb-sm); color: var(--gb-text-leise); -unity-text-align: middle-center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gb-ware-spacer { flex-grow: 1; min-height: 4px; }
+.gb-ware-btn {
+    height: 40px;
+    min-width: 0;
+    margin-top: 8px;
+    padding: 0 12px;
+    font-size: var(--gb-md);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.gb-ware-btn--second { margin-top: 6px; }
+.gb-ware-btn > .gb-icon { width: 22px; height: 22px; margin-right: 6px; }
+.gb-ware-btn > .gb-btn-label { font-size: 15px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+/* coin + price (not a button: wardrobe / beds / ride prices on tap cards) */
+.gb-ware-price { flex-direction: row; align-items: center; align-self: center; flex-shrink: 0; margin-top: 6px; padding: 2px 12px 2px 4px; border-radius: var(--gb-r-pill); background-color: #FFF4D6; border-width: 2px; border-color: rgba(255, 209, 102, 0.75); }
+.gb-ware-price > .gb-icon { width: 20px; height: 20px; margin-right: 4px; }
+.gb-ware-price > Label { font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); }
+.gb-ware-status { align-self: center; flex-shrink: 0; margin-top: 6px; padding: 3px 12px; border-radius: var(--gb-r-pill); background-color: rgba(107, 79, 58, 0.07); font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text-mild); white-space: nowrap; }
+.gb-ware-status--on { background-color: #DDF3E4; color: #3E8F62; }
+.gb-ware-status--warn { background-color: #FFE3E3; color: var(--gb-primary-tief); }
+/* the whole card is the button (fridge, storage, wardrobe, beds): a pill that lights up on hover */
+.gb-ware-go { align-self: stretch; flex-shrink: 0; height: 32px; margin-top: 8px; border-radius: var(--gb-r-pill); background-color: var(--gb-sand-hell); justify-content: center; align-items: center; transition-property: background-color; transition-duration: 0.12s; }
+.gb-ware-go > Label { font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: nowrap; }
+.gb-ware--tap:hover > .gb-ware-go { background-color: var(--gb-primary); }
+.gb-ware--tap:hover > .gb-ware-go > Label { color: var(--gb-text-invers); }
+.gb-ware--selected > .gb-ware-go { background-color: #FFD9D9; }
+.gb-ware > .gb-item-check { top: 12px; left: 12px; right: auto; width: 26px; height: 26px; border-width: 2px; border-color: var(--gb-weiss); }
+.gb-ware--selected > .gb-item-check { background-color: var(--gb-primary); }
+/* locked / unaffordable: dimmed (class kept from the wardrobe so tests and tours keep finding it) */
+.gb-ware.gb-outfit-card--locked { opacity: 0.55; }
+/* car paint swatches (Autohaus) */
+.gb-paint-row { flex-direction: row; flex-wrap: wrap; justify-content: center; margin-top: 8px; }
+.gb-paint {
+    width: 26px; height: 26px;
+    margin: 0 3px 4px 3px;
+    padding: 0;
+    border-radius: 13px;
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.20);
+    transition-property: scale;
+    transition-duration: 0.1s;
+}
+.gb-paint:hover { scale: 1.12; }
+.gb-paint:active { scale: 0.92; }
+.gb-paint--on { border-width: 3px; border-color: var(--gb-schoko); }
+
+/* ---------- empty states: Gooby on a soft sun disc ---------- */
+.gb-empty { width: 100%; flex-shrink: 0; align-items: center; justify-content: center; padding: 16px 16px 16px 16px; }
+.gb-empty--row { flex-direction: row; justify-content: flex-start; padding: 4px 8px 8px 8px; }
+.gb-empty-art { width: 150px; height: 150px; border-radius: 75px; flex-shrink: 0; margin-bottom: 10px; background-color: rgba(255, 209, 102, 0.24); justify-content: center; align-items: center; }
+.gb-empty--row > .gb-empty-art { width: 112px; height: 112px; border-radius: 56px; margin-bottom: 0; margin-right: 16px; }
+.gb-empty-texts { flex-shrink: 1; align-items: center; }
+.gb-empty--row > .gb-empty-texts { align-items: flex-start; }
+.gb-empty-title { max-width: 460px; font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: normal; -unity-text-align: middle-center; }
+.gb-empty-hint { max-width: 440px; margin-top: 4px; font-size: 13px; color: var(--gb-text-mild); white-space: normal; -unity-text-align: middle-center; }
+.gb-empty--row .gb-empty-title { -unity-text-align: middle-left; }
+.gb-empty--row .gb-empty-hint { -unity-text-align: middle-left; }
+
+/* ---------- talk sheet: Gooby on a sun disc, speech bubble with tail and name tag, answer pills ---------- */
+.gb-talk { flex-direction: row; align-items: center; flex-shrink: 0; }
+.gb-talk-art { width: 128px; height: 128px; border-radius: 64px; flex-shrink: 0; background-color: rgba(255, 209, 102, 0.24); justify-content: center; align-items: center; }
+.gb-talk-bubble {
+    flex-grow: 1; flex-shrink: 1;
+    max-width: 760px;
+    min-height: 70px;
+    margin-left: 20px;
+    padding: 16px 20px 14px 20px;
+    border-radius: 24px;
+    background-color: var(--gb-weiss);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.10);
+    justify-content: center;
+}
+.gb-talk-tail { position: absolute; left: -9px; top: 50%; width: 16px; height: 16px; translate: 0 -8px; rotate: 225deg; background-color: var(--gb-weiss); border-top-width: 2px; border-right-width: 2px; border-color: rgba(107, 79, 58, 0.10); }
+.gb-talk-name { position: absolute; top: -12px; left: 18px; padding: 1px 12px; border-radius: var(--gb-r-pill); background-color: #FFD9D9; color: var(--gb-primary-tief); font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); letter-spacing: 1px; }
+.gb-talk-line { font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: var(--gb-text); white-space: normal; }
+.gb-talk-chips { flex-direction: row; flex-wrap: wrap; flex-shrink: 0; margin-top: 16px; }
+.gb-talk-chip {
+    height: 42px; min-width: 0;
+    margin: 0 8px 8px 0;
+    padding: 0 18px;
+    background-color: var(--gb-weiss);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.12);
+    -unity-font-definition: url("../Fonts/Nunito-Bold.ttf");
+    transition-property: scale, background-color, border-color;
+    transition-duration: 0.12s;
+}
+.gb-talk-chip--first { background-color: var(--gb-primary); border-color: var(--gb-primary); color: var(--gb-text-invers); }
+
+/* ---------- parcel sheet ---------- */
+.gb-pkg-body { flex-direction: row; align-items: center; flex-shrink: 0; }
+.gb-pkg-body--center { justify-content: center; }
+.gb-pkg-art { width: 172px; height: 172px; border-radius: 86px; flex-shrink: 0; margin-right: 22px; background-color: rgba(255, 209, 102, 0.26); justify-content: center; align-items: center; }
+.gb-pkg-art--sm { width: 148px; height: 148px; border-radius: 74px; }
+.gb-pkg-info { flex-grow: 1; flex-shrink: 1; }
+.gb-pkg-streak { font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-pkg-days { flex-direction: row; flex-wrap: wrap; margin: 8px 0 12px 0; }
+.gb-pkg-reward { flex-direction: row; align-items: center; align-self: flex-start; padding: 4px 16px 4px 6px; border-radius: var(--gb-r-pill); background-color: #FFF4D6; border-width: 2px; border-color: rgba(255, 209, 102, 0.75); }
+.gb-pkg-reward > .gb-icon { width: 30px; height: 30px; margin-right: 8px; }
+.gb-pkg-reward > Label { font-size: var(--gb-h3); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); }
+.gb-pkg-reward--big { padding: 6px 22px 6px 8px; }
+.gb-pkg-reward--big > .gb-icon { width: 46px; height: 46px; }
+.gb-pkg-reward--big > Label { font-size: 38px; }
+.gb-pkg-note { margin-top: 6px; font-size: var(--gb-md); color: var(--gb-text-mild); white-space: normal; }
+.gb-pkg-note--sm { font-size: var(--gb-sm); }
+.gb-pkg-note--hot { color: var(--gb-primary-tief); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+
+/* ---------- bed sheet ---------- */
+.gb-bed-grow { flex-direction: row; align-items: center; flex-shrink: 0; margin-top: 4px; padding: 12px 16px 12px 12px; border-radius: 20px; background-color: var(--gb-weiss); border-width: 2px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-bed-grow > .gb-icon-tile { width: 40px; height: 40px; border-radius: 14px; margin-right: 12px; flex-shrink: 0; }
+.gb-bed-grow > .gb-bar { flex-grow: 1; flex-shrink: 1; height: 14px; border-radius: 7px; }
+.gb-bed-stage { flex-shrink: 0; margin-left: 12px; font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-bed-stage--ripe { color: #3E8F62; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+
+/* ---------- hover / press inside the sheets (board 06 buttons: pink primary, sand secondary, green confirm, taupe cancel) ---------- */
+.gb-sheets .gb-btn-secondary:hover { background-color: var(--gb-weiss); border-color: rgba(107, 79, 58, 0.24); }
+.gb-sheets .gb-btn-primary:hover { background-color: #FF9B9B; }
+.gb-sheets .gb-btn-primary:hover:active { background-color: var(--gb-primary-tief); }
+.gb-sheets .gb-btn-confirm:hover { background-color: #8FD8AA; }
+.gb-sheets .gb-btn-confirm:hover:active { background-color: var(--gb-confirm-tief); }
+.gb-sheets .gb-btn-teal:hover { background-color: #52D9BE; }
+.gb-sheets .gb-btn-teal:hover:active { background-color: #2FB89E; }
+.gb-sheets .gb-btn-cancel { background-color: #E6D8C8; color: var(--gb-text); border-width: 2px; border-color: rgba(107, 79, 58, 0.10); }
+.gb-sheets .gb-btn-cancel > .gb-btn-label { color: var(--gb-text); }
+.gb-sheets .gb-btn-cancel:hover { background-color: #EFE3D5; }
+.gb-sheets .gb-btn-cancel:hover:active { background-color: var(--gb-taupe); }
+.gb-sheets .gb-chip:hover { background-color: #F1E1CD; }
+.gb-sheets .gb-chip--active:hover { background-color: #8FD8AA; }
+.gb-sheets .gb-chip--teal.gb-chip--active:hover { background-color: #52D9BE; }
+.gb-sheets .gb-talk-chip:hover { background-color: #FFF6EE; border-color: rgba(107, 79, 58, 0.26); }
+.gb-sheets .gb-talk-chip--first:hover { background-color: #FF9B9B; border-color: #FF9B9B; }
+
+/* ---------- settings (board 07) ---------- */
+/* back capsule: charcoal stadium with a solid white round back button */
+.gb-set-back { position: absolute; left: 16px; top: 12px; flex-direction: row; align-items: center; min-height: 64px; padding: 7px 24px 7px 7px; border-radius: 40px; background-color: rgba(59, 54, 79, 0.90); border-width: 2px; border-color: rgba(255, 255, 255, 0.12); }
+.gb-set-backbtn { width: 50px; height: 50px; background-color: var(--gb-weiss); border-color: rgba(255, 255, 255, 0.9); transition-property: scale; transition-duration: 0.12s; }
+.gb-set-backbtn > .gb-icon { width: 50%; height: 50%; }
+.gb-set-backbtn:hover { scale: 1.06; }
+.gb-set-backbtn:hover:active { scale: 0.92; }
+.gb-set-back-texts { margin-left: 12px; margin-right: 4px; }
+.gb-set-back-title { font-size: var(--gb-h2); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text-invers); }
+.gb-set-back-title-row { flex-direction: row; align-items: center; }
+.gb-set-back-title-row > .gb-icon { width: 20px; height: 20px; margin-left: 8px; }
+.gb-set-back-sub { margin-top: 1px; font-size: 13px; color: rgba(255, 255, 255, 0.78); }
+
+/* tab column: one cream card holding the tabs, active tab solid strawberry with white type */
+.gb-set-tabs {
+    position: absolute; left: 16px; top: 92px;
+    width: 208px;
+    padding: 8px 8px 2px 8px;
+    border-radius: 30px;
+    background-color: rgba(255, 248, 238, 0.93);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.10);
+    border-bottom-width: 4px;
+    border-bottom-color: rgba(107, 79, 58, 0.14);
+}
+.gb-set-tabs > .gb-tab { width: auto; height: 54px; margin-bottom: 6px; padding: 0 12px 0 8px; border-radius: 20px; background-color: #F8EDE1; border-color: rgba(107, 79, 58, 0.07); }
+.gb-set-tabs > .gb-tab > .gb-icon-tile { width: 38px; height: 38px; border-radius: 12px; margin-right: 10px; background-color: rgba(255, 255, 255, 0); }
+.gb-set-tabs > .gb-tab > .gb-icon-tile > .gb-icon { width: 72%; height: 72%; }
+.gb-set-tabs > .gb-tab > Label { font-size: 17px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gb-set-tabs > .gb-tab:hover { background-color: var(--gb-weiss); border-color: rgba(107, 79, 58, 0.16); }
+.gb-set-tabs > .gb-tab--active { background-color: var(--gb-primary); border-color: rgba(255, 255, 255, 0.75); }
+.gb-set-tabs > .gb-tab--active:hover { background-color: #FF9B9B; border-color: rgba(255, 255, 255, 0.75); }
+.gb-set-tabs > .gb-tab--active > Label { color: var(--gb-text-invers); }
+.gb-set-tabs > .gb-tab--active > .gb-icon-tile { background-color: rgba(255, 255, 255, 0.32); }
+
+/* right panel + header (plain glyph, big title, subtitle, motto with leaves) */
+.gb-set-panel {
+    position: absolute; left: 238px; top: 92px; right: 16px; bottom: 16px;
+    padding: 18px 22px 12px 22px;
+    border-radius: 34px;
+    background-color: rgba(255, 246, 236, 0.97);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.10);
+    border-bottom-width: 4px;
+    border-bottom-color: rgba(107, 79, 58, 0.14);
+}
+.gb-set-head { flex-direction: row; align-items: center; flex-shrink: 0; margin-bottom: 12px; padding: 0 4px; }
+.gb-set-head-icon { width: 54px; height: 54px; }
+.gb-set-head-texts { flex-grow: 1; flex-shrink: 1; margin-left: 14px; }
+.gb-set-title { font-size: 30px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-set-sub { margin-top: 1px; font-size: 15px; color: var(--gb-text-mild); white-space: normal; }
+.gb-set-motto { flex-direction: row; align-items: center; flex-shrink: 0; margin-left: 12px; }
+.gb-set-motto > .gb-icon { width: 20px; height: 20px; opacity: 0.7; }
+.gb-set-motto > Label { width: 150px; margin: 0 8px; font-size: 13px; color: #A8998A; -unity-text-align: middle-right; white-space: normal; }
+.gb-set-scroll { flex-grow: 1; flex-shrink: 1; }
+
+/* groups: white card, soft header band, thin dividers between rows (none under the band) */
+.gb-set .gb-group { padding: 6px 16px 4px 16px; margin-bottom: 12px; border-radius: 26px; background-color: rgba(255, 255, 255, 0.64); border-color: rgba(107, 79, 58, 0.06); border-bottom-width: 3px; border-bottom-color: rgba(107, 79, 58, 0.09); }
+.gb-set .gb-group-head { height: 44px; margin: 0 -10px 2px -10px; padding: 0 14px; border-radius: 18px; background-color: rgba(255, 244, 232, 0.95); }
+.gb-set .gb-group-head > .gb-icon { width: 26px; height: 26px; margin-right: 12px; }
+.gb-set .gb-group-head > Label { font-size: 19px; }
+.gb-set .gb-setting-row { min-height: 60px; padding: 6px 0 6px 4px; border-top-color: rgba(107, 79, 58, 0.07); }
+.gb-set .gb-setting-row.gb-set-row--first { border-top-width: 0; }
+.gb-set-texts { flex-shrink: 1; min-width: 80px; }
+.gb-set .gb-setting-titel { font-size: 17px; -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: var(--gb-text); }
+.gb-set .gb-setting-hint { margin-top: 1px; font-size: 13px; color: var(--gb-text-mild); white-space: normal; }
+.gb-set .gb-dropdown { height: 46px; min-width: 210px; border-color: rgba(107, 79, 58, 0.12); border-bottom-width: 3px; border-bottom-color: rgba(107, 79, 58, 0.16); transition-property: border-color, background-color; transition-duration: 0.12s; }
+.gb-set .gb-dropdown:hover { background-color: #FFFDF9; border-color: rgba(107, 79, 58, 0.28); }
+.gb-set .gb-dropdown > .gb-icon { width: 18px; height: 18px; margin-left: 10px; }
+.gb-set .gb-segment > .gb-chip { height: 46px; min-width: 128px; margin-right: 0; margin-left: 10px; border-width: 0; border-bottom-width: 3px; border-bottom-color: rgba(107, 79, 58, 0.12); transition-property: scale, background-color; transition-duration: 0.12s; }
+.gb-set .gb-segment > .gb-chip:hover { scale: 1.03; }
+.gb-set .gb-segment > .gb-chip--active { border-bottom-color: rgba(0, 0, 0, 0.10); }
+.gb-set-lang { flex-direction: row; align-items: center; justify-content: center; }
+.gb-set-lang > Label { font-size: var(--gb-lg); }
+.gb-set-check { width: 22px; height: 22px; margin-left: 8px; border-radius: 11px; background-color: rgba(255, 255, 255, 0.34); justify-content: center; align-items: center; }
+.gb-set-check > .gb-icon { width: 14px; height: 14px; }
+.gb-set .gb-toggle-knob { border-width: 1px; border-color: rgba(107, 79, 58, 0.10); }
+.gb-set .gb-toggle-track:hover { background-color: #DECDB9; }
+.gb-set .gb-toggle-track--on:hover { background-color: #6FC48D; }
+.gb-set .gb-slider-knob { border-color: rgba(107, 79, 58, 0.18); }
+.gb-set-value { width: 64px; font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); -unity-text-align: middle-right; }
+.gb-set-slider { width: 300px; flex-direction: row; align-items: center; }
+
+/* mascot bottom-left: Gooby with a peach speech bubble */
+.gb-set-mascot { position: absolute; left: 8px; bottom: 4px; flex-direction: row; align-items: flex-end; }
+.gb-set-thanks { max-width: 126px; margin-left: -12px; margin-bottom: 52px; padding: 9px 13px 9px 13px; border-radius: 22px; background-color: #FFEDE6; border-width: 2px; border-color: rgba(255, 139, 139, 0.30); }
+.gb-set-thanks > Label { font-size: 13px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: normal; }
+
+/* ---------- workshop (CraftScreen): 3D bench on the left, recipe rows on the right ---------- */
+.gb-craft-body { flex-direction: row; align-items: stretch; flex-grow: 1; flex-shrink: 1; padding: 12px 16px 14px 16px; }
+.gb-craft-left { width: 44%; flex-shrink: 0; margin-right: 16px; }
+.gb-craft-stage { flex-grow: 1; border-radius: var(--gb-r-lg); background-color: #F6E3C8; border-width: 3px; border-color: var(--gb-weiss); -unity-background-scale-mode: scale-and-crop; overflow: hidden; }
+.gb-craft-mats { flex-direction: row; flex-wrap: wrap; justify-content: center; flex-shrink: 0; margin-top: 10px; }
+.gb-craft-mat { flex-direction: row; align-items: center; height: 38px; margin: 0 3px 6px 3px; padding: 0 9px 0 4px; border-radius: var(--gb-r-pill); background-color: var(--gb-weiss); border-width: 2px; border-color: rgba(107, 79, 58, 0.10); border-bottom-width: 3px; }
+.gb-craft-mat > .gb-icon { width: 27px; height: 27px; margin-right: 3px; }
+.gb-craft-mat-n { font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); }
+.gb-craft-mat--leer { opacity: 0.55; }
+.gb-craft-right { flex-grow: 1; flex-shrink: 1; }
+.gb-craft-right > .gb-win-section { margin-top: 0; }
+.gb-craft-list { padding-right: 6px; }
+.gb-craft-recipe { flex-direction: row; align-items: center; margin-bottom: 8px; padding: 6px 12px 6px 6px; border-radius: var(--gb-r-lg); background-color: var(--gb-weiss); border-width: 2px; border-color: rgba(107, 79, 58, 0.08); border-bottom-width: 4px; border-bottom-color: rgba(107, 79, 58, 0.12); transition-property: scale, border-color, background-color; transition-duration: 0.12s; }
+.gb-craft-recipe:hover { border-color: rgba(255, 139, 139, 0.55); }
+.gb-craft-recipe:active { scale: 0.98; }
+.gb-craft-recipe--selected { background-color: #FFF0F0; border-color: var(--gb-primary); }
+.gb-craft-recipe--selected:hover { border-color: var(--gb-primary); }
+.gb-craft-recipe--locked { opacity: 0.6; }
+.gb-craft-thumb { width: 64px; height: 64px; flex-shrink: 0; border-radius: 18px; background-color: #FFF1DC; justify-content: center; align-items: center; }
+.gb-craft-thumb > .gb-item-thumb { width: 58px; height: 58px; }
+.gb-craft-thumb > .gb-icon { width: 38px; height: 38px; }
+.gb-craft-texts { flex-grow: 1; flex-shrink: 1; margin-left: 12px; }
+.gb-craft-name { font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gb-craft-needs { flex-direction: row; flex-wrap: wrap; margin-top: 4px; }
+.gb-craft-need { flex-direction: row; align-items: center; height: 26px; margin: 0 6px 2px 0; padding: 0 8px 0 3px; border-radius: var(--gb-r-pill); background-color: #EEF8F1; }
+.gb-craft-need > .gb-icon { width: 22px; height: 22px; margin-right: 3px; }
+.gb-craft-need > Label { font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #3E8F62; }
+.gb-craft-need--kurz { background-color: #FFECEC; }
+.gb-craft-need--kurz > Label { color: var(--gb-primary-tief); }
+.gb-craft-status { margin-top: 0; margin-left: 8px; }
+.gb-craft-status--fehlt { background-color: #FFF1DC; color: #B7793F; }
+.gb-craft-detail { flex-shrink: 0; margin-top: 8px; padding: 10px 14px 12px 14px; border-radius: var(--gb-r-lg); background-color: rgba(255, 255, 255, 0.72); border-width: 2px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-craft-detail-name { font-size: var(--gb-h3); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-craft-hint { margin-top: 2px; font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: var(--gb-text-mild); white-space: normal; }
+.gb-craft-progress { height: 16px; border-radius: 8px; margin-top: 8px; }
+.gb-craft-progress > .gb-bar-fill { border-radius: 8px; background-color: #FF9E6B; }
+.gb-craft-actions { flex-direction: row; justify-content: flex-end; align-items: center; margin-top: 10px; }
+.gb-craft-actions > .gb-btn { margin-left: 10px; }
+.gb-craft-build { min-width: 180px; }
+
+/* ---------- own market stall (MarktStandScreen) + market day (MarktTagScreen) ---------- */
+.gb-stand-sheet { border-top-left-radius: 26px; border-top-right-radius: 26px; }
+.gb-stand-body > .gb-win-note { margin-bottom: 8px; }
+.gb-stand-body > .gb-win-grid { padding-top: 2px; }
+.gb-stand-day { flex-shrink: 0; margin: 2px 0 6px 0; padding: 10px 14px 4px 14px; border-radius: var(--gb-r-lg); background-color: #FFF4D6; border-width: 2px; border-color: rgba(255, 209, 102, 0.75); }
+.gb-stand-day-text { font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-schoko); white-space: normal; margin-bottom: 6px; }
+.gb-stand-stepper { flex-direction: row; align-items: center; justify-content: center; margin: 6px 0 2px 0; }
+.gb-stand-stepper > .gb-btn { width: 40px; height: 40px; min-width: 40px; }
+.gb-stand-pct { min-width: 92px; -unity-text-align: middle-center; font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text-mild); }
+.gb-stand-pct--billig { color: #3E8F62; }
+.gb-stand-pct--teuer { color: var(--gb-primary-tief); }
+.gb-markttag-hud { position: absolute; top: 18px; left: 0; right: 0; justify-content: center; }
+.gb-markttag-hud > .gb-pill { height: 50px; padding: 0 20px 0 8px; background-color: rgba(255, 255, 255, 0.94); }
+.gb-markttag-hud > .gb-pill > .gb-icon { width: 34px; height: 34px; margin-right: 8px; }
+.gb-markttag-hud .gb-pill-wert { font-size: var(--gb-h3); }
+.gb-markttag-skip { position: absolute; top: 20px; right: 20px; }
+.gb-markttag-ticker { position: absolute; left: 22%; right: 22%; bottom: 22px; align-items: center; padding: 10px 18px 10px 10px; }
+.gb-markttag-ticker > .gb-icon-tile { width: 44px; height: 44px; margin-right: 12px; flex-shrink: 0; }
+.gb-markttag-ticker-text { flex-grow: 1; flex-shrink: 1; font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: normal; }
+.gb-markttag-card { position: absolute; left: 25%; right: 25%; top: 9%; bottom: 7%; }
+.gb-markttag-row { flex-direction: row; align-items: center; margin-bottom: 6px; padding: 6px 12px 6px 6px; border-radius: var(--gb-r-md); background-color: var(--gb-weiss); border-width: 2px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-markttag-row > .gb-icon { width: 40px; height: 40px; margin-right: 10px; }
+.gb-markttag-row-sum { font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #B7793F; }
+.gb-markttag-total { flex-direction: row; justify-content: center; margin: 8px 0 6px 0; }
+.gb-markttag-total-text { font-size: var(--gb-h2); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); -unity-text-align: middle-center; }
+.gb-markttag-row > .gb-markttag-thumb { width: 40px; height: 40px; margin-right: 10px; flex-shrink: 0; }
+.gb-markttag-row > .gb-ware-seed { width: 32px; height: 32px; border-radius: 16px; margin: 4px 14px 4px 4px; }
+
+/* ---------- home interactables: the bubble over a tapped piece and the routine bar ---------- */
+.gb-interakt { padding: 10px 12px 6px 12px; border-radius: var(--gb-r-lg); min-width: 220px; }
+.gb-interakt-title { font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text-mild); margin: 0 0 6px 4px; }
+.gb-interakt-actions { flex-direction: row; flex-wrap: wrap; }
+.gb-interakt-actions > .gb-btn { margin: 0 8px 6px 0; }
+.gb-routine-bar { position: absolute; left: 24%; right: 24%; bottom: 148px; align-items: center; padding: 8px 10px 8px 8px; border-radius: var(--gb-r-lg); }
+.gb-routine-bar > .gb-icon-tile { width: 42px; height: 42px; margin-right: 10px; flex-shrink: 0; }
+.gb-routine-bar > .gb-btn { margin-left: 8px; flex-shrink: 0; }
+.gb-routine-text { flex-grow: 1; flex-shrink: 1; font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: normal; }
+.gb-brush-card { position: absolute; left: 26%; right: 26%; bottom: 26px; padding: 12px 16px 16px 16px; border-radius: var(--gb-r-xl); }
+.gb-brush-head { flex-direction: row; align-items: center; margin-bottom: 10px; }
+.gb-brush-head > .gb-icon-tile { width: 44px; height: 44px; margin-right: 12px; flex-shrink: 0; }
+.gb-brush-hint { flex-grow: 1; flex-shrink: 1; font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: normal; }
+.gb-brush-pad { height: 110px; border-radius: var(--gb-r-lg); background-color: #EAF6FF; border-width: 3px; border-color: rgba(127, 184, 255, 0.55); justify-content: center; }
+.gb-brush-icon { position: absolute; left: 40%; top: 15px; width: 80px; height: 80px; }
+.gb-brush-bar { height: 16px; border-radius: 8px; margin-top: 12px; }
+.gb-mirror-row { margin-bottom: 14px; }
+.gb-mirror-row > .gb-slider { margin-top: 6px; }
+
+/* ---------- Goobay: sellable pieces left, the haggling chat right ---------- */
+.gb-goobay { flex-direction: row; align-items: stretch; flex-grow: 1; flex-shrink: 1; }
+.gb-goobay-list { width: 40%; flex-shrink: 0; margin-right: 14px; }
+.gb-goobay-item { flex-direction: row; align-items: center; margin-bottom: 8px; padding: 6px 10px 6px 6px; border-radius: var(--gb-r-lg); background-color: var(--gb-weiss); border-width: 2px; border-color: rgba(107, 79, 58, 0.08); border-bottom-width: 4px; border-bottom-color: rgba(107, 79, 58, 0.12); transition-property: scale, border-color; transition-duration: 0.12s; }
+.gb-goobay-item:hover { border-color: rgba(127, 207, 155, 0.7); }
+.gb-goobay-item:active { scale: 0.98; }
+.gb-goobay-item--active { background-color: #EEF8F1; border-color: var(--gb-confirm); }
+.gb-goobay-chat { flex-grow: 1; flex-shrink: 1; padding: 10px; border-radius: var(--gb-r-lg); background-color: rgba(255, 255, 255, 0.7); border-width: 2px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-goobay-buyer { flex-direction: row; align-items: center; flex-shrink: 0; margin-bottom: 8px; }
+.gb-goobay-avatar { width: 44px; height: 44px; border-radius: 22px; background-color: #DCEBFF; justify-content: center; align-items: center; margin-right: 10px; }
+.gb-goobay-avatar > .gb-icon { width: 28px; height: 28px; }
+.gb-goobay-buyer-name { flex-grow: 1; flex-shrink: 1; font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: normal; }
+.gb-goobay-mood { flex-direction: row; flex-shrink: 0; }
+.gb-goobay-mood-dot { width: 14px; height: 14px; border-radius: 7px; margin-left: 4px; background-color: rgba(107, 79, 58, 0.12); }
+.gb-goobay-mood-dot--gut { background-color: var(--gb-confirm); }
+.gb-goobay-mood-dot--mittel { background-color: var(--gb-sonne); }
+.gb-goobay-mood-dot--sauer { background-color: var(--gb-danger); }
+.gb-goobay-log { flex-grow: 1; flex-shrink: 1; }
+.gb-goobay-bubble { align-self: flex-start; max-width: 82%; margin-bottom: 6px; padding: 8px 14px; border-radius: 18px; border-top-left-radius: 4px; background-color: var(--gb-weiss); border-width: 2px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-goobay-bubble--mine { align-self: flex-end; background-color: #FFE3E3; border-top-left-radius: 18px; border-top-right-radius: 4px; border-color: rgba(255, 139, 139, 0.3); }
+.gb-goobay-bubble--info { align-self: center; background-color: #FFF4D6; border-radius: 14px; border-color: rgba(255, 209, 102, 0.6); }
+.gb-goobay-bubble-text { font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: var(--gb-text); }
+.gb-goobay-buttons { flex-direction: row; flex-wrap: wrap; justify-content: flex-end; flex-shrink: 0; margin-top: 8px; }
+.gb-goobay-buttons > .gb-btn { margin-left: 8px; margin-bottom: 4px; }
+
+/* ---------- Gooby's look back (RecapScreen): a storybook over the warm room ---------- */
+.gb-recap { background-color: #FFF1DC; background-image: url("../Images/bg_settings.jpg"); -unity-background-scale-mode: scale-and-crop; -unity-background-image-tint-color: rgba(255, 255, 255, 0.55); align-items: center; }
+.gb-recap-title { margin-top: 26px; font-size: var(--gb-h2); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-schoko); }
+.gb-recap-level { font-size: 56px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-primary-tief); margin-top: -4px; }
+.gb-recap-stage { flex-direction: row; align-items: center; justify-content: center; flex-grow: 1; width: 100%; padding: 0 60px; }
+.gb-recap-gooby { align-items: center; margin-right: 40px; }
+.gb-recap-disc { width: 280px; height: 280px; border-radius: 140px; background-color: rgba(255, 209, 102, 0.55); border-width: 6px; border-color: rgba(255, 255, 255, 0.85); justify-content: center; align-items: center; }
+.gb-recap-card { width: 460px; min-height: 300px; padding: 22px 26px; border-radius: var(--gb-r-xl); background-color: rgba(255, 255, 255, 0.92); border-width: 3px; border-color: rgba(107, 79, 58, 0.10); border-bottom-width: 6px; border-bottom-color: rgba(107, 79, 58, 0.16); align-items: center; }
+.gb-recap-card--end { width: 640px; }
+.gb-recap-station { flex-direction: row; align-items: center; align-self: flex-start; padding: 4px 14px 4px 6px; border-radius: var(--gb-r-pill); background-color: var(--gb-sand-hell); }
+.gb-recap-station > .gb-icon { width: 26px; height: 26px; margin-right: 6px; }
+.gb-recap-station > Label { font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-schoko); }
+.gb-recap-tile { width: 96px; height: 96px; border-radius: 30px; justify-content: center; align-items: center; margin-top: 12px; }
+.gb-recap-tile-icon { width: 64px; height: 64px; }
+.gb-recap-number { font-size: 64px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); margin-top: 6px; }
+.gb-recap-line { font-size: var(--gb-h3); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text-mild); -unity-text-align: middle-center; }
+.gb-recap-dots { flex-direction: row; margin-bottom: 26px; }
+.gb-recap-dot { width: 12px; height: 12px; border-radius: 6px; margin: 0 4px; background-color: rgba(107, 79, 58, 0.18); }
+.gb-recap-dot--on { background-color: var(--gb-primary); }
+.gb-recap-skip { position: absolute; top: 22px; right: 26px; }
+.gb-recap-grid { flex-direction: row; flex-wrap: wrap; justify-content: center; margin-bottom: 14px; }
+.gb-recap-chip { flex-direction: row; align-items: center; width: 280px; margin: 4px; padding: 6px 12px 6px 6px; border-radius: var(--gb-r-md); }
+.gb-recap-chip > .gb-icon { width: 30px; height: 30px; margin-right: 8px; flex-shrink: 0; }
+.gb-recap-chip > Label { flex-shrink: 1; font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+
+/* ---------- Gestalten: wall & floor options with their real pattern, colour dots ---------- */
+.gb-gestalten-card { width: 31%; margin: 0 1% 10px 1%; padding: 6px 6px 8px 6px; border-radius: var(--gb-r-lg); background-color: var(--gb-weiss); border-width: 2px; border-color: rgba(107, 79, 58, 0.08); border-bottom-width: 4px; border-bottom-color: rgba(107, 79, 58, 0.12); align-items: center; transition-property: scale, border-color; transition-duration: 0.12s; }
+.gb-gestalten-card:hover { border-color: rgba(255, 139, 139, 0.6); }
+.gb-gestalten-card:active { scale: 0.97; }
+.gb-gestalten-card--on { border-color: var(--gb-primary); background-color: #FFF4F4; }
+.gb-gestalten-tile { width: 100%; height: 78px; border-radius: var(--gb-r-md); -unity-background-scale-mode: scale-and-crop; border-width: 2px; border-color: rgba(107, 79, 58, 0.10); }
+.gb-gestalten-name { margin-top: 6px; font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); -unity-text-align: middle-center; white-space: normal; }
+.gb-gestalten-price { font-size: var(--gb-xs); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: #B7793F; }
+.gb-gestalten-owned { font-size: var(--gb-xs); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: #3E8F62; }
+.gb-gestalten-label { margin: 6px 0 4px 4px; }
+.gb-gestalten-swatches { flex-direction: row; flex-wrap: wrap; flex-shrink: 0; margin-bottom: 4px; }
+.gb-gestalten-swatch { width: 40px; height: 40px; border-radius: 20px; margin: 0 8px 6px 0; border-width: 3px; border-color: rgba(255, 255, 255, 0.95); transition-property: scale; transition-duration: 0.1s; }
+.gb-gestalten-swatch:hover { scale: 1.08; }
+.gb-gestalten-swatch--on { border-color: var(--gb-schoko); scale: 1.12; }
+.gb-gestalten-hausrow { width: 100%; margin-bottom: 12px; }
+.gb-gestalten-hausrow > .gb-gestalten-swatches { margin-top: 6px; }
+
+/* back from a holiday (HomecomingScreen): the celebration card with the souvenir; visiting him (VacationScreen) */
+.gb-homecoming {
+    position: absolute; left: 50%; top: 54%; translate: -50% -50%;
+    width: 540px; padding: 74px 34px 26px 34px; align-items: center;
+    border-radius: 36px; background-color: #FFF8EE;
+    border-width: 3px; border-color: #FFD166; border-bottom-width: 7px; border-bottom-color: #E8B24A;
+}
+.gb-homecoming-gift { flex-direction: row; align-items: center; margin-top: 14px; padding: 12px 16px; border-radius: 20px; background-color: rgba(255, 255, 255, 0.9); width: 100%; }
+.gb-vacation-progress { align-items: center; padding: 8px 18px; border-radius: 26px; }
+.gb-vacation-bar { align-items: flex-end; }
+.gb-vacation-bar > .gb-action { width: 132px; height: 104px; border-radius: 30px; padding: 0 8px; }
+.gb-vacation-bar > .gb-action > .gb-icon { width: 40px; height: 40px; margin-bottom: 4px; }
+.gb-vacation-bar > .gb-action > Label { font-size: var(--gb-md); white-space: normal; -unity-text-align: middle-center; }
+.gb-vacation-bar > .gb-action--main { width: 150px; height: 128px; border-radius: 40px; border-width: 4px; }
+.gb-vacation-bar > .gb-action--main > .gb-icon { width: 52px; height: 52px; }
+
+/* Gooby asks for your birthday (BirthdayScreen): two big steppers, touch-sized */
+.gb-birthday { left: 24%; right: 24%; }
+.gb-birthday-steppers { flex-direction: row; justify-content: center; margin: 4px 0 14px 0; }
+.gb-birthday-stepper { align-items: center; padding: 12px 18px; margin: 0 8px; min-width: 220px; }
+.gb-birthday-step { width: 56px; height: 56px; border-radius: 28px; font-size: 30px; padding: 0; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-birthday-value { min-width: 120px; -unity-text-align: middle-center; margin: 0 10px; }
+
+/* McGooby shift (McGoobyScreen): ticket on top, one station panel below, the till card at the end */
+.gb-mcg-ticket { padding: 10px 22px 12px 22px; align-items: center; min-width: 420px; max-width: 760px; border-radius: 26px; }
+.gb-mcg-ticket-list { flex-direction: row; flex-wrap: wrap; justify-content: center; margin-top: 4px; }
+.gb-mcg-ticket-list > Label { margin: 0 6px; }
+.gb-mcg-done { color: #3E9B5A; }
+.gb-mcg-next { color: #E8574C; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-mcg-points { padding: 8px 16px; align-items: center; border-radius: 22px; }
+.gb-mcg-panel { width: 780px; padding: 12px 22px 16px 22px; align-items: center; border-radius: 30px; }
+.gb-mcg-bar { width: 640px; height: 26px; border-radius: 13px; background-color: rgba(107, 79, 58, 0.14); margin: 8px 0 2px 0; overflow: hidden; }
+.gb-mcg-bar-window { position: absolute; top: 0; bottom: 0; background-color: rgba(255, 201, 60, 0.55); border-left-width: 3px; border-right-width: 3px; border-color: #FFB300; }
+.gb-mcg-bar-fill { position: absolute; left: 0; top: 0; bottom: 0; width: 0; background-color: rgba(232, 87, 76, 0.82); border-radius: 13px; }
+.gb-mcg-bar-fill--gold { background-color: #FFB300; }
+.gb-mcg-state { margin: 4px 0 8px 0; color: #6B4F3A; }
+.gb-mcg-action { width: 340px; height: 84px; border-radius: 42px; font-size: 30px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-mcg-chips { flex-direction: row; flex-wrap: wrap; justify-content: center; margin-top: 6px; }
+.gb-mcg-zutat { height: 64px; padding: 0 22px; margin: 6px; font-size: var(--gb-lg); border-radius: 32px; background-color: #FFF6E0; border-width: 3px; border-color: #FFC93C; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-mcg-end { position: absolute; left: 50%; top: 50%; translate: -50% -50%; width: 580px; padding: 24px 30px 20px 30px; border-radius: 34px; }
+.gb-mcg-end-rows { margin: 12px 0; }
+.gb-mcg-end-row { flex-direction: row; align-items: center; padding: 6px 4px; border-bottom-width: 2px; border-bottom-color: rgba(107, 79, 58, 0.08); }
+
+/* the DLC library (DlcScreen): cover cards and their detail */
+.gb-dlc-list { flex-direction: row; flex-wrap: wrap; justify-content: center; }
+.gb-dlc-card { width: 300px; margin: 10px; padding: 10px 12px 14px 12px; border-radius: 26px; }
+.gb-dlc-cover { height: 200px; border-radius: 18px; -unity-background-scale-mode: scale-and-crop; margin-bottom: 8px; overflow: hidden; background-color: #FFE9B0; }
+.gb-dlc-cover--big { height: 270px; }
+.gb-dlc-ribbon { position: absolute; top: 10px; right: 10px; padding: 2px 12px; border-radius: 12px; background-color: #E8574C; color: #FFFFFF; font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-dlc-detail { position: absolute; left: 50%; top: 50%; translate: -50% -50%; width: 640px; padding: 18px 26px 18px 26px; border-radius: 30px; }
+
+/* Goo und Bye — Gooby's corner store: chips over the crates, the bar in the thumb zone, sheets and cards */
+
+.gb-goobye-head { padding: 6px 18px 8px 8px; align-items: center; border-radius: 24px; }
+.gb-goobye-levelbar { width: 230px; height: 8px; margin: 4px 0 2px 0; }
+.gb-goobye-pills { flex-direction: row; }
+.gb-goobye-pills > .gb-pill { margin-left: 10px; height: 48px; padding: 0 16px 0 8px; background-color: rgba(255, 255, 255, 0.95); }
+.gb-goobye-chip { position: absolute; translate: -50% -50%; flex-direction: row; align-items: center; min-width: 98px; height: 58px; padding: 4px 12px 6px 8px; margin: 0; border-radius: 18px; background-color: rgba(255, 252, 245, 0.96); border-width: 3px; border-color: #7FC8C0; }
+.gb-goobye-chip:active { scale: 0.94 0.94; }
+.gb-goobye-chip > .gb-icon { width: 34px; height: 34px; margin-right: 6px; }
+.gb-goobye-chip--leer { min-width: 52px; width: 52px; height: 52px; padding: 0; justify-content: center; border-radius: 26px; background-color: rgba(255, 252, 245, 0.88); border-color: rgba(107, 79, 58, 0.30); }
+.gb-goobye-chip--leer > .gb-icon { margin: 0; width: 30px; height: 30px; }
+.gb-goobye-chip--deal { border-color: #E8574C; }
+.gb-goobye-chip-text { font-size: 18px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); }
+.gb-goobye-chip-price { font-size: 13px; color: #B7793F; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-goobye-chip-band { position: absolute; left: 12px; right: 12px; bottom: 3px; height: 4px; border-radius: 2px; }
+.gb-goobye-glyph { font-size: 26px; -unity-text-align: middle-center; width: 34px; margin-right: 6px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-goobye-glyph--big { font-size: 40px; width: 52px; height: 48px; margin: 0; }
+.gb-goobye-bar { position: absolute; left: 0; right: 0; bottom: 16px; flex-direction: row; justify-content: center; align-items: center; }
+.gb-goobye-barbtn { height: 68px; margin: 0 7px; padding: 0 22px 0 18px; border-radius: 34px; flex-direction: row; align-items: center; overflow: hidden; }
+.gb-goobye-barbtn > .gb-icon { width: 30px; height: 30px; margin-right: 8px; }
+.gb-goobye-barbtn > .gb-btn-label, .gb-goobye-bartext { font-size: 19px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-goobye-tripfill { position: absolute; left: 0; top: 0; bottom: 0; width: 0; background-color: rgba(127, 200, 192, 0.38); }
+.gb-goobye-open { min-width: 250px; }
+.gb-goobye-open--pulse { border-width: 3px; border-color: rgba(255, 255, 255, 0.85); }
+.gb-goobye-daybar { position: absolute; left: 0; right: 0; bottom: 16px; flex-direction: row; justify-content: center; align-items: center; }
+.gb-goobye-daybar > .gb-btn { margin-left: 10px; }
+.gb-goobye-ticker { align-items: center; padding: 8px 18px 8px 8px; min-width: 460px; max-width: 760px; border-radius: 24px; }
+.gb-goobye-ticker > .gb-icon-tile { width: 44px; height: 44px; margin-right: 12px; flex-shrink: 0; }
+.gb-goobye-ticker-text { flex-grow: 1; flex-shrink: 1; font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: normal; }
+.gb-goobye-fast--on { background-color: #FFD166; }
+.gb-goobye-bubble { position: absolute; translate: -50% -100%; max-width: 320px; padding: 6px 14px; border-radius: 16px; background-color: #FFFFFF; font-size: 18px; color: var(--gb-text); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); border-width: 2px; border-color: rgba(107, 79, 58, 0.16); white-space: normal; -unity-text-align: middle-center; }
+.gb-goobye-sign { position: absolute; translate: -50% -100%; padding: 4px 18px 6px 18px; border-radius: 6px; align-items: center; border-width: 2px; border-color: rgba(74, 59, 54, 0.22); }
+.gb-goobye-sign-big { font-size: 30px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-goobye-sign-name { font-size: 16px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-goobye-veil { justify-content: center; align-items: center; }
+.gb-goobye-veil--links { align-items: flex-start; padding-left: 5%; background-color: rgba(59, 54, 79, 0.18); }
+.gb-goobye-card { width: 600px; padding: 22px 28px 18px 28px; border-radius: 32px; }
+.gb-goobye-sheet { width: 880px; max-height: 90%; padding: 10px 18px 14px 18px; border-radius: 30px; }
+.gb-goobye-sheet-scroll { flex-shrink: 1; }
+.gb-goobye-sheet-body { padding: 4px 6px; }
+.gb-goobye-sheet-foot { flex-direction: row; justify-content: flex-end; align-items: center; margin-top: 8px; }
+.gb-goobye-waregrid, .gb-goobye-dealgrid, .gb-goobye-ordergrid { flex-direction: row; flex-wrap: wrap; }
+.gb-goobye-ware { width: 150px; margin: 6px; padding: 10px 8px 14px 8px; align-items: center; border-radius: 20px; background-color: #FFFFFF; border-width: 2px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-goobye-ware:hover { border-color: #7FC8C0; }
+.gb-goobye-ware > .gb-icon { width: 46px; height: 46px; margin-bottom: 4px; }
+.gb-goobye-ware > Label { -unity-text-align: middle-center; }
+.gb-goobye-ware-band { position: absolute; left: 16px; right: 16px; bottom: 5px; height: 4px; border-radius: 2px; }
+.gb-goobye-ware-cold { position: absolute; top: 6px; right: 6px; width: 20px; height: 20px; }
+.gb-goobye-slotactions { flex-direction: row; margin: 4px 0 10px 0; }
+.gb-goobye-info { margin-bottom: 6px; padding: 8px 12px; border-radius: 18px; background-color: rgba(167, 220, 214, 0.25); }
+.gb-goobye-inforow { flex-direction: row; align-items: center; margin-top: 6px; }
+.gb-goobye-inforow > .gb-icon { width: 28px; height: 28px; margin-right: 8px; }
+.gb-goobye-grouphead { flex-direction: row; align-items: center; margin: 12px 0 2px 0; }
+.gb-goobye-orderrow { width: 48%; flex-direction: row; align-items: center; margin: 3px 1%; padding: 4px 8px; border-radius: 16px; background-color: #FFFFFF; }
+.gb-goobye-orderrow > .gb-icon { width: 34px; height: 34px; margin-right: 8px; }
+.gb-goobye-step { width: 44px; height: 44px; min-width: 44px; padding: 0; margin: 0; border-radius: 22px; font-size: 24px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-goobye-stepnum { width: 36px; -unity-text-align: middle-center; font-size: 18px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); }
+.gb-goobye-deal { width: 250px; margin: 6px; padding: 10px; align-items: center; border-radius: 20px; background-color: #FFFFFF; border-width: 3px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-goobye-deal > Label { -unity-text-align: middle-center; white-space: normal; }
+.gb-goobye-deal--on { border-color: #E8574C; background-color: #FFF1EC; }
+.gb-goobye-deal--off { opacity: 0.55; }
+.gb-goobye-total { flex-direction: row; justify-content: center; align-items: center; margin: 0 0 4px 0; }
+.gb-goobye-total > .gb-icon { width: 44px; height: 44px; margin-right: 10px; }
+.gb-goobye-total-text { font-size: 54px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); }
+.gb-goobye-center { -unity-text-align: middle-center; }
+.gb-goobye-rekord { color: #E8574C; -unity-text-align: middle-center; }
+
+/* GOOBEA furniture store: shelf left, the turning showroom piece right */
+.gb-xs { font-size: 13px; }
+.gb-goobea { background-color: #EEF2FA; }
+.gb-goobea-head { padding: 6px 18px 8px 8px; align-items: center; border-radius: 24px; }
+.gb-goobea-body { position: absolute; left: 16px; right: 16px; top: 96px; bottom: 16px; flex-direction: row; align-items: stretch; }
+.gb-goobea-left { width: 40%; margin-right: 14px; padding: 12px; border-radius: 26px; }
+.gb-goobea-chipscroll { flex-shrink: 0; margin: 8px 0 6px 0; }
+.gb-goobea-chips { flex-direction: row; flex-wrap: nowrap; padding-bottom: 4px; }
+.gb-goobea-chips > .gb-chip { margin-right: 6px; flex-shrink: 0; }
+.gb-goobea-scroll { flex-grow: 1; flex-shrink: 1; }
+.gb-goobea-list { flex-direction: row; flex-wrap: wrap; }
+.gb-goobea-item { width: 48%; min-height: 58px; margin: 1%; padding: 6px 10px 6px 6px; align-items: center; border-radius: 16px; background-color: #FFFFFF; border-width: 2px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-goobea-item > .gb-icon-tile { width: 42px; height: 42px; margin-right: 8px; flex-shrink: 0; }
+.gb-goobea-item--sel { border-color: #4E79D6; background-color: #EEF3FF; }
+.gb-goobea-itemprice { color: #B7793F; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-goobea-right { flex-grow: 1; padding: 12px 16px; border-radius: 26px; }
+.gb-goobea-show { flex-grow: 1; min-height: 200px; border-radius: 20px; overflow: hidden; background-color: #FFF4E4; -unity-background-scale-mode: scale-and-crop; }
+.gb-goobea-info { flex-direction: row; align-items: center; margin-top: 10px; }
+.gb-goobea-zoom { width: 170px; margin-left: 8px; }
+.gb-goobea-swatchrow { flex-direction: row; align-items: center; margin-top: 8px; }
+.gb-goobea-swatches { flex-direction: row; margin-left: 12px; }
+.gb-goobea-swatch { width: 44px; height: 44px; margin: 0 8px 0 0; padding: 0; border-radius: 22px; border-width: 3px; border-color: rgba(107, 79, 58, 0.15); justify-content: center; align-items: center; }
+.gb-goobea-swatch > .gb-icon { width: 22px; height: 22px; }
+.gb-goobea-swatch--on { border-color: #4E79D6; scale: 1.12 1.12; }
+.gb-goobea-buyrow { flex-direction: row; align-items: center; margin-top: auto; padding-top: 10px; }
+.gb-goobea-price { font-size: 28px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); margin: 0 14px; }
+.gb-goobea-buy { height: 62px; min-width: 190px; border-radius: 31px; }
+
+/* Gestalten outside: part chips, the house number stepper */
+.gb-gestalten-teilchips { flex-direction: row; flex-wrap: wrap; flex-shrink: 1; max-width: 100%; margin: 4px 0 2px 0; }
+.gb-gestalten-teilchips > .gb-chip { margin: 0 6px 6px 0; }
+.gb-gestalten-nummer { flex-direction: row; align-items: center; margin-top: 4px; }
+.gb-gestalten-nummerzahl { min-width: 72px; -unity-text-align: middle-center; }
+
+/* the Gooby ranch farm: horse portraits left, the horse's card right, the care dock in the thumb zone */
+.gb-ranchhof-head { padding: 6px 18px 8px 8px; align-items: center; border-radius: 24px; max-width: 640px; }
+.gb-ranchhof-pills { flex-direction: row; }
+.gb-ranchhof-pills > .gb-pill { margin-left: 10px; height: 48px; padding: 0 16px 0 8px; background-color: rgba(255, 255, 255, 0.95); }
+.gb-ranchhof-horses { position: absolute; left: 16px; top: 108px; }
+.gb-ranchhof-horse { width: 112px; padding: 8px 6px 10px 6px; margin: 0 0 10px 0; align-items: center; border-radius: 26px; background-color: rgba(255, 252, 245, 0.94); border-width: 3px; border-color: rgba(255, 255, 255, 0); }
+.gb-ranchhof-horse:active { scale: 0.95 0.95; }
+.gb-ranchhof-horse--on { border-color: #F2A65A; background-color: #FFF4E2; }
+.gb-ranchhof-horse-disc { width: 64px; height: 64px; border-radius: 32px; justify-content: center; align-items: center; border-width: 3px; border-color: #FFFFFF; }
+.gb-ranchhof-horse-disc > .gb-icon { width: 34px; height: 34px; opacity: 0.8; }
+.gb-ranchhof-horse-name { margin-top: 4px; font-size: 16px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); }
+.gb-ranchhof-horse-mood { position: absolute; top: 8px; right: 16px; width: 20px; height: 20px; border-radius: 10px; border-width: 3px; border-color: #FFFFFF; }
+.gb-ranchhof-horse--needs .gb-ranchhof-horse-disc { border-color: #F4A6A6; }
+.gb-ranchhof-card { position: absolute; right: 16px; top: 84px; width: 300px; padding: 12px 16px 12px 16px; border-radius: 26px; }
+.gb-ranchhof-namerow { flex-direction: row; align-items: center; justify-content: space-between; }
+.gb-ranchhof-level { padding: 2px 10px; border-radius: 12px; background-color: #FFE7A3; font-size: 15px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #8A5A33; }
+.gb-ranchhof-chips { flex-direction: row; margin: 4px 0 6px 0; }
+.gb-ranchhof-chip { padding: 2px 12px; margin-right: 6px; border-radius: 12px; font-size: 14px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); background-color: #E8E2D6; }
+.gb-ranchhof-chip--bond { background-color: #FBD3DC; }
+.gb-ranchhof-bar-row { flex-direction: row; align-items: center; margin: 3px 0; }
+.gb-ranchhof-bar-label { width: 98px; font-size: 14px; color: #8A7468; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-ranchhof-bar { flex-grow: 1; height: 12px; }
+.gb-ranchhof-bar-value { width: 36px; -unity-text-align: middle-right; font-size: 14px; color: var(--gb-text); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-ranchhof-dock { position: absolute; left: 0; right: 0; bottom: 14px; flex-direction: row; justify-content: center; align-items: flex-end; }
+.gb-ranchhof-bigbtn { height: 70px; margin: 0 10px 8px 10px; padding: 0 22px 0 16px; border-radius: 35px; flex-direction: row; align-items: center; }
+.gb-ranchhof-bigbtn > .gb-icon { width: 32px; height: 32px; margin-right: 8px; }
+.gb-ranchhof-bigbtn > .gb-btn-label { font-size: 19px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-ranchhof-actions { flex-direction: row; padding: 10px 10px 6px 10px; border-radius: 32px; }
+.gb-ranchhof-action { width: 94px; margin: 0 2px; padding: 0; align-items: center; background-color: rgba(0, 0, 0, 0); border-width: 0; }
+.gb-ranchhof-action:active { scale: 0.92 0.92; }
+.gb-ranchhof-action-disc { width: 62px; height: 62px; border-radius: 31px; background-color: #FFF4E2; justify-content: center; align-items: center; border-width: 3px; border-color: #F2D2A6; }
+.gb-ranchhof-action-disc > .gb-icon { width: 42px; height: 42px; }
+.gb-ranchhof-action:hover .gb-ranchhof-action-disc { border-color: #F2A65A; }
+.gb-ranchhof-action-label { margin-top: 3px; font-size: 13px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); -unity-text-align: middle-center; white-space: normal; }
+.gb-ranchhof-badge { position: absolute; top: -4px; right: 10px; min-width: 24px; height: 24px; padding: 0 6px; border-radius: 12px; background-color: #6B4F3A; color: #FFFFFF; font-size: 13px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); -unity-text-align: middle-center; }
+.gb-ranchhof-action--leer .gb-ranchhof-action-disc { opacity: 0.45; }
+.gb-ranchhof-action--leer .gb-ranchhof-badge { background-color: #C9BBAE; }
+.gb-ranchhof-action--zu { opacity: 0.6; }
+.gb-ranchhof-bubble { position: absolute; left: 50%; top: 96px; translate: -50% 0; max-width: 620px; padding: 10px 22px; border-radius: 22px; }
+.gb-ranchhof-bubble-text { font-size: 18px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: normal; -unity-text-align: middle-center; }
+.gb-ranchhof-veil { justify-content: center; align-items: center; }
+.gb-ranchhof-dialog { width: 620px; padding: 22px 28px 18px 28px; border-radius: 32px; }
+.gb-ranchhof-center { -unity-text-align: middle-center; margin: 6px 0; }
+.gb-ranchhof-sheet { width: 920px; max-height: 90%; padding: 10px 18px 14px 18px; border-radius: 30px; }
+.gb-ranchhof-sheet-scroll { flex-shrink: 1; }
+.gb-ranchhof-sec { margin: 12px 0 4px 0; font-size: 18px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #8A5A33; }
+.gb-ranchhof-shoprow { flex-direction: row; flex-wrap: wrap; }
+.gb-ranchhof-shopbtn { height: 52px; margin: 4px 8px 4px 0; padding: 0 16px 0 10px; border-radius: 26px; }
+.gb-ranchhof-tile { width: 196px; margin: 6px 8px 6px 0; padding: 10px; align-items: center; border-radius: 20px; background-color: #FFFFFF; border-width: 2px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-ranchhof-tile > .gb-icon { width: 40px; height: 40px; margin-bottom: 4px; }
+.gb-ranchhof-ok { color: #3E9B5A; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-ranchhof-gearrow { flex-direction: row; flex-wrap: wrap; align-items: center; margin: 4px 0; }
+.gb-ranchhof-gearname { width: 110px; }
+.gb-ranchhof-gear { flex-direction: row; align-items: center; height: 42px; padding: 0 12px 0 6px; margin: 3px 6px 3px 0; border-radius: 21px; background-color: #FFFFFF; border-width: 3px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-ranchhof-gear--an { border-color: #F2A65A; background-color: #FFF4E2; }
+.gb-ranchhof-gear--zu { opacity: 0.8; }
+.gb-ranchhof-gear--quest { background-color: #FFF8E1; border-color: rgba(242, 194, 48, 0.55); }
+.gb-ranchhof-gear--quest.gb-ranchhof-gear--an { border-color: #F2A65A; background-color: #FFEFC7; }
+.gb-ranchhof-gear--gesperrt { opacity: 0.55; }
+.gb-ranchhof-gear-dot { width: 24px; height: 24px; border-radius: 12px; margin-right: 6px; border-width: 2px; border-color: #FFFFFF; }
+.gb-ranchhof-gear-stern { width: 18px; height: 18px; margin-left: 4px; }
+.gb-ranchhof-sethint { white-space: normal; margin: 2px 0 6px 0; }
+.gb-ranchhof-games { flex-direction: row; flex-wrap: wrap; justify-content: center; }
+.gb-ranchhof-game { width: 270px; margin: 8px; padding: 8px 10px 12px 10px; border-radius: 22px; background-color: #FFFFFF; border-width: 3px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-ranchhof-game:hover { border-color: #F2A65A; }
+.gb-ranchhof-game-cover { height: 124px; border-radius: 16px; background-color: #FFE7C2; -unity-background-scale-mode: scale-and-crop; margin-bottom: 6px; justify-content: center; align-items: center; }
+
+/* Ranch farm: the food tray above the care dock */
+.gb-ranchhof-action-face { align-items: center; }
+.gb-ranchhof-action--an .gb-ranchhof-action-disc { border-color: #F2A65A; background-color: #FFE7C2; }
+.gb-ranchhof-tray { position: absolute; left: 50%; bottom: 140px; translate: -50% 0; flex-direction: row; padding: 10px 10px 6px 10px; border-radius: 32px; }
+.gb-ranchhof-dorfcard { flex-direction: row; align-items: center; margin: 8px 8px 4px 8px; padding: 12px 16px; border-radius: 22px; background-color: #FFF4E2; border-width: 3px; border-color: #F2C08A; }
+.gb-ranchhof-dorfcard:hover { border-color: #F2A65A; }
+.gb-ranchhof-dorfcard:active { scale: 0.97 0.97; }
+
+/* Hufingen, the riding village */
+.gb-ranchdorf-tag { position: absolute; flex-direction: row; align-items: center; height: 38px; padding: 0 14px 0 6px; border-radius: 19px; border-width: 3px; border-color: #FFFFFF; }
+.gb-ranchdorf-tag > .gb-icon { width: 24px; height: 24px; margin-right: 6px; }
+.gb-ranchdorf-tag:active { scale: 0.94 0.94; }
+.gb-ranchdorf-tag-text { font-size: 16px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #FFFFFF; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
+.gb-ranchdorf-dock { position: absolute; left: 50%; bottom: 14px; translate: -50% 0; flex-direction: row; padding: 10px 10px 6px 10px; border-radius: 32px; }
+.gb-ranchdorf-gruss { margin: 0 0 4px 8px; }
+.gb-ranchdorf-disc { width: 44px; height: 44px; border-radius: 22px; margin-right: 10px; }
+.gb-ranchdorf-disc > .gb-icon { width: 26px; height: 26px; }
+.gb-ranchdorf-horsecard { align-items: center; width: 250px; }
+.gb-ranchdorf-horsecard > .gb-ranchdorf-disc { width: 72px; height: 72px; border-radius: 36px; margin: 6px 0 4px 0; }
+.gb-ranchdorf-horsecard > .gb-ranchdorf-disc > .gb-icon { width: 38px; height: 38px; }
+.gb-ranchdorf-horsecard > .gb-btn { margin-top: 8px; }
+.gb-ranchdorf-name { width: 220px; }
+.gb-ranchhof-tagechip { flex-direction: row; align-items: center; height: 40px; margin-left: 14px; padding: 0 14px 0 8px; border-radius: 20px; background-color: #FFF4E2; border-width: 3px; border-color: #F2D2A6; }
+.gb-ranchhof-tagechip > .gb-icon { width: 24px; height: 24px; margin-right: 4px; }
+.gb-ranchhof-tagechip:active { scale: 0.94 0.94; }
+.gb-ranchhof-tagechip-text { font-size: 16px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #8A5A33; }
+.gb-ranchhof-tagechip--bereit { background-color: #FFD166; border-color: #F2A65A; }
+/* the ranch's weather: header chip and the evening rainbow over the field */
+.gb-ranch-wetter { flex-direction: row; align-items: center; height: 40px; margin-left: 10px; padding: 0 14px 0 8px; border-radius: 20px; background-color: #EEF6FC; border-width: 3px; border-color: #C3DDF0; }
+.gb-ranch-wetter > .gb-icon { width: 26px; height: 26px; margin-right: 6px; }
+.gb-ranch-wetter:active { scale: 0.94 0.94; }
+.gb-ranch-wetter-text { font-size: 16px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #4F6E8C; }
+.gb-ranch-wetter--bogen { background-color: #FFF0F6; border-color: #F4B6CF; }
+.gb-ranch-wetter--bogen .gb-ranch-wetter-text { color: #B4527A; }
+.gb-ranch-regenbogen { position: absolute; left: 12%; right: 12%; top: 1%; height: 48%; opacity: 0; transition-property: opacity; transition-duration: 2.5s; }
+.gb-ranch-regenbogen--an { opacity: 0.78; }
+.gb-ranchhof-wiesetag { background-color: rgba(138, 116, 86, 0.82); }
+.gb-ranchhof-wiesetag--reif { background-color: #F2B33D; }
+.gb-ranchhof-taskrow { flex-direction: row; align-items: center; margin: 6px 0; padding: 8px 12px; border-radius: 22px; background-color: #FFFFFF; border-width: 2px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-ranchhof-taskrow > .gb-ranchhof-action-disc { width: 54px; height: 54px; border-radius: 27px; }
+.gb-ranchhof-taskrow > .gb-ranchhof-action-disc > .gb-icon { width: 34px; height: 34px; }
+.gb-ranchhof-taskcol { flex-grow: 1; margin: 0 14px; }
+
+/* Gooby stuck in a door: the tap-mash card */
+.gb-tuer-card { position: absolute; left: 50%; bottom: 120px; translate: -50% 0; width: 420px; padding: 14px 22px 16px 22px; border-radius: 28px; align-items: center; }
+.gb-tuer-bar { width: 100%; height: 18px; margin: 10px 0 6px 0; }
+.gb-tuer-hint { font-size: 22px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #E8743A; }
+.gb-ranchhof-zuchtrow { flex-direction: row; align-items: center; justify-content: space-between; margin: 0 0 6px 0; padding: 6px 10px; border-radius: 14px; background-color: #FDE7EC; }
+.gb-ranchhof-zuchttext { flex-shrink: 1; color: #8A4A5A; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); white-space: normal; }
+.gb-ranchhof-stammrow { flex-direction: row; justify-content: center; margin: 6px 0; }
+.gb-ranchhof-portrait { width: 150px; margin: 0 10px; align-items: center; }
+.gb-ranchhof-portrait--klein { width: 110px; margin: 0 4px; opacity: 0.9; }
+.gb-ranchhof-portrait--klein > .gb-ranchhof-horse-disc { width: 48px; height: 48px; border-radius: 24px; }
+
+/* Taming at the forest edge */
+.gb-zaehm-head { position: absolute; left: 50%; top: 14px; translate: -50% 0; width: 380px; padding: 8px 18px 12px 18px; border-radius: 22px; align-items: center; }
+.gb-zaehm-bar { width: 100%; height: 16px; margin-top: 6px; }
+.gb-zaehm-dock { position: absolute; left: 50%; bottom: 18px; translate: -50% 0; flex-direction: row; }
+.gb-zaehm-knopf { width: 120px; margin: 0 10px; }
+.gb-zaehm-knopf .gb-ranchhof-action-disc { width: 92px; height: 92px; border-radius: 46px; background-color: rgba(255, 252, 245, 0.95); }
+.gb-zaehm-knopf .gb-ranchhof-action-disc > .gb-icon { width: 54px; height: 54px; }
+.gb-zaehm-knopf .gb-ranchhof-action-label { font-size: 16px; color: #FFFFFF; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.45); }
+.gb-ranchdorf-freund { flex-direction: row; align-items: center; margin: 0 0 6px 6px; }
+.gb-ranchdorf-herzen { flex-direction: row; margin-right: 12px; }
+.gb-ranchdorf-herz { width: 22px; height: 22px; margin-right: 2px; opacity: 0.25; -unity-background-image-tint-color: #B8A99C; }
+.gb-ranchdorf-herz--an { opacity: 1; -unity-background-image-tint-color: #F28CA0; }
+
+/* Place life: a visitor's line over their head */
+.gb-ort-spruch { position: absolute; width: 220px; padding: 6px 12px; border-radius: 16px; background-color: rgba(255, 252, 245, 0.95); }
+.gb-ort-spruch-name { color: #8A5A33; }
+
+/* the open ranch region: stick, gallop, map button, action, saddling card */
+.gb-ranchwelt-stickzone { position: absolute; left: 0; top: 24%; width: 46%; bottom: 0; }
+.gb-ranchwelt-stickbase { position: absolute; left: 90px; top: 150px; width: 140px; height: 140px; border-radius: 70px; background-color: rgba(255, 255, 255, 0.16); border-width: 3px; border-color: rgba(255, 255, 255, 0.55); opacity: 0; }
+.gb-ranchwelt-stickbase--an { opacity: 1; }
+.gb-ranchwelt-stickknob { position: absolute; left: 36px; top: 36px; width: 62px; height: 62px; border-radius: 31px; background-color: rgba(255, 252, 245, 0.92); border-width: 3px; border-color: #F2C08A; }
+.gb-ranchwelt-rechts { position: absolute; right: 22px; bottom: 22px; align-items: center; }
+.gb-ranchwelt-knopf { margin-top: 8px; }
+.gb-ranchwelt-knopf .gb-ranchhof-action-disc { background-color: rgba(255, 252, 245, 0.95); }
+.gb-ranchwelt-knopf .gb-ranchhof-action-label { font-size: 15px; color: #FFFFFF; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+.gb-ranchwelt-knopf--gross .gb-ranchhof-action-disc { width: 96px; height: 96px; border-radius: 48px; }
+.gb-ranchwelt-knopf--gross .gb-ranchhof-action-disc > .gb-icon { width: 58px; height: 58px; }
+.gb-ranchwelt-gait { position: absolute; right: 140px; bottom: 58px; font-size: 18px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #FFFFFF; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+.gb-ranchwelt-aktion { position: absolute; left: 50%; bottom: 28px; translate: -50% 0; height: 64px; padding: 0 30px; border-radius: 32px; }
+.gb-ranchwelt-aktion-text { font-size: 22px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #FFFFFF; }
+.gb-ranchwelt-hint { position: absolute; left: 50%; bottom: 112px; translate: -50% 0; padding: 10px 20px; border-radius: 22px; align-items: center; transition-property: opacity; transition-duration: 0.8s; }
+.gb-ranchwelt-hint > .gb-icon { width: 28px; height: 28px; }
+.gb-ranchwelt-hint--weg { opacity: 0; }
+.gb-ranchwelt-sattel { position: absolute; left: 50%; top: 50%; translate: -50% -50%; padding: 22px 34px; border-radius: 30px; align-items: center; }
+.gb-ranchhof-dorfcard--gross { background-color: #EEF8E6; border-color: #A8D88C; }
+.gb-ranchhof-dorfcard--gross:hover { border-color: #7FBF5E; }
+
+/* the explorer map */
+.gb-rkarte-host { background-color: rgba(52, 40, 28, 0.42); }
+.gb-rkarte { position: absolute; left: 0; top: 0; right: 0; bottom: 0; align-items: center; justify-content: center; }
+.gb-rkarte-card { width: 70%; height: 94%; padding: 12px 18px 14px 18px; border-radius: 30px; }
+.gb-rkarte-head { flex-direction: row; align-items: center; }
+.gb-rkarte-feld { flex-grow: 1; margin-top: 8px; }
+.gb-rkarte-zone { font-size: 13px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #6B4F3A; -unity-text-align: middle-center; padding: 1px 6px; border-radius: 8px; background-color: rgba(255, 252, 245, 0.7); }
+.gb-rkarte-zone--nebel { color: #A39A8E; background-color: rgba(255, 252, 245, 0.35); }
+.gb-rkarte-pin { width: 34px; height: 34px; border-radius: 17px; padding: 0; margin: 0; background-color: #EDE6DA; border-width: 3px; border-color: #FFFFFF; justify-content: center; align-items: center; }
+.gb-rkarte-pin > .gb-icon { width: 20px; height: 20px; }
+.gb-rkarte-pin--da { background-color: #FFD166; border-color: #F2A65A; }
+.gb-rkarte-pin:active { scale: 0.9 0.9; }
+.gb-rkarte-pin-q { font-size: 18px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #8A7F72; -unity-text-align: middle-center; }
+.gb-rkarte-neu { position: absolute; top: -10px; right: -18px; padding: 0 5px; border-radius: 8px; font-size: 10px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #FFFFFF; background-color: #E8676B; }
+.gb-rkarte-ich { position: absolute; width: 28px; height: 28px; background-image: url("../Icons/icon_nav_arrow.png"); -unity-background-image-tint-color: #E8676B; }
+.gb-rkarte-detail { position: absolute; right: 17%; top: 22%; width: 300px; padding: 14px 18px; border-radius: 26px; }
+.gb-rkarte-detail-row { flex-direction: row; justify-content: flex-end; margin-top: 10px; }
+.gb-rkarte-detail-row > .gb-btn { margin-left: 10px; }
+
+/* ranch quests: chip, tracker, markers over people, cards in the log and the person sheets */
+.gb-ranchhof-questchip { margin-left: 10px; background-color: #EEF0FF; border-color: #C7CDF2; }
+.gb-ranchhof-questchip .gb-ranchhof-tagechip-text { color: #5A5F9E; }
+.gb-rquest-tracker { position: absolute; left: 140px; top: 80px; flex-direction: row; align-items: center; max-width: 520px; height: 36px; padding: 0 14px 0 8px; border-radius: 18px; background-color: rgba(255, 252, 245, 0.92); border-width: 2px; border-color: rgba(107, 79, 58, 0.12); }
+.gb-rquest-tracker > .gb-icon { width: 22px; height: 22px; margin-right: 6px; }
+.gb-rquest-tracker-text { font-size: 14px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.gb-rquest-tracker--bereit { background-color: #FFF1C9; border-color: #F2B33D; }
+.gb-rquest-tracker:active { scale: 0.97 0.97; }
+.gb-rquest-marke { position: absolute; width: 34px; height: 34px; border-radius: 17px; background-color: #F2B134; border-width: 3px; border-color: #FFFFFF; font-size: 22px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #FFFFFF; -unity-text-align: middle-center; }
+.gb-rquest-marke--abgabe { background-color: #67B99A; }
+.gb-rquest-karte { margin: 6px 4px; padding: 10px 14px; border-radius: 20px; background-color: #FFFFFF; border-width: 2px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-rquest-karte--haupt { border-color: #F2C08A; background-color: #FFFAF1; }
+.gb-rquest-karte--bereit { border-color: #67B99A; background-color: #EFFAF4; }
+.gb-rquest-kopf { flex-direction: row; align-items: center; justify-content: space-between; }
+.gb-rquest-titel { font-size: 18px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); flex-shrink: 1; }
+.gb-rquest-status { font-size: 12px; padding: 2px 10px; border-radius: 10px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #6B4F3A; background-color: #F1EADF; }
+.gb-rquest-status--verfuegbar { background-color: #FFE7A3; color: #8A5A13; }
+.gb-rquest-status--aktiv { background-color: #DDEBFF; color: #3D5F9C; }
+.gb-rquest-status--wartend { background-color: #EDE3FA; color: #6B4FA0; }
+.gb-rquest-status--erfuellbar { background-color: #CBEEDC; color: #2F7A55; }
+.gb-rquest-ziel { flex-direction: row; align-items: center; margin-top: 6px; }
+.gb-rquest-ziel > .gb-icon { width: 22px; height: 22px; margin-right: 6px; }
+.gb-rquest-bar { height: 10px; margin: 6px 0 2px 0; }
+.gb-rquest-unten { flex-direction: row; align-items: center; justify-content: space-between; margin-top: 6px; }
+.gb-rquest-unten > .gb-btn { margin-left: 10px; }
+.gb-rquest-tabs { flex-direction: row; margin: 2px 4px 6px 4px; }
+.gb-rquest-tabs > .gb-btn { margin-right: 8px; }
+
+/* ranch build mode: header, camera buttons, the drawer of pieces, the placing bar, the info card, zone chips, dialogs */
+.gb-rbau-head { max-width: 560px; }
+.gb-rbau-rund { width: 54px; height: 54px; margin-left: 10px; background-color: rgba(255, 252, 245, 0.95); border-color: #F2D2A6; }
+.gb-rbau-rund > .gb-icon { width: 30px; height: 30px; }
+.gb-rbau-kamera { position: absolute; right: 18px; top: 92px; align-items: center; }
+.gb-rbau-kamera > .gb-rbau-rund { margin: 0 0 10px 0; }
+.gb-rbau-drawer { position: absolute; left: 16px; right: 16px; bottom: 10px; padding: 6px 10px 8px 10px; border-radius: 28px; }
+.gb-rbau-tabs { flex-direction: row; margin-bottom: 6px; }
+.gb-rbau-tab { flex-direction: row; align-items: center; height: 40px; padding: 0 18px 0 10px; margin-right: 8px; border-radius: 20px; background-color: #F6EFE4; border-width: 2px; border-color: rgba(0, 0, 0, 0); }
+.gb-rbau-tab:active { scale: 0.95 0.95; }
+.gb-rbau-tab > .gb-icon { width: 26px; height: 26px; margin-right: 6px; }
+.gb-rbau-tab-text { font-size: 15px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-rbau-tab--an { background-color: #FFE7C2; border-color: #F2A65A; }
+.gb-rbau-strip { height: 118px; }
+.gb-rbau-strip .unity-scroll-view__content-container { flex-direction: row; }
+.gb-rbau-karte { width: 116px; height: 114px; margin-right: 8px; padding: 6px 4px 4px 4px; border-radius: 20px; background-color: #FFFFFF; border-width: 3px; border-color: rgba(107, 79, 58, 0.10); align-items: center; justify-content: space-between; transition-property: scale; transition-duration: 0.12s; }
+.gb-rbau-karte:hover { border-color: #F2C08A; }
+.gb-rbau-karte:active { scale: 0.94 0.94; }
+.gb-rbau-karte > .gb-icon-tile { width: 50px; height: 50px; border-radius: 16px; }
+.gb-rbau-karte-name { font-size: 13px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); -unity-text-align: middle-center; white-space: normal; max-width: 108px; }
+.gb-rbau-karte-preis { flex-direction: row; align-items: center; padding: 1px 8px; border-radius: 10px; background-color: #FFF4E2; }
+.gb-rbau-karte-preis > .gb-icon { width: 16px; height: 16px; margin-right: 3px; }
+.gb-rbau-karte-preistext { font-size: 12px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #8A5A13; }
+.gb-rbau-karte--teuer .gb-rbau-karte-preistext { color: #C2564C; }
+.gb-rbau-karte--gebaut { border-color: #A8D88C; background-color: #F3FBEE; }
+.gb-rbau-karte--gebaut .gb-rbau-karte-preis { background-color: #DDF3D2; }
+.gb-rbau-karte--gebaut .gb-rbau-karte-preistext { color: #3F7A2E; }
+.gb-rbau-karte--lager { border-color: #9FC7EA; }
+.gb-rbau-karte--lager .gb-rbau-karte-preis { background-color: #E2EFFB; }
+.gb-rbau-karte--lager .gb-rbau-karte-preistext { color: #3D5F9C; }
+.gb-rbau-karte--an { border-color: #F2A65A; background-color: #FFF7EA; }
+.gb-rbau-karte--belohnung { border-color: #F2C230; background-color: #FFFBEA; }
+.gb-rbau-karte--belohnung .gb-rbau-karte-preis { background-color: #FFEFC2; }
+.gb-rbau-karte--belohnung .gb-rbau-karte-preistext { color: #8A5A13; }
+.gb-rbau-karte--gesperrt > .gb-icon-tile { opacity: 0.5; }
+.gb-rbau-karte--gesperrt .gb-rbau-karte-name { color: rgba(59, 54, 79, 0.6); }
+.gb-rbau-hint { position: absolute; left: 50%; bottom: 188px; translate: -50% 0; padding: 8px 18px; border-radius: 20px; align-items: center; }
+.gb-rbau-hint > .gb-icon { width: 24px; height: 24px; }
+.gb-rbau-hint--oben { bottom: 104px; }
+.gb-rbau-aktionen { position: absolute; left: 50%; bottom: 14px; translate: -50% 0; flex-direction: row; align-items: center; padding: 8px 10px; border-radius: 40px; }
+.gb-rbau-aktion { margin-right: 10px; height: 60px; }
+.gb-rbau-bauen { height: 66px; min-width: 250px; padding: 0 28px; border-radius: 33px; }
+.gb-rbau-bauen > .gb-icon { width: 30px; height: 30px; margin-right: 10px; }
+.gb-rbau-bauen-text { font-size: 22px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #FFFFFF; }
+.gb-rbau-bauen--teuer { background-color: #D9A08E; }
+.gb-rbau-info { position: absolute; right: 86px; top: 92px; width: 380px; max-height: 76%; padding: 12px 14px 14px 14px; border-radius: 26px; }
+.gb-rbau-info-kopf { flex-direction: row; align-items: center; }
+.gb-rbau-info-kopf > .gb-icon-tile { width: 54px; height: 54px; border-radius: 18px; }
+.gb-rbau-sterne { flex-direction: row; align-items: center; margin-top: 2px; }
+.gb-rbau-stern { width: 18px; height: 18px; margin-right: 4px; border-radius: 9px; background-color: #E8E2D6; border-width: 2px; border-color: #D8CDBC; }
+.gb-rbau-stern--an { background-color: #F2B134; border-color: #E09A1F; }
+.gb-rbau-sterne-text { margin-left: 6px; }
+.gb-rbau-stufen { margin-top: 8px; }
+.gb-rbau-stufe { flex-direction: row; align-items: center; padding: 5px 8px; margin-bottom: 4px; border-radius: 12px; background-color: #F6F2EC; opacity: 0.7; }
+.gb-rbau-stufe--da { background-color: #EAF6E3; opacity: 1; }
+.gb-rbau-stufe--naechste { background-color: #FFF1C9; border-width: 2px; border-color: #F2B33D; opacity: 1; }
+.gb-rbau-stufe-marke { width: 26px; height: 26px; margin-right: 8px; border-radius: 13px; background-color: #FFFFFF; font-size: 14px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #6B4F3A; -unity-text-align: middle-center; flex-shrink: 0; }
+.gb-rbau-stufe--da > .gb-rbau-stufe-marke { background-color: #7FBF5E; color: #FFFFFF; }
+.gb-rbau-info-btn { margin-top: 8px; }
+.gb-rbau-max { margin-top: 10px; color: #3F7A2E; -unity-text-align: middle-center; }
+.gb-rbau-info-reihe { flex-direction: row; justify-content: space-between; margin-top: 10px; }
+.gb-rbau-zone { position: absolute; flex-direction: row; align-items: center; translate: -50% -50%; height: 44px; padding: 0 16px 0 10px; border-radius: 22px; background-color: rgba(59, 54, 79, 0.82); border-width: 2px; border-color: rgba(255, 255, 255, 0.5); }
+.gb-rbau-zone:active { scale: 0.95 0.95; }
+.gb-rbau-zone > .gb-icon { width: 22px; height: 22px; margin-right: 6px; }
+.gb-rbau-zone-text { font-size: 16px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #FFFFFF; }
+.gb-rbau-zone--teuer { background-color: rgba(59, 54, 79, 0.6); }
+.gb-rbau-modal { background-color: rgba(40, 32, 26, 0.35); justify-content: center; align-items: center; }
+.gb-rbau-frage { width: 460px; padding: 20px 22px 18px 22px; border-radius: 28px; align-items: center; }
+.gb-rbau-frage > .gb-icon-tile { width: 60px; height: 60px; border-radius: 20px; }
+.gb-rbau-frage-reihe { flex-direction: row; margin-top: 16px; }
+.gb-rbau-frage-reihe > .gb-btn { margin: 0 6px; }
+.gb-rbau-effekte { width: 640px; max-height: 84%; padding: 14px 18px 16px 18px; border-radius: 28px; }
+.gb-rbau-effekt-chips { flex-direction: row; flex-wrap: wrap; margin: 10px 0 6px 0; }
+.gb-rbau-effekt-chip { flex-direction: row; align-items: center; padding: 4px 12px 4px 6px; margin: 0 8px 6px 0; border-radius: 16px; background-color: #FFF4E2; }
+.gb-rbau-effekt-chip > .gb-icon { width: 24px; height: 24px; margin-right: 6px; }
+.gb-rbau-effekte-scroll { flex-shrink: 1; }
+.gb-rbau-effekt-zeile { flex-direction: row; align-items: center; padding: 8px 6px; border-bottom-width: 1px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-rbau-zoom { font-size: 30px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #6B4F3A; -unity-text-align: middle-center; padding: 0 0 4px 0; }
+.gb-rbau-karte-name--lang { font-size: 11px; }
+
+/* ---------- boarding pass (BoardingScreen: GOOBY AIR after a booking at the travel desk) ---------- */
+.gb-board { align-items: center; justify-content: center; }
+.gb-pass {
+    flex-direction: row;
+    width: 1080px;
+    max-width: 100%;
+    flex-shrink: 1;
+    background-color: var(--gb-weiss);
+    border-radius: var(--gb-r-xl);
+    border-width: 2px;
+    border-color: rgba(46, 74, 140, 0.16);
+    border-bottom-width: 6px;
+    border-bottom-color: rgba(46, 74, 140, 0.24);
+    overflow: hidden;
+}
+.gb-pass-main { flex-grow: 1; flex-shrink: 1; }
+.gb-pass-band { flex-direction: row; align-items: center; height: 62px; padding: 0 12px 0 20px; background-color: #3D6FB6; }
+.gb-pass-band-icon { width: 40px; height: 40px; margin-right: 12px; border-radius: 20px; background-color: #FFFFFF; }
+.gb-pass-airline { font-size: 26px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #FFFFFF; letter-spacing: 3px; }
+.gb-pass-spacer { flex-grow: 1; }
+.gb-pass-kind { font-size: 14px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: rgba(255, 255, 255, 0.86); letter-spacing: 1px; }
+.gb-pass-close { width: 40px; height: 40px; margin-left: 14px; background-color: rgba(255, 255, 255, 0.92); }
+.gb-pass-route { flex-direction: row; align-items: center; padding: 14px 24px 4px 24px; }
+.gb-pass-airport { flex-grow: 1; flex-basis: 0; align-items: center; }
+.gb-pass-code { font-size: 72px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #25356B; letter-spacing: 4px; }
+.gb-pass-city { margin-top: -8px; font-size: 17px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text-mild); }
+.gb-pass-flight { width: 190px; align-items: center; }
+.gb-pass-plane { width: 54px; height: 54px; rotate: 45deg; }
+.gb-pass-dots { flex-direction: row; margin-top: 8px; }
+.gb-pass-dot { width: 8px; height: 8px; margin: 0 4px; border-radius: 4px; background-color: #B7D8FF; }
+.gb-pass-fields { flex-direction: row; padding: 10px 18px 18px 18px; }
+.gb-pass-field { flex-grow: 1; flex-basis: 0; min-width: 0; margin: 0 5px; padding: 8px 12px; border-radius: var(--gb-r-sm); background-color: #F1F5FF; }
+.gb-pass-label { font-size: 13px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: #6B7BA8; }
+.gb-pass-value { font-size: 23px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #25356B; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gb-pass-perf { width: 14px; flex-shrink: 0; justify-content: space-around; align-items: center; padding: 6px 0; background-color: #FFF4D6; border-left-width: 2px; border-color: rgba(46, 74, 140, 0.08); }
+.gb-pass-perf-dot { width: 8px; height: 8px; border-radius: 4px; background-color: rgba(37, 53, 107, 0.22); }
+.gb-pass-stub { width: 236px; flex-shrink: 0; align-items: center; justify-content: center; padding: 12px 14px; background-color: #FFF4D6; }
+.gb-pass-stub-air { font-size: 15px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #3D6FB6; letter-spacing: 3px; }
+.gb-pass-stub-route { margin-top: 4px; font-size: 19px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #25356B; }
+.gb-pass-stub-seat { font-size: 58px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #25356B; }
+.gb-pass-barcode { flex-direction: row; align-items: stretch; height: 54px; margin-top: 4px; flex-shrink: 0; }
+.gb-pass-bar { height: 54px; flex-shrink: 0; background-color: #25356B; }
+.gb-pass-stub-flight { margin-top: 6px; font-size: 14px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text-mild); }
+.gb-pass-rest {
+    margin-top: 16px;
+    padding: 8px 22px;
+    border-radius: var(--gb-r-pill);
+    background-color: rgba(37, 53, 107, 0.82);
+    font-size: 18px;
+    -unity-font-definition: url("../Fonts/Nunito-Bold.ttf");
+    color: #FFFFFF;
+    -unity-text-align: middle-center;
+    white-space: normal;
+}
+.gb-pass-actions { flex-direction: row; justify-content: center; margin-top: 14px; }
+.gb-pass-actions > .gb-btn { min-width: 250px; margin: 0 10px; }
+.gb-pass-actions > .gb-btn > .gb-icon { width: 30px; height: 30px; }
+
+/* ---------- postcard archive (PostcardsScreen: cards, souvenir shelf, set bonus) ---------- */
+.gb-pc-col { width: 100%; }
+.gb-pc-grid { flex-direction: row; flex-wrap: wrap; padding: 8px 4px 6px 4px; }
+.gb-pc {
+    width: 316px;
+    min-height: 168px;
+    margin: 0 16px 16px 0;
+    background-color: #FFFDF6;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: rgba(107, 79, 58, 0.14);
+    border-bottom-width: 4px;
+    border-bottom-color: rgba(107, 79, 58, 0.16);
+    overflow: hidden;
+}
+.gb-pc--tilt-a { rotate: -1.4deg; }
+.gb-pc--tilt-b { rotate: 1.1deg; }
+.gb-pc--tilt-c { rotate: -0.5deg; }
+.gb-pc-band { height: 12px; flex-shrink: 0; }
+.gb-pc-body { flex-direction: row; align-items: flex-start; flex-grow: 1; padding: 10px 12px 12px 14px; }
+.gb-pc-texts { flex-grow: 1; flex-shrink: 1; min-width: 0; }
+.gb-pc-from { font-size: 17px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); white-space: normal; }
+.gb-pc-meta { margin-top: 2px; font-size: 12px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text-leise); }
+.gb-pc-line { margin-top: 8px; font-size: 15px; -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: #4A4260; white-space: normal; }
+.gb-pc-right { width: 64px; flex-shrink: 0; align-items: center; margin-left: 10px; }
+.gb-pc-stamp { width: 56px; height: 66px; align-items: center; justify-content: center; border-radius: 6px; border-width: 3px; border-color: #FFFFFF; }
+.gb-pc-stamp > .gb-icon { width: 36px; height: 36px; }
+.gb-pc-postmark {
+    margin-top: 8px;
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    border-width: 2px;
+    border-color: rgba(59, 54, 79, 0.28);
+    font-size: 10px;
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    color: rgba(59, 54, 79, 0.42);
+    -unity-text-align: middle-center;
+    rotate: -12deg;
+}
+.gb-pc-badge { flex-direction: row; align-items: center; align-self: flex-start; margin: 0 0 8px 2px; padding: 4px 14px 4px 8px; border-radius: var(--gb-r-pill); background-color: #FFF1C9; border-width: 2px; border-color: #F2B33D; }
+.gb-pc-badge > .gb-icon { width: 24px; height: 24px; margin-right: 6px; }
+.gb-pc-badge > Label { font-size: 14px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #8A5A12; }
+.gb-pc-shelf { flex-direction: row; flex-wrap: wrap; padding: 2px 2px 6px 2px; }
+.gb-pc-slot { width: 108px; height: 118px; margin: 0 10px 10px 0; padding: 8px 6px; align-items: center; justify-content: center; border-radius: 18px; background-color: var(--gb-weiss); border-width: 2px; border-color: rgba(107, 79, 58, 0.10); border-bottom-width: 4px; }
+.gb-pc-slot--frei { background-color: var(--gb-sand-hell); opacity: 0.6; }
+.gb-pc-slot-disc { width: 58px; height: 58px; border-radius: 29px; align-items: center; justify-content: center; border-width: 3px; border-color: #FFFFFF; }
+.gb-pc-slot-disc > .gb-icon { width: 34px; height: 34px; }
+.gb-pc-slot-q { font-size: 26px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text-leise); }
+.gb-pc-slot-name { margin-top: 6px; font-size: 12px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); -unity-text-align: middle-center; white-space: normal; }
+.gb-pc-tier { flex-direction: row; align-items: center; min-height: 58px; margin: 0 4px 8px 2px; padding: 8px 12px; border-radius: 16px; background-color: var(--gb-weiss); border-width: 2px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-pc-tier--ready { background-color: #FFF1C9; border-color: #F2B33D; }
+.gb-pc-tier--done { background-color: #EAF6E3; }
+.gb-pc-tier-num { width: 42px; height: 42px; margin-right: 12px; border-radius: 21px; background-color: var(--gb-sand-hell); font-size: 18px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); -unity-text-align: middle-center; flex-shrink: 0; }
+.gb-pc-tier--done > .gb-pc-tier-num { background-color: #7FBF5E; color: #FFFFFF; }
+.gb-pc-tier-text { flex-grow: 1; flex-shrink: 1; font-size: 15px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: normal; }
+.gb-pc-tier-state { flex-shrink: 0; margin-left: 10px; font-size: 13px; -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: var(--gb-text-mild); }
+
+/* ---------- guided first quarter hour (HomeHudScreen.Guide: a compact card under the toast lane, which holds two toasts) ---------- */
+.gb-guide {
+    position: absolute;
+    top: 166px;
+    left: 50%;
+    width: 560px;
+    translate: -50% 0;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 12px 10px 12px;
+    background-color: var(--gb-weiss);
+    border-radius: var(--gb-r-xl);
+    border-width: 2px;
+    border-color: rgba(127, 207, 155, 0.55);
+    border-bottom-width: 5px;
+    border-bottom-color: rgba(95, 184, 132, 0.6);
+    transition-property: scale, border-color, background-color;
+    transition-duration: 0.18s;
+}
+.gb-guide--pop { scale: 1.04 1.04; }
+.gb-guide--done { background-color: #F1FBF4; border-color: #7FCF9B; scale: 1.03 1.03; }
+.gb-guide > .gb-avatar { flex-shrink: 0; margin-top: 2px; border-radius: 25px; border-width: 3px; border-color: #E4F6EA; }
+.gb-guide-texts { flex-grow: 1; flex-shrink: 1; min-width: 0; margin-left: 10px; }
+.gb-guide-head { flex-direction: row; align-items: center; }
+.gb-guide-step { flex-shrink: 0; margin-right: 8px; padding: 2px 9px; border-radius: var(--gb-r-pill); background-color: #E4F6EA; color: #3E7A5A; font-size: 12px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-guide-title { flex-grow: 1; flex-shrink: 1; font-size: 17px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gb-guide-close { flex-shrink: 0; width: 32px; height: 32px; margin-left: 6px; background-color: var(--gb-sand-hell); border-color: rgba(107, 79, 58, 0.10); }
+.gb-guide-close > .gb-icon { width: 42%; height: 42%; }
+.gb-guide-text { margin-top: 3px; font-size: 14px; -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: var(--gb-text-mild); white-space: normal; }
+.gb-guide-actions { flex-direction: row; justify-content: flex-end; margin-top: 6px; }
+.gb-guide-actions > .gb-btn { margin-left: 8px; min-width: 120px; height: 38px; }
+
+/* "Deine Knöpfe" (HomeHudScreen.Buttons): the one-time card right beside the nav column (the code moves it to the
+   column's measured edge); its glyphs sit on the same dark glass as the HUD's own buttons */
+.gb-knoepfe {
+    position: absolute;
+    top: 112px;
+    left: 232px;
+    width: 330px;
+    padding: 10px 14px 12px 14px;
+    background-color: var(--gb-weiss);
+    border-radius: var(--gb-r-xl);
+    border-width: 2px;
+    border-color: rgba(242, 109, 109, 0.28);
+    border-bottom-width: 5px;
+    border-bottom-color: rgba(242, 109, 109, 0.38);
+    transition-property: scale, opacity;
+    transition-duration: 0.22s;
+    transition-timing-function: ease-out-back;
+}
+.gb-knoepfe--in { scale: 0.9 0.9; opacity: 0; }
+/* compact HUD (phones, about 1280 × 592): the action bar starts near y 465 — narrower and higher so the card ends above it */
+.gb-knoepfe--compact { top: 96px; width: 300px; }
+.gb-knoepfe-title { font-size: 17px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); }
+.gb-knoepfe-row { flex-direction: row; align-items: center; margin-top: 6px; }
+.gb-knoepfe-row > .gb-icon-tile { width: 34px; height: 34px; border-radius: 11px; flex-shrink: 0; background-color: rgba(59, 54, 79, 0.82); }
+.gb-knoepfe-row > .gb-icon-tile > .gb-icon { width: 64%; height: 64%; }
+.gb-knoepfe-eye { width: 34px; height: 34px; border-radius: 17px; flex-shrink: 0; align-items: center; justify-content: center; background-color: rgba(59, 54, 79, 0.82); }
+.gb-knoepfe-eye > .gb-icon { width: 58%; height: 58%; }
+.gb-knoepfe-text { flex-grow: 1; flex-shrink: 1; min-width: 0; margin-left: 10px; font-size: 13px; -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: var(--gb-text); white-space: normal; }
+.gb-knoepfe-ok { align-self: center; margin-top: 10px; min-width: 150px; height: 40px; }
+
+/* ---------- daily quest sheet (QuestSheetScreen) and the HUD card's open button ---------- */
+.gb-tasks-open { width: 30px; height: 30px; margin-left: 8px; background-color: var(--gb-sand-hell); border-color: rgba(107, 79, 58, 0.10); }
+.gb-tasks-open > .gb-icon { width: 46%; height: 46%; }
+.gb-quest-col { width: 100%; }
+.gb-quest {
+    flex-direction: row;
+    align-items: center;
+    margin: 0 4px 10px 2px;
+    padding: 12px 14px;
+    border-radius: var(--gb-r-lg);
+    background-color: var(--gb-weiss);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.08);
+    border-bottom-width: 4px;
+}
+.gb-quest--done { background-color: #F1FBF4; border-color: rgba(127, 207, 155, 0.5); }
+.gb-quest > .gb-icon-tile { width: 56px; height: 56px; border-radius: 18px; flex-shrink: 0; }
+.gb-quest-texts { flex-grow: 1; flex-shrink: 1; min-width: 0; margin-left: 14px; }
+.gb-quest-title { font-size: 17px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); white-space: normal; }
+.gb-quest-text { margin-top: 2px; font-size: 14px; -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: var(--gb-text-mild); white-space: normal; }
+.gb-quest-progress { flex-direction: row; align-items: center; margin-top: 8px; }
+.gb-quest-bar { width: 220px; height: 10px; }
+.gb-quest-count { margin-left: 10px; font-size: 13px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text-mild); }
+.gb-quest-side { flex-shrink: 0; align-items: flex-end; justify-content: center; margin-left: 14px; min-width: 150px; }
+.gb-quest-reward { padding: 3px 12px; border-radius: var(--gb-r-pill); background-color: #FFF4D6; color: var(--gb-schoko); font-size: 13px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-quest-side > .gb-btn { margin-top: 8px; }
+.gb-quest-stamp { margin-top: 8px; padding: 3px 12px; border-radius: var(--gb-r-pill); background-color: #7FBF5E; color: #FFFFFF; font-size: 13px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); rotate: -4deg; }
+.gb-quest-bonus { flex-direction: row; align-items: center; margin: 4px 4px 10px 2px; padding: 10px 14px; border-radius: var(--gb-r-lg); background-color: #FFF8E1; border-width: 2px; border-color: rgba(242, 179, 61, 0.45); }
+.gb-quest-bonus--paid { background-color: #EAF6E3; border-color: rgba(127, 191, 94, 0.5); }
+.gb-quest-bonus > .gb-icon-tile { width: 40px; height: 40px; border-radius: 14px; flex-shrink: 0; }
+.gb-quest-bonus-text { flex-grow: 1; flex-shrink: 1; margin-left: 12px; font-size: 14px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: normal; }
+.gb-quest-bonus-count { flex-shrink: 0; margin-left: 10px; font-size: 18px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); }
+.gb-quest-foot { flex-direction: row; align-items: center; justify-content: flex-end; margin: 2px 4px 4px 2px; }
+.gb-quest-foot-hint { flex-shrink: 1; margin-right: 12px; font-size: 13px; color: var(--gb-text-mild); white-space: normal; }
+
+/* "what can I tap?" — the HUD eye (HomeHudScreen.Spotlight): badges over every interactable piece */
+.gb-hud .gb-hud-eye--on { background-color: rgba(243, 139, 176, 0.96); border-color: #FFFFFF; }
+.gb-spot-layer { position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+.gb-spot { position: absolute; width: 52px; height: 52px; align-items: center; justify-content: center; }
+.gb-spot-ring { position: absolute; left: -7px; top: -7px; width: 66px; height: 66px; border-radius: 33px; border-width: 3px; border-color: rgba(255, 255, 255, 0.9); background-color: rgba(255, 214, 102, 0.30); }
+.gb-spot-disc { width: 46px; height: 46px; border-radius: 23px; background-color: #FFFDF8; border-width: 3px; border-color: #F2C14E; align-items: center; justify-content: center; }
+.gb-spot-disc > .gb-icon { width: 28px; height: 28px; }
+.gb-spot--gooby .gb-spot-disc { border-color: #F38BB0; }
+.gb-spot--gooby .gb-spot-ring { background-color: rgba(243, 139, 176, 0.28); }
+.gb-spot-arrow { position: absolute; left: 0; top: 0; width: 52px; height: 52px; flex-direction: row; align-items: center; justify-content: flex-end; display: none; }
+.gb-spot-arrow > .gb-icon { width: 22px; height: 22px; margin-right: -16px; }
+
+/* split-flap departure board of the travel desk (FlapBoardView; .gb-flap-cell width + margin = FlapBoardView.CellPitch) */
+.gb-flap-holder { width: 100%; flex-direction: row; justify-content: center; }
+.gb-flap { align-self: center; background-color: #2B2738; border-radius: 16px; padding: 12px 14px 8px 14px; border-width: 3px; border-color: #463F58; margin-bottom: 6px; }
+.gb-flap-top { flex-direction: row; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+.gb-flap-title { font-size: 16px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #FFD45A; letter-spacing: 2px; }
+.gb-flap-top-right { flex-direction: row; align-items: center; }
+.gb-flap-note { font-size: 12px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #B9B2CC; margin-right: 10px; }
+.gb-flap-lamp { width: 10px; height: 10px; border-radius: 5px; background-color: #7BE08F; margin-right: 4px; }
+.gb-flap-head { flex-direction: row; margin-bottom: 4px; }
+.gb-flap-head-cell { font-size: 11px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #B9B2CC; letter-spacing: 1px; padding-left: 2px; }
+.gb-flap-row { flex-direction: row; align-items: center; margin-bottom: 4px; }
+.gb-flap-strip { flex-direction: row; }
+.gb-flap-cell { width: 15px; height: 22px; margin-right: 1px; border-radius: 3px; background-color: #1C1926; align-items: center; justify-content: center; }
+.gb-flap-char { font-size: 14px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #FFD45A; -unity-text-align: middle-center; padding: 0; margin: 0; }
+.gb-flap-split { position: absolute; left: 0; right: 0; top: 10px; height: 1px; background-color: rgba(0, 0, 0, 0.6); }
+.gb-flap-trail { flex-direction: row; align-items: center; margin-left: 10px; }
+.gb-flap-stamp { width: 24px; height: 24px; border-radius: 12px; background-color: #8FD3A6; align-items: center; justify-content: center; margin-right: 8px; }
+.gb-flap-stamp > .gb-icon { width: 16px; height: 16px; }
+
+/* "Neu in GOOBY" (WhatsNewScreen): the version's highlights as cards in two columns */
+.gb-neu-col { width: 100%; }
+.gb-neu-grid { flex-direction: row; flex-wrap: wrap; justify-content: space-between; }
+.gb-neu-card { width: 49%; flex-direction: row; align-items: center; background-color: var(--gb-weiss); border-radius: 18px; padding: 10px 14px; margin-bottom: 10px; border-width: 2px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-neu-card > .gb-icon-tile { width: 48px; height: 48px; border-radius: 16px; flex-shrink: 0; }
+.gb-neu-text { flex-grow: 1; flex-shrink: 1; margin-left: 12px; }
+.gb-neu-title { font-size: 16px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); }
+.gb-neu-line { font-size: 13px; color: var(--gb-text-mild); margin-top: 2px; }
+
+/* developer toolbox (DevScreen) and its frame-rate badge (DevTools) */
+.gb-dev-col { width: 100%; }
+.gb-dev-section { background-color: var(--gb-weiss); border-radius: 18px; padding: 10px 14px; margin-bottom: 10px; border-width: 2px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-dev-head { flex-direction: row; align-items: center; margin-bottom: 8px; }
+.gb-dev-head > .gb-icon-tile { width: 36px; height: 36px; border-radius: 12px; }
+.gb-dev-title { margin-left: 10px; font-size: 16px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); }
+.gb-dev-chips { flex-direction: row; flex-wrap: wrap; }
+.gb-dev-chip { margin: 0 8px 8px 0; }
+.gb-dev-line { font-size: 13px; color: var(--gb-text-mild); margin-top: 2px; }
+.gb-dev-hint { font-size: 12px; color: var(--gb-text-mild); margin-top: 6px; white-space: normal; }
+.gb-dev-cmd { flex-direction: row; align-items: center; }
+.gb-dev-field { flex-grow: 1; margin-right: 10px; min-height: 36px; font-size: 15px; }
+.gb-dev-result { font-size: 14px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-schoko); margin: 2px 4px 8px 4px; }
+.gb-dev-fps { position: absolute; left: 10px; bottom: 6px; padding: 2px 8px; border-radius: 8px; background-color: rgba(43, 39, 56, 0.78); color: #7BE08F; font-size: 12px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+
+/* the dealer's test drive: a countdown pill at the top centre of the street (CityDriveScreen) */
+.gb-drive-trial { position: absolute; top: 96px; left: 50%; translate: -50% 0; flex-direction: row; align-items: center; padding: 8px 18px; border-radius: 999px; background-color: rgba(59, 54, 79, 0.86); border-width: 2px; border-color: rgba(255, 255, 255, 0.18); }
+.gb-drive-trial > .gb-icon { width: 24px; height: 24px; margin-right: 10px; }
+.gb-drive-trial-text { font-size: 17px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #FFFFFF; }
+.gb-drive-trial--last { background-color: rgba(232, 82, 74, 0.92); }
+
+/* Shop loyalty card and receipt (TreueScreen) */
+.gb-treue-karte { margin: 6px 10px 12px 10px; padding: 14px 18px 16px 18px; border-radius: 26px; background-color: #FFF8EE; border-width: 3px; border-color: rgba(242, 109, 150, 0.35); }
+.gb-treue-kopf { flex-direction: row; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.gb-treue-bisher { margin-left: 12px; }
+.gb-treue-stempel { align-items: center; }
+.gb-treue-reihe { flex-direction: row; justify-content: center; margin: 4px 0; }
+.gb-treue-kreis { width: 58px; height: 58px; margin: 0 8px; border-radius: 29px; border-width: 3px; border-color: rgba(107, 79, 58, 0.25); background-color: #FFFFFF; align-items: center; justify-content: center; }
+.gb-treue-kreis--voll { border-color: #FFFFFF; }
+.gb-treue-kreis-icon { width: 30px; height: 30px; }
+.gb-treue-kreis-icon--leer { opacity: 0.35; }
+.gb-treue-abholen { align-self: center; margin-top: 12px; }
+.gb-treue-bon { align-self: center; width: 360px; margin: 4px 0 14px 0; padding: 14px 20px 16px 20px; background-color: #FFFFFF; border-width: 2px; border-color: rgba(107, 79, 58, 0.15); border-radius: 6px; }
+.gb-treue-bon-titel { -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); font-size: 18px; color: var(--gb-schoko); -unity-text-align: middle-center; }
+.gb-treue-bon-laden { font-size: 14px; color: rgba(59, 54, 79, 0.65); -unity-text-align: middle-center; margin-bottom: 8px; border-bottom-width: 2px; border-color: rgba(107, 79, 58, 0.18); padding-bottom: 6px; }
+.gb-treue-bon-zeile { flex-direction: row; justify-content: space-between; margin: 2px 0; }
+.gb-treue-bon-name { font-size: 15px; color: var(--gb-schoko); flex-shrink: 1; }
+.gb-treue-bon-preis { font-size: 15px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); margin-left: 12px; }
+.gb-treue-bon-summe { margin-top: 6px; padding-top: 6px; border-top-width: 2px; border-color: rgba(107, 79, 58, 0.18); }
+.gb-treue-bon-danke { margin-top: 10px; -unity-text-align: middle-center; color: rgba(59, 54, 79, 0.6); white-space: normal; }
+.gb-treue-bon-leer { -unity-text-align: middle-center; color: rgba(59, 54, 79, 0.6); white-space: normal; }

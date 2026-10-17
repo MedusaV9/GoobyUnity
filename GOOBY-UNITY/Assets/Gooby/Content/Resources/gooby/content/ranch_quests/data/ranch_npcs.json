@@ -1,0 +1,388 @@
+{
+	"schema": "gooby.rnpc/1",
+	"items": [
+		{
+			"id": "rosi",
+			"typ": "npc",
+			"modell": {
+				"art": "gooby",
+				"farbe": "#E8A87C",
+				"akzent": "#B23A48",
+				"groesse": 1.0,
+				"accessoire": "kopftuch"
+			},
+			"stimmePitch": 1.0,
+			"dialog": "res://scripts/ranch/npc/data/dialoge/rosi.json",
+			"routine": [
+				{"von": 6, "ort": "stall", "taetigkeit": "arbeiten"},
+				{"von": 12, "ort": "trog", "taetigkeit": "pause"},
+				{"von": 14, "ort": "koppel_pferde", "taetigkeit": "arbeiten"},
+				{"von": 19, "ort": "haus", "taetigkeit": "feierabend"}
+			],
+			"geschenke": {"liebt": ["apfel"], "mag": ["karotte", "heu"]},
+			"freischaltungen": {
+				"1": [{"typ": "smalltalk"}],
+				"2": [{"typ": "rabatt", "shop": "futter", "prozent": 5}],
+				"3": [
+					{"typ": "geschichte", "knoten": "geschichte_1"},
+					{"typ": "quest", "id": "neben_rosi_saat"}
+				],
+				"4": [{"typ": "rezept", "id": "apfelmus"}],
+				"5": [
+					{"typ": "cosmetic", "id": "kopftuch_glueck"},
+					{"typ": "geschichte", "knoten": "geschichte_2"}
+				]
+			}
+		},
+		{
+			"id": "moehrchen",
+			"typ": "npc",
+			"modell": {
+				"art": "gooby",
+				"farbe": "#EAF6EF",
+				"akzent": "#67B99A",
+				"groesse": 1.0,
+				"accessoire": "brille"
+			},
+			"stimmePitch": 1.1,
+			"dialog": "res://scripts/ranch/npc/data/dialoge/moehrchen.json",
+			"routine": [
+				{"von": 7, "ort": "stall", "taetigkeit": "arbeiten"},
+				{"von": 11, "ort": "weide", "taetigkeit": "arbeiten"},
+				{"von": 16, "ort": "hof_mitte", "taetigkeit": "pause"},
+				{"von": 20, "ort": "haus", "taetigkeit": "feierabend"}
+			],
+			"geschenke": {"liebt": ["karotte"], "mag": ["apfel", "beere"]},
+			"freischaltungen": {
+				"1": [{"typ": "smalltalk"}],
+				"2": [{"typ": "rabatt", "shop": "tierarzt", "prozent": 10}],
+				"3": [
+					{"typ": "geschichte", "knoten": "geschichte_1"},
+					{"typ": "quest", "id": "neben_moehrchen_2"}
+				],
+				"4": [{"typ": "rezept", "id": "moehrenkekse"}],
+				"5": [
+					{"typ": "cosmetic", "id": "decke_karo"},
+					{"typ": "geschichte", "knoten": "geschichte_2"}
+				]
+			}
+		},
+		{
+			"id": "eisenhuf",
+			"typ": "npc",
+			"modell": {
+				"art": "gooby",
+				"farbe": "#A98A6B",
+				"akzent": "#5C4A38",
+				"groesse": 1.15,
+				"accessoire": "schuerze"
+			},
+			"stimmePitch": 0.75,
+			"dialog": "res://scripts/ranch/npc/data/dialoge/eisenhuf.json",
+			"routine": [
+				{"von": 6, "ort": "schmiede", "taetigkeit": "arbeiten"},
+				{"von": 13, "ort": "trog", "taetigkeit": "pause"},
+				{"von": 15, "ort": "schmiede", "taetigkeit": "arbeiten"},
+				{"von": 21, "ort": "haus", "taetigkeit": "feierabend"}
+			],
+			"geschenke": {"liebt": ["hafertaler"], "mag": ["apfel", "keks"]},
+			"freischaltungen": {
+				"1": [{"typ": "smalltalk"}],
+				"2": [{"typ": "rabatt", "shop": "hufschmied", "prozent": 10}],
+				"3": [
+					{"typ": "geschichte", "knoten": "geschichte_1"},
+					{"typ": "quest", "id": "neben_eisenhuf_2"}
+				],
+				"4": [{"typ": "rezept", "id": "glueckshufeisen"}],
+				"5": [
+					{"typ": "cosmetic", "id": "girlande_hufeisen"},
+					{"typ": "geschichte", "knoten": "geschichte_2"}
+				]
+			}
+		},
+		{
+			"id": "selma",
+			"typ": "npc",
+			"modell": {
+				"art": "gooby",
+				"farbe": "#C9A6D6",
+				"akzent": "#7A5A8C",
+				"groesse": 1.0,
+				"accessoire": "nadelkissen"
+			},
+			"stimmePitch": 1.2,
+			"dialog": "res://scripts/ranch/npc/data/dialoge/selma.json",
+			"routine": [
+				{"von": 8, "ort": "sattlerei", "taetigkeit": "arbeiten"},
+				{"von": 12, "ort": "markt", "taetigkeit": "pause"},
+				{"von": 14, "ort": "sattlerei", "taetigkeit": "arbeiten"},
+				{"von": 19, "ort": "teich", "taetigkeit": "feierabend"}
+			],
+			"geschenke": {"liebt": ["wolle"], "mag": ["blume"]},
+			"freischaltungen": {
+				"1": [{"typ": "smalltalk"}],
+				"2": [{"typ": "rabatt", "shop": "sattlerei", "prozent": 5}],
+				"3": [
+					{"typ": "geschichte", "knoten": "geschichte_1"},
+					{"typ": "quest", "id": "neben_selma_2"}
+				],
+				"4": [{"typ": "cosmetic", "id": "sattel_stern"}],
+				"5": [
+					{"typ": "cosmetic", "id": "zaumzeug_glitzer"},
+					{"typ": "geschichte", "knoten": "geschichte_2"}
+				]
+			}
+		},
+		{
+			"id": "wilma",
+			"typ": "npc",
+			"modell": {
+				"art": "gooby",
+				"farbe": "#E7C27D",
+				"akzent": "#8A5A33",
+				"groesse": 1.0,
+				"accessoire": "hut_feder"
+			},
+			"stimmePitch": 1.05,
+			"dialog": "res://scripts/ranch/npc/data/dialoge/wilma.json",
+			"routine": [
+				{"von": 7, "ort": "koppel_pferde", "taetigkeit": "arbeiten"},
+				{"von": 12, "ort": "hof_mitte", "taetigkeit": "pause"},
+				{"von": 15, "ort": "weide", "taetigkeit": "arbeiten"},
+				{"von": 20, "ort": "haus", "taetigkeit": "feierabend"}
+			],
+			"geschenke": {"liebt": ["heu"], "mag": ["apfel", "karotte"]},
+			"freischaltungen": {
+				"1": [{"typ": "smalltalk"}],
+				"2": [{"typ": "rabatt", "shop": "pferdehandel", "prozent": 5}],
+				"3": [
+					{"typ": "geschichte", "knoten": "geschichte_1"},
+					{"typ": "quest", "id": "neben_wilma_2"}
+				],
+				"4": [{"typ": "geschichte", "knoten": "geschichte_2"}],
+				"5": [{"typ": "cosmetic", "id": "maehnenband_gold"}]
+			}
+		},
+		{
+			"id": "punktabzug",
+			"typ": "npc",
+			"modell": {
+				"art": "glb",
+				"datei": "res://assets/ranch/tiere/zebra.glb",
+				"groesse": 1.0
+			},
+			"stimmePitch": 0.7,
+			"dialog": "res://scripts/ranch/npc/data/dialoge/punktabzug.json",
+			"routine": [
+				{"von": 9, "ort": "reitplatz", "taetigkeit": "arbeiten"},
+				{"von": 13, "ort": "teich", "taetigkeit": "pause"},
+				{"von": 15, "ort": "reitplatz", "taetigkeit": "arbeiten"},
+				{"von": 20, "ort": "haus", "taetigkeit": "feierabend"}
+			],
+			"geschenke": {"liebt": ["marmelade"], "mag": ["keks"]},
+			"freischaltungen": {
+				"1": [{"typ": "smalltalk"}],
+				"2": [{"typ": "rabatt", "shop": "turnier_startgeld", "prozent": 10}],
+				"3": [
+					{"typ": "geschichte", "knoten": "geschichte_1"},
+					{"typ": "quest", "id": "neben_punktabzug_2"}
+				],
+				"4": [{"typ": "geschichte", "knoten": "geschichte_2"}],
+				"5": [{"typ": "cosmetic", "id": "schleife_konfetti"}]
+			}
+		},
+		{
+			"id": "timmi",
+			"typ": "npc",
+			"modell": {
+				"art": "gooby",
+				"farbe": "#9BC995",
+				"akzent": "#4E7A4A",
+				"groesse": 0.7,
+				"accessoire": "kappe"
+			},
+			"stimmePitch": 1.35,
+			"dialog": "res://scripts/ranch/npc/data/dialoge/timmi.json",
+			"routine": [
+				{"von": 8, "ort": "koppel_pferde", "taetigkeit": "spielen"},
+				{"von": 12, "ort": "teich", "taetigkeit": "spielen"},
+				{"von": 16, "ort": "hof_mitte", "taetigkeit": "spielen"},
+				{"von": 19, "ort": "haus", "taetigkeit": "feierabend"}
+			],
+			"geschenke": {"liebt": ["keks"], "mag": ["beere", "marmelade"]},
+			"freischaltungen": {
+				"1": [{"typ": "smalltalk"}],
+				"2": [{"typ": "geschichte", "knoten": "geschichte_1"}],
+				"3": [{"typ": "quest", "id": "neben_timmi_2"}],
+				"4": [{"typ": "geschichte", "knoten": "geschichte_2"}],
+				"5": [{"typ": "cosmetic", "id": "drachen_papier"}]
+			}
+		},
+		{
+			"id": "alwin",
+			"typ": "npc",
+			"modell": {
+				"art": "gooby",
+				"farbe": "#C7B299",
+				"akzent": "#7A6A55",
+				"groesse": 0.95,
+				"accessoire": "strohhut"
+			},
+			"stimmePitch": 0.8,
+			"dialog": "res://scripts/ranch/npc/data/dialoge/alwin.json",
+			"routine": [
+				{"von": 7, "ort": "heulager", "taetigkeit": "spazieren"},
+				{"von": 11, "ort": "hof_mitte", "taetigkeit": "pause"},
+				{"von": 15, "ort": "weide", "taetigkeit": "spazieren"},
+				{"von": 19, "ort": "haus", "taetigkeit": "feierabend"}
+			],
+			"geschenke": {"liebt": ["heu"], "mag": ["apfel", "hafertaler"]},
+			"freischaltungen": {
+				"1": [{"typ": "smalltalk"}],
+				"2": [{"typ": "geschichte", "knoten": "geschichte_1"}],
+				"3": [{"typ": "quest", "id": "neben_alwin_2"}],
+				"4": [{"typ": "geschichte", "knoten": "geschichte_2"}],
+				"5": [{"typ": "cosmetic", "id": "hut_alwin"}]
+			}
+		},
+		{
+			"id": "luna",
+			"typ": "npc",
+			"modell": {
+				"art": "glb",
+				"datei": "res://assets/ranch/tiere/reh_gooby.glb",
+				"groesse": 1.0
+			},
+			"stimmePitch": 0.9,
+			"dialog": "res://scripts/ranch/npc/data/dialoge/luna.json",
+			"routine": [
+				{"von": 5, "ort": "waldrand", "taetigkeit": "spazieren"},
+				{"von": 10, "ort": "huegel", "taetigkeit": "spazieren"},
+				{"von": 17, "ort": "waldrand", "taetigkeit": "spazieren"},
+				{"von": 22, "ort": "waldrand", "taetigkeit": "feierabend"}
+			],
+			"geschenke": {"liebt": ["blume"], "mag": ["beere"]},
+			"freischaltungen": {
+				"1": [{"typ": "smalltalk"}],
+				"2": [{"typ": "ort", "id": "waldrand_pfad"}],
+				"3": [
+					{"typ": "geschichte", "knoten": "geschichte_1"},
+					{"typ": "quest", "id": "neben_luna_2"}
+				],
+				"4": [{"typ": "geschichte", "knoten": "geschichte_2"}],
+				"5": [{"typ": "cosmetic", "id": "fellmuster_sternchen"}]
+			}
+		},
+		{
+			"id": "marta",
+			"typ": "npc",
+			"modell": {
+				"art": "gooby",
+				"farbe": "#D96A6A",
+				"akzent": "#8C3B3B",
+				"groesse": 1.0,
+				"accessoire": "schuerze"
+			},
+			"stimmePitch": 1.15,
+			"dialog": "res://scripts/ranch/npc/data/dialoge/marta.json",
+			"routine": [
+				{"von": 6, "ort": "markt", "taetigkeit": "arbeiten"},
+				{"von": 14, "ort": "markt", "taetigkeit": "arbeiten"},
+				{"von": 18, "ort": "hof_mitte", "taetigkeit": "pause"},
+				{"von": 20, "ort": "haus", "taetigkeit": "feierabend"}
+			],
+			"geschenke": {"liebt": ["beere"], "mag": ["apfel", "blume"]},
+			"freischaltungen": {
+				"1": [{"typ": "smalltalk"}],
+				"2": [{"typ": "rabatt", "shop": "markt", "prozent": 5}],
+				"3": [
+					{"typ": "geschichte", "knoten": "geschichte_1"},
+					{"typ": "quest", "id": "neben_marta_2"}
+				],
+				"4": [{"typ": "rezept", "id": "beerenmarmelade"}],
+				"5": [{"typ": "geschichte", "knoten": "geschichte_2"}]
+			}
+		},
+		{
+			"id": "eilfried",
+			"typ": "npc",
+			"modell": {
+				"art": "glb",
+				"datei": "res://assets/ranch/tiere/ente_gooby.glb",
+				"groesse": 1.0
+			},
+			"stimmePitch": 1.25,
+			"dialog": "res://scripts/ranch/npc/data/dialoge/eilfried.json",
+			"routine": [
+				{"von": 8, "ort": "tor", "taetigkeit": "arbeiten"},
+				{"von": 11, "ort": "hof_mitte", "taetigkeit": "arbeiten"},
+				{"von": 15, "ort": "teich", "taetigkeit": "pause"},
+				{"von": 18, "ort": "tor", "taetigkeit": "feierabend"}
+			],
+			"geschenke": {"liebt": ["keks"], "mag": ["beere"]},
+			"freischaltungen": {
+				"1": [{"typ": "smalltalk"}],
+				"2": [{"typ": "quest", "id": "neben_eilfried_2"}],
+				"3": [{"typ": "geschichte", "knoten": "geschichte_1"}],
+				"4": [{"typ": "rabatt", "shop": "porto", "prozent": 50}],
+				"5": [
+					{"typ": "cosmetic", "id": "muetze_post"},
+					{"typ": "geschichte", "knoten": "geschichte_2"}
+				]
+			}
+		},
+		{
+			"id": "knips",
+			"typ": "npc",
+			"modell": {
+				"art": "glb",
+				"datei": "res://assets/ranch/tiere/fuchs_gooby.glb",
+				"groesse": 1.0
+			},
+			"stimmePitch": 1.1,
+			"dialog": "res://scripts/ranch/npc/data/dialoge/knips.json",
+			"routine": [
+				{"von": 6, "ort": "huegel", "taetigkeit": "arbeiten"},
+				{"von": 10, "ort": "teich", "taetigkeit": "arbeiten"},
+				{"von": 16, "ort": "reitplatz", "taetigkeit": "arbeiten"},
+				{"von": 21, "ort": "haus", "taetigkeit": "feierabend"}
+			],
+			"geschenke": {"liebt": ["beere"], "mag": ["keks"]},
+			"freischaltungen": {
+				"1": [{"typ": "smalltalk"}],
+				"2": [{"typ": "quest", "id": "neben_knips_2"}],
+				"3": [{"typ": "geschichte", "knoten": "geschichte_1"}],
+				"4": [{"typ": "ort", "id": "foto_versteck"}],
+				"5": [
+					{"typ": "cosmetic", "id": "kamera_retro"},
+					{"typ": "geschichte", "knoten": "geschichte_2"}
+				]
+			}
+		},
+		{
+			"id": "miez",
+			"typ": "npc",
+			"modell": {
+				"art": "glb",
+				"datei": "res://assets/ranch/tiere/katze_gooby.glb",
+				"groesse": 0.9
+			},
+			"stimmePitch": 1.0,
+			"dialog": "res://scripts/ranch/npc/data/dialoge/miez.json",
+			"routine": [
+				{"von": 9, "ort": "haus", "taetigkeit": "pause"},
+				{"von": 13, "ort": "heulager", "taetigkeit": "pause"},
+				{"von": 17, "ort": "trog", "taetigkeit": "spazieren"},
+				{"von": 21, "ort": "scheune", "taetigkeit": "feierabend"}
+			],
+			"geschenke": {"liebt": ["wolle"], "mag": ["keks"]},
+			"freischaltungen": {
+				"1": [{"typ": "smalltalk"}],
+				"2": [{"typ": "geschichte", "knoten": "geschichte_1"}],
+				"3": [{"typ": "quest", "id": "neben_miez_2"}],
+				"4": [{"typ": "geschichte", "knoten": "geschichte_2"}],
+				"5": [{"typ": "cosmetic", "id": "glocke_samt"}]
+			}
+		}
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"reisepass": {
+		"republik": "REPUBLIC OF GOOBY",
+		"dokument": "Passport · very official",
+		"wappen": "🐰🥕",
+		"name": "Name",
+		"name_leer": "Still unnamed",
+		"ausgestellt": "Issued: {date}",
+		"merkmale": "Distinguishing marks",
+		"merkmale_liste": [
+			"extremely fluffy",
+			"wobbles while hopping",
+			"smells like carrot",
+			"professional napper",
+			"purrs while munching",
+			"world champion of snuggling",
+			"always carries a snack",
+			"ears at half-mast, heart at full blast",
+			"can fall asleep in any position",
+			"made of 100% snug"
+		],
+		"foto_aendern": "Change photo 📷",
+		"flip_hinweis": "Tap to flip ↻",
+		"picker_titel": "Pick a passport photo",
+		"picker_leer": "No photos in the album yet! Snap Gooby in photo mode first.",
+		"picker_standard": "Back to the 3D portrait",
+		"picker_abbrechen": "Never mind",
+		"foto_gesetzt": "Very official! New passport photo glued in.",
+		"foto_standard_gesetzt": "Back to the 3D portrait.",
+		"stempel_titel": "Stamp page",
+		"stempel_leer": "Still empty — go on vacation and collect stamps!",
+		"stempel_umzug": "5.0 MOVING DAY",
+		"stempel_weltengooby": "WORLD GOOBY",
+		"stempel_datum": "on {date}",
+		"zurueck_hinweis": "Tap for the front side ↻",
+		"tafel": {
+			"titel": "DEPARTURES · GOOBY AIR",
+			"ziel": "TO",
+			"abflug": "DEPARTURE",
+			"status": "STATUS",
+			"abflug_wert": "{tage} DAYS · {preis} ᴳ",
+			"status_boarding": "BOARDING",
+			"status_puenktlich": "ON TIME",
+			"status_mampft": "SNACK BREAK",
+			"status_flauscht": "EXTRA FLUFFING",
+			"status_zu_teuer": "TOO PRICEY"
+		},
+		"pass": {
+			"titel": "BOARDING PASS",
+			"airline": "GOOBY AIR — Lift-off first.",
+			"ziel": "Destination",
+			"gate": "Gate",
+			"gate_wert": "3¾",
+			"sitz": "Seat",
+			"sitz_wert": "1A — window seat",
+			"klasse": "Class",
+			"klasse_wert": "Fluff Class",
+			"gepaeck": "Baggage: 1× rolling suitcase, 12× snacks (snacks count as carry-on).",
+			"hinweis": "Please hop to the gate 5 minutes before departure.",
+			"gute_reise": "Safe travels! ✈"
+		}
+	}
+}

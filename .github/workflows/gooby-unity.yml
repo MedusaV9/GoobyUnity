@@ -1,0 +1,209 @@
+# GOOBY-UNITY CI — the Unity 6 port (GOOBY-UNITY/).
+#
+# Jobs:
+#   core-tests   Gooby.Core NUnit suite via `dotnet test` (no Unity licence needed; golden values
+#                shared with the Godot suite) + compile check of the Unity runtime layer against the
+#                editor's UnityEngine modules (GameCI image).
+#   unity-tests  Unity Test Framework EditMode + PlayMode (game-ci/unity-test-runner).
+#   linux-build  Linux standalone test build (game-ci/unity-builder → BuildScript.BuildLinux).
+#   ios-xcode    iOS Xcode project export on Linux (game-ci/unity-builder → BuildScript.BuildIOS,
+#                IL2CPP arm64, iOS 15, portrait plus both landscapes — the same entry point as the local export).
+#   ios-ipa      macOS: xcodebuild WITHOUT signing → Payload/ → GOOBY-unity-unsigned.ipa →
+#                tools/ci/verify_unity_ipa.py → artifact `GOOBY-unity-unsigned-ipa`.
+#
+# Secrets (repository → Settings → Secrets and variables → Actions):
+#   UNITY_EMAIL     Unity-ID e-mail  } Personal licence is activated headless by GameCI via the
+#   UNITY_PASSWORD  Unity-ID password } Unity Licensing Client (no e-mail device verification needed)
+#   UNITY_LICENSE   optional: contents of a Unity_lic.ulf (only needed for serial/offline setups)
+# Without them the unity-* jobs cannot activate the editor; core-tests always runs.
+name: GOOBY Unity
+
+on:
+  push:
+    branches: ["**"]
+    paths:
+      - "GOOBY-UNITY/**"
+      - "tools/ci/verify_unity_ipa.py"
+      - ".github/workflows/gooby-unity.yml"
+  workflow_dispatch:
+
+env:
+  UNITY_VERSION: "6000.6.0f1"
+  PROJECT_PATH: GOOBY-UNITY
+
+concurrency:
+  group: gooby-unity-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  core-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    container:
+      image: unityci/editor:ubuntu-6000.6.0f1-base-3
+    steps:
+      - uses: actions/checkout@v4
+      - name: .NET SDK
+        run: |
+          set -euo pipefail
+          apt-get update -qq
+          apt-get install -y -qq wget ca-certificates >/dev/null
+          wget -q https://dot.net/v1/dotnet-install.sh -O /tmp/dotnet-install.sh
+          bash /tmp/dotnet-install.sh --channel 8.0 --install-dir /usr/share/dotnet >/dev/null
+          ln -sf /usr/share/dotnet/dotnet /usr/local/bin/dotnet
+          dotnet --version
+      - name: Gooby.Core tests (dotnet)
+        working-directory: GOOBY-UNITY/CoreTests~
+        run: dotnet test Gooby.Core.Tests.csproj --nologo --logger "trx;LogFileName=core.trx"
+      - name: Unity runtime compile check (UnityEngine modules from the editor image)
+        working-directory: GOOBY-UNITY/CoreTests~
+        env:
+          UNITY_EDITOR_DIR: /opt/unity/Editor
+        run: dotnet build Gooby.Unity.CompileCheck.csproj --nologo
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: core-test-results
+          path: GOOBY-UNITY/CoreTests~/TestResults/
+
+  unity-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    needs: core-tests
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with:
+          path: GOOBY-UNITY/Library
+          key: Library-tests-${{ env.UNITY_VERSION }}-${{ hashFiles('GOOBY-UNITY/Packages/manifest.json') }}
+          restore-keys: Library-tests-${{ env.UNITY_VERSION }}-
+      - uses: game-ci/unity-test-runner@v4
+        id: tests
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          projectPath: ${{ env.PROJECT_PATH }}
+          unityVersion: ${{ env.UNITY_VERSION }}
+          testMode: all
+          artifactsPath: test-results
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          checkName: Unity Test Results
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: unity-test-results
+          path: ${{ steps.tests.outputs.artifactsPath }}
+
+  linux-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    needs: core-tests
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with:
+          path: GOOBY-UNITY/Library
+          key: Library-linux-${{ env.UNITY_VERSION }}-${{ hashFiles('GOOBY-UNITY/Packages/manifest.json') }}
+          restore-keys: Library-linux-${{ env.UNITY_VERSION }}-
+      - uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          projectPath: ${{ env.PROJECT_PATH }}
+          unityVersion: ${{ env.UNITY_VERSION }}
+          targetPlatform: StandaloneLinux64
+          buildMethod: Gooby.Editor.BuildScript.BuildLinux
+          buildName: GOOBY
+          buildsPath: build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: GOOBY-unity-linux
+          path: build/StandaloneLinux64
+
+  ios-xcode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    needs: core-tests
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jlumbroso/free-disk-space@v1.3.1
+        with:
+          tool-cache: false
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: false
+      - uses: actions/cache@v4
+        with:
+          path: GOOBY-UNITY/Library
+          key: Library-ios-${{ env.UNITY_VERSION }}-${{ hashFiles('GOOBY-UNITY/Packages/manifest.json') }}
+          restore-keys: Library-ios-${{ env.UNITY_VERSION }}-
+      - uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          projectPath: ${{ env.PROJECT_PATH }}
+          unityVersion: ${{ env.UNITY_VERSION }}
+          targetPlatform: iOS
+          buildMethod: Gooby.Editor.BuildScript.BuildIOS
+          buildName: GOOBY
+          buildsPath: build
+      - name: Xcode-Projekt packen
+        run: |
+          set -euo pipefail
+          ls build/iOS
+          tar -C build/iOS -czf xcode-project.tgz .
+      - uses: actions/upload-artifact@v4
+        with:
+          name: GOOBY-unity-xcode-project
+          path: xcode-project.tgz
+          retention-days: 3
+
+  ios-ipa:
+    runs-on: macos-15
+    timeout-minutes: 60
+    needs: ios-xcode
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: GOOBY-unity-xcode-project
+          path: xcode
+      - name: Xcode-Projekt entpacken
+        run: |
+          set -euo pipefail
+          mkdir -p build/ios
+          tar -C build/ios -xzf xcode/xcode-project.tgz
+          ls build/ios
+      - name: xcodebuild (unsigned)
+        run: |
+          set -euo pipefail
+          cd build/ios
+          PROJ="$(find . -maxdepth 2 -name '*.xcodeproj' | head -1)"
+          test -n "$PROJ"
+          xcodebuild -project "$PROJ" -scheme Unity-iPhone -configuration Release \
+            -sdk iphoneos -derivedDataPath dd \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+            ENABLE_BITCODE=NO build
+      - name: .ipa packen
+        run: |
+          set -euo pipefail
+          cd build/ios
+          APP_PATH="$(find dd/Build/Products/Release-iphoneos -maxdepth 1 -name '*.app' | head -1)"
+          test -n "$APP_PATH"
+          rm -rf Payload && mkdir Payload
+          cp -R "$APP_PATH" Payload/
+          zip -qry GOOBY-unity-unsigned.ipa Payload
+          ls -la GOOBY-unity-unsigned.ipa
+      - name: .ipa forensisch verifizieren
+        run: python3 tools/ci/verify_unity_ipa.py build/ios/GOOBY-unity-unsigned.ipa
+      - uses: actions/upload-artifact@v4
+        with:
+          name: GOOBY-unity-unsigned-ipa
+          path: build/ios/GOOBY-unity-unsigned.ipa

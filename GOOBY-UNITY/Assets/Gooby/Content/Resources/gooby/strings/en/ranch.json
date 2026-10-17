@@ -1,0 +1,66 @@
+{
+	"ranch": {
+		"name": "The Gooby Ranch",
+		"angebot": {
+			"titel": "The Gooby Ranch",
+			"text": "You can now drive out to the ranch and buy it.",
+			"preis": "{preis} ᴳ",
+			"frage": "Do you want to head out now or buy it later?",
+			"jetzt": "Drive out now",
+			"spaeter": "Buy later",
+			"gemerkt": "Got it! The exit to the ranch stays open for you.",
+			"zu_wenig": "You still need {fehlt} ᴳ for the ranch."
+		},
+		"exit": {
+			"schild_zeile1": "To the Gooby Ranch",
+			"schild_zeile2": "{km} km",
+			"prompt": "Drive out to the Gooby Ranch?",
+			"losfahren": "Drive out",
+			"gesperrt": "From level {level} you can drive out to the Gooby Ranch."
+		},
+		"fahrt": {
+			"zur_stadt": "To the city",
+			"schild_ranch": "GOOBY RANCH",
+			"schild_bach": "Bubble Brook",
+			"angekommen": "The ranch gate is right ahead!"
+		},
+		"tor": {
+			"titel": "The ranch gate",
+			"text": "The Gooby Ranch is waiting for you. Giant field, paddocks and three horses included.",
+			"kaufen": "Buy ({preis} ᴳ)",
+			"spaeter": "Buy later",
+			"gekauft": "The ranch is yours now! Welcome home, cowgooby.",
+			"zu_teuer": "You still need {fehlt} ᴳ. Come back later!",
+			"offen": "In you go!"
+		},
+		"hof": {
+			"titel": "The Gooby Ranch",
+			"scheune": "Barn",
+			"stall": "Stable",
+			"haus": "Ranch house",
+			"reitplatz": "Riding arena",
+			"heulager": "Hay storage",
+			"pferde_rufen": "Call the horses",
+			"pferde_galopp": "Gallop!",
+			"pferde_ruhe": "Let them rest",
+			"willkommen": "Welcome to your ranch!"
+		},
+		"tiere": {
+			"karamell": "Caramel",
+			"wolke": "Cloud",
+			"beere": "Berry",
+			"frieda": "Frieda",
+			"paula": "Paula",
+			"wolli": "Woolly",
+			"lotte": "Lottie",
+			"milo": "Milo",
+			"kiki": "Kiki",
+			"nugget": "Nugget"
+		},
+		"ausbau": {
+			"stall_2": "Stable upgrade: room for more horses",
+			"koppel_2": "Paddock upgrade: more pasture for everyone",
+			"reitplatz_2": "Arena upgrade: obstacle course"
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"modifier": {
+		"name": {
+			"doppelGold": "Double Gold",
+			"muenzregen": "Coin Rain",
+			"turbo": "Turbo",
+			"lernrausch": "Study Rush",
+			"federleicht": "Featherlight",
+			"glueckspilz": "Lucky Charm"
+		},
+		"desc": {
+			"doppelGold": "Round coins ×2 at the payout!",
+			"muenzregen": "Coin payout ×1.5 for this round!",
+			"turbo": "Turbo round: score ×1.5 at the end!",
+			"lernrausch": "Double XP for this round!",
+			"federleicht": "This round costs no energy!",
+			"glueckspilz": "Lucky roll after the round: +10–60 coins!"
+		},
+		"start": "Bonus event: {name} in {game}!",
+		"badge": "{name} · {rest}",
+		"pregame": {
+			"titel": "Bonus event active!",
+			"runden": "{n} rounds left · {rest} remaining",
+			"runde_eine": "Last round · {rest} remaining"
+		},
+		"results": {
+			"aktiv": "{name} active",
+			"bonus_coins": "+{n} extra",
+			"score_mult": "Score ×1.5",
+			"xp_mult": "XP ×2",
+			"energie": "No energy spent",
+			"gluecksrolle": "Lucky roll +{n}",
+			"capped": "Daily bonus reached"
+		}
+	}
+}

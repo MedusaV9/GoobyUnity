@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_miez",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "miez",
+			"text": "You are early. I have been awake since five. On principle. I slept through it anyway.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "miez",
+			"text": "Ah. The staff. I am Miez. This ranch belongs to me, but you may keep pretending you are in charge.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "miez",
+			"text": "Evening. My third sleeping shift starts shortly. Keep it brief, but flattering.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "miez",
+			"text": "It is raining. I consider this a personal attack. Pet me, it softens my grievance against the sky.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "miez",
+			"text": "You. Stay. I have decided you count as one of my furniture pieces. That is the highest honor I bestow.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "miez",
+			"text": "Speak. I shall clean my ear meanwhile.",
+			"optionen": [
+				{"text": "Do you need anything?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Your orders have been executed.", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "How was your day?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "How was your day?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "How was your day?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Where are you from, anyway?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Do you like the others?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "I shall withdraw reverently.", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "miez",
+			"text": [
+				"My day: got up, fell over, landed in the hay, stayed there. It is called time management.",
+				"Later I stared at a mouse. We agreed on a draw."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "miez",
+			"text": [
+				"I supervised the horses today. From the roof. With my eyes closed. I sense disorder even in my sleep.",
+				"You are running this place properly, by the way. I say that exactly once a year. That was it for this year."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "miez",
+			"text": [
+				"Come closer. I permit you to scratch behind my left ear. The left one. LEFT. Good.",
+				"You have talent. I have put your name on my list. It is a short list. You are the list."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "miez",
+			"text": "Indeed. I have a task of the utmost importance. For you. I would do it myself, but I am... booked. By sleep.",
+			"optionen": [
+				{"text": "As you command, Majesty.", "next": "quest_annahme"},
+				{"text": "I am afraid I have appointments...", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "miez",
+			"text": "Appropriate. Execute it well, and I shall purr in your approximate direction.",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "miez",
+			"text": "Appointments. How adorable. Very well, the matter shall wait. I forget nothing. Only appointments and names.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "miez",
+			"text": "Hm. Inspected. Accepted. You may consider yourself praised. Here is something shiny, I found it under the barn.",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "miez",
+			"text": "Wool. WOOL. I... forgive the emotion. It will never happen again. Hand it over. HAND IT OVER.",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "miez",
+			"text": "Acceptable. I shall first nudge it, then push it off the table. That is how I honor things.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "miez",
+			"text": "What is this. Why is this. Well, it belongs to me now, like everything here. Thank you, staff.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "miez",
+			"text": [
+				"Where I come from? One day I was simply here. The ranch abandoned, the hay cold, the mice insolent.",
+				"I established order. For years. Alone. Without thanks. Queens do not complain. I merely mention it. Constantly.",
+				"Then you came and made the ranch warm again. I credit that to your account. Internally. Without receipt."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "miez",
+			"text": [
+				"Whether I like the others? Rosi feeds punctually: useful. Ironhoof's forge is warm: very useful.",
+				"Timmi carries me around like a sack of flour. I allow it. He means well, the little whirlwind.",
+				"And you... you scratch correctly and disturb little. That, staff, is my definition of love. Tell NO ONE."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "miez",
+			"text": "Go. But leave the door ajar. Not for you. For the possibility.",
+			"ende": true
+		}
+	}
+}

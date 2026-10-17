@@ -1,0 +1,36 @@
+{
+	"sleep": {
+		"bett": {
+			"titel": "Bedtime",
+			"schlafen": "Go to sleep",
+			"nickerchen": "Nap ({minuten} minutes)",
+			"geschichte": "Bedtime story",
+			"medizin": "Give medicine",
+			"wecken": "Wake gently",
+			"wecken_noch_nicht": "Shh — Gooby only just fell asleep.",
+			"wach": "Gooby is far too awake. Maybe later.",
+			"zu": "Later"
+		},
+		"ritual": {
+			"zaehne": "Brushing teeth first …",
+			"kuscheln": "And now snuggle in deep."
+		},
+		"nap": {
+			"los": "A little nap in between."
+		},
+		"gute_nacht": "Good night, {gooby}. Dream of something soft.",
+		"frueh_geweckt": "Hmpf … five more minutes …",
+		"aufgewacht": "Good morning! Gooby slept wonderfully.",
+		"gaehnen": "Gooby yawns heartily. A nap would be nice.",
+		"story": {
+			"bibliothek_titel": "Gooby’s Bookshelf",
+			"waehlen": "Which book shall we read tonight?",
+			"frisch": "Crackling fresh and terribly exciting!",
+			"gelesen": "Already read {mal}× aloud.",
+			"abgenutzt": "Gooby almost knows this one by heart …",
+			"naechste_seite": "Gooby is still blinking … one more page!",
+			"gesperrt": "Buy at REHWEI ({preis} ᴳ)",
+			"nachschub": "Fresh supplies for sleepy ears are at REHWEI in town."
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"values": {
+		"ranchbau": {
+			"deko": {
+				"windspiel": {"kosten": 110}
+			}
+		}
+	}
+}

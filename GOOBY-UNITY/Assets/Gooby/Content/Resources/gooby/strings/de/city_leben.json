@@ -1,0 +1,126 @@
+{
+  "city_leben": {
+    "ziel_gesetzt": "GPS an: auf zu {ort}!",
+    "ziel_weg": "GPS aus. Einfach mal treiben lassen.",
+    "ziel_erreicht": "Ziel erreicht — {ort} wartet schon!",
+    "zuhause": "Zuhause",
+    "stammkunden": {
+      "rosine": "Frau Rosine",
+      "hatschi": "Opa Hatschi",
+      "fernweh": "Frau Fernweh",
+      "duebel": "Herr Dübel",
+      "rollo": "Rollo"
+    },
+    "sprueche": {
+      "laden": [
+        "Ob die Karotten heute knackig sind?",
+        "Mmh, hier riecht es nach frischen Brötchen!",
+        "Ich nehme nur eins … na gut, zwei.",
+        "Wo steht nochmal der Käse?",
+        "Einkaufszettel? Liegt zu Hause. Klassiker.",
+        "Die Tomaten lachen mich an!"
+      ],
+      "baumarkt": [
+        "Drei Bretter, ein Traum!",
+        "Welche Schraube passt hier wohl?",
+        "Erst messen, dann sägen!",
+        "Dieses Regal baue ich SELBST auf.",
+        "Hach, dieser Holzgeruch!",
+        "Für mein nächstes Projekt brauche ich … alles."
+      ],
+      "markt": [
+        "Frischer geht es wirklich nicht!",
+        "Der Stand da drüben duftet herrlich.",
+        "Samstag ist einfach der beste Tag.",
+        "Eine Kostprobe geht immer."
+      ],
+      "apotheke": [
+        "Einmal was gegen Schluckauf, bitte.",
+        "Hier riecht es so schön nach Kräutern.",
+        "Die Bonbons hier sind bestimmt gesund.",
+        "Gute Besserung wünsche ich schon mal vor."
+      ],
+      "drogerie": [
+        "Welches Shampoo glitzert am meisten?",
+        "Zahnpasta mit Beerengeschmack? Her damit!",
+        "Diese Seife riecht nach Urlaub.",
+        "Nur mal schnell durch alle Regale schnuppern."
+      ],
+      "pow": [
+        "ZACK! Und schon wieder ein Highscore.",
+        "Das Poster MUSS an meine Wand.",
+        "Welcher Held bist du denn so?",
+        "Hier drin fühle ich mich sofort stärker."
+      ],
+      "post": [
+        "Ein Päckchen für mich? Hoffentlich!",
+        "Briefmarken sammeln ist wieder in.",
+        "Das muss heute noch raus!",
+        "Ob meine Postkarte schon angekommen ist?"
+      ],
+      "autohaus": [
+        "Der in Rot … oder doch der in Blau?",
+        "Einmal Probesitzen, bitte!",
+        "So ein Glanz. Frisch poliert!",
+        "Hauptsache, die Hupe klingt lustig."
+      ],
+      "tierarzt": [
+        "Mein Wollmops ist nur zum Kuscheln hier.",
+        "Gleich sind wir dran, ganz ruhig.",
+        "Die Behandlung hier ist einfach flauschig.",
+        "Ein Leckerli danach hilft immer."
+      ],
+      "praxis": [
+        "Nur der jährliche Durchcheck, keine Sorge.",
+        "Die Wartezimmer-Musik ist richtig entspannend.",
+        "Tief einatmen … und ausatmen.",
+        "Hoffentlich gibt es wieder ein Gooby-Pflaster."
+      ],
+      "flughafen": [
+        "Gate 3? Oder war es Gate 7?",
+        "Mein Koffer rollt heute besonders rund.",
+        "Einmal Sonne und zurück, bitte!",
+        "Boarding! Nein, warte … erst Snacks.",
+        "Über den Wolken schmeckt der Saft besser."
+      ],
+      "raumstation": [
+        "Die Erde sieht von hier SO klein aus.",
+        "Schwerelos schweben — träumt sich toll.",
+        "Ob Sterne wohl kitzeln?",
+        "Ein Schritt für Goobys, ein Hüpfer für mich."
+      ],
+      "funkelpark": [
+        "Das Riesenrad glitzert heute besonders!",
+        "Zuckerwatte zuerst, Achterbahn danach. Oder umgekehrt?",
+        "Ich höre die Musik bis nach Hause.",
+        "Noch eine Runde. Nur noch eine!"
+      ],
+      "goobye": [
+        "Der Laden hat einfach Charme.",
+        "Beim Vorbeigehen MUSS man reinschauen.",
+        "Was die wohl heute im Regal haben?",
+        "Hier kauft sogar Onkel Alwin ein."
+      ],
+      "stammkunde_rosine": [
+        "Diese Möhren duften heute wieder himmlisch.",
+        "Nur gucken … na gut, EINE nehme ich mit."
+      ],
+      "stammkunde_hatschi": [
+        "Meine Kräuterbonbons, wie jede Woche bitte.",
+        "Hatschi! … Genau deswegen bin ich hier."
+      ],
+      "stammkunde_fernweh": [
+        "Irgendwo da draußen wartet mein nächstes Abenteuer.",
+        "Der Koffer bleibt gepackt. Man weiß ja nie!"
+      ],
+      "stammkunde_duebel": [
+        "Ein Dübel geht immer noch in die Wand.",
+        "Feierabend? Erst wenn das Regal hängt!"
+      ],
+      "stammkunde_rollo": [
+        "Die Plaza hat den glattesten Boden der Stadt.",
+        "Gleich klappt der Trick. Ich spür's!"
+      ]
+    }
+  }
+}

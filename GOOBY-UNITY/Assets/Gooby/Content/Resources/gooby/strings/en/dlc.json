@@ -1,0 +1,24 @@
+{
+	"dlc": {
+		"titel": "DLC",
+		"intro": "Big bonus adventures for Gooby. Tap a cover to learn more — spoiler-free, promise.",
+		"settings_titel": "DLC",
+		"settings_info": "{spielbar} playable · {bald} in the works",
+		"settings_knopf": "Browse all DLCs",
+		"ribbon": {
+			"neu": "NEW",
+			"bald": "SOON",
+			"installiert": "INSTALLED"
+		},
+		"features_titel": "What awaits you",
+		"unlock_titel": "How to unlock",
+		"knopf": {
+			"ansehen": "View",
+			"zur_ranch": "To the ranch",
+			"losreiten": "Ride out!"
+		},
+		"gesperrt_hinweis": "Not quite there yet — Gooby is level {aktuell} and training hard.",
+		"bald_hinweis": "Gooby is working on it… 🔨 He's even wearing a hard hat — safety first. No more spoilers yet!",
+		"zurueck": "Back"
+	}
+}

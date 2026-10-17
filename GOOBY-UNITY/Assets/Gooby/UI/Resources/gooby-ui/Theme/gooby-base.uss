@@ -1,0 +1,985 @@
+/* GOOBY base classes — buttons, panels, chips, cards, badges, toggles, sliders, HUD lanes.
+   Built on the tokens in gooby-tokens.uss. Fonts: Nunito (OFL), see UI/Fonts. */
+
+/* ---------- typography ---------- */
+.gb-root {
+    -unity-font-definition: url("../Fonts/Nunito-Medium.ttf");
+    color: var(--gb-text);
+    font-size: var(--gb-md);
+    flex-grow: 1;
+}
+.gb-bold { -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-extrabold { -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-semibold { -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); }
+.gb-regular { -unity-font-definition: url("../Fonts/Nunito-Regular.ttf"); }
+.gb-h1 { font-size: var(--gb-h1); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-h2 { font-size: var(--gb-h2); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-h3 { font-size: var(--gb-h3); -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: var(--gb-text); }
+.gb-lg { font-size: var(--gb-lg); }
+.gb-md { font-size: var(--gb-md); }
+.gb-sm { font-size: var(--gb-sm); }
+.gb-mild { color: var(--gb-text-mild); }
+.gb-leise { color: var(--gb-text-leise); }
+.gb-invers { color: var(--gb-text-invers); }
+.gb-center { -unity-text-align: middle-center; }
+.gb-nowrap { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+Label { margin: 0; padding: 0; }
+
+/* ---------- layout helpers ---------- */
+.gb-row { flex-direction: row; align-items: center; }
+.gb-col { flex-direction: column; }
+.gb-grow { flex-grow: 1; }
+.gb-gap1 > * { margin-right: var(--gb-s1); }
+.gb-gap2 > * { margin-right: var(--gb-s2); }
+.gb-gap3 > * { margin-right: var(--gb-s3); }
+.gb-abs { position: absolute; }
+.gb-hidden { display: none; }
+.gb-safe { padding: 14px 24px 14px 24px; flex-grow: 1; }
+
+/* ---------- surfaces ---------- */
+.gb-panel {
+    background-color: var(--gb-panel);
+    border-radius: var(--gb-r-lg);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.12);
+    padding: var(--gb-s4);
+}
+.gb-panel-weiss { background-color: rgba(255, 255, 255, 0.94); }
+.gb-panel-tief { background-color: var(--gb-panel-tief); }
+.gb-card {
+    background-color: rgba(255, 248, 238, 0.96);
+    border-radius: var(--gb-r-lg);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.10);
+    padding: var(--gb-s3) var(--gb-s4);
+}
+.gb-card-rosa { background-color: #FFE3E3; border-color: rgba(242, 109, 109, 0.25); }
+.gb-card-gruen { background-color: #E4F6EA; border-color: rgba(95, 184, 132, 0.25); }
+.gb-shadow {
+    position: absolute;
+    left: -22px; right: -22px; top: -16px; bottom: -28px;
+    background-image: url("../Icons/shadow_soft.png");
+    -unity-slice-left: 48; -unity-slice-right: 48; -unity-slice-top: 48; -unity-slice-bottom: 48;
+    -unity-slice-scale: 0.6px;
+    opacity: 0.55;
+}
+.gb-divider { height: 2px; background-color: var(--gb-linie); margin: var(--gb-s2) 0; }
+
+/* ---------- buttons ---------- */
+.gb-btn {
+    height: var(--gb-btn-h);
+    min-width: 120px;
+    padding: 0 var(--gb-s6);
+    border-radius: var(--gb-r-pill);
+    border-width: 0;
+    -unity-font-definition: url("../Fonts/Nunito-Bold.ttf");
+    font-size: var(--gb-lg);
+    -unity-text-align: middle-center;
+    transition-property: scale, background-color;
+    transition-duration: 0.12s;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.gb-btn:hover { scale: 1.02; }
+.gb-btn:active { scale: 0.96; }
+.gb-btn:disabled { opacity: 0.5; }
+.gb-btn-primary { background-color: var(--gb-primary); color: var(--gb-text-invers); }
+.gb-btn-primary:active { background-color: var(--gb-primary-tief); }
+.gb-btn-secondary { background-color: var(--gb-sand-hell); color: var(--gb-text); border-width: 2px; border-color: rgba(107, 79, 58, 0.10); }
+.gb-btn-confirm { background-color: var(--gb-confirm); color: var(--gb-text-invers); }
+.gb-btn-confirm:active { background-color: var(--gb-confirm-tief); }
+.gb-btn-cancel { background-color: var(--gb-cancel); color: var(--gb-text-invers); }
+.gb-btn-teal { background-color: var(--gb-teal); color: var(--gb-text-invers); }
+.gb-btn-sm { height: var(--gb-btn-h-sm); min-width: 88px; font-size: var(--gb-md); padding: 0 var(--gb-s4); }
+.gb-btn-icon {
+    width: var(--gb-icon-btn);
+    height: var(--gb-icon-btn);
+    min-width: 0;
+    padding: 0;
+    border-radius: var(--gb-r-pill);
+    background-color: rgba(255, 248, 238, 0.94);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.10);
+    justify-content: center;
+    align-items: center;
+    transition-property: scale;
+    transition-duration: 0.12s;
+}
+.gb-btn-icon:active { scale: 0.92; }
+.gb-btn-icon.gb-btn-teal { background-color: var(--gb-teal); border-color: rgba(255, 255, 255, 0.65); }
+.gb-btn-icon-sm { width: var(--gb-icon-btn-sm); height: var(--gb-icon-btn-sm); }
+.gb-btn-icon-dark { background-color: var(--gb-dunkel-knopf); border-color: rgba(255, 255, 255, 0.18); }
+.gb-btn-icon-pink { background-color: var(--gb-primary); border-color: rgba(255, 255, 255, 0.25); }
+.gb-btn-icon-teal { background-color: var(--gb-teal); border-color: rgba(255, 255, 255, 0.25); }
+.gb-btn-icon > .gb-icon { width: 55%; height: 55%; }
+.gb-btn > .gb-icon { width: 26px; height: 26px; margin-right: var(--gb-s2); }
+.gb-btn-label { -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); font-size: var(--gb-lg); color: var(--gb-text-invers); white-space: nowrap; }
+.gb-btn-secondary > .gb-btn-label { color: var(--gb-text); }
+
+/* ---------- icons & badges ---------- */
+.gb-icon { width: 28px; height: 28px; -unity-background-scale-mode: scale-to-fit; flex-shrink: 0; }
+.gb-icon-lg { width: 40px; height: 40px; }
+.gb-icon-tile {
+    width: 44px; height: 44px;
+    border-radius: 14px;
+    justify-content: center; align-items: center;
+    background-color: var(--gb-sand-hell);
+}
+.gb-icon-tile > .gb-icon { width: 60%; height: 60%; }
+.gb-badge {
+    position: absolute;
+    top: -6px; right: -6px;
+    min-width: 22px; height: 22px;
+    padding: 0 6px;
+    border-radius: var(--gb-r-pill);
+    background-color: var(--gb-badge);
+    color: var(--gb-text-invers);
+    font-size: var(--gb-sm);
+    -unity-font-definition: url("../Fonts/Nunito-Bold.ttf");
+    -unity-text-align: middle-center;
+    border-width: 2px; border-color: var(--gb-weiss);
+}
+.gb-tag {
+    padding: 2px 10px;
+    border-radius: var(--gb-r-pill);
+    background-color: var(--gb-sonne);
+    color: var(--gb-schoko);
+    font-size: var(--gb-sm);
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+}
+
+/* ---------- pills / chips ---------- */
+.gb-pill {
+    flex-direction: row; align-items: center;
+    height: 44px;
+    padding: 0 var(--gb-s4) 0 var(--gb-s2);
+    border-radius: var(--gb-r-pill);
+    background-color: rgba(255, 248, 238, 0.94);
+    border-width: 2px; border-color: rgba(107, 79, 58, 0.10);
+}
+.gb-pill > .gb-icon { width: 30px; height: 30px; margin-right: var(--gb-s2); }
+.gb-pill-wert { -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); font-size: var(--gb-lg); color: var(--gb-text); }
+.gb-chip {
+    height: 40px; padding: 0 var(--gb-s4);
+    border-radius: var(--gb-r-pill);
+    background-color: var(--gb-sand-hell);
+    border-width: 0;
+    color: var(--gb-text); font-size: var(--gb-md);
+    -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf");
+    -unity-text-align: middle-center;
+    margin-right: var(--gb-s2);
+}
+.gb-chip--active { background-color: var(--gb-confirm); color: var(--gb-text-invers); }
+.gb-chip:active { scale: 0.96; }
+
+/* ---------- nav tabs (left column, board 08 / 07) ---------- */
+.gb-tab {
+    flex-direction: row; align-items: center;
+    height: 60px; width: 168px;
+    padding: 0 var(--gb-s4) 0 var(--gb-s3);
+    margin-bottom: var(--gb-s2);
+    border-radius: 20px;
+    background-color: rgba(255, 248, 238, 0.94);
+    border-width: 2px; border-color: rgba(107, 79, 58, 0.10);
+    color: var(--gb-text); font-size: var(--gb-lg);
+    -unity-font-definition: url("../Fonts/Nunito-Bold.ttf");
+    -unity-text-align: middle-left;
+    transition-property: scale, background-color; transition-duration: 0.12s;
+}
+.gb-tab > .gb-icon-tile { margin-right: var(--gb-s3); }
+.gb-tab:active { scale: 0.97; }
+.gb-tab--active { background-color: #FFD9D9; border-color: rgba(242, 109, 109, 0.45); }
+.gb-tab--active > .gb-icon-tile { background-color: var(--gb-primary); }
+/* board 07: the selected settings tab is solid strawberry with white type */
+.gb-tab--hot.gb-tab--active { background-color: var(--gb-primary); border-color: rgba(255, 255, 255, 0.2); }
+.gb-tab--hot.gb-tab--active > Label { color: var(--gb-text-invers); }
+.gb-tab--hot.gb-tab--active > .gb-icon-tile { background-color: rgba(255, 255, 255, 0.28); }
+.gb-chip--teal { flex-direction: row; align-items: center; }
+.gb-chip--teal.gb-chip--active { background-color: var(--gb-teal); color: var(--gb-text-invers); }
+.gb-tab--green { background-color: #DDF3E4; border-color: rgba(95, 184, 132, 0.45); }
+.gb-rail-tab {
+    width: 84px; height: 76px;
+    margin-bottom: var(--gb-s2);
+    border-radius: 20px;
+    background-color: rgba(255, 248, 238, 0.94);
+    border-width: 2px; border-color: rgba(107, 79, 58, 0.10);
+    justify-content: center; align-items: center;
+    color: var(--gb-text); font-size: var(--gb-sm);
+    -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf");
+    -unity-text-align: middle-center;
+}
+.gb-rail-tab > .gb-icon { width: 30px; height: 30px; margin-bottom: 4px; }
+.gb-rail-tab > Label { font-size: 11px; white-space: nowrap; }
+.gb-rail-tab--active { background-color: #DDF3E4; border-color: rgba(95, 184, 132, 0.6); }
+
+/* ---------- bars ---------- */
+.gb-bar { height: 12px; border-radius: 6px; background-color: rgba(107, 79, 58, 0.14); overflow: hidden; }
+.gb-bar-fill { height: 100%; border-radius: 6px; background-color: var(--gb-confirm); }
+.gb-bar-fill--sonne { background-color: var(--gb-sonne); }
+.gb-bar-fill--pfirsich { background-color: #FF9E6B; }
+.gb-bar-fill--blau { background-color: var(--gb-himmelblau); }
+
+/* ---------- toggles & sliders (board 06) ---------- */
+.gb-toggle-track {
+    width: 64px; height: 36px; border-radius: var(--gb-r-pill);
+    background-color: var(--gb-sand-mittel);
+    justify-content: center; padding: 3px;
+    transition-property: background-color; transition-duration: 0.15s;
+}
+.gb-toggle-track--on { background-color: var(--gb-confirm); }
+.gb-toggle-knob {
+    width: 30px; height: 30px; border-radius: var(--gb-r-pill);
+    background-color: var(--gb-weiss);
+    translate: 0 0;
+    transition-property: translate; transition-duration: 0.15s;
+}
+.gb-toggle-track--on > .gb-toggle-knob { translate: 28px 0; }
+.gb-slider { flex-grow: 1; height: 36px; justify-content: center; }
+.gb-slider-track { height: 10px; border-radius: 5px; background-color: var(--gb-sand-mittel); }
+.gb-slider-fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 5px; background-color: var(--gb-confirm); }
+.gb-slider-knob {
+    position: absolute; width: 30px; height: 30px; top: -10px;
+    border-radius: var(--gb-r-pill); background-color: var(--gb-weiss);
+    border-width: 2px; border-color: rgba(107, 79, 58, 0.14);
+}
+.gb-segment { flex-direction: row; }
+.gb-segment > .gb-chip { height: 44px; min-width: 120px; font-size: var(--gb-lg); }
+.gb-dropdown {
+    flex-direction: row; align-items: center; justify-content: space-between;
+    height: 44px; min-width: 190px; padding: 0 var(--gb-s3) 0 var(--gb-s4);
+    border-radius: var(--gb-r-pill); background-color: var(--gb-weiss);
+    border-width: 2px; border-color: rgba(107, 79, 58, 0.16);
+    color: var(--gb-text); font-size: var(--gb-lg);
+    -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf");
+}
+
+/* ---------- settings rows (board 07) ---------- */
+.gb-group { background-color: rgba(255, 255, 255, 0.85); border-radius: var(--gb-r-lg); padding: var(--gb-s1) var(--gb-s3) var(--gb-s1) var(--gb-s3); margin-bottom: var(--gb-s2); border-width: 2px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-group-head { flex-direction: row; align-items: center; height: 34px; margin: 2px 0 2px 0; padding: 0 var(--gb-s3); border-radius: 12px; background-color: rgba(107, 79, 58, 0.07); }
+.gb-group-head > .gb-icon { margin-right: var(--gb-s2); }
+.gb-group-head > Label { font-size: var(--gb-h3); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-setting-row { flex-direction: row; align-items: center; justify-content: space-between; min-height: 46px; padding: 3px 0; border-top-width: 2px; border-top-color: rgba(107, 79, 58, 0.08); }
+.gb-setting-titel { font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-setting-hint { font-size: var(--gb-sm); color: var(--gb-text-mild); margin-top: 2px; }
+
+/* ---------- speech bubble (board 08) ---------- */
+.gb-bubble {
+    flex-direction: row; align-items: center;
+    background-color: rgba(255, 255, 255, 0.96);
+    border-radius: 24px; padding: var(--gb-s3) var(--gb-s5) var(--gb-s3) var(--gb-s3);
+    border-width: 2px; border-color: rgba(107, 79, 58, 0.10);
+    max-width: 560px;
+}
+/* Gooby's line fades away after a few seconds (HomeHudScreen.BubbleHoldSec) and back in with the next one */
+.gb-bubble--fading { transition-property: opacity; transition-duration: 0.45s; transition-timing-function: ease-out; }
+.gb-bubble-name { position: absolute; top: -12px; left: 76px; padding: 1px 12px; border-radius: var(--gb-r-pill); background-color: #FFD9D9; color: var(--gb-primary-tief); font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); letter-spacing: 1px; }
+.gb-avatar { width: 52px; height: 52px; border-radius: var(--gb-r-pill); background-color: var(--gb-pfirsich); margin-right: var(--gb-s3); justify-content: center; align-items: center; border-width: 3px; border-color: var(--gb-weiss); }
+.gb-avatar > .gb-icon { width: 60%; height: 60%; }
+
+/* ---------- toasts ---------- */
+.gb-toast { flex-direction: row; align-items: center; height: 44px; padding: 0 var(--gb-s4) 0 var(--gb-s3); border-radius: var(--gb-r-pill); background-color: rgba(255, 255, 255, 0.96); border-width: 2px; border-color: rgba(127, 207, 155, 0.6); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); font-size: var(--gb-md); }
+.gb-toast > .gb-icon { width: 24px; height: 24px; margin-right: var(--gb-s2); }
+.gb-toast--sticker { height: 36px; padding: 0 16px 0 10px; border-color: rgba(90, 196, 150, 0.9); background-color: rgba(255, 255, 255, 0.97); }
+.gb-toast--sticker > .gb-icon { width: 20px; height: 20px; }
+
+/* ---------- joystick ---------- */
+.gb-joy-ring { width: 150px; height: 150px; border-radius: var(--gb-r-pill); background-color: rgba(255, 255, 255, 0.22); border-width: 3px; border-color: rgba(255, 255, 255, 0.55); justify-content: center; align-items: center; }
+.gb-joy-knob { width: 64px; height: 64px; border-radius: var(--gb-r-pill); background-color: rgba(255, 255, 255, 0.85); }
+
+/* ---------- action bar (board 08) ---------- */
+.gb-action { width: 78px; height: 78px; border-radius: var(--gb-r-pill); background-color: var(--gb-dunkel-knopf); border-width: 3px; border-color: rgba(255, 255, 255, 0.16); justify-content: center; align-items: center; margin: 0 6px; transition-property: scale; transition-duration: 0.12s; }
+.gb-action:active { scale: 0.93; }
+.gb-action > .gb-icon { width: 34px; height: 34px; margin-bottom: 2px; }
+.gb-action > Label { color: var(--gb-text-invers); font-size: 11px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-action--main { width: 104px; height: 104px; background-color: rgba(59, 54, 79, 0.92); border-color: var(--gb-weiss); }
+.gb-action--main > .gb-icon { width: 44px; height: 44px; }
+.gb-action--main > Label { font-size: var(--gb-sm); }
+
+/* ---------- scrim / sheets ---------- */
+.gb-scrim { position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-color: var(--gb-scrim); }
+.gb-sheet { position: absolute; left: 0; right: 0; bottom: 0; background-color: rgba(255, 248, 238, 0.97); border-top-left-radius: var(--gb-r-xl); border-top-right-radius: var(--gb-r-xl); padding: var(--gb-s4) var(--gb-s6); }
+.gb-item-card { width: 132px; height: 132px; margin-right: var(--gb-s3); border-radius: var(--gb-r-lg); background-color: var(--gb-weiss); border-width: 3px; border-color: rgba(107, 79, 58, 0.10); justify-content: flex-end; align-items: center; padding-bottom: var(--gb-s2); }
+.gb-item-card--selected { border-color: var(--gb-confirm); background-color: #F0FAF3; }
+.gb-item-card > .gb-icon { position: absolute; top: 16px; width: 64px; height: 64px; }
+.gb-item-card > .gb-item-thumb { top: 6px; width: 92px; height: 92px; }
+.gb-item-card > Label { font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); }
+.gb-item-check { position: absolute; top: 6px; right: 6px; width: 24px; height: 24px; border-radius: var(--gb-r-pill); background-color: var(--gb-confirm); justify-content: center; align-items: center; }
+.gb-item-check > .gb-icon { width: 16px; height: 16px; }
+
+/* ---------- checkbox rows (quest card) ---------- */
+.gb-checkrow { flex-direction: row; align-items: center; margin: 3px 0; }
+.gb-checkbox { width: 26px; height: 26px; border-radius: 8px; background-color: var(--gb-weiss); border-width: 2px; border-color: rgba(107, 79, 58, 0.25); margin-right: var(--gb-s2); justify-content: center; align-items: center; }
+.gb-checkbox--done { background-color: var(--gb-confirm); border-color: var(--gb-confirm); }
+.gb-checkbox > .gb-icon { width: 18px; height: 18px; }
+.gb-checkrow--claimable { background-color: rgba(127, 207, 155, 0.22); border-radius: 12px; padding: 4px 8px; }
+.gb-checkrow--claimable > .gb-badge { margin-left: auto; }
+
+/* ---------- misc ---------- */
+.gb-dot { width: 8px; height: 8px; border-radius: 4px; background-color: rgba(107, 79, 58, 0.25); margin: 0 4px; }
+
+/* ---------- wardrobe (outfit sheet) ---------- */
+.gb-outfit-card { width: 128px; margin-right: 8px; margin-bottom: 8px; }
+.gb-outfit-card--locked { opacity: 0.55; }
+.gb-swatch { width: 18px; height: 18px; border-radius: 9px; margin-right: 4px; border-width: 2px; border-color: rgba(107, 79, 58, 0.15); }
+
+/* ---------- daily parcel streak (package sheet) ---------- */
+.gb-streak-day { width: 34px; height: 34px; border-radius: 17px; margin-right: 6px; align-items: center; justify-content: center; background-color: rgba(107, 79, 58, 0.08); border-width: 2px; border-color: rgba(107, 79, 58, 0.10); color: var(--gb-text-mild); }
+.gb-streak-day > .gb-icon { width: 18px; height: 18px; }
+.gb-streak-day--done { background-color: var(--gb-confirm); border-color: var(--gb-confirm); color: var(--gb-text-invers); }
+.gb-streak-day--done > Label { color: var(--gb-text-invers); }
+.gb-streak-day--today { background-color: #FFD9D9; border-color: var(--gb-primary); color: var(--gb-primary-tief); }
+.gb-streak-day--today > Label { color: var(--gb-primary-tief); }
+.gb-dot--active { background-color: var(--gb-schoko); }
+.gb-dev { background-color: var(--gb-sonne); color: var(--gb-schoko); padding: 2px 10px; border-radius: 8px; font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); border-width: 2px; border-color: var(--gb-schoko); }
+
+/* ---------- shop / arcade cards (column layout, tile on top) ---------- */
+.gb-shop-card { width: 200px; margin-right: var(--gb-s3); margin-bottom: var(--gb-s3); border-radius: var(--gb-r-lg); background-color: var(--gb-weiss); border-width: 3px; border-color: rgba(107, 79, 58, 0.10); padding: 10px 12px 12px 12px; align-items: center; }
+.gb-shop-card > .gb-icon-tile { margin-bottom: 6px; }
+.gb-shop-card > Label { -unity-text-align: middle-center; white-space: normal; }
+.gb-shop-card > .gb-badge { position: absolute; top: 8px; right: 8px; }
+
+/* ---------- build mode: room variant (board 09) ---------- */
+.gb-rail-tab--pink.gb-rail-tab--active { background-color: #FFD9D9; border-color: rgba(242, 109, 109, 0.55); }
+.gb-chip--pinkable.gb-chip--active { background-color: var(--gb-primary); color: var(--gb-text-invers); }
+.gb-item-card--pinkable.gb-item-card--selected { border-color: var(--gb-primary); background-color: #FFF0F0; }
+.gb-item-card--pinkable > .gb-item-check { background-color: var(--gb-primary); }
+.gb-tool-card {
+    width: 92px; padding: 10px 6px 10px 6px; margin-bottom: 10px;
+    border-radius: 20px; background-color: rgba(255, 248, 238, 0.96);
+    border-width: 2px; border-color: rgba(107, 79, 58, 0.10);
+    justify-content: center; align-items: center;
+    transition-property: scale; transition-duration: 0.12s;
+}
+.gb-tool-card:active { scale: 0.96; }
+.gb-tool-card > Label { margin-top: 4px; }
+.gb-tool-card--pink > Label { color: var(--gb-primary-tief); }
+.gb-toggle-track--pink.gb-toggle-track--on { background-color: var(--gb-primary); }
+.gb-action--pink { background-color: var(--gb-primary); border-color: var(--gb-weiss); }
+.gb-action--pink > Label { color: var(--gb-text-invers); }
+
+/* ---------- driving controls (board 03): big pink brake disc, dark glass reverse disc ---------- */
+.gb-drive-brake { width: 150px; height: 150px; border-width: 5px; border-color: rgba(255, 255, 255, 0.92); background-color: #F26A8D; }
+.gb-drive-brake > .gb-icon { width: 54px; height: 54px; margin-bottom: 4px; }
+.gb-drive-brake > Label { font-size: 17px; letter-spacing: 1px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-drive-reverse { width: 92px; height: 92px; border-width: 3px; border-color: rgba(255, 255, 255, 0.35); background-color: rgba(66, 54, 54, 0.55); }
+.gb-drive-reverse > Label { font-size: 30px; color: var(--gb-weiss); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-select-frame {
+    position: absolute; border-width: 4px; border-color: #7FCF9B; border-radius: 10px;
+    background-color: rgba(127, 207, 155, 0.10);
+}
+.gb-select-arrow { position: absolute; width: 26px; height: 26px; border-radius: 13px; background-color: var(--gb-weiss); justify-content: center; align-items: center; border-width: 2px; border-color: #7FCF9B; }
+.gb-select-arrow > .gb-icon { width: 16px; height: 16px; }
+.gb-select-arrow--n { top: -17px; left: 50%; translate: -13px 0; }
+.gb-select-arrow--s { bottom: -17px; left: 50%; translate: -13px 0; }
+.gb-select-arrow--w { left: -17px; top: 50%; translate: 0 -13px; }
+.gb-select-arrow--e { right: -17px; top: 50%; translate: 0 -13px; }
+.gb-select-tools { position: absolute; }
+.gb-select-tools > .gb-btn-icon { margin-bottom: 8px; }
+
+/* ---------- transfer sheet (Einstellungen → Konto → Spielstand übertragen) ---------- */
+.gb-textfield { margin: 0; padding: 0; }
+.gb-textfield > #unity-text-input {
+    background-color: var(--gb-weiss); border-radius: 16px;
+    border-width: 2px; border-color: rgba(107, 79, 58, 0.16);
+    padding: 10px 14px; font-size: var(--gb-md); color: var(--gb-text);
+    -unity-font-definition: url("../Fonts/Nunito-Regular.ttf"); white-space: normal;
+}
+.gb-textfield > #unity-text-input:focus { border-color: var(--gb-focus); }
+
+/* ---------- city drive: minimap (board 03) — size in step with CityDriveScreen.MiniW/MiniH/MiniBorder ---------- */
+.gb-minimap {
+    width: 196px; height: 184px; padding: 0; overflow: hidden;
+    border-width: 4px; border-color: var(--gb-weiss); border-radius: 28px;
+    background-color: #CFE3B8;
+}
+.gb-minimap-you { position: absolute; left: 50%; top: 50%; width: 34px; height: 34px; translate: -17px -17px; }
+.gb-minimap-compass {
+    position: absolute; left: 50%; top: -10px; translate: -14px 0; width: 28px; height: 28px; border-radius: 14px;
+    background-color: var(--gb-weiss); border-width: 2px; border-color: rgba(59, 54, 79, 0.12);
+    justify-content: center; align-items: center;
+}
+.gb-minimap-compass > Label { color: var(--gb-text); font-size: 13px; }
+
+/* ---------- city drive chrome (board 03): the home HUD's dark glass with white glyphs, light task card ---------- */
+.gb-drive-place {
+    min-height: 58px; padding: 7px 10px 7px 16px; border-radius: 30px; align-items: center;
+    background-color: rgba(59, 54, 79, 0.74); border-width: 2px; border-color: rgba(255, 255, 255, 0.14);
+}
+.gb-drive-place-title { font-size: 20px; color: var(--gb-text-invers); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-drive-place-sub { font-size: 13px; color: rgba(255, 255, 255, 0.86); -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); margin-top: -2px; }
+.gb-drive-disc { background-color: rgba(59, 54, 79, 0.80); border-color: rgba(255, 255, 255, 0.14); }
+.gb-drive-disc > .gb-icon { width: 54%; height: 54%; }
+.gb-drive-clock {
+    padding: 5px 16px 5px 12px; border-radius: 26px; align-items: center;
+    background-color: rgba(59, 54, 79, 0.80); border-width: 2px; border-color: rgba(255, 255, 255, 0.14);
+}
+/* fixed line boxes: Nunito's tall line height would make the pill twice as high as on the board */
+.gb-drive-clock-time { height: 26px; font-size: 23px; -unity-text-align: middle-right; color: var(--gb-text-invers); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-drive-clock-date { height: 15px; font-size: 12px; -unity-text-align: middle-right; color: rgba(255, 255, 255, 0.84); }
+.gb-drive-task { padding: 12px 16px 14px 16px; }
+.gb-drive-task-rule { height: 1px; background-color: rgba(107, 79, 58, 0.14); margin: 8px 0 7px 0; }
+.gb-drive-speed {
+    padding: 8px 10px; border-radius: 42px; align-items: center;
+    background-color: rgba(59, 54, 79, 0.62); border-width: 2px; border-color: rgba(255, 255, 255, 0.14);
+}
+.gb-drive-speed-value { font-size: 30px; color: var(--gb-text-invers); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); margin-bottom: -7px; }
+.gb-drive-speed-unit { font-size: 11px; color: rgba(255, 255, 255, 0.84); }
+.gb-drive-fuel { width: 124px; height: 7px; background-color: rgba(255, 255, 255, 0.24); }
+.gb-drive-fuel > .gb-bar-fill { background-color: #5ED07E; }
+.gb-drive-nudge { background-color: rgba(255, 255, 255, 0.94); border-color: rgba(255, 255, 255, 0.94); }
+
+/* board 08: lavender "Zzz" drifting over the sleeping Gooby (HomeHudScreen.TickZzz) */
+.gb-zzz { color: #7B62C9; font-size: 52px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); letter-spacing: 4px; -unity-text-outline-width: 2px; -unity-text-outline-color: rgba(255, 255, 255, 0.9); }
+
+/* Gooby's soul: a feeling's symbol over his head, hearts when you pet him, answer chips under his bubble */
+.gb-feel { width: 58px; height: 58px; border-radius: 29px; background-color: rgba(255, 255, 255, 0.97); border-width: 3px; border-color: #FFD9D9; align-items: center; justify-content: center; }
+.gb-feel-icon { width: 34px; height: 34px; }
+.gb-feel-glyph { font-size: 34px; color: #E85D75; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); -unity-text-align: middle-center; margin-top: -4px; }
+.gb-heart-float { -unity-background-image-tint-color: #FF6F91; }
+.gb-soul-chips { flex-direction: row; align-items: center; }
+.gb-soul-chip { height: 48px; padding: 0 22px; margin: 0 6px; background-color: rgba(255, 255, 255, 0.97); border-width: 2px; border-color: #FFC2CF; color: var(--gb-primary-tief); font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-soul-chip:hover { background-color: #FFF1F4; }
+
+/* board 10 — inside a place: tab column on the left, dialog card at the bottom, accent per kind of place */
+.gb-place-tabs { position: absolute; left: 16px; top: 100px; padding: 8px; border-radius: 24px; background-color: rgba(255, 255, 255, 0.94); border-width: 2px; border-color: rgba(107, 79, 58, 0.10); }
+.gb-place-tabs > .gb-tab { width: 176px; height: 54px; margin-bottom: 6px; background-color: rgba(255, 255, 255, 0); border-width: 0; }
+.gb-place-tabs > .gb-tab:last-child { margin-bottom: 0; }
+.gb-place-tabs > .gb-tab > .gb-icon-tile { width: 36px; height: 36px; border-radius: 12px; background-color: rgba(255, 255, 255, 0); }
+.gb-place-tabs > .gb-tab > Label { font-size: var(--gb-md); }
+.gb-tab--rosa.gb-tab--active { background-color: #FFD9D9; border-width: 0; }
+.gb-tab--rosa.gb-tab--active > .gb-icon-tile { background-color: var(--gb-primary); }
+.gb-tab--gruen.gb-tab--active { background-color: #DDF3E4; border-width: 0; }
+.gb-tab--gruen.gb-tab--active > .gb-icon-tile { background-color: var(--gb-confirm); }
+.gb-tab--blau.gb-tab--active { background-color: #DCEBFF; border-width: 0; }
+.gb-tab--blau.gb-tab--active > .gb-icon-tile { background-color: var(--gb-himmelblau); }
+.gb-tab--gelb.gb-tab--active { background-color: #FFF0C8; border-width: 0; }
+.gb-tab--gelb.gb-tab--active > .gb-icon-tile { background-color: var(--gb-sonne); }
+.gb-dialog-card { position: absolute; left: 210px; right: 210px; bottom: 18px; padding: 14px 18px 14px 16px; border-radius: 24px; background-color: rgba(255, 255, 255, 0.96); border-width: 2px; border-color: rgba(107, 79, 58, 0.10); transition-property: opacity, translate; transition-duration: 0.18s; }
+.gb-dialog-card--covered { opacity: 0; translate: 0 24px; }
+.gb-dialog-name { font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); letter-spacing: 1px; margin-bottom: 2px; }
+.gb-dialog-text { font-size: var(--gb-lg); color: var(--gb-text); white-space: normal; }
+.gb-dialog-avatar { width: 44px; height: 44px; border-radius: 22px; margin-right: 12px; border-width: 2px; border-color: rgba(107, 79, 58, 0.12); background-color: var(--gb-pfirsich); justify-content: center; align-items: center; overflow: hidden; }
+.gb-dialog-actions { flex-direction: row; align-items: center; margin-top: 12px; margin-left: 56px; }
+.gb-dialog-actions > .gb-btn { height: 40px; min-width: 0; padding: 0 18px; margin-right: 10px; font-size: var(--gb-md); }
+.gb-dialog-actions > .gb-btn > .gb-icon { width: 20px; height: 20px; }
+.gb-dialog-actions > .gb-btn > .gb-btn-label { font-size: var(--gb-md); }
+.gb-dialog-more { position: absolute; right: 14px; bottom: 14px; width: 40px; height: 40px; }
+.gb-place-title { -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); font-size: 20px; color: var(--gb-text); }
+/* board 10: a place wears the dark glass of the home HUD — back disc, tab column (the active tab a light pill in the
+   place's accent), coins and gear; "…" of the dialog card sits at its bottom right */
+.gb-place-back { width: 58px; height: 58px; border-radius: 29px; background-color: rgba(59, 54, 79, 0.82); border-width: 2px; border-color: rgba(255, 255, 255, 0.16); }
+.gb-place-back > .gb-icon { width: 46%; height: 46%; }
+.gb-place-chrome .gb-place-tabs { background-color: rgba(59, 54, 79, 0.68); border-color: rgba(255, 255, 255, 0.14); }
+.gb-place-chrome .gb-place-tabs > .gb-tab > Label { color: var(--gb-text-invers); }
+.gb-place-chrome .gb-place-tabs > .gb-tab--active { background-color: #FFF8F5; border-width: 2px; border-color: rgba(255, 255, 255, 0.92); }
+.gb-place-chrome .gb-place-tabs > .gb-tab--active > Label { -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-place-chrome .gb-place-tabs > .gb-tab--active > .gb-icon-tile { background-color: rgba(255, 255, 255, 0); }
+.gb-place-chrome .gb-place-tabs > .gb-tab--rosa.gb-tab--active > Label { color: var(--gb-primary-tief); }
+.gb-place-chrome .gb-place-tabs > .gb-tab--gruen.gb-tab--active > Label { color: #3F8F60; }
+.gb-place-chrome .gb-place-tabs > .gb-tab--blau.gb-tab--active > Label { color: #3A6DB5; }
+.gb-place-chrome .gb-place-tabs > .gb-tab--gelb.gb-tab--active > Label { color: #A67B12; }
+.gb-place-chrome .gb-place-top .gb-pill { background-color: rgba(59, 54, 79, 0.80); border-color: rgba(255, 255, 255, 0.14); }
+.gb-place-chrome .gb-place-top .gb-pill-wert { color: var(--gb-text-invers); }
+.gb-place-chrome .gb-place-top .gb-btn-icon-sm { background-color: rgba(59, 54, 79, 0.80); border-color: rgba(255, 255, 255, 0.14); }
+.gb-dialog-more { position: absolute; right: 16px; bottom: 14px; }
+/* boards 05/09: build-mode header — cream back disc, dark capsule with a cream house disc and white title/hint */
+.gb-build-back { width: 60px; height: 60px; border-radius: 30px; background-color: #FFF8EF; border-width: 2px; border-color: rgba(107, 79, 58, 0.10); }
+.gb-build-back > .gb-icon { width: 44%; height: 44%; }
+.gb-build-head { align-items: center; padding: 6px 24px 6px 6px; border-radius: 36px; background-color: rgba(59, 54, 79, 0.72); border-width: 2px; border-color: rgba(255, 255, 255, 0.12); }
+.gb-build-head-icon { width: 54px; height: 54px; border-radius: 27px; background-color: #F6EBDD; justify-content: center; align-items: center; flex-shrink: 0; }
+.gb-build-head-icon > .gb-icon { width: 62%; height: 62%; }
+.gb-build-head .gb-h2 { color: var(--gb-text-invers); }
+.gb-build-head .gb-sm { color: rgba(255, 255, 255, 0.86); }
+
+
+/* ==========================================================================
+   MINIGAME POLISH (shared frame: MinigameHostScreen / ArcadeScreen / Juice)
+   Entry animations, countdown, stamp, stars, pause, results ceremony, float
+   texts. Only additions — the board 02/06 palette stays (cream, strawberry,
+   teal, leaf green). Keep this block at the end of the file.
+   ========================================================================== */
+
+/* arcade cards: quick squash under the finger (base transition, pop-in below overrides it while entering) */
+.gb-arcade-card { transition-property: scale, opacity; transition-duration: 0.14s; }
+
+/* entry animations: add the class + its --pre state, drop --pre a frame later */
+.gb-pop-in { transition-property: opacity, scale; transition-duration: 0.28s; transition-timing-function: ease-out-back; }
+.gb-pop-in--pre { opacity: 0; scale: 0.86; }
+.gb-fade-in { transition-property: opacity, translate; transition-duration: 0.24s; transition-timing-function: ease-out-cubic; }
+.gb-fade-in--pre { opacity: 0; translate: 0 12px; }
+
+.gb-arcade-card--pressed { scale: 0.95; transition-duration: 0.08s; }
+.gb-shop-card > .gb-badge.gb-badge--neu { left: 8px; right: auto; background-color: var(--gb-teal); }
+
+/* banner card under the pills fades instead of popping in and out */
+.gb-banner { opacity: 0; transition-property: opacity; transition-duration: 0.22s; }
+.gb-banner--on { opacity: 1; }
+
+/* game tile (arcade card, pregame, pause, results) */
+.gb-game-tile { border-width: 3px; border-color: rgba(255, 255, 255, 0.92); }
+.gb-game-tile > .gb-icon { width: 62%; height: 62%; }
+
+/* 3-2-1-LOS over the field: huge rounded digits with a strawberry outline */
+.gb-countdown {
+    font-size: 132px;
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    color: var(--gb-weiss);
+    -unity-text-outline-width: 4px;
+    -unity-text-outline-color: var(--gb-primary-tief);
+    text-shadow: 0 6px 0 rgba(107, 79, 58, 0.35);
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+}
+.gb-countdown--go { color: var(--gb-sonne); -unity-text-outline-color: var(--gb-schoko); }
+
+/* end-of-round stamp ("Zeit um!" / "Geschafft!") */
+.gb-stamp {
+    font-size: 64px;
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    color: var(--gb-primary);
+    -unity-text-outline-width: 4px;
+    -unity-text-outline-color: var(--gb-weiss);
+    text-shadow: 0 5px 0 rgba(107, 79, 58, 0.3);
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+    rotate: -5deg;
+}
+.gb-stamp--lose { color: var(--gb-himmelblau); }
+
+/* float texts (+Δ, "Serie ×3") */
+.gb-float {
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgba(51, 31, 26, 0.85);
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+}
+
+/* the streak line under the pills grows with the streak (font size from code); outlined to read on any field */
+.gb-combo {
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    -unity-text-outline-width: 1.5px;
+    -unity-text-outline-color: rgba(255, 255, 255, 0.95);
+    white-space: nowrap;
+}
+
+/* stars (pregame best, arcade card, results) */
+.gb-stars { flex-direction: row; align-items: center; }
+.gb-star { width: 24px; height: 24px; margin-right: 2px; -unity-background-image-tint-color: rgba(150, 140, 130, 0.45); }
+.gb-star--on { -unity-background-image-tint-color: rgb(255, 255, 255); }
+
+/* pause button: two rounded bars in the icon disc */
+.gb-pause-btn { justify-content: center; align-items: center; }
+.gb-pause-bars { flex-direction: row; align-items: center; justify-content: center; }
+.gb-pause-bar { width: 7px; height: 22px; border-radius: 4px; background-color: var(--gb-text); margin: 0 3px; }
+.gb-pause-help { margin-top: 4px; padding: 8px 12px; border-radius: 14px; background-color: var(--gb-sand-hell); color: var(--gb-text); }
+
+/* results ceremony */
+.gb-results-score-wert { font-size: 44px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); }
+.gb-results-row { padding: 3px 10px; border-radius: 12px; }
+.gb-results-row--hot { background-color: #FFF0C8; border-width: 2px; border-color: var(--gb-sonne); }
+.gb-results-row--hot > Label { -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); }
+.gb-record-badge {
+    align-self: flex-start;
+    margin-top: 6px; margin-bottom: 4px;
+    padding: 4px 16px;
+    border-radius: var(--gb-r-pill);
+    background-color: var(--gb-sonne);
+    border-width: 2px; border-color: var(--gb-weiss);
+    color: var(--gb-schoko);
+    font-size: 18px;
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    rotate: -3deg;
+}
+/* Spielen / Nochmal while Gooby is too tired: dimmed, still pressable (the tap pops the sleepy hint) */
+.gb-btn.gb-btn--tired { opacity: 0.55; }
+
+/* pregame: today's spotlight line ("Spiel des Tages"), a sun-gold strip like the arcade's badge */
+.gb-pregame-spotlight {
+    align-self: flex-start;
+    padding: 4px 12px;
+    border-radius: 12px;
+    background-color: #FFF0C8;
+    color: var(--gb-schoko);
+}
+/* ======================== end MINIGAME POLISH ============================ */
+
+
+/* ---------- online: friends, mailbox, visit (board 02/06/07/08) ----------
+   Cream window with white cards (board 07 hierarchy), pill buttons with hover/press, icon tiles, status dots,
+   warm letter paper with a stamp corner, charcoal visit capsule (board 08), toasts with an icon disc.
+   Screens put .gb-online on their root (the settings group on itself) so the hover/focus rules stay local. */
+
+/* window + header */
+.gb-online-panel {
+    background-color: var(--gb-panel);
+    border-radius: var(--gb-r-xl);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.12);
+    border-bottom-width: 4px;
+    border-bottom-color: rgba(107, 79, 58, 0.16);
+    padding: 18px 22px 18px 22px;
+}
+.gb-on-head { flex-direction: row; align-items: center; padding-bottom: 14px; border-bottom-width: 2px; border-bottom-color: rgba(107, 79, 58, 0.08); }
+.gb-on-head > .gb-icon-tile { width: 54px; height: 54px; border-radius: 18px; }
+.gb-on-head-text { flex-grow: 1; flex-shrink: 1; margin-left: 14px; margin-right: 12px; }
+.gb-on-title { font-size: var(--gb-h2); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-on-head > .gb-btn { margin-left: 10px; }
+.gb-on-head > .gb-btn-icon { margin-left: 12px; }
+.gb-on-status { flex-direction: row; align-items: center; align-self: flex-start; flex-shrink: 1; margin-top: 4px; padding: 3px 12px 3px 8px; border-radius: var(--gb-r-pill); background-color: rgba(107, 79, 58, 0.07); }
+.gb-on-status > Label { font-size: var(--gb-sm); color: var(--gb-text-mild); -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); flex-shrink: 1; }
+.gb-status-dot { width: 10px; height: 10px; border-radius: 5px; margin-right: 6px; flex-shrink: 0; background-color: #C8C0B6; }
+.gb-status-dot--on { background-color: #5FCB8A; }
+.gb-status-dot--wait { background-color: var(--gb-sonne); }
+.gb-status-dot--off { background-color: var(--gb-primary); }
+.gb-on-body { flex-direction: row; align-items: stretch; flex-grow: 1; flex-shrink: 1; margin-top: 14px; }
+.gb-on-side { width: 372px; flex-shrink: 0; margin-right: 18px; }
+.gb-on-main { flex-grow: 1; flex-shrink: 1; }
+
+/* cards, section heads, hints */
+.gb-on-card { background-color: var(--gb-weiss); border-radius: var(--gb-r-lg); border-width: 2px; border-color: rgba(107, 79, 58, 0.08); padding: 14px 16px 14px 16px; }
+.gb-on-gap { margin-top: 12px; }
+.gb-on-card-head { flex-direction: row; align-items: center; margin-bottom: 10px; }
+.gb-on-card-head > .gb-icon-tile { width: 34px; height: 34px; border-radius: 12px; margin-right: 10px; }
+.gb-on-card-title { font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-on-kicker { font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); letter-spacing: 0.5px; color: var(--gb-text-mild); }
+.gb-on-hint { font-size: var(--gb-sm); color: var(--gb-text-mild); white-space: normal; margin-top: 6px; }
+.gb-on-hint--ok { color: #3E8F62; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-on-hint--err { color: var(--gb-primary-tief); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-on-section { flex-direction: row; align-items: center; margin: 14px 0 8px 4px; }
+.gb-on-section > Label { font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); flex-shrink: 1; }
+.gb-on-section--top { margin-top: 0; }
+.gb-on-count { min-width: 24px; height: 24px; margin-left: 8px; padding: 0 7px; border-radius: var(--gb-r-pill); background-color: var(--gb-primary); color: var(--gb-text-invers); font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); -unity-text-align: middle-center; }
+.gb-on-scroll { flex-grow: 1; flex-shrink: 1; }
+.gb-on-wide { align-self: stretch; margin-top: 10px; }
+
+/* hover / press / focus inside the online screens */
+.gb-online .gb-btn-secondary:hover { background-color: var(--gb-weiss); border-color: rgba(107, 79, 58, 0.24); }
+.gb-online .gb-btn-primary:hover { background-color: #FF9B9B; }
+.gb-online .gb-btn-primary:hover:active { background-color: var(--gb-primary-tief); }
+.gb-online .gb-btn-teal:hover { background-color: #52D9BE; }
+.gb-online .gb-btn-teal:hover:active { background-color: #2FB89E; }
+.gb-online .gb-btn-confirm:hover { background-color: #8FD8AA; }
+.gb-online .gb-btn-confirm:hover:active { background-color: var(--gb-confirm-tief); }
+.gb-online .gb-btn-icon:hover { background-color: var(--gb-weiss); border-color: rgba(107, 79, 58, 0.24); scale: 1.05; }
+.gb-online .gb-btn-icon:hover:active { scale: 0.92; }
+.gb-online .gb-textfield > #unity-text-input {
+    background-color: var(--gb-weiss);
+    border-radius: 18px;
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.18);
+    padding: 10px 16px 10px 16px;
+    font-size: 15px;
+    color: var(--gb-text);
+    -unity-font-definition: url("../Fonts/Nunito-Medium.ttf");
+    --unity-cursor-color: #3B364F;
+    --unity-selection-color: rgba(62, 207, 178, 0.35);
+    transition-property: border-color, background-color;
+    transition-duration: 0.12s;
+}
+.gb-online .gb-textfield:hover > #unity-text-input { border-color: rgba(107, 79, 58, 0.32); }
+.gb-online .gb-textfield:focus > #unity-text-input { border-color: var(--gb-teal); background-color: #F7FFFD; }
+.gb-online .gb-textfield > #unity-text-input:focus { border-color: var(--gb-teal); background-color: #F7FFFD; }
+.gb-online .gb-textfield > #unity-text-input.unity-base-text-field__input--placeholder { color: var(--gb-text-leise); }
+
+/* Freunde: own code "ticket", add card, requests */
+.gb-code-card { background-color: #E4F6EA; border-color: rgba(95, 184, 132, 0.30); }
+.gb-code-card > .gb-on-kicker { color: #3E8F62; }
+.gb-code-ticket { flex-direction: row; align-items: center; margin-top: 8px; padding: 5px 5px 5px 18px; border-radius: var(--gb-r-pill); background-color: var(--gb-weiss); border-width: 2px; border-color: rgba(95, 184, 132, 0.45); }
+.gb-code-value { flex-grow: 1; flex-shrink: 1; font-size: var(--gb-h2); letter-spacing: 1px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); }
+.gb-code-ticket > .gb-btn { height: 40px; min-width: 0; padding: 0 14px 0 10px; margin-left: 8px; }
+.gb-code-ticket > .gb-btn > .gb-icon { width: 20px; height: 20px; margin-right: 6px; }
+.gb-code-ticket > .gb-btn > .gb-btn-label { font-size: var(--gb-md); }
+.gb-code-ticket > .gb-btn-icon { width: 40px; height: 40px; margin-left: 8px; }
+.gb-code-ticket--sm { margin-top: 0; padding-left: 14px; }
+.gb-code-ticket--sm > .gb-code-value { font-size: var(--gb-h3); }
+.gb-request { margin-bottom: 8px; padding: 10px 12px 10px 10px; border-radius: 20px; background-color: #FFF0F0; border-width: 2px; border-color: rgba(242, 109, 109, 0.28); }
+.gb-request-top { flex-direction: row; align-items: center; }
+.gb-request-top > .gb-avatar { width: 42px; height: 42px; margin-right: 10px; border-color: var(--gb-weiss); }
+.gb-request-btns { flex-direction: row; justify-content: flex-end; margin-top: 8px; }
+.gb-request-btns > .gb-btn { height: 38px; min-width: 0; padding: 0 14px 0 10px; margin-left: 8px; }
+.gb-request-btns > .gb-btn > .gb-icon { width: 18px; height: 18px; margin-right: 6px; }
+.gb-request-btns > .gb-btn > .gb-btn-label { font-size: var(--gb-md); }
+.gb-on-offline { flex-direction: row; align-items: center; margin-bottom: 10px; background-color: #FFEDED; border-color: rgba(242, 109, 109, 0.30); }
+.gb-on-offline > .gb-icon-tile { width: 46px; height: 46px; margin-right: 12px; background-color: var(--gb-weiss); }
+.gb-on-offline-text { font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); white-space: normal; color: var(--gb-text); }
+.gb-on-offline-btns { flex-direction: row; margin-top: 8px; }
+.gb-on-offline-btns > .gb-btn { margin-right: 10px; }
+
+/* Freunde: friend rows (name + Gooby tag + status line left, compact pill actions right) */
+.gb-friend-row { flex-direction: column; margin-bottom: 8px; padding: 10px 12px 10px 10px; background-color: var(--gb-weiss); border-radius: var(--gb-r-lg); border-width: 2px; border-color: rgba(107, 79, 58, 0.08); transition-property: border-color, background-color; transition-duration: 0.12s; }
+.gb-friend-row:hover { border-color: rgba(107, 79, 58, 0.20); }
+.gb-friend-row--offline { background-color: rgba(255, 255, 255, 0.62); }
+.gb-friend-main { flex-direction: row; align-items: center; }
+.gb-friend-row .gb-avatar { width: 56px; height: 56px; margin-right: 12px; border-color: #FFE3D1; }
+.gb-friend-av--off { -unity-background-image-tint-color: rgba(255, 255, 255, 0.5); }
+.gb-online-dot { position: absolute; right: -3px; bottom: -3px; width: 18px; height: 18px; border-radius: 9px; border-width: 3px; border-color: var(--gb-weiss); background-color: #C8C0B6; }
+.gb-online-dot--on { background-color: #5FCB8A; }
+.gb-friend-info { flex-grow: 1; flex-shrink: 1; min-width: 60px; margin-right: 10px; }
+.gb-friend-name-row { flex-direction: row; align-items: center; }
+.gb-friend-name { flex-shrink: 1; font-size: 17px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-friend-gooby { flex-shrink: 1; max-width: 170px; margin-left: 8px; padding: 1px 10px 1px 10px; border-radius: var(--gb-r-pill); background-color: #FFE8DA; color: var(--gb-schoko); font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-friend-coins { flex-direction: row; align-items: center; flex-shrink: 0; margin-left: 6px; padding: 1px 10px 1px 4px; border-radius: var(--gb-r-pill); background-color: #FFF0C8; }
+.gb-friend-coins > .gb-icon { width: 18px; height: 18px; margin-right: 4px; }
+.gb-friend-coins > Label { font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); }
+.gb-friend-line { margin-top: 3px; font-size: 13px; color: var(--gb-text-mild); }
+.gb-friend-line--on { color: #3E8F62; -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); }
+.gb-friend-acts { flex-direction: row; flex-wrap: wrap; align-items: center; margin-top: 8px; padding-left: 68px; }
+.gb-friend-act { height: 38px; min-width: 0; margin: 0 6px 4px 0; padding: 0 14px 0 10px; }
+.gb-friend-act > .gb-icon { width: 22px; height: 22px; margin-right: 6px; }
+.gb-friend-act > .gb-btn-label { font-size: var(--gb-md); }
+.gb-friend-rm { width: 38px; height: 38px; margin: 0 0 4px auto; }
+.gb-friend-rm > .gb-icon { width: 58%; height: 58%; }
+.gb-btn-danger { background-color: #FFD9D9; border-color: var(--gb-primary-tief); }
+.gb-online .gb-btn-danger:hover { background-color: #FFC9C9; border-color: var(--gb-primary-tief); }
+.gb-friend-confirm { flex-direction: row; align-items: center; justify-content: flex-end; margin-top: 8px; padding: 6px 12px 6px 12px; border-radius: 14px; background-color: #FFE3E3; }
+.gb-friend-confirm > Label { font-size: 13px; color: var(--gb-primary-tief); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+/* narrow panels (4:3 tablets): the row actions drop their labels and become round icon buttons */
+.gb-friends--compact .gb-friend-act { width: 40px; padding: 0; }
+.gb-friends--compact .gb-friend-act > .gb-icon { margin-right: 0; }
+.gb-friends--compact .gb-friend-act > .gb-btn-label { display: none; }
+.gb-friends--compact .gb-on-side { width: 320px; }
+.gb-friends--compact .gb-code-ticket > .gb-btn { width: 40px; padding: 0; }
+.gb-friends--compact .gb-code-ticket > .gb-btn > .gb-icon { margin-right: 0; }
+.gb-friends--compact .gb-code-ticket > .gb-btn > .gb-btn-label { display: none; }
+
+/* empty states: Gooby on a soft sun disc */
+.gb-on-empty { flex-grow: 1; align-items: center; justify-content: center; padding: 18px 18px 18px 18px; }
+.gb-on-empty-art { width: 170px; height: 170px; border-radius: 85px; background-color: rgba(255, 209, 102, 0.22); justify-content: center; align-items: center; margin-bottom: 12px; }
+.gb-on-empty-art--sm { width: 132px; height: 132px; border-radius: 66px; }
+.gb-on-empty-title { font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: normal; -unity-text-align: middle-center; max-width: 440px; }
+.gb-on-empty-hint { margin-top: 4px; font-size: 13px; color: var(--gb-text-mild); white-space: normal; -unity-text-align: middle-center; max-width: 420px; }
+
+/* Briefkasten: letter list (envelopes) */
+.gb-mail-list { width: 400px; flex-shrink: 0; margin-right: 18px; }
+.gb-letter-row { flex-direction: row; align-items: center; margin-bottom: 8px; padding: 10px 12px 10px 10px; background-color: var(--gb-weiss); border-radius: 20px; border-width: 2px; border-color: rgba(107, 79, 58, 0.08); transition-property: scale, background-color, border-color; transition-duration: 0.12s; }
+.gb-letter-row:hover { border-color: rgba(107, 79, 58, 0.22); }
+.gb-letter-row:active { scale: 0.98; }
+.gb-letter-row--unread { background-color: #FFF4E6; border-color: rgba(255, 139, 139, 0.45); }
+.gb-letter-row--selected { background-color: #FFE9E9; border-color: var(--gb-primary); }
+.gb-letter-row--selected:hover { border-color: var(--gb-primary); }
+.gb-letter-row > .gb-icon-tile { width: 46px; height: 46px; border-radius: 15px; flex-shrink: 0; }
+.gb-letter-body { flex-grow: 1; flex-shrink: 1; min-width: 40px; margin-left: 10px; }
+.gb-letter-top { flex-direction: row; align-items: center; }
+.gb-letter-from { flex-grow: 1; flex-shrink: 1; font-size: 15px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-letter-time { flex-shrink: 0; margin-left: 8px; font-size: var(--gb-sm); color: var(--gb-text-leise); }
+.gb-letter-new { flex-shrink: 0; margin-left: 8px; padding: 1px 8px 1px 8px; border-radius: var(--gb-r-pill); background-color: var(--gb-primary); color: var(--gb-text-invers); font-size: 11px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-letter-snippet { margin-top: 2px; font-size: 13px; color: var(--gb-text-mild); }
+.gb-letter-row--unread .gb-letter-snippet { color: var(--gb-text); -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); }
+.gb-letter-row--unread .gb-letter-from { -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+
+/* Briefkasten: the paper (opened letter, hint, writing desk) with stamp + postmark corner */
+.gb-letter-paper { flex-grow: 1; background-color: #FFF9EE; border-width: 2px; border-color: #EBD5B8; border-bottom-width: 4px; border-bottom-color: #E2C7A6; border-radius: 26px; padding: 20px 26px 18px 26px; }
+.gb-letter-stamp { position: absolute; top: 16px; right: 20px; width: 62px; height: 74px; padding: 4px; border-radius: 8px; background-color: var(--gb-weiss); border-width: 2px; border-color: rgba(201, 154, 107, 0.35); rotate: 6deg; }
+.gb-letter-stamp-inner { flex-grow: 1; border-radius: 5px; background-color: #FFD9D9; border-width: 2px; border-color: rgba(242, 109, 109, 0.45); justify-content: center; align-items: center; }
+.gb-letter-stamp-inner > .gb-icon { width: 34px; height: 34px; }
+.gb-letter-postmark { position: absolute; top: 44px; right: 64px; width: 60px; height: 60px; border-radius: 30px; border-width: 2px; border-color: rgba(107, 79, 58, 0.22); justify-content: center; align-items: center; rotate: -14deg; }
+.gb-letter-postmark > Label { font-size: 9px; letter-spacing: 1px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: rgba(107, 79, 58, 0.42); -unity-text-align: middle-center; white-space: normal; width: 48px; }
+.gb-letter-head { flex-direction: row; align-items: center; margin-right: 124px; }
+.gb-letter-head > .gb-avatar { width: 54px; height: 54px; margin-right: 12px; border-color: #FFE3D1; }
+.gb-letter-head > .gb-icon-tile { width: 50px; height: 50px; border-radius: 16px; margin-right: 12px; }
+.gb-letter-title { font-size: var(--gb-h3); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-letter-meta { margin-top: 2px; font-size: var(--gb-sm); color: var(--gb-text-mild); }
+.gb-letter-rule { height: 2px; margin: 16px 0 6px 0; background-color: rgba(201, 154, 107, 0.28); }
+.gb-letter-scroll { flex-grow: 1; flex-shrink: 1; }
+.gb-letter-text { margin-top: 10px; white-space: normal; font-size: 18px; -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: #4A4258; }
+.gb-letter-gift { flex-direction: row; align-items: center; margin-top: 12px; padding: 10px 12px 10px 10px; border-radius: 18px; background-color: #FFEDED; border-width: 2px; border-color: rgba(242, 109, 109, 0.30); }
+.gb-letter-gift--claimed { background-color: #E4F6EA; border-color: rgba(95, 184, 132, 0.35); }
+.gb-letter-gift > .gb-icon-tile { width: 46px; height: 46px; margin-right: 12px; background-color: var(--gb-weiss); }
+.gb-letter-gift-name { flex-grow: 1; flex-shrink: 1; font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: normal; }
+.gb-letter-claimed { flex-direction: row; align-items: center; padding: 4px 12px 4px 6px; border-radius: var(--gb-r-pill); background-color: var(--gb-confirm); }
+.gb-letter-claimed > .gb-icon { width: 20px; height: 20px; margin-right: 4px; }
+.gb-letter-claimed > Label { color: var(--gb-text-invers); font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-letter-actions { flex-direction: row; align-items: center; margin-top: 14px; padding-top: 12px; border-top-width: 2px; border-top-color: rgba(201, 154, 107, 0.22); }
+.gb-letter-actions > .gb-btn { margin-right: 10px; }
+.gb-letter-hint { flex-grow: 1; align-items: center; justify-content: center; }
+
+/* Briefkasten: writing desk */
+.gb-compose-label { margin: 14px 0 6px 2px; font-size: 11px; letter-spacing: 1px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #A0785A; }
+.gb-compose-label--first { margin-top: 12px; }
+.gb-compose-chips { flex-direction: row; flex-wrap: wrap; }
+.gb-on-chip { flex-direction: row; align-items: center; height: 38px; min-width: 0; margin: 0 8px 8px 0; padding: 0 14px 0 8px; border-radius: var(--gb-r-pill); background-color: var(--gb-weiss); border-width: 2px; border-color: rgba(107, 79, 58, 0.12); transition-property: scale, background-color, border-color; transition-duration: 0.12s; }
+.gb-on-chip:hover { border-color: rgba(107, 79, 58, 0.28); }
+.gb-on-chip:active { scale: 0.96; }
+.gb-on-chip > Label { max-width: 180px; font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: var(--gb-text); }
+.gb-on-chip > .gb-icon { width: 22px; height: 22px; margin-right: 6px; }
+.gb-on-chip > .gb-status-dot { margin-left: 2px; margin-right: 8px; }
+.gb-on-chip--plain { padding-left: 14px; }
+.gb-on-chip--to.gb-on-chip--active { background-color: var(--gb-primary); border-color: var(--gb-primary); }
+.gb-on-chip--gift.gb-on-chip--active { background-color: var(--gb-teal); border-color: var(--gb-teal); }
+.gb-on-chip--active > Label { color: var(--gb-text-invers); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-on-chip--active > .gb-status-dot { border-width: 2px; border-color: var(--gb-weiss); }
+.gb-compose-text > #unity-text-input { flex-grow: 1; -unity-text-align: upper-left; }
+.gb-online .gb-compose-text > #unity-text-input { font-size: var(--gb-lg); }
+.gb-compose-meta { flex-direction: row; align-items: center; margin-top: 6px; }
+.gb-compose-count { flex-grow: 1; font-size: var(--gb-sm); color: var(--gb-text-leise); -unity-text-align: middle-right; }
+.gb-compose-count--warn { color: var(--gb-primary-tief); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-compose-offline { flex-direction: row; align-items: center; padding: 2px 10px 2px 8px; border-radius: var(--gb-r-pill); background-color: #FFF0C8; }
+.gb-compose-offline > .gb-icon { width: 16px; height: 16px; margin-right: 6px; }
+.gb-compose-offline > Label { font-size: var(--gb-sm); color: var(--gb-schoko); -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); }
+
+/* Einstellungen → Konto → Mehrspieler */
+.gb-mp-help { font-size: var(--gb-sm); color: var(--gb-text-mild); white-space: normal; margin: 4px 4px 2px 4px; }
+.gb-mp-status { flex-direction: row; align-items: center; margin: 8px 0 8px 0; padding: 10px 12px 10px 10px; border-radius: 18px; background-color: var(--gb-sand-hell); border-width: 2px; border-color: rgba(107, 79, 58, 0.10); }
+.gb-mp-status--on { background-color: #E4F6EA; border-color: rgba(95, 184, 132, 0.35); }
+.gb-mp-status--wait { background-color: #FFF4D6; border-color: rgba(255, 209, 102, 0.60); }
+.gb-mp-status--off { background-color: #FFEDED; border-color: rgba(242, 109, 109, 0.28); }
+.gb-mp-status > .gb-icon-tile { width: 46px; height: 46px; margin-right: 12px; background-color: var(--gb-weiss); }
+.gb-mp-status-col { flex-grow: 1; flex-shrink: 1; margin-right: 8px; }
+.gb-mp-status-kicker { flex-direction: row; align-items: center; }
+.gb-mp-status-kicker > Label { font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text-mild); }
+.gb-mp-status-text { margin-top: 2px; font-size: 15px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: normal; }
+.gb-mp-status > .gb-btn { margin-left: 10px; }
+.gb-mp-field { width: 360px; }
+.gb-mp-warn { font-size: var(--gb-sm); color: var(--gb-schoko); white-space: normal; margin: 2px 4px 6px 4px; padding: 6px 10px; border-radius: 12px; background-color: #FFF0C8; -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); }
+.gb-mp-code { flex-direction: row; align-items: center; }
+.gb-mp-code > .gb-btn { margin-left: 10px; }
+
+/* Besuch HUD (board 08): charcoal capsule, pink end pill, emote discs, name tag with tail */
+.gb-visit-cap { position: absolute; flex-direction: row; align-items: center; max-width: 560px; padding: 8px 26px 8px 8px; border-radius: 44px; background-color: rgba(59, 54, 79, 0.88); border-width: 2px; border-color: rgba(255, 255, 255, 0.16); }
+.gb-visit-cap > .gb-avatar { width: 64px; height: 64px; margin-right: 12px; border-color: var(--gb-weiss); }
+.gb-visit-cap-text { flex-shrink: 1; }
+.gb-visit-kicker { align-self: flex-start; margin-bottom: 3px; padding: 1px 10px 1px 10px; border-radius: var(--gb-r-pill); background-color: #FFD9D9; color: var(--gb-primary-tief); font-size: 11px; letter-spacing: 1px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-visit-title { font-size: var(--gb-h3); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text-invers); }
+.gb-visit-sub { flex-direction: row; align-items: center; margin-top: 3px; }
+.gb-visit-sub > Label { flex-shrink: 1; font-size: var(--gb-sm); color: rgba(255, 255, 255, 0.78); -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); }
+.gb-visit-end { border-width: 3px; border-color: var(--gb-weiss); }
+.gb-visit-emotes { flex-direction: row; align-items: flex-end; }
+.gb-visit-emotes > .gb-action:hover { border-color: rgba(255, 255, 255, 0.55); scale: 1.04; }
+.gb-visit-emotes > .gb-action:hover:active { scale: 0.93; }
+.gb-visit-tag { position: absolute; flex-direction: row; align-items: center; height: 40px; padding: 0 16px 0 10px; translate: -50% 0; border-radius: var(--gb-r-pill); background-color: rgba(255, 255, 255, 0.96); border-width: 2px; border-color: rgba(255, 139, 139, 0.55); }
+.gb-visit-tag > .gb-icon { width: 22px; height: 22px; margin-right: 6px; }
+.gb-visit-tag > Label { max-width: 200px; font-size: 15px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); }
+.gb-visit-tag-tail { position: absolute; left: 50%; bottom: -8px; width: 14px; height: 14px; translate: -7px 0; rotate: 45deg; background-color: rgba(255, 255, 255, 0.96); border-right-width: 2px; border-bottom-width: 2px; border-color: rgba(255, 139, 139, 0.55); }
+
+/* Ranch-Treffen, Besuch: the host's ranch in the right column (same dark glass as the capsule) */
+.gb-rmp-visit { position: absolute; width: 300px; padding: 12px 16px 14px 16px; border-radius: 24px; background-color: rgba(59, 54, 79, 0.86); border-width: 2px; border-color: rgba(255, 255, 255, 0.16); }
+.gb-rmp-visit-head { flex-direction: row; align-items: center; }
+.gb-rmp-visit-head > .gb-icon { width: 30px; height: 30px; margin-right: 8px; }
+.gb-rmp-visit-title { flex-shrink: 1; font-size: var(--gb-lg); color: var(--gb-text-invers); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gb-rmp-visit-line { margin-top: 4px; font-size: var(--gb-sm); color: rgba(255, 255, 255, 0.82); -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); white-space: normal; }
+.gb-rmp-visit-kicker { align-self: flex-start; margin-top: 10px; padding: 1px 10px 1px 10px; border-radius: var(--gb-r-pill); background-color: #FFD9D9; color: var(--gb-primary-tief); font-size: 11px; letter-spacing: 1px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-rmp-horse { flex-direction: row; align-items: center; margin-top: 6px; }
+.gb-rmp-horse-dot { width: 16px; height: 16px; margin-right: 8px; border-radius: 8px; border-width: 2px; border-color: rgba(255, 255, 255, 0.85); }
+.gb-rmp-horse-name { font-size: var(--gb-sm); color: var(--gb-text-invers); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); white-space: nowrap; }
+.gb-rmp-horse-meta { flex-shrink: 1; margin-left: 6px; font-size: var(--gb-sm); color: rgba(255, 255, 255, 0.68); -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gb-visit-emote { position: absolute; width: 66px; height: 66px; border-radius: 33px; justify-content: center; align-items: center; background-color: rgba(255, 255, 255, 0.97); border-width: 3px; border-color: #FFD9D9; }
+.gb-visit-emote > .gb-icon { width: 38px; height: 38px; }
+/* a running buff on a need in the stats sheet (hud_status_sheet.gd's chip) */
+.gb-buff-chip { margin-left: 6px; padding: 1px 7px; border-radius: 10px; background-color: #FFF0C8; border-width: 1px; border-color: #F2C14E; font-size: 12px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: #8A5A1E; }
+/* "Snap A Gooby!" visit selfie: a white hint pill and the big strawberry countdown with a chocolate outline */
+.gb-selfie-hint { padding: 8px 22px; border-radius: 22px; background-color: rgba(255, 255, 255, 0.96); border-width: 2px; border-color: #FFD9D9; font-size: 18px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: nowrap; }
+.gb-selfie-count { font-size: 150px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #FF8B8B; -unity-text-outline-width: 6px; -unity-text-outline-color: #6B4F3A; }
+
+/* global notices (UiRoot.Toast / Prompt, visit toasts): white pill with an icon disc, gentle slide-in */
+.gb-notice-lane { align-items: center; }
+.gb-notice { height: auto; min-height: 48px; max-width: 700px; padding: 6px 20px 6px 6px; border-radius: 26px; background-color: rgba(255, 255, 255, 0.97); border-width: 2px; border-color: rgba(107, 79, 58, 0.10); border-bottom-width: 3px; border-bottom-color: rgba(107, 79, 58, 0.16); transition-property: opacity, translate; transition-duration: 0.22s; transition-timing-function: ease-out-cubic; }
+.gb-notice > Label { flex-shrink: 1; max-width: 620px; white-space: normal; font-size: 15px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); }
+.gb-notice--pre { opacity: 0; translate: 0 -12px; }
+.gb-notice--out { opacity: 0; translate: 0 -8px; }
+.gb-notice-icon { width: 36px; height: 36px; flex-shrink: 0; margin-right: 10px; border-radius: 18px; justify-content: center; align-items: center; background-color: var(--gb-sand-hell); }
+.gb-notice-icon > .gb-icon { width: 24px; height: 24px; }
+.gb-notice-icon--rosa { background-color: #FFE3E3; }
+.gb-notice-icon--sonne { background-color: #FFF0C8; }
+.gb-notice-icon--mint { background-color: #DDF3E4; }
+.gb-notice-icon--blau { background-color: #DCEBFF; }
+.gb-notice-icon--sand { background-color: var(--gb-sand-hell); }
+.gb-notice-wrap { margin-bottom: 10px; transition-property: opacity, scale; transition-duration: 0.26s; transition-timing-function: ease-out-back; }
+.gb-notice-wrap--pre { opacity: 0; scale: 0.9; }
+.gb-notice-card { width: 540px; padding: 16px 18px 14px 16px; border-radius: 26px; background-color: #FFF8EE; border-width: 2px; border-color: rgba(255, 139, 139, 0.45); border-bottom-width: 4px; border-bottom-color: rgba(242, 109, 109, 0.40); }
+.gb-notice-head { flex-direction: row; align-items: center; }
+.gb-notice-face { width: 60px; height: 60px; margin-right: 0; border-color: var(--gb-weiss); }
+.gb-notice-face-badge { position: absolute; right: -6px; bottom: -6px; width: 28px; height: 28px; border-radius: 14px; justify-content: center; align-items: center; background-color: #FFE3E3; border-width: 2px; border-color: var(--gb-weiss); }
+.gb-notice-face-badge > .gb-icon { width: 18px; height: 18px; }
+.gb-notice-texts { flex-grow: 1; flex-shrink: 1; margin-left: 14px; }
+.gb-notice-title { font-size: var(--gb-h3); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: normal; }
+.gb-notice-text { margin-top: 2px; font-size: var(--gb-md); color: var(--gb-text-mild); white-space: normal; }
+.gb-notice-timer { height: 6px; margin-top: 12px; border-radius: 3px; background-color: rgba(107, 79, 58, 0.10); overflow: hidden; }
+.gb-notice-timer-fill { height: 100%; width: 100%; border-radius: 3px; background-color: var(--gb-teal); }
+.gb-notice-btns { flex-direction: row; justify-content: flex-end; margin-top: 12px; }
+.gb-notice-btns > .gb-btn { margin-left: 10px; }
+.gb-online .gb-notice-btns > .gb-btn-secondary:hover { background-color: var(--gb-weiss); }
+
+/* ---------- scrollers: slim cream track, rounded taupe thumb, no arrow buttons (boards show no system bars) ---------- */
+.unity-scroller--vertical { width: 10px; margin-left: 4px; border-width: 0; background-color: rgba(0, 0, 0, 0); }
+.unity-scroller--vertical > .unity-scroller__low-button, .unity-scroller--vertical > .unity-scroller__high-button { display: none; }
+.unity-scroller--vertical .unity-base-slider__tracker { background-color: rgba(107, 79, 58, 0.08); border-width: 0; border-radius: 5px; left: 2px; right: 2px; }
+.unity-scroller--vertical .unity-base-slider__dragger { background-color: rgba(107, 79, 58, 0.28); border-width: 0; border-radius: 5px; left: 1px; right: 1px; }
+.unity-scroller--vertical .unity-base-slider__dragger:hover { background-color: rgba(107, 79, 58, 0.42); }
+.unity-scroller--horizontal { height: 10px; }
+.unity-scroller--horizontal > .unity-scroller__low-button, .unity-scroller--horizontal > .unity-scroller__high-button { display: none; }
+
+/* ---------- HUD board 08: dark glass chrome over the room ----------
+   Board 08 draws the in-game HUD as charcoal translucent capsules with white text (profile, pills, clock, left tabs,
+   talk square); only the active tab (pink), speech bubble, tasks and gift card stay light. Board 06 "UI Elemente"
+   shows the same kit. Scoped to .gb-hud so sheets and menus keep the cream look. */
+.gb-hud .gb-hud-profile { background-color: rgba(59, 54, 79, 0.80); border-color: rgba(255, 255, 255, 0.14); border-bottom-color: rgba(0, 0, 0, 0.18); }
+.gb-hud .gb-hud-profile .gb-h2 { color: var(--gb-text-invers); }
+.gb-hud .gb-hud-level { color: rgba(255, 255, 255, 0.86); }
+.gb-hud .gb-hud-xp { background-color: rgba(255, 255, 255, 0.22); }
+.gb-hud .gb-hud-profile .gb-icon { -unity-background-image-tint-color: #9BE7B5; }
+.gb-hud .gb-pill { background-color: rgba(59, 54, 79, 0.78); border-color: rgba(255, 255, 255, 0.14); }
+.gb-hud .gb-pill-wert { color: var(--gb-text-invers); }
+.gb-hud .gb-hud-plus { border-width: 0; border-radius: 16px; }
+.gb-hud .gb-btn-icon-sm { background-color: rgba(59, 54, 79, 0.78); border-color: rgba(255, 255, 255, 0.14); }
+.gb-hud .gb-hud-clock { background-color: rgba(59, 54, 79, 0.80); border-color: rgba(255, 255, 255, 0.14); }
+.gb-hud .gb-hud-clock .gb-h3 { color: var(--gb-text-invers); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-hud .gb-hud-date { color: rgba(255, 255, 255, 0.82); }
+.gb-hud .gb-tab { background-color: rgba(59, 54, 79, 0.76); border-color: rgba(255, 255, 255, 0.12); }
+.gb-hud .gb-tab > Label { color: var(--gb-text-invers); }
+.gb-hud .gb-tab > .gb-icon-tile { background-color: rgba(255, 255, 255, 0.0); }
+.gb-hud .gb-tab--active { background-color: #FFE3E3; border-color: rgba(255, 255, 255, 0.9); }
+.gb-hud .gb-tab--active > Label { color: var(--gb-primary-tief); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-hud .gb-tab--active > .gb-icon-tile { background-color: rgba(255, 255, 255, 0.0); }
+.gb-hud .gb-hud-talk { width: 150px; height: 124px; border-radius: 34px; background-color: rgba(59, 54, 79, 0.80); border-width: 3px; border-color: rgba(255, 255, 255, 0.16); }
+.gb-hud .gb-hud-talk-label { margin-top: 4px; color: var(--gb-text-invers); font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); }
+.gb-hud .gb-hud-talk-up { position: absolute; bottom: -18px; left: 50%; translate: -18px 0; width: 36px; height: 24px; border-radius: 12px; background-color: rgba(59, 54, 79, 0.86); border-width: 2px; border-color: rgba(255, 255, 255, 0.16); justify-content: center; align-items: center; }
+.gb-hud .gb-hud-talk-up > .gb-icon { width: 16px; height: 16px; }
+.gb-hud .gb-action { width: 124px; height: 108px; border-radius: 30px; margin: 0 6px; }
+.gb-hud .gb-action > .gb-icon { width: 42px; height: 42px; margin-bottom: 4px; }
+.gb-hud .gb-action > Label { font-size: var(--gb-md); white-space: normal; -unity-text-align: middle-center; }
+.gb-hud .gb-action--main { width: 150px; height: 138px; border-radius: 40px; border-width: 4px; }
+.gb-hud .gb-action--main > .gb-icon { width: 56px; height: 56px; }
+.gb-hud .gb-action--main > Label { font-size: var(--gb-lg); }
+.gb-joy-arrow { position: absolute; width: 18px; height: 18px; opacity: 0.72; }
+.gb-joy-arrow--n { top: 12px; left: 50%; translate: -9px 0; }
+.gb-joy-arrow--s { bottom: 12px; left: 50%; translate: -9px 0; rotate: 180deg; }
+.gb-joy-arrow--w { left: 12px; top: 50%; translate: 0 -9px; rotate: -90deg; }
+.gb-joy-arrow--e { right: 12px; top: 50%; translate: 0 -9px; rotate: 90deg; }
+.gb-joy-ring { background-color: rgba(59, 54, 79, 0.30); border-color: rgba(255, 255, 255, 0.40); }
+.gb-joy-knob { width: 72px; height: 72px; background-color: rgba(230, 228, 236, 0.92); border-width: 3px; border-color: rgba(255, 255, 255, 0.9); }
+.gb-tab > .gb-icon-tile { flex-shrink: 0; }
+.gb-tab > Label { flex-shrink: 1; }
+.gb-hud .gb-tab { min-width: 168px; width: auto; padding-right: 20px; }
+.gb-hud .gb-hud-plus { justify-content: center; align-items: center; }
+.gb-hud-plus-mark { font-size: 24px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #5C4533; -unity-text-align: middle-center; margin-top: -3px; }
+
+/* friends: open requests sit on top of the friends list in the right column */
+.gb-on-requests { margin-bottom: 6px; }
+
+/* ---------- big moment above every screen (UiRoot.Celebrate: level up) ---------- */
+.gb-cheer { position: absolute; left: 0; top: 0; right: 0; bottom: 0; justify-content: center; align-items: center; background-color: rgba(59, 54, 79, 0.30); transition-property: opacity; transition-duration: 0.28s; }
+.gb-cheer--pre, .gb-cheer--out { opacity: 0; }
+.gb-cheer-card {
+    width: 440px;
+    padding: 74px 34px 28px 34px;
+    align-items: center;
+    border-radius: 36px;
+    background-color: #FFF8EE;
+    border-width: 3px;
+    border-color: #FFD166;
+    border-bottom-width: 7px;
+    border-bottom-color: #E8B24A;
+    transition-property: scale, translate;
+    transition-duration: 0.42s;
+    transition-timing-function: ease-out-back;
+}
+.gb-cheer--pre > .gb-cheer-card { scale: 0.55; translate: 0 40px; }
+.gb-cheer--out > .gb-cheer-card { scale: 0.9; }
+.gb-cheer-medal { position: absolute; top: -58px; width: 124px; height: 124px; border-radius: 62px; background-color: #FFD166; border-width: 7px; border-color: #FFFFFF; justify-content: center; align-items: center; }
+.gb-cheer-icon { width: 66px; height: 66px; }
+.gb-cheer-title { font-size: 46px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #6B4F3A; -unity-text-align: middle-center; text-shadow: 0 3px 0 rgba(255, 209, 102, 0.6); }
+.gb-cheer-line { margin-top: 8px; font-size: 18px; -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: #6B645C; -unity-text-align: middle-center; }
+/* unseen stickers: a pink dot on the HUD profile capsule (HomeHudScreen.RefreshAlbumDot) */
+.gb-hud-album-dot { position: absolute; top: 4px; left: 56px; width: 18px; height: 18px; border-radius: 9px; background-color: #FF8B8B; border-width: 3px; border-color: #FFFFFF; display: none; }

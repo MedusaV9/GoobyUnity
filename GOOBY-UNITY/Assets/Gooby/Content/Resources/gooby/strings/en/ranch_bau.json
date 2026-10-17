@@ -1,0 +1,313 @@
+{
+	"rbau": {
+		"titel": "Ranch Build",
+		"betreten": "Build",
+		"verlassen": "Done",
+		"kategorie": {
+			"anlage": "Facilities",
+			"deko": "Decor",
+			"boden": "Paths and Grounds",
+			"zaun": "Fences"
+		},
+		"item": {
+			"stallboxen": "Stable Boxes",
+			"weide": "Pasture",
+			"wasserstelle": "Water Trough",
+			"heulager": "Hay Storage",
+			"waschplatz": "Washing Bay",
+			"fuehranlage": "Horse Walker",
+			"reithalle": "Riding Hall",
+			"parcours": "Jumping Course",
+			"sattelkammer": "Tack Room",
+			"zuchtstall": "Breeding Barn",
+			"fohlenweide": "Foal Meadow",
+			"tribuene": "Grandstand",
+			"weidezaun": "Pasture Fence Upgrade",
+			"beet_blumen": "Flower Bed",
+			"beet_kraeuter": "Herb Bed",
+			"bank_holz": "Wooden Bench",
+			"laterne": "Yard Lantern",
+			"fahne": "Ranch Flag",
+			"blumenkuebel": "Flower Pot",
+			"vogelhaus": "Birdhouse",
+			"heuballen_deko": "Decorative Hay Bale",
+			"wegweiser": "Signpost",
+			"strohpuppe": "Straw Doll",
+			"weg_schotter": "Gravel Path",
+			"weg_pflaster": "Paved Path",
+			"sand": "Sand Ground",
+			"blumenwiese": "Flower Meadow",
+			"zaun_holz": "Wooden Fence",
+			"windspiel": "Wind Chime",
+			"deko_mistgabel_gold": "Golden Pitchfork",
+			"deko_schleifenwand": "Ribbon Wall",
+			"girlande_ranchfest": "Ranch Fair Bunting"
+		},
+		"nutzen": {
+			"stallboxen": "More boxes, more horses: {n} stalls.",
+			"weide": "Lush grass: horses get hungry more slowly.",
+			"wasserstelle": "Fresh water: thirst drops more slowly.",
+			"heulager": "Stockpiling: room for {n} hay bales.",
+			"waschplatz": "Faster grooming: brushing gives more.",
+			"fuehranlage": "Passive training: XP even without riding.",
+			"reithalle": "A hall for any weather: more dressage XP at shows.",
+			"parcours": "Jump training: bonus coins in the course, more jumping XP.",
+			"sattelkammer": "A home for saddles and bridles: gear gets cheaper.",
+			"zuchtstall": "Breeding: room for more expecting mares.",
+			"fohlenweide": "Foals grow up faster here.",
+			"tribuene": "An audience at shows: {n} seats.",
+			"weidezaun": "Pretty fences keep the paddock cleaner."
+		},
+		"stufe": "Level {n}",
+		"stufe_max": "Fully upgraded",
+		"ausbauen": "Upgrade ({preis} G)",
+		"platzieren": "Build ({preis} G)",
+		"platzieren_gratis": "Place (in storage: {n})",
+		"drehen": "Rotate",
+		"abriss": "Demolish",
+		"abriss_erstattung": "Demolished: {n} G back.",
+		"gebaut": "Built!",
+		"ausgebaut": "Upgraded: {name} level {n}!",
+		"zone": {
+			"start": "Yard Core",
+			"nord": "North Meadow",
+			"ost": "East Field"
+		},
+		"zone_freischalten": "Unlock area ({preis} G)",
+		"zone_frei": "New build area: {name}!",
+		"fehler": {
+			"zuTeuer": "Not enough gold.",
+			"keinPlatz": "No room here.",
+			"out_of_bounds": "Outside the build area.",
+			"locked_zone": "This area is still locked.",
+			"occupied": "Something is already here.",
+			"schonGebaut": "Already exists on the ranch.",
+			"nichtGebaut": "Build it first, then upgrade.",
+			"vollAusgebaut": "Already fully upgraded.",
+			"unbekannt": "The blueprint does not know this.",
+			"schonFrei": "This area is already yours.",
+			"nurBelohnung": "This only comes as a quest reward."
+		},
+		"stufen": {
+			"stallboxen": {
+				"1": "2 boxes for your horses.",
+				"2": "4 boxes.",
+				"3": "6 boxes.",
+				"4": "8 boxes – room for a whole herd."
+			},
+			"weide": {
+				"1": "A green paddock to graze on.",
+				"2": "Lush grass: 15 % less hunger on the pasture.",
+				"3": "Herb pasture: grazing lifts every value up to 70."
+			},
+			"wasserstelle": {
+				"1": "Fresh water: 30 % less thirst on the pasture.",
+				"2": "Self-drinker: pasture horses drink by themselves (thirst stays above 50).",
+				"3": "A little pond to splash in."
+			},
+			"heulager": {
+				"1": "Room for 12 hay bales.",
+				"2": "Room for 24 hay bales.",
+				"3": "Room for 48 hay bales."
+			},
+			"waschplatz": {
+				"1": "Brushing cleans 50 instead of 35.",
+				"2": "Warm water: +2 bond once a day when brushing.",
+				"3": "A grooming cabinet and a dryer for the big entrance."
+			},
+			"fuehranlage": {
+				"1": "Trains 1 horse a day: +40 XP.",
+				"2": "Trains 2 horses a day: +60 XP.",
+				"3": "Trains 3 horses a day: +80 XP."
+			},
+			"reithalle": {
+				"1": "A hall for any weather: +20 % dressage XP at shows.",
+				"2": "A mirror wall and a band of windows.",
+				"3": "A flag on the roof – the hall of champions."
+			},
+			"parcours": {
+				"1": "Jumps to practise on: +10 % coins in the course.",
+				"2": "More jumps: +20 % jumping XP at shows.",
+				"3": "A timing tower like the pros have."
+			},
+			"sattelkammer": {
+				"1": "Gear 10 % cheaper.",
+				"2": "With a window: gear 15 % cheaper.",
+				"3": "With a straw dummy: gear 20 % cheaper."
+			},
+			"zuchtstall": {
+				"1": "Room for 1 more expecting mare.",
+				"2": "Room for 2 more expecting mares."
+			},
+			"fohlenweide": {
+				"1": "Foals grow up 15 % faster."
+			},
+			"tribuene": {
+				"1": "6 seats for an audience.",
+				"2": "12 seats and a roof: +15 % show gold."
+			},
+			"weidezaun": {
+				"1": "White fences: horses stay clean 20 % longer.",
+				"2": "Double rails: 30 % longer.",
+				"3": "Flowers on the posts: 40 % longer."
+			}
+		},
+		"ui": {
+			"untertitel": "Style {stil}/{max} · {boxen} boxes · {heu} hay",
+			"tipp": "Pick something below and set it on the meadow.",
+			"tipp_platz": "Tap the meadow or drag the piece to its spot.",
+			"tipp_linie": "Swipe across the meadow to set several at once.",
+			"tipp_verschieben": "Tap the new spot.",
+			"bauen": "Build · {preis} G",
+			"aufstellen": "Set up",
+			"bauen_n": "Build {n} · {preis} G",
+			"drehen": "Turn",
+			"abbrechen": "Cancel",
+			"verschieben": "Move",
+			"hierhin": "Here",
+			"abriss_frage": "Tear down {name}? You get {n} G back.",
+			"abriss_ja": "Tear down",
+			"behalten": "Keep",
+			"zone_frage": "Unlock {name} for {preis} G?",
+			"zone_ja": "Unlock",
+			"zone_chip": "{name} · {preis} G",
+			"lager": "In store: {n}",
+			"steht": "Already built",
+			"stufe_kurz": "Lv {n}",
+			"naechste": "Next level",
+			"jetzt": "Now",
+			"effekte": "What your farm can do",
+			"effekt_boxen": "{n} boxes",
+			"effekt_heu": "{n} hay bales",
+			"effekt_stil": "Style {n}/{max}",
+			"effekt_putzen": "Brushing +{n}",
+			"effekt_selbsttraenke": "Self-drinker",
+			"effekt_fuehranlage": "+{n} XP a day",
+			"effekt_tribuene": "{n} spectators",
+			"gebaut_n": "{n} built!",
+			"teils": "{n} built – not enough gold for the rest.",
+			"verschoben": "Moved!",
+			"gedreht": "Turned!",
+			"migriert": "Your stable boxes and the pasture are on the building plan now.",
+			"hof_karte": "Build your farm",
+			"hof_karte_text": "Stables, pastures, a riding hall, decoration and paths – build your ranch the way you like it.",
+			"belohnung": "Reward",
+			"belohnung_quest": "Quest",
+			"belohnung_info": "Quest reward: counts as five decorations. Taken down, it goes back into the store.",
+			"ins_lager": "{name} is back in the store.",
+			"abbau_ja": "Take down",
+			"schleifen": "{n} ribbons hang on the wall.",
+			"heu_voll": "The hay barn is full ({n} bales) – upgrade it!",
+			"warmwasser": "Warm water! +{n} bond",
+			"fuehranlage": "Horse walker: {namen} trained (+{xp} XP)",
+			"parcours_bonus": "Jump course bonus: +{n} coins",
+			"stil_punkt": "New style point! Style {n}/{max}",
+			"leer": "Nothing built here yet."
+		}
+	},
+	"rdorf": {
+		"ortsname": "Hufingen",
+		"ortsschild": "Riding village on the hill",
+		"entdeckt": "Hufingen discovered! Fast travel is now open.",
+		"schnellreise": "Travel to Hufingen",
+		"schnellreise_gesperrt": "Ride there first and discover the village!",
+		"losreiten": "Ride to Hufingen",
+		"heimreiten": "Back to the ranch",
+		"anbinden": "Horse hitched.",
+		"theke": "Shop counter",
+		"laden": {
+			"reitladen": "Tack Shop",
+			"futterhof": "Feed Store",
+			"moebelscheune": "Furniture Barn",
+			"pferdehaendlerin": "Horse Trader",
+			"schmiede": "Smithy"
+		},
+		"npc": {
+			"reitladen": "Selma",
+			"futterhof": "Marta",
+			"moebelscheune": "Alwin",
+			"pferdehaendlerin": "Wilma",
+			"schmiede": "Eisenhuf"
+		},
+		"npc_rolle": {
+			"reitladen": "Saddler",
+			"futterhof": "Feed merchant",
+			"moebelscheune": "Carpenter",
+			"pferdehaendlerin": "Horse trader",
+			"schmiede": "Blacksmith"
+		},
+		"gruss": {
+			"reitladen": "Have a look around — all hand-stitched!",
+			"futterhof": "Fresh hay, crunchy treats!",
+			"moebelscheune": "Everything for yard and parlour.",
+			"pferdehaendlerin": "On offer today: three beauties.",
+			"schmiede": "New shoes for your horse?"
+		},
+		"kaufen": "Buy",
+		"verkaufen": "Sell",
+		"gekauft": "Bought!",
+		"verkauft": "Sold: +{n} G",
+		"besitz": "Owned",
+		"angebot_heute": "Today's offer",
+		"angebot_morgen": "New horses arrive tomorrow.",
+		"ankauf_titel": "We buy",
+		"waren": {
+			"heu": "Hay bale",
+			"heu_bund": "Hay bundle (5 bales)",
+			"hafer": "Oat sack",
+			"leckerli": "Treat",
+			"apfel": "Apple",
+			"hufeisen_bronze": "Bronze horseshoes",
+			"hufeisen_silber": "Silver horseshoes",
+			"hufeisen_gold": "Gold horseshoes"
+		},
+		"pferde": {
+			"keks": "Cookie",
+			"muschel": "Seashell",
+			"pfeffer": "Pepper",
+			"toffee": "Toffee",
+			"flocke": "Snowflake",
+			"kastanie": "Chestnut",
+			"lavendel": "Lavender",
+			"sternchen": "Little Star"
+		},
+		"fehler": {
+			"zuTeuer": "Not enough gold.",
+			"lagerVoll": "Your storage is full.",
+			"lagerLeer": "You do not have enough of that.",
+			"schonGekauft": "You already own this.",
+			"keinLager": "No storage found.",
+			"stallVoll": "Your stable is full — build more boxes!",
+			"nichtImAngebot": "Not on offer today.",
+			"letztesPferd": "Your last horse stays with you.",
+			"keinPferd": "I do not know this horse.",
+			"nichtGekauft": "Buy it first, then equip it.",
+			"unbekannt": "We do not carry that."
+		},
+		"fertig": "Done",
+		"moebel_titel": "Furniture for the House",
+		"eigene_pferde": "Your Horses",
+		"hufeisen_anlegen": "Equip",
+		"hufeisen_abnehmen": "Remove horseshoes",
+		"prompt": "[E] Enter {laden}",
+		"ranch_deko_titel": "Decoration for your ranch",
+		"deko_lager": "Waiting in your ranch build store – setting it up is free."
+	},
+	"rnpc": {
+		"rw4_reitladen": {
+			"name": "Selma"
+		},
+		"rw4_futterhof": {
+			"name": "Marta"
+		},
+		"rw4_moebelscheune": {
+			"name": "Alwin"
+		},
+		"rw4_pferdehaendlerin": {
+			"name": "Wilma"
+		},
+		"rw4_schmiede": {
+			"name": "Eisenhuf"
+		}
+	}
+}

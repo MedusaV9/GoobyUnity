@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Compile-check of the Unity runtime assembly (Assets/Gooby/Runtime) against the editor's managed
+    UnityEngine module DLLs — catches API/typing errors without a Unity licence. Not a shipping build.
+
+      UNITY_EDITOR_DIR=$HOME/Unity/Hub/Editor/6000.6.0f1/Editor dotnet build Gooby.Unity.CompileCheck.csproj
+  -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>Gooby.Unity.CompileCheck</AssemblyName>
+    <NoWarn>CS1701;CS1702;CS0618</NoWarn>
+    <UnityEditorDir Condition="'$(UNITY_EDITOR_DIR)' != ''">$(UNITY_EDITOR_DIR)</UnityEditorDir>
+    <UnityEditorDir Condition="'$(UnityEditorDir)' == ''">$(HOME)/Unity/Hub/Editor/6000.6.0f1/Editor</UnityEditorDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../Assets/Gooby/Core/**/*.cs" />
+    <Compile Include="../Assets/Gooby/Runtime/**/*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="$(UnityEditorDir)/Data/Managed/UnityEngine/UnityEngine.*Module.dll">
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <!-- Package assemblies (URP volumes/post-processing, glTFast) come from the imported project's
+       Library/ScriptAssemblies. They exist after one editor import; without them the check still
+       compiles against UrpStubs.cs (GLTFAST code paths are then skipped). -->
+  <PropertyGroup>
+    <ScriptAssemblies>$(MSBuildThisFileDirectory)../Library/ScriptAssemblies</ScriptAssemblies>
+    <DefineConstants Condition="Exists('$(ScriptAssemblies)/glTFast.dll')">$(DefineConstants);GLTFAST</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup Condition="Exists('$(ScriptAssemblies)/Unity.RenderPipelines.Universal.Runtime.dll')">
+    <Reference Include="$(ScriptAssemblies)/Unity.RenderPipelines.Universal.Runtime.dll"><Private>false</Private></Reference>
+    <Reference Include="$(ScriptAssemblies)/Unity.RenderPipelines.Core.Runtime.dll"><Private>false</Private></Reference>
+    <Reference Include="$(ScriptAssemblies)/Unity.RenderPipelines.Universal.Config.Runtime.dll"><Private>false</Private></Reference>
+  </ItemGroup>
+  <!-- fresh checkout / CI without an editor import: URP stand-ins (UrpStubs.cs) instead of the package DLLs -->
+  <ItemGroup Condition="!Exists('$(ScriptAssemblies)/Unity.RenderPipelines.Universal.Runtime.dll')">
+    <Compile Include="UrpStubs.cs" />
+  </ItemGroup>
+  <ItemGroup Condition="Exists('$(ScriptAssemblies)/glTFast.dll')">
+    <Reference Include="$(ScriptAssemblies)/glTFast.dll"><Private>false</Private></Reference>
+  </ItemGroup>
+
+</Project>

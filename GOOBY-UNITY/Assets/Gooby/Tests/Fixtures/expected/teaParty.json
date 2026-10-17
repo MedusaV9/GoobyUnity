@@ -1,0 +1,1450 @@
+{
+  "modes": {
+    "easy": [
+      {
+        "seed": 1,
+        "score": 120,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 72.68946342287157
+      },
+      {
+        "seed": 2,
+        "score": 126,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 73.99062821816449
+      },
+      {
+        "seed": 3,
+        "score": 139,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 74.5592421671282
+      },
+      {
+        "seed": 4,
+        "score": 107,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 73.82694142684578
+      },
+      {
+        "seed": 5,
+        "score": 117,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 72.78634513649418
+      },
+      {
+        "seed": 6,
+        "score": 122,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 72.94496688101258
+      },
+      {
+        "seed": 7,
+        "score": 115,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 72.02592035524115
+      },
+      {
+        "seed": 8,
+        "score": 115,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 72.26720642018735
+      },
+      {
+        "seed": 9,
+        "score": 133,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 73.28499474708208
+      },
+      {
+        "seed": 10,
+        "score": 128,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 72.53921981665043
+      },
+      {
+        "seed": 11,
+        "score": 133,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 73.63718321793178
+      },
+      {
+        "seed": 12,
+        "score": 128,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 73.79276482178035
+      },
+      {
+        "seed": 13,
+        "score": 131,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 74.5839873466667
+      },
+      {
+        "seed": 14,
+        "score": 120,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 72.60323839486959
+      },
+      {
+        "seed": 15,
+        "score": 125,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 73.94038048645953
+      },
+      {
+        "seed": 16,
+        "score": 106,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 73.15551231881018
+      },
+      {
+        "seed": 17,
+        "score": 131,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 73.72738907424386
+      },
+      {
+        "seed": 18,
+        "score": 131,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 73.81728243033395
+      },
+      {
+        "seed": 19,
+        "score": 125,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 74.42946501424716
+      },
+      {
+        "seed": 20,
+        "score": 115,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 72.50857973046686
+      },
+      {
+        "seed": 21,
+        "score": 124,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 73.01068124052681
+      },
+      {
+        "seed": 22,
+        "score": 131,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 74.6516860901456
+      },
+      {
+        "seed": 23,
+        "score": 108,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 74.58850809645377
+      },
+      {
+        "seed": 24,
+        "score": 125,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 72.84959654999568
+      },
+      {
+        "seed": 25,
+        "score": 139,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 74.14793758293199
+      },
+      {
+        "seed": 26,
+        "score": 111,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 73.7380121809633
+      },
+      {
+        "seed": 27,
+        "score": 144,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 74.5903320019907
+      },
+      {
+        "seed": 28,
+        "score": 141,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 72.51321981440235
+      },
+      {
+        "seed": 29,
+        "score": 123,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 73.17766519268089
+      },
+      {
+        "seed": 30,
+        "score": 120,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 72.20518244207861
+      },
+      {
+        "seed": 31,
+        "score": 128,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 72.03988743349194
+      },
+      {
+        "seed": 32,
+        "score": 115,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 72.03499920678863
+      },
+      {
+        "seed": 33,
+        "score": 122,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 73.29727123012566
+      },
+      {
+        "seed": 34,
+        "score": 121,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 74.43717957648151
+      },
+      {
+        "seed": 35,
+        "score": 110,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 73.75239779067172
+      },
+      {
+        "seed": 36,
+        "score": 126,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 72.07495470814321
+      },
+      {
+        "seed": 37,
+        "score": 118,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 72.44317131200569
+      },
+      {
+        "seed": 38,
+        "score": 144,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 74.16302797829526
+      },
+      {
+        "seed": 39,
+        "score": 123,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 73.32623910108384
+      },
+      {
+        "seed": 40,
+        "score": 123,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 73.57061913671737
+      },
+      {
+        "seed": 41,
+        "score": 134,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 73.18766188155068
+      },
+      {
+        "seed": 42,
+        "score": 128,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 74.03329576323
+      },
+      {
+        "seed": 43,
+        "score": 139,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 74.90666034497859
+      },
+      {
+        "seed": 44,
+        "score": 131,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 72.95244322133652
+      },
+      {
+        "seed": 45,
+        "score": 112,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 74.69655264558979
+      },
+      {
+        "seed": 46,
+        "score": 126,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 72.40053002188147
+      },
+      {
+        "seed": 47,
+        "score": 137,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 73.20948863021117
+      },
+      {
+        "seed": 48,
+        "score": 139,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 74.04973504919523
+      },
+      {
+        "seed": 49,
+        "score": 137,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 74.62518759985038
+      },
+      {
+        "seed": 50,
+        "score": 120,
+        "cups": 24,
+        "spills": 0,
+        "elapsed": 73.98912049371151
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1,
+        "score": 89,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.41543620421808
+      },
+      {
+        "seed": 2,
+        "score": 90,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.512960727051215
+      },
+      {
+        "seed": 3,
+        "score": 104,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.79684869707003
+      },
+      {
+        "seed": 4,
+        "score": 92,
+        "cups": 21,
+        "spills": 0,
+        "elapsed": 60.29435714175843
+      },
+      {
+        "seed": 5,
+        "score": 98,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.901758296867236
+      },
+      {
+        "seed": 6,
+        "score": 111,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 62.04097351307663
+      },
+      {
+        "seed": 7,
+        "score": 96,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.04674424018293
+      },
+      {
+        "seed": 8,
+        "score": 104,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.312211405598774
+      },
+      {
+        "seed": 9,
+        "score": 106,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.96760537545925
+      },
+      {
+        "seed": 10,
+        "score": 103,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.45191429753087
+      },
+      {
+        "seed": 11,
+        "score": 87,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 62.65257126441288
+      },
+      {
+        "seed": 12,
+        "score": 114,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 62.51291849144446
+      },
+      {
+        "seed": 13,
+        "score": 101,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.54201921065365
+      },
+      {
+        "seed": 14,
+        "score": 89,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.75094054297286
+      },
+      {
+        "seed": 15,
+        "score": 95,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.52225461854579
+      },
+      {
+        "seed": 16,
+        "score": 78,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.80909643934448
+      },
+      {
+        "seed": 17,
+        "score": 101,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.21529406532079
+      },
+      {
+        "seed": 18,
+        "score": 99,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.57983293697084
+      },
+      {
+        "seed": 19,
+        "score": 106,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.82609947616412
+      },
+      {
+        "seed": 20,
+        "score": 84,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.602730871058384
+      },
+      {
+        "seed": 21,
+        "score": 112,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 62.081651285180094
+      },
+      {
+        "seed": 22,
+        "score": 95,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.54947671111795
+      },
+      {
+        "seed": 23,
+        "score": 81,
+        "cups": 21,
+        "spills": 0,
+        "elapsed": 60.6343998009633
+      },
+      {
+        "seed": 24,
+        "score": 98,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.881735204734866
+      },
+      {
+        "seed": 25,
+        "score": 107,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.890010690690154
+      },
+      {
+        "seed": 26,
+        "score": 96,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.219521923367296
+      },
+      {
+        "seed": 27,
+        "score": 99,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.604552646385834
+      },
+      {
+        "seed": 28,
+        "score": 92,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.27625893198575
+      },
+      {
+        "seed": 29,
+        "score": 104,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 62.054550953050104
+      },
+      {
+        "seed": 30,
+        "score": 92,
+        "cups": 21,
+        "spills": 0,
+        "elapsed": 60.941740111481046
+      },
+      {
+        "seed": 31,
+        "score": 109,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.897412944484266
+      },
+      {
+        "seed": 32,
+        "score": 93,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.964933913623845
+      },
+      {
+        "seed": 33,
+        "score": 90,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 62.214905307107955
+      },
+      {
+        "seed": 34,
+        "score": 90,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.019138355795704
+      },
+      {
+        "seed": 35,
+        "score": 78,
+        "cups": 21,
+        "spills": 0,
+        "elapsed": 60.26612354183711
+      },
+      {
+        "seed": 36,
+        "score": 101,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.96367204636264
+      },
+      {
+        "seed": 37,
+        "score": 101,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.64535173595471
+      },
+      {
+        "seed": 38,
+        "score": 106,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.47865486628296
+      },
+      {
+        "seed": 39,
+        "score": 98,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.91057403868355
+      },
+      {
+        "seed": 40,
+        "score": 101,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 62.234599737832184
+      },
+      {
+        "seed": 41,
+        "score": 114,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 62.23454424463039
+      },
+      {
+        "seed": 42,
+        "score": 84,
+        "cups": 21,
+        "spills": 0,
+        "elapsed": 60.34078409632308
+      },
+      {
+        "seed": 43,
+        "score": 98,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.35351292227349
+      },
+      {
+        "seed": 44,
+        "score": 101,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.72026823987579
+      },
+      {
+        "seed": 45,
+        "score": 86,
+        "cups": 21,
+        "spills": 0,
+        "elapsed": 60.48150564360017
+      },
+      {
+        "seed": 46,
+        "score": 109,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 61.25767777793325
+      },
+      {
+        "seed": 47,
+        "score": 99,
+        "cups": 23,
+        "spills": 0,
+        "elapsed": 62.524160387524105
+      },
+      {
+        "seed": 48,
+        "score": 101,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.68733101145046
+      },
+      {
+        "seed": 49,
+        "score": 104,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.88361968416519
+      },
+      {
+        "seed": 50,
+        "score": 92,
+        "cups": 22,
+        "spills": 0,
+        "elapsed": 60.15227952536683
+      }
+    ],
+    "hard": [
+      {
+        "seed": 1,
+        "score": 78,
+        "cups": 26,
+        "spills": 4,
+        "elapsed": 61.27586217054352
+      },
+      {
+        "seed": 2,
+        "score": 81,
+        "cups": 26,
+        "spills": 6,
+        "elapsed": 60.275239410235784
+      },
+      {
+        "seed": 3,
+        "score": 107,
+        "cups": 26,
+        "spills": 2,
+        "elapsed": 60.92330127532361
+      },
+      {
+        "seed": 4,
+        "score": 77,
+        "cups": 26,
+        "spills": 8,
+        "elapsed": 61.65962063014719
+      },
+      {
+        "seed": 5,
+        "score": 96,
+        "cups": 26,
+        "spills": 2,
+        "elapsed": 61.47385599991577
+      },
+      {
+        "seed": 6,
+        "score": 111,
+        "cups": 26,
+        "spills": 4,
+        "elapsed": 61.628796568709085
+      },
+      {
+        "seed": 7,
+        "score": 92,
+        "cups": 26,
+        "spills": 3,
+        "elapsed": 60.902388610705316
+      },
+      {
+        "seed": 8,
+        "score": 104,
+        "cups": 26,
+        "spills": 4,
+        "elapsed": 60.855460003306995
+      },
+      {
+        "seed": 9,
+        "score": 109,
+        "cups": 26,
+        "spills": 3,
+        "elapsed": 61.81194236022039
+      },
+      {
+        "seed": 10,
+        "score": 105,
+        "cups": 26,
+        "spills": 1,
+        "elapsed": 60.949535027251294
+      },
+      {
+        "seed": 11,
+        "score": 93,
+        "cups": 26,
+        "spills": 3,
+        "elapsed": 61.666387863226106
+      },
+      {
+        "seed": 12,
+        "score": 115,
+        "cups": 26,
+        "spills": 0,
+        "elapsed": 61.53291809249671
+      },
+      {
+        "seed": 13,
+        "score": 104,
+        "cups": 26,
+        "spills": 2,
+        "elapsed": 60.539374438434805
+      },
+      {
+        "seed": 14,
+        "score": 81,
+        "cups": 26,
+        "spills": 3,
+        "elapsed": 61.21170356978064
+      },
+      {
+        "seed": 15,
+        "score": 101,
+        "cups": 26,
+        "spills": 3,
+        "elapsed": 60.232458440647925
+      },
+      {
+        "seed": 16,
+        "score": 89,
+        "cups": 26,
+        "spills": 3,
+        "elapsed": 61.64726961941504
+      },
+      {
+        "seed": 17,
+        "score": 90,
+        "cups": 27,
+        "spills": 5,
+        "elapsed": 61.88289236294867
+      },
+      {
+        "seed": 18,
+        "score": 105,
+        "cups": 26,
+        "spills": 2,
+        "elapsed": 60.25534311896897
+      },
+      {
+        "seed": 19,
+        "score": 87,
+        "cups": 26,
+        "spills": 2,
+        "elapsed": 60.919767477014474
+      },
+      {
+        "seed": 20,
+        "score": 81,
+        "cups": 26,
+        "spills": 5,
+        "elapsed": 60.919345678505415
+      },
+      {
+        "seed": 21,
+        "score": 102,
+        "cups": 26,
+        "spills": 2,
+        "elapsed": 61.6976878841159
+      },
+      {
+        "seed": 22,
+        "score": 93,
+        "cups": 26,
+        "spills": 2,
+        "elapsed": 60.58474227355037
+      },
+      {
+        "seed": 23,
+        "score": 87,
+        "cups": 25,
+        "spills": 2,
+        "elapsed": 60.83217473295417
+      },
+      {
+        "seed": 24,
+        "score": 89,
+        "cups": 26,
+        "spills": 5,
+        "elapsed": 61.43851035201077
+      },
+      {
+        "seed": 25,
+        "score": 102,
+        "cups": 27,
+        "spills": 2,
+        "elapsed": 62.15975717126753
+      },
+      {
+        "seed": 26,
+        "score": 104,
+        "cups": 27,
+        "spills": 2,
+        "elapsed": 62.304708215712054
+      },
+      {
+        "seed": 27,
+        "score": 96,
+        "cups": 26,
+        "spills": 3,
+        "elapsed": 60.63198603295296
+      },
+      {
+        "seed": 28,
+        "score": 95,
+        "cups": 26,
+        "spills": 2,
+        "elapsed": 61.303648153538724
+      },
+      {
+        "seed": 29,
+        "score": 100,
+        "cups": 25,
+        "spills": 4,
+        "elapsed": 60.02279706066164
+      },
+      {
+        "seed": 30,
+        "score": 95,
+        "cups": 25,
+        "spills": 2,
+        "elapsed": 61.12477464765938
+      },
+      {
+        "seed": 31,
+        "score": 107,
+        "cups": 26,
+        "spills": 2,
+        "elapsed": 61.06525819661077
+      },
+      {
+        "seed": 32,
+        "score": 98,
+        "cups": 26,
+        "spills": 4,
+        "elapsed": 61.2321878190255
+      },
+      {
+        "seed": 33,
+        "score": 92,
+        "cups": 26,
+        "spills": 5,
+        "elapsed": 61.739824054158895
+      },
+      {
+        "seed": 34,
+        "score": 98,
+        "cups": 26,
+        "spills": 3,
+        "elapsed": 60.49902618895896
+      },
+      {
+        "seed": 35,
+        "score": 75,
+        "cups": 26,
+        "spills": 5,
+        "elapsed": 61.819542524641854
+      },
+      {
+        "seed": 36,
+        "score": 95,
+        "cups": 26,
+        "spills": 4,
+        "elapsed": 61.02107511519424
+      },
+      {
+        "seed": 37,
+        "score": 96,
+        "cups": 26,
+        "spills": 3,
+        "elapsed": 61.21108271112376
+      },
+      {
+        "seed": 38,
+        "score": 101,
+        "cups": 26,
+        "spills": 3,
+        "elapsed": 60.644846218687604
+      },
+      {
+        "seed": 39,
+        "score": 97,
+        "cups": 25,
+        "spills": 4,
+        "elapsed": 60.07489754570686
+      },
+      {
+        "seed": 40,
+        "score": 93,
+        "cups": 26,
+        "spills": 2,
+        "elapsed": 61.74279869518518
+      },
+      {
+        "seed": 41,
+        "score": 121,
+        "cups": 27,
+        "spills": 0,
+        "elapsed": 61.27729848764455
+      },
+      {
+        "seed": 42,
+        "score": 90,
+        "cups": 26,
+        "spills": 2,
+        "elapsed": 61.689865281927226
+      },
+      {
+        "seed": 43,
+        "score": 96,
+        "cups": 26,
+        "spills": 1,
+        "elapsed": 60.878460298594675
+      },
+      {
+        "seed": 44,
+        "score": 101,
+        "cups": 26,
+        "spills": 2,
+        "elapsed": 61.67130124132246
+      },
+      {
+        "seed": 45,
+        "score": 69,
+        "cups": 25,
+        "spills": 5,
+        "elapsed": 60.42312210357144
+      },
+      {
+        "seed": 46,
+        "score": 100,
+        "cups": 26,
+        "spills": 4,
+        "elapsed": 60.85476894894307
+      },
+      {
+        "seed": 47,
+        "score": 99,
+        "cups": 27,
+        "spills": 3,
+        "elapsed": 61.593679150718245
+      },
+      {
+        "seed": 48,
+        "score": 104,
+        "cups": 27,
+        "spills": 5,
+        "elapsed": 61.665698485299075
+      },
+      {
+        "seed": 49,
+        "score": 96,
+        "cups": 26,
+        "spills": 3,
+        "elapsed": 60.53886975771278
+      },
+      {
+        "seed": 50,
+        "score": 57,
+        "cups": 26,
+        "spills": 9,
+        "elapsed": 60.22692080212321
+      }
+    ],
+    "endless": [
+      {
+        "seed": 1,
+        "score": 42,
+        "cups": 14,
+        "spills": 3,
+        "elapsed": 34.50179738653905
+      },
+      {
+        "seed": 2,
+        "score": 30,
+        "cups": 11,
+        "spills": 3,
+        "elapsed": 26.317579503120484
+      },
+      {
+        "seed": 3,
+        "score": 113,
+        "cups": 29,
+        "spills": 3,
+        "elapsed": 67.36053584557881
+      },
+      {
+        "seed": 4,
+        "score": 12,
+        "cups": 7,
+        "spills": 3,
+        "elapsed": 17.84693472827641
+      },
+      {
+        "seed": 5,
+        "score": 111,
+        "cups": 31,
+        "spills": 3,
+        "elapsed": 71.71632175526852
+      },
+      {
+        "seed": 6,
+        "score": 67,
+        "cups": 16,
+        "spills": 3,
+        "elapsed": 40.16645028760439
+      },
+      {
+        "seed": 7,
+        "score": 48,
+        "cups": 15,
+        "spills": 3,
+        "elapsed": 36.212341479655485
+      },
+      {
+        "seed": 8,
+        "score": 86,
+        "cups": 20,
+        "spills": 3,
+        "elapsed": 48.036149526426556
+      },
+      {
+        "seed": 9,
+        "score": 103,
+        "cups": 25,
+        "spills": 3,
+        "elapsed": 59.47161672048476
+      },
+      {
+        "seed": 10,
+        "score": 156,
+        "cups": 41,
+        "spills": 3,
+        "elapsed": 92.99667458436238
+      },
+      {
+        "seed": 11,
+        "score": 81,
+        "cups": 24,
+        "spills": 3,
+        "elapsed": 57.55163504117326
+      },
+      {
+        "seed": 12,
+        "score": 181,
+        "cups": 45,
+        "spills": 3,
+        "elapsed": 101.63218572223406
+      },
+      {
+        "seed": 13,
+        "score": 158,
+        "cups": 41,
+        "spills": 3,
+        "elapsed": 92.56428192216808
+      },
+      {
+        "seed": 14,
+        "score": 51,
+        "cups": 17,
+        "spills": 3,
+        "elapsed": 41.757455363260085
+      },
+      {
+        "seed": 15,
+        "score": 71,
+        "cups": 19,
+        "spills": 3,
+        "elapsed": 45.34766278500319
+      },
+      {
+        "seed": 16,
+        "score": 54,
+        "cups": 19,
+        "spills": 3,
+        "elapsed": 46.40704957193054
+      },
+      {
+        "seed": 17,
+        "score": 63,
+        "cups": 19,
+        "spills": 3,
+        "elapsed": 45.385889118557714
+      },
+      {
+        "seed": 18,
+        "score": 114,
+        "cups": 29,
+        "spills": 3,
+        "elapsed": 66.3368995505487
+      },
+      {
+        "seed": 19,
+        "score": 96,
+        "cups": 29,
+        "spills": 3,
+        "elapsed": 67.04102453954556
+      },
+      {
+        "seed": 20,
+        "score": 63,
+        "cups": 19,
+        "spills": 3,
+        "elapsed": 45.70417889774865
+      },
+      {
+        "seed": 21,
+        "score": 108,
+        "cups": 29,
+        "spills": 3,
+        "elapsed": 68.42704601068978
+      },
+      {
+        "seed": 22,
+        "score": 111,
+        "cups": 32,
+        "spills": 3,
+        "elapsed": 73.14409108041339
+      },
+      {
+        "seed": 23,
+        "score": 87,
+        "cups": 26,
+        "spills": 3,
+        "elapsed": 63.23139340466875
+      },
+      {
+        "seed": 24,
+        "score": 44,
+        "cups": 12,
+        "spills": 3,
+        "elapsed": 29.730241695572293
+      },
+      {
+        "seed": 25,
+        "score": 123,
+        "cups": 34,
+        "spills": 3,
+        "elapsed": 76.45300788908781
+      },
+      {
+        "seed": 26,
+        "score": 214,
+        "cups": 56,
+        "spills": 3,
+        "elapsed": 123.24364592383283
+      },
+      {
+        "seed": 27,
+        "score": 75,
+        "cups": 21,
+        "spills": 3,
+        "elapsed": 49.422776543653015
+      },
+      {
+        "seed": 28,
+        "score": 95,
+        "cups": 27,
+        "spills": 3,
+        "elapsed": 63.071011816485075
+      },
+      {
+        "seed": 29,
+        "score": 36,
+        "cups": 12,
+        "spills": 3,
+        "elapsed": 30.624138563934363
+      },
+      {
+        "seed": 30,
+        "score": 173,
+        "cups": 45,
+        "spills": 3,
+        "elapsed": 102.59952543613976
+      },
+      {
+        "seed": 31,
+        "score": 107,
+        "cups": 27,
+        "spills": 3,
+        "elapsed": 62.907378927310745
+      },
+      {
+        "seed": 32,
+        "score": 69,
+        "cups": 19,
+        "spills": 3,
+        "elapsed": 45.55029751640328
+      },
+      {
+        "seed": 33,
+        "score": 12,
+        "cups": 6,
+        "spills": 3,
+        "elapsed": 15.319153520528621
+      },
+      {
+        "seed": 34,
+        "score": 66,
+        "cups": 20,
+        "spills": 3,
+        "elapsed": 47.929855903069594
+      },
+      {
+        "seed": 35,
+        "score": 72,
+        "cups": 23,
+        "spills": 3,
+        "elapsed": 55.53186785673523
+      },
+      {
+        "seed": 36,
+        "score": 45,
+        "cups": 13,
+        "spills": 3,
+        "elapsed": 31.596936579722524
+      },
+      {
+        "seed": 37,
+        "score": 42,
+        "cups": 12,
+        "spills": 3,
+        "elapsed": 29.55035757018773
+      },
+      {
+        "seed": 38,
+        "score": 98,
+        "cups": 25,
+        "spills": 3,
+        "elapsed": 58.279642991866716
+      },
+      {
+        "seed": 39,
+        "score": 48,
+        "cups": 15,
+        "spills": 3,
+        "elapsed": 37.28149474085776
+      },
+      {
+        "seed": 40,
+        "score": 93,
+        "cups": 27,
+        "spills": 3,
+        "elapsed": 64.08412544424145
+      },
+      {
+        "seed": 41,
+        "score": 186,
+        "cups": 46,
+        "spills": 3,
+        "elapsed": 101.72459274962475
+      },
+      {
+        "seed": 42,
+        "score": 99,
+        "cups": 30,
+        "spills": 3,
+        "elapsed": 70.66794692561726
+      },
+      {
+        "seed": 43,
+        "score": 135,
+        "cups": 38,
+        "spills": 3,
+        "elapsed": 86.34309530282823
+      },
+      {
+        "seed": 44,
+        "score": 131,
+        "cups": 34,
+        "spills": 3,
+        "elapsed": 77.94915467423017
+      },
+      {
+        "seed": 45,
+        "score": 18,
+        "cups": 9,
+        "spills": 3,
+        "elapsed": 23.071765351015603
+      },
+      {
+        "seed": 46,
+        "score": 65,
+        "cups": 18,
+        "spills": 3,
+        "elapsed": 43.70074654399559
+      },
+      {
+        "seed": 47,
+        "score": 57,
+        "cups": 17,
+        "spills": 3,
+        "elapsed": 40.278677897165
+      },
+      {
+        "seed": 48,
+        "score": 35,
+        "cups": 9,
+        "spills": 3,
+        "elapsed": 22.310578547097254
+      },
+      {
+        "seed": 49,
+        "score": 66,
+        "cups": 17,
+        "spills": 3,
+        "elapsed": 40.91266893798767
+      },
+      {
+        "seed": 50,
+        "score": 33,
+        "cups": 12,
+        "spills": 3,
+        "elapsed": 30.01055153484254
+      }
+    ]
+  },
+  "tune": {
+    "normal": {
+      "DURATION_SEC": 60,
+      "FILL_RATE": 0.5,
+      "BAND_CENTER_MIN": 0.55,
+      "BAND_CENTER_MAX": 0.85,
+      "BAND_HALF_W": 0.075,
+      "PERFECT_HALF_W": 0.028,
+      "PERFECT_PTS": 6,
+      "GOOD_PTS": 3,
+      "STREAK_EVERY": 3,
+      "STREAK_BONUS": 2,
+      "SERVE_SEC_START": 1.7,
+      "SERVE_SEC_END": 1.1,
+      "OVERFLOW_LEVEL": 1,
+      "ENDLESS": false,
+      "ENDLESS_MAX_SPILLS": 3,
+      "AUTOPLAY_AIM_ERR": 0.06
+    },
+    "hard": {
+      "DURATION_SEC": 60,
+      "FILL_RATE": 0.6,
+      "BAND_CENTER_MIN": 0.55,
+      "BAND_CENTER_MAX": 0.85,
+      "BAND_HALF_W": 0.06,
+      "PERFECT_HALF_W": 0.022400000000000003,
+      "PERFECT_PTS": 6,
+      "GOOD_PTS": 3,
+      "STREAK_EVERY": 3,
+      "STREAK_BONUS": 2,
+      "SERVE_SEC_START": 1.4449999999999998,
+      "SERVE_SEC_END": 0.935,
+      "OVERFLOW_LEVEL": 1,
+      "ENDLESS": false,
+      "ENDLESS_MAX_SPILLS": 3,
+      "AUTOPLAY_AIM_ERR": 0.068
+    }
+  }
+}

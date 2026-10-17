@@ -1,0 +1,1012 @@
+{
+  "modes": {
+    "easy": [
+      {
+        "seed": 1,
+        "score": 126,
+        "failures": 1
+      },
+      {
+        "seed": 2,
+        "score": 110,
+        "failures": 0
+      },
+      {
+        "seed": 3,
+        "score": 139,
+        "failures": 0
+      },
+      {
+        "seed": 4,
+        "score": 119,
+        "failures": 0
+      },
+      {
+        "seed": 5,
+        "score": 144,
+        "failures": 1
+      },
+      {
+        "seed": 6,
+        "score": 136,
+        "failures": 1
+      },
+      {
+        "seed": 7,
+        "score": 140,
+        "failures": 0
+      },
+      {
+        "seed": 8,
+        "score": 138,
+        "failures": 1
+      },
+      {
+        "seed": 9,
+        "score": 136,
+        "failures": 0
+      },
+      {
+        "seed": 10,
+        "score": 142,
+        "failures": 0
+      },
+      {
+        "seed": 11,
+        "score": 127,
+        "failures": 1
+      },
+      {
+        "seed": 12,
+        "score": 120,
+        "failures": 0
+      },
+      {
+        "seed": 13,
+        "score": 145,
+        "failures": 0
+      },
+      {
+        "seed": 14,
+        "score": 111,
+        "failures": 1
+      },
+      {
+        "seed": 15,
+        "score": 133,
+        "failures": 1
+      },
+      {
+        "seed": 16,
+        "score": 128,
+        "failures": 0
+      },
+      {
+        "seed": 17,
+        "score": 125,
+        "failures": 0
+      },
+      {
+        "seed": 18,
+        "score": 122,
+        "failures": 0
+      },
+      {
+        "seed": 19,
+        "score": 132,
+        "failures": 0
+      },
+      {
+        "seed": 20,
+        "score": 144,
+        "failures": 1
+      },
+      {
+        "seed": 21,
+        "score": 147,
+        "failures": 0
+      },
+      {
+        "seed": 22,
+        "score": 131,
+        "failures": 0
+      },
+      {
+        "seed": 23,
+        "score": 129,
+        "failures": 2
+      },
+      {
+        "seed": 24,
+        "score": 126,
+        "failures": 0
+      },
+      {
+        "seed": 25,
+        "score": 113,
+        "failures": 0
+      },
+      {
+        "seed": 26,
+        "score": 140,
+        "failures": 0
+      },
+      {
+        "seed": 27,
+        "score": 140,
+        "failures": 1
+      },
+      {
+        "seed": 28,
+        "score": 133,
+        "failures": 0
+      },
+      {
+        "seed": 29,
+        "score": 129,
+        "failures": 0
+      },
+      {
+        "seed": 30,
+        "score": 143,
+        "failures": 0
+      },
+      {
+        "seed": 31,
+        "score": 148,
+        "failures": 0
+      },
+      {
+        "seed": 32,
+        "score": 128,
+        "failures": 0
+      },
+      {
+        "seed": 33,
+        "score": 143,
+        "failures": 1
+      },
+      {
+        "seed": 34,
+        "score": 133,
+        "failures": 0
+      },
+      {
+        "seed": 35,
+        "score": 138,
+        "failures": 2
+      },
+      {
+        "seed": 36,
+        "score": 153,
+        "failures": 0
+      },
+      {
+        "seed": 37,
+        "score": 141,
+        "failures": 0
+      },
+      {
+        "seed": 38,
+        "score": 141,
+        "failures": 0
+      },
+      {
+        "seed": 39,
+        "score": 127,
+        "failures": 2
+      },
+      {
+        "seed": 40,
+        "score": 132,
+        "failures": 0
+      },
+      {
+        "seed": 41,
+        "score": 125,
+        "failures": 0
+      },
+      {
+        "seed": 42,
+        "score": 148,
+        "failures": 1
+      },
+      {
+        "seed": 43,
+        "score": 135,
+        "failures": 2
+      },
+      {
+        "seed": 44,
+        "score": 122,
+        "failures": 0
+      },
+      {
+        "seed": 45,
+        "score": 108,
+        "failures": 0
+      },
+      {
+        "seed": 46,
+        "score": 146,
+        "failures": 0
+      },
+      {
+        "seed": 47,
+        "score": 121,
+        "failures": 0
+      },
+      {
+        "seed": 48,
+        "score": 122,
+        "failures": 2
+      },
+      {
+        "seed": 49,
+        "score": 125,
+        "failures": 1
+      },
+      {
+        "seed": 50,
+        "score": 129,
+        "failures": 0
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1,
+        "score": 92,
+        "failures": 0
+      },
+      {
+        "seed": 2,
+        "score": 81,
+        "failures": 0
+      },
+      {
+        "seed": 3,
+        "score": 100,
+        "failures": 0
+      },
+      {
+        "seed": 4,
+        "score": 70,
+        "failures": 1
+      },
+      {
+        "seed": 5,
+        "score": 92,
+        "failures": 1
+      },
+      {
+        "seed": 6,
+        "score": 103,
+        "failures": 0
+      },
+      {
+        "seed": 7,
+        "score": 92,
+        "failures": 0
+      },
+      {
+        "seed": 8,
+        "score": 97,
+        "failures": 1
+      },
+      {
+        "seed": 9,
+        "score": 85,
+        "failures": 0
+      },
+      {
+        "seed": 10,
+        "score": 107,
+        "failures": 0
+      },
+      {
+        "seed": 11,
+        "score": 87,
+        "failures": 1
+      },
+      {
+        "seed": 12,
+        "score": 69,
+        "failures": 0
+      },
+      {
+        "seed": 13,
+        "score": 111,
+        "failures": 0
+      },
+      {
+        "seed": 14,
+        "score": 82,
+        "failures": 0
+      },
+      {
+        "seed": 15,
+        "score": 98,
+        "failures": 0
+      },
+      {
+        "seed": 16,
+        "score": 71,
+        "failures": 0
+      },
+      {
+        "seed": 17,
+        "score": 82,
+        "failures": 0
+      },
+      {
+        "seed": 18,
+        "score": 87,
+        "failures": 0
+      },
+      {
+        "seed": 19,
+        "score": 103,
+        "failures": 0
+      },
+      {
+        "seed": 20,
+        "score": 109,
+        "failures": 1
+      },
+      {
+        "seed": 21,
+        "score": 92,
+        "failures": 0
+      },
+      {
+        "seed": 22,
+        "score": 95,
+        "failures": 0
+      },
+      {
+        "seed": 23,
+        "score": 75,
+        "failures": 3
+      },
+      {
+        "seed": 24,
+        "score": 73,
+        "failures": 1
+      },
+      {
+        "seed": 25,
+        "score": 79,
+        "failures": 0
+      },
+      {
+        "seed": 26,
+        "score": 86,
+        "failures": 0
+      },
+      {
+        "seed": 27,
+        "score": 106,
+        "failures": 0
+      },
+      {
+        "seed": 28,
+        "score": 84,
+        "failures": 0
+      },
+      {
+        "seed": 29,
+        "score": 72,
+        "failures": 0
+      },
+      {
+        "seed": 30,
+        "score": 85,
+        "failures": 2
+      },
+      {
+        "seed": 31,
+        "score": 99,
+        "failures": 0
+      },
+      {
+        "seed": 32,
+        "score": 71,
+        "failures": 0
+      },
+      {
+        "seed": 33,
+        "score": 86,
+        "failures": 1
+      },
+      {
+        "seed": 34,
+        "score": 83,
+        "failures": 1
+      },
+      {
+        "seed": 35,
+        "score": 74,
+        "failures": 0
+      },
+      {
+        "seed": 36,
+        "score": 100,
+        "failures": 0
+      },
+      {
+        "seed": 37,
+        "score": 94,
+        "failures": 1
+      },
+      {
+        "seed": 38,
+        "score": 87,
+        "failures": 0
+      },
+      {
+        "seed": 39,
+        "score": 84,
+        "failures": 2
+      },
+      {
+        "seed": 40,
+        "score": 83,
+        "failures": 0
+      },
+      {
+        "seed": 41,
+        "score": 74,
+        "failures": 1
+      },
+      {
+        "seed": 42,
+        "score": 88,
+        "failures": 1
+      },
+      {
+        "seed": 43,
+        "score": 83,
+        "failures": 0
+      },
+      {
+        "seed": 44,
+        "score": 81,
+        "failures": 1
+      },
+      {
+        "seed": 45,
+        "score": 81,
+        "failures": 0
+      },
+      {
+        "seed": 46,
+        "score": 112,
+        "failures": 0
+      },
+      {
+        "seed": 47,
+        "score": 92,
+        "failures": 1
+      },
+      {
+        "seed": 48,
+        "score": 86,
+        "failures": 2
+      },
+      {
+        "seed": 49,
+        "score": 92,
+        "failures": 0
+      },
+      {
+        "seed": 50,
+        "score": 82,
+        "failures": 0
+      }
+    ],
+    "hard": [
+      {
+        "seed": 1,
+        "score": 67,
+        "failures": 2
+      },
+      {
+        "seed": 2,
+        "score": 56,
+        "failures": 1
+      },
+      {
+        "seed": 3,
+        "score": 82,
+        "failures": 2
+      },
+      {
+        "seed": 4,
+        "score": 65,
+        "failures": 1
+      },
+      {
+        "seed": 5,
+        "score": 72,
+        "failures": 1
+      },
+      {
+        "seed": 6,
+        "score": 71,
+        "failures": 1
+      },
+      {
+        "seed": 7,
+        "score": 65,
+        "failures": 2
+      },
+      {
+        "seed": 8,
+        "score": 94,
+        "failures": 2
+      },
+      {
+        "seed": 9,
+        "score": 53,
+        "failures": 0
+      },
+      {
+        "seed": 10,
+        "score": 82,
+        "failures": 1
+      },
+      {
+        "seed": 11,
+        "score": 61,
+        "failures": 1
+      },
+      {
+        "seed": 12,
+        "score": 59,
+        "failures": 0
+      },
+      {
+        "seed": 13,
+        "score": 99,
+        "failures": 1
+      },
+      {
+        "seed": 14,
+        "score": 70,
+        "failures": 0
+      },
+      {
+        "seed": 15,
+        "score": 79,
+        "failures": 0
+      },
+      {
+        "seed": 16,
+        "score": 62,
+        "failures": 0
+      },
+      {
+        "seed": 17,
+        "score": 72,
+        "failures": 1
+      },
+      {
+        "seed": 18,
+        "score": 71,
+        "failures": 1
+      },
+      {
+        "seed": 19,
+        "score": 70,
+        "failures": 1
+      },
+      {
+        "seed": 20,
+        "score": 86,
+        "failures": 1
+      },
+      {
+        "seed": 21,
+        "score": 72,
+        "failures": 1
+      },
+      {
+        "seed": 22,
+        "score": 65,
+        "failures": 0
+      },
+      {
+        "seed": 23,
+        "score": 38,
+        "failures": 4
+      },
+      {
+        "seed": 24,
+        "score": 52,
+        "failures": 1
+      },
+      {
+        "seed": 25,
+        "score": 69,
+        "failures": 0
+      },
+      {
+        "seed": 26,
+        "score": 56,
+        "failures": 1
+      },
+      {
+        "seed": 27,
+        "score": 79,
+        "failures": 4
+      },
+      {
+        "seed": 28,
+        "score": 41,
+        "failures": 2
+      },
+      {
+        "seed": 29,
+        "score": 49,
+        "failures": 2
+      },
+      {
+        "seed": 30,
+        "score": 48,
+        "failures": 2
+      },
+      {
+        "seed": 31,
+        "score": 79,
+        "failures": 0
+      },
+      {
+        "seed": 32,
+        "score": 51,
+        "failures": 0
+      },
+      {
+        "seed": 33,
+        "score": 69,
+        "failures": 2
+      },
+      {
+        "seed": 34,
+        "score": 66,
+        "failures": 1
+      },
+      {
+        "seed": 35,
+        "score": 68,
+        "failures": 1
+      },
+      {
+        "seed": 36,
+        "score": 67,
+        "failures": 2
+      },
+      {
+        "seed": 37,
+        "score": 85,
+        "failures": 1
+      },
+      {
+        "seed": 38,
+        "score": 68,
+        "failures": 1
+      },
+      {
+        "seed": 39,
+        "score": 61,
+        "failures": 1
+      },
+      {
+        "seed": 40,
+        "score": 59,
+        "failures": 1
+      },
+      {
+        "seed": 41,
+        "score": 70,
+        "failures": 1
+      },
+      {
+        "seed": 42,
+        "score": 67,
+        "failures": 2
+      },
+      {
+        "seed": 43,
+        "score": 74,
+        "failures": 0
+      },
+      {
+        "seed": 44,
+        "score": 74,
+        "failures": 1
+      },
+      {
+        "seed": 45,
+        "score": 54,
+        "failures": 1
+      },
+      {
+        "seed": 46,
+        "score": 70,
+        "failures": 1
+      },
+      {
+        "seed": 47,
+        "score": 66,
+        "failures": 4
+      },
+      {
+        "seed": 48,
+        "score": 71,
+        "failures": 2
+      },
+      {
+        "seed": 49,
+        "score": 76,
+        "failures": 0
+      },
+      {
+        "seed": 50,
+        "score": 70,
+        "failures": 0
+      }
+    ],
+    "endless": [
+      {
+        "seed": 1,
+        "score": 88,
+        "failures": 2
+      },
+      {
+        "seed": 2,
+        "score": 89,
+        "failures": 1
+      },
+      {
+        "seed": 3,
+        "score": 103,
+        "failures": 2
+      },
+      {
+        "seed": 4,
+        "score": 86,
+        "failures": 2
+      },
+      {
+        "seed": 5,
+        "score": 102,
+        "failures": 1
+      },
+      {
+        "seed": 6,
+        "score": 90,
+        "failures": 2
+      },
+      {
+        "seed": 7,
+        "score": 83,
+        "failures": 2
+      },
+      {
+        "seed": 8,
+        "score": 113,
+        "failures": 3
+      },
+      {
+        "seed": 9,
+        "score": 73,
+        "failures": 0
+      },
+      {
+        "seed": 10,
+        "score": 107,
+        "failures": 1
+      },
+      {
+        "seed": 11,
+        "score": 83,
+        "failures": 2
+      },
+      {
+        "seed": 12,
+        "score": 85,
+        "failures": 0
+      },
+      {
+        "seed": 13,
+        "score": 129,
+        "failures": 1
+      },
+      {
+        "seed": 14,
+        "score": 92,
+        "failures": 1
+      },
+      {
+        "seed": 15,
+        "score": 107,
+        "failures": 0
+      },
+      {
+        "seed": 16,
+        "score": 74,
+        "failures": 1
+      },
+      {
+        "seed": 17,
+        "score": 87,
+        "failures": 1
+      },
+      {
+        "seed": 18,
+        "score": 93,
+        "failures": 1
+      },
+      {
+        "seed": 19,
+        "score": 95,
+        "failures": 1
+      },
+      {
+        "seed": 20,
+        "score": 108,
+        "failures": 1
+      },
+      {
+        "seed": 21,
+        "score": 92,
+        "failures": 1
+      },
+      {
+        "seed": 22,
+        "score": 89,
+        "failures": 0
+      },
+      {
+        "seed": 23,
+        "score": 60,
+        "failures": 6
+      },
+      {
+        "seed": 24,
+        "score": 75,
+        "failures": 2
+      },
+      {
+        "seed": 25,
+        "score": 97,
+        "failures": 0
+      },
+      {
+        "seed": 26,
+        "score": 79,
+        "failures": 1
+      },
+      {
+        "seed": 27,
+        "score": 101,
+        "failures": 4
+      },
+      {
+        "seed": 28,
+        "score": 61,
+        "failures": 3
+      },
+      {
+        "seed": 29,
+        "score": 78,
+        "failures": 3
+      },
+      {
+        "seed": 30,
+        "score": 89,
+        "failures": 3
+      },
+      {
+        "seed": 31,
+        "score": 109,
+        "failures": 0
+      },
+      {
+        "seed": 32,
+        "score": 77,
+        "failures": 0
+      },
+      {
+        "seed": 33,
+        "score": 104,
+        "failures": 3
+      },
+      {
+        "seed": 34,
+        "score": 96,
+        "failures": 1
+      },
+      {
+        "seed": 35,
+        "score": 90,
+        "failures": 1
+      },
+      {
+        "seed": 36,
+        "score": 95,
+        "failures": 2
+      },
+      {
+        "seed": 37,
+        "score": 110,
+        "failures": 1
+      },
+      {
+        "seed": 38,
+        "score": 84,
+        "failures": 1
+      },
+      {
+        "seed": 39,
+        "score": 99,
+        "failures": 1
+      },
+      {
+        "seed": 40,
+        "score": 82,
+        "failures": 2
+      },
+      {
+        "seed": 41,
+        "score": 98,
+        "failures": 2
+      },
+      {
+        "seed": 42,
+        "score": 88,
+        "failures": 2
+      },
+      {
+        "seed": 43,
+        "score": 96,
+        "failures": 0
+      },
+      {
+        "seed": 44,
+        "score": 93,
+        "failures": 1
+      },
+      {
+        "seed": 45,
+        "score": 78,
+        "failures": 1
+      },
+      {
+        "seed": 46,
+        "score": 93,
+        "failures": 2
+      },
+      {
+        "seed": 47,
+        "score": 90,
+        "failures": 4
+      },
+      {
+        "seed": 48,
+        "score": 91,
+        "failures": 2
+      },
+      {
+        "seed": 49,
+        "score": 97,
+        "failures": 0
+      },
+      {
+        "seed": 50,
+        "score": 92,
+        "failures": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+	"schema": 1,
+	"_status": "M2-BACKLOG-STUB — Zahlen aus Doc G §4.5; Netz-Glue s. /tmp/gooby-godot/handoffs/W3b-gvz-mp-hooks.md",
+	"match": {
+		"gooby_survive_sec": 210,
+		"best_of": 3,
+		"side_swap": true,
+		"mowers_enabled": false,
+		"snapshot_interval_sec": 2
+	},
+	"matsch": {
+		"start": 0,
+		"drip_amount": 15,
+		"drip_interval_sec": 10,
+		"escalation_bonus": 5,
+		"escalation_interval_sec": 45
+	},
+	"zombie_costs": {
+		"schlurfi": 25,
+		"sprinter": 75,
+		"huetchen": 75,
+		"zeitungsopa": 100,
+		"eimer": 125,
+		"tuersteher": 125,
+		"huepfer": 150,
+		"maulwurf": 150,
+		"ballon": 150,
+		"brocken": 400
+	},
+	"zombie_cooldown_ticks": {
+		"schlurfi": 40,
+		"sprinter": 100,
+		"huetchen": 100,
+		"zeitungsopa": 140,
+		"eimer": 180,
+		"tuersteher": 180,
+		"huepfer": 220,
+		"maulwurf": 220,
+		"ballon": 220,
+		"brocken": 600
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"fuettern": {
+		"chip": {
+			"alle": "All",
+			"gemuese": "Veggies & fruit",
+			"suesses": "Sweets",
+			"warm": "Warm bites",
+			"getraenke": "Drinks"
+		},
+		"vorrat_badge": "×{anzahl}",
+		"pill_hunger": "+{wert} hunger",
+		"pill_spass": "+{wert} fun",
+		"junk_warnung": "Sugar!",
+		"leer_titel": "The fridge is yawning with emptiness…",
+		"leer_tipp": "Time for a grocery run: REHWEI has snacks for hungry Goobys.",
+		"leer_rehwei": "Head to REHWEI",
+		"sprueche": {
+			"gemuese": [
+				"Crunch! Fresh from the garden straight into the tummy.",
+				"{essen} makes the ears all excited!",
+				"Yum, this is what sunshine tastes like.",
+				"Vitamins? Vita-MINE!",
+				"Gooby crunches itself happy.",
+				"Such fine greens — compliments to the fridge!",
+				"One more bite and Gooby hops up to the ceiling.",
+				"Fresh, crunchy, gone."
+			],
+			"suesses": [
+				"Mmmh… sugar makes the ears twirl!",
+				"{essen}! The tummy is dancing samba.",
+				"Psst — don't tell the toothbrush.",
+				"So sweet, the cheeks are tingling!",
+				"A crumb of happiness, straight to the heart.",
+				"Snack alert! Gooby is in paradise.",
+				"Maybe a little carrot afterwards… maybe.",
+				"Sugar turbo loaded!"
+			],
+			"warm": [
+				"Oven-warm into the heart — thanks, fridge magic!",
+				"{essen} turns the tummy into a cozy blanket.",
+				"Hearty! Gooby is almost purring.",
+				"This tastes like home.",
+				"Big bite, big happiness.",
+				"Munch-munch — pause — munch!",
+				"So good, not a crumb is left.",
+				"Warm food, warm ears."
+			],
+			"getraenke": [
+				"Glug-glug — down to the last drop!",
+				"{essen} even quenches ear-thirst.",
+				"Bubble fizz in the tummy!",
+				"Refreshing! Gooby sparkles from the inside.",
+				"Cheers to the fridge life!",
+				"A sip of happiness, refill please.",
+				"Thirst? Was there. Is gone.",
+				"Cool, fizzy, gooby-tastic!"
+			]
+		}
+	}
+}

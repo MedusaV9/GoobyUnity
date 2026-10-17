@@ -1,0 +1,172 @@
+{
+  "schema": "gooby.furniture/1",
+  "pack": "furniture",
+  "items": [
+    {
+      "id": "packDoughBall",
+      "name_de": "Teigling",
+      "name_en": "Dough Ball",
+      "glb": "tt-bakery/dough_ball.gltf",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 12,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "packDoughRolled",
+      "name_de": "Ausgerollter Teig",
+      "name_en": "Rolled Dough",
+      "glb": "tt-bakery/dough_rolled_A.gltf",
+      "footprint": [
+        2,
+        2
+      ],
+      "layer": "SURFACE",
+      "preis": 18,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "kueche",
+      "variants": [
+        "natur",
+        "rose",
+        "mint",
+        "butter"
+      ]
+    },
+    {
+      "id": "packCoffin",
+      "name_de": "Gruselkiste",
+      "name_en": "Spooky Chest",
+      "glb": "kaykit-halloween/coffin_decorated.gltf",
+      "footprint": [
+        2,
+        3
+      ],
+      "layer": "FLOOR",
+      "preis": 210,
+      "lagerwert": 3,
+      "pflicht": "",
+      "kategorie": "party",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "packLantern",
+      "name_de": "Wegweiser",
+      "name_en": "Signpost",
+      "glb": "kaykit-halloween/gravemarker_A.gltf",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 45,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "garten",
+      "variants": [
+        "natur",
+        "sand",
+        "koralle",
+        "salbei",
+        "schiefer"
+      ]
+    },
+    {
+      "id": "gfree_shuttle",
+      "name_de": "Mini-Shuttle GOOB-1",
+      "name_en": "Mini Shuttle GOOB-1",
+      "glb": "gfree/craft_speederA.glb",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 0,
+      "verkaufswert": 90,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko"
+    },
+    {
+      "id": "gfree_flitzer",
+      "name_de": "Sternen-Flitzer",
+      "name_en": "Star Speeder",
+      "glb": "gfree/craft_speederB.glb",
+      "footprint": [
+        2,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 0,
+      "verkaufswert": 80,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko"
+    },
+    {
+      "id": "gfree_meteorit",
+      "name_de": "Meteorit (fast echt)",
+      "name_en": "Meteorite (Almost Real)",
+      "glb": "gfree/meteor_detailed.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 0,
+      "verkaufswert": 60,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko"
+    },
+    {
+      "id": "gfree_mondstein",
+      "name_de": "Mondstein",
+      "name_en": "Moon Rock",
+      "glb": "gfree/rock_largeA.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "FLOOR",
+      "preis": 0,
+      "verkaufswert": 40,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko"
+    },
+    {
+      "id": "gfree_sternmoehre",
+      "name_de": "Goldene Sternen-Möhre",
+      "name_en": "Golden Star Carrot",
+      "glb": "gfree/carrot.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "layer": "SURFACE",
+      "preis": 0,
+      "verkaufswert": 50,
+      "lagerwert": 1,
+      "pflicht": "",
+      "kategorie": "deko"
+    }
+  ]
+}

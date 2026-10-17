@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"id": "achievements",
+	"version": "1.0.0",
+	"priority": 500,
+	"min_native": "5.0.0",
+	"domains": ["achievements"],
+	"name_de": "Erfolge",
+	"notes_de": "REST-1: alle 44 Erfolge der Web-Vorlage (16 v1 + 17 v2 + 4 v3 + 7 v6.1) — Ids, Bedingungen und Belohnungen 1:1. Namen/Beschreibungen kommen aus strings/<locale>/achievements.json (DE/EN-Parität)."
+}

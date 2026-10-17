@@ -1,0 +1,56 @@
+{
+	"onboarding": {
+		"guide": {
+			"schritt": "Schritt {n}/{gesamt}",
+			"geschafft": "Geschafft!",
+			"beenden": "Tour beenden",
+			"los": "Los geht’s!",
+			"alles_klar": "Alles klar!",
+			"s": {
+				"ankunft": {
+					"titel": "{nickname} zieht ein!",
+					"text": "Willkommen zu Hause! {nickname} schaut sich schon neugierig um. Ich zeig dir kurz, was hier alles geht — ganz entspannt."
+				},
+				"streicheln": {
+					"titel": "Sag Hallo",
+					"text": "Tippe {nickname} an und streichle einmal drüber. Das mag Gooby am allerliebsten.",
+					"feier": "Hihi, das kitzelt! {nickname} strahlt dich an."
+				},
+				"fuettern": {
+					"titel": "Der Kühlschrank ist voll",
+					"text": "In der Küche wartet der Kühlschrank mit ein paar Leckereien. Gib {nickname} etwas zu essen.",
+					"feier": "Mmmh, lecker! Ein voller Bauch macht glücklich."
+				},
+				"waschen": {
+					"titel": "Ab in die Wanne",
+					"text": "Im Bad steht die Badewanne bereit. Mach {nickname} einmal sauber.",
+					"feier": "Blitzeblank! {nickname} duftet wie frische Wäsche."
+				},
+				"muenzen": {
+					"titel": "Die ersten Münzen",
+					"text": "Münzen gibt es fürs Spielen und Kümmern — sogar Streicheln zahlt sich aus. Verdiene deine ersten Münzen!",
+					"feier": "Kling, kling! Deine ersten Münzen sind da."
+				},
+				"minispiel": {
+					"titel": "Zeit zum Spielen",
+					"text": "Öffne die Arcade unten im Dock und spiel eine Runde — die erste Runde des Tages zählt doppelt!",
+					"feier": "Was für eine Runde! Minispiele bringen Münzen und XP."
+				},
+				"moebel": {
+					"titel": "Etwas Schönes fürs Zuhause",
+					"text": "Schau ins Möbelhaus oder in den Shop und kauf eine Kleinigkeit für euer Zuhause.",
+					"feier": "Wie gemütlich! {nickname} probiert es gleich aus."
+				},
+				"sticker": {
+					"titel": "Dein erster Sticker",
+					"text": "Für fast alles, was du tust, gibt es Sticker fürs Album. Einer wartet bestimmt schon auf dich!",
+					"feier": "Ein Sticker fürs Album! Sammler aufgepasst."
+				},
+				"ausblick": {
+					"titel": "Alles Weitere entdeckst du selbst",
+					"text": "Draußen warten die Stadt, die Arcade und ab Level 20 die Gooby-Ranch. Und jeden Tag gibt es drei frische Tagesquests — schau mal auf den Quests-Knopf!"
+				}
+			}
+		}
+	}
+}

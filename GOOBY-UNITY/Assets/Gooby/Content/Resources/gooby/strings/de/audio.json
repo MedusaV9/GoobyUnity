@@ -1,0 +1,15 @@
+{
+	"audio": {
+		"station": {
+			"bordmusik": "Bordmusik",
+			"gooby_fm": "GOOBY FM",
+			"recap_fm": "Rückblick FM",
+			"game_fm": "Spiele FM",
+			"alle": "Alle Sender"
+		},
+		"radio": {
+			"aus": "Radio aus",
+			"naechster": "Nächster Titel"
+		}
+	}
+}

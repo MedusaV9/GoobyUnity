@@ -1,0 +1,239 @@
+{
+	"soul": {
+		"gruss": {
+			"morgen": {
+				"a": "Guten Morgen{namek}! Hast du gut geschlafen?",
+				"b": "Mooorgen! Ich hab schon auf dich gewartet!",
+				"c": "Guten Morgen! Heute wird ein guter Tag, ich spür das!",
+				"vertraut_a": "Guten Morgen{namek}! Schon {tage} Tage wir zwei — und jeder Morgen ist besser mit dir.",
+				"beste_a": "Da ist ja mein Lieblingsmensch! Guten Morgen!",
+				"beste_b": "Morgen, du! Bei dir muss ich gar nichts erklären. Du kennst mich ja."
+			},
+			"mittag": {
+				"a": "Mahlzeit{namek}! Ich hab schon ein bisschen Hunger…",
+				"b": "Hallo du! Schön, dass du da bist!"
+			},
+			"nachmittag": {
+				"a": "Na{namek}? Wie war dein Tag bis jetzt?",
+				"b": "Heeey! Perfekte Zeit für uns zwei!"
+			},
+			"abend": {
+				"a": "Guten Abend{namek}! Machen wir es uns gemütlich?",
+				"b": "Hallo du! Der Abend gehört uns!",
+				"vertraut_a": "Guten Abend{namek}! Unser Abend-Ritual, hm? Ich mag das.",
+				"beste_a": "Abend, du. Sofa, wir zwei — wie immer?"
+			},
+			"nacht": {
+				"a": "Du bist noch wach{namek}…? Ich auch. Psst.",
+				"b": "Mitternachts-Besuch! Das bleibt unser Geheimnis."
+			},
+			"gefreut": {
+				"a": "Da bist du ja wieder! Ich hab an dich gedacht!",
+				"b": "Juhu, du bist zurück! Was machen wir heute?",
+				"beste_a": "Da bist du ja! Ohne dich ist es hier nur halb so schön. Ehrlich."
+			},
+			"eingeschnappt": {
+				"a": "Hmpf. Du warst LANGE weg. … Na gut, ich hab dich trotzdem vermisst.",
+				"b": "Ich schmolle. Ein bisschen. Okay, fertig geschmollt — schön, dass du da bist!"
+			},
+			"vermisst": {
+				"a": "DU BIST WIEDER DA!! Ich hab dich sooo vermisst!",
+				"b": "Endlich! Ich hab jeden Tag aus dem Fenster geschaut, ob du kommst!"
+			}
+		},
+		"ritual": {
+			"geburtstag_spieler": {
+				"a": "ALLES GUTE ZUM GEBURTSTAG, {name}!! Ich hab dran gedacht!",
+				"b": "Happy Birthday, {name}! Heute feiern WIR DICH!"
+			},
+			"geburtstag_gooby": {
+				"a": "Heute ist MEIN Geburtstag! Weißt du noch, als ich eingezogen bin?",
+				"b": "Ich hab heute Geburtstag!! Gibt es… Kuchen?"
+			},
+			"jubilaeum": {
+				"a": "Weißt du was? Wir kennen uns jetzt {tage} Tage! Schön, oder?",
+				"b": "{tage} Tage wir zwei! Auf viele, viele mehr!"
+			},
+			"neujahr": "Frohes neues Jahr!! Dieses Jahr wird UNSER Jahr!",
+			"ostern": "Frohe Ostern! Ich hab überall nach Eiern gesucht… hinterm Sofa war keins.",
+			"halloween": "Buh! … Hab ich dich erschreckt? Ein BISSCHEN? Happy Halloween!",
+			"nikolaus": "Nikolaus! Ich hab meinen Schuh geputzt. Nur für den Fall.",
+			"heiligabend": "Heiligabend!! Ich bin SO aufgeregt. Hörst du die Glöckchen?",
+			"weihnachten": "Frohe Weihnachten! Das beste Geschenk bist sowieso du.",
+			"silvester": "Silvester! Lass uns bis Mitternacht wach bleiben… oder es versuchen.",
+			"erster_schnee": "SCHNEE!! Der erste Schnee!! Schau doch, SCHAU!!"
+		},
+		"alltag": {
+			"zaehne": {
+				"a": "Erst Zähne putzen! Blitzeblank!",
+				"b": "Zahnputz-Zeit! Schrubb, schrubb, schrubb…"
+			},
+			"gutenacht": {
+				"a": "Ich werd müüüde… Erzählst du mir noch was, bevor ich schlafen geh?",
+				"b": "Gähn… Gute Nacht, du. Träum was Schönes von uns."
+			}
+		},
+		"wetter": {
+			"regen": {
+				"a": "Es regnet… Ich mag das Geräusch am Fenster.",
+				"b": "Plitsch, platsch… Gut, dass wir drinnen sind, oder?"
+			},
+			"gewitter": "War das ein DONNER?! I-ich hab keine Angst. Fast keine.",
+			"schnee": "Es schneit schon wieder! Jede Flocke ist anders, wusstest du das?"
+		},
+		"erinnerung": {
+			"rekord": "Weißt du noch, dein Rekord in {spiel}? {punkte} Punkte! Das war schon gut!",
+			"urlaub": "Weißt du noch, als wir im Urlaub waren? {ziel} war so schön!",
+			"kitzeln": "Du hast mich schon {anzahl} Mal gekitzelt. Ich zähle mit. Hihi.",
+			"garten": "{anzahl} Mal geerntet! Unser Garten ist der beste.",
+			"streak": "{tage} Tage am Stück zusammen! Du und ich, wir sind ein Team.",
+			"funkelpark": "Weißt du noch, der Funkelpark? {anzahl} Besuche! Mir wird noch schwindelig.",
+			"spielzeit": "Wir haben schon {stunden} Stunden zusammen verbracht. Die schönsten!",
+			"vorliebe_spiel": "Ich glaub, {spiel} ist UNSER Spiel. Dabei strahlst du immer am meisten!",
+			"vorliebe_essen": "Du bringst mir am liebsten {essen} mit, hab ich gemerkt. Schmeckt auch am besten.",
+			"goobye_markttag": "Weißt du noch, unser erster Markttag im Goo und Bye? Onkel Alwin hat GENAU EINE Möhre gekauft. Ich war so stolz auf uns!",
+			"goobye_umsatz": "{tage} Markttage im Lädchen und schon {muenzen} Münzen in der Kasse! Ich hab beim Zählen geholfen. Zweimal.",
+			"goobye_lieferwagen": "Weißt du noch, als unser Lieferwagen kam? Ich hab gehupt. Mit dem Mund, aber von Herzen.",
+			"mcgooby_schichten": "Schon {anzahl} Schichten bei McGooby! Ich träume manchmal von Pommes. Also… öfter als manchmal.",
+			"mcgooby_bestwert": "Weißt du noch, deine beste McGooby-Schicht? {punkte} Punkte! Die Tabletts sind nur so geflogen.",
+			"mcgooby_perfekt": "Deine Schicht ganz ohne Patzer bei McGooby — kein EINZIGER Fehler! Ich hab vor Stolz fast die Mütze verloren.",
+			"ranch_fund": "Weißt du noch, wie wir {ort} entdeckt haben? Ich krieg heute noch Kribbelohren, wenn ich dran denke.",
+			"ranch_funde": "{anzahl} Geheimplätze auf der Ranch gefunden! Wir zwei sind richtige Entdecker.",
+			"ranch_karte": "Weißt du noch, wie wir über der Entdecker-Karte gebrütet haben? Ich hab ein Eselsohr reingemacht. Tschuldigung.",
+			"geist_rekord": "Dein Geister-Bestlauf in {spiel}: {punkte} Punkte! Dein Geist übt bestimmt heimlich, aber DU bist schneller.",
+			"geist_sammlung": "{anzahl} Geister-Bestläufe schon! Eine ganze Geisterbande — und alle sind DU.",
+			"heimkehr": "Weißt du noch, als ich aus {ziel} heimkam? Die Umarmung war das Allerbeste am ganzen Urlaub.",
+			"mitbringsel": "Unsere Mitbringsel-Ecke! {anzahl} Schätze schon. Jeder erzählt eine kleine Reise, wenn man ihn anguckt.",
+			"spotlight_a": "Weißt du noch, dein Spiel des Tages in der Arcade? Extra-Münzen! Ich hab ganz leise applaudiert.",
+			"spotlight_b": "Das Arcade-Spotlight! Du hast den Tagesbonus einfach so geholt. Mein Lieblingsspieler bleibst du."
+		},
+		"idle": {
+			"aufraeumen": {
+				"a": "Ich räum nur kurz auf. Ordnung muss sein!",
+				"b": "Hier war doch noch… ah, da!"
+			},
+			"fernsehen": "Psst, gleich kommt die spannende Stelle!",
+			"fenster": "Nur mal kurz gucken, was draußen los ist…",
+			"tanzen": "Dieses Lied!! Ich MUSS tanzen!",
+			"lieblingsplatz": "Mein Lieblingsplatz. {moebel} und ich, wir verstehen uns."
+		},
+		"sup": {
+			"sofa_fund": "GUCK MAL! Unterm Sofa! Münzen! Die gehören jetzt uns!",
+			"traum": {
+				"a": "Zzz… nein… DU bist der Keks…",
+				"b": "Zzz… noch fünf Minuten, Herr Möhre…"
+			},
+			"turm": "Ich hab einen TURM gebaut! Ich nenne ihn… Turmi.",
+			"winken": "Hallo! Ja, DU da! Ich seh dich! *wink*"
+		},
+		"kommentar": {
+			"moebel_neu": {
+				"a": "Oooh, {moebel}! Ganz neu! Ich hab es schon getestet — sehr gut!",
+				"b": "{moebel}! Das steht uns, findest du nicht?"
+			},
+			"geschenk": {
+				"a": "Mmmh! Danke!! Du weißt einfach, was ich mag!",
+				"b": "Für MICH? Du bist einfach die Wucht!"
+			},
+			"lieblingsessen": "{essen}!! Mein absolutes LIEBLINGSESSEN! Woher wusstest du das?",
+			"traurig": {
+				"a": "…schon gut. Ich bin nur froh, wenn du da bist.",
+				"b": "*seufz* … Magst du ein bisschen bei mir bleiben?"
+			}
+		},
+		"tipp": {
+			"kicher": {
+				"a": "Hihi!",
+				"b": "Hehe, das kribbelt!"
+			},
+			"kitzlig": "Hihihi!! Aufhören — nein, WEITERMACHEN — nein, hihi!!",
+			"schwindelig": "Uff… mir ist ganz schwindelig… aber lustig war’s."
+		},
+		"frage": {
+			"geburtstag": "Du… wann hast du eigentlich Geburtstag? Ich will es mir merken!"
+		},
+		"essen": {
+			"carrot": "Möhre",
+			"apple": "Apfel",
+			"cupcake": "Törtchen"
+		},
+		"geburtstag_panel": {
+			"titel": "Wann hast du Geburtstag?",
+			"monat": "Monat",
+			"tag": "Tag",
+			"speichern": "Merk es dir!",
+			"abbrechen": "Verrat ich nicht",
+			"danke": "{tag}.{monat}. — eingespeichert! Ich vergesse es NIE!"
+		},
+		"wunsch": {
+			"funkelpark": "Weißt du was? Ich wollte schon immer mal in den Funkelpark. Ob die Lichter da WIRKLICH funkeln?",
+			"funkelpark_erfuellt": "Weißt du noch, wie ich vom Funkelpark geträumt hab? Wir waren WIRKLICH da! Danke!",
+			"urlaub": "Ich wollte schon immer mal verreisen. Einmal Koffer packen und einfach los!",
+			"urlaub_erfuellt": "Wir waren wirklich im Urlaub! Ich hab davon geredet — und dann sind wir GEFAHREN!",
+			"streak7": "Ich wünsch mir, dass wir uns mal sieben Tage am Stück sehen. Eine ganze Woche wir zwei!",
+			"streak7_erfuellt": "Sieben Tage am Stück! Ich hab es mir gewünscht, und du hast es wahr gemacht.",
+			"kissenturm": "Ich wollte schon immer mal einen RIESIGEN Kissenturm bauen. Irgendwann trau ich mich!",
+			"kissenturm_erfuellt": "Ich hab ihn gebaut! Den Kissenturm! Genau wie ich es immer wollte!"
+		},
+		"absicht": {
+			"hunger_a": "Ich schau nur mal kurz, was im Kühlschrank ist…",
+			"hunger_b": "Mein Bauch knurrt ein bisschen. Hörst du das auch?",
+			"langeweile_a": "Mir ist laaangweilig… Spielst du mit mir?",
+			"langeweile_b": "Ich such mir mal was zu tun. Oder… hast du eine Idee?",
+			"muede_a": "Ich bin müde… Das Bett sieht so gemütlich aus…",
+			"muede_b": "Gääähn… Nur kurz hinlegen. Ganz kurz.",
+			"dreckig_a": "Ich fühl mich ein bisschen klebrig. Bad-Zeit?",
+			"regen_a": "Es regnet… Ich setz mich ans Fenster und schau den Tropfen zu."
+		},
+		"feel": {
+			"schreck": {
+				"a": "WAAH! W-was war DAS?!",
+				"b": "Huch!! Mein Herz klopft bis in die Ohren!"
+			},
+			"freude": {
+				"a": "Hihi! Heute ist einfach ein guter Tag!",
+				"b": "Das macht mich froh, weißt du?"
+			},
+			"begeisterung": {
+				"a": "JAAA! Das ist das BESTE!",
+				"b": "Nochmal! Nochmal! Bitte nochmal!"
+			},
+			"ueberraschung": {
+				"a": "Oh!! Damit hab ich NICHT gerechnet!",
+				"b": "Was?! Echt jetzt? Für mich?"
+			},
+			"verlegenheit": {
+				"a": "Ähm… du hast nichts gesehen, okay?",
+				"b": "D-das war nicht das, wonach es aussah…"
+			},
+			"trotz": {
+				"a": "Hmpf. Ich schmolle. Offiziell.",
+				"b": "Nö. Einfach nö."
+			},
+			"traurigkeit": {
+				"a": "Ich bin grad ein bisschen klein…",
+				"b": "Kannst du kurz bei mir bleiben…?"
+			},
+			"muedigkeit": {
+				"a": "Mhhh… nur noch fünf Minuten…",
+				"b": "So… müüüde…"
+			},
+			"neugier": {
+				"a": "Oh? Was ist DAS denn?",
+				"b": "Das muss ich mir genauer ansehen!"
+			},
+			"stolz": {
+				"a": "Hast du das gesehen? DAS WAR ICH!",
+				"b": "Neuer Rekord! Ich bin quasi berühmt!"
+			},
+			"angst": {
+				"a": "I-ist da wer…? Es ist so dunkel…",
+				"b": "Ich bin nicht ängstlich! Nur… vorsichtig!"
+			},
+			"verliebtheit": {
+				"a": "Mein LIEBLINGSESSEN! Du kennst mich so gut!",
+				"b": "Ich… ich glaub, das ist Liebe."
+			}
+		}
+	}
+}

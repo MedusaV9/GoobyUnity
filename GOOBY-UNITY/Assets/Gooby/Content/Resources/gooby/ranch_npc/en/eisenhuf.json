@@ -1,0 +1,135 @@
+{
+	"id": "rnpc_eisenhuf",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "eisenhuf",
+			"text": "Morning. Fire's burning. Coffee too. All as it should be.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "eisenhuf",
+			"text": "Day. Berthold Ironhoof. I forge. The rest sorts itself out.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "eisenhuf",
+			"text": "Evening. The iron rests. Me, almost.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "eisenhuf",
+			"text": "Rain. Good for the meadow. Bad for the rust. Come to the fire.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "eisenhuf",
+			"text": "You. Good. Sit. For friends, the anvil stool is free. That's the good stool.",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "eisenhuf",
+			"text": "Hm?",
+			"optionen": [
+				{"text": "Got work for me?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "It's done.", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "How's it going?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "How's it going?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "How's it going?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Who is Mrs. Anvil?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Your best horseshoe?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Take care!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "eisenhuf",
+			"text": [
+				"Good. Iron is patient. Me too.",
+				"One of us glows faster. Not saying who."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "eisenhuf",
+			"text": [
+				"You come by often. I like that. Most only come when something's stuck.",
+				"You come anyway. That's... a lot. For me, that's a lot."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "eisenhuf",
+			"text": [
+				"Know what's rare? Good iron. Know what's rarer? Good people.",
+				"You're good people. There. Now I've talked for a whole year."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "eisenhuf",
+			"text": "Got something. Needs hands. Yours are attached, I see.",
+			"optionen": [
+				{"text": "I'll handle it.", "next": "quest_annahme"},
+				{"text": "Not today.", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "eisenhuf",
+			"text": "Good. No talk. Only sparks.",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "eisenhuf",
+			"text": "Fine. Iron waits. I wait with it.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "eisenhuf",
+			"text": "Clean. Honest work. Here. Don't thank me, or it gets emotional.",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "eisenhuf",
+			"text": "Oat thalers. My weakness. How did... never mind. Thanks. I mean it.",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "eisenhuf",
+			"text": "Hm. Good. I'll take it. Thanks.",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "eisenhuf",
+			"text": "Aha. Well. It has... shape. Thanks.",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "eisenhuf",
+			"text": [
+				"Mrs. Anvil? The anvil. Heirloom. Three generations of Ironhoofs.",
+				"My grandpa talked to her. My father talked to her. I talk to her.",
+				"She never answers. Best listener in the whole valley."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "eisenhuf",
+			"text": [
+				"My best horseshoe? Not hanging on a wall. It's out there walking.",
+				"Years ago. Scrawny wild horse, broken hoof. Everyone said: let it be.",
+				"I forged all night. It still runs up in the hills today.",
+				"When the wind is right, you can hear it. Cling, clang. That's my masterpiece."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "eisenhuf",
+			"text": "Go. Come back. Both good.",
+			"ende": true
+		}
+	}
+}

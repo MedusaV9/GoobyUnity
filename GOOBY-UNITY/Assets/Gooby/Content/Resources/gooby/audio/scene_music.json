@@ -1,0 +1,43 @@
+{
+ "_comment": "Unity additions to audio/music_registry.json (exported from Godot): own pieces for scenes and for the minigames without a Godot game track (they would all share the arcade loop otherwise).",
+ "contexts": {
+  "park": "bordmusik-candy",
+  "space": "bordmusik-piano-atmos",
+  "recap": "recap-abenteuer"
+ },
+ "games": {
+  "carrotCatch": "bordmusik-rabbit-town",
+  "bubblePop": "bordmusik-seaside",
+  "bunnyHop": "bordmusik-playful-piano",
+  "pancakeTower": "bordmusik-piano-jazz",
+  "burgerBuild": "bordmusik-werkstatt",
+  "danceParty": "room-kitchen-dance-party",
+  "teaParty": "bordmusik-piano-melodie",
+  "lanternFloat": "bordmusik-piano-atmos",
+  "memoryMatch": "bordmusik-puzzle-pieces",
+  "pipeFlow": "bordmusik-puzzle-pieces",
+  "fishingPond": "bordmusik-seaside",
+  "gardenRush": "room-petal-path-picnic",
+  "goobySays": "bordmusik-magic-bottle-town",
+  "runner": "game-running-loops",
+  "miniGolf": "bordmusik-vacation-day",
+  "trampoline": "bordmusik-penguin-town",
+  "rocketRescue": "game-sternenhopser",
+  "snailMail": "bordmusik-piano-streicher",
+  "deliveryRush": "location-stadtrundfahrt",
+  "cityDrive": "location-stadtrundfahrt",
+  "gooberando": "location-stadtrundfahrt",
+  "gobnom": "bordmusik-candy",
+  "gvz": "game-kichergeister",
+  "carrotGuard": "game-splat-wunderwelt",
+  "basketBounce": "bordmusik-penguin-town",
+  "goalieGooby": "game-splat-wunderwelt",
+  "hideSeek": "room-petal-path-picnic",
+  "veggieChop": "room-kitchen-dance-party",
+  "ranchHerde": "ranch-reiten",
+  "ranchParcours": "ranch-reiten",
+  "ranchTonnen": "ranch-turnier",
+  "ranchZeit": "ranch-turnier",
+  "ranchTurnier": "ranch-turnier"
+ }
+}

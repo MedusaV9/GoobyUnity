@@ -1,0 +1,1212 @@
+{
+  "modes": {
+    "easy": [
+      {
+        "seed": 1,
+        "score": 176,
+        "distance": 972.9564530898484,
+        "pickups": 79
+      },
+      {
+        "seed": 2,
+        "score": 183,
+        "distance": 972.9564530898484,
+        "pickups": 86
+      },
+      {
+        "seed": 3,
+        "score": 164,
+        "distance": 972.9564530898484,
+        "pickups": 67
+      },
+      {
+        "seed": 4,
+        "score": 191,
+        "distance": 972.9564530898484,
+        "pickups": 94
+      },
+      {
+        "seed": 5,
+        "score": 158,
+        "distance": 972.9564530898484,
+        "pickups": 61
+      },
+      {
+        "seed": 6,
+        "score": 163,
+        "distance": 972.9564530898484,
+        "pickups": 66
+      },
+      {
+        "seed": 7,
+        "score": 178,
+        "distance": 972.9564530898484,
+        "pickups": 81
+      },
+      {
+        "seed": 8,
+        "score": 194,
+        "distance": 972.9564530898484,
+        "pickups": 97
+      },
+      {
+        "seed": 9,
+        "score": 154,
+        "distance": 972.9564530898484,
+        "pickups": 57
+      },
+      {
+        "seed": 10,
+        "score": 170,
+        "distance": 972.9564530898484,
+        "pickups": 73
+      },
+      {
+        "seed": 11,
+        "score": 174,
+        "distance": 972.9564530898484,
+        "pickups": 77
+      },
+      {
+        "seed": 12,
+        "score": 152,
+        "distance": 972.9564530898484,
+        "pickups": 55
+      },
+      {
+        "seed": 13,
+        "score": 178,
+        "distance": 972.9564530898484,
+        "pickups": 81
+      },
+      {
+        "seed": 14,
+        "score": 161,
+        "distance": 972.9564530898484,
+        "pickups": 64
+      },
+      {
+        "seed": 15,
+        "score": 176,
+        "distance": 972.9564530898484,
+        "pickups": 79
+      },
+      {
+        "seed": 16,
+        "score": 175,
+        "distance": 972.9564530898484,
+        "pickups": 78
+      },
+      {
+        "seed": 17,
+        "score": 189,
+        "distance": 972.9564530898484,
+        "pickups": 92
+      },
+      {
+        "seed": 18,
+        "score": 155,
+        "distance": 972.9564530898484,
+        "pickups": 58
+      },
+      {
+        "seed": 19,
+        "score": 158,
+        "distance": 972.9564530898484,
+        "pickups": 61
+      },
+      {
+        "seed": 20,
+        "score": 191,
+        "distance": 972.9564530898484,
+        "pickups": 94
+      },
+      {
+        "seed": 21,
+        "score": 149,
+        "distance": 972.9564530898484,
+        "pickups": 52
+      },
+      {
+        "seed": 22,
+        "score": 154,
+        "distance": 972.9564530898484,
+        "pickups": 57
+      },
+      {
+        "seed": 23,
+        "score": 160,
+        "distance": 972.9564530898484,
+        "pickups": 63
+      },
+      {
+        "seed": 24,
+        "score": 184,
+        "distance": 972.9564530898484,
+        "pickups": 87
+      },
+      {
+        "seed": 25,
+        "score": 191,
+        "distance": 972.9564530898484,
+        "pickups": 94
+      },
+      {
+        "seed": 26,
+        "score": 164,
+        "distance": 972.9564530898484,
+        "pickups": 67
+      },
+      {
+        "seed": 27,
+        "score": 188,
+        "distance": 972.9564530898484,
+        "pickups": 91
+      },
+      {
+        "seed": 28,
+        "score": 164,
+        "distance": 972.9564530898484,
+        "pickups": 67
+      },
+      {
+        "seed": 29,
+        "score": 168,
+        "distance": 972.9564530898484,
+        "pickups": 71
+      },
+      {
+        "seed": 30,
+        "score": 146,
+        "distance": 972.9564530898484,
+        "pickups": 49
+      },
+      {
+        "seed": 31,
+        "score": 176,
+        "distance": 972.9564530898484,
+        "pickups": 79
+      },
+      {
+        "seed": 32,
+        "score": 184,
+        "distance": 972.9564530898484,
+        "pickups": 87
+      },
+      {
+        "seed": 33,
+        "score": 188,
+        "distance": 972.9564530898484,
+        "pickups": 91
+      },
+      {
+        "seed": 34,
+        "score": 191,
+        "distance": 972.9564530898484,
+        "pickups": 94
+      },
+      {
+        "seed": 35,
+        "score": 166,
+        "distance": 972.9564530898484,
+        "pickups": 69
+      },
+      {
+        "seed": 36,
+        "score": 165,
+        "distance": 972.9564530898484,
+        "pickups": 68
+      },
+      {
+        "seed": 37,
+        "score": 215,
+        "distance": 972.9564530898484,
+        "pickups": 118
+      },
+      {
+        "seed": 38,
+        "score": 184,
+        "distance": 972.9564530898484,
+        "pickups": 87
+      },
+      {
+        "seed": 39,
+        "score": 169,
+        "distance": 972.9564530898484,
+        "pickups": 72
+      },
+      {
+        "seed": 40,
+        "score": 168,
+        "distance": 972.9564530898484,
+        "pickups": 71
+      },
+      {
+        "seed": 41,
+        "score": 184,
+        "distance": 972.9564530898484,
+        "pickups": 87
+      },
+      {
+        "seed": 42,
+        "score": 172,
+        "distance": 972.9564530898484,
+        "pickups": 75
+      },
+      {
+        "seed": 43,
+        "score": 151,
+        "distance": 972.9564530898484,
+        "pickups": 54
+      },
+      {
+        "seed": 44,
+        "score": 161,
+        "distance": 972.9564530898484,
+        "pickups": 64
+      },
+      {
+        "seed": 45,
+        "score": 155,
+        "distance": 972.9564530898484,
+        "pickups": 58
+      },
+      {
+        "seed": 46,
+        "score": 171,
+        "distance": 972.9564530898484,
+        "pickups": 74
+      },
+      {
+        "seed": 47,
+        "score": 189,
+        "distance": 972.9564530898484,
+        "pickups": 92
+      },
+      {
+        "seed": 48,
+        "score": 190,
+        "distance": 972.9564530898484,
+        "pickups": 93
+      },
+      {
+        "seed": 49,
+        "score": 187,
+        "distance": 972.9564530898484,
+        "pickups": 90
+      },
+      {
+        "seed": 50,
+        "score": 227,
+        "distance": 972.9564530898484,
+        "pickups": 130
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1,
+        "score": 173,
+        "distance": 972.9564530898484,
+        "pickups": 76
+      },
+      {
+        "seed": 2,
+        "score": 177,
+        "distance": 972.9564530898484,
+        "pickups": 80
+      },
+      {
+        "seed": 3,
+        "score": 164,
+        "distance": 972.9564530898484,
+        "pickups": 67
+      },
+      {
+        "seed": 4,
+        "score": 188,
+        "distance": 972.9564530898484,
+        "pickups": 91
+      },
+      {
+        "seed": 5,
+        "score": 158,
+        "distance": 972.9564530898484,
+        "pickups": 61
+      },
+      {
+        "seed": 6,
+        "score": 163,
+        "distance": 972.9564530898484,
+        "pickups": 66
+      },
+      {
+        "seed": 7,
+        "score": 178,
+        "distance": 972.9564530898484,
+        "pickups": 81
+      },
+      {
+        "seed": 8,
+        "score": 191,
+        "distance": 972.9564530898484,
+        "pickups": 94
+      },
+      {
+        "seed": 9,
+        "score": 151,
+        "distance": 972.9564530898484,
+        "pickups": 54
+      },
+      {
+        "seed": 10,
+        "score": 170,
+        "distance": 972.9564530898484,
+        "pickups": 73
+      },
+      {
+        "seed": 11,
+        "score": 165,
+        "distance": 972.9564530898484,
+        "pickups": 68
+      },
+      {
+        "seed": 12,
+        "score": 149,
+        "distance": 972.9564530898484,
+        "pickups": 52
+      },
+      {
+        "seed": 13,
+        "score": 178,
+        "distance": 972.9564530898484,
+        "pickups": 81
+      },
+      {
+        "seed": 14,
+        "score": 161,
+        "distance": 972.9564530898484,
+        "pickups": 64
+      },
+      {
+        "seed": 15,
+        "score": 176,
+        "distance": 972.9564530898484,
+        "pickups": 79
+      },
+      {
+        "seed": 16,
+        "score": 165,
+        "distance": 972.9564530898484,
+        "pickups": 68
+      },
+      {
+        "seed": 17,
+        "score": 183,
+        "distance": 972.9564530898484,
+        "pickups": 86
+      },
+      {
+        "seed": 18,
+        "score": 155,
+        "distance": 972.9564530898484,
+        "pickups": 58
+      },
+      {
+        "seed": 19,
+        "score": 158,
+        "distance": 972.9564530898484,
+        "pickups": 61
+      },
+      {
+        "seed": 20,
+        "score": 179,
+        "distance": 972.9564530898484,
+        "pickups": 82
+      },
+      {
+        "seed": 21,
+        "score": 146,
+        "distance": 972.9564530898484,
+        "pickups": 49
+      },
+      {
+        "seed": 22,
+        "score": 151,
+        "distance": 972.9564530898484,
+        "pickups": 54
+      },
+      {
+        "seed": 23,
+        "score": 160,
+        "distance": 972.9564530898484,
+        "pickups": 63
+      },
+      {
+        "seed": 24,
+        "score": 181,
+        "distance": 972.9564530898484,
+        "pickups": 84
+      },
+      {
+        "seed": 25,
+        "score": 188,
+        "distance": 972.9564530898484,
+        "pickups": 91
+      },
+      {
+        "seed": 26,
+        "score": 161,
+        "distance": 972.9564530898484,
+        "pickups": 64
+      },
+      {
+        "seed": 27,
+        "score": 178,
+        "distance": 972.9564530898484,
+        "pickups": 81
+      },
+      {
+        "seed": 28,
+        "score": 164,
+        "distance": 972.9564530898484,
+        "pickups": 67
+      },
+      {
+        "seed": 29,
+        "score": 165,
+        "distance": 972.9564530898484,
+        "pickups": 68
+      },
+      {
+        "seed": 30,
+        "score": 134,
+        "distance": 972.9564530898484,
+        "pickups": 37
+      },
+      {
+        "seed": 31,
+        "score": 176,
+        "distance": 972.9564530898484,
+        "pickups": 79
+      },
+      {
+        "seed": 32,
+        "score": 171,
+        "distance": 972.9564530898484,
+        "pickups": 74
+      },
+      {
+        "seed": 33,
+        "score": 182,
+        "distance": 972.9564530898484,
+        "pickups": 85
+      },
+      {
+        "seed": 34,
+        "score": 188,
+        "distance": 972.9564530898484,
+        "pickups": 91
+      },
+      {
+        "seed": 35,
+        "score": 166,
+        "distance": 972.9564530898484,
+        "pickups": 69
+      },
+      {
+        "seed": 36,
+        "score": 159,
+        "distance": 972.9564530898484,
+        "pickups": 62
+      },
+      {
+        "seed": 37,
+        "score": 215,
+        "distance": 972.9564530898484,
+        "pickups": 118
+      },
+      {
+        "seed": 38,
+        "score": 168,
+        "distance": 972.9564530898484,
+        "pickups": 71
+      },
+      {
+        "seed": 39,
+        "score": 169,
+        "distance": 972.9564530898484,
+        "pickups": 72
+      },
+      {
+        "seed": 40,
+        "score": 165,
+        "distance": 972.9564530898484,
+        "pickups": 68
+      },
+      {
+        "seed": 41,
+        "score": 174,
+        "distance": 972.9564530898484,
+        "pickups": 77
+      },
+      {
+        "seed": 42,
+        "score": 172,
+        "distance": 972.9564530898484,
+        "pickups": 75
+      },
+      {
+        "seed": 43,
+        "score": 151,
+        "distance": 972.9564530898484,
+        "pickups": 54
+      },
+      {
+        "seed": 44,
+        "score": 158,
+        "distance": 972.9564530898484,
+        "pickups": 61
+      },
+      {
+        "seed": 45,
+        "score": 152,
+        "distance": 972.9564530898484,
+        "pickups": 55
+      },
+      {
+        "seed": 46,
+        "score": 168,
+        "distance": 972.9564530898484,
+        "pickups": 71
+      },
+      {
+        "seed": 47,
+        "score": 186,
+        "distance": 972.9564530898484,
+        "pickups": 89
+      },
+      {
+        "seed": 48,
+        "score": 187,
+        "distance": 972.9564530898484,
+        "pickups": 90
+      },
+      {
+        "seed": 49,
+        "score": 187,
+        "distance": 972.9564530898484,
+        "pickups": 90
+      },
+      {
+        "seed": 50,
+        "score": 214,
+        "distance": 972.9564530898484,
+        "pickups": 117
+      }
+    ],
+    "hard": [
+      {
+        "seed": 1,
+        "score": 213,
+        "distance": 1021.6042757443366,
+        "pickups": 111
+      },
+      {
+        "seed": 2,
+        "score": 138,
+        "distance": 652.8937114218749,
+        "pickups": 73
+      },
+      {
+        "seed": 3,
+        "score": 199,
+        "distance": 1021.6042757443366,
+        "pickups": 97
+      },
+      {
+        "seed": 4,
+        "score": 214,
+        "distance": 1021.6042757443366,
+        "pickups": 112
+      },
+      {
+        "seed": 5,
+        "score": 113,
+        "distance": 652.8937114218749,
+        "pickups": 48
+      },
+      {
+        "seed": 6,
+        "score": 184,
+        "distance": 1021.6042757443366,
+        "pickups": 82
+      },
+      {
+        "seed": 7,
+        "score": 139,
+        "distance": 652.8937114218749,
+        "pickups": 74
+      },
+      {
+        "seed": 8,
+        "score": 223,
+        "distance": 1021.6042757443366,
+        "pickups": 121
+      },
+      {
+        "seed": 9,
+        "score": 166,
+        "distance": 1021.6042757443366,
+        "pickups": 64
+      },
+      {
+        "seed": 10,
+        "score": 114,
+        "distance": 652.8937114218749,
+        "pickups": 49
+      },
+      {
+        "seed": 11,
+        "score": 194,
+        "distance": 1021.6042757443366,
+        "pickups": 92
+      },
+      {
+        "seed": 12,
+        "score": 119,
+        "distance": 652.8937114218749,
+        "pickups": 54
+      },
+      {
+        "seed": 13,
+        "score": 131,
+        "distance": 652.8937114218749,
+        "pickups": 66
+      },
+      {
+        "seed": 14,
+        "score": 187,
+        "distance": 1021.6042757443366,
+        "pickups": 85
+      },
+      {
+        "seed": 15,
+        "score": 129,
+        "distance": 652.8937114218749,
+        "pickups": 64
+      },
+      {
+        "seed": 16,
+        "score": 184,
+        "distance": 1021.6042757443366,
+        "pickups": 82
+      },
+      {
+        "seed": 17,
+        "score": 195,
+        "distance": 1021.6042757443366,
+        "pickups": 93
+      },
+      {
+        "seed": 18,
+        "score": 121,
+        "distance": 652.8937114218749,
+        "pickups": 56
+      },
+      {
+        "seed": 19,
+        "score": 196,
+        "distance": 1021.6042757443366,
+        "pickups": 94
+      },
+      {
+        "seed": 20,
+        "score": 119,
+        "distance": 652.8937114218749,
+        "pickups": 54
+      },
+      {
+        "seed": 21,
+        "score": 158,
+        "distance": 1021.6042757443366,
+        "pickups": 56
+      },
+      {
+        "seed": 22,
+        "score": 187,
+        "distance": 1021.6042757443366,
+        "pickups": 85
+      },
+      {
+        "seed": 23,
+        "score": 90,
+        "distance": 652.8937114218749,
+        "pickups": 25
+      },
+      {
+        "seed": 24,
+        "score": 199,
+        "distance": 1021.6042757443366,
+        "pickups": 97
+      },
+      {
+        "seed": 25,
+        "score": 239,
+        "distance": 1021.6042757443366,
+        "pickups": 137
+      },
+      {
+        "seed": 26,
+        "score": 125,
+        "distance": 652.8937114218749,
+        "pickups": 60
+      },
+      {
+        "seed": 27,
+        "score": 200,
+        "distance": 1021.6042757443366,
+        "pickups": 98
+      },
+      {
+        "seed": 28,
+        "score": 114,
+        "distance": 652.8937114218749,
+        "pickups": 49
+      },
+      {
+        "seed": 29,
+        "score": 193,
+        "distance": 1021.6042757443366,
+        "pickups": 91
+      },
+      {
+        "seed": 30,
+        "score": 162,
+        "distance": 1021.6042757443366,
+        "pickups": 60
+      },
+      {
+        "seed": 31,
+        "score": 111,
+        "distance": 652.8937114218749,
+        "pickups": 46
+      },
+      {
+        "seed": 32,
+        "score": 196,
+        "distance": 1021.6042757443366,
+        "pickups": 94
+      },
+      {
+        "seed": 33,
+        "score": 108,
+        "distance": 652.8937114218749,
+        "pickups": 43
+      },
+      {
+        "seed": 34,
+        "score": 129,
+        "distance": 652.8937114218749,
+        "pickups": 64
+      },
+      {
+        "seed": 35,
+        "score": 191,
+        "distance": 1021.6042757443366,
+        "pickups": 89
+      },
+      {
+        "seed": 36,
+        "score": 138,
+        "distance": 652.8937114218749,
+        "pickups": 73
+      },
+      {
+        "seed": 37,
+        "score": 227,
+        "distance": 1021.6042757443366,
+        "pickups": 125
+      },
+      {
+        "seed": 38,
+        "score": 224,
+        "distance": 1021.6042757443366,
+        "pickups": 122
+      },
+      {
+        "seed": 39,
+        "score": 125,
+        "distance": 652.8937114218749,
+        "pickups": 60
+      },
+      {
+        "seed": 40,
+        "score": 184,
+        "distance": 1021.6042757443366,
+        "pickups": 82
+      },
+      {
+        "seed": 41,
+        "score": 145,
+        "distance": 652.8937114218749,
+        "pickups": 80
+      },
+      {
+        "seed": 42,
+        "score": 177,
+        "distance": 1021.6042757443366,
+        "pickups": 75
+      },
+      {
+        "seed": 43,
+        "score": 186,
+        "distance": 1021.6042757443366,
+        "pickups": 84
+      },
+      {
+        "seed": 44,
+        "score": 129,
+        "distance": 652.8937114218749,
+        "pickups": 64
+      },
+      {
+        "seed": 45,
+        "score": 160,
+        "distance": 1021.6042757443366,
+        "pickups": 58
+      },
+      {
+        "seed": 46,
+        "score": 118,
+        "distance": 652.8937114218749,
+        "pickups": 53
+      },
+      {
+        "seed": 47,
+        "score": 124,
+        "distance": 652.8937114218749,
+        "pickups": 59
+      },
+      {
+        "seed": 48,
+        "score": 203,
+        "distance": 1021.6042757443366,
+        "pickups": 101
+      },
+      {
+        "seed": 49,
+        "score": 137,
+        "distance": 652.8937114218749,
+        "pickups": 72
+      },
+      {
+        "seed": 50,
+        "score": 226,
+        "distance": 1021.6042757443366,
+        "pickups": 124
+      }
+    ],
+    "endless": [
+      {
+        "seed": 1,
+        "score": 305,
+        "distance": 1548.3827035404631,
+        "pickups": 151
+      },
+      {
+        "seed": 2,
+        "score": 211,
+        "distance": 963.097040170289,
+        "pickups": 115
+      },
+      {
+        "seed": 3,
+        "score": 315,
+        "distance": 1548.3827035404631,
+        "pickups": 161
+      },
+      {
+        "seed": 4,
+        "score": 357,
+        "distance": 1548.3827035404631,
+        "pickups": 203
+      },
+      {
+        "seed": 5,
+        "score": 189,
+        "distance": 963.097040170289,
+        "pickups": 93
+      },
+      {
+        "seed": 6,
+        "score": 273,
+        "distance": 1548.3827035404631,
+        "pickups": 119
+      },
+      {
+        "seed": 7,
+        "score": 192,
+        "distance": 963.097040170289,
+        "pickups": 96
+      },
+      {
+        "seed": 8,
+        "score": 320,
+        "distance": 1548.3827035404631,
+        "pickups": 166
+      },
+      {
+        "seed": 9,
+        "score": 265,
+        "distance": 1548.3827035404631,
+        "pickups": 111
+      },
+      {
+        "seed": 10,
+        "score": 183,
+        "distance": 963.097040170289,
+        "pickups": 87
+      },
+      {
+        "seed": 11,
+        "score": 291,
+        "distance": 1548.3827035404631,
+        "pickups": 137
+      },
+      {
+        "seed": 12,
+        "score": 181,
+        "distance": 963.097040170289,
+        "pickups": 85
+      },
+      {
+        "seed": 13,
+        "score": 193,
+        "distance": 963.097040170289,
+        "pickups": 97
+      },
+      {
+        "seed": 14,
+        "score": 282,
+        "distance": 1548.3827035404631,
+        "pickups": 128
+      },
+      {
+        "seed": 15,
+        "score": 191,
+        "distance": 963.097040170289,
+        "pickups": 95
+      },
+      {
+        "seed": 16,
+        "score": 285,
+        "distance": 1548.3827035404631,
+        "pickups": 131
+      },
+      {
+        "seed": 17,
+        "score": 295,
+        "distance": 1548.3827035404631,
+        "pickups": 141
+      },
+      {
+        "seed": 18,
+        "score": 177,
+        "distance": 963.097040170289,
+        "pickups": 81
+      },
+      {
+        "seed": 19,
+        "score": 315,
+        "distance": 1548.3827035404631,
+        "pickups": 161
+      },
+      {
+        "seed": 20,
+        "score": 201,
+        "distance": 963.097040170289,
+        "pickups": 105
+      },
+      {
+        "seed": 21,
+        "score": 260,
+        "distance": 1548.3827035404631,
+        "pickups": 106
+      },
+      {
+        "seed": 22,
+        "score": 276,
+        "distance": 1548.3827035404631,
+        "pickups": 122
+      },
+      {
+        "seed": 23,
+        "score": 140,
+        "distance": 963.097040170289,
+        "pickups": 44
+      },
+      {
+        "seed": 24,
+        "score": 291,
+        "distance": 1548.3827035404631,
+        "pickups": 137
+      },
+      {
+        "seed": 25,
+        "score": 343,
+        "distance": 1548.3827035404631,
+        "pickups": 189
+      },
+      {
+        "seed": 26,
+        "score": 174,
+        "distance": 963.097040170289,
+        "pickups": 78
+      },
+      {
+        "seed": 27,
+        "score": 298,
+        "distance": 1548.3827035404631,
+        "pickups": 144
+      },
+      {
+        "seed": 28,
+        "score": 187,
+        "distance": 963.097040170289,
+        "pickups": 91
+      },
+      {
+        "seed": 29,
+        "score": 301,
+        "distance": 1548.3827035404631,
+        "pickups": 147
+      },
+      {
+        "seed": 30,
+        "score": 293,
+        "distance": 1548.3827035404631,
+        "pickups": 139
+      },
+      {
+        "seed": 31,
+        "score": 180,
+        "distance": 963.097040170289,
+        "pickups": 84
+      },
+      {
+        "seed": 32,
+        "score": 327,
+        "distance": 1548.3827035404631,
+        "pickups": 173
+      },
+      {
+        "seed": 33,
+        "score": 174,
+        "distance": 963.097040170289,
+        "pickups": 78
+      },
+      {
+        "seed": 34,
+        "score": 188,
+        "distance": 963.097040170289,
+        "pickups": 92
+      },
+      {
+        "seed": 35,
+        "score": 276,
+        "distance": 1548.3827035404631,
+        "pickups": 122
+      },
+      {
+        "seed": 36,
+        "score": 194,
+        "distance": 963.097040170289,
+        "pickups": 98
+      },
+      {
+        "seed": 37,
+        "score": 357,
+        "distance": 1548.3827035404631,
+        "pickups": 203
+      },
+      {
+        "seed": 38,
+        "score": 314,
+        "distance": 1548.3827035404631,
+        "pickups": 160
+      },
+      {
+        "seed": 39,
+        "score": 165,
+        "distance": 963.097040170289,
+        "pickups": 69
+      },
+      {
+        "seed": 40,
+        "score": 274,
+        "distance": 1548.3827035404631,
+        "pickups": 120
+      },
+      {
+        "seed": 41,
+        "score": 201,
+        "distance": 963.097040170289,
+        "pickups": 105
+      },
+      {
+        "seed": 42,
+        "score": 289,
+        "distance": 1548.3827035404631,
+        "pickups": 135
+      },
+      {
+        "seed": 43,
+        "score": 288,
+        "distance": 1548.3827035404631,
+        "pickups": 134
+      },
+      {
+        "seed": 44,
+        "score": 172,
+        "distance": 963.097040170289,
+        "pickups": 76
+      },
+      {
+        "seed": 45,
+        "score": 291,
+        "distance": 1548.3827035404631,
+        "pickups": 137
+      },
+      {
+        "seed": 46,
+        "score": 180,
+        "distance": 963.097040170289,
+        "pickups": 84
+      },
+      {
+        "seed": 47,
+        "score": 192,
+        "distance": 963.097040170289,
+        "pickups": 96
+      },
+      {
+        "seed": 48,
+        "score": 346,
+        "distance": 1548.3827035404631,
+        "pickups": 192
+      },
+      {
+        "seed": 49,
+        "score": 183,
+        "distance": 963.097040170289,
+        "pickups": 87
+      },
+      {
+        "seed": 50,
+        "score": 354,
+        "distance": 1548.3827035404631,
+        "pickups": 200
+      }
+    ]
+  }
+}

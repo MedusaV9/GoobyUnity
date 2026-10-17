@@ -1,0 +1,87 @@
+{
+	"events": {
+		"choice": {
+			"wartet": "{gooby} is waiting…"
+		},
+		"marienkaefer": {
+			"bubble": "Hnnng… I can't get up!",
+			"danke": "Phew! Thanks, buddy!"
+		},
+		"kuehlschrank": {
+			"bubble": "The fridge tipped over! Help me pick everything up?",
+			"danke": "All back inside. Nothing nibbled. Promise."
+		},
+		"glas": {
+			"bubble": "There… there was a glass. Now it's a puzzle."
+		},
+		"teller": {
+			"bubble": "The plate wanted to fly. It could not."
+		},
+		"scherben": {
+			"danke": "Thanks! No more shards. Almost like new in here."
+		},
+		"nutella": {
+			"upps": "uhhh OOOPS…",
+			"ab_ins_bett": "Off to bed!",
+			"weitermachen": "Let him be",
+			"murmel": "mmmh… okay okay… I'm going… wasn't even my favorite flavor anyway…",
+			"strahlen": "You are the BEST! Just one more tiny spoon!",
+			"aufraeumen": "I'll clean this up. No traces. Nobody will ever know.",
+			"fleck_weg": "Stain? What stain? There NEVER was a stain."
+		},
+		"sockensuche": {
+			"bubble": "A single sock?! Where are its friends?!",
+			"danke": "All socks reunited! Family reunion!"
+		},
+		"robo": {
+			"bubble": "IT KNOWS THAT I AM CRUMBS!",
+			"ausweichen": "It's too fast! CATCH IT!",
+			"danke": "Victory over the machine! And the floor even sparkles."
+		},
+		"kleber": {
+			"bubble": "I am a chair-gooby now. This is my life now.",
+			"rubbel": "Keep rubbing! I can feel something!",
+			"plopp": "PLOP! Freedom! I never knew how much I missed it!"
+		},
+		"wurm": {
+			"bubble": "His name is Herbert. He says nothing. I like him.",
+			"draussen": "Herbert stays outside",
+			"giessen": "Water him too",
+			"winken": "See you tomorrow, Herbert.",
+			"giessen_danke": "Herbert gets his own shower! Best day of his life!"
+		},
+		"fernbedienung": {
+			"bubble": "I CAN'T FIND IT AND I CAN'T FIND MY THOUGHTS EITHER.",
+			"nix": "Not here! Just crumbs. Suspiciously many crumbs.",
+			"danke": "Ahhh. Silence. I can hear my ears again."
+		},
+		"karton": {
+			"bubble": "I am furniture now. Put me with the others.",
+			"raus": "Out you go!",
+			"moebel": "Ok, you are furniture",
+			"raus_danke": "Okay okay! I can live somewhere else too!",
+			"moebel_ok": "Good choice. I am the quietest furniture in the world.",
+			"moebel_ende": "Being furniture is harder than it looks."
+		},
+		"gewitter": {
+			"bubble": "It's thundering… and Gooby is gone. Find him with the flashlight!",
+			"gefunden": "Th-thunder is just… sky burps, right?",
+			"streicheln": "Pet him gently — tap three times!",
+			"danke": "Thanks… with you around the thunder is only half as loud… zzz…"
+		},
+		"mehl": {
+			"bubble": "I wanted to make you pancakes. The bag was… more explosive than expected.",
+			"danke": "Fluffy again instead of dusted! And here: ONE pancake. It turned out great."
+		},
+		"mumie": {
+			"bubble": "I am a MUMMY! …Was. Now I am a bundle. Unwrap me!",
+			"wickel": "Keep going, keep going! One ear is free again!",
+			"danke": "Never again! …Or maybe once more for Halloween."
+		},
+		"story": {
+			"hinweis": "Tap a word to fill the blank",
+			"kichern": "Hihi… I'm pretty sure the book didn't say that…",
+			"einschlafen": "Mmmh… lovely story… good night…"
+		}
+	}
+}

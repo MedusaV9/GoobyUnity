@@ -1,0 +1,166 @@
+{
+	"schema": 1,
+	"items": [
+		{
+			"id": "classic1",
+			"title_de": "Klassik 1",
+			"icon": "hunger",
+			"tint": "#F2CDB4",
+			"order": 0
+		},
+		{
+			"id": "classic2",
+			"title_de": "Klassik 2",
+			"icon": "stethoscope",
+			"tint": "#C9E3D2",
+			"order": 1
+		},
+		{
+			"id": "classic3",
+			"title_de": "Klassik 3",
+			"icon": "trophy",
+			"tint": "#EFDFAE",
+			"order": 2
+		},
+		{
+			"id": "classic4",
+			"title_de": "Klassik 4",
+			"icon": "shirt",
+			"tint": "#D9CFF0",
+			"order": 3
+		},
+		{
+			"id": "classic5",
+			"title_de": "Klassik 5",
+			"icon": "nutellaJar",
+			"tint": "#E4C9B4",
+			"order": 4
+		},
+		{
+			"id": "classic6",
+			"title_de": "Klassik 6",
+			"icon": "sprout",
+			"tint": "#CDE6BE",
+			"order": 5
+		},
+		{
+			"id": "classic7",
+			"title_de": "Klassik 7",
+			"icon": "car",
+			"tint": "#C2D6EE",
+			"order": 6
+		},
+		{
+			"id": "classic8",
+			"title_de": "Klassik 8",
+			"icon": "star",
+			"tint": "#E3C6DE",
+			"order": 7
+		},
+		{
+			"id": "travel",
+			"title_de": "Reise",
+			"icon": "suitcase",
+			"tint": "#AFD8E8",
+			"order": 8
+		},
+		{
+			"id": "funkelpark",
+			"title_de": "Funkelpark",
+			"icon": "sparkle",
+			"tint": "#E8C9F0",
+			"order": 9
+		},
+		{
+			"id": "arcadeStars",
+			"title_de": "Arcade-Sterne",
+			"icon": "gamepad",
+			"tint": "#C9CFF0",
+			"order": 10
+		},
+		{
+			"id": "cozyLife",
+			"title_de": "Kuschelleben",
+			"icon": "cottage",
+			"tint": "#F0D9C9",
+			"order": 11
+		},
+		{
+			"id": "foodieFeast",
+			"title_de": "Schlemmerei",
+			"icon": "candy",
+			"tint": "#F0E3B8",
+			"order": 12
+		},
+		{
+			"id": "bestFriends",
+			"title_de": "Beste Freunde",
+			"icon": "heart",
+			"tint": "#F4BFCD",
+			"order": 13
+		},
+		{
+			"id": "garten",
+			"title_de": "Garten",
+			"icon": "sprout",
+			"tint": "#CDE6BE",
+			"order": 14
+		},
+		{
+			"id": "stadt",
+			"title_de": "Stadt",
+			"icon": "car",
+			"tint": "#C2D6EE",
+			"order": 15
+		},
+		{
+			"id": "gvz",
+			"title_de": "GvZ",
+			"icon": "shield",
+			"tint": "#D9CFF0",
+			"order": 16
+		},
+		{
+			"id": "bonus",
+			"title_de": "Bonus",
+			"icon": "star",
+			"tint": "#EFDFAE",
+			"order": 17
+		},
+		{
+			"id": "ranch",
+			"title_de": "Ranch & Pferde",
+			"icon": "leaf",
+			"tint": "#E8D3B8",
+			"order": 18
+		},
+		{
+			"id": "multiplayer",
+			"title_de": "Multiplayer",
+			"icon": "gamepad",
+			"tint": "#C9D8F0",
+			"order": 19
+		},
+		{
+			"id": "stadtnacht",
+			"title_de": "Stadt bei Nacht",
+			"icon": "moon",
+			"tint": "#A8B4D8",
+			"order": 20
+		},
+		{
+			"id": "kueche",
+			"title_de": "Küche & Kochen",
+			"icon": "hunger",
+			"tint": "#F0E0C0",
+			"order": 21
+		},
+		{
+			"id": "jahreszeiten",
+			"title_de": "Jahreszeiten",
+			"icon": "sparkle",
+			"tint": "#CDE6D8",
+			"order": 22
+		}
+	]
+}

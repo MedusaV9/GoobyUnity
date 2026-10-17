@@ -1,0 +1,48 @@
+{
+ "rwelt": {
+  "titel": "Ranch-Region",
+  "zone": {
+   "hof": "Ranch-Hof",
+   "weidetal": "Weidetal",
+   "waeldchen": "Wäldchen",
+   "see": "Glitzersee",
+   "huegelkamm": "Hügelkamm",
+   "bachlauf": "Blubberbach",
+   "scheune_alt": "Alte Scheune",
+   "turnierplatz": "Turnierplatz",
+   "hufingen": "Dorfrand Hufingen",
+   "frei": "Grünes Land"
+  },
+  "entdeckt": "Neu entdeckt: {zone}!",
+  "fund_entdeckt": "Entdeckt: {name}! +{muenzen} Münzen",
+  "fund": {
+   "wasserfall": "Der rauschende Wasserfall",
+   "hoehle": "Die Funkelhöhle",
+   "alter_baum": "Der uralte Baum",
+   "steinkreis": "Der Steinkreis",
+   "aussicht_kamm": "Aussicht am Hügelkamm",
+   "aussicht_see": "Aussicht am Glitzersee",
+   "truhe_wald": "Versteckte Waldtruhe",
+   "truhe_scheune": "Truhe hinter der Scheune",
+   "truhe_ufer": "Truhe am Seeufer"
+  },
+  "wetter": {
+   "sonne": "Sonnig",
+   "wolken": "Wolkig",
+   "niesel": "Nieselregen",
+   "regen": "Regen",
+   "gewitter": "Gewitter",
+   "nebel": "Nebel",
+   "regenbogen": "Ein Regenbogen!"
+  },
+  "hud": {
+   "zur_ranch": "Zum Hof",
+   "aussicht": "Aussichtspunkt",
+   "steg_schild": "Glitzersee",
+   "scheune_schild": "Psst… alte Scheune",
+   "turnier_schild": "Turnierplatz",
+   "hufingen_schild": "Hufingen",
+   "ausreiten": "Ausreiten!"
+  }
+ }
+}

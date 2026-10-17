@@ -1,0 +1,73 @@
+{
+	"schema": "gooby.rooms/1",
+	"rooms": [
+		{
+			"id": "living",
+			"walls": { "N": "strasse" },
+			"name_key": "home.raum.living",
+			"scene": "res://scenes/home/wohnzimmer.tscn",
+			"grid": [12, 10],
+			"floor_color": "#C9A36B",
+			"wall_color": "#FFF6EC",
+			"windows": [{ "wall": "N", "offset": 8, "size": 2 }],
+			"doors": [
+				{ "id": "living_kueche", "to": "kitchen", "to_door": "kueche_living", "wall": "N", "offset": 2 },
+				{ "id": "living_schlafzimmer", "to": "bedroom", "to_door": "schlafzimmer_living", "wall": "W", "offset": 4 },
+				{ "id": "living_garten", "to": "garden", "to_door": "garten_living", "wall": "E", "offset": 5 }
+			]
+		},
+		{
+			"id": "kitchen",
+			"walls": { "N": "garten" },
+			"name_key": "home.raum.kitchen",
+			"scene": "res://scenes/home/kueche.tscn",
+			"grid": [10, 8],
+			"floor_color": "#EDE3D1",
+			"wall_color": "#FFF3E0",
+			"windows": [{ "wall": "N", "offset": 4, "size": 2 }],
+			"doors": [
+				{ "id": "kueche_living", "to": "living", "to_door": "living_kueche", "wall": "W", "offset": 3 }
+			]
+		},
+		{
+			"id": "bathroom",
+			"walls": { "N": "garten" },
+			"name_key": "home.raum.bathroom",
+			"scene": "res://scenes/home/bad.tscn",
+			"grid": [8, 7],
+			"floor_color": "#DDEBEF",
+			"wall_color": "#F2FAFB",
+			"windows": [{ "wall": "N", "offset": 5, "size": 1 }],
+			"doors": [
+				{ "id": "bad_schlafzimmer", "to": "bedroom", "to_door": "schlafzimmer_bad", "wall": "W", "offset": 2 }
+			]
+		},
+		{
+			"id": "bedroom",
+			"walls": { "N": "strasse" },
+			"name_key": "home.raum.bedroom",
+			"scene": "res://scenes/home/schlafzimmer.tscn",
+			"grid": [10, 8],
+			"floor_color": "#B98D62",
+			"wall_color": "#FFF0E8",
+			"windows": [{ "wall": "N", "offset": 2, "size": 2 }],
+			"doors": [
+				{ "id": "schlafzimmer_living", "to": "living", "to_door": "living_schlafzimmer", "wall": "E", "offset": 3 },
+				{ "id": "schlafzimmer_bad", "to": "bathroom", "to_door": "bad_schlafzimmer", "wall": "N", "offset": 6 }
+			]
+		},
+		{
+			"id": "garden",
+			"name_key": "home.raum.garden",
+			"scene": "res://scenes/home/garten.tscn",
+			"grid": [28, 14],
+			"floor_color": "#8CBE6B",
+			"wall_color": "#D9B88F",
+			"outdoor": true,
+			"windows": [],
+			"doors": [
+				{ "id": "garten_living", "to": "living", "to_door": "living_garten", "wall": "N", "offset": 8 }
+			]
+		}
+	]
+}

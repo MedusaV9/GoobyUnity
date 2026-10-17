@@ -1,0 +1,81 @@
+{
+	"park": {
+		"ort": {
+			"funkelpark": "Sparkle Park"
+		},
+		"gate": {
+			"titel": "Welcome to Sparkle Park",
+			"text": "Tickets please! Everything sparkles twice today.",
+			"tafel": "Ticket booth"
+		},
+		"ride": {
+			"fahren": "Ride ({preis} coins)",
+			"gratis": "Watch",
+			"zu_teuer": "Not enough coins. The booth stays firm, but friendly.",
+			"zu_muede": "Gooby is too tired for this ride. Rest first!",
+			"spaeter": "Later",
+			"laeuft": "On its way — the train will be right back."
+		},
+		"coaster": {
+			"name": "Sparkle Loop",
+			"beschreibung": "Chain lift, big drop, loop — Gooby rides up front.",
+			"board": "All aboard! Gooby hops into the front cart.",
+			"lift": "Clank… clank… up, up, up…",
+			"drop": "Hold on tiiight!",
+			"loop": "Loop-the-loop! Wheee!",
+			"photo": "Say cheese!",
+			"hills": "Bunny hops! Boing, boing.",
+			"brake": "Aaand… breathe out.",
+			"done": "What a ride! Gooby is still wobbly.",
+			"hands_up": "Hands up!",
+			"hands_up_hint": "Hold: hands up!",
+			"photo_saved": "Ride photo saved to the gallery!"
+		},
+		"wheel": {
+			"name": "Giant Wheel",
+			"beschreibung": "A gentle spin high above Sparkle Park.",
+			"board": "Gooby snuggles into a pastel gondola.",
+			"apex": "The very top! Gooby waves at the whole park.",
+			"done": "Back down — what a lovely view that was.",
+			"photo_saved": "View photo saved to the gallery!"
+		},
+		"karussell": {
+			"name": "Sparkle Carousel",
+			"beschreibung": "Round after round on colorful ponies.",
+			"done": "Ahh, that was a lovely spin."
+		},
+		"scooter": {
+			"name": "Bumper Cars",
+			"beschreibung": "The little cars nudge each other — Gooby watches, giggling.",
+			"hint": "Watching only today: Gooby's paws can't reach the pedal."
+		},
+		"alley": {
+			"title": "Candy Alley",
+			"hint": "Fair treats! Snacks land in Gooby's food tray."
+		},
+		"stall": {
+			"cottonCandy": {
+				"name": "Sugar Cloud",
+				"pitch": "A pink cloud on a stick — pure fair magic."
+			},
+			"softServe": {
+				"name": "Swirl Stop",
+				"pitch": "A creamy swirl with a cone hat."
+			},
+			"waffle": {
+				"name": "Waffle Wonder",
+				"pitch": "Fresh off the iron, golden and warm."
+			},
+			"kaufen": "Buy ({preis} coins)",
+			"gekauft": "{name} is now in Gooby's tray!"
+		},
+		"food": {
+			"cottonCandy": "Cotton Candy",
+			"softServe": "Soft Serve",
+			"waffle": "Waffle"
+		},
+		"nacht": {
+			"lichter": "The lights come on — now the park really sparkles."
+		}
+	}
+}

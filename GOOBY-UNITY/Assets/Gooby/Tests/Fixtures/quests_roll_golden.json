@@ -1,0 +1,206 @@
+{
+ "2026-07-27|all4": {
+  "roll": [
+   "feed3",
+   "wash1",
+   "harvest2"
+  ],
+  "reroll": [
+   "run200",
+   "zahn1",
+   "tee1"
+  ],
+  "rerollKeepFirst": [
+   "feed3",
+   "run200",
+   "zahn1"
+  ]
+ },
+ "2026-07-27|none": {
+  "roll": [
+   "feed3",
+   "wash1",
+   "harvest2"
+  ],
+  "reroll": [
+   "plant2",
+   "tickle3",
+   "earn60"
+  ],
+  "rerollKeepFirst": [
+   "feed3",
+   "plant2",
+   "tickle3"
+  ]
+ },
+ "2026-07-27|many": {
+  "roll": [
+   "feed3",
+   "wash1",
+   "plant2"
+  ],
+  "reroll": [
+   "liefer60",
+   "play3",
+   "harvest2"
+  ],
+  "rerollKeepFirst": [
+   "feed3",
+   "liefer60",
+   "play3"
+  ]
+ },
+ "2026-07-28|all4": {
+  "roll": [
+   "catch30",
+   "harvest2",
+   "tee1"
+  ],
+  "reroll": [
+   "tickle3",
+   "water4",
+   "earn60"
+  ],
+  "rerollKeepFirst": [
+   "catch30",
+   "tickle3",
+   "water4"
+  ]
+ },
+ "2026-07-28|none": {
+  "roll": [
+   "play2distinct",
+   "einkauf1",
+   "plant2"
+  ],
+  "reroll": [
+   "pet5",
+   "harvest2",
+   "zahn1"
+  ],
+  "rerollKeepFirst": [
+   "play2distinct",
+   "pet5",
+   "harvest2"
+  ]
+ },
+ "2026-07-28|many": {
+  "roll": [
+   "golf70",
+   "harvest2",
+   "tee1"
+  ],
+  "reroll": [
+   "play3",
+   "plant2",
+   "fisch40"
+  ],
+  "rerollKeepFirst": [
+   "golf70",
+   "play3",
+   "einkauf1"
+  ]
+ },
+ "2026-01-01|all4": {
+  "roll": [
+   "harvest2",
+   "earn60",
+   "wash1"
+  ],
+  "reroll": [
+   "feed3",
+   "play2distinct",
+   "plant2"
+  ],
+  "rerollKeepFirst": [
+   "harvest2",
+   "feed3",
+   "play2distinct"
+  ]
+ },
+ "2026-01-01|none": {
+  "roll": [
+   "harvest2",
+   "play3",
+   "feed3"
+  ],
+  "reroll": [
+   "wash1",
+   "zahn1",
+   "water4"
+  ],
+  "rerollKeepFirst": [
+   "harvest2",
+   "wash1",
+   "zahn1"
+  ]
+ },
+ "2026-01-01|many": {
+  "roll": [
+   "water4",
+   "fisch40",
+   "pet5"
+  ],
+  "reroll": [
+   "feed3",
+   "catch30",
+   "gvz1"
+  ],
+  "rerollKeepFirst": [
+   "water4",
+   "feed3",
+   "catch30"
+  ]
+ },
+ "2026-12-31|all4": {
+  "roll": [
+   "hop10",
+   "harvest2",
+   "water4"
+  ],
+  "reroll": [
+   "plant2",
+   "tickle3",
+   "run200"
+  ],
+  "rerollKeepFirst": [
+   "hop10",
+   "plant2",
+   "tickle3"
+  ]
+ },
+ "2026-12-31|none": {
+  "roll": [
+   "earn60",
+   "harvest2",
+   "einkauf1"
+  ],
+  "reroll": [
+   "water4",
+   "pet5",
+   "play2distinct"
+  ],
+  "rerollKeepFirst": [
+   "earn60",
+   "water4",
+   "pet5"
+  ]
+ },
+ "2026-12-31|many": {
+  "roll": [
+   "says60",
+   "water4",
+   "harvest2"
+  ],
+  "reroll": [
+   "plant2",
+   "play3",
+   "liefer60"
+  ],
+  "rerollKeepFirst": [
+   "says60",
+   "plant2",
+   "play3"
+  ]
+ }
+}

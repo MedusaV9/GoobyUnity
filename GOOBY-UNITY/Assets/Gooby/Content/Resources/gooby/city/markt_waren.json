@@ -1,0 +1,34 @@
+{
+	"kommentar": "W15/MARKT — Waren-Katalog des EIGENEN Marktstands (Doc D §6.3). Drei Quellen: kategorie 'ernte' (Garten-Ernte, liegt in inventory.food; basis kommt zur Laufzeit aus MarktPreise.marktpreis und bleibt hier bewusst leer), 'craft' (Selbstgebautes: Möbel-Waren liegen in home.storage und ziehen ihren basis aus FurnitureCatalog.verkaufswert; stapelbare Craft-Waren wie der Kräuterbund liegen in inventory.items) und 'souvenir' (Mitbringsel, inventory.food). NIE Ware doppelt listen — die id ist zugleich der Lager-Schlüssel.",
+	"waren": [
+		{ "id": "radish", "kategorie": "ernte", "lager": "food" },
+		{ "id": "carrot", "kategorie": "ernte", "lager": "food" },
+		{ "id": "salad", "kategorie": "ernte", "lager": "food" },
+		{ "id": "tomato", "kategorie": "ernte", "lager": "food" },
+		{ "id": "corn", "kategorie": "ernte", "lager": "food" },
+		{ "id": "eggplant", "kategorie": "ernte", "lager": "food" },
+		{ "id": "pumpkin", "kategorie": "ernte", "lager": "food" },
+		{ "id": "watermelon", "kategorie": "ernte", "lager": "food" },
+		{
+			"id": "kraeuter",
+			"kategorie": "craft",
+			"lager": "items",
+			"basis": 18,
+			"name_de": "Kräuterbund",
+			"name_en": "Herb Bundle"
+		},
+		{ "id": "fence_wood", "kategorie": "craft", "lager": "storage" },
+		{ "id": "stool_rustic", "kategorie": "craft", "lager": "storage" },
+		{ "id": "planter_box", "kategorie": "craft", "lager": "storage" },
+		{ "id": "vogelhaus", "kategorie": "craft", "lager": "storage" },
+		{ "id": "windrad_deko", "kategorie": "craft", "lager": "storage" },
+		{
+			"id": "weltraumMoehre",
+			"kategorie": "souvenir",
+			"lager": "food",
+			"basis": 20,
+			"name_de": "Weltraum-Möhre",
+			"name_en": "Space Carrot"
+		}
+	]
+}

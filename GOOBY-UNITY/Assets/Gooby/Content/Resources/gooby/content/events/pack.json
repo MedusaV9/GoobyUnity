@@ -1,0 +1,10 @@
+{
+	"schema": 1,
+	"id": "events",
+	"version": "1.1.0",
+	"priority": 300,
+	"min_native": "5.0.0",
+	"domains": ["events", "stories"],
+	"name_de": "Events",
+	"notes_de": "BACKLOG-REST: 13 Random-Event-Defs (M1-6 + robo_jagd, kleber_stuhl, wurm_freund, fernbedienung, karton_gooby, gewitter_angst, mehl_unfall; Nutella-Nacht mit Timeout-Spanne + Fleck-Beweis) + 2 Geschichten-Stunde-Bücher."
+}

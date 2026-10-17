@@ -1,0 +1,9 @@
+{
+	"mg": {
+		"goalieGooby": {
+			"intro": "Hechte in die leuchtende Bahn!",
+			"intro_lob": "Blau = Heber: wisch nach oben!",
+			"intro_roller": "Rosa = Roller: wisch nach unten!"
+		}
+	}
+}

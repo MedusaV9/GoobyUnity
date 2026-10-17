@@ -1,0 +1,14 @@
+{
+	"sys": {
+		"save": {
+			"recovered_backup": "Kleiner Schluckauf beim Laden — Gooby hat deine letzte Sicherung zurückgeholt. Alles wieder da!",
+			"recovered_fresh": "Autsch, dein Spielstand war kaputt. Gooby startet frisch — der alte Stand liegt als Sicherheitskopie bereit."
+		},
+		"err": {
+			"offline": "Gerade offline — das geht ohne Internet nicht.",
+			"timeout": "Das dauert gerade zu lange — probier es gleich nochmal.",
+			"rate_limit": "Langsam! Kurz durchatmen und nochmal probieren.",
+			"generic": "Das hat nicht geklappt ({code})."
+		}
+	}
+}

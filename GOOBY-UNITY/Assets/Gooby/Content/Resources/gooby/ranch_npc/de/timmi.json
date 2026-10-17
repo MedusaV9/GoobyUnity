@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_timmi",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "timmi",
+			"text": "DU BIST WACH! Ich bin auch wach! Ich bin seit STUNDEN wach! Die Hühner waren noch müde, ich hab sie geweckt!",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "timmi",
+			"text": "Hallo hallo HALLO! Ich bin Timmi! Ich wohne nebenan! Also da hinten! Also überall, sagt Mama!",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "timmi",
+			"text": "Ich darf noch GENAU zehn Minuten draußen bleiben! Das sind … viele Sekunden! Schnell, reden wir!",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "timmi",
+			"text": "REGEN! Weißt du, was das heißt? PFÜTZEN! Ich hab schon sieben Stück probiert. Die dritte war die beste.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "timmi",
+			"text": "MEIN BESTER FREUND IST DA! Das bist du! Ich hab's allen erzählt! Sogar dem Briefkasten!",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "timmi",
+			"text": "Was machen wir, was machen wir?",
+			"optionen": [
+				{"text": "Brauchst du Hilfe bei was?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Hab's geschafft, Timmi!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "Was gibt's Neues?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "Was gibt's Neues?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "Was gibt's Neues?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Zeig mir deine Sammlung!", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Was willst du mal werden?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Muss los, Timmi!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "timmi",
+			"text": [
+				"Ich hab heute ein Pferd angeschaut und es hat ZURÜCKGESCHAUT. Wir sind jetzt quasi verwandt.",
+				"Und ich kann schon fast pfeifen! Hör mal! … Okay, das war Spucke. Aber FAST!"
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "timmi",
+			"text": [
+				"Opa Alwin sagt, ich stelle zu viele Fragen. Aber woher weiß man, wie viele Fragen zu viele sind?",
+				"Siehst du! SIEHST DU! Das war noch eine Frage! Es hört nie auf! Es ist FANTASTISCH!"
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "timmi",
+			"text": [
+				"Du bist mein Lieblingsgroßer. Du hörst zu und rennst nicht weg. Die meisten Großen rennen.",
+				"Wenn ich groß bin, werde ich wie du. Nur schneller. Und mit mehr Hufeisen. VIEL mehr Hufeisen."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "timmi",
+			"text": "JA! Also, es ist SUPER wichtig und SUPER geheim und ich brauch GENAU dich dafür!",
+			"optionen": [
+				{"text": "Bin dabei!", "next": "quest_annahme"},
+				{"text": "Später, okay?", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "timmi",
+			"text": "JAAAA! Du bist der BESTE! Ich hüpf dann hier so lange im Kreis, okay? Okay!",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "timmi",
+			"text": "Ooooch. Na guuuut. Ich warte hier. Ich bin SEHR gut im Warten. Was dauert eigentlich später?",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "timmi",
+			"text": "DU HAST ES GEMACHT! Das kommt in mein Heldenbuch! Da stehst nur du drin. Und ein Pony. Hier, für dich!",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "timmi",
+			"text": "EIN KEKS! Für MICH? Ich ess ihn ganz langsam. In zwei Bissen. Das ist langsam für mich!",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "timmi",
+			"text": "Ooooh, danke! Das tausche ich NIE. Außer gegen was richtig Gutes. Aber sonst NIE!",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "timmi",
+			"text": "Was ist das? Egal! Es ist von DIR, also ist es toll! Ich bau's in meine Sammlung ein!",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "timmi",
+			"text": [
+				"Meine Hufeisensammlung! Ich hab ELF Stück! Das da ist Rosti, das ist Glanzi, das ist Herr Krumm.",
+				"Herr Krumm ist krumm, weil ein Pferd draufgetreten ist. Also … noch mal. Zurückgetreten quasi.",
+				"Wenn ich zwölf hab, ist die Sammlung fertig. Dann fang ich die Zweitsammlung an!"
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "timmi",
+			"text": [
+				"Was ich werden will? ALLES. Aber am meisten: Rancher. Wie du.",
+				"Ich üb schon. Ich hab einen Stock, der ist mein Pferd. Er heißt Blitz und frisst Gras, wenn keiner guckt.",
+				"Sag Blitz nicht, dass er ein Stock ist. Er glaubt fest an sich."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "timmi",
+			"text": "Tschüüüüüs! Ich winke, bis du GANZ klein bist! Das dauert bei dir immer so schön lang!",
+			"ende": true
+		}
+	}
+}

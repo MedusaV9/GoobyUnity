@@ -1,0 +1,1012 @@
+{
+  "modes": {
+    "easy": [
+      {
+        "seed": 1,
+        "score": 87,
+        "gates": 63
+      },
+      {
+        "seed": 2,
+        "score": 92,
+        "gates": 64
+      },
+      {
+        "seed": 3,
+        "score": 98,
+        "gates": 70
+      },
+      {
+        "seed": 4,
+        "score": 96,
+        "gates": 64
+      },
+      {
+        "seed": 5,
+        "score": 99,
+        "gates": 70
+      },
+      {
+        "seed": 6,
+        "score": 81,
+        "gates": 65
+      },
+      {
+        "seed": 7,
+        "score": 88,
+        "gates": 66
+      },
+      {
+        "seed": 8,
+        "score": 98,
+        "gates": 71
+      },
+      {
+        "seed": 9,
+        "score": 88,
+        "gates": 65
+      },
+      {
+        "seed": 10,
+        "score": 91,
+        "gates": 65
+      },
+      {
+        "seed": 11,
+        "score": 88,
+        "gates": 64
+      },
+      {
+        "seed": 12,
+        "score": 91,
+        "gates": 66
+      },
+      {
+        "seed": 13,
+        "score": 88,
+        "gates": 65
+      },
+      {
+        "seed": 14,
+        "score": 92,
+        "gates": 64
+      },
+      {
+        "seed": 15,
+        "score": 97,
+        "gates": 71
+      },
+      {
+        "seed": 16,
+        "score": 92,
+        "gates": 67
+      },
+      {
+        "seed": 17,
+        "score": 96,
+        "gates": 66
+      },
+      {
+        "seed": 18,
+        "score": 92,
+        "gates": 65
+      },
+      {
+        "seed": 19,
+        "score": 94,
+        "gates": 67
+      },
+      {
+        "seed": 20,
+        "score": 102,
+        "gates": 69
+      },
+      {
+        "seed": 21,
+        "score": 92,
+        "gates": 71
+      },
+      {
+        "seed": 22,
+        "score": 96,
+        "gates": 68
+      },
+      {
+        "seed": 23,
+        "score": 83,
+        "gates": 67
+      },
+      {
+        "seed": 24,
+        "score": 92,
+        "gates": 65
+      },
+      {
+        "seed": 25,
+        "score": 89,
+        "gates": 62
+      },
+      {
+        "seed": 26,
+        "score": 97,
+        "gates": 67
+      },
+      {
+        "seed": 27,
+        "score": 97,
+        "gates": 68
+      },
+      {
+        "seed": 28,
+        "score": 89,
+        "gates": 65
+      },
+      {
+        "seed": 29,
+        "score": 97,
+        "gates": 71
+      },
+      {
+        "seed": 30,
+        "score": 97,
+        "gates": 71
+      },
+      {
+        "seed": 31,
+        "score": 92,
+        "gates": 66
+      },
+      {
+        "seed": 32,
+        "score": 88,
+        "gates": 65
+      },
+      {
+        "seed": 33,
+        "score": 88,
+        "gates": 64
+      },
+      {
+        "seed": 34,
+        "score": 94,
+        "gates": 68
+      },
+      {
+        "seed": 35,
+        "score": 94,
+        "gates": 67
+      },
+      {
+        "seed": 36,
+        "score": 96,
+        "gates": 71
+      },
+      {
+        "seed": 37,
+        "score": 90,
+        "gates": 62
+      },
+      {
+        "seed": 38,
+        "score": 95,
+        "gates": 69
+      },
+      {
+        "seed": 39,
+        "score": 90,
+        "gates": 67
+      },
+      {
+        "seed": 40,
+        "score": 93,
+        "gates": 68
+      },
+      {
+        "seed": 41,
+        "score": 93,
+        "gates": 65
+      },
+      {
+        "seed": 42,
+        "score": 92,
+        "gates": 68
+      },
+      {
+        "seed": 43,
+        "score": 94,
+        "gates": 71
+      },
+      {
+        "seed": 44,
+        "score": 93,
+        "gates": 68
+      },
+      {
+        "seed": 45,
+        "score": 84,
+        "gates": 62
+      },
+      {
+        "seed": 46,
+        "score": 90,
+        "gates": 66
+      },
+      {
+        "seed": 47,
+        "score": 106,
+        "gates": 68
+      },
+      {
+        "seed": 48,
+        "score": 97,
+        "gates": 68
+      },
+      {
+        "seed": 49,
+        "score": 91,
+        "gates": 65
+      },
+      {
+        "seed": 50,
+        "score": 107,
+        "gates": 71
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1,
+        "score": 80,
+        "gates": 56
+      },
+      {
+        "seed": 2,
+        "score": 85,
+        "gates": 57
+      },
+      {
+        "seed": 3,
+        "score": 89,
+        "gates": 63
+      },
+      {
+        "seed": 4,
+        "score": 85,
+        "gates": 57
+      },
+      {
+        "seed": 5,
+        "score": 89,
+        "gates": 63
+      },
+      {
+        "seed": 6,
+        "score": 73,
+        "gates": 58
+      },
+      {
+        "seed": 7,
+        "score": 79,
+        "gates": 59
+      },
+      {
+        "seed": 8,
+        "score": 90,
+        "gates": 64
+      },
+      {
+        "seed": 9,
+        "score": 79,
+        "gates": 58
+      },
+      {
+        "seed": 10,
+        "score": 81,
+        "gates": 58
+      },
+      {
+        "seed": 11,
+        "score": 78,
+        "gates": 57
+      },
+      {
+        "seed": 12,
+        "score": 81,
+        "gates": 59
+      },
+      {
+        "seed": 13,
+        "score": 80,
+        "gates": 58
+      },
+      {
+        "seed": 14,
+        "score": 83,
+        "gates": 57
+      },
+      {
+        "seed": 15,
+        "score": 88,
+        "gates": 64
+      },
+      {
+        "seed": 16,
+        "score": 84,
+        "gates": 60
+      },
+      {
+        "seed": 17,
+        "score": 86,
+        "gates": 59
+      },
+      {
+        "seed": 18,
+        "score": 83,
+        "gates": 58
+      },
+      {
+        "seed": 19,
+        "score": 85,
+        "gates": 60
+      },
+      {
+        "seed": 20,
+        "score": 93,
+        "gates": 62
+      },
+      {
+        "seed": 21,
+        "score": 84,
+        "gates": 64
+      },
+      {
+        "seed": 22,
+        "score": 88,
+        "gates": 61
+      },
+      {
+        "seed": 23,
+        "score": 75,
+        "gates": 60
+      },
+      {
+        "seed": 24,
+        "score": 83,
+        "gates": 58
+      },
+      {
+        "seed": 25,
+        "score": 80,
+        "gates": 55
+      },
+      {
+        "seed": 26,
+        "score": 86,
+        "gates": 60
+      },
+      {
+        "seed": 27,
+        "score": 87,
+        "gates": 61
+      },
+      {
+        "seed": 28,
+        "score": 81,
+        "gates": 58
+      },
+      {
+        "seed": 29,
+        "score": 88,
+        "gates": 64
+      },
+      {
+        "seed": 30,
+        "score": 84,
+        "gates": 64
+      },
+      {
+        "seed": 31,
+        "score": 84,
+        "gates": 59
+      },
+      {
+        "seed": 32,
+        "score": 76,
+        "gates": 58
+      },
+      {
+        "seed": 33,
+        "score": 80,
+        "gates": 57
+      },
+      {
+        "seed": 34,
+        "score": 84,
+        "gates": 61
+      },
+      {
+        "seed": 35,
+        "score": 84,
+        "gates": 60
+      },
+      {
+        "seed": 36,
+        "score": 88,
+        "gates": 64
+      },
+      {
+        "seed": 37,
+        "score": 80,
+        "gates": 55
+      },
+      {
+        "seed": 38,
+        "score": 87,
+        "gates": 62
+      },
+      {
+        "seed": 39,
+        "score": 81,
+        "gates": 60
+      },
+      {
+        "seed": 40,
+        "score": 84,
+        "gates": 61
+      },
+      {
+        "seed": 41,
+        "score": 85,
+        "gates": 58
+      },
+      {
+        "seed": 42,
+        "score": 82,
+        "gates": 61
+      },
+      {
+        "seed": 43,
+        "score": 86,
+        "gates": 64
+      },
+      {
+        "seed": 44,
+        "score": 83,
+        "gates": 61
+      },
+      {
+        "seed": 45,
+        "score": 76,
+        "gates": 55
+      },
+      {
+        "seed": 46,
+        "score": 81,
+        "gates": 59
+      },
+      {
+        "seed": 47,
+        "score": 95,
+        "gates": 61
+      },
+      {
+        "seed": 48,
+        "score": 87,
+        "gates": 61
+      },
+      {
+        "seed": 49,
+        "score": 83,
+        "gates": 58
+      },
+      {
+        "seed": 50,
+        "score": 97,
+        "gates": 64
+      }
+    ],
+    "hard": [
+      {
+        "seed": 1,
+        "score": 73,
+        "gates": 49
+      },
+      {
+        "seed": 2,
+        "score": 76,
+        "gates": 50
+      },
+      {
+        "seed": 3,
+        "score": 81,
+        "gates": 56
+      },
+      {
+        "seed": 4,
+        "score": 76,
+        "gates": 50
+      },
+      {
+        "seed": 5,
+        "score": 79,
+        "gates": 56
+      },
+      {
+        "seed": 6,
+        "score": 65,
+        "gates": 51
+      },
+      {
+        "seed": 7,
+        "score": 71,
+        "gates": 52
+      },
+      {
+        "seed": 8,
+        "score": 82,
+        "gates": 57
+      },
+      {
+        "seed": 9,
+        "score": 69,
+        "gates": 51
+      },
+      {
+        "seed": 10,
+        "score": 74,
+        "gates": 51
+      },
+      {
+        "seed": 11,
+        "score": 70,
+        "gates": 50
+      },
+      {
+        "seed": 12,
+        "score": 74,
+        "gates": 52
+      },
+      {
+        "seed": 13,
+        "score": 71,
+        "gates": 51
+      },
+      {
+        "seed": 14,
+        "score": 74,
+        "gates": 50
+      },
+      {
+        "seed": 15,
+        "score": 79,
+        "gates": 57
+      },
+      {
+        "seed": 16,
+        "score": 75,
+        "gates": 53
+      },
+      {
+        "seed": 17,
+        "score": 77,
+        "gates": 52
+      },
+      {
+        "seed": 18,
+        "score": 74,
+        "gates": 51
+      },
+      {
+        "seed": 19,
+        "score": 75,
+        "gates": 53
+      },
+      {
+        "seed": 20,
+        "score": 82,
+        "gates": 55
+      },
+      {
+        "seed": 21,
+        "score": 76,
+        "gates": 57
+      },
+      {
+        "seed": 22,
+        "score": 78,
+        "gates": 54
+      },
+      {
+        "seed": 23,
+        "score": 67,
+        "gates": 53
+      },
+      {
+        "seed": 24,
+        "score": 76,
+        "gates": 51
+      },
+      {
+        "seed": 25,
+        "score": 72,
+        "gates": 48
+      },
+      {
+        "seed": 26,
+        "score": 76,
+        "gates": 53
+      },
+      {
+        "seed": 27,
+        "score": 77,
+        "gates": 54
+      },
+      {
+        "seed": 28,
+        "score": 72,
+        "gates": 51
+      },
+      {
+        "seed": 29,
+        "score": 78,
+        "gates": 57
+      },
+      {
+        "seed": 30,
+        "score": 74,
+        "gates": 57
+      },
+      {
+        "seed": 31,
+        "score": 76,
+        "gates": 52
+      },
+      {
+        "seed": 32,
+        "score": 65,
+        "gates": 51
+      },
+      {
+        "seed": 33,
+        "score": 70,
+        "gates": 50
+      },
+      {
+        "seed": 34,
+        "score": 75,
+        "gates": 54
+      },
+      {
+        "seed": 35,
+        "score": 76,
+        "gates": 53
+      },
+      {
+        "seed": 36,
+        "score": 80,
+        "gates": 57
+      },
+      {
+        "seed": 37,
+        "score": 73,
+        "gates": 48
+      },
+      {
+        "seed": 38,
+        "score": 79,
+        "gates": 55
+      },
+      {
+        "seed": 39,
+        "score": 71,
+        "gates": 53
+      },
+      {
+        "seed": 40,
+        "score": 76,
+        "gates": 54
+      },
+      {
+        "seed": 41,
+        "score": 77,
+        "gates": 51
+      },
+      {
+        "seed": 42,
+        "score": 74,
+        "gates": 54
+      },
+      {
+        "seed": 43,
+        "score": 77,
+        "gates": 57
+      },
+      {
+        "seed": 44,
+        "score": 74,
+        "gates": 54
+      },
+      {
+        "seed": 45,
+        "score": 68,
+        "gates": 48
+      },
+      {
+        "seed": 46,
+        "score": 73,
+        "gates": 52
+      },
+      {
+        "seed": 47,
+        "score": 84,
+        "gates": 54
+      },
+      {
+        "seed": 48,
+        "score": 79,
+        "gates": 54
+      },
+      {
+        "seed": 49,
+        "score": 74,
+        "gates": 51
+      },
+      {
+        "seed": 50,
+        "score": 88,
+        "gates": 57
+      }
+    ],
+    "endless": [
+      {
+        "seed": 1,
+        "score": 82,
+        "gates": 49
+      },
+      {
+        "seed": 2,
+        "score": 86,
+        "gates": 50
+      },
+      {
+        "seed": 3,
+        "score": 97,
+        "gates": 56
+      },
+      {
+        "seed": 4,
+        "score": 86,
+        "gates": 50
+      },
+      {
+        "seed": 5,
+        "score": 95,
+        "gates": 56
+      },
+      {
+        "seed": 6,
+        "score": 76,
+        "gates": 51
+      },
+      {
+        "seed": 7,
+        "score": 83,
+        "gates": 52
+      },
+      {
+        "seed": 8,
+        "score": 99,
+        "gates": 57
+      },
+      {
+        "seed": 9,
+        "score": 80,
+        "gates": 51
+      },
+      {
+        "seed": 10,
+        "score": 85,
+        "gates": 51
+      },
+      {
+        "seed": 11,
+        "score": 80,
+        "gates": 50
+      },
+      {
+        "seed": 12,
+        "score": 86,
+        "gates": 52
+      },
+      {
+        "seed": 13,
+        "score": 82,
+        "gates": 51
+      },
+      {
+        "seed": 14,
+        "score": 84,
+        "gates": 50
+      },
+      {
+        "seed": 15,
+        "score": 96,
+        "gates": 57
+      },
+      {
+        "seed": 16,
+        "score": 88,
+        "gates": 53
+      },
+      {
+        "seed": 17,
+        "score": 89,
+        "gates": 52
+      },
+      {
+        "seed": 18,
+        "score": 85,
+        "gates": 51
+      },
+      {
+        "seed": 19,
+        "score": 88,
+        "gates": 53
+      },
+      {
+        "seed": 20,
+        "score": 97,
+        "gates": 55
+      },
+      {
+        "seed": 21,
+        "score": 93,
+        "gates": 57
+      },
+      {
+        "seed": 22,
+        "score": 92,
+        "gates": 54
+      },
+      {
+        "seed": 23,
+        "score": 80,
+        "gates": 53
+      },
+      {
+        "seed": 24,
+        "score": 87,
+        "gates": 51
+      },
+      {
+        "seed": 25,
+        "score": 80,
+        "gates": 48
+      },
+      {
+        "seed": 26,
+        "score": 89,
+        "gates": 53
+      },
+      {
+        "seed": 27,
+        "score": 91,
+        "gates": 54
+      },
+      {
+        "seed": 28,
+        "score": 83,
+        "gates": 51
+      },
+      {
+        "seed": 29,
+        "score": 95,
+        "gates": 57
+      },
+      {
+        "seed": 30,
+        "score": 91,
+        "gates": 57
+      },
+      {
+        "seed": 31,
+        "score": 88,
+        "gates": 52
+      },
+      {
+        "seed": 32,
+        "score": 76,
+        "gates": 51
+      },
+      {
+        "seed": 33,
+        "score": 80,
+        "gates": 50
+      },
+      {
+        "seed": 34,
+        "score": 89,
+        "gates": 54
+      },
+      {
+        "seed": 35,
+        "score": 89,
+        "gates": 53
+      },
+      {
+        "seed": 36,
+        "score": 97,
+        "gates": 57
+      },
+      {
+        "seed": 37,
+        "score": 81,
+        "gates": 48
+      },
+      {
+        "seed": 38,
+        "score": 94,
+        "gates": 55
+      },
+      {
+        "seed": 39,
+        "score": 84,
+        "gates": 53
+      },
+      {
+        "seed": 40,
+        "score": 90,
+        "gates": 54
+      },
+      {
+        "seed": 41,
+        "score": 88,
+        "gates": 51
+      },
+      {
+        "seed": 42,
+        "score": 88,
+        "gates": 54
+      },
+      {
+        "seed": 43,
+        "score": 94,
+        "gates": 57
+      },
+      {
+        "seed": 44,
+        "score": 88,
+        "gates": 54
+      },
+      {
+        "seed": 45,
+        "score": 76,
+        "gates": 48
+      },
+      {
+        "seed": 46,
+        "score": 85,
+        "gates": 52
+      },
+      {
+        "seed": 47,
+        "score": 98,
+        "gates": 54
+      },
+      {
+        "seed": 48,
+        "score": 93,
+        "gates": 54
+      },
+      {
+        "seed": 49,
+        "score": 85,
+        "gates": 51
+      },
+      {
+        "seed": 50,
+        "score": 105,
+        "gates": 57
+      }
+    ]
+  }
+}

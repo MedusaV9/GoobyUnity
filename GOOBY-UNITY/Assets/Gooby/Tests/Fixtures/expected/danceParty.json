@@ -1,0 +1,2012 @@
+{
+  "modes": {
+    "easy": [
+      {
+        "seed": 1,
+        "score": 214,
+        "tally.perfect": 46,
+        "tally.good": 17,
+        "tally.miss": 2,
+        "tally.combo": 14,
+        "tally.maxCombo": 28,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 2,
+        "score": 218,
+        "tally.perfect": 48,
+        "tally.good": 15,
+        "tally.miss": 2,
+        "tally.combo": 18,
+        "tally.maxCombo": 36,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 3,
+        "score": 186,
+        "tally.perfect": 38,
+        "tally.good": 22,
+        "tally.miss": 5,
+        "tally.combo": 5,
+        "tally.maxCombo": 22,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 4,
+        "score": 204,
+        "tally.perfect": 45,
+        "tally.good": 16,
+        "tally.miss": 4,
+        "tally.combo": 1,
+        "tally.maxCombo": 25,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 5,
+        "score": 196,
+        "tally.perfect": 45,
+        "tally.good": 14,
+        "tally.miss": 6,
+        "tally.combo": 9,
+        "tally.maxCombo": 21,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 6,
+        "score": 222,
+        "tally.perfect": 48,
+        "tally.good": 16,
+        "tally.miss": 1,
+        "tally.combo": 7,
+        "tally.maxCombo": 57,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 7,
+        "score": 206,
+        "tally.perfect": 44,
+        "tally.good": 18,
+        "tally.miss": 3,
+        "tally.combo": 56,
+        "tally.maxCombo": 56,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 8,
+        "score": 210,
+        "tally.perfect": 44,
+        "tally.good": 19,
+        "tally.miss": 2,
+        "tally.combo": 22,
+        "tally.maxCombo": 29,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 9,
+        "score": 216,
+        "tally.perfect": 45,
+        "tally.good": 19,
+        "tally.miss": 1,
+        "tally.combo": 40,
+        "tally.maxCombo": 40,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 10,
+        "score": 184,
+        "tally.perfect": 37,
+        "tally.good": 23,
+        "tally.miss": 5,
+        "tally.combo": 14,
+        "tally.maxCombo": 23,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 11,
+        "score": 204,
+        "tally.perfect": 45,
+        "tally.good": 16,
+        "tally.miss": 4,
+        "tally.combo": 7,
+        "tally.maxCombo": 26,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 12,
+        "score": 196,
+        "tally.perfect": 39,
+        "tally.good": 23,
+        "tally.miss": 3,
+        "tally.combo": 8,
+        "tally.maxCombo": 32,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 13,
+        "score": 182,
+        "tally.perfect": 42,
+        "tally.good": 15,
+        "tally.miss": 8,
+        "tally.combo": 3,
+        "tally.maxCombo": 20,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 14,
+        "score": 222,
+        "tally.perfect": 50,
+        "tally.good": 13,
+        "tally.miss": 2,
+        "tally.combo": 28,
+        "tally.maxCombo": 28,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 15,
+        "score": 216,
+        "tally.perfect": 49,
+        "tally.good": 13,
+        "tally.miss": 3,
+        "tally.combo": 1,
+        "tally.maxCombo": 48,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 16,
+        "score": 194,
+        "tally.perfect": 44,
+        "tally.good": 15,
+        "tally.miss": 6,
+        "tally.combo": 5,
+        "tally.maxCombo": 27,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 17,
+        "score": 182,
+        "tally.perfect": 42,
+        "tally.good": 15,
+        "tally.miss": 8,
+        "tally.combo": 10,
+        "tally.maxCombo": 16,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 18,
+        "score": 210,
+        "tally.perfect": 46,
+        "tally.good": 16,
+        "tally.miss": 3,
+        "tally.combo": 6,
+        "tally.maxCombo": 37,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 19,
+        "score": 206,
+        "tally.perfect": 48,
+        "tally.good": 12,
+        "tally.miss": 5,
+        "tally.combo": 8,
+        "tally.maxCombo": 19,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 20,
+        "score": 192,
+        "tally.perfect": 41,
+        "tally.good": 19,
+        "tally.miss": 5,
+        "tally.combo": 20,
+        "tally.maxCombo": 25,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 21,
+        "score": 208,
+        "tally.perfect": 47,
+        "tally.good": 14,
+        "tally.miss": 4,
+        "tally.combo": 0,
+        "tally.maxCombo": 23,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 22,
+        "score": 204,
+        "tally.perfect": 41,
+        "tally.good": 22,
+        "tally.miss": 2,
+        "tally.combo": 8,
+        "tally.maxCombo": 41,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 23,
+        "score": 184,
+        "tally.perfect": 43,
+        "tally.good": 14,
+        "tally.miss": 8,
+        "tally.combo": 13,
+        "tally.maxCombo": 13,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 24,
+        "score": 208,
+        "tally.perfect": 45,
+        "tally.good": 17,
+        "tally.miss": 3,
+        "tally.combo": 8,
+        "tally.maxCombo": 30,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 25,
+        "score": 202,
+        "tally.perfect": 40,
+        "tally.good": 23,
+        "tally.miss": 2,
+        "tally.combo": 21,
+        "tally.maxCombo": 30,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 26,
+        "score": 178,
+        "tally.perfect": 38,
+        "tally.good": 20,
+        "tally.miss": 7,
+        "tally.combo": 5,
+        "tally.maxCombo": 36,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 27,
+        "score": 196,
+        "tally.perfect": 41,
+        "tally.good": 20,
+        "tally.miss": 4,
+        "tally.combo": 16,
+        "tally.maxCombo": 37,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 28,
+        "score": 202,
+        "tally.perfect": 46,
+        "tally.good": 14,
+        "tally.miss": 5,
+        "tally.combo": 17,
+        "tally.maxCombo": 26,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 29,
+        "score": 198,
+        "tally.perfect": 44,
+        "tally.good": 16,
+        "tally.miss": 5,
+        "tally.combo": 3,
+        "tally.maxCombo": 26,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 30,
+        "score": 222,
+        "tally.perfect": 48,
+        "tally.good": 16,
+        "tally.miss": 1,
+        "tally.combo": 11,
+        "tally.maxCombo": 53,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 31,
+        "score": 220,
+        "tally.perfect": 49,
+        "tally.good": 14,
+        "tally.miss": 2,
+        "tally.combo": 1,
+        "tally.maxCombo": 37,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 32,
+        "score": 194,
+        "tally.perfect": 40,
+        "tally.good": 21,
+        "tally.miss": 4,
+        "tally.combo": 41,
+        "tally.maxCombo": 41,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 33,
+        "score": 230,
+        "tally.perfect": 50,
+        "tally.good": 15,
+        "tally.miss": 0,
+        "tally.combo": 65,
+        "tally.maxCombo": 65,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 34,
+        "score": 202,
+        "tally.perfect": 44,
+        "tally.good": 17,
+        "tally.miss": 4,
+        "tally.combo": 13,
+        "tally.maxCombo": 25,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 35,
+        "score": 204,
+        "tally.perfect": 45,
+        "tally.good": 16,
+        "tally.miss": 4,
+        "tally.combo": 18,
+        "tally.maxCombo": 24,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 36,
+        "score": 224,
+        "tally.perfect": 51,
+        "tally.good": 12,
+        "tally.miss": 2,
+        "tally.combo": 13,
+        "tally.maxCombo": 33,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 37,
+        "score": 206,
+        "tally.perfect": 48,
+        "tally.good": 12,
+        "tally.miss": 5,
+        "tally.combo": 11,
+        "tally.maxCombo": 19,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 38,
+        "score": 226,
+        "tally.perfect": 50,
+        "tally.good": 14,
+        "tally.miss": 1,
+        "tally.combo": 25,
+        "tally.maxCombo": 39,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 39,
+        "score": 220,
+        "tally.perfect": 49,
+        "tally.good": 14,
+        "tally.miss": 2,
+        "tally.combo": 57,
+        "tally.maxCombo": 57,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 40,
+        "score": 206,
+        "tally.perfect": 44,
+        "tally.good": 18,
+        "tally.miss": 3,
+        "tally.combo": 6,
+        "tally.maxCombo": 23,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 41,
+        "score": 210,
+        "tally.perfect": 44,
+        "tally.good": 19,
+        "tally.miss": 2,
+        "tally.combo": 54,
+        "tally.maxCombo": 54,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 42,
+        "score": 204,
+        "tally.perfect": 43,
+        "tally.good": 19,
+        "tally.miss": 3,
+        "tally.combo": 10,
+        "tally.maxCombo": 25,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 43,
+        "score": 210,
+        "tally.perfect": 46,
+        "tally.good": 16,
+        "tally.miss": 3,
+        "tally.combo": 19,
+        "tally.maxCombo": 31,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 44,
+        "score": 210,
+        "tally.perfect": 46,
+        "tally.good": 16,
+        "tally.miss": 3,
+        "tally.combo": 16,
+        "tally.maxCombo": 33,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 45,
+        "score": 180,
+        "tally.perfect": 43,
+        "tally.good": 13,
+        "tally.miss": 9,
+        "tally.combo": 3,
+        "tally.maxCombo": 19,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 46,
+        "score": 204,
+        "tally.perfect": 41,
+        "tally.good": 22,
+        "tally.miss": 2,
+        "tally.combo": 27,
+        "tally.maxCombo": 27,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 47,
+        "score": 190,
+        "tally.perfect": 44,
+        "tally.good": 14,
+        "tally.miss": 7,
+        "tally.combo": 19,
+        "tally.maxCombo": 19,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 48,
+        "score": 210,
+        "tally.perfect": 44,
+        "tally.good": 19,
+        "tally.miss": 2,
+        "tally.combo": 42,
+        "tally.maxCombo": 42,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 49,
+        "score": 206,
+        "tally.perfect": 42,
+        "tally.good": 21,
+        "tally.miss": 2,
+        "tally.combo": 1,
+        "tally.maxCombo": 62,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 50,
+        "score": 176,
+        "tally.perfect": 39,
+        "tally.good": 18,
+        "tally.miss": 8,
+        "tally.combo": 32,
+        "tally.maxCombo": 32,
+        "tally.bonus": 0
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1,
+        "score": 212,
+        "tally.perfect": 44,
+        "tally.good": 26,
+        "tally.miss": 8,
+        "tally.combo": 5,
+        "tally.maxCombo": 21,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 2,
+        "score": 218,
+        "tally.perfect": 49,
+        "tally.good": 20,
+        "tally.miss": 9,
+        "tally.combo": 2,
+        "tally.maxCombo": 17,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 3,
+        "score": 152,
+        "tally.perfect": 36,
+        "tally.good": 23,
+        "tally.miss": 19,
+        "tally.combo": 1,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 4,
+        "score": 228,
+        "tally.perfect": 48,
+        "tally.good": 24,
+        "tally.miss": 6,
+        "tally.combo": 14,
+        "tally.maxCombo": 27,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 5,
+        "score": 182,
+        "tally.perfect": 39,
+        "tally.good": 26,
+        "tally.miss": 13,
+        "tally.combo": 1,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 6,
+        "score": 224,
+        "tally.perfect": 54,
+        "tally.good": 14,
+        "tally.miss": 10,
+        "tally.combo": 2,
+        "tally.maxCombo": 16,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 7,
+        "score": 192,
+        "tally.perfect": 44,
+        "tally.good": 21,
+        "tally.miss": 13,
+        "tally.combo": 3,
+        "tally.maxCombo": 21,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 8,
+        "score": 170,
+        "tally.perfect": 39,
+        "tally.good": 23,
+        "tally.miss": 16,
+        "tally.combo": 3,
+        "tally.maxCombo": 11,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 9,
+        "score": 166,
+        "tally.perfect": 39,
+        "tally.good": 22,
+        "tally.miss": 17,
+        "tally.combo": 0,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 10,
+        "score": 192,
+        "tally.perfect": 40,
+        "tally.good": 27,
+        "tally.miss": 11,
+        "tally.combo": 16,
+        "tally.maxCombo": 16,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 11,
+        "score": 198,
+        "tally.perfect": 41,
+        "tally.good": 27,
+        "tally.miss": 10,
+        "tally.combo": 4,
+        "tally.maxCombo": 13,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 12,
+        "score": 178,
+        "tally.perfect": 33,
+        "tally.good": 34,
+        "tally.miss": 11,
+        "tally.combo": 20,
+        "tally.maxCombo": 20,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 13,
+        "score": 178,
+        "tally.perfect": 43,
+        "tally.good": 19,
+        "tally.miss": 16,
+        "tally.combo": 2,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 14,
+        "score": 172,
+        "tally.perfect": 42,
+        "tally.good": 19,
+        "tally.miss": 17,
+        "tally.combo": 3,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 15,
+        "score": 200,
+        "tally.perfect": 46,
+        "tally.good": 20,
+        "tally.miss": 12,
+        "tally.combo": 1,
+        "tally.maxCombo": 31,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 16,
+        "score": 178,
+        "tally.perfect": 43,
+        "tally.good": 19,
+        "tally.miss": 16,
+        "tally.combo": 1,
+        "tally.maxCombo": 13,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 17,
+        "score": 174,
+        "tally.perfect": 41,
+        "tally.good": 21,
+        "tally.miss": 16,
+        "tally.combo": 6,
+        "tally.maxCombo": 8,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 18,
+        "score": 184,
+        "tally.perfect": 42,
+        "tally.good": 22,
+        "tally.miss": 14,
+        "tally.combo": 0,
+        "tally.maxCombo": 20,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 19,
+        "score": 198,
+        "tally.perfect": 45,
+        "tally.good": 21,
+        "tally.miss": 12,
+        "tally.combo": 18,
+        "tally.maxCombo": 18,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 20,
+        "score": 166,
+        "tally.perfect": 41,
+        "tally.good": 19,
+        "tally.miss": 18,
+        "tally.combo": 6,
+        "tally.maxCombo": 17,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 21,
+        "score": 226,
+        "tally.perfect": 51,
+        "tally.good": 19,
+        "tally.miss": 8,
+        "tally.combo": 1,
+        "tally.maxCombo": 36,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 22,
+        "score": 212,
+        "tally.perfect": 40,
+        "tally.good": 32,
+        "tally.miss": 6,
+        "tally.combo": 21,
+        "tally.maxCombo": 21,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 23,
+        "score": 174,
+        "tally.perfect": 41,
+        "tally.good": 21,
+        "tally.miss": 16,
+        "tally.combo": 1,
+        "tally.maxCombo": 15,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 24,
+        "score": 182,
+        "tally.perfect": 39,
+        "tally.good": 26,
+        "tally.miss": 13,
+        "tally.combo": 12,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 25,
+        "score": 162,
+        "tally.perfect": 39,
+        "tally.good": 21,
+        "tally.miss": 18,
+        "tally.combo": 0,
+        "tally.maxCombo": 18,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 26,
+        "score": 150,
+        "tally.perfect": 35,
+        "tally.good": 24,
+        "tally.miss": 19,
+        "tally.combo": 0,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 27,
+        "score": 194,
+        "tally.perfect": 43,
+        "tally.good": 23,
+        "tally.miss": 12,
+        "tally.combo": 7,
+        "tally.maxCombo": 16,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 28,
+        "score": 178,
+        "tally.perfect": 41,
+        "tally.good": 22,
+        "tally.miss": 15,
+        "tally.combo": 1,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 29,
+        "score": 216,
+        "tally.perfect": 48,
+        "tally.good": 21,
+        "tally.miss": 9,
+        "tally.combo": 16,
+        "tally.maxCombo": 17,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 30,
+        "score": 222,
+        "tally.perfect": 47,
+        "tally.good": 24,
+        "tally.miss": 7,
+        "tally.combo": 1,
+        "tally.maxCombo": 32,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 31,
+        "score": 244,
+        "tally.perfect": 50,
+        "tally.good": 25,
+        "tally.miss": 3,
+        "tally.combo": 14,
+        "tally.maxCombo": 37,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 32,
+        "score": 186,
+        "tally.perfect": 41,
+        "tally.good": 24,
+        "tally.miss": 13,
+        "tally.combo": 6,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 33,
+        "score": 212,
+        "tally.perfect": 44,
+        "tally.good": 26,
+        "tally.miss": 8,
+        "tally.combo": 8,
+        "tally.maxCombo": 23,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 34,
+        "score": 226,
+        "tally.perfect": 45,
+        "tally.good": 28,
+        "tally.miss": 5,
+        "tally.combo": 21,
+        "tally.maxCombo": 25,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 35,
+        "score": 210,
+        "tally.perfect": 43,
+        "tally.good": 27,
+        "tally.miss": 8,
+        "tally.combo": 7,
+        "tally.maxCombo": 21,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 36,
+        "score": 204,
+        "tally.perfect": 48,
+        "tally.good": 18,
+        "tally.miss": 12,
+        "tally.combo": 0,
+        "tally.maxCombo": 28,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 37,
+        "score": 196,
+        "tally.perfect": 48,
+        "tally.good": 16,
+        "tally.miss": 14,
+        "tally.combo": 20,
+        "tally.maxCombo": 20,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 38,
+        "score": 202,
+        "tally.perfect": 39,
+        "tally.good": 31,
+        "tally.miss": 8,
+        "tally.combo": 3,
+        "tally.maxCombo": 21,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 39,
+        "score": 202,
+        "tally.perfect": 43,
+        "tally.good": 25,
+        "tally.miss": 10,
+        "tally.combo": 1,
+        "tally.maxCombo": 18,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 40,
+        "score": 196,
+        "tally.perfect": 40,
+        "tally.good": 28,
+        "tally.miss": 10,
+        "tally.combo": 6,
+        "tally.maxCombo": 21,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 41,
+        "score": 198,
+        "tally.perfect": 43,
+        "tally.good": 24,
+        "tally.miss": 11,
+        "tally.combo": 10,
+        "tally.maxCombo": 19,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 42,
+        "score": 196,
+        "tally.perfect": 42,
+        "tally.good": 25,
+        "tally.miss": 11,
+        "tally.combo": 4,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 43,
+        "score": 200,
+        "tally.perfect": 42,
+        "tally.good": 26,
+        "tally.miss": 10,
+        "tally.combo": 2,
+        "tally.maxCombo": 20,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 44,
+        "score": 200,
+        "tally.perfect": 44,
+        "tally.good": 23,
+        "tally.miss": 11,
+        "tally.combo": 11,
+        "tally.maxCombo": 20,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 45,
+        "score": 188,
+        "tally.perfect": 46,
+        "tally.good": 17,
+        "tally.miss": 15,
+        "tally.combo": 0,
+        "tally.maxCombo": 11,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 46,
+        "score": 202,
+        "tally.perfect": 43,
+        "tally.good": 25,
+        "tally.miss": 10,
+        "tally.combo": 3,
+        "tally.maxCombo": 23,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 47,
+        "score": 172,
+        "tally.perfect": 40,
+        "tally.good": 22,
+        "tally.miss": 16,
+        "tally.combo": 0,
+        "tally.maxCombo": 9,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 48,
+        "score": 170,
+        "tally.perfect": 35,
+        "tally.good": 29,
+        "tally.miss": 14,
+        "tally.combo": 15,
+        "tally.maxCombo": 15,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 49,
+        "score": 198,
+        "tally.perfect": 41,
+        "tally.good": 27,
+        "tally.miss": 10,
+        "tally.combo": 2,
+        "tally.maxCombo": 24,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 50,
+        "score": 176,
+        "tally.perfect": 40,
+        "tally.good": 23,
+        "tally.miss": 15,
+        "tally.combo": 6,
+        "tally.maxCombo": 18,
+        "tally.bonus": 0
+      }
+    ],
+    "hard": [
+      {
+        "seed": 1,
+        "score": 208,
+        "tally.perfect": 39,
+        "tally.good": 38,
+        "tally.miss": 12,
+        "tally.combo": 7,
+        "tally.maxCombo": 11,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 2,
+        "score": 206,
+        "tally.perfect": 48,
+        "tally.good": 24,
+        "tally.miss": 17,
+        "tally.combo": 3,
+        "tally.maxCombo": 17,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 3,
+        "score": 140,
+        "tally.perfect": 37,
+        "tally.good": 24,
+        "tally.miss": 28,
+        "tally.combo": 1,
+        "tally.maxCombo": 10,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 4,
+        "score": 192,
+        "tally.perfect": 41,
+        "tally.good": 31,
+        "tally.miss": 17,
+        "tally.combo": 0,
+        "tally.maxCombo": 11,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 5,
+        "score": 172,
+        "tally.perfect": 35,
+        "tally.good": 35,
+        "tally.miss": 19,
+        "tally.combo": 2,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 6,
+        "score": 166,
+        "tally.perfect": 40,
+        "tally.good": 26,
+        "tally.miss": 23,
+        "tally.combo": 2,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 7,
+        "score": 152,
+        "tally.perfect": 37,
+        "tally.good": 27,
+        "tally.miss": 25,
+        "tally.combo": 2,
+        "tally.maxCombo": 11,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 8,
+        "score": 122,
+        "tally.perfect": 30,
+        "tally.good": 30,
+        "tally.miss": 29,
+        "tally.combo": 0,
+        "tally.maxCombo": 8,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 9,
+        "score": 140,
+        "tally.perfect": 39,
+        "tally.good": 21,
+        "tally.miss": 29,
+        "tally.combo": 0,
+        "tally.maxCombo": 11,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 10,
+        "score": 146,
+        "tally.perfect": 32,
+        "tally.good": 33,
+        "tally.miss": 24,
+        "tally.combo": 0,
+        "tally.maxCombo": 9,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 11,
+        "score": 150,
+        "tally.perfect": 36,
+        "tally.good": 28,
+        "tally.miss": 25,
+        "tally.combo": 1,
+        "tally.maxCombo": 8,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 12,
+        "score": 150,
+        "tally.perfect": 30,
+        "tally.good": 37,
+        "tally.miss": 22,
+        "tally.combo": 2,
+        "tally.maxCombo": 9,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 13,
+        "score": 172,
+        "tally.perfect": 41,
+        "tally.good": 26,
+        "tally.miss": 22,
+        "tally.combo": 1,
+        "tally.maxCombo": 17,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 14,
+        "score": 170,
+        "tally.perfect": 38,
+        "tally.good": 30,
+        "tally.miss": 21,
+        "tally.combo": 4,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 15,
+        "score": 172,
+        "tally.perfect": 37,
+        "tally.good": 32,
+        "tally.miss": 20,
+        "tally.combo": 2,
+        "tally.maxCombo": 25,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 16,
+        "score": 142,
+        "tally.perfect": 38,
+        "tally.good": 23,
+        "tally.miss": 28,
+        "tally.combo": 1,
+        "tally.maxCombo": 11,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 17,
+        "score": 156,
+        "tally.perfect": 39,
+        "tally.good": 25,
+        "tally.miss": 25,
+        "tally.combo": 1,
+        "tally.maxCombo": 11,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 18,
+        "score": 150,
+        "tally.perfect": 36,
+        "tally.good": 28,
+        "tally.miss": 25,
+        "tally.combo": 1,
+        "tally.maxCombo": 8,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 19,
+        "score": 168,
+        "tally.perfect": 39,
+        "tally.good": 28,
+        "tally.miss": 22,
+        "tally.combo": 4,
+        "tally.maxCombo": 18,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 20,
+        "score": 140,
+        "tally.perfect": 35,
+        "tally.good": 27,
+        "tally.miss": 27,
+        "tally.combo": 1,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 21,
+        "score": 164,
+        "tally.perfect": 41,
+        "tally.good": 24,
+        "tally.miss": 24,
+        "tally.combo": 3,
+        "tally.maxCombo": 9,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 22,
+        "score": 174,
+        "tally.perfect": 32,
+        "tally.good": 40,
+        "tally.miss": 17,
+        "tally.combo": 10,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 23,
+        "score": 172,
+        "tally.perfect": 39,
+        "tally.good": 29,
+        "tally.miss": 21,
+        "tally.combo": 0,
+        "tally.maxCombo": 15,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 24,
+        "score": 160,
+        "tally.perfect": 37,
+        "tally.good": 29,
+        "tally.miss": 23,
+        "tally.combo": 1,
+        "tally.maxCombo": 10,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 25,
+        "score": 142,
+        "tally.perfect": 36,
+        "tally.good": 26,
+        "tally.miss": 27,
+        "tally.combo": 6,
+        "tally.maxCombo": 7,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 26,
+        "score": 140,
+        "tally.perfect": 37,
+        "tally.good": 24,
+        "tally.miss": 28,
+        "tally.combo": 0,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 27,
+        "score": 172,
+        "tally.perfect": 43,
+        "tally.good": 23,
+        "tally.miss": 23,
+        "tally.combo": 7,
+        "tally.maxCombo": 13,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 28,
+        "score": 144,
+        "tally.perfect": 35,
+        "tally.good": 28,
+        "tally.miss": 26,
+        "tally.combo": 1,
+        "tally.maxCombo": 9,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 29,
+        "score": 210,
+        "tally.perfect": 46,
+        "tally.good": 28,
+        "tally.miss": 15,
+        "tally.combo": 6,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 30,
+        "score": 182,
+        "tally.perfect": 38,
+        "tally.good": 33,
+        "tally.miss": 18,
+        "tally.combo": 12,
+        "tally.maxCombo": 17,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 31,
+        "score": 236,
+        "tally.perfect": 51,
+        "tally.good": 27,
+        "tally.miss": 11,
+        "tally.combo": 3,
+        "tally.maxCombo": 18,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 32,
+        "score": 160,
+        "tally.perfect": 39,
+        "tally.good": 26,
+        "tally.miss": 24,
+        "tally.combo": 0,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 33,
+        "score": 204,
+        "tally.perfect": 43,
+        "tally.good": 31,
+        "tally.miss": 15,
+        "tally.combo": 3,
+        "tally.maxCombo": 22,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 34,
+        "score": 180,
+        "tally.perfect": 39,
+        "tally.good": 31,
+        "tally.miss": 19,
+        "tally.combo": 1,
+        "tally.maxCombo": 13,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 35,
+        "score": 146,
+        "tally.perfect": 40,
+        "tally.good": 21,
+        "tally.miss": 28,
+        "tally.combo": 1,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 36,
+        "score": 188,
+        "tally.perfect": 49,
+        "tally.good": 18,
+        "tally.miss": 22,
+        "tally.combo": 8,
+        "tally.maxCombo": 13,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 37,
+        "score": 150,
+        "tally.perfect": 38,
+        "tally.good": 25,
+        "tally.miss": 26,
+        "tally.combo": 3,
+        "tally.maxCombo": 8,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 38,
+        "score": 190,
+        "tally.perfect": 42,
+        "tally.good": 29,
+        "tally.miss": 18,
+        "tally.combo": 5,
+        "tally.maxCombo": 9,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 39,
+        "score": 172,
+        "tally.perfect": 41,
+        "tally.good": 26,
+        "tally.miss": 22,
+        "tally.combo": 0,
+        "tally.maxCombo": 15,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 40,
+        "score": 154,
+        "tally.perfect": 36,
+        "tally.good": 29,
+        "tally.miss": 24,
+        "tally.combo": 0,
+        "tally.maxCombo": 10,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 41,
+        "score": 158,
+        "tally.perfect": 38,
+        "tally.good": 27,
+        "tally.miss": 24,
+        "tally.combo": 0,
+        "tally.maxCombo": 13,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 42,
+        "score": 164,
+        "tally.perfect": 39,
+        "tally.good": 27,
+        "tally.miss": 23,
+        "tally.combo": 4,
+        "tally.maxCombo": 9,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 43,
+        "score": 142,
+        "tally.perfect": 38,
+        "tally.good": 23,
+        "tally.miss": 28,
+        "tally.combo": 1,
+        "tally.maxCombo": 8,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 44,
+        "score": 194,
+        "tally.perfect": 46,
+        "tally.good": 24,
+        "tally.miss": 19,
+        "tally.combo": 2,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 45,
+        "score": 176,
+        "tally.perfect": 37,
+        "tally.good": 33,
+        "tally.miss": 19,
+        "tally.combo": 11,
+        "tally.maxCombo": 11,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 46,
+        "score": 128,
+        "tally.perfect": 33,
+        "tally.good": 27,
+        "tally.miss": 29,
+        "tally.combo": 6,
+        "tally.maxCombo": 7,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 47,
+        "score": 170,
+        "tally.perfect": 40,
+        "tally.good": 27,
+        "tally.miss": 22,
+        "tally.combo": 0,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 48,
+        "score": 132,
+        "tally.perfect": 25,
+        "tally.good": 40,
+        "tally.miss": 24,
+        "tally.combo": 1,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 49,
+        "score": 168,
+        "tally.perfect": 41,
+        "tally.good": 25,
+        "tally.miss": 23,
+        "tally.combo": 0,
+        "tally.maxCombo": 10,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 50,
+        "score": 150,
+        "tally.perfect": 32,
+        "tally.good": 34,
+        "tally.miss": 23,
+        "tally.combo": 3,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      }
+    ],
+    "endless": [
+      {
+        "seed": 1,
+        "score": 208,
+        "tally.perfect": 39,
+        "tally.good": 38,
+        "tally.miss": 12,
+        "tally.combo": 7,
+        "tally.maxCombo": 11,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 2,
+        "score": 206,
+        "tally.perfect": 48,
+        "tally.good": 24,
+        "tally.miss": 17,
+        "tally.combo": 3,
+        "tally.maxCombo": 17,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 3,
+        "score": 140,
+        "tally.perfect": 37,
+        "tally.good": 24,
+        "tally.miss": 28,
+        "tally.combo": 1,
+        "tally.maxCombo": 10,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 4,
+        "score": 192,
+        "tally.perfect": 41,
+        "tally.good": 31,
+        "tally.miss": 17,
+        "tally.combo": 0,
+        "tally.maxCombo": 11,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 5,
+        "score": 172,
+        "tally.perfect": 35,
+        "tally.good": 35,
+        "tally.miss": 19,
+        "tally.combo": 2,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 6,
+        "score": 166,
+        "tally.perfect": 40,
+        "tally.good": 26,
+        "tally.miss": 23,
+        "tally.combo": 2,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 7,
+        "score": 152,
+        "tally.perfect": 37,
+        "tally.good": 27,
+        "tally.miss": 25,
+        "tally.combo": 2,
+        "tally.maxCombo": 11,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 8,
+        "score": 122,
+        "tally.perfect": 30,
+        "tally.good": 30,
+        "tally.miss": 29,
+        "tally.combo": 0,
+        "tally.maxCombo": 8,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 9,
+        "score": 140,
+        "tally.perfect": 39,
+        "tally.good": 21,
+        "tally.miss": 29,
+        "tally.combo": 0,
+        "tally.maxCombo": 11,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 10,
+        "score": 146,
+        "tally.perfect": 32,
+        "tally.good": 33,
+        "tally.miss": 24,
+        "tally.combo": 0,
+        "tally.maxCombo": 9,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 11,
+        "score": 150,
+        "tally.perfect": 36,
+        "tally.good": 28,
+        "tally.miss": 25,
+        "tally.combo": 1,
+        "tally.maxCombo": 8,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 12,
+        "score": 150,
+        "tally.perfect": 30,
+        "tally.good": 37,
+        "tally.miss": 22,
+        "tally.combo": 2,
+        "tally.maxCombo": 9,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 13,
+        "score": 172,
+        "tally.perfect": 41,
+        "tally.good": 26,
+        "tally.miss": 22,
+        "tally.combo": 1,
+        "tally.maxCombo": 17,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 14,
+        "score": 170,
+        "tally.perfect": 38,
+        "tally.good": 30,
+        "tally.miss": 21,
+        "tally.combo": 4,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 15,
+        "score": 172,
+        "tally.perfect": 37,
+        "tally.good": 32,
+        "tally.miss": 20,
+        "tally.combo": 2,
+        "tally.maxCombo": 25,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 16,
+        "score": 142,
+        "tally.perfect": 38,
+        "tally.good": 23,
+        "tally.miss": 28,
+        "tally.combo": 1,
+        "tally.maxCombo": 11,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 17,
+        "score": 156,
+        "tally.perfect": 39,
+        "tally.good": 25,
+        "tally.miss": 25,
+        "tally.combo": 1,
+        "tally.maxCombo": 11,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 18,
+        "score": 150,
+        "tally.perfect": 36,
+        "tally.good": 28,
+        "tally.miss": 25,
+        "tally.combo": 1,
+        "tally.maxCombo": 8,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 19,
+        "score": 168,
+        "tally.perfect": 39,
+        "tally.good": 28,
+        "tally.miss": 22,
+        "tally.combo": 4,
+        "tally.maxCombo": 18,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 20,
+        "score": 140,
+        "tally.perfect": 35,
+        "tally.good": 27,
+        "tally.miss": 27,
+        "tally.combo": 1,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 21,
+        "score": 164,
+        "tally.perfect": 41,
+        "tally.good": 24,
+        "tally.miss": 24,
+        "tally.combo": 3,
+        "tally.maxCombo": 9,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 22,
+        "score": 174,
+        "tally.perfect": 32,
+        "tally.good": 40,
+        "tally.miss": 17,
+        "tally.combo": 10,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 23,
+        "score": 172,
+        "tally.perfect": 39,
+        "tally.good": 29,
+        "tally.miss": 21,
+        "tally.combo": 0,
+        "tally.maxCombo": 15,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 24,
+        "score": 160,
+        "tally.perfect": 37,
+        "tally.good": 29,
+        "tally.miss": 23,
+        "tally.combo": 1,
+        "tally.maxCombo": 10,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 25,
+        "score": 142,
+        "tally.perfect": 36,
+        "tally.good": 26,
+        "tally.miss": 27,
+        "tally.combo": 6,
+        "tally.maxCombo": 7,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 26,
+        "score": 140,
+        "tally.perfect": 37,
+        "tally.good": 24,
+        "tally.miss": 28,
+        "tally.combo": 0,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 27,
+        "score": 172,
+        "tally.perfect": 43,
+        "tally.good": 23,
+        "tally.miss": 23,
+        "tally.combo": 7,
+        "tally.maxCombo": 13,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 28,
+        "score": 144,
+        "tally.perfect": 35,
+        "tally.good": 28,
+        "tally.miss": 26,
+        "tally.combo": 1,
+        "tally.maxCombo": 9,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 29,
+        "score": 210,
+        "tally.perfect": 46,
+        "tally.good": 28,
+        "tally.miss": 15,
+        "tally.combo": 6,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 30,
+        "score": 182,
+        "tally.perfect": 38,
+        "tally.good": 33,
+        "tally.miss": 18,
+        "tally.combo": 12,
+        "tally.maxCombo": 17,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 31,
+        "score": 236,
+        "tally.perfect": 51,
+        "tally.good": 27,
+        "tally.miss": 11,
+        "tally.combo": 3,
+        "tally.maxCombo": 18,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 32,
+        "score": 160,
+        "tally.perfect": 39,
+        "tally.good": 26,
+        "tally.miss": 24,
+        "tally.combo": 0,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 33,
+        "score": 204,
+        "tally.perfect": 43,
+        "tally.good": 31,
+        "tally.miss": 15,
+        "tally.combo": 3,
+        "tally.maxCombo": 22,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 34,
+        "score": 180,
+        "tally.perfect": 39,
+        "tally.good": 31,
+        "tally.miss": 19,
+        "tally.combo": 1,
+        "tally.maxCombo": 13,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 35,
+        "score": 146,
+        "tally.perfect": 40,
+        "tally.good": 21,
+        "tally.miss": 28,
+        "tally.combo": 1,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 36,
+        "score": 188,
+        "tally.perfect": 49,
+        "tally.good": 18,
+        "tally.miss": 22,
+        "tally.combo": 8,
+        "tally.maxCombo": 13,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 37,
+        "score": 150,
+        "tally.perfect": 38,
+        "tally.good": 25,
+        "tally.miss": 26,
+        "tally.combo": 3,
+        "tally.maxCombo": 8,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 38,
+        "score": 190,
+        "tally.perfect": 42,
+        "tally.good": 29,
+        "tally.miss": 18,
+        "tally.combo": 5,
+        "tally.maxCombo": 9,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 39,
+        "score": 172,
+        "tally.perfect": 41,
+        "tally.good": 26,
+        "tally.miss": 22,
+        "tally.combo": 0,
+        "tally.maxCombo": 15,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 40,
+        "score": 154,
+        "tally.perfect": 36,
+        "tally.good": 29,
+        "tally.miss": 24,
+        "tally.combo": 0,
+        "tally.maxCombo": 10,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 41,
+        "score": 158,
+        "tally.perfect": 38,
+        "tally.good": 27,
+        "tally.miss": 24,
+        "tally.combo": 0,
+        "tally.maxCombo": 13,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 42,
+        "score": 164,
+        "tally.perfect": 39,
+        "tally.good": 27,
+        "tally.miss": 23,
+        "tally.combo": 4,
+        "tally.maxCombo": 9,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 43,
+        "score": 142,
+        "tally.perfect": 38,
+        "tally.good": 23,
+        "tally.miss": 28,
+        "tally.combo": 1,
+        "tally.maxCombo": 8,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 44,
+        "score": 194,
+        "tally.perfect": 46,
+        "tally.good": 24,
+        "tally.miss": 19,
+        "tally.combo": 2,
+        "tally.maxCombo": 14,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 45,
+        "score": 176,
+        "tally.perfect": 37,
+        "tally.good": 33,
+        "tally.miss": 19,
+        "tally.combo": 11,
+        "tally.maxCombo": 11,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 46,
+        "score": 128,
+        "tally.perfect": 33,
+        "tally.good": 27,
+        "tally.miss": 29,
+        "tally.combo": 6,
+        "tally.maxCombo": 7,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 47,
+        "score": 170,
+        "tally.perfect": 40,
+        "tally.good": 27,
+        "tally.miss": 22,
+        "tally.combo": 0,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 48,
+        "score": 132,
+        "tally.perfect": 25,
+        "tally.good": 40,
+        "tally.miss": 24,
+        "tally.combo": 1,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 49,
+        "score": 168,
+        "tally.perfect": 41,
+        "tally.good": 25,
+        "tally.miss": 23,
+        "tally.combo": 0,
+        "tally.maxCombo": 10,
+        "tally.bonus": 0
+      },
+      {
+        "seed": 50,
+        "score": 150,
+        "tally.perfect": 32,
+        "tally.good": 34,
+        "tally.miss": 23,
+        "tally.combo": 3,
+        "tally.maxCombo": 12,
+        "tally.bonus": 0
+      }
+    ]
+  }
+}

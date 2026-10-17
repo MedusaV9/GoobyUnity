@@ -1,0 +1,13 @@
+{
+	"nougat": {
+		"installiert": "Die Nougatschleuse ist installiert! Gooby starrt sie ehrfürchtig an.",
+		"schlaeft": "Psst… Gooby schläft. Die Schleuse schleust später weiter.",
+		"krank": "Goobys Bauch macht heute Pause — keine Nougat-Experimente.",
+		"pause": "Nougat-Pause! In {minuten} min tropft es wieder.",
+		"klecks1": "SCHLOPP! Ein Nougat-Klecks, mitten auf die Schnute!",
+		"klecks2": "Die Kurbel quietscht — und Gooby quietscht begeistert MIT.",
+		"klecks3": "Nougat marsch! Gooby schmatzt selig vor sich hin.",
+		"glas_bonus": "PLOPP! Ein Extra-Glas Nutella kullert in den Vorrat.",
+		"kurbeln": "Kurbeln!"
+	}
+}

@@ -1,0 +1,99 @@
+{
+  "phone": {
+    "titel": "IGohbie",
+    "zurueck": "Zurück",
+    "app": {
+      "taxi": "Taxi",
+      "taxi_text": "Ruft ein Taxi. Kommt, wenn es kommt.",
+      "guber": "Guber",
+      "guber_text": "Teurer. Schneller. Mit Manschettenknöpfen.",
+      "gooberando": "GOOBERANDO",
+      "gooberando_text": "Essen bestellen. Erstmal Goobyn.",
+      "kamera": "Kamera",
+      "kamera_text": "Fotomodus starten und knipsen.",
+      "kamera_gesperrt": "Dafür brauchst du erst die Kamera aus dem POW!",
+      "freunde": "Freunde",
+      "freunde_text": "Besuchen, spielen, winken.",
+      "goobypal": "GoobyPal",
+      "goobypal_text": "Münzen an Freunde schicken.",
+      "instant": "InstantGooby",
+      "instant_text": "Fotos für alle Freunde. Möhren inklusive."
+    },
+    "fahrdienst": {
+      "rufen": "Wagen rufen ({preis} ᴳ)",
+      "countdown": "Ankunft in ca. {min}:{s} min",
+      "storno": "Doch nicht ({zurueck} ᴳ zurück)",
+      "fenster": "Noch {s} s zum Einsteigen!",
+      "einsteigen": "Einsteigen",
+      "storniert": "Storniert. Der Fahrer seufzt in Zeitlupe.",
+      "verpasst": "Weg ist er. Der nächste Wagen kostet wieder voll.",
+      "belegt_titel": "Ein Wagen ist schon unterwegs",
+      "belegt": "{dienst} fährt gerade für dich. Zwei Wagen wären albern.",
+      "rettung": "Gooby hat keine Energie mehr — das Taxi bringt ihn trotzdem heim."
+    },
+    "taxi": {
+      "slogan": "Taxi Goobsen & Söhne",
+      "pitch": "Zehn Münzen, ehrliche Arbeit, ein Duftbaum in Vanille. Wartezeit: ein paar Minuten, wie im echten Leben.",
+      "unterwegs": "Dein Taxi ist unterwegs",
+      "da": "Das Taxi steht vor der Tür!",
+      "bestellt": "Taxi gerufen. Der Fahrer setzt schon den Blinker.",
+      "fahrt": "Eingestiegen! Ab nach Hause."
+    },
+    "guber": {
+      "slogan": "GUBER — Premium-Mobilität",
+      "pitch": "Dreißig Münzen. Dafür ist der Wagen in unter zwei Minuten da und der Fahrer sagt „sehr wohl“.",
+      "surge": "Bedauerlicherweise herrscht gerade rege Nachfrage, Sir Gooby.",
+      "unterwegs": "Ihr Guber nähert sich",
+      "da": "Ihr Guber wartet. Der Fahrer hält die Tür auf.",
+      "bestellt": "Sehr wohl. Der Wagen ist bestellt.",
+      "fahrt": "„Bitte sehr.“ Es riecht nach frischem Leder."
+    },
+    "gooberando": {
+      "restaurants_titel": "Wo soll’s heute herkommen?",
+      "bewertung": "{sterne} ★ — {gag}",
+      "wartezeit": "Küche braucht ca. {min}–{max} min",
+      "gag_moehrenschmiede": "ein Stern Abzug, die Möhre war zu knackig",
+      "gag_pasta_hoppel": "ein Stern Abzug, Fahrer hat gewunken, Kunde war schüchtern",
+      "gag_burger_bau": "ein Stern Abzug, der Gurken-Turm wackelte beim Abbiegen",
+      "menue_zurueck": "‹ Andere Restaurants",
+      "warenkorb": "Im Korb: {n}× lecker · zusammen {summe} ᴳ (mit {gebuehr} ᴳ Lieferung)",
+      "warenkorb_leer": "Der Korb ist noch leer. Gooby knurrt vorwurfsvoll.",
+      "warenkorb_leeren": "Korb leeren",
+      "bestellen": "Bestellen ({summe} ᴳ)",
+      "fahrer_kueche": "Die Küche goobyt. Der Fahrer wärmt schon den Sattel vor…",
+      "fahrer_unterwegs": "Der Fahrer ist unterwegs — da fährt dein Essen!",
+      "karte_hinweis": "Der orange Punkt bringt dein Essen. Winken bringt nichts, hilft aber."
+    },
+    "kamera": {
+      "titel": "GOOBY-Knipse",
+      "text": "Startet den Fotomodus über der aktuellen Szene. Sucher, Auslöser, fertig.",
+      "starten": "Fotomodus starten",
+      "galerie": "Album",
+      "leer": "Noch kein Bild. Der Sensor ist ganz gespannt.",
+      "anzahl": "{n} Aufnahmen gespeichert"
+    },
+    "foto": {
+      "hinweis": "Sucher ausrichten und auslösen.",
+      "knipsen": "Auslösen",
+      "fertig": "‹ Fertig",
+      "gespeichert": "Klick! Jetzt sind es {n} Bilder.",
+      "fehler": "Das Bild wollte nicht auf die Platte."
+    },
+    "freunde": {
+      "fehlt": "Der Freunde-Screen ist gerade nicht verfügbar."
+    },
+    "goobypal": {
+      "titel": "GoobyPal",
+      "text": "Schick einem Freund ein paar Münzen. Ohne Hintergedanken. Meistens.",
+      "senden": "Senden",
+      "offline": "Offline — GoobyPal braucht Verbindung. Und Freunde.",
+      "verlauf_titel": "Verlauf",
+      "verlauf_leer": "Noch keine Münzen gewandert. Der Verlauf wartet auf deine erste gute Tat.",
+      "verlauf_geschickt": "geschickt",
+      "verlauf_bekommen": "bekommen",
+      "verlauf_heute": "heute · {zeit}",
+      "verlauf_gestern": "gestern · {zeit}",
+      "verlauf_datum": "{tag}.{monat}.{jahr}"
+    }
+  }
+}

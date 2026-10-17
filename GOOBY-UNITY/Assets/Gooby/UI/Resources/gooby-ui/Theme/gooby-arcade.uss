@@ -1,0 +1,398 @@
+/* gooby-arcade.uss — see header comment in GoobyTheme.tss */
+/* Minigame windows (board 06 "Fenster / Panels", the language of gooby-screens.uss .gb-win / .gb-ware).
+   .gb-mgw = cream window (arcade sheet, pregame, pause, results): FrameBand title band .gb-mgw-band (pastel wash from
+   code: icon tile, title + line, optional chip, round close), then .gb-mgw-body with white .gb-mgw-card cards, result
+   rows, action pills. Arcade (.gb-arc-*): scrolling wrapping grid of equal white cards — pastel game tile with the
+   "Neu" pill, title, best chip, star row; spotlight card with sun rim + ribbon; "Bald!" cards dimmed.
+   Card widths come from ArcadeScreen.FitCards (inline); the card's margin-right must stay = its CardGap (14 px).
+   Never put transition-* / opacity / scale on .gb-mgw or .gb-arc-card: gb-pop-in / gb-fade-in (base) drive those. */
+
+/* ---------- window chrome ---------- */
+.gb-mgw {
+    background-color: var(--gb-panel);
+    border-radius: var(--gb-r-xl);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.12);
+    border-bottom-width: 4px;
+    border-bottom-color: rgba(107, 79, 58, 0.16);
+    padding: 0;
+}
+.gb-mgw-band {
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 14px 16px 12px 16px;
+    background-color: rgba(255, 255, 255, 0.74);
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    border-bottom-width: 2px;
+    border-bottom-color: rgba(107, 79, 58, 0.08);
+}
+/* plain icon tile (arcade gamepad) 54 px; game tiles keep their inline size + radius */
+.gb-mgw-band > .gb-icon-tile { width: 54px; height: 54px; border-radius: 18px; flex-shrink: 0; border-width: 2px; border-color: rgba(255, 255, 255, 0.95); }
+.gb-mgw-band > .gb-icon-tile > .gb-icon { width: 62%; height: 62%; }
+.gb-mgw-titles { flex-grow: 1; flex-shrink: 1; min-width: 60px; margin-left: 14px; margin-right: 10px; }
+.gb-mgw-title { font-size: var(--gb-h2); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gb-mgw-line { margin-top: 2px; font-size: 13px; color: var(--gb-text-mild); white-space: normal; }
+/* band chip (arcade: stars earned / max) — the sun coin pill of the window kit */
+.gb-mgw-chip {
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 0;
+    height: 42px;
+    margin-left: 8px;
+    padding: 0 16px 0 6px;
+    border-radius: var(--gb-r-pill);
+    background-color: #FFF4D6;
+    border-width: 2px;
+    border-color: rgba(255, 209, 102, 0.75);
+}
+.gb-mgw-chip > .gb-icon { width: 28px; height: 28px; margin-right: 6px; }
+.gb-mgw-chip > Label { font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); white-space: nowrap; }
+.gb-mgw-close {
+    flex-shrink: 0;
+    width: 46px; height: 46px;
+    margin-left: 12px;
+    background-color: var(--gb-sand-hell);
+    border-color: rgba(107, 79, 58, 0.10);
+    transition-property: scale, background-color;
+    transition-duration: 0.12s;
+}
+.gb-mgw-close > .gb-icon { width: 44%; height: 44%; }
+.gb-mgw-close:hover { background-color: var(--gb-weiss); border-color: rgba(107, 79, 58, 0.24); scale: 1.06; }
+.gb-mgw-close:hover:active { scale: 0.92; }
+
+/* ---------- body + white cards ---------- */
+.gb-mgw-body { flex-shrink: 1; padding: 14px 20px 18px 20px; }
+.gb-mgw-card {
+    flex-shrink: 0;
+    margin-bottom: 10px;
+    padding: 12px 14px 12px 14px;
+    border-radius: var(--gb-r-lg);
+    background-color: var(--gb-weiss);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.08);
+    border-bottom-width: 4px;
+    border-bottom-color: rgba(107, 79, 58, 0.12);
+}
+.gb-mgw-kicker { margin: 0 0 8px 2px; font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text-mild); letter-spacing: 1px; }
+
+/* difficulty chips: sand, the chosen one leaf green */
+.gb-mgw-chips { flex-direction: row; flex-wrap: wrap; align-items: center; }
+.gb-mgw-chips > .gb-chip {
+    height: 42px;
+    min-width: 92px;
+    padding: 0 18px;
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.10);
+    -unity-font-definition: url("../Fonts/Nunito-Bold.ttf");
+    transition-property: scale, background-color;
+    transition-duration: 0.12s;
+}
+.gb-mgw-chips > .gb-chip:hover { background-color: #F1E1CD; }
+.gb-mgw-chips > .gb-chip--active { background-color: var(--gb-confirm); border-color: var(--gb-confirm-tief); color: var(--gb-text-invers); }
+.gb-mgw-chips > .gb-chip--active:hover { background-color: #8FD8AA; }
+.gb-mgw-chips > .gb-chip:disabled { opacity: 0.45; }
+
+/* best of the chosen difficulty + its stars, then small fact tags */
+.gb-mgw-stat { flex-direction: row; align-items: center; justify-content: space-between; }
+.gb-pregame-best { min-height: 34px; }
+.gb-mgw-best { flex-shrink: 1; margin-right: 12px; font-size: var(--gb-h3); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gb-mgw-tags { flex-direction: row; flex-wrap: wrap; align-items: center; margin-top: 8px; }
+.gb-mgw-tag {
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 1;
+    margin: 0 8px 0 0;
+    padding: 3px 12px 3px 5px;
+    border-radius: var(--gb-r-pill);
+    background-color: var(--gb-sand-hell);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.08);
+}
+.gb-mgw-tag > .gb-icon { width: 20px; height: 20px; margin-right: 6px; }
+.gb-mgw-tag > Label { flex-shrink: 1; font-size: 13px; -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: var(--gb-text-mild); white-space: normal; }
+.gb-mgw-card > .gb-pregame-spotlight { border-width: 2px; border-color: rgba(255, 209, 102, 0.75); }
+
+/* rosy "too sleepy" strip, the pause help paper */
+.gb-mgw-sleepy {
+    flex-shrink: 0;
+    padding: 8px 12px;
+    border-radius: 14px;
+    background-color: #FFEDED;
+    border-width: 2px;
+    border-color: rgba(242, 109, 109, 0.28);
+    -unity-text-align: middle-left;
+}
+.gb-mgw-help {
+    flex-shrink: 0;
+    padding: 10px 14px;
+    border-radius: var(--gb-r-md);
+    background-color: var(--gb-weiss);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.08);
+    color: var(--gb-text);
+    -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf");
+}
+.gb-pregame-card .gb-mgw-line { font-size: var(--gb-md); }
+.gb-pause-card > .gb-mgw-body { padding: 16px 20px 20px 20px; }
+
+/* ---------- results: hero score card, reward rows two by two ---------- */
+.gb-mgw-hero { align-items: center; padding: 14px 16px 14px 16px; }
+.gb-mgw-hero.gb-results-score { background-color: #FFFBF0; border-color: rgba(255, 209, 102, 0.45); border-bottom-color: rgba(255, 209, 102, 0.80); }
+.gb-mgw-score { font-size: 48px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); -unity-text-align: middle-center; white-space: nowrap; text-shadow: 0 3px 0 rgba(255, 209, 102, 0.55); }
+.gb-mgw-hero > .gb-stars { margin-top: 4px; justify-content: center; }
+.gb-mgw-hero .gb-star { margin: 0 4px; }
+/* "Neuer Rekord!" sticker straddling the hero's top rim */
+.gb-mgw-record { position: absolute; top: -14px; right: 12px; margin: 0; rotate: 6deg; }
+.gb-results-card > .gb-mgw-body { padding-top: 16px; }
+.gb-mgw-rows { flex-direction: row; flex-wrap: wrap; justify-content: space-between; flex-shrink: 0; }
+.gb-mgw-row {
+    flex-direction: row;
+    align-items: center;
+    width: 49%;
+    min-height: 50px;
+    margin-bottom: 8px;
+    padding: 6px 12px 6px 6px;
+    border-radius: 18px;
+    background-color: var(--gb-weiss);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.08);
+    border-bottom-width: 3px;
+    border-bottom-color: rgba(107, 79, 58, 0.12);
+}
+.gb-mgw-row.gb-results-row--hot { background-color: #FFF0C8; border-color: var(--gb-sonne); }
+.gb-mgw-row-icon { width: 36px; height: 36px; border-radius: 12px; margin-right: 10px; flex-shrink: 0; justify-content: center; align-items: center; }
+.gb-mgw-row-icon > .gb-icon { width: 24px; height: 24px; }
+.gb-mgw-row-text { flex-grow: 1; flex-shrink: 1; font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: var(--gb-text); white-space: normal; }
+
+/* stars inside the windows: gold when earned, taupe #CBB7A1 when empty (tint on the gold icon over white) */
+.gb-mgw .gb-star { -unity-background-image-tint-color: rgba(165, 158, 244, 0.56); }
+.gb-mgw .gb-star--on { -unity-background-image-tint-color: rgb(255, 255, 255); }
+
+/* ---------- action pills (board 06: pink primary, sand secondary, taupe cancel) ---------- */
+.gb-mgw-actions { flex-direction: row; align-items: center; flex-shrink: 0; margin-top: 8px; }
+.gb-results-actions { margin-top: 10px; }
+.gb-mgw-pill {
+    height: 52px;
+    min-width: 0;
+    padding: 0 22px;
+    border-width: 0;
+    border-bottom-width: 3px;
+    border-bottom-color: rgba(107, 79, 58, 0.16);
+}
+.gb-mgw-pill > .gb-btn-label { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gb-mgw-pill.gb-btn-primary { border-bottom-color: var(--gb-primary-tief); }
+.gb-mgw-pill--big { height: 60px; padding: 0 28px; }
+.gb-mgw-pill--big > .gb-icon { width: 28px; height: 28px; margin-right: 10px; }
+.gb-mgw-pill--big > .gb-btn-label { font-size: var(--gb-h3); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-mgw-pill--half { flex-grow: 1; flex-shrink: 1; width: 50%; padding: 0 14px; }
+/* Tanzparty "Timing anpassen": the big round TAP button of the metronome calibration */
+.gb-dance-calib-tap { width: 168px; height: 168px; margin-top: 14px; margin-bottom: 10px; border-radius: 84px; background-color: #FF8B8B; border-width: 4px; border-color: #FFFFFF; border-bottom-width: 7px; border-bottom-color: #E06C6C; font-size: 30px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #FFFFFF; -unity-text-align: middle-center; }
+.gb-dance-calib-tap:disabled { opacity: 0.45; }
+.gb-mgw-sand { background-color: var(--gb-sand-hell); border-width: 2px; border-color: rgba(107, 79, 58, 0.10); border-bottom-width: 3px; border-bottom-color: rgba(107, 79, 58, 0.16); }
+.gb-mgw-taupe { background-color: #E6D8C8; border-width: 2px; border-color: rgba(107, 79, 58, 0.12); border-bottom-width: 3px; border-bottom-color: rgba(107, 79, 58, 0.20); }
+.gb-mgw-sand > .gb-btn-label, .gb-mgw-taupe > .gb-btn-label { color: var(--gb-text); }
+/* white disc behind an icon that would vanish on the pill (Nochmal's redo) */
+.gb-mgw-disc { width: 34px; height: 34px; border-radius: 17px; margin-left: -8px; margin-right: 10px; flex-shrink: 0; background-color: var(--gb-weiss); justify-content: center; align-items: center; }
+.gb-mgw-disc > .gb-icon { width: 20px; height: 20px; }
+/* round house button (results, left) */
+.gb-mgw-round {
+    flex-shrink: 0;
+    width: 56px; height: 56px;
+    background-color: var(--gb-sand-hell);
+    border-color: rgba(107, 79, 58, 0.12);
+    border-bottom-width: 3px;
+    border-bottom-color: rgba(107, 79, 58, 0.18);
+    transition-property: scale, background-color;
+    transition-duration: 0.12s;
+}
+.gb-mgw-round > .gb-icon { width: 48%; height: 48%; }
+.gb-mgw-round:hover { background-color: var(--gb-weiss); border-color: rgba(107, 79, 58, 0.24); scale: 1.06; }
+.gb-mgw-round:hover:active { scale: 0.92; }
+/* hover / press inside the windows (as .gb-sheets in gooby-screens.uss) */
+.gb-mgw .gb-btn-primary:hover { background-color: #FF9B9B; }
+.gb-mgw .gb-btn-primary:hover:active { background-color: var(--gb-primary-tief); }
+.gb-mgw .gb-mgw-sand:hover { background-color: var(--gb-weiss); border-color: rgba(107, 79, 58, 0.24); }
+.gb-mgw .gb-mgw-sand:hover:active { background-color: var(--gb-sand-mittel); }
+.gb-mgw .gb-mgw-taupe:hover { background-color: #EFE3D5; }
+.gb-mgw .gb-mgw-taupe:hover:active { background-color: var(--gb-taupe); }
+
+/* ---------- the player's 3D Gooby (MgBuddy3D) beside the window cards, on the band, in the HUD ---------- */
+.gb-mgw-main { flex-direction: row; align-items: stretch; flex-shrink: 1; }
+.gb-mg-buddy-col {
+    flex-shrink: 0;
+    width: 196px;
+    padding: 10px 0 14px 16px;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* the soft oval rug he stands on (sunny wash, like the hero card) */
+.gb-mg-buddy-rug {
+    position: absolute;
+    left: 34px; bottom: 16px;
+    width: 148px; height: 40px;
+    border-radius: 74px;
+    background-color: rgba(255, 209, 102, 0.30);
+    border-width: 2px;
+    border-color: rgba(255, 209, 102, 0.45);
+}
+.gb-mg-buddy-view { flex-shrink: 0; -unity-background-scale-mode: scale-to-fit; }
+.gb-mg-buddy-band { -unity-background-scale-mode: scale-to-fit; }
+/* round badge left of the time pill: cream disc, white ring, soft drop — board 08's profile circle */
+.gb-mg-buddy-badge {
+    width: 64px; height: 64px;
+    margin-right: 10px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background-color: #FFF4D6;
+    border-width: 3px;
+    border-color: #FFFFFF;
+    border-bottom-width: 4px;
+    border-bottom-color: rgba(107, 79, 58, 0.18);
+    overflow: hidden;
+}
+.gb-mg-buddy-badge-view { position: absolute; left: 0; top: 0; right: 0; bottom: 0; border-radius: 29px; -unity-background-scale-mode: scale-to-fit; }
+/* the record ghost beside the score pill (MinigameHostScreen.Geist): calm on purpose — no pulse; mint ahead, rose behind */
+.gb-geist-chip { padding-left: 10px; padding-right: 14px; }
+.gb-geist-chip > .gb-icon { width: 28px; height: 28px; margin-right: 6px; }
+.gb-geist-chip--vorn > .gb-pill-wert { color: #3E9B6B; }
+.gb-geist-chip--hinten > .gb-pill-wert { color: #D9534F; }
+
+/* ---------- first start (OnboardingScreen): the window kit with Gooby beside the question ---------- */
+.gb-onb-content { padding: 26px 30px 24px 18px; justify-content: center; }
+.gb-onb-title { font-size: 32px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); white-space: normal; }
+.gb-onb-text { margin-top: 8px; font-size: 18px; -unity-font-definition: url("../Fonts/Nunito-SemiBold.ttf"); color: var(--gb-text-mild); }
+.gb-onb-field { margin: 18px 0 0 0; height: 58px; font-size: 22px; }
+.gb-onb-hint { margin-top: 8px; font-size: 15px; -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: #E86A6A; white-space: normal; }
+.gb-onb-actions { flex-direction: row; align-items: center; margin-top: 14px; }
+.gb-onb-next { height: 60px; min-width: 220px; padding: 0 28px; }
+
+/* ---------- arcade sheet ---------- */
+.gb-arc-window { padding-bottom: 4px; }
+.gb-arc-window > .gb-mgw-band { padding: 14px 18px 12px 18px; }
+.gb-arc-scroll { flex-grow: 1; flex-shrink: 1; margin: 0 6px 6px 22px; }
+/* top padding keeps the first row's spotlight ribbon inside the scroll viewport */
+.gb-arc-grid { flex-direction: row; flex-wrap: wrap; align-items: stretch; padding-top: 18px; padding-bottom: 6px; }
+.gb-arc-card {
+    width: 176px;
+    min-height: 200px;
+    margin: 0 14px 14px 0;
+    padding: 14px 10px 12px 10px;
+    align-items: center;
+    border-radius: var(--gb-r-lg);
+    background-color: var(--gb-weiss);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.08);
+    border-bottom-width: 4px;
+    border-bottom-color: rgba(107, 79, 58, 0.12);
+}
+.gb-arc-card:hover { border-color: rgba(255, 139, 139, 0.60); }
+.gb-arc-card.gb-arcade-card--pressed { background-color: #FFF6F6; }
+.gb-arc-card--spot { background-color: #FFFCF3; border-width: 3px; border-bottom-width: 4px; border-color: var(--gb-sonne); }
+.gb-arc-card--spot:hover { border-color: #FFC23D; }
+.gb-arc-card--soon { background-color: var(--gb-papier); border-color: rgba(107, 79, 58, 0.07); }
+.gb-arc-card--soon:hover { border-color: rgba(107, 79, 58, 0.07); }
+.gb-arc-tilewrap { flex-shrink: 0; align-self: center; margin-bottom: 10px; }
+.gb-arc-title {
+    align-self: stretch;
+    flex-shrink: 0;
+    padding: 0 6px;
+    font-size: var(--gb-lg);
+    -unity-font-definition: url("../Fonts/Nunito-Bold.ttf");
+    color: var(--gb-text);
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.gb-arc-best {
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    flex-shrink: 0;
+    max-width: 100%;
+    margin-top: 6px;
+    padding: 2px 12px 2px 5px;
+    border-radius: var(--gb-r-pill);
+    background-color: #FFF4D6;
+    border-width: 2px;
+    border-color: rgba(255, 209, 102, 0.75);
+}
+.gb-arc-best > .gb-icon { width: 18px; height: 18px; margin-right: 4px; }
+.gb-arc-best > Label { flex-shrink: 1; font-size: 13px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gb-arc-card > .gb-stars { align-self: center; margin-top: 6px; }
+.gb-arc-card .gb-star { margin: 0 1px; }
+/* pink "Neu" pill on the tile's corner */
+.gb-arc-neu {
+    position: absolute;
+    top: -2px; right: -22px;
+    padding: 1px 9px;
+    border-radius: var(--gb-r-pill);
+    background-color: var(--gb-primary);
+    border-width: 2px;
+    border-color: var(--gb-weiss);
+    color: var(--gb-text-invers);
+    font-size: var(--gb-sm);
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    white-space: nowrap;
+    rotate: 8deg;
+}
+/* spotlight: sun ribbon straddling the card's top rim */
+.gb-arc-ribbon {
+    position: absolute;
+    top: -14px; left: 50%;
+    translate: -50% 0;
+    padding: 2px 12px;
+    border-radius: var(--gb-r-pill);
+    background-color: var(--gb-sonne);
+    border-width: 2px;
+    border-color: var(--gb-weiss);
+    color: var(--gb-schoko);
+    font-size: 13px;
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    white-space: nowrap;
+}
+/* cover cards: the painted game cover fills the top (4:3 art cropped to ~16:10), title + stars/best on a white foot */
+.gb-arc-card--cover { padding: 0; align-items: stretch; border-width: 3px; border-bottom-width: 5px; border-color: var(--gb-weiss); }
+.gb-arc-card--cover:hover { border-color: rgba(255, 139, 139, 0.75); }
+.gb-arc-card--cover.gb-arc-card--spot { border-color: var(--gb-sonne); }
+.gb-arc-cover {
+    height: 150px;
+    flex-shrink: 0;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    background-color: #F4E9DA;
+}
+.gb-arc-cover > .gb-arc-neu { top: 8px; right: 8px; rotate: 6deg; }
+.gb-arc-body { padding: 8px 10px 10px 10px; align-items: stretch; }
+.gb-arc-card--cover .gb-arc-title { -unity-text-align: middle-left; padding: 0 2px; font-size: 17px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); }
+.gb-arc-meta { flex-direction: row; align-items: center; justify-content: space-between; margin-top: 4px; }
+.gb-arc-meta > .gb-stars { margin: 0; }
+.gb-arc-meta > .gb-arc-best { margin-top: 0; align-self: auto; padding: 1px 10px; flex-shrink: 1; }
+/* pregame window: the game's cover as a banner over the cards */
+.gb-pregame-hero {
+    height: 118px;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+    border-radius: 18px;
+    border-width: 3px;
+    border-color: var(--gb-weiss);
+    background-color: #F4E9DA;
+}
+/* "Bald!": tile, title and best chip dimmed, the pill stays readable */
+.gb-arc-dim { opacity: 0.55; }
+.gb-arc-soon {
+    align-self: center;
+    flex-shrink: 0;
+    margin-top: 8px;
+    padding: 2px 14px;
+    border-radius: var(--gb-r-pill);
+    background-color: var(--gb-sand-mittel);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.10);
+    color: var(--gb-schoko);
+    font-size: 13px;
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    white-space: nowrap;
+}

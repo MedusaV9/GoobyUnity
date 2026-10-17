@@ -1,0 +1,73 @@
+{
+	"rewards": {
+		"kuehlschrank": {
+			"titel": "Was soll Gooby essen?",
+			"leer": "Der Kühlschrank ist leer…",
+			"tipp": "Frische Sachen wachsen im Garten oder warten im REHWEI in der Stadt.",
+			"eintrag": "{essen} ×{anzahl} (+{hunger} Hunger)",
+			"schliessen": "Zumachen"
+		},
+		"fuettern": {
+			"satt": "Puh… ich bin PAPPSATT. Später gern wieder!",
+			"mjam1": "Mjam! {essen}!",
+			"mjam2": "Nom nom nom… {essen} ist super!",
+			"mjam3": "Danke! {essen} mag ich sehr!",
+			"favorit": "{essen}!! Mein Lieblingssnack! Du kennst mich SO gut!"
+		},
+		"fund": {
+			"a": "Oh! Da lag ja eine Münze!",
+			"b": "Hihi — Fundstück! Die heb ich auf.",
+			"c": "Glückstag! Eine Münze für uns."
+		},
+		"levelup": {
+			"titel": "Level {level}!",
+			"untertitel": "+{coins} Münzen Bonus",
+			"weiter": "Weiter so!"
+		},
+		"food": {
+			"carrot": "Möhre",
+			"apple": "Apfel",
+			"cupcake": "Törtchen",
+			"banana": "Banane",
+			"tomato": "Tomate",
+			"strawberry": "Erdbeere",
+			"cookie": "Keks",
+			"grapes": "Trauben",
+			"chocolate": "Schokolade",
+			"bread": "Brot",
+			"corn": "Mais",
+			"radish": "Radieschen",
+			"eggplant": "Aubergine",
+			"cheese": "Käse",
+			"watermelon": "Wassermelone",
+			"croissant": "Croissant",
+			"muffin": "Muffin",
+			"salad": "Salat",
+			"fries": "Pommes",
+			"sandwich": "Sandwich",
+			"burger": "Burger",
+			"pizza": "Pizza",
+			"tomate": "Tomate",
+			"melone": "Melone",
+			"salat": "Salat",
+			"pilz": "Pilz",
+			"ananas": "Ananas",
+			"chili": "Chili",
+			"donut-sprinkles": "Streusel-Donut",
+			"hot-dog": "Hotdog",
+			"pancakes": "Pfannkuchen",
+			"cottonCandy": "Zuckerwatte",
+			"softServe": "Softeis",
+			"waffle": "Waffel",
+			"ice-cream": "Eistüte",
+			"cake": "Torte",
+			"pumpkin": "Kürbis",
+			"sundae": "Eisbecher",
+			"cinnamonRoll": "Zimtschnecke",
+			"cupcakePink": "Rosa Törtchen",
+			"nutella": "Nutella-Glas",
+			"candy-bar": "Schokoriegel",
+			"lollypop": "Lutscher"
+		}
+	}
+}

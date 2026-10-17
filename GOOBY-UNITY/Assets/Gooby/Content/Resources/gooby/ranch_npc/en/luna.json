@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_luna",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "luna",
+			"text": "... good morning ... the dew told stories last night ... I listened in for you ...",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "luna",
+			"text": "... I am Luna ... speak softly ... the wild horses up there are counting our words ...",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "luna",
+			"text": "... lovely that you come when the light turns soft ... at this hour all hearts are tamer ...",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "luna",
+			"text": "... do you hear the rain? ... it is applause for everyone who goes outside anyway ... it means you ...",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "luna",
+			"text": "... you ... the wild horses have given you a name ... The-one-with-the-good-step ... they almost never do that ...",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "luna",
+			"text": "... ask the wind ... or me ...",
+			"optionen": [
+				{"text": "Can I help?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "It is done...", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "What do the hills whisper?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "What do the hills whisper?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "What do the hills whisper?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Why do you whisper?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Who is Cling-Clang?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Quiet farewells!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "luna",
+			"text": [
+				"... the lead mare snorted three times today ... that means: a good hay year ...",
+				"... or hay fever ... my Wild Horsish still has gaps ..."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "luna",
+			"text": [
+				"... the herd talks about you ... only good things ... and once, something about your hair ...",
+				"... horses do not understand hairstyles ... they have manes ... opinions grow right in ..."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "luna",
+			"text": [
+				"... I told the wild horses about you ... they listened without running away ...",
+				"... do you know what that means? ... for wild horses, standing still is a declaration of love ..."
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "luna",
+			"text": "... yes ... there is something ... the hills have asked for it ... they rarely ask ...",
+			"optionen": [
+				{"text": "For the hills: always.", "next": "quest_annahme"},
+				{"text": "The wind says: later...", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "luna",
+			"text": "... good ... walk with a soft step ... and if something large snorts at you ... simply breathe back ...",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "luna",
+			"text": "... the wind understands ... he postpones everything constantly too ... mostly leaves ...",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "luna",
+			"text": "... I know ... the hills already told me ... they are terribly fast with news ... here, your thanks ...",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "luna",
+			"text": "... a flower ... you picked it without startling the meadow ... I can feel that ... thank you ...",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "luna",
+			"text": "... how kind ... I will share it with the wind ... the wind only takes the scent though ...",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "luna",
+			"text": "... oh ... it is very ... loud, this gift ... but it means well ... like you ...",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "luna",
+			"text": [
+				"... why I whisper? ... as a child, I shouted once ... once ...",
+				"... a whole herd of wild horses ran for three days ... they still send me the bill ...",
+				"... I have whispered ever since ... the world listens better when you do not yell at it ..."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "luna",
+			"text": [
+				"... Cling-Clang ... the old wild horse with the forged hoof ... Ironhoof's masterpiece ...",
+				"... it leads the herd across the hills ... you hear it before you see it ... cling, clang ...",
+				"... one day I will introduce you ... once your step gets a little softer ... we will practice ..."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "luna",
+			"text": "... go gently ... and leave the door open in the wind ... he likes to come in with you ...",
+			"ende": true
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"umzug": {
+		"settings_eintrag": "Move account",
+		"titel": "Move account",
+		"intro": "Your save game stays on this device — this only relinks your online account (friends & co.).",
+		"erklaerung": "On the OLD device (or in the server panel) a move code is created. Enter it here: friend code, friends list and GoobyPal history will then belong to this device.",
+		"warnung_alt": "The old device will be signed out online.",
+		"code_label": "Move code",
+		"code_hint": "8 characters, e.g. K7QWX2MP",
+		"einloesen": "Redeem code",
+		"laeuft": "Moving…",
+		"erfolg": "Done! Your online account now lives here — friend code: {code}",
+		"fehler_kurz": "The code has 8 characters — please double-check.",
+		"fehler_code": "The server does not know this code (already used or a typo?).",
+		"fehler_abgelaufen": "The code has expired — move codes are valid for 24 hours. Please create a new one.",
+		"fehler_offline": "Offline right now — moving needs a connection to the server.",
+		"fehler_generisch": "That did not work: {code}",
+		"schliessen": "Close"
+	}
+}

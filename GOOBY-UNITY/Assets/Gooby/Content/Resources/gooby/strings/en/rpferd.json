@@ -1,0 +1,126 @@
+{
+	"rpferd": {
+		"gang": {
+			"stand": "Stand",
+			"schritt": "Walk",
+			"trab": "Trot",
+			"toelt": "Tölt",
+			"galopp": "Gallop"
+		},
+		"reiten": {
+			"perfekt": "Perfect!",
+			"gut": "Good!",
+			"springen": "Jump",
+			"ausdauer": "Stamina",
+			"puste_leer": "Out of breath — take a breather",
+			"streicheln": "Pet",
+			"zweiter_wind": "Second wind!"
+		},
+		"levelup": {
+			"titel": "Level {level}!",
+			"untertitel": "{name} has grown stronger",
+			"punkt": "+1 training point: {stat}"
+		},
+		"training": {
+			"titel": "Training",
+			"xp": "{name}: +{n} XP from the ride",
+			"regen": "In the rain {name} learns only half as much – a riding hall keeps you dry.",
+			"halle": "Rain? In the riding hall {name} trains on, dry.",
+			"wert": "{stat} {wert}/20"
+		},
+		"meilenstein": {
+			"titel": "Milestone gift!",
+			"schleife_jungstar": "\"Rising Star\" ribbon",
+			"maehnenfrisur": "New mane style",
+			"sattel_gold": "Saddle with golden stitching",
+			"fanpost_besuch": "Fan mail: a visit at the fence",
+			"namensschild_gold": "Golden name plate",
+			"statue_legende": "Statue on the yard"
+		},
+		"stat": {
+			"tempo": "Speed",
+			"ausdauer": "Stamina",
+			"sprungkraft": "Jumping",
+			"wendigkeit": "Agility",
+			"gelassenheit": "Calmness"
+		},
+		"rasse": {
+			"puschelhufer": "Fluffhoof",
+			"knuffpony": "Snugglepony",
+			"zottelgnuff": "Shagglemuff",
+			"wolkentraber": "Cloudtrotter",
+			"flitzewind": "Dashwind",
+			"moosmaehne": "Mossmane",
+			"donnerbommel": "Thunderbobble",
+			"federsprung": "Featherleap",
+			"westernwuschel": "Western Woolly",
+			"toelterle": "Töltling",
+			"miniknopf": "Minibutton",
+			"sternschnuppler": "Starsnuffler",
+			"puschelmix": "Fluffmix"
+		},
+		"zug": {
+			"mutig": "brave",
+			"scheu": "shy",
+			"verfressen": "greedy",
+			"verspielt": "playful",
+			"gelassen": "laid-back",
+			"fleissig": "hard-working",
+			"eitel": "vain",
+			"anhaenglich": "affectionate",
+			"stur": "stubborn",
+			"neugierig": "curious"
+		},
+		"eigenheit": {
+			"allrounder": "All-rounder",
+			"slalom_ass": "Slalom ace",
+			"kuschelherz": "Cuddle heart",
+			"taktgefuehl": "Sense of rhythm",
+			"langer_antritt": "Long sprint",
+			"gelaende_profi": "Terrain pro",
+			"unerschrocken": "Fearless",
+			"sprunggefuehl": "Jump instinct",
+			"trail_praezision": "Trail precision",
+			"toelt": "Tölt",
+			"schauliebling": "Show darling",
+			"glitzerfell": "Glitter coat"
+		},
+		"zaehmen": {
+			"titel": "Wild horse",
+			"anschleichen_hint": "Sneak up crouched and slowly",
+			"beruhigen_hint": "Tap gently to the rhythm of its snorting",
+			"aufmerksamkeit": "Attention",
+			"ruhe": "Calm",
+			"treffer": "Gentle!",
+			"daneben": "Too hasty …",
+			"gezaehmt": "It trusts you!",
+			"davongetrabt": "It trots away … it will come back.",
+			"wieder_da": "There it is again!",
+			"ducken": "Crouch",
+			"beruhigen": "Soothe"
+		},
+		"stammbaum": {
+			"titel": "Family tree",
+			"fohlen": "Foal",
+			"mutter": "Dam",
+			"vater": "Sire",
+			"unbekannt": "Unknown",
+			"erbe_titel": "Inherited",
+			"erbe_stat": "Lucky roll: {stat}",
+			"erbe_glitzer": "Glitter secret"
+		},
+		"bindung": {
+			"titel": "Bond",
+			"level": "Bond level {level}",
+			"maennchen": "Greeting trick",
+			"rutsch_stopp": "Sliding stop",
+			"pfiff": "Recall whistle",
+			"konfetti_drift": "Confetti drift",
+			"zweiter_wind_plus": "Second wind+",
+			"autopilot": "Trail autopilot",
+			"kopf_dreht": "It watches you",
+			"emotes": "Special emotes",
+			"seelenpferd_aura": "Soul-horse aura"
+		}
+	}
+}

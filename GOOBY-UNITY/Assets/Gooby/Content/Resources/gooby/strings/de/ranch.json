@@ -1,0 +1,66 @@
+{
+	"ranch": {
+		"name": "Die Gooby-Ranch",
+		"angebot": {
+			"titel": "Die Gooby-Ranch",
+			"text": "Du kannst jetzt zur Ranch fahren und sie kaufen.",
+			"preis": "{preis} ᴳ",
+			"frage": "Willst du jetzt los oder erst später kaufen?",
+			"jetzt": "Jetzt losfahren",
+			"spaeter": "Später kaufen",
+			"gemerkt": "Alles klar! Die Ausfahrt zur Ranch bleibt für dich offen.",
+			"zu_wenig": "Dir fehlen noch {fehlt} ᴳ für die Ranch."
+		},
+		"exit": {
+			"schild_zeile1": "Zur Gooby-Ranch",
+			"schild_zeile2": "{km} km",
+			"prompt": "Zur Gooby-Ranch rausfahren?",
+			"losfahren": "Losfahren",
+			"gesperrt": "Ab Level {level} kannst du zur Gooby-Ranch rausfahren."
+		},
+		"fahrt": {
+			"zur_stadt": "Zur Stadt",
+			"schild_ranch": "GOOBY RANCH",
+			"schild_bach": "Blubberbach",
+			"angekommen": "Da vorne ist das Ranch-Tor!"
+		},
+		"tor": {
+			"titel": "Das Ranch-Tor",
+			"text": "Die Gooby-Ranch wartet auf dich. Riesenfeld, Koppeln und drei Pferde inklusive.",
+			"kaufen": "Kaufen ({preis} ᴳ)",
+			"spaeter": "Später kaufen",
+			"gekauft": "Die Ranch gehört jetzt dir! Willkommen daheim, Cowgooby.",
+			"zu_teuer": "Dir fehlen noch {fehlt} ᴳ. Komm später wieder!",
+			"offen": "Rein mit dir!"
+		},
+		"hof": {
+			"titel": "Die Gooby-Ranch",
+			"scheune": "Scheune",
+			"stall": "Stall",
+			"haus": "Ranch-Haus",
+			"reitplatz": "Reitplatz",
+			"heulager": "Heulager",
+			"pferde_rufen": "Pferde rufen",
+			"pferde_galopp": "Galopp!",
+			"pferde_ruhe": "Ausruhen lassen",
+			"willkommen": "Willkommen auf deiner Ranch!"
+		},
+		"tiere": {
+			"karamell": "Karamell",
+			"wolke": "Wolke",
+			"beere": "Beere",
+			"frieda": "Frieda",
+			"paula": "Paula",
+			"wolli": "Wolli",
+			"lotte": "Lotte",
+			"milo": "Milo",
+			"kiki": "Kiki",
+			"nugget": "Nugget"
+		},
+		"ausbau": {
+			"stall_2": "Stall-Ausbau: Platz für mehr Pferde",
+			"koppel_2": "Koppel-Ausbau: mehr Weide für alle",
+			"reitplatz_2": "Reitplatz-Ausbau: Hindernis-Parcours"
+		}
+	}
+}

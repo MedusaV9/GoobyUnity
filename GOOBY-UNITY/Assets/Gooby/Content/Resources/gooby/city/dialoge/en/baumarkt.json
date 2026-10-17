@@ -1,0 +1,53 @@
+{
+  "id": "baumarkt_besuch",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "bodo",
+      "text": [
+        "Morning! Bodo Beam. If you can build it, I’ve got it. If you can’t, I’ve got it too.",
+        "Aisle seven has gone missing, by the way. I’ve been looking since Tuesday."
+      ],
+      "optionen": [
+        {"text": "I need materials.", "next": "material"},
+        {"text": "Do you have blueprints?", "next": "bauplaene"},
+        {"text": "I need some advice.", "next": "beratung"},
+        {"text": "Just browsing.", "next": "gucken"}
+      ]
+    },
+    "material": {
+      "sprecher": "bodo",
+      "text": [
+        "Planks, nails, iron, sticks. Honest goods. None of it flashes.",
+        "Take two more nails than you calculated. Always. That’s not a sales pitch, that’s physics."
+      ],
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "bauplaene": {
+      "sprecher": "bodo",
+      "text": [
+        "Blueprints I have. The building happens at YOUR place — at the workbench, with your own thumbs.",
+        "It’s all on there: materials, order of work, and at the bottom „stay calm“."
+      ],
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "beratung": {
+      "sprecher": "bodo",
+      "text": [
+        "Advice! Gladly. So: you need more planks than you think and less tooling than you want.",
+        "And if it wobbles, give it one whack. If it still wobbles, it was intentional."
+      ],
+      "next": "hallo"
+    },
+    "gucken": {
+      "sprecher": "bodo",
+      "text": [
+        "Looking is building too. Just slower.",
+        "I’ll be back with the screws if you find aisle seven."
+      ],
+      "ende": true
+    }
+  }
+}

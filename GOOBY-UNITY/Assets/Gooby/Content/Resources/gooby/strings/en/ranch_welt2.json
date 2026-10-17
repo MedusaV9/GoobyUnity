@@ -1,0 +1,26 @@
+{
+ "rwelt": {
+  "zone": {
+   "bergmassiv": "Cloudhorn Massif",
+   "blumenwiese": "Lavender Meadow",
+   "moor": "Misty Moor",
+   "ruine": "Oldrock Tower Ruin",
+   "strand": "Shell Bay",
+   "obstgarten": "Apple Orchard",
+   "kornfeld": "Golden Cornfield"
+  },
+  "fund": {
+   "gipfelkreuz": "The Summit Cross on Cloudhorn",
+   "bergsee_perle": "The Mountain Lake Pearl",
+   "ruine_schatz": "The Tower Ruin Treasure",
+   "moor_irrlicht": "The Will-o'-Wisp in the Moor",
+   "strand_muschel": "The Giant Shell",
+   "lavendel_bienen": "The Beehives in the Lavender",
+   "kornkreis": "The Mysterious Crop Circle"
+  },
+  "hud": {
+   "plateau": "Plateau Lookout",
+   "rastplatz": "Rest Stop"
+  }
+ }
+}

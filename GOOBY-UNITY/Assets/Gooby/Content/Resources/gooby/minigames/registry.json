@@ -1,0 +1,500 @@
+{
+ "schema": "gooby.minigames/1",
+ "items": [
+  {
+   "id": "teaParty",
+   "title_key": "mg.teaParty.title",
+   "coin_table": {
+    "divisor": 4,
+    "min": 4,
+    "max": 26
+   },
+   "target": 85,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "carrotCatch",
+   "title_key": "mg.carrotCatch.title",
+   "coin_table": {
+    "divisor": 3,
+    "min": 4,
+    "max": 25
+   },
+   "target": 70,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "gvz",
+   "title_key": "mg.gvz.title",
+   "coin_table": {
+    "divisor": 3,
+    "min": 4,
+    "max": 40
+   },
+   "target": 300,
+   "orientation": "landscape",
+   "supports_endless": false,
+   "energy_cost": 8
+  },
+  {
+   "id": "gobnom",
+   "title_key": "mg.gobnom.title",
+   "coin_table": {
+    "divisor": 3,
+    "min": 4,
+    "max": 40
+   },
+   "target": 300,
+   "orientation": "landscape",
+   "supports_endless": false,
+   "energy_cost": 8
+  },
+  {
+   "id": "basketBounce",
+   "title_key": "mg.basketBounce.title",
+   "coin_table": {
+    "divisor": 3,
+    "min": 4,
+    "max": 26
+   },
+   "target": 65,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "bubblePop",
+   "title_key": "mg.bubblePop.title",
+   "coin_table": {
+    "divisor": 4,
+    "min": 4,
+    "max": 24
+   },
+   "target": 80,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "bunnyHop",
+   "title_key": "mg.bunnyHop.title",
+   "coin_table": {
+    "divisor": 2,
+    "min": 3,
+    "max": 25
+   },
+   "target": 45,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "burgerBuild",
+   "title_key": "mg.burgerBuild.title",
+   "coin_table": {
+    "divisor": 4,
+    "min": 4,
+    "max": 26
+   },
+   "target": 85,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "carrotGuard",
+   "title_key": "mg.carrotGuard.title",
+   "coin_table": {
+    "divisor": 3,
+    "min": 4,
+    "max": 25
+   },
+   "target": 70,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "cityDrive",
+   "title_key": "mg.cityDrive.title",
+   "coin_table": {
+    "divisor": 10,
+    "min": 5,
+    "max": 35
+   },
+   "target": 280,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 6,
+   "difficulty_opt_in": true
+  },
+  {
+   "id": "danceParty",
+   "title_key": "mg.danceParty.title",
+   "coin_table": {
+    "divisor": 6,
+    "min": 4,
+    "max": 28
+   },
+   "target": 140,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "deliveryRush",
+   "title_key": "mg.deliveryRush.title",
+   "coin_table": {
+    "divisor": 8,
+    "min": 5,
+    "max": 32
+   },
+   "target": 200,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 6
+  },
+  {
+   "id": "fishingPond",
+   "title_key": "mg.fishingPond.title",
+   "coin_table": {
+    "divisor": 3,
+    "min": 4,
+    "max": 26
+   },
+   "target": 65,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "gardenRush",
+   "title_key": "mg.gardenRush.title",
+   "coin_table": {
+    "divisor": 3,
+    "min": 4,
+    "max": 25
+   },
+   "target": 65,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "ghostHunt",
+   "title_key": "mg.ghostHunt.title",
+   "coin_table": {
+    "divisor": 4,
+    "min": 4,
+    "max": 28
+   },
+   "target": 90,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "goalieGooby",
+   "title_key": "mg.goalieGooby.title",
+   "coin_table": {
+    "divisor": 3,
+    "min": 4,
+    "max": 26
+   },
+   "target": 65,
+   "orientation": "landscape",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "goobySays",
+   "title_key": "mg.goobySays.title",
+   "coin_table": {
+    "divisor": 5,
+    "min": 4,
+    "max": 24
+   },
+   "target": 70,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "harborHopper",
+   "title_key": "mg.harborHopper.title",
+   "coin_table": {
+    "divisor": 5,
+    "min": 4,
+    "max": 30
+   },
+   "target": 110,
+   "orientation": "landscape",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "hideSeek",
+   "title_key": "mg.hideSeek.title",
+   "coin_table": {
+    "divisor": 5,
+    "min": 4,
+    "max": 20
+   },
+   "target": 80,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "lanternFloat",
+   "title_key": "mg.lanternFloat.title",
+   "coin_table": {
+    "divisor": 4,
+    "min": 4,
+    "max": 24
+   },
+   "target": 75,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "memoryMatch",
+   "title_key": "mg.memoryMatch.title",
+   "coin_table": {
+    "divisor": 2,
+    "min": 5,
+    "max": 24
+   },
+   "target": 40,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "miniGolf",
+   "title_key": "mg.miniGolf.title",
+   "coin_table": {
+    "divisor": 5,
+    "min": 4,
+    "max": 28
+   },
+   "target": 110,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "pancakeTower",
+   "title_key": "mg.pancakeTower.title",
+   "coin_table": {
+    "divisor": 2,
+    "min": 4,
+    "max": 26
+   },
+   "target": 45,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "pipeFlow",
+   "title_key": "mg.pipeFlow.title",
+   "coin_table": {
+    "divisor": 5,
+    "min": 4,
+    "max": 25
+   },
+   "target": 100,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "purblePlace",
+   "title_key": "mg.purblePlace.title",
+   "coin_table": {
+    "divisor": 5,
+    "min": 5,
+    "max": 30
+   },
+   "target": 120,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "ranchHerde",
+   "title_key": "mg.ranchHerde.title",
+   "coin_table": {
+    "divisor": 3,
+    "min": 4,
+    "max": 40
+   },
+   "target": 300,
+   "orientation": "landscape",
+   "supports_endless": false,
+   "energy_cost": 8
+  },
+  {
+   "id": "ranchParcours",
+   "title_key": "mg.ranchParcours.title",
+   "coin_table": {
+    "divisor": 3,
+    "min": 4,
+    "max": 40
+   },
+   "target": 300,
+   "orientation": "landscape",
+   "supports_endless": false,
+   "energy_cost": 8
+  },
+  {
+   "id": "ranchTonnen",
+   "title_key": "mg.ranchTonnen.title",
+   "coin_table": {
+    "divisor": 3,
+    "min": 4,
+    "max": 40
+   },
+   "target": 300,
+   "orientation": "landscape",
+   "supports_endless": false,
+   "energy_cost": 8
+  },
+  {
+   "id": "ranchTurnier",
+   "title_key": "mg.ranchTurnier.title",
+   "coin_table": {
+    "divisor": 4,
+    "min": 4,
+    "max": 30
+   },
+   "target": 300,
+   "orientation": "landscape",
+   "supports_endless": false,
+   "energy_cost": 8
+  },
+  {
+   "id": "ranchZeit",
+   "title_key": "mg.ranchZeit.title",
+   "coin_table": {
+    "divisor": 3,
+    "min": 4,
+    "max": 40
+   },
+   "target": 300,
+   "orientation": "landscape",
+   "supports_endless": false,
+   "energy_cost": 8
+  },
+  {
+   "id": "rocketRescue",
+   "title_key": "mg.rocketRescue.title",
+   "coin_table": {
+    "divisor": 5,
+    "min": 4,
+    "max": 28
+   },
+   "target": 115,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "runner",
+   "title_key": "mg.runner.title",
+   "coin_table": {
+    "divisor": 15,
+    "min": 4,
+    "max": 30
+   },
+   "target": 380,
+   "orientation": "landscape",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "shoppingSurf",
+   "title_key": "mg.shoppingSurf.title",
+   "coin_table": {
+    "divisor": 40,
+    "min": 5,
+    "max": 34
+   },
+   "target": 900,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "snailMail",
+   "title_key": "mg.snailMail.title",
+   "coin_table": {
+    "divisor": 4,
+    "min": 4,
+    "max": 25
+   },
+   "target": 80,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "starHopper",
+   "title_key": "mg.starHopper.title",
+   "coin_table": {
+    "divisor": 9,
+    "min": 4,
+    "max": 26
+   },
+   "target": 190,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "toyRacer",
+   "title_key": "mg.toyRacer.title",
+   "coin_table": {
+    "divisor": 6,
+    "min": 5,
+    "max": 30
+   },
+   "target": 150,
+   "orientation": "landscape",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "trampoline",
+   "title_key": "mg.trampoline.title",
+   "coin_table": {
+    "divisor": 5,
+    "min": 4,
+    "max": 26
+   },
+   "target": 105,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  },
+  {
+   "id": "veggieChop",
+   "title_key": "mg.veggieChop.title",
+   "coin_table": {
+    "divisor": 5,
+    "min": 4,
+    "max": 26
+   },
+   "target": 105,
+   "orientation": "portrait",
+   "supports_endless": true,
+   "energy_cost": 8
+  }
+ ]
+}

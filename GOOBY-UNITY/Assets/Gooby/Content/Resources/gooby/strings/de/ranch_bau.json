@@ -1,0 +1,313 @@
+{
+	"rbau": {
+		"titel": "Ranch-Bau",
+		"betreten": "Bauen",
+		"verlassen": "Fertig",
+		"kategorie": {
+			"anlage": "Anlagen",
+			"deko": "Deko",
+			"boden": "Wege und Böden",
+			"zaun": "Zäune"
+		},
+		"item": {
+			"stallboxen": "Stallboxen",
+			"weide": "Weide",
+			"wasserstelle": "Wasserstelle",
+			"heulager": "Heulager",
+			"waschplatz": "Waschplatz",
+			"fuehranlage": "Führanlage",
+			"reithalle": "Reithalle",
+			"parcours": "Parcours",
+			"sattelkammer": "Sattelkammer",
+			"zuchtstall": "Zuchtstall",
+			"fohlenweide": "Fohlenweide",
+			"tribuene": "Tribüne",
+			"weidezaun": "Weidezaun-Ausbau",
+			"beet_blumen": "Blumenbeet",
+			"beet_kraeuter": "Kräuterbeet",
+			"bank_holz": "Holzbank",
+			"laterne": "Hoflaterne",
+			"fahne": "Ranch-Fahne",
+			"blumenkuebel": "Blumenkübel",
+			"vogelhaus": "Vogelhaus",
+			"heuballen_deko": "Deko-Heuballen",
+			"wegweiser": "Wegweiser",
+			"strohpuppe": "Strohpuppe",
+			"weg_schotter": "Schotterweg",
+			"weg_pflaster": "Pflasterweg",
+			"sand": "Sandboden",
+			"blumenwiese": "Blumenwiese",
+			"zaun_holz": "Holzzaun",
+			"windspiel": "Windspiel",
+			"deko_mistgabel_gold": "Goldene Mistgabel",
+			"deko_schleifenwand": "Schleifenwand",
+			"girlande_ranchfest": "Ranchfest-Girlande"
+		},
+		"nutzen": {
+			"stallboxen": "Mehr Boxen, mehr Pferde: {n} Plätze.",
+			"weide": "Saftiges Gras: Pferde werden langsamer hungrig.",
+			"wasserstelle": "Frisches Wasser: Durst sinkt langsamer.",
+			"heulager": "Vorratshaltung: Platz für {n} Heuballen.",
+			"waschplatz": "Schnellere Pflege: Striegeln bringt mehr.",
+			"fuehranlage": "Passives Training: XP auch ohne Reiten.",
+			"reithalle": "Halle für jedes Wetter: mehr Dressur-XP im Turnier.",
+			"parcours": "Springtraining: Bonus-Münzen im Parcours, mehr Spring-XP.",
+			"sattelkammer": "Ordnung für Sattel und Zaumzeug: Ausrüstung wird günstiger.",
+			"zuchtstall": "Zucht: Platz für mehr trächtige Stuten.",
+			"fohlenweide": "Fohlen wachsen hier schneller auf.",
+			"tribuene": "Publikum bei Turnieren: {n} Plätze.",
+			"weidezaun": "Hübsche Zäune halten die Koppel sauberer."
+		},
+		"stufe": "Stufe {n}",
+		"stufe_max": "Voll ausgebaut",
+		"ausbauen": "Ausbauen ({preis} G)",
+		"platzieren": "Bauen ({preis} G)",
+		"platzieren_gratis": "Aufstellen (im Lager: {n})",
+		"drehen": "Drehen",
+		"abriss": "Abreißen",
+		"abriss_erstattung": "Abgerissen: {n} G zurück.",
+		"gebaut": "Gebaut!",
+		"ausgebaut": "Ausgebaut: {name} Stufe {n}!",
+		"zone": {
+			"start": "Hofkern",
+			"nord": "Nordwiese",
+			"ost": "Ostfeld"
+		},
+		"zone_freischalten": "Fläche freischalten ({preis} G)",
+		"zone_frei": "Neue Baufläche: {name}!",
+		"fehler": {
+			"zuTeuer": "Nicht genug Gold.",
+			"keinPlatz": "Hier ist kein Platz.",
+			"out_of_bounds": "Außerhalb der Baufläche.",
+			"locked_zone": "Diese Fläche ist noch gesperrt.",
+			"occupied": "Hier steht schon etwas.",
+			"schonGebaut": "Gibt es schon auf dem Hof.",
+			"nichtGebaut": "Erst bauen, dann ausbauen.",
+			"vollAusgebaut": "Schon voll ausgebaut.",
+			"unbekannt": "Das kennt der Bauplan nicht.",
+			"schonFrei": "Diese Fläche gehört dir schon.",
+			"nurBelohnung": "Das gibt es nur als Quest-Belohnung."
+		},
+		"stufen": {
+			"stallboxen": {
+				"1": "2 Boxen für deine Pferde.",
+				"2": "4 Boxen.",
+				"3": "6 Boxen.",
+				"4": "8 Boxen – Platz für eine ganze Herde."
+			},
+			"weide": {
+				"1": "Eine grüne Koppel zum Grasen.",
+				"2": "Saftiges Gras: 15 % weniger Hunger auf der Weide.",
+				"3": "Kräuterweide: Grasen hebt jeden Wert bis 70."
+			},
+			"wasserstelle": {
+				"1": "Frisches Wasser: 30 % weniger Durst auf der Weide.",
+				"2": "Selbsttränke: Weidepferde trinken selbst (Durst bleibt über 50).",
+				"3": "Ein kleiner Teich zum Plantschen."
+			},
+			"heulager": {
+				"1": "Lager für 12 Heuballen.",
+				"2": "Lager für 24 Heuballen.",
+				"3": "Lager für 48 Heuballen."
+			},
+			"waschplatz": {
+				"1": "Striegeln macht 50 statt 35 sauber.",
+				"2": "Warmes Wasser: einmal am Tag +2 Bindung beim Striegeln.",
+				"3": "Pflegeschrank und Föhn für den großen Auftritt."
+			},
+			"fuehranlage": {
+				"1": "Trainiert jeden Tag 1 Pferd: +40 XP.",
+				"2": "Trainiert jeden Tag 2 Pferde: +60 XP.",
+				"3": "Trainiert jeden Tag 3 Pferde: +80 XP."
+			},
+			"reithalle": {
+				"1": "Halle für jedes Wetter: +20 % Dressur-XP im Turnier.",
+				"2": "Spiegelwand und Fensterband.",
+				"3": "Fahne auf dem Dach – die Halle der Champions."
+			},
+			"parcours": {
+				"1": "Hindernisse zum Üben: +10 % Münzen im Parcours.",
+				"2": "Mehr Sprünge: +20 % Spring-XP im Turnier.",
+				"3": "Zeitmessturm wie bei den Profis."
+			},
+			"sattelkammer": {
+				"1": "Ausrüstung 10 % günstiger.",
+				"2": "Mit Fenster: Ausrüstung 15 % günstiger.",
+				"3": "Mit Strohpuppe: Ausrüstung 20 % günstiger."
+			},
+			"zuchtstall": {
+				"1": "Platz für 1 weitere trächtige Stute.",
+				"2": "Platz für 2 weitere trächtige Stuten."
+			},
+			"fohlenweide": {
+				"1": "Fohlen wachsen 15 % schneller auf."
+			},
+			"tribuene": {
+				"1": "6 Plätze für Publikum.",
+				"2": "12 Plätze und ein Dach: +15 % Turniergold."
+			},
+			"weidezaun": {
+				"1": "Weiße Zäune: Pferde bleiben 20 % länger sauber.",
+				"2": "Doppellatte: 30 % länger sauber.",
+				"3": "Blumen auf den Pfosten: 40 % länger sauber."
+			}
+		},
+		"ui": {
+			"untertitel": "Stil {stil}/{max} · {boxen} Boxen · {heu} Heu",
+			"tipp": "Such dir unten etwas aus und setz es auf die Wiese.",
+			"tipp_platz": "Tippe auf die Wiese oder zieh das Teil an seinen Platz.",
+			"tipp_linie": "Zieh mit dem Finger über die Wiese, um mehrere auf einmal zu setzen.",
+			"tipp_verschieben": "Tippe auf den neuen Platz.",
+			"bauen": "Bauen · {preis} G",
+			"aufstellen": "Aufstellen",
+			"bauen_n": "{n} bauen · {preis} G",
+			"drehen": "Drehen",
+			"abbrechen": "Abbrechen",
+			"verschieben": "Verschieben",
+			"hierhin": "Hierhin",
+			"abriss_frage": "{name} abreißen? Du bekommst {n} G zurück.",
+			"abriss_ja": "Abreißen",
+			"behalten": "Behalten",
+			"zone_frage": "{name} für {preis} G freischalten?",
+			"zone_ja": "Freischalten",
+			"zone_chip": "{name} · {preis} G",
+			"lager": "Im Lager: {n}",
+			"steht": "Steht schon",
+			"stufe_kurz": "St. {n}",
+			"naechste": "Nächste Stufe",
+			"jetzt": "Jetzt",
+			"effekte": "Was dein Hof kann",
+			"effekt_boxen": "{n} Boxen",
+			"effekt_heu": "{n} Heuballen",
+			"effekt_stil": "Stil {n}/{max}",
+			"effekt_putzen": "Striegeln +{n}",
+			"effekt_selbsttraenke": "Selbsttränke",
+			"effekt_fuehranlage": "+{n} XP am Tag",
+			"effekt_tribuene": "{n} Zuschauer",
+			"gebaut_n": "{n} gebaut!",
+			"teils": "{n} gebaut – für den Rest fehlt Gold.",
+			"verschoben": "Verschoben!",
+			"gedreht": "Gedreht!",
+			"migriert": "Deine Stallboxen und die Weide stehen jetzt auf dem Bauplan.",
+			"hof_karte": "Hof bauen",
+			"hof_karte_text": "Ställe, Weiden, Reithalle, Deko und Wege – bau deine Ranch, wie sie dir gefällt.",
+			"belohnung": "Belohnung",
+			"belohnung_quest": "Quest",
+			"belohnung_info": "Quest-Belohnung: zählt wie fünf Deko-Teile. Abgebaut wandert sie zurück ins Lager.",
+			"ins_lager": "{name} liegt wieder im Lager.",
+			"abbau_ja": "Abbauen",
+			"schleifen": "{n} Schleifen hängen an der Wand.",
+			"heu_voll": "Das Heulager ist voll ({n} Ballen) – bau es aus!",
+			"warmwasser": "Warmes Wasser! +{n} Bindung",
+			"fuehranlage": "Führanlage: {namen} trainiert (+{xp} XP)",
+			"parcours_bonus": "Hindernisparcours-Bonus: +{n} Münzen",
+			"stil_punkt": "Neuer Stilpunkt! Stil {n}/{max}",
+			"leer": "Hier ist noch nichts gebaut."
+		}
+	},
+	"rdorf": {
+		"ortsname": "Hufingen",
+		"ortsschild": "Reit-Dorf am Hügelkamm",
+		"entdeckt": "Hufingen entdeckt! Schnellreise ist jetzt frei.",
+		"schnellreise": "Nach Hufingen reisen",
+		"schnellreise_gesperrt": "Erst hinreiten und das Dorf entdecken!",
+		"losreiten": "Nach Hufingen reiten",
+		"heimreiten": "Zurück zur Ranch",
+		"anbinden": "Pferd angebunden.",
+		"theke": "Ladentheke",
+		"laden": {
+			"reitladen": "Reitladen",
+			"futterhof": "Futterhof",
+			"moebelscheune": "Möbel-Scheune",
+			"pferdehaendlerin": "Pferdehändlerin",
+			"schmiede": "Schmiede"
+		},
+		"npc": {
+			"reitladen": "Selma",
+			"futterhof": "Marta",
+			"moebelscheune": "Alwin",
+			"pferdehaendlerin": "Wilma",
+			"schmiede": "Eisenhuf"
+		},
+		"npc_rolle": {
+			"reitladen": "Sattlerin",
+			"futterhof": "Futterhändlerin",
+			"moebelscheune": "Schreiner",
+			"pferdehaendlerin": "Pferdehändlerin",
+			"schmiede": "Schmied"
+		},
+		"gruss": {
+			"reitladen": "Schau dich um — alles handgenäht!",
+			"futterhof": "Frisches Heu, knackige Leckerli!",
+			"moebelscheune": "Alles für Hof und Stube.",
+			"pferdehaendlerin": "Heute im Angebot: drei Prachtstücke.",
+			"schmiede": "Neue Eisen gefällig?"
+		},
+		"kaufen": "Kaufen",
+		"verkaufen": "Verkaufen",
+		"gekauft": "Gekauft!",
+		"verkauft": "Verkauft: +{n} G",
+		"besitz": "Gekauft",
+		"angebot_heute": "Heutiges Angebot",
+		"angebot_morgen": "Morgen gibt es neue Pferde.",
+		"ankauf_titel": "Ankauf",
+		"waren": {
+			"heu": "Heuballen",
+			"heu_bund": "Heu-Bund (5 Ballen)",
+			"hafer": "Hafersack",
+			"leckerli": "Leckerli",
+			"apfel": "Apfel",
+			"hufeisen_bronze": "Bronze-Hufeisen",
+			"hufeisen_silber": "Silber-Hufeisen",
+			"hufeisen_gold": "Gold-Hufeisen"
+		},
+		"pferde": {
+			"keks": "Keks",
+			"muschel": "Muschel",
+			"pfeffer": "Pfeffer",
+			"toffee": "Toffee",
+			"flocke": "Flocke",
+			"kastanie": "Kastanie",
+			"lavendel": "Lavendel",
+			"sternchen": "Sternchen"
+		},
+		"fehler": {
+			"zuTeuer": "Nicht genug Gold.",
+			"lagerVoll": "Dein Lager ist voll.",
+			"lagerLeer": "Dafür hast du nicht genug.",
+			"schonGekauft": "Hast du schon.",
+			"keinLager": "Kein Lager gefunden.",
+			"stallVoll": "Dein Stall ist voll — bau mehr Boxen!",
+			"nichtImAngebot": "Steht heute nicht im Angebot.",
+			"letztesPferd": "Dein letztes Pferd bleibt bei dir.",
+			"keinPferd": "Dieses Pferd kenne ich nicht.",
+			"nichtGekauft": "Erst kaufen, dann anlegen.",
+			"unbekannt": "Das führen wir nicht."
+		},
+		"fertig": "Fertig",
+		"moebel_titel": "Möbel fürs Haus",
+		"eigene_pferde": "Eigene Pferde",
+		"hufeisen_anlegen": "Anlegen",
+		"hufeisen_abnehmen": "Hufeisen abnehmen",
+		"prompt": "[E] {laden} betreten",
+		"ranch_deko_titel": "Deko für deine Ranch",
+		"deko_lager": "Liegt im Bau-Lager deiner Ranch – Aufstellen ist gratis."
+	},
+	"rnpc": {
+		"rw4_reitladen": {
+			"name": "Selma"
+		},
+		"rw4_futterhof": {
+			"name": "Marta"
+		},
+		"rw4_moebelscheune": {
+			"name": "Alwin"
+		},
+		"rw4_pferdehaendlerin": {
+			"name": "Wilma"
+		},
+		"rw4_schmiede": {
+			"name": "Eisenhuf"
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"cutscene": {
+		"ueberspringen": "Überspringen",
+		"wake": {
+			"titel": "Aufwachen am Morgen",
+			"dawn": "Die Sonne kitzelt schon durchs Fenster…",
+			"yawn": "Gooby gähnt und streckt die Öhrchen.",
+			"ready": "Ein neuer Tag — los geht’s!"
+		},
+		"sleep": {
+			"titel": "Schlafengehen",
+			"tired": "Gooby reibt sich die Augen. So ein langer Tag!",
+			"tucked": "Kuscheldecke bis zur Nase hochgezogen…",
+			"good_night": "Gute Nacht, Gooby. Träum was Schönes!"
+		},
+		"depart": {
+			"titel": "Reise: Abflug",
+			"pack": "Koffer gepackt — Möhren-Snacks nicht vergessen!",
+			"taxi": "Das Taxi hupt schon vor der Tür.",
+			"wave": "Winke winke, kleines Haus!",
+			"sky": "Und ab in die Wolken…"
+		},
+		"arrive": {
+			"titel": "Ankunft im Urlaub",
+			"here": "Da sind wir! Riechst du das Meer?",
+			"bye_taxi": "Danke fürs Mitnehmen!",
+			"happy": "Gooby hoppelt vor Freude im Sand."
+		},
+		"shop": {
+			"titel": "Einkaufsfahrt",
+			"idea": "Der Kühlschrank ist leer — Zeit für eine Einkaufsfahrt!",
+			"drive": "Ab durch die Stadt, das Körbchen klappert.",
+			"arrive": "REHWEI! Heute gibt’s die dicksten Möhren."
+		}
+	}
+}

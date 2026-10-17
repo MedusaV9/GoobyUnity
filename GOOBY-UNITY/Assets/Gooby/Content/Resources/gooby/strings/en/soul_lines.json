@@ -1,0 +1,373 @@
+{
+	"soul": {
+		"linie": {
+			"gruss": {
+				"morgen": {
+					"1": "I was dreaming about breakfast. And then YOU showed up — even better!",
+					"2": "Morning{namek}! My ears aren't awake yet, speak softly… hihi.",
+					"3": "Fresh morning air! I already jogged around the rug twice. Almost."
+				},
+				"mittag": {
+					"1": "Noon! The sun is up high and my tummy says hello.",
+					"2": "Perfect timing — the best snuggle hours of the day start now!"
+				},
+				"nachmittag": {
+					"1": "Cookies taste best in the afternoon. Scientifically proven. By me.",
+					"2": "There you are! I already told the sofa all about you."
+				},
+				"abend": {
+					"1": "Evening{namek}! I pre-warmed the cushions. With my bottom.",
+					"2": "The sky is turning orange! My second favorite color after carrot.",
+					"3": "Tonight's program: you, me, being cozy. I'm a professional."
+				},
+				"nacht": {
+					"1": "Psst… the furniture is already asleep. We have to whisper. Hihi.",
+					"2": "Night shift, the two of us? I'll go get the blanket."
+				}
+			},
+			"wetter": {
+				"sonne": {
+					"1": "SUNSHINE! Let me park myself strategically in that light spot.",
+					"2": "What a sparkly day! Even my fur feels warmer."
+				},
+				"wolken": {
+					"1": "That cloud looks like a cookie. … Now I'm hungry."
+				},
+				"niesel": {
+					"1": "Just drizzle. That's rain that doesn't dare. I know the feeling."
+				},
+				"regen": {
+					"1": "The rain is drumming a song on the window. I'm humming the harmony."
+				},
+				"gewitter": {
+					"1": "I'm counting between lightning and thunder… one… two… TOO CLOSE!"
+				},
+				"nebel": {
+					"1": "Everything outside is fluffy! Maybe the world is made of cotton candy today.",
+					"2": "Fog! Perfect hide-and-seek weather. You can't even see me. … Right?"
+				},
+				"schnee": {
+					"1": "I gave a snowflake a name. Her name is Flaky. She's gone now.",
+					"2": "Snow day rule: double the snuggles, triple the cocoa."
+				}
+			},
+			"w13": {
+				"ball": {
+					"1": "The ball and I are best sports buddies now. After you, of course.",
+					"2": "Throw it again! This time I'll catch it WITH STYLE.",
+					"3": "I taught the ball a trick: rolling away. It's really good at it.",
+					"4": "Pro knowledge: the ball is round so the game keeps rolling. Hihi.",
+					"5": "Here comes my super jump-catch. Please don't blink.",
+					"6": "The ball was under the sofa. We had a serious talk."
+				},
+				"nougat": {
+					"1": "The nougat sluice is the best invention since… since NOUGAT!",
+					"2": "One blob for me, one blob for… also for me.",
+					"3": "Nougat on my nose? On purpose. That's my emergency stash.",
+					"4": "Sluice alert! Sweet emergency! All paws on deck!",
+					"5": "When I grow up, I'll become a nougat sluice keeper.",
+					"6": "Nougat makes you happy. I'm living proof. Look how round."
+				},
+				"gobty": {
+					"1": "Zap zap! GOB.TY is showing carrot commercials again. Good commercials.",
+					"2": "The news anchor said today will be fluffy. So far so true.",
+					"3": "I only wanted to watch ONE show. It's eight now. Help.",
+					"4": "The cooking show! They're making nougat. Noted. NOTED!",
+					"5": "I always wave back at the weather forecast. You never know.",
+					"6": "GOB.TY fact: EVERYTHING looks better from the sofa."
+				},
+				"girlande": {
+					"1": "The garland makes the ceiling happy! Ceilings need that too.",
+					"2": "I tried hopping up to the garland. The ceiling won.",
+					"3": "With garlands, every day is a little bit birthday.",
+					"4": "Colorful, swingy, likes hanging around — the garland and I are very alike."
+				},
+				"galaxie": {
+					"1": "My galaxy fur SPARKLES! I'm basically a constellation you can cuddle.",
+					"2": "Look, when I spin, the stars twinkle! Wheee!",
+					"3": "I am officially the universe now. But in cozy.",
+					"4": "Stardust in my fur. Please don't brush it out, that's decor."
+				},
+				"raumstation": {
+					"1": "On the space station even my tummy floats. A little.",
+					"2": "Space rule number one: hold on tight to your snacks.",
+					"3": "I waved at Earth from above. It looked adorable.",
+					"4": "Astro-Gooby, come in! Everything fluffy up here, over.",
+					"5": "The stars from the station… like someone spilled glitter.",
+					"6": "In zero gravity my ears are EVEN bouncier."
+				},
+				"ranch": {
+					"1": "The ranch smells like hay and adventure. And a little bit like horse.",
+					"2": "The crows planned mischief again today. I joined in.",
+					"3": "Ranch life: up early, lots of wonder, mud everywhere. Ten points.",
+					"4": "I said hello to a horse. It snorted. We're friends now.",
+					"5": "On the ranch I'm Cowboy Gooby. Yeehaw! …Is that how you say it?",
+					"6": "The campfire crackles nicer than any TV.",
+					"7": "I helped at the ranch contest! By cheering. Very important.",
+					"8": "Hay fact: you can jump in. Getting out again is the hard part."
+				}
+			},
+			"minispiel": {
+				"rekord": {
+					"1": "NEW RECORD! We're a world-class team, it's official!",
+					"2": "Did you see that?! The leaderboard is trembling!",
+					"3": "A record! Let me practice my winner face. Like this. Exactly like this.",
+					"4": "Boom! We're framing this one. Well… mentally."
+				},
+				"knapp": {
+					"1": "SO close! My heart is still bouncing.",
+					"2": "Almost! Next time we'll get it, that record.",
+					"3": "We were one bunny hair short! That almost counts double.",
+					"4": "A near miss is still a play — and a REALLY good one."
+				},
+				"verloren": {
+					"1": "Lost? Pff. We call it training with extra steps.",
+					"2": "The game just got lucky today. Tomorrow it's our turn.",
+					"3": "I laughed anyway. That counts as a point too, right?",
+					"4": "Chin up, ears up! Rematch whenever you like."
+				}
+			},
+			"selbstgespraech": {
+				"1": "Where was I going again? … Oh well, the way there is adorable.",
+				"2": "Left, right, left… my feet know the plan.",
+				"3": "If rugs could talk… this one would say 'ouch'. Hihi.",
+				"4": "I'm on patrol. All fluffy in sector living room.",
+				"5": "La la laaa… I just invented that song. It's called 'Song'.",
+				"6": "Dust speck! I see you. We'll meet at cleanup time.",
+				"7": "Once around the sofa is like once around the world. Just comfier.",
+				"8": "I'm counting my steps. One, two, many.",
+				"9": "The floor is extra floory today. Good job, floor.",
+				"10": "Maybe I'm a prince under a spell. … Nah, I'm Gooby. Better.",
+				"11": "Note to self: inspect the window again later.",
+				"12": "My ears bounce to the beat. Which beat? MY beat.",
+				"13": "Practicing my relaxed look. Well? How am I doing?",
+				"14": "Quick lap! A Gooby has to stay in shape. Ball shape.",
+				"15": "This way! Says my gut feeling. My gut is always right."
+			},
+			"feier": {
+				"sticker": {
+					"1": "A new sticker! Look at that shine. Almost as shiny as you.",
+					"2": "Sticker party! I'm so proud I might stick to the ceiling.",
+					"3": "I'll keep this sticker forever. FOREVER forever.",
+					"4": "Our collection is growing! Soon we'll need a bigger album. And cookies.",
+					"5": "New sticker, new luck! We're on a roll today, hm?"
+				},
+				"erfolg": {
+					"1": "WE DID IT! High five! … Gently, my paw is soft.",
+					"2": "We really did it! I knew it the whole time. Almost.",
+					"3": "Success tastes sweet. Almost like nougat. ALMOST.",
+					"4": "Fanfare! Confetti in my head! You're amazing!",
+					"5": "World-class teamwork: high five, ear wiggle, keep it up!"
+				}
+			},
+			"wiedersehen": {
+				"1": "A few hours without you — I guarded the cushions meanwhile.",
+				"2": "A whole day! I told the window all about you.",
+				"3": "Two days! I slept extra fluffy in protest.",
+				"4": "A WEEK! I saved a cookie for you every day. Theoretically.",
+				"5": "So long… I thought you'd flown to the moon! Tell me EVERYTHING."
+			},
+			"markt": {
+				"stand": {
+					"1": "My very own stand! I'm basically business Gooby. With an apron!",
+					"2": "Buy, folks, buy! Everything fresh, everything fluffily wrapped!",
+					"3": "Clink, coins! I like that sound almost as much as cookies.",
+					"4": "Sold out would be nice… worst case I'll just nibble the rest myself."
+				}
+			},
+			"uebermut": {
+				"pause": "Break ti-i-ime! My fur is all ruffled up!"
+			}
+		}
+	},
+	"gespraech": {
+		"morgen": {
+			"verschlafen": {
+				"label": "I'm still sleeeepy…",
+				"f1": "Then let's snuggle ourselves awake! My fur is basically a blanket.",
+				"f2": "Understood. Running on fluff-saving mode today. Approved."
+			},
+			"energie": {
+				"label": "Let's go, Gooby!",
+				"f1": "YES! First hopping, then breakfast, then… more hopping!",
+				"f2": "Your morning energy! Can I have a slice of that?"
+			}
+		},
+		"mittag": {
+			"hunger": {
+				"label": "Hungry, little man?",
+				"f1": "ALWAYS. My tummy heard you coming from far away.",
+				"f2": "A little. So, huge. So, medium. So, yes!"
+			},
+			"quatsch": {
+				"label": "You only think about food!",
+				"f1": "Not true! I also think about you. And about food WITH you.",
+				"f2": "Pff! I also think about… snacks. That's TOTALLY different."
+			}
+		},
+		"abend": {
+			"gemuetlich": {
+				"label": "Cozy evening?",
+				"f1": "I was hoping you'd say that! Sofa starting spots are reserved.",
+				"f2": "Deal! I'll bring the fluff, you bring you."
+			},
+			"wild": {
+				"label": "Let's do something first!",
+				"f1": "Okay, ONE more adventure. Then double snuggles to balance it out.",
+				"f2": "Brave! Let me get my adventure ears out."
+			}
+		},
+		"nacht": {
+			"sorge": {
+				"label": "Shouldn't you be asleep?",
+				"f1": "In a minute! Just five more minutes awake. With you.",
+				"f2": "Psst, I'm almost asleep anyway. This is dream training."
+			},
+			"mitmachen": {
+				"label": "Night owl club!",
+				"f1": "Membership confirmed! Secret ear wiggle for the greeting.",
+				"f2": "The club has rules: giggle quietly, snuggle loudly."
+			}
+		},
+		"gefreut": {
+			"auch": {
+				"label": "I missed you!",
+				"f1": "Really?! Now even my breakfast tummy is happy.",
+				"f2": "Hihi! Then we're even. Being happy twice sticks better."
+			},
+			"necken": {
+				"label": "It was only a short while!",
+				"f1": "SHORT? That was at least three snack times!",
+				"f2": "Short for you. For me it was three naps and one sigh."
+			}
+		},
+		"eingeschnappt": {
+			"entschuldigen": {
+				"label": "I'm sorry, Gooby.",
+				"f1": "…okay. Sulking officially over. Pet me and we're even.",
+				"f2": "Accepted! I can never stay mad at you anyway."
+			},
+			"guenstig": {
+				"label": "Extra pets to make up for it!",
+				"f1": "Bribery! …It works. Right here behind the ear, please.",
+				"f2": "Hmpf. Fine. But only because pets are the best currency."
+			}
+		},
+		"regen": {
+			"drinnen": {
+				"label": "Good thing we're inside!",
+				"f1": "Team Inside! The rain may watch, but it doesn't get to snuggle.",
+				"f2": "Exactly! Inside is the new outside. Much drier."
+			},
+			"pfuetzen": {
+				"label": "Puddle jumping later?",
+				"f1": "YES! I'm already practicing my run-up. Splash factor ten!",
+				"f2": "Only if you jump too. Puddles count double with two."
+			}
+		},
+		"gewitter": {
+			"troesten": {
+				"label": "Don't be scared, I'm here.",
+				"f1": "Thanks… with you the thunder is only half as loud.",
+				"f2": "O-okay. I'll hold your hand. Well, your finger."
+			},
+			"kuscheln": {
+				"label": "Come under the blanket!",
+				"f1": "Best idea! Blankets are thunder-proof, everyone knows that."
+			},
+			"witz": {
+				"label": "The sky is just making music!",
+				"f1": "Hihi… then that's the loudest drummer in the world."
+			},
+			"mutig": {
+				"label": "Count the lightning with me!",
+				"f1": "One… two… WAAH… three! I'm being SO brave right now.",
+				"f2": "Okay! But if it booms, you keep counting, yes?"
+			}
+		},
+		"schnee": {
+			"raus": {
+				"label": "Let's build a snowman!",
+				"f1": "YES! It gets ears! It's going to be a snow-Gooby!",
+				"f2": "I'll get the carrot! For the nose. And one for me."
+			},
+			"drin": {
+				"label": "It's nicer from in here.",
+				"f1": "True… watching snow with you is like a movie. Flake cinema.",
+				"f2": "Cozy mode on! Every flake gets a round of applause from me."
+			}
+		},
+		"jubilaeum": {
+			"ruehrend": {
+				"label": "I'm glad you exist!",
+				"f1": "Now my ears are getting all warm… YOU'RE saying that to ME!",
+				"f2": "Without you this would just be a house. With you it's our home."
+			},
+			"witzeln": {
+				"label": "You're counting the days?!",
+				"f1": "Of course! I have a calendar. It's made of memories.",
+				"f2": "Only the nice days! So… all of them."
+			}
+		},
+		"erinnerung": {
+			"erzaehlen": {
+				"label": "Tell me more!",
+				"f1": "Gladly! I remember EVERYTHING. Even the thing with the cookie.",
+				"f2": "Sit down, this is a good one. So, it all began on a Tuesday…"
+			},
+			"lachen": {
+				"label": "Hihi, go on!",
+				"f1": "…and THAT'S why I'm not allowed to bake alone anymore. The end!"
+			},
+			"kuschel": {
+				"label": "You're a treasure.",
+				"f1": "So are you! Memories with you are my favorites."
+			},
+			"gedaechtnis": {
+				"label": "The things you remember!",
+				"f1": "My head is a photo album. With a lot of snack photos.",
+				"f2": "I always remember the important things. You're the most important."
+			}
+		},
+		"vermisst": {
+			"wieder_da": {
+				"label": "I'm here now!",
+				"f1": "And I won't let you go again anytime soon! Decided.",
+				"f2": "Best sentence of the day! Say it again right away, please."
+			},
+			"geschenk": {
+				"label": "I'll make it up to you!",
+				"f1": "Oooh! I'll take pets, playtime and a little crumb of time.",
+				"f2": "You yourself are the make-up gift. But snacks always work too."
+			}
+		}
+	},
+	"fuettern": {
+		"kommentar": {
+			"obst": {
+				"1": "Fruit! Crunchy, sweet, healthy — like me, but edible.",
+				"2": "Mmmh, fruity! Vitamins for the ears!",
+				"3": "Fruit is nature's candy. Best invention the trees ever made.",
+				"4": "Juicy! I'm smacking my lips out of respect."
+			},
+			"gemuese": {
+				"1": "Veggies make you strong! Look, my muscles. … They're under the fluff.",
+				"2": "Crunch, crunch! Vegetables are music you can eat.",
+				"3": "Greens for the hero of the house. Thank you!",
+				"4": "Veggie power! Superpowers incoming. Probably."
+			},
+			"suess": {
+				"1": "SWEETS! My heart just did a little somersault.",
+				"2": "Sugar alert! I might dance in a second, fair warning.",
+				"3": "Sweets taste like a holiday. Guess today is one!",
+				"4": "A dream! I'll eat it very slowly. … Okay, it's already gone."
+			},
+			"deftig": {
+				"1": "Hearty! That keeps ears and floor together.",
+				"2": "A proper feast! I feel like a knight.",
+				"3": "Savory and warm — like a hug you can chew.",
+				"4": "After a meal like that I need a tummy nap."
+			}
+		}
+	}
+}

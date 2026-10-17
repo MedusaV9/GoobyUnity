@@ -1,0 +1,47 @@
+{
+	"save": {
+		"transfer": {
+			"title": "Transfer save game",
+			"back": "‹ Back",
+			"intro": "Bring your Gooby over from the old app — coins, stickers, furniture and more move with you.",
+			"auto": {
+				"found": "Found an old save on this device!",
+				"source_ios": "Source: data left by the old app (don’t delete the old app — just install the new one right over it!)",
+				"preview": "Show preview"
+			},
+			"paste": {
+				"title": "Paste from the old app",
+				"hint": "In the old app: Settings → “Export save game”. Then paste the text here.",
+				"placeholder": "Paste your save text here…",
+				"check": "Check"
+			},
+			"file": {
+				"button": "Load from file",
+				"unsupported": "No file dialog on this device — please paste the text instead."
+			},
+			"preview": {
+				"title": "Found it! Here’s what’s inside:",
+				"line": "Level {level} · {coins} coins · {stickers} stickers · {outfits} outfits",
+				"furniture": "{furniture} furniture pieces wait in the moving box",
+				"notes": "Moving notes:",
+				"apply": "Apply",
+				"cancel": "Cancel"
+			},
+			"error": {
+				"title": "That didn’t work",
+				"body": "That text is not a Gooby save game. ({error})"
+			},
+			"done": {
+				"title": "Done! Your Gooby has moved in.",
+				"body": "Your previous progress stays backed up on this device (pre-import backup).",
+				"moving": "Your furniture is in the moving box — find it in storage.",
+				"continue": "Continue"
+			},
+			"export": {
+				"title": "Switching devices (new app → new app)",
+				"button": "Copy as GOOBY5 code",
+				"copied": "Code copied! Paste it on the new device."
+			}
+		}
+	}
+}

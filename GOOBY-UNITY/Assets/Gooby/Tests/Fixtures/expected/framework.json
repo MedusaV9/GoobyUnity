@@ -1,0 +1,386 @@
+{
+  "coinCases": [
+    {
+      "game": "teaParty",
+      "score": 0,
+      "mode": "easy",
+      "coins": 4
+    },
+    {
+      "game": "teaParty",
+      "score": 0,
+      "mode": "normal",
+      "coins": 4
+    },
+    {
+      "game": "teaParty",
+      "score": 0,
+      "mode": "hard",
+      "coins": 5
+    },
+    {
+      "game": "teaParty",
+      "score": 1,
+      "mode": "easy",
+      "coins": 4
+    },
+    {
+      "game": "teaParty",
+      "score": 1,
+      "mode": "normal",
+      "coins": 4
+    },
+    {
+      "game": "teaParty",
+      "score": 1,
+      "mode": "hard",
+      "coins": 5
+    },
+    {
+      "game": "teaParty",
+      "score": 7,
+      "mode": "easy",
+      "coins": 4
+    },
+    {
+      "game": "teaParty",
+      "score": 7,
+      "mode": "normal",
+      "coins": 4
+    },
+    {
+      "game": "teaParty",
+      "score": 7,
+      "mode": "hard",
+      "coins": 5
+    },
+    {
+      "game": "teaParty",
+      "score": 20,
+      "mode": "easy",
+      "coins": 4
+    },
+    {
+      "game": "teaParty",
+      "score": 20,
+      "mode": "normal",
+      "coins": 5
+    },
+    {
+      "game": "teaParty",
+      "score": 20,
+      "mode": "hard",
+      "coins": 7
+    },
+    {
+      "game": "teaParty",
+      "score": 45,
+      "mode": "easy",
+      "coins": 8
+    },
+    {
+      "game": "teaParty",
+      "score": 45,
+      "mode": "normal",
+      "coins": 11
+    },
+    {
+      "game": "teaParty",
+      "score": 45,
+      "mode": "hard",
+      "coins": 14
+    },
+    {
+      "game": "teaParty",
+      "score": 70,
+      "mode": "easy",
+      "coins": 12
+    },
+    {
+      "game": "teaParty",
+      "score": 70,
+      "mode": "normal",
+      "coins": 17
+    },
+    {
+      "game": "teaParty",
+      "score": 70,
+      "mode": "hard",
+      "coins": 22
+    },
+    {
+      "game": "teaParty",
+      "score": 104,
+      "mode": "easy",
+      "coins": 18
+    },
+    {
+      "game": "teaParty",
+      "score": 104,
+      "mode": "normal",
+      "coins": 26
+    },
+    {
+      "game": "teaParty",
+      "score": 104,
+      "mode": "hard",
+      "coins": 26
+    },
+    {
+      "game": "teaParty",
+      "score": 500,
+      "mode": "easy",
+      "coins": 18
+    },
+    {
+      "game": "teaParty",
+      "score": 500,
+      "mode": "normal",
+      "coins": 26
+    },
+    {
+      "game": "teaParty",
+      "score": 500,
+      "mode": "hard",
+      "coins": 26
+    },
+    {
+      "game": "carrotCatch",
+      "score": 0,
+      "mode": "easy",
+      "coins": 4
+    },
+    {
+      "game": "carrotCatch",
+      "score": 0,
+      "mode": "normal",
+      "coins": 4
+    },
+    {
+      "game": "carrotCatch",
+      "score": 0,
+      "mode": "hard",
+      "coins": 5
+    },
+    {
+      "game": "carrotCatch",
+      "score": 1,
+      "mode": "easy",
+      "coins": 4
+    },
+    {
+      "game": "carrotCatch",
+      "score": 1,
+      "mode": "normal",
+      "coins": 4
+    },
+    {
+      "game": "carrotCatch",
+      "score": 1,
+      "mode": "hard",
+      "coins": 5
+    },
+    {
+      "game": "carrotCatch",
+      "score": 7,
+      "mode": "easy",
+      "coins": 4
+    },
+    {
+      "game": "carrotCatch",
+      "score": 7,
+      "mode": "normal",
+      "coins": 4
+    },
+    {
+      "game": "carrotCatch",
+      "score": 7,
+      "mode": "hard",
+      "coins": 5
+    },
+    {
+      "game": "carrotCatch",
+      "score": 20,
+      "mode": "easy",
+      "coins": 4
+    },
+    {
+      "game": "carrotCatch",
+      "score": 20,
+      "mode": "normal",
+      "coins": 6
+    },
+    {
+      "game": "carrotCatch",
+      "score": 20,
+      "mode": "hard",
+      "coins": 8
+    },
+    {
+      "game": "carrotCatch",
+      "score": 45,
+      "mode": "easy",
+      "coins": 11
+    },
+    {
+      "game": "carrotCatch",
+      "score": 45,
+      "mode": "normal",
+      "coins": 15
+    },
+    {
+      "game": "carrotCatch",
+      "score": 45,
+      "mode": "hard",
+      "coins": 20
+    },
+    {
+      "game": "carrotCatch",
+      "score": 70,
+      "mode": "easy",
+      "coins": 16
+    },
+    {
+      "game": "carrotCatch",
+      "score": 70,
+      "mode": "normal",
+      "coins": 23
+    },
+    {
+      "game": "carrotCatch",
+      "score": 70,
+      "mode": "hard",
+      "coins": 25
+    },
+    {
+      "game": "carrotCatch",
+      "score": 104,
+      "mode": "easy",
+      "coins": 18
+    },
+    {
+      "game": "carrotCatch",
+      "score": 104,
+      "mode": "normal",
+      "coins": 25
+    },
+    {
+      "game": "carrotCatch",
+      "score": 104,
+      "mode": "hard",
+      "coins": 25
+    },
+    {
+      "game": "carrotCatch",
+      "score": 500,
+      "mode": "easy",
+      "coins": 18
+    },
+    {
+      "game": "carrotCatch",
+      "score": 500,
+      "mode": "normal",
+      "coins": 25
+    },
+    {
+      "game": "carrotCatch",
+      "score": 500,
+      "mode": "hard",
+      "coins": 25
+    }
+  ],
+  "endlessFlatCoins": 5,
+  "endlessMinLevel": 10,
+  "strikesForTeleport": 3,
+  "effective": [
+    {
+      "id": "teaParty",
+      "params": {
+        "difficulty": "hard"
+      },
+      "want": "hard",
+      "got": "hard"
+    },
+    {
+      "id": "teaParty",
+      "params": {
+        "difficulty": "bogus"
+      },
+      "want": "normal",
+      "got": "normal"
+    },
+    {
+      "id": "teaParty",
+      "params": {
+        "difficulty": "hard",
+        "mode": "shopTrip"
+      },
+      "want": "normal",
+      "got": "normal"
+    },
+    {
+      "id": "cityDrive",
+      "params": {
+        "difficulty": "hard"
+      },
+      "want": "normal",
+      "got": "normal"
+    },
+    {
+      "id": "goobyWelt",
+      "params": {
+        "difficulty": "easy"
+      },
+      "want": "normal",
+      "got": "normal"
+    }
+  ],
+  "orientation": [
+    {
+      "value": "landscape",
+      "want": "landscape",
+      "got": "landscape"
+    },
+    {
+      "value": "portrait",
+      "want": "portrait",
+      "got": "portrait"
+    },
+    {
+      "value": null,
+      "want": "portrait",
+      "got": "portrait"
+    },
+    {
+      "value": "weird",
+      "want": "portrait",
+      "got": "portrait"
+    }
+  ],
+  "rotateGate": [
+    {
+      "orientation": "landscape",
+      "viewportIsLandscape": false,
+      "want": true,
+      "got": true
+    },
+    {
+      "orientation": "landscape",
+      "viewportIsLandscape": true,
+      "want": false,
+      "got": false
+    },
+    {
+      "orientation": "portrait",
+      "viewportIsLandscape": false,
+      "want": false,
+      "got": false
+    },
+    {
+      "orientation": "portrait",
+      "viewportIsLandscape": true,
+      "want": false,
+      "got": false
+    }
+  ]
+}

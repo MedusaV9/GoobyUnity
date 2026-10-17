@@ -1,0 +1,256 @@
+/* gooby-board.uss — see header comment in GoobyTheme.tss */
+/* Schiffe versenken (BattleshipScreen) on the window kit of gooby-screens.uss (.gb-win, .gb-win-head, .gb-win-texts).
+   Root: .gb-sheets .gb-bs (+ .gb-bs--compact / .gb-bs--tiny on narrow or short windows, set from code).
+   Grids: .gb-bs-grid (sea frame) > .gb-bs-grid-row > .gb-bs-coord | .gb-bs-cell > .gb-bs-mark.
+   Cell states: --ship (+ --h/--v, --bow/--stern) on the own board; --hit, --miss, --sunk, --last on both; --pending,
+   --open (aimable) on the enemy board. The enemy frame turns strawberry (.gb-bs-grid--aim) on our turn. */
+
+/* ---------- window ---------- */
+.gb-bs-scrim { background-color: rgba(59, 54, 79, 0.55); }
+.gb-bs-win { background-color: var(--gb-panel); overflow: hidden; }
+
+.gb-bs-score {
+    flex-direction: row; align-items: center; flex-shrink: 0;
+    height: 42px;
+    margin-left: 8px;
+    padding: 0 16px 0 8px;
+    border-radius: var(--gb-r-pill);
+    background-color: #FFF4D6;
+    border-width: 2px;
+    border-color: rgba(255, 209, 102, 0.75);
+}
+.gb-bs-score > .gb-icon { width: 26px; height: 26px; margin-right: 6px; }
+.gb-bs-score > Label { font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); }
+.gb-bs-leave { flex-shrink: 0; margin-left: 12px; }
+
+.gb-bs-body { flex-grow: 1; flex-shrink: 1; flex-direction: row; align-items: flex-start; justify-content: center; padding: 14px 18px 16px 18px; }
+
+/* ---------- board cards ---------- */
+.gb-bs-side {
+    flex-shrink: 0;
+    padding: 10px 14px 14px 12px;
+    border-radius: 26px;
+    background-color: rgba(255, 255, 255, 0.80);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.08);
+    border-bottom-width: 4px;
+    border-bottom-color: rgba(107, 79, 58, 0.12);
+}
+.gb-bs-side-head { flex-direction: row; align-items: center; height: 32px; margin-bottom: 4px; padding-left: 4px; }
+.gb-bs-side-head > .gb-icon { width: 22px; height: 22px; margin-right: 8px; flex-shrink: 0; }
+.gb-bs-side-title { flex-grow: 1; flex-shrink: 1; font-size: var(--gb-lg); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gb-bs-side-count { flex-shrink: 0; margin-left: 8px; padding: 1px 10px; border-radius: var(--gb-r-pill); background-color: var(--gb-sand-hell); font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text-mild); white-space: nowrap; }
+.gb-bs-enemy .gb-bs-side-count { background-color: #FFE3E3; color: var(--gb-primary-tief); }
+
+/* ---------- grid ---------- */
+.gb-bs-grid {
+    padding: 4px 6px 6px 2px;
+    border-radius: 18px;
+    background-color: #CFE6F7;
+    border-width: 3px;
+    border-color: rgba(127, 184, 255, 0.35);
+    transition-property: border-color, background-color;
+    transition-duration: 0.2s;
+}
+.gb-bs-grid--aim { border-color: var(--gb-primary); background-color: #D7E9F8; }
+.gb-bs-grid-row { flex-direction: row; align-items: center; flex-shrink: 0; }
+.gb-bs-coord { width: 40px; height: 22px; flex-shrink: 0; -unity-text-align: middle-center; font-size: var(--gb-sm); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #5E86A8; }
+.gb-bs-coord--corner { width: 24px; }
+.gb-bs-coord--row { width: 24px; height: 40px; }
+
+.gb-bs-cell {
+    width: 38px; height: 38px;
+    margin: 1px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    background-color: #EAF5FD;
+    border-width: 0;
+    border-color: rgba(0, 0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    transition-property: scale, background-color;
+    transition-duration: 0.12s;
+}
+.gb-bs-mark { width: 0; height: 0; border-radius: 99px; background-color: rgba(0, 0, 0, 0); }
+
+/* own fleet: wooden hulls, rounded bow, slightly rounded stern */
+.gb-bs-cell--ship { background-color: #C4A585; border-radius: 5px; border-bottom-width: 3px; border-bottom-color: rgba(107, 79, 58, 0.35); }
+.gb-bs-cell--ship.gb-bs-cell--h.gb-bs-cell--bow { border-top-left-radius: 19px; border-bottom-left-radius: 19px; }
+.gb-bs-cell--ship.gb-bs-cell--h.gb-bs-cell--stern { border-top-right-radius: 11px; border-bottom-right-radius: 11px; }
+.gb-bs-cell--ship.gb-bs-cell--v.gb-bs-cell--bow { border-top-left-radius: 19px; border-top-right-radius: 19px; }
+.gb-bs-cell--ship.gb-bs-cell--v.gb-bs-cell--stern { border-bottom-left-radius: 11px; border-bottom-right-radius: 11px; }
+.gb-bs-grid--edit .gb-bs-cell--ship:hover { background-color: #D6BA9C; scale: 1.06; }
+
+/* shots: blue dot = water, strawberry = hit, dark red = sunk */
+.gb-bs-cell--miss { background-color: #DCEDFB; }
+.gb-bs-cell--miss > .gb-bs-mark { width: 10px; height: 10px; background-color: #8DB9DF; }
+.gb-bs-cell--hit { background-color: #FFD4D4; }
+.gb-bs-cell--hit > .gb-bs-mark { width: 16px; height: 16px; background-color: var(--gb-primary-tief); border-width: 3px; border-color: var(--gb-weiss); }
+.gb-bs-cell--ship.gb-bs-cell--hit { background-color: #E89A8C; }
+.gb-bs-cell--sunk { background-color: #D45C5C; }
+.gb-bs-cell--sunk > .gb-bs-mark { width: 12px; height: 12px; background-color: #7A2626; }
+.gb-bs-cell--ship.gb-bs-cell--sunk { background-color: #A9695C; border-bottom-color: rgba(90, 30, 30, 0.45); }
+.gb-bs-cell--pending { background-color: #FFF0C8; }
+.gb-bs-cell--pending > .gb-bs-mark { width: 14px; height: 14px; background-color: var(--gb-sonne); }
+.gb-bs-cell--last { border-width: 3px; border-color: var(--gb-sonne); }
+.gb-bs-cell--open:hover { background-color: var(--gb-weiss); border-width: 2px; border-color: var(--gb-primary); scale: 1.1; }
+.gb-bs-cell--open:active { scale: 0.92; }
+
+/* ---------- middle column ---------- */
+.gb-bs-mid { flex-grow: 1; flex-shrink: 1; min-width: 300px; max-width: 560px; margin: 0 16px; }
+
+.gb-bs-opp { flex-direction: row; align-items: center; flex-shrink: 0; padding: 10px 14px 10px 10px; border-radius: 24px; background-color: var(--gb-weiss); border-width: 2px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-bs-opp > .gb-avatar { flex-shrink: 0; }
+.gb-bs-opp-texts { flex-grow: 1; flex-shrink: 1; min-width: 0; }
+.gb-bs-kicker { font-size: 11px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); letter-spacing: 1px; color: var(--gb-primary-tief); }
+.gb-bs-opp-name { font-size: var(--gb-h3); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gb-bs-opp-line { flex-direction: row; align-items: center; }
+.gb-bs-opp-line > Label { flex-shrink: 1; font-size: 13px; color: var(--gb-text-mild); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gb-bs-bubble {
+    position: absolute; right: 10px; top: -16px;
+    flex-direction: row; align-items: center;
+    padding: 4px 12px 4px 6px;
+    border-radius: var(--gb-r-pill);
+    background-color: #FFF0C8;
+    border-width: 2px;
+    border-color: rgba(255, 209, 102, 0.9);
+}
+.gb-bs-bubble > .gb-icon { width: 24px; height: 24px; margin-right: 6px; }
+.gb-bs-bubble > Label { font-size: 13px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); white-space: nowrap; }
+
+.gb-bs-banner {
+    flex-shrink: 0;
+    margin-top: 12px;
+    padding: 14px 18px 12px 18px;
+    border-radius: 26px;
+    background-color: var(--gb-sand-hell);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.10);
+    border-bottom-width: 4px;
+    align-items: center;
+    transition-property: background-color, border-color;
+    transition-duration: 0.2s;
+}
+.gb-bs-banner-title { font-size: 28px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); -unity-text-align: middle-center; white-space: normal; }
+.gb-bs-banner-sub { margin-top: 2px; font-size: var(--gb-md); color: var(--gb-text-mild); -unity-text-align: middle-center; white-space: normal; }
+.gb-bs-banner > .gb-btn { margin-top: 8px; }
+.gb-bs-banner--mine { background-color: #DDF3E4; border-color: rgba(95, 184, 132, 0.45); }
+.gb-bs-banner--mine > .gb-bs-banner-title { color: #3E8F62; }
+.gb-bs-banner--theirs { background-color: #DCEBFF; border-color: rgba(127, 184, 255, 0.55); }
+.gb-bs-banner--theirs > .gb-bs-banner-title { color: #3F6FB5; }
+.gb-bs-banner--wait { background-color: #FFF0C8; border-color: rgba(255, 209, 102, 0.85); }
+.gb-bs-banner--wait > .gb-bs-banner-title { color: var(--gb-schoko); }
+.gb-bs-banner--win { background-color: #DDF3E4; border-color: rgba(95, 184, 132, 0.45); }
+.gb-bs-banner--win > .gb-bs-banner-title { color: #3E8F62; }
+.gb-bs-banner--lose { background-color: #FFE3E3; border-color: rgba(242, 109, 109, 0.30); }
+.gb-bs-banner--lose > .gb-bs-banner-title { color: var(--gb-primary-tief); }
+
+/* stays inside the middle column: long lines ("Daneben — Glück gehabt!") wrap on a cream pill instead of running
+   across both seas and over the turn card */
+.gb-bs-pop {
+    position: absolute; left: 6px; right: 6px; top: 196px;
+    padding: 8px 14px 10px 14px;
+    border-radius: 26px;
+    background-color: rgba(255, 250, 240, 0.94);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.10);
+    font-size: 34px;
+    -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf");
+    -unity-text-align: middle-center;
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: var(--gb-weiss);
+    color: var(--gb-text);
+    white-space: normal;
+}
+.gb-bs-pop--hit { color: var(--gb-primary-tief); }
+.gb-bs-pop--miss { color: #3F6FB5; }
+.gb-bs-pop--sunk { color: #B83B3B; font-size: 40px; background-color: rgba(255, 232, 232, 0.96); }
+.gb-bs-pop--info { color: #3E8F62; font-size: 28px; }
+
+.gb-bs-box { flex-shrink: 0; margin-top: 12px; padding: 12px 14px 6px 14px; border-radius: 22px; background-color: rgba(255, 255, 255, 0.80); border-width: 2px; border-color: rgba(107, 79, 58, 0.08); }
+.gb-bs-box-hint { margin-bottom: 8px; font-size: 13px; color: var(--gb-text-mild); white-space: normal; }
+.gb-bs-btns { flex-direction: row; flex-wrap: wrap; align-items: center; }
+.gb-bs-btns > .gb-btn { margin: 0 8px 6px 0; }
+
+.gb-bs-fun { flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 12px; }
+.gb-bs-emote { margin: 0 5px 6px 5px; }
+.gb-bs-emote:hover { scale: 1.08; }
+.gb-bs-tomato { margin: 0 0 6px 8px; }
+
+/* ---------- tomato splat ---------- */
+.gb-bs-splat { position: absolute; left: 50%; top: 46%; width: 240px; height: 240px; translate: -120px -120px; justify-content: center; align-items: center; }
+.gb-bs-splat-blob { position: absolute; border-radius: 99px; background-color: rgba(232, 72, 60, 0.86); }
+.gb-bs-splat-blob--0 { left: 30px; top: 30px; width: 180px; height: 170px; }
+.gb-bs-splat-blob--1 { left: 0; top: 70px; width: 64px; height: 56px; }
+.gb-bs-splat-blob--2 { left: 170px; top: 12px; width: 58px; height: 62px; }
+.gb-bs-splat-blob--3 { left: 150px; top: 170px; width: 70px; height: 60px; }
+.gb-bs-splat-blob--4 { left: 40px; top: 186px; width: 40px; height: 40px; }
+.gb-bs-splat-icon { width: 96px; height: 96px; }
+
+/* ---------- overlays: surrender question, result card ---------- */
+.gb-bs-overlay { position: absolute; left: 0; top: 0; right: 0; bottom: 0; justify-content: center; align-items: center; }
+.gb-bs-confirm { background-color: rgba(59, 54, 79, 0.30); }
+.gb-bs-result { background-color: rgba(255, 246, 236, 0.70); }
+.gb-bs-confirm-wrap { width: 460px; }
+.gb-bs-result-wrap { width: 580px; }
+.gb-bs-card {
+    padding: 22px 26px 16px 26px;
+    border-radius: 32px;
+    background-color: var(--gb-weiss);
+    border-width: 2px;
+    border-color: rgba(107, 79, 58, 0.10);
+    border-bottom-width: 5px;
+    border-bottom-color: rgba(107, 79, 58, 0.16);
+    align-items: center;
+}
+.gb-bs-card-title { font-size: var(--gb-h2); -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-text); -unity-text-align: middle-center; }
+.gb-bs-card-text { margin-top: 4px; font-size: var(--gb-lg); color: var(--gb-text-mild); -unity-text-align: middle-center; white-space: normal; }
+.gb-bs-card-btns { flex-direction: row; flex-wrap: wrap; justify-content: center; margin-top: 14px; }
+.gb-bs-card-btns > .gb-btn { margin: 0 6px 6px 6px; }
+
+.gb-bs-result-card { padding-top: 0; }
+.gb-bs-result-icon {
+    width: 92px; height: 92px;
+    margin-top: -46px;
+    border-radius: 46px;
+    background-color: #FFF0C8;
+    border-width: 5px;
+    border-color: var(--gb-weiss);
+    justify-content: center;
+    align-items: center;
+}
+.gb-bs-result-icon > .gb-icon { width: 56%; height: 56%; }
+.gb-bs-result--lose .gb-bs-result-icon { background-color: #DCEBFF; }
+.gb-bs-result-title { margin-top: 6px; font-size: 38px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: #3E8F62; -unity-text-align: middle-center; }
+.gb-bs-result--lose .gb-bs-result-title { color: #3F6FB5; }
+.gb-bs-result-reason { margin-top: 2px; font-size: var(--gb-lg); color: var(--gb-text-mild); -unity-text-align: middle-center; white-space: normal; }
+.gb-bs-stats { flex-direction: row; align-self: stretch; margin-top: 16px; }
+.gb-bs-stat { flex-grow: 1; flex-basis: 0; margin: 0 4px; padding: 10px 6px 8px 6px; border-radius: 18px; background-color: var(--gb-sand-hell); align-items: center; }
+.gb-bs-stat-value { font-size: 26px; -unity-font-definition: url("../Fonts/Nunito-ExtraBold.ttf"); color: var(--gb-schoko); white-space: nowrap; }
+.gb-bs-stat-label { font-size: var(--gb-sm); color: var(--gb-text-mild); white-space: nowrap; }
+.gb-bs-result-line { margin-top: 12px; min-height: 20px; font-size: var(--gb-md); -unity-font-definition: url("../Fonts/Nunito-Bold.ttf"); color: var(--gb-primary-tief); -unity-text-align: middle-center; white-space: normal; }
+
+/* ---------- compact (≈4:3 tablets, short windows) ---------- */
+.gb-bs--compact .gb-bs-cell { width: 30px; height: 30px; border-radius: 7px; }
+.gb-bs--compact .gb-bs-coord { width: 32px; height: 20px; }
+.gb-bs--compact .gb-bs-coord--corner { width: 20px; }
+.gb-bs--compact .gb-bs-coord--row { width: 20px; height: 32px; }
+.gb-bs--compact .gb-bs-cell--ship.gb-bs-cell--h.gb-bs-cell--bow { border-top-left-radius: 15px; border-bottom-left-radius: 15px; }
+.gb-bs--compact .gb-bs-cell--ship.gb-bs-cell--v.gb-bs-cell--bow { border-top-left-radius: 15px; border-top-right-radius: 15px; }
+.gb-bs--compact .gb-bs-cell--hit > .gb-bs-mark { width: 13px; height: 13px; }
+.gb-bs--compact .gb-bs-mid { min-width: 280px; margin: 0 12px; }
+.gb-bs--compact .gb-bs-banner-title { font-size: 24px; }
+.gb-bs--compact .gb-bs-pop { top: 176px; font-size: 30px; }
+
+.gb-bs--tiny .gb-bs-cell { width: 24px; height: 24px; border-radius: 6px; }
+.gb-bs--tiny .gb-bs-coord { width: 26px; height: 18px; font-size: 11px; }
+.gb-bs--tiny .gb-bs-coord--corner { width: 18px; }
+.gb-bs--tiny .gb-bs-coord--row { width: 18px; height: 26px; }
+.gb-bs--tiny .gb-bs-cell--ship.gb-bs-cell--h.gb-bs-cell--bow { border-top-left-radius: 12px; border-bottom-left-radius: 12px; }
+.gb-bs--tiny .gb-bs-cell--ship.gb-bs-cell--v.gb-bs-cell--bow { border-top-left-radius: 12px; border-top-right-radius: 12px; }
+.gb-bs--tiny .gb-bs-cell--hit > .gb-bs-mark { width: 10px; height: 10px; border-width: 2px; }
+.gb-bs--tiny .gb-bs-cell--miss > .gb-bs-mark { width: 8px; height: 8px; }
+.gb-bs--tiny .gb-bs-mid { min-width: 240px; margin: 0 10px; }
+.gb-bs--tiny .gb-bs-side { padding: 8px 10px 10px 8px; }
+.gb-bs--tiny .gb-bs-banner-title { font-size: 22px; }
+.gb-bs--tiny .gb-bs-pop { top: 170px; font-size: 26px; }

@@ -1,0 +1,123 @@
+{
+	"dialog": {
+		"weiter_hinweis": "Tap for more"
+	},
+	"hud": {
+		"album": "Album",
+		"arcade": "Arcade",
+		"arcade_kurz": "Games",
+		"auge": "Show me everything!",
+		"bau": "Build",
+		"coachmark_ok": "Got it!",
+		"coachmark_text": "Everything important lives here: Build, Decorate, Travel, Arcade, Album, Wardrobe, Furniture, Profile and IGohbie. The eye below shows what Gooby wants right now.",
+		"coachmark_titel": "Your buttons",
+		"einstellungen": "Settings",
+		"gestalten": "Decorate",
+		"gestalten_kurz": "Decor",
+		"igohbie": "IGohbie",
+		"igohbie_kurz": "Phone",
+		"ikea": "Furniture",
+		"ikea_kurz": "Sofa",
+		"level_pill": "Lv {level}",
+		"mehr": "More",
+		"profil": "Profile",
+		"quests_kurz": "Goals",
+		"reise": "Travel",
+		"sheet_buff": "{wert} buff",
+		"sheet_titel": "Gooby Status",
+		"stat_energie": "Energy",
+		"stat_hunger": "Hunger",
+		"stat_hygiene": "Hygiene",
+		"stat_spass": "Fun",
+		"wardrobe": "Wardrobe",
+		"wardrobe_kurz": "Outfit",
+		"weniger": "Less",
+		"wo_ist_gooby": "Where is my Gooby?"
+	},
+	"news": {
+		"button": "Got it!",
+		"items": [
+			{
+				"text": "GOOBY has been rebuilt from the ground up — faster, prettier and even fluffier.",
+				"titel": "Everything new in 3D!"
+			},
+			{
+				"text": "Place furniture freely on the grid, rearrange and make it truly cozy.",
+				"titel": "Build your house!"
+			},
+			{
+				"text": "Drive through the city yourself, discover places and fly off on vacation.",
+				"titel": "Travel & city"
+			},
+			{
+				"text": "Visit your friends, play board games together — and lovingly throw tomatoes.",
+				"titel": "Friends"
+			},
+			{
+				"text": "The arcade is back — with Goobys vs Zombies and more minigames.",
+				"titel": "New games"
+			},
+			{
+				"text": "Your old save moves in with you — nothing gets lost.",
+				"titel": "Moving box"
+			}
+		],
+		"titel": "New in 5.0",
+		"untertitel": "Rebuilt from scratch — with lots of love.",
+		"version": "Version {version}"
+	},
+	"onboarding": {
+		"done_button": "Let's go!",
+		"done_text": "{nickname} can hardly wait, {name}! Off to your new home!",
+		"done_titel": "Let's go!",
+		"editor_hinweis": "Drag to rotate · Pinch to zoom",
+		"editor_text": "Turn the sliders until your Gooby looks just right and fluffy.",
+		"editor_titel": "This is what {nickname} looks like!",
+		"name_pflicht": "Please tell me your name — Gooby wants to know who to hop over to!",
+		"name_placeholder": "Your name",
+		"nickname_placeholder": "Gooby",
+		"nickname_text": "Want to give Gooby a nickname? You don't have to — Gooby is a lovely name too.",
+		"nickname_titel": "Your Gooby!",
+		"slider_augengroesse": "Eye size",
+		"slider_augenweite": "Eye spacing",
+		"slider_ohrenlaenge": "Ear length",
+		"slider_pausbacken": "Chubby cheeks",
+		"welcome_text": "Hi! So glad you're here. What's your name?",
+		"welcome_titel": "Welcome!"
+	},
+	"settings": {
+		"allgemein": "General",
+		"audio": "Audio",
+		"laut_effekte": "Effects",
+		"laut_master": "Master",
+		"laut_musik": "Music",
+		"news_button": "See what's new in 5.0",
+		"orientierung": "Minigame orientation",
+		"orientierung_auto": "Automatic",
+		"orientierung_hochkant": "Portrait",
+		"orientierung_quer": "Landscape",
+		"reduced_motion": "Reduce motion",
+		"sprache": "Language",
+		"sprache_de": "Deutsch",
+		"sprache_en": "English",
+		"titel": "Settings",
+		"tuer_animation": "Door animation",
+		"ueber": "About",
+		"update_bald": "Updates are coming soon — check back later!",
+		"update_suchen": "Check for updates",
+		"updates": "Updates",
+		"version": "Version {version}"
+	},
+	"settings.spielstand": "Save game",
+	"settings.spielstand_uebertragen": "Transfer old save game",
+	"settings.tuer_bestaetigung": "Ask before doors",
+	"ui": {
+		"abbrechen": "Cancel",
+		"fertig": "Done",
+		"ok": "Okay!",
+		"schliessen": "Close",
+		"ueberspringen": "Skip",
+		"weiter": "Next",
+		"zurueck": "Back"
+	}
+}

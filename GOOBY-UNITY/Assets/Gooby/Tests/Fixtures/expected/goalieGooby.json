@@ -1,0 +1,1412 @@
+{
+  "modes": {
+    "easy": [
+      {
+        "seed": 1,
+        "score": 220,
+        "saves": 38,
+        "goals": 1,
+        "elapsed": 72.00948447034368
+      },
+      {
+        "seed": 2,
+        "score": 228,
+        "saves": 39,
+        "goals": 1,
+        "elapsed": 73.13940569311418
+      },
+      {
+        "seed": 3,
+        "score": 232,
+        "saves": 40,
+        "goals": 0,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 4,
+        "score": 148,
+        "saves": 29,
+        "goals": 3,
+        "elapsed": 63.73940569311421
+      },
+      {
+        "seed": 5,
+        "score": 232,
+        "saves": 40,
+        "goals": 0,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 6,
+        "score": 224,
+        "saves": 39,
+        "goals": 1,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 7,
+        "score": 56,
+        "saves": 14,
+        "goals": 3,
+        "elapsed": 41.24750503309133
+      },
+      {
+        "seed": 8,
+        "score": 164,
+        "saves": 31,
+        "goals": 3,
+        "elapsed": 66.0894056931142
+      },
+      {
+        "seed": 9,
+        "score": 232,
+        "saves": 40,
+        "goals": 0,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 10,
+        "score": 232,
+        "saves": 40,
+        "goals": 0,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 11,
+        "score": 232,
+        "saves": 40,
+        "goals": 0,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 12,
+        "score": 220,
+        "saves": 38,
+        "goals": 2,
+        "elapsed": 73.13940569311418
+      },
+      {
+        "seed": 13,
+        "score": 220,
+        "saves": 38,
+        "goals": 2,
+        "elapsed": 73.13940569311418
+      },
+      {
+        "seed": 14,
+        "score": 224,
+        "saves": 39,
+        "goals": 1,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 15,
+        "score": 224,
+        "saves": 39,
+        "goals": 1,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 16,
+        "score": 220,
+        "saves": 38,
+        "goals": 2,
+        "elapsed": 73.13940569311418
+      },
+      {
+        "seed": 17,
+        "score": 228,
+        "saves": 39,
+        "goals": 1,
+        "elapsed": 73.13940569311418
+      },
+      {
+        "seed": 18,
+        "score": 224,
+        "saves": 39,
+        "goals": 1,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 19,
+        "score": 112,
+        "saves": 25,
+        "goals": 3,
+        "elapsed": 58.99437728402331
+      },
+      {
+        "seed": 20,
+        "score": 216,
+        "saves": 38,
+        "goals": 2,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 21,
+        "score": 216,
+        "saves": 38,
+        "goals": 2,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 22,
+        "score": 224,
+        "saves": 39,
+        "goals": 1,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 23,
+        "score": 220,
+        "saves": 38,
+        "goals": 2,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 24,
+        "score": 132,
+        "saves": 27,
+        "goals": 3,
+        "elapsed": 61.434484470343705
+      },
+      {
+        "seed": 25,
+        "score": 232,
+        "saves": 40,
+        "goals": 0,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 26,
+        "score": 232,
+        "saves": 40,
+        "goals": 0,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 27,
+        "score": 176,
+        "saves": 32,
+        "goals": 3,
+        "elapsed": 67.30986023856875
+      },
+      {
+        "seed": 28,
+        "score": 188,
+        "saves": 34,
+        "goals": 3,
+        "elapsed": 69.6144056931142
+      },
+      {
+        "seed": 29,
+        "score": 212,
+        "saves": 37,
+        "goals": 2,
+        "elapsed": 72.00948447034368
+      },
+      {
+        "seed": 30,
+        "score": 220,
+        "saves": 38,
+        "goals": 2,
+        "elapsed": 73.13940569311418
+      },
+      {
+        "seed": 31,
+        "score": 232,
+        "saves": 40,
+        "goals": 0,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 32,
+        "score": 224,
+        "saves": 39,
+        "goals": 1,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 33,
+        "score": 220,
+        "saves": 38,
+        "goals": 2,
+        "elapsed": 73.13940569311418
+      },
+      {
+        "seed": 34,
+        "score": 216,
+        "saves": 37,
+        "goals": 2,
+        "elapsed": 72.00986023856873
+      },
+      {
+        "seed": 35,
+        "score": 232,
+        "saves": 40,
+        "goals": 0,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 36,
+        "score": 228,
+        "saves": 39,
+        "goals": 1,
+        "elapsed": 73.13940569311418
+      },
+      {
+        "seed": 37,
+        "score": 84,
+        "saves": 21,
+        "goals": 3,
+        "elapsed": 54.38448447034372
+      },
+      {
+        "seed": 38,
+        "score": 220,
+        "saves": 38,
+        "goals": 2,
+        "elapsed": 73.13940569311418
+      },
+      {
+        "seed": 39,
+        "score": 220,
+        "saves": 38,
+        "goals": 2,
+        "elapsed": 73.13940569311418
+      },
+      {
+        "seed": 40,
+        "score": 224,
+        "saves": 39,
+        "goals": 1,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 41,
+        "score": 144,
+        "saves": 28,
+        "goals": 3,
+        "elapsed": 62.65493901579825
+      },
+      {
+        "seed": 42,
+        "score": 224,
+        "saves": 39,
+        "goals": 1,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 43,
+        "score": 232,
+        "saves": 40,
+        "goals": 0,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 44,
+        "score": 220,
+        "saves": 38,
+        "goals": 1,
+        "elapsed": 72.00948447034368
+      },
+      {
+        "seed": 45,
+        "score": 224,
+        "saves": 39,
+        "goals": 1,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 46,
+        "score": 212,
+        "saves": 37,
+        "goals": 2,
+        "elapsed": 72.00948447034368
+      },
+      {
+        "seed": 47,
+        "score": 220,
+        "saves": 38,
+        "goals": 2,
+        "elapsed": 73.13940569311418
+      },
+      {
+        "seed": 48,
+        "score": 220,
+        "saves": 38,
+        "goals": 2,
+        "elapsed": 73.13940569311418
+      },
+      {
+        "seed": 49,
+        "score": 220,
+        "saves": 38,
+        "goals": 2,
+        "elapsed": 73.09437728402328
+      },
+      {
+        "seed": 50,
+        "score": 88,
+        "saves": 21,
+        "goals": 3,
+        "elapsed": 54.42993901579827
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1,
+        "score": 164,
+        "saves": 32,
+        "goals": 2,
+        "elapsed": 60.384733691794345
+      },
+      {
+        "seed": 2,
+        "score": 168,
+        "saves": 33,
+        "goals": 1,
+        "elapsed": 60.295295806946704
+      },
+      {
+        "seed": 3,
+        "score": 164,
+        "saves": 33,
+        "goals": 1,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 4,
+        "score": 136,
+        "saves": 29,
+        "goals": 3,
+        "elapsed": 58.13529580694671
+      },
+      {
+        "seed": 5,
+        "score": 172,
+        "saves": 34,
+        "goals": 0,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 6,
+        "score": 164,
+        "saves": 33,
+        "goals": 1,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 7,
+        "score": 56,
+        "saves": 14,
+        "goals": 3,
+        "elapsed": 35.69662405700135
+      },
+      {
+        "seed": 8,
+        "score": 152,
+        "saves": 31,
+        "goals": 3,
+        "elapsed": 60.295295806946704
+      },
+      {
+        "seed": 9,
+        "score": 172,
+        "saves": 34,
+        "goals": 0,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 10,
+        "score": 172,
+        "saves": 34,
+        "goals": 0,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 11,
+        "score": 172,
+        "saves": 34,
+        "goals": 0,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 12,
+        "score": 160,
+        "saves": 32,
+        "goals": 2,
+        "elapsed": 60.295295806946704
+      },
+      {
+        "seed": 13,
+        "score": 108,
+        "saves": 25,
+        "goals": 3,
+        "elapsed": 53.815295806946715
+      },
+      {
+        "seed": 14,
+        "score": 164,
+        "saves": 33,
+        "goals": 1,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 15,
+        "score": 148,
+        "saves": 30,
+        "goals": 3,
+        "elapsed": 59.35007214558518
+      },
+      {
+        "seed": 16,
+        "score": 168,
+        "saves": 33,
+        "goals": 1,
+        "elapsed": 60.295295806946704
+      },
+      {
+        "seed": 17,
+        "score": 164,
+        "saves": 32,
+        "goals": 2,
+        "elapsed": 60.339735276406934
+      },
+      {
+        "seed": 18,
+        "score": 168,
+        "saves": 33,
+        "goals": 1,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 19,
+        "score": 108,
+        "saves": 25,
+        "goals": 3,
+        "elapsed": 53.77118963350745
+      },
+      {
+        "seed": 20,
+        "score": 128,
+        "saves": 28,
+        "goals": 3,
+        "elapsed": 57.01118963350744
+      },
+      {
+        "seed": 21,
+        "score": 160,
+        "saves": 32,
+        "goals": 2,
+        "elapsed": 60.295295806946704
+      },
+      {
+        "seed": 22,
+        "score": 164,
+        "saves": 33,
+        "goals": 1,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 23,
+        "score": 160,
+        "saves": 32,
+        "goals": 2,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 24,
+        "score": 124,
+        "saves": 27,
+        "goals": 3,
+        "elapsed": 56.02029422233413
+      },
+      {
+        "seed": 25,
+        "score": 168,
+        "saves": 33,
+        "goals": 1,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 26,
+        "score": 164,
+        "saves": 32,
+        "goals": 2,
+        "elapsed": 60.43007214558518
+      },
+      {
+        "seed": 27,
+        "score": 76,
+        "saves": 19,
+        "goals": 3,
+        "elapsed": 45.21416284098371
+      },
+      {
+        "seed": 28,
+        "score": 160,
+        "saves": 32,
+        "goals": 2,
+        "elapsed": 60.295295806946704
+      },
+      {
+        "seed": 29,
+        "score": 160,
+        "saves": 32,
+        "goals": 2,
+        "elapsed": 60.34029422233412
+      },
+      {
+        "seed": 30,
+        "score": 168,
+        "saves": 33,
+        "goals": 1,
+        "elapsed": 60.295295806946704
+      },
+      {
+        "seed": 31,
+        "score": 172,
+        "saves": 34,
+        "goals": 0,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 32,
+        "score": 172,
+        "saves": 34,
+        "goals": 0,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 33,
+        "score": 160,
+        "saves": 32,
+        "goals": 2,
+        "elapsed": 60.295295806946704
+      },
+      {
+        "seed": 34,
+        "score": 100,
+        "saves": 24,
+        "goals": 3,
+        "elapsed": 52.779735276406946
+      },
+      {
+        "seed": 35,
+        "score": 168,
+        "saves": 33,
+        "goals": 1,
+        "elapsed": 60.295295806946704
+      },
+      {
+        "seed": 36,
+        "score": 160,
+        "saves": 32,
+        "goals": 2,
+        "elapsed": 60.295295806946704
+      },
+      {
+        "seed": 37,
+        "score": 84,
+        "saves": 21,
+        "goals": 3,
+        "elapsed": 48.83198868291051
+      },
+      {
+        "seed": 38,
+        "score": 160,
+        "saves": 32,
+        "goals": 2,
+        "elapsed": 60.295295806946704
+      },
+      {
+        "seed": 39,
+        "score": 120,
+        "saves": 27,
+        "goals": 3,
+        "elapsed": 55.97529580694671
+      },
+      {
+        "seed": 40,
+        "score": 172,
+        "saves": 34,
+        "goals": 0,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 41,
+        "score": 108,
+        "saves": 25,
+        "goals": 3,
+        "elapsed": 53.904733691794355
+      },
+      {
+        "seed": 42,
+        "score": 164,
+        "saves": 33,
+        "goals": 1,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 43,
+        "score": 172,
+        "saves": 34,
+        "goals": 0,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 44,
+        "score": 168,
+        "saves": 33,
+        "goals": 1,
+        "elapsed": 60.34029422233412
+      },
+      {
+        "seed": 45,
+        "score": 164,
+        "saves": 33,
+        "goals": 1,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 46,
+        "score": 168,
+        "saves": 33,
+        "goals": 1,
+        "elapsed": 60.34029422233412
+      },
+      {
+        "seed": 47,
+        "score": 156,
+        "saves": 31,
+        "goals": 3,
+        "elapsed": 60.384733691794345
+      },
+      {
+        "seed": 48,
+        "score": 168,
+        "saves": 33,
+        "goals": 1,
+        "elapsed": 60.295295806946704
+      },
+      {
+        "seed": 49,
+        "score": 152,
+        "saves": 31,
+        "goals": 3,
+        "elapsed": 60.25118963350744
+      },
+      {
+        "seed": 50,
+        "score": 84,
+        "saves": 21,
+        "goals": 3,
+        "elapsed": 48.876763967001416
+      }
+    ],
+    "hard": [
+      {
+        "seed": 1,
+        "score": 124,
+        "saves": 29,
+        "goals": 3,
+        "elapsed": 54.02855215745826
+      },
+      {
+        "seed": 2,
+        "score": 68,
+        "saves": 17,
+        "goals": 3,
+        "elapsed": 36.36831213871943
+      },
+      {
+        "seed": 3,
+        "score": 180,
+        "saves": 36,
+        "goals": 2,
+        "elapsed": 60.24010589865876
+      },
+      {
+        "seed": 4,
+        "score": 124,
+        "saves": 29,
+        "goals": 3,
+        "elapsed": 53.94010589865878
+      },
+      {
+        "seed": 5,
+        "score": 188,
+        "saves": 38,
+        "goals": 0,
+        "elapsed": 60.1967878989185
+      },
+      {
+        "seed": 6,
+        "score": 148,
+        "saves": 33,
+        "goals": 3,
+        "elapsed": 58.09678789891851
+      },
+      {
+        "seed": 7,
+        "score": 56,
+        "saves": 14,
+        "goals": 3,
+        "elapsed": 31.261786373051933
+      },
+      {
+        "seed": 8,
+        "score": 140,
+        "saves": 31,
+        "goals": 3,
+        "elapsed": 56.04010589865877
+      },
+      {
+        "seed": 9,
+        "score": 188,
+        "saves": 38,
+        "goals": 0,
+        "elapsed": 60.1967878989185
+      },
+      {
+        "seed": 10,
+        "score": 188,
+        "saves": 38,
+        "goals": 0,
+        "elapsed": 60.1967878989185
+      },
+      {
+        "seed": 11,
+        "score": 180,
+        "saves": 36,
+        "goals": 2,
+        "elapsed": 60.284972680858374
+      },
+      {
+        "seed": 12,
+        "score": 180,
+        "saves": 36,
+        "goals": 2,
+        "elapsed": 60.24010589865876
+      },
+      {
+        "seed": 13,
+        "score": 100,
+        "saves": 25,
+        "goals": 3,
+        "elapsed": 49.23094612083836
+      },
+      {
+        "seed": 14,
+        "score": 144,
+        "saves": 32,
+        "goals": 3,
+        "elapsed": 57.13497268085838
+      },
+      {
+        "seed": 15,
+        "score": 48,
+        "saves": 12,
+        "goals": 3,
+        "elapsed": 27.90377177587174
+      },
+      {
+        "seed": 16,
+        "score": 172,
+        "saves": 35,
+        "goals": 3,
+        "elapsed": 60.283685375258614
+      },
+      {
+        "seed": 17,
+        "score": 156,
+        "saves": 33,
+        "goals": 3,
+        "elapsed": 58.18368537525862
+      },
+      {
+        "seed": 18,
+        "score": 160,
+        "saves": 34,
+        "goals": 3,
+        "elapsed": 59.146787898918504
+      },
+      {
+        "seed": 19,
+        "score": 100,
+        "saves": 25,
+        "goals": 3,
+        "elapsed": 49.1873666442385
+      },
+      {
+        "seed": 20,
+        "score": 108,
+        "saves": 27,
+        "goals": 3,
+        "elapsed": 51.796787898918524
+      },
+      {
+        "seed": 21,
+        "score": 180,
+        "saves": 36,
+        "goals": 2,
+        "elapsed": 60.24010589865876
+      },
+      {
+        "seed": 22,
+        "score": 180,
+        "saves": 36,
+        "goals": 2,
+        "elapsed": 60.24010589865876
+      },
+      {
+        "seed": 23,
+        "score": 144,
+        "saves": 32,
+        "goals": 3,
+        "elapsed": 57.04678789891851
+      },
+      {
+        "seed": 24,
+        "score": 108,
+        "saves": 27,
+        "goals": 3,
+        "elapsed": 51.8849726808584
+      },
+      {
+        "seed": 25,
+        "score": 180,
+        "saves": 36,
+        "goals": 2,
+        "elapsed": 60.24010589865876
+      },
+      {
+        "seed": 26,
+        "score": 164,
+        "saves": 34,
+        "goals": 3,
+        "elapsed": 59.32368976530494
+      },
+      {
+        "seed": 27,
+        "score": 72,
+        "saves": 18,
+        "goals": 3,
+        "elapsed": 38.09718198339762
+      },
+      {
+        "seed": 28,
+        "score": 160,
+        "saves": 34,
+        "goals": 3,
+        "elapsed": 59.190105898658764
+      },
+      {
+        "seed": 29,
+        "score": 180,
+        "saves": 36,
+        "goals": 2,
+        "elapsed": 60.284972680858374
+      },
+      {
+        "seed": 30,
+        "score": 176,
+        "saves": 36,
+        "goals": 2,
+        "elapsed": 60.24010589865876
+      },
+      {
+        "seed": 31,
+        "score": 164,
+        "saves": 34,
+        "goals": 3,
+        "elapsed": 59.23368537525862
+      },
+      {
+        "seed": 32,
+        "score": 176,
+        "saves": 36,
+        "goals": 2,
+        "elapsed": 60.1967878989185
+      },
+      {
+        "seed": 33,
+        "score": 96,
+        "saves": 24,
+        "goals": 3,
+        "elapsed": 47.751892158883514
+      },
+      {
+        "seed": 34,
+        "score": 96,
+        "saves": 24,
+        "goals": 3,
+        "elapsed": 47.70648209062727
+      },
+      {
+        "seed": 35,
+        "score": 184,
+        "saves": 37,
+        "goals": 1,
+        "elapsed": 60.24010589865876
+      },
+      {
+        "seed": 36,
+        "score": 180,
+        "saves": 36,
+        "goals": 2,
+        "elapsed": 60.24010589865876
+      },
+      {
+        "seed": 37,
+        "score": 40,
+        "saves": 10,
+        "goals": 3,
+        "elapsed": 24.40717926864177
+      },
+      {
+        "seed": 38,
+        "score": 116,
+        "saves": 28,
+        "goals": 3,
+        "elapsed": 52.89010589865878
+      },
+      {
+        "seed": 39,
+        "score": 92,
+        "saves": 23,
+        "goals": 3,
+        "elapsed": 46.12870888941833
+      },
+      {
+        "seed": 40,
+        "score": 184,
+        "saves": 37,
+        "goals": 1,
+        "elapsed": 60.1967878989185
+      },
+      {
+        "seed": 41,
+        "score": 100,
+        "saves": 25,
+        "goals": 3,
+        "elapsed": 49.31992626047567
+      },
+      {
+        "seed": 42,
+        "score": 180,
+        "saves": 37,
+        "goals": 1,
+        "elapsed": 60.1967878989185
+      },
+      {
+        "seed": 43,
+        "score": 180,
+        "saves": 37,
+        "goals": 1,
+        "elapsed": 60.1967878989185
+      },
+      {
+        "seed": 44,
+        "score": 124,
+        "saves": 29,
+        "goals": 3,
+        "elapsed": 53.98497268085839
+      },
+      {
+        "seed": 45,
+        "score": 180,
+        "saves": 36,
+        "goals": 2,
+        "elapsed": 60.284972680858374
+      },
+      {
+        "seed": 46,
+        "score": 160,
+        "saves": 34,
+        "goals": 3,
+        "elapsed": 59.23497268085838
+      },
+      {
+        "seed": 47,
+        "score": 44,
+        "saves": 11,
+        "goals": 3,
+        "elapsed": 26.16073619302992
+      },
+      {
+        "seed": 48,
+        "score": 88,
+        "saves": 22,
+        "goals": 3,
+        "elapsed": 44.58737183920412
+      },
+      {
+        "seed": 49,
+        "score": 140,
+        "saves": 31,
+        "goals": 3,
+        "elapsed": 55.99678789891851
+      },
+      {
+        "seed": 50,
+        "score": 84,
+        "saves": 21,
+        "goals": 3,
+        "elapsed": 42.990771010723
+      }
+    ],
+    "endless": [
+      {
+        "seed": 1,
+        "score": 132,
+        "saves": 33,
+        "goals": 3,
+        "elapsed": 61.366395427428046
+      },
+      {
+        "seed": 2,
+        "score": 68,
+        "saves": 17,
+        "goals": 3,
+        "elapsed": 36.36831213871943
+      },
+      {
+        "seed": 3,
+        "score": 160,
+        "saves": 40,
+        "goals": 3,
+        "elapsed": 71.41659395420866
+      },
+      {
+        "seed": 4,
+        "score": 116,
+        "saves": 29,
+        "goals": 3,
+        "elapsed": 55.411679662348014
+      },
+      {
+        "seed": 5,
+        "score": 224,
+        "saves": 56,
+        "goals": 3,
+        "elapsed": 93.63095820516484
+      },
+      {
+        "seed": 6,
+        "score": 132,
+        "saves": 33,
+        "goals": 3,
+        "elapsed": 61.159629743994245
+      },
+      {
+        "seed": 7,
+        "score": 56,
+        "saves": 14,
+        "goals": 3,
+        "elapsed": 31.261786373051933
+      },
+      {
+        "seed": 8,
+        "score": 124,
+        "saves": 31,
+        "goals": 3,
+        "elapsed": 58.364301269016444
+      },
+      {
+        "seed": 9,
+        "score": 240,
+        "saves": 60,
+        "goals": 3,
+        "elapsed": 99.16350478978711
+      },
+      {
+        "seed": 10,
+        "score": 196,
+        "saves": 49,
+        "goals": 3,
+        "elapsed": 83.9604111113871
+      },
+      {
+        "seed": 11,
+        "score": 144,
+        "saves": 36,
+        "goals": 3,
+        "elapsed": 65.68428309173984
+      },
+      {
+        "seed": 12,
+        "score": 176,
+        "saves": 44,
+        "goals": 3,
+        "elapsed": 77.0792235560118
+      },
+      {
+        "seed": 13,
+        "score": 100,
+        "saves": 25,
+        "goals": 3,
+        "elapsed": 49.23094612083836
+      },
+      {
+        "seed": 14,
+        "score": 128,
+        "saves": 32,
+        "goals": 3,
+        "elapsed": 59.87061421504666
+      },
+      {
+        "seed": 15,
+        "score": 48,
+        "saves": 12,
+        "goals": 3,
+        "elapsed": 27.90377177587174
+      },
+      {
+        "seed": 16,
+        "score": 140,
+        "saves": 35,
+        "goals": 3,
+        "elapsed": 64.2298257489502
+      },
+      {
+        "seed": 17,
+        "score": 132,
+        "saves": 33,
+        "goals": 3,
+        "elapsed": 61.323379467958475
+      },
+      {
+        "seed": 18,
+        "score": 136,
+        "saves": 34,
+        "goals": 3,
+        "elapsed": 62.69328978464581
+      },
+      {
+        "seed": 19,
+        "score": 100,
+        "saves": 25,
+        "goals": 3,
+        "elapsed": 49.1873666442385
+      },
+      {
+        "seed": 20,
+        "score": 108,
+        "saves": 27,
+        "goals": 3,
+        "elapsed": 52.29685262607047
+      },
+      {
+        "seed": 21,
+        "score": 144,
+        "saves": 36,
+        "goals": 3,
+        "elapsed": 65.64126713227029
+      },
+      {
+        "seed": 22,
+        "score": 160,
+        "saves": 40,
+        "goals": 3,
+        "elapsed": 71.41659395420866
+      },
+      {
+        "seed": 23,
+        "score": 128,
+        "saves": 32,
+        "goals": 3,
+        "elapsed": 59.785556844722414
+      },
+      {
+        "seed": 24,
+        "score": 108,
+        "saves": 27,
+        "goals": 3,
+        "elapsed": 52.3845082993187
+      },
+      {
+        "seed": 25,
+        "score": 176,
+        "saves": 44,
+        "goals": 3,
+        "elapsed": 77.0792235560118
+      },
+      {
+        "seed": 26,
+        "score": 136,
+        "saves": 34,
+        "goals": 3,
+        "elapsed": 62.86289418107234
+      },
+      {
+        "seed": 27,
+        "score": 72,
+        "saves": 18,
+        "goals": 3,
+        "elapsed": 38.09718198339762
+      },
+      {
+        "seed": 28,
+        "score": 136,
+        "saves": 34,
+        "goals": 3,
+        "elapsed": 62.694481382795246
+      },
+      {
+        "seed": 29,
+        "score": 200,
+        "saves": 50,
+        "goals": 3,
+        "elapsed": 85.5820332454178
+      },
+      {
+        "seed": 30,
+        "score": 196,
+        "saves": 49,
+        "goals": 3,
+        "elapsed": 84.1171710897824
+      },
+      {
+        "seed": 31,
+        "score": 136,
+        "saves": 34,
+        "goals": 3,
+        "elapsed": 62.77660260845434
+      },
+      {
+        "seed": 32,
+        "score": 152,
+        "saves": 38,
+        "goals": 3,
+        "elapsed": 68.46584287814598
+      },
+      {
+        "seed": 33,
+        "score": 96,
+        "saves": 24,
+        "goals": 3,
+        "elapsed": 47.751892158883514
+      },
+      {
+        "seed": 34,
+        "score": 96,
+        "saves": 24,
+        "goals": 3,
+        "elapsed": 47.70648209062727
+      },
+      {
+        "seed": 35,
+        "score": 172,
+        "saves": 43,
+        "goals": 3,
+        "elapsed": 75.58566094703262
+      },
+      {
+        "seed": 36,
+        "score": 196,
+        "saves": 49,
+        "goals": 3,
+        "elapsed": 84.15751055826571
+      },
+      {
+        "seed": 37,
+        "score": 40,
+        "saves": 10,
+        "goals": 3,
+        "elapsed": 24.40717926864177
+      },
+      {
+        "seed": 38,
+        "score": 112,
+        "saves": 28,
+        "goals": 3,
+        "elapsed": 53.880416708050866
+      },
+      {
+        "seed": 39,
+        "score": 92,
+        "saves": 23,
+        "goals": 3,
+        "elapsed": 46.12870888941833
+      },
+      {
+        "seed": 40,
+        "score": 192,
+        "saves": 48,
+        "goals": 3,
+        "elapsed": 82.65998262269889
+      },
+      {
+        "seed": 41,
+        "score": 100,
+        "saves": 25,
+        "goals": 3,
+        "elapsed": 49.31992626047567
+      },
+      {
+        "seed": 42,
+        "score": 188,
+        "saves": 47,
+        "goals": 3,
+        "elapsed": 81.16666205053062
+      },
+      {
+        "seed": 43,
+        "score": 236,
+        "saves": 59,
+        "goals": 3,
+        "elapsed": 97.81304412825753
+      },
+      {
+        "seed": 44,
+        "score": 116,
+        "saves": 29,
+        "goals": 3,
+        "elapsed": 55.4557436783893
+      },
+      {
+        "seed": 45,
+        "score": 268,
+        "saves": 67,
+        "goals": 3,
+        "elapsed": 108.81927908679727
+      },
+      {
+        "seed": 46,
+        "score": 136,
+        "saves": 34,
+        "goals": 3,
+        "elapsed": 62.7374973422648
+      },
+      {
+        "seed": 47,
+        "score": 44,
+        "saves": 11,
+        "goals": 3,
+        "elapsed": 26.16073619302992
+      },
+      {
+        "seed": 48,
+        "score": 88,
+        "saves": 22,
+        "goals": 3,
+        "elapsed": 44.58737183920412
+      },
+      {
+        "seed": 49,
+        "score": 124,
+        "saves": 31,
+        "goals": 3,
+        "elapsed": 58.322267308075
+      },
+      {
+        "seed": 50,
+        "score": 84,
+        "saves": 21,
+        "goals": 3,
+        "elapsed": 42.990771010723
+      }
+    ]
+  }
+}

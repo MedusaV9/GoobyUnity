@@ -1,0 +1,71 @@
+{
+  "id": "doktor_besuch",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "goouhbus",
+      "text": [
+        "Herein, wenn’s kein Vertreter ist! … Oh, ein Gooby. Setz dich aufs Bänkchen, ich suche nur kurz meine Brille.",
+        "(Er trägt eine auf der Stirn, eine um den Hals und eine im Mund.)"
+      ],
+      "optionen": [
+        {"text": "Gooby ist krank.", "next": "diagnose", "cond": "!flag:rezept_tropfen"},
+        {"text": "Gooby ist krank.", "next": "rezept_schon", "cond": "flag:rezept_tropfen"},
+        {"text": "Sind Sie wirklich 4× Doktor?", "next": "titel"},
+        {"text": "Nur zum Check-up.", "next": "checkup"}
+      ]
+    },
+    "titel": {
+      "sprecher": "goouhbus",
+      "text": [
+        "Dr. Dr. Professor Dr. Dr.! Zwei Titel in Medizin, einer in Käsekunde, und einen … habe ich im Aufzug gefunden.",
+        "Der zählt moralisch."
+      ],
+      "next": "hallo"
+    },
+    "diagnose": {
+      "sprecher": "goouhbus",
+      "text": [
+        "Krank? KRANK?! Das haben wir gleich. Zunge raus! … Das ist ein Ohr. Auch gut. Sag mal AAAAH.",
+        "(Gooby macht „Bleeeh~“.)",
+        "Interessant. SEHR interessant. Ich habe keine Ahnung, was das bedeutet."
+      ],
+      "optionen": [
+        {"text": "Ein ganzes Glas Nutella.", "next": "nutella"},
+        {"text": "Er niest ununterbrochen.", "next": "niesen"}
+      ]
+    },
+    "nutella": {
+      "sprecher": "goouhbus",
+      "text": "EIN Glas? Respekt. Ich habe als Student zwei geschafft. Trotzdem: REZEPT!",
+      "next": "rezept"
+    },
+    "niesen": {
+      "sprecher": "goouhbus",
+      "text": "Niesen ist nur Applaus von innen. Aber sicher ist sicher: REZEPT!",
+      "next": "rezept"
+    },
+    "rezept": {
+      "sprecher": "goouhbus",
+      "text": [
+        "(Er stempelt dreimal daneben, einmal auf die eigene Hand, dann aufs Rezept.)",
+        "Damit gehst du zu Hilde in die GOOBYTHEKE. Und richte ihr aus, sie schuldet mir noch ein Käsebrot. Von 1987."
+      ],
+      "effekt": ["flag:rezept_tropfen"],
+      "ende": true
+    },
+    "rezept_schon": {
+      "sprecher": "goouhbus",
+      "text": "Du HAST doch schon ein Rezept! Steht hier: Käsebrot… äh, Gooby-Tropfen. Ab zu Hilde mit dir!",
+      "ende": true
+    },
+    "checkup": {
+      "sprecher": "goouhbus",
+      "text": [
+        "Kerngesund! Das Herz pumpt, die Ohren wackeln, der Rest ist Zubehör.",
+        "Macht null Münzen. Berufsehre."
+      ],
+      "ende": true
+    }
+  }
+}

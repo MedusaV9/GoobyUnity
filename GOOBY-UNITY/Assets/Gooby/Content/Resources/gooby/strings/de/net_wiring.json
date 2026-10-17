@@ -1,0 +1,11 @@
+{
+	"net": {
+		"server_event": {
+			"toast": "Event: {name}"
+		},
+		"redeem": {
+			"ok": "Code {code} eingelöst!",
+			"err": "Code {code}: das hat nicht geklappt ({error})."
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+  "id": "autohaus_besuch",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "benzino",
+      "text": [
+        "Gooberto Benzino, delighted! Smell that? That’s the smell of brand-new floor mats.",
+        "Sit inside, touch everything, fiddle with the radio. The car likes it."
+      ],
+      "optionen": [
+        {"text": "Show me the cars.", "next": "showroom"},
+        {"text": "Can I take a test drive?", "next": "probefahrt"},
+        {"text": "Why does it cost that much?", "next": "preis"},
+        {"text": "Just looking around.", "next": "gucken"}
+      ]
+    },
+    "showroom": {
+      "sprecher": "benzino",
+      "text": [
+        "This beauty? Zero to sixty in … eventually! But LISTEN to that horn.",
+        "You pick the colour yourself. We paint it while you watch — otherwise nobody believes it."
+      ],
+      "effekt": ["laden"],
+      "ende": true
+    },
+    "probefahrt": {
+      "sprecher": "benzino",
+      "text": [
+        "Of course! Once around the roundabout. Don’t scratch it! Haha! … No, really. Please don’t.",
+        "The moment you buy, the road is yours. Well — on loan. The city sees it differently."
+      ],
+      "next": "hallo"
+    },
+    "preis": {
+      "sprecher": "benzino",
+      "text": [
+        "Because there are THREE things in there you’ll never need — and those are the ones you want.",
+        "Also it pays for my suit. The suit sells the cars, not me."
+      ],
+      "next": "hallo"
+    },
+    "gucken": {
+      "sprecher": "benzino",
+      "text": [
+        "By all means! Looking is first gear.",
+        "And second gear is … well? Exactly. Buying. I’ll wait here. I wait very well."
+      ],
+      "ende": true
+    }
+  }
+}

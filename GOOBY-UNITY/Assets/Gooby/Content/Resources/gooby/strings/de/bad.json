@@ -1,0 +1,34 @@
+{
+	"bad": {
+		"lampe": {
+			"titel": "Lichtschalter",
+			"umlegen": "Schalter umlegen",
+			"komme": "Moment, ich komme!",
+			"klick": "Klick!"
+		},
+		"dusche": {
+			"start": "Duschzeit! Nicht gucken!",
+			"fertig": "Frisch und flauschig!",
+			"peek1": "Ähm… ich bin noch hier drin?",
+			"peek2": "Das Wasser wird kalt, weißt du…",
+			"peek3": "Ich schrumpel schon!"
+		},
+		"klo": {
+			"gang": "Muss mal… bin gleich zurück!",
+			"fertig": "Viel besser. Frag nicht."
+		},
+		"spiegel": {
+			"titel": "Spieglein, Spieglein",
+			"augenabstand": "Augenabstand",
+			"augengroesse": "Augengröße",
+			"ohrlaenge": "Ohrenlänge",
+			"pausbacken": "Pausbäckchen"
+		},
+		"zahnputz": {
+			"warte": "Zähne putzen nicht vergessen!",
+			"rubbel": "Rubbel die Bürste hin und her!",
+			"fertig": "Blitzeblank! Riech mal!",
+			"bruch": "Ups… die Bürste hat aufgegeben. Sie war eine Gute."
+		}
+	}
+}

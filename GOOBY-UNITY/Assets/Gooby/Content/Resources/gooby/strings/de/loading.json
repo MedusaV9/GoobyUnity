@@ -1,0 +1,58 @@
+{
+	"loading": {
+		"laedt": "Lädt…",
+		"boot": {
+			"sprueche": [
+				"Möhren werden gewaschen…",
+				"Ohren werden aufgeplustert…",
+				"Sofakissen werden aufgeschüttelt…",
+				"Die Sonne wird aufgezogen…",
+				"Krümel werden unterm Teppich versteckt…",
+				"Blumen bekommen einen Schluck Wasser…",
+				"Fell wird auf Flausch-Stufe gebürstet…",
+				"Der Teppich wird glattgestrichen…",
+				"Die Kuscheldecke wird vorgewärmt…",
+				"Gooby übt schon mal Winken…"
+			]
+		},
+		"tips": [
+			"Der Hufschlag verrät den Boden: Auf Sand klingt es weich, auf Holz hohl, auf Stein hell — und Matsch bremst dein Pferd.",
+			"Streicheln in der Rast schenkt einmal pro Ritt einen zweiten Wind, wenn die Ausdauer leer ist.",
+			"Galopp frisst Ausdauer. Wechsle zwischendurch in den Schritt, dann erholt sich dein Pferd.",
+			"Springe im richtigen Moment ab: Kurz vor dem Hindernis wartet die Wertung „Perfekt“.",
+			"Bürsten, Füttern, Ausmisten — ein gepflegtes Pferd baut schneller Bindung auf.",
+			"Nach einem Regenschauer lohnt der Blick zum Abendhimmel: Mit etwas Glück steht dort ein Regenbogen.",
+			"Nachts sind Füchse und Glühwürmchen unterwegs, tagsüber gehören Wiese und Himmel den Vögeln.",
+			"Die Furt am Bachlauf ist flach genug zum Durchreiten — über die Brücke bleibst du trocken.",
+			"Im Weidetal grasen Wildpferde in der Ferne. Nähere dich langsam, sonst fliehen sie.",
+			"Jede Zone will entdeckt werden: Vom Aussichtspunkt auf dem Hügelkamm siehst du die ganze Region.",
+			"Die alte Scheune im Südwesten hütet ein Geheimnis. Ein Ausritt dorthin lohnt sich.",
+			"Am See watscheln Enten über den Steg — abends ist der Teich besonders schön.",
+			"Töltende Pferde tragen dich flott, ohne zu ermüden. Nicht jede Rasse beherrscht den Tölt.",
+			"Scheut dein Pferd, bleib im ruhigen Tempo: Nach ein paar Sekunden legt sich der Schreck.",
+			"Heu raschelt, wenn der Trog gefüllt wird — hungrige Pferde danken es mit einem Wiehern.",
+			"Der Turnierplatz liegt südöstlich vom Hof: Stangen, Mauer und Oxer wollen sauber übersprungen werden.",
+			"In Hufingen warten Dorfbewohner mit Aufgaben. Der Feldweg am Dorfrand führt dich hin.",
+			"Das Wetter ist planbar: Der Tagesplan verrät, wann Regen aufzieht — gut für trockene Ausritte.",
+			"Gewitter klingen gewaltig, sind aber harmlos. Im Stall unterzustehen fühlt sich trotzdem gemütlich an.",
+			"Ein Fohlen erbt Werte beider Eltern — wähle das Zuchtpaar mit Bedacht.",
+			"Training wirkt gezielt: Viel Galopp stärkt das Tempo, viele Sprünge die Sprungkraft.",
+			"Der Feldweg verbindet alle Zonen. Wer ihm folgt, verirrt sich nie.",
+			"Bindung zahlt sich aus: Ein vertrautes Pferd scheut seltener und hört feiner auf die Zügel.",
+			"Schnaubt dein Pferd tief, ist es erschöpft — gönn ihm eine Pause im Schritt.",
+			"Der Stall lässt sich ausbauen: Mehr Boxen bedeuten Platz für neue Pferde.",
+			"Sattel auf, aufsteigen, los — mit „Ausreiten!“ startest du vom Hof in die offene Region.",
+			"Musik und Geräusche lassen sich in den Einstellungen getrennt regeln — ganz nach Geschmack.",
+			"Regen macht den Boden nass und matschig. Plane nach einem Schauer etwas mehr Zeit ein."
+		],
+		"moment": {
+			"willkommen": "Willkommen auf der Gooby-Ranch!",
+			"willkommen_sub": "Dein Abenteuer beginnt.",
+			"entdeckt": "Neu entdeckt",
+			"turniersieg": "Turniersieg!",
+			"turniersieg_sub": "Was für ein Ritt!",
+			"fohlen": "Ein Fohlen ist geboren!",
+			"fohlen_sub": "{name} ist da."
+		}
+	}
+}

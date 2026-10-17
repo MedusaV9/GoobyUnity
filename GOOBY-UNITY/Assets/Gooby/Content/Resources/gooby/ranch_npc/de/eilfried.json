@@ -1,0 +1,134 @@
+{
+	"id": "rnpc_eilfried",
+	"start": "gruss_tag",
+	"nodes": {
+		"gruss_morgen": {
+			"sprecher": "eilfried",
+			"text": "Keine Zeit, keine Zeit! Morgenpost! Achtzehn Briefe, drei Pakete, eine verdächtig summende Kiste! … Na gut, zwei Minuten.",
+			"next": "hub"
+		},
+		"gruss_tag": {
+			"sprecher": "eilfried",
+			"text": "Eilfried, Postbote, sehr im Stress! Sieht man an meinem Gang! … Der ist immer so, aber der Stress ist ECHT.",
+			"next": "hub"
+		},
+		"gruss_abend": {
+			"sprecher": "eilfried",
+			"text": "Feierabendrunde! Die letzte Runde geh ich langsam. Also … langsamer. Es ist kompliziert mit meinen Füßen.",
+			"next": "hub"
+		},
+		"gruss_regen": {
+			"sprecher": "eilfried",
+			"text": "Regen! ENDLICH! Bestes Zustellwetter! Für mich. Die Briefe sehen das anders, die sitzen in der wasserdichten Tasche.",
+			"next": "hub"
+		},
+		"gruss_freund": {
+			"sprecher": "eilfried",
+			"text": "Oh! DU! Für dich hab ich immer Zeit! Streich das aus dem Protokoll, ich hab NIE Zeit. Für dich mach ich Zeit. Aus Nichts!",
+			"next": "hub"
+		},
+		"hub": {
+			"sprecher": "eilfried",
+			"text": "Schnell, schnell — was gibt's?",
+			"optionen": [
+				{"text": "Brauchst du Hilfe?", "next": "quest_vergabe", "cond": "flag:quest_vergabe"},
+				{"text": "Zustellung erledigt!", "next": "quest_abgabe", "cond": "flag:quest_abgabe"},
+				{"text": "Was gibt's Neues?", "next": "smalltalk_a", "cond": "flag:smalltalk_a"},
+				{"text": "Was gibt's Neues?", "next": "smalltalk_b", "cond": "flag:smalltalk_b"},
+				{"text": "Was gibt's Neues?", "next": "smalltalk_c", "cond": "flag:smalltalk_c"},
+				{"text": "Dein seltsamstes Paket?", "next": "geschichte_1", "cond": "flag:geschichte_1_frei"},
+				{"text": "Warum Postbote?", "next": "geschichte_2", "cond": "flag:geschichte_2_frei"},
+				{"text": "Gute Tour!", "next": "tschuess"}
+			]
+		},
+		"smalltalk_a": {
+			"sprecher": "eilfried",
+			"text": [
+				"Neuigkeiten? Ich BIN die Neuigkeiten! Alles, was das Tal weiß, ging durch meine Tasche!",
+				"Streng vertraulich natürlich. Ich les ja nichts. Ich … wiege nur sehr aufmerksam."
+			],
+			"next": "hub"
+		},
+		"smalltalk_b": {
+			"sprecher": "eilfried",
+			"text": [
+				"Heute schon vierzig Kilometer gewatschelt! Okay, vier. Aber in Entenkilometern ist das VIEL.",
+				"Der Umrechnungskurs ist eins zu zehn. Hab ich selbst festgelegt. Als Fachbehörde."
+			],
+			"next": "hub"
+		},
+		"smalltalk_c": {
+			"sprecher": "eilfried",
+			"text": [
+				"Weißt du, bei dir mach ich immer eine Extra-Pause. Offiziell wegen der schweren Tasche.",
+				"Inoffiziell … du bist die beste Adresse im Tal. Sag's nicht den anderen Adressen!"
+			],
+			"next": "hub"
+		},
+		"quest_vergabe": {
+			"sprecher": "eilfried",
+			"text": "JA! Sondersendung! Eilzustellung! Und meine Füße sind heute … thematisch dagegen. Übernimmst du?",
+			"optionen": [
+				{"text": "Expresslieferung — ich!", "next": "quest_annahme"},
+				{"text": "Mein Briefkasten ist voll …", "next": "ablehnung"}
+			]
+		},
+		"quest_annahme": {
+			"sprecher": "eilfried",
+			"text": "GROSSARTIG! Hiermit bist du Hilfspostbote ehrenhalber! Die Mütze gibt's bei fünf Herzen, das ist Beamtenrecht!",
+			"effekt": ["flag:rw3_quest_annehmen"],
+			"ende": true
+		},
+		"ablehnung": {
+			"sprecher": "eilfried",
+			"text": "Verstehe, verstehe! Dann lagert die Sendung zwischen. Bei mir unterm Hut. Da ist erstaunlich viel Platz.",
+			"next": "hub"
+		},
+		"quest_abgabe": {
+			"sprecher": "eilfried",
+			"text": "Zugestellt und quittiert! SAUBERE Arbeit! Du kriegst von mir den goldenen Poststempel! Er ist aus Kartoffel, aber GOLDEN angemalt!",
+			"effekt": ["flag:rw3_quest_abgeben"],
+			"ende": true
+		},
+		"geschenk_liebt": {
+			"sprecher": "eilfried",
+			"text": "Ein KEKS! Verpflegung für unterwegs! Du verstehst das Postwesen im Herzen! Der wird bei Kilometer zwei feierlich verzehrt!",
+			"next": "hub"
+		},
+		"geschenk_mag": {
+			"sprecher": "eilfried",
+			"text": "Für mich? Ohne Absender? Dann darf ich's behalten, Paragraph sieben! Mein Lieblingsparagraph!",
+			"next": "hub"
+		},
+		"geschenk_normal": {
+			"sprecher": "eilfried",
+			"text": "Oh! Danke! Ich stufe es als … Päckchen der Zuneigung ein. Porto zahlt der Empfänger: ein Lächeln. Hier, bitte!",
+			"next": "hub"
+		},
+		"geschichte_1": {
+			"sprecher": "eilfried",
+			"text": [
+				"Das seltsamste Paket? Eine Kiste, adressiert an Das schnellste Tier im Tal. Kein Name. Nichts.",
+				"Ich bin drei Tage rumgelaufen und hab gefragt. Der Hase sagte, er sei's. Das Pferd sagte, es sei's. Peinlich für beide.",
+				"Am Ende stand fest: Die Kiste war für MICH. Von meiner Mutter. Hausschuhe. Sie kennt mich gut."
+			],
+			"effekt": ["flag:rw3_geschichte_1"],
+			"next": "hub"
+		},
+		"geschichte_2": {
+			"sprecher": "eilfried",
+			"text": [
+				"Warum Postbote? Kleiner Eilfried konnte nicht fliegen. Alle Enten flogen im Herbst weg — ich blieb am Boden.",
+				"Ich hab geheult, bis der alte Postbote sagte: Junge, wer nicht fliegen kann, muss eben Wichtiges tragen.",
+				"Jetzt trage ich jeden Tag Wichtiges. Und im Herbst? Winken die anderen von oben. Ich winke mit Briefen zurück."
+			],
+			"effekt": ["flag:rw3_geschichte_2"],
+			"ende": true
+		},
+		"tschuess": {
+			"sprecher": "eilfried",
+			"text": "Weiter geht's! Die Post ruht nie! Sie macht höchstens … strategische Watschelpausen! TSCHÜSS!",
+			"ende": true
+		}
+	}
+}

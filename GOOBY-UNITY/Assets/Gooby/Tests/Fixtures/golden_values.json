@@ -1,0 +1,894 @@
+{
+ "generatedAt": 1768478400000,
+ "tz": "UTC",
+ "leveling": {
+  "maxLevel": 40,
+  "xpToNext": {
+   "1": 100,
+   "2": 150,
+   "3": 200,
+   "4": 250,
+   "5": 300,
+   "6": 350,
+   "7": 400,
+   "8": 450,
+   "9": 500,
+   "10": 550,
+   "11": 600,
+   "12": 650,
+   "13": 700,
+   "14": 750,
+   "15": 800,
+   "16": 850,
+   "17": 900,
+   "18": 950,
+   "19": 1000,
+   "20": 1050,
+   "21": 1100,
+   "22": 1150,
+   "23": 1200,
+   "24": 1250,
+   "25": 1300,
+   "26": 1350,
+   "27": 1400,
+   "28": 1450,
+   "29": 1500,
+   "30": 1550,
+   "31": 1600,
+   "32": 1650,
+   "33": 1700,
+   "34": 1750,
+   "35": 1800,
+   "36": 1850,
+   "37": 1900,
+   "38": 1950,
+   "39": 2000,
+   "40": 2050
+  },
+  "cumulativeXpTo40": 40950,
+  "cumulativeXpTo10": 2700,
+  "applyXpCases": [
+   {
+    "progress": {
+     "xp": 0,
+     "level": 1
+    },
+    "amount": 100,
+    "result": {
+     "xp": 0,
+     "level": 2,
+     "levelsGained": 1,
+     "coinsAwarded": 50
+    }
+   },
+   {
+    "progress": {
+     "xp": 90,
+     "level": 1
+    },
+    "amount": 5,
+    "result": {
+     "xp": 95,
+     "level": 1,
+     "levelsGained": 0,
+     "coinsAwarded": 0
+    }
+   },
+   {
+    "progress": {
+     "xp": 0,
+     "level": 1
+    },
+    "amount": 1000,
+    "result": {
+     "xp": 0,
+     "level": 6,
+     "levelsGained": 5,
+     "coinsAwarded": 500
+    }
+   },
+   {
+    "progress": {
+     "xp": 310,
+     "level": 12
+    },
+    "amount": 650,
+    "result": {
+     "xp": 310,
+     "level": 13,
+     "levelsGained": 1,
+     "coinsAwarded": 325
+    }
+   },
+   {
+    "progress": {
+     "xp": 0,
+     "level": 39
+    },
+    "amount": 3000,
+    "result": {
+     "xp": 0,
+     "level": 40,
+     "levelsGained": 1,
+     "coinsAwarded": 1000
+    }
+   },
+   {
+    "progress": {
+     "xp": 0,
+     "level": 40
+    },
+    "amount": 500,
+    "result": {
+     "xp": 0,
+     "level": 40,
+     "levelsGained": 0,
+     "coinsAwarded": 0
+    }
+   },
+   {
+    "progress": {
+     "xp": 0,
+     "level": 12
+    },
+    "amount": 0,
+    "result": {
+     "xp": 0,
+     "level": 12,
+     "levelsGained": 0,
+     "coinsAwarded": 0
+    }
+   }
+  ],
+  "minigameXp": {
+   "0": 10,
+   "4": 12,
+   "10": 15,
+   "25": 22,
+   "26": 23,
+   "29": 24,
+   "30": 25,
+   "31": 25,
+   "50": 25,
+   "100": 25
+  }
+ },
+ "stats": {
+  "ratesAwake": {
+   "hunger": -0.35,
+   "energy": -0.25,
+   "hygiene": -0.15,
+   "fun": -0.5
+  },
+  "ratesAsleep": {
+   "hunger": -0.175,
+   "energy": 3.334,
+   "hygiene": 0,
+   "fun": 0
+  },
+  "applyTickCases": [
+   {
+    "stats": {
+     "hunger": 80,
+     "energy": 90,
+     "hygiene": 85,
+     "fun": 70
+    },
+    "dtMin": 10,
+    "opts": {},
+    "result": {
+     "hunger": 76.5,
+     "energy": 87.5,
+     "hygiene": 83.5,
+     "fun": 65
+    }
+   },
+   {
+    "stats": {
+     "hunger": 80,
+     "energy": 90,
+     "hygiene": 85,
+     "fun": 70
+    },
+    "dtMin": 10,
+    "opts": {
+     "asleep": true
+    },
+    "result": {
+     "hunger": 78.25,
+     "energy": 100,
+     "hygiene": 85,
+     "fun": 70
+    }
+   },
+   {
+    "stats": {
+     "hunger": 50,
+     "energy": 10,
+     "hygiene": 50,
+     "fun": 50
+    },
+    "dtMin": 30,
+    "opts": {
+     "asleep": true
+    },
+    "result": {
+     "hunger": 44.75,
+     "energy": 100,
+     "hygiene": 50,
+     "fun": 50
+    }
+   },
+   {
+    "stats": {
+     "hunger": 30,
+     "energy": 40,
+     "hygiene": 20,
+     "fun": 25
+    },
+    "dtMin": 480,
+    "opts": {
+     "rateMult": 0.3
+    },
+    "result": {
+     "hunger": 0,
+     "energy": 4,
+     "hygiene": 0,
+     "fun": 0
+    }
+   },
+   {
+    "stats": {
+     "hunger": 1,
+     "energy": 1,
+     "hygiene": 1,
+     "fun": 1
+    },
+    "dtMin": 100,
+    "opts": {},
+    "result": {
+     "hunger": 0,
+     "energy": 0,
+     "hygiene": 0,
+     "fun": 0
+    }
+   }
+  ],
+  "moodCases": [
+   {
+    "stats": {
+     "hunger": 80,
+     "energy": 90,
+     "hygiene": 85,
+     "fun": 70
+    },
+    "opts": {},
+    "result": 77.3125,
+    "band": "happy"
+   },
+   {
+    "stats": {
+     "hunger": 100,
+     "energy": 100,
+     "hygiene": 100,
+     "fun": 100
+    },
+    "opts": {},
+    "result": 100,
+    "band": "ecstatic"
+   },
+   {
+    "stats": {
+     "hunger": 20,
+     "energy": 90,
+     "hygiene": 85,
+     "fun": 70
+    },
+    "opts": {},
+    "result": 50.0625,
+    "band": "neutral"
+   },
+   {
+    "stats": {
+     "hunger": 80,
+     "energy": 10,
+     "hygiene": 85,
+     "fun": 70
+    },
+    "opts": {},
+    "result": 39,
+    "band": "grumpy"
+   },
+   {
+    "stats": {
+     "hunger": 80,
+     "energy": 90,
+     "hygiene": 85,
+     "fun": 70
+    },
+    "opts": {
+     "debuff": 15
+    },
+    "result": 62.3125,
+    "band": "happy"
+   },
+   {
+    "stats": {
+     "hunger": 0,
+     "energy": 0,
+     "hygiene": 0,
+     "fun": 0
+    },
+    "opts": {},
+    "result": 0,
+    "band": "miserable"
+   }
+  ],
+  "bands": [
+   {
+    "id": "ecstatic",
+    "min": 80
+   },
+   {
+    "id": "happy",
+    "min": 60
+   },
+   {
+    "id": "neutral",
+    "min": 40
+   },
+   {
+    "id": "grumpy",
+    "min": 25
+   },
+   {
+    "id": "miserable",
+    "min": 0
+   }
+  ]
+ },
+ "economy": {
+  "startingCoins": 100,
+  "dayCoinCap": 150,
+  "quickPrices": {
+   "5": 6,
+   "6": 8,
+   "10": 12,
+   "12": 15,
+   "14": 17,
+   "16": 20,
+   "25": 30,
+   "30": 36,
+   "40": 48,
+   "400": 480
+  },
+  "steps": [
+   {
+    "kind": "start",
+    "args": null,
+    "ret": null,
+    "coins": 100,
+    "coinsEarned": 0,
+    "coinsSpent": 0,
+    "dayCoins": 0,
+    "endlessCoins": 0
+   },
+   {
+    "kind": "award",
+    "args": [
+     120,
+     "minigame"
+    ],
+    "ret": 120,
+    "coins": 220,
+    "coinsEarned": 120,
+    "coinsSpent": 0,
+    "dayCoins": 0,
+    "endlessCoins": 0
+   },
+   {
+    "kind": "award",
+    "args": [
+     100,
+     "glueckspilz"
+    ],
+    "ret": 100,
+    "coins": 320,
+    "coinsEarned": 220,
+    "coinsSpent": 0,
+    "dayCoins": 100,
+    "endlessCoins": 0
+   },
+   {
+    "kind": "award",
+    "args": [
+     100,
+     "modifier"
+    ],
+    "ret": 50,
+    "coins": 370,
+    "coinsEarned": 270,
+    "coinsSpent": 0,
+    "dayCoins": 150,
+    "endlessCoins": 0
+   },
+   {
+    "kind": "award",
+    "args": [
+     40,
+     "glueckspilz"
+    ],
+    "ret": 0,
+    "coins": 370,
+    "coinsEarned": 270,
+    "coinsSpent": 0,
+    "dayCoins": 150,
+    "endlessCoins": 0
+   },
+   {
+    "kind": "award",
+    "args": [
+     60,
+     "endless"
+    ],
+    "ret": 60,
+    "coins": 430,
+    "coinsEarned": 330,
+    "coinsSpent": 0,
+    "dayCoins": 150,
+    "endlessCoins": 60
+   },
+   {
+    "kind": "award",
+    "args": [
+     60,
+     "endless"
+    ],
+    "ret": 40,
+    "coins": 470,
+    "coinsEarned": 370,
+    "coinsSpent": 0,
+    "dayCoins": 150,
+    "endlessCoins": 100
+   },
+   {
+    "kind": "award",
+    "args": [
+     60,
+     "endless"
+    ],
+    "ret": 0,
+    "coins": 470,
+    "coinsEarned": 370,
+    "coinsSpent": 0,
+    "dayCoins": 150,
+    "endlessCoins": 100
+   },
+   {
+    "kind": "spend",
+    "args": [
+     100,
+     "shop"
+    ],
+    "ret": true,
+    "coins": 370,
+    "coinsEarned": 370,
+    "coinsSpent": 100,
+    "dayCoins": 150,
+    "endlessCoins": 100
+   },
+   {
+    "kind": "spend",
+    "args": [
+     999999,
+     "shop"
+    ],
+    "ret": false,
+    "coins": 370,
+    "coinsEarned": 370,
+    "coinsSpent": 100,
+    "dayCoins": 150,
+    "endlessCoins": 100
+   },
+   {
+    "kind": "award",
+    "args": [
+     7.9,
+     "daily"
+    ],
+    "ret": 7,
+    "coins": 377,
+    "coinsEarned": 377,
+    "coinsSpent": 100,
+    "dayCoins": 150,
+    "endlessCoins": 100
+   },
+   {
+    "kind": "spend",
+    "args": [
+     7.1,
+     "shop"
+    ],
+    "ret": true,
+    "coins": 369,
+    "coinsEarned": 377,
+    "coinsSpent": 108,
+    "dayCoins": 150,
+    "endlessCoins": 100
+   }
+  ]
+ },
+ "sleep": {
+  "durations": {
+   "0": 30,
+   "10": 27,
+   "50": 15,
+   "65": 11,
+   "69": 10,
+   "90": 10,
+   "100": 10,
+   "69.9": 10
+  },
+  "canSleepCases": [
+   {
+    "energy": 69.9,
+    "sleeping": false,
+    "result": true
+   },
+   {
+    "energy": 70,
+    "sleeping": false,
+    "result": false
+   },
+   {
+    "energy": 10,
+    "sleeping": true,
+    "result": false
+   }
+  ],
+  "completedGrants": {
+   "input": {
+    "xp": 95,
+    "level": 3,
+    "coins": 10,
+    "sleeps": 4
+   },
+   "output": {
+    "xp": 105,
+    "level": 3,
+    "coins": 10,
+    "achievements": {
+     "counters": {
+      "sleeps": 5
+     }
+    }
+   }
+  },
+  "tickSleepCase": {
+   "started": {
+    "sleeping": true,
+    "startedAt": 1768478400000,
+    "wakeAt": 1768479480000
+   },
+   "result": {
+    "state": {
+     "stats": {
+      "hunger": 56.85,
+      "energy": 100,
+      "hygiene": 60,
+      "fun": 60
+     },
+     "sleep": {
+      "sleeping": false,
+      "startedAt": 0,
+      "wakeAt": 0
+     },
+     "xp": 10,
+     "level": 1,
+     "coins": 0,
+     "lastTickAt": 1768479600000,
+     "achievements": {
+      "counters": {
+       "sleeps": 1
+      }
+     }
+    },
+    "events": [
+     "wokeUp"
+    ]
+   }
+  }
+ },
+ "offline": {
+  "awakeRateMult": 0.3,
+  "awakeCapMin": 480,
+  "cases": [
+   {
+    "label": "short_awake_2h",
+    "input": {
+     "stats": {
+      "hunger": 62,
+      "energy": 55,
+      "hygiene": 71,
+      "fun": 48
+     },
+     "lastTickAt": 1768471200000,
+     "sleep": {
+      "sleeping": false,
+      "startedAt": 0,
+      "wakeAt": 0
+     },
+     "xp": 0,
+     "level": 1,
+     "coins": 100,
+     "vacation": null
+    },
+    "result": {
+     "stats": {
+      "hunger": 49.4,
+      "energy": 46,
+      "hygiene": 65.6,
+      "fun": 30
+     },
+     "lastTickAt": 1768478400000,
+     "sleep": {
+      "sleeping": false,
+      "startedAt": 0,
+      "wakeAt": 0
+     },
+     "xp": 0,
+     "level": 1,
+     "coins": 100,
+     "vacationPhase": "none",
+     "vacationPostcards": 0,
+     "events": []
+    }
+   },
+   {
+    "label": "long_awake_20h_capped",
+    "input": {
+     "stats": {
+      "hunger": 90,
+      "energy": 90,
+      "hygiene": 90,
+      "fun": 90
+     },
+     "lastTickAt": 1768406400000,
+     "sleep": {
+      "sleeping": false,
+      "startedAt": 0,
+      "wakeAt": 0
+     },
+     "xp": 0,
+     "level": 1,
+     "coins": 100,
+     "vacation": null
+    },
+    "result": {
+     "stats": {
+      "hunger": 39.6,
+      "energy": 54,
+      "hygiene": 68.4,
+      "fun": 18
+     },
+     "lastTickAt": 1768478400000,
+     "sleep": {
+      "sleeping": false,
+      "startedAt": 0,
+      "wakeAt": 0
+     },
+     "xp": 0,
+     "level": 1,
+     "coins": 100,
+     "vacationPhase": "none",
+     "vacationPostcards": 0,
+     "events": [
+      "statLow:fun"
+     ]
+    }
+   },
+   {
+    "label": "statlow_crossings",
+    "input": {
+     "stats": {
+      "hunger": 30,
+      "energy": 90,
+      "hygiene": 26,
+      "fun": 27
+     },
+     "lastTickAt": 1768467600000,
+     "sleep": {
+      "sleeping": false,
+      "startedAt": 0,
+      "wakeAt": 0
+     },
+     "xp": 0,
+     "level": 1,
+     "coins": 100,
+     "vacation": null
+    },
+    "result": {
+     "stats": {
+      "hunger": 11.100000000000001,
+      "energy": 76.5,
+      "hygiene": 17.9,
+      "fun": 0
+     },
+     "lastTickAt": 1768478400000,
+     "sleep": {
+      "sleeping": false,
+      "startedAt": 0,
+      "wakeAt": 0
+     },
+     "xp": 0,
+     "level": 1,
+     "coins": 100,
+     "vacationPhase": "none",
+     "vacationPostcards": 0,
+     "events": [
+      "statLow:hunger",
+      "statLow:hygiene",
+      "statLow:fun"
+     ]
+    }
+   },
+   {
+    "label": "sleep_completes_offline",
+    "input": {
+     "stats": {
+      "hunger": 70,
+      "energy": 20,
+      "hygiene": 70,
+      "fun": 70
+     },
+     "lastTickAt": 1768474800000,
+     "sleep": {
+      "sleeping": true,
+      "startedAt": 1768474800000,
+      "wakeAt": 1768476240000
+     },
+     "xp": 0,
+     "level": 1,
+     "coins": 100,
+     "vacation": null
+    },
+    "result": {
+     "stats": {
+      "hunger": 62.019999999999996,
+      "energy": 97.3,
+      "hygiene": 68.38,
+      "fun": 64.6
+     },
+     "lastTickAt": 1768478400000,
+     "sleep": {
+      "sleeping": false,
+      "startedAt": 0,
+      "wakeAt": 0
+     },
+     "xp": 10,
+     "level": 1,
+     "coins": 100,
+     "vacationPhase": "none",
+     "vacationPostcards": 0,
+     "events": [
+      "wokeUp"
+     ]
+    }
+   },
+   {
+    "label": "still_asleep",
+    "input": {
+     "stats": {
+      "hunger": 70,
+      "energy": 50,
+      "hygiene": 70,
+      "fun": 70
+     },
+     "lastTickAt": 1768478100000,
+     "sleep": {
+      "sleeping": true,
+      "startedAt": 1768478100000,
+      "wakeAt": 1768479000000
+     },
+     "xp": 0,
+     "level": 1,
+     "coins": 100,
+     "vacation": null
+    },
+    "result": {
+     "stats": {
+      "hunger": 69.125,
+      "energy": 66.67,
+      "hygiene": 70,
+      "fun": 70
+     },
+     "lastTickAt": 1768478400000,
+     "sleep": {
+      "sleeping": true,
+      "startedAt": 1768478100000,
+      "wakeAt": 1768479000000
+     },
+     "xp": 0,
+     "level": 1,
+     "coins": 100,
+     "vacationPhase": "none",
+     "vacationPostcards": 0,
+     "events": []
+    }
+   },
+   {
+    "label": "vacation_freeze_and_catchup",
+    "input": {
+     "stats": {
+      "hunger": 80,
+      "energy": 80,
+      "hygiene": 80,
+      "fun": 80
+     },
+     "lastTickAt": 1768305600000,
+     "sleep": {
+      "sleeping": false,
+      "startedAt": 0,
+      "wakeAt": 0
+     },
+     "xp": 0,
+     "level": 1,
+     "coins": 100,
+     "vacation": {
+      "phase": "away",
+      "destId": "beach",
+      "bookedAt": 1768305600000,
+      "returnAt": 1768564800000,
+      "pickupBy": 1768651200000,
+      "postcards": 0,
+      "trips": 0,
+      "archive": [],
+      "lastPostcardDayProcessed": 0,
+      "visited": {}
+     }
+    },
+    "result": {
+     "stats": {
+      "hunger": 80,
+      "energy": 80,
+      "hygiene": 80,
+      "fun": 80
+     },
+     "lastTickAt": 1768478400000,
+     "sleep": {
+      "sleeping": false,
+      "startedAt": 0,
+      "wakeAt": 0
+     },
+     "xp": 0,
+     "level": 1,
+     "coins": 100,
+     "vacationPhase": "away",
+     "vacationPostcards": 2,
+     "events": [
+      "vacationPostcard",
+      "vacationPostcard"
+     ]
+    }
+   }
+  ]
+ },
+ "vacation": {
+  "ids": [
+   "beach",
+   "meadowTrip",
+   "bigCity",
+   "space",
+   "harbor",
+   "spookGarden",
+   "bakery",
+   "nightSky",
+   "toyRoom"
+  ],
+  "msPerDay": 86400000,
+  "pickupWindowMs": 86400000,
+  "midgameRemainingMs": 172800000,
+  "midgamePhase": "away",
+  "nowMs": 1768478400000
+ }
+}

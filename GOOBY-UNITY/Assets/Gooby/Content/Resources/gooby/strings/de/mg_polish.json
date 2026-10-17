@@ -1,0 +1,22 @@
+{
+  "mgp": {
+    "end": {
+      "time_up": "Zeit um!",
+      "done": "Geschafft!",
+      "over": "Runde vorbei!"
+    },
+    "pause": {
+      "give_up": "Aufgeben"
+    },
+    "arcade": {
+      "new": "Neu",
+      "spotlight": "✦ +{prozent} %",
+      "best": "Rekord {best}",
+      "stars": "{sterne} / {max}"
+    },
+    "side": {
+      "goal": "Ziel: {ziel} Punkte für den Stern",
+      "endless": "Spiel so lange du kannst — jeder Punkt zählt!"
+    }
+  }
+}

@@ -1,0 +1,1269 @@
+{
+  "modes": {
+    "easy": [
+      {
+        "seed": 1,
+        "score": 86,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 2,
+        "score": 94,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 3,
+        "score": 93,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 4,
+        "score": 95,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 5,
+        "score": 95,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 6,
+        "score": 99,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 7,
+        "score": 100,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 8,
+        "score": 80,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 9,
+        "score": 96,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 10,
+        "score": 96,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 11,
+        "score": 91,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 12,
+        "score": 95,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 13,
+        "score": 88,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 14,
+        "score": 95,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 15,
+        "score": 92,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 16,
+        "score": 94,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 17,
+        "score": 108,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 18,
+        "score": 100,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 19,
+        "score": 87,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 20,
+        "score": 86,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 21,
+        "score": 103,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 22,
+        "score": 85,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 23,
+        "score": 99,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 24,
+        "score": 100,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 25,
+        "score": 79,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 26,
+        "score": 80,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 27,
+        "score": 86,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 28,
+        "score": 104,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 29,
+        "score": 100,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 30,
+        "score": 88,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 31,
+        "score": 89,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 32,
+        "score": 87,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 33,
+        "score": 90,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 34,
+        "score": 114,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 35,
+        "score": 82,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 36,
+        "score": 88,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 37,
+        "score": 102,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 38,
+        "score": 99,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 39,
+        "score": 86,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 40,
+        "score": 88,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 41,
+        "score": 82,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 42,
+        "score": 96,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 43,
+        "score": 104,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 44,
+        "score": 93,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 45,
+        "score": 94,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 46,
+        "score": 108,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 47,
+        "score": 94,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 48,
+        "score": 96,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 49,
+        "score": 81,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 50,
+        "score": 71,
+        "elapsed": 72.11158995187834,
+        "missedCarrots": 0
+      }
+    ],
+    "normal": [
+      {
+        "seed": 1,
+        "score": 84,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 2,
+        "score": 84,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 3,
+        "score": 84,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 4,
+        "score": 88,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 5,
+        "score": 92,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 6,
+        "score": 99,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 7,
+        "score": 97,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 8,
+        "score": 76,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 9,
+        "score": 95,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 10,
+        "score": 92,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 11,
+        "score": 79,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 12,
+        "score": 89,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 13,
+        "score": 86,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 14,
+        "score": 92,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 15,
+        "score": 88,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 16,
+        "score": 88,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 17,
+        "score": 108,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 18,
+        "score": 96,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 19,
+        "score": 84,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 20,
+        "score": 81,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 21,
+        "score": 103,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 22,
+        "score": 85,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 23,
+        "score": 93,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 24,
+        "score": 99,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 25,
+        "score": 76,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 26,
+        "score": 77,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 27,
+        "score": 79,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 28,
+        "score": 102,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 29,
+        "score": 92,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 30,
+        "score": 82,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 31,
+        "score": 87,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 32,
+        "score": 83,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 33,
+        "score": 83,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 34,
+        "score": 112,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 35,
+        "score": 79,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 36,
+        "score": 84,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 37,
+        "score": 99,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 38,
+        "score": 98,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 39,
+        "score": 85,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 40,
+        "score": 85,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 41,
+        "score": 79,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 42,
+        "score": 90,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 43,
+        "score": 103,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 44,
+        "score": 88,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 45,
+        "score": 90,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 46,
+        "score": 98,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 47,
+        "score": 89,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 48,
+        "score": 88,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 49,
+        "score": 77,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 50,
+        "score": 70,
+        "elapsed": 60.0929916265653,
+        "missedCarrots": 0
+      }
+    ],
+    "hard": [
+      {
+        "seed": 1,
+        "score": 69,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 2,
+        "score": 82,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 3,
+        "score": 71,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 4,
+        "score": 91,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 5,
+        "score": 80,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 6,
+        "score": 103,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 7,
+        "score": 83,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 8,
+        "score": 64,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 9,
+        "score": 94,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 10,
+        "score": 99,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 11,
+        "score": 59,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 12,
+        "score": 92,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 13,
+        "score": 83,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 14,
+        "score": 79,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 15,
+        "score": 88,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 16,
+        "score": 86,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 17,
+        "score": 110,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 18,
+        "score": 71,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 19,
+        "score": 76,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 20,
+        "score": 82,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 21,
+        "score": 91,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 22,
+        "score": 98,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 23,
+        "score": 79,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 24,
+        "score": 96,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 25,
+        "score": 77,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 26,
+        "score": 73,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 27,
+        "score": 76,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 28,
+        "score": 87,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 29,
+        "score": 83,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 30,
+        "score": 76,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 31,
+        "score": 97,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 32,
+        "score": 83,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 33,
+        "score": 70,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 34,
+        "score": 102,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 35,
+        "score": 75,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 36,
+        "score": 83,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 37,
+        "score": 87,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 38,
+        "score": 85,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 39,
+        "score": 91,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 40,
+        "score": 71,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 41,
+        "score": 70,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 42,
+        "score": 86,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 43,
+        "score": 75,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 44,
+        "score": 89,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 45,
+        "score": 83,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 46,
+        "score": 87,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 47,
+        "score": 88,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 48,
+        "score": 81,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 49,
+        "score": 80,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      },
+      {
+        "seed": 50,
+        "score": 60,
+        "elapsed": 60.18781438572633,
+        "missedCarrots": 0
+      }
+    ],
+    "endless": [
+      {
+        "seed": 1,
+        "score": 38,
+        "elapsed": 35.20417410539606,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 2,
+        "score": 16,
+        "elapsed": 14.677328506681118,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 3,
+        "score": 33,
+        "elapsed": 27.571681195775145,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 4,
+        "score": 48,
+        "elapsed": 31.4277458538595,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 5,
+        "score": 124,
+        "elapsed": 103.88461438572644,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 6,
+        "score": 162,
+        "elapsed": 108.38281438572645,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 7,
+        "score": 14,
+        "elapsed": 17.16106175419398,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 8,
+        "score": 17,
+        "elapsed": 19.613889832964933,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 9,
+        "score": 61,
+        "elapsed": 46.07191800021855,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 10,
+        "score": 244,
+        "elapsed": 169.42981438572568,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 11,
+        "score": 24,
+        "elapsed": 22.0361972969536,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 12,
+        "score": 64,
+        "elapsed": 48.16500741073632,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 13,
+        "score": 75,
+        "elapsed": 64.04341438572634,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 14,
+        "score": 123,
+        "elapsed": 107.74021438572645,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 15,
+        "score": 95,
+        "elapsed": 74.32501438572636,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 16,
+        "score": 6,
+        "elapsed": 8.759567601064779,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 17,
+        "score": 152,
+        "elapsed": 98.74381438572642,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 18,
+        "score": 55,
+        "elapsed": 43.24005087185451,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 19,
+        "score": 70,
+        "elapsed": 55.61929626407176,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 20,
+        "score": 57,
+        "elapsed": 46.77252846174764,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 21,
+        "score": 207,
+        "elapsed": 161.71861438572583,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 22,
+        "score": 46,
+        "elapsed": 38.9026106212631,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 23,
+        "score": 10,
+        "elapsed": 12.162300691159748,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 24,
+        "score": 68,
+        "elapsed": 48.85690015487061,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 25,
+        "score": 64,
+        "elapsed": 46.77252846174764,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 26,
+        "score": 109,
+        "elapsed": 95.53081438572642,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 27,
+        "score": 33,
+        "elapsed": 35.95004872024709,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 28,
+        "score": 68,
+        "elapsed": 48.85690015487061,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 29,
+        "score": 17,
+        "elapsed": 14.677328506681118,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 30,
+        "score": 27,
+        "elapsed": 22.0361972969536,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 31,
+        "score": 52,
+        "elapsed": 38.9026106212631,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 32,
+        "score": 36,
+        "elapsed": 32.94778065257542,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 33,
+        "score": 4,
+        "elapsed": 9.615584002006344,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 34,
+        "score": 91,
+        "elapsed": 56.93823510413868,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 35,
+        "score": 25,
+        "elapsed": 22.0361972969536,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 36,
+        "score": 9,
+        "elapsed": 11.31693572846882,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 37,
+        "score": 55,
+        "elapsed": 40.36050946462751,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 38,
+        "score": 49,
+        "elapsed": 41.08490794270734,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 39,
+        "score": 197,
+        "elapsed": 144.36841438572617,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 40,
+        "score": 18,
+        "elapsed": 21.232129114716393,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 41,
+        "score": 27,
+        "elapsed": 32.189349292378175,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 42,
+        "score": 78,
+        "elapsed": 62.75821438572633,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 43,
+        "score": 75,
+        "elapsed": 61.47301438572633,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 44,
+        "score": 151,
+        "elapsed": 113.52361438572646,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 45,
+        "score": 48,
+        "elapsed": 36.69281676732726,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 46,
+        "score": 74,
+        "elapsed": 59.54331228137827,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 47,
+        "score": 143,
+        "elapsed": 100.67161438572643,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 48,
+        "score": 24,
+        "elapsed": 26.790764730879257,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 49,
+        "score": 42,
+        "elapsed": 38.169084859703766,
+        "missedCarrots": 3
+      },
+      {
+        "seed": 50,
+        "score": 28,
+        "elapsed": 44.66189408048344,
+        "missedCarrots": 3
+      }
+    ]
+  },
+  "tune": {
+    "normal": {
+      "DURATION_SEC": 60,
+      "FALL_RAMP_PCT": 0.08,
+      "FALL_RAMP_EVERY_SEC": 10,
+      "JUNK_RATIO_START": 0.1,
+      "JUNK_RATIO_END": 0.3,
+      "JUNK_PENALTY": -2,
+      "DIZZY_SEC": 0.5,
+      "GOLDEN_POINTS": 10,
+      "GOLDEN_SPEED_MULT": 1.5,
+      "GOLDEN_WINDOW_START_SEC": 15,
+      "GOLDEN_WINDOW_END_SEC": 35,
+      "GOLDEN_FALL_LEAD_SEC": 5,
+      "ROTTEN_RATIO_OF_JUNK": 0.35,
+      "BASKET_HALF_WIDTH": 0.62,
+      "SPAWN_EDGE_PAD": 0.5,
+      "FALL_BASE_SPEED": 2.3,
+      "SPAWN_BASE_SEC": 1.05,
+      "SPAWN_END_FRACTION": 0.72,
+      "SPAWN_INTERVAL_MULT": 1,
+      "WINDOW_MULT": 1,
+      "DURATION_MULT": 1,
+      "SPEED_MULT": 1,
+      "SCORE_MULT": 1,
+      "ENDLESS": false,
+      "ENDLESS_MISSED_CARROTS": 3
+    },
+    "hard": {
+      "DURATION_SEC": 60,
+      "FALL_RAMP_PCT": 0.08,
+      "FALL_RAMP_EVERY_SEC": 10,
+      "JUNK_RATIO_START": 0.1,
+      "JUNK_RATIO_END": 0.3,
+      "JUNK_PENALTY": -2,
+      "DIZZY_SEC": 0.5,
+      "GOLDEN_POINTS": 10,
+      "GOLDEN_SPEED_MULT": 1.5,
+      "GOLDEN_WINDOW_START_SEC": 15,
+      "GOLDEN_WINDOW_END_SEC": 35,
+      "GOLDEN_FALL_LEAD_SEC": 5,
+      "ROTTEN_RATIO_OF_JUNK": 0.35,
+      "BASKET_HALF_WIDTH": 0.496,
+      "SPAWN_EDGE_PAD": 0.5,
+      "FALL_BASE_SPEED": 2.3,
+      "SPAWN_BASE_SEC": 0.8925,
+      "SPAWN_END_FRACTION": 0.72,
+      "SPAWN_INTERVAL_MULT": 0.85,
+      "WINDOW_MULT": 0.8,
+      "DURATION_MULT": 1,
+      "SPEED_MULT": 1,
+      "SCORE_MULT": 1,
+      "ENDLESS": false,
+      "ENDLESS_MISSED_CARROTS": 3,
+      "MODE": "hard"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "rdorf": {
+    "untertitel": "Reit-Dorf am Hügelkamm · {laeden} Läden",
+    "ankunft_neu": "Hufingen entdeckt! Ab jetzt reitest du in einem Rutsch hin.",
+    "ankunft": "Willkommen zurück in Hufingen!",
+    "boxen": "Boxen: {belegt}/{frei}",
+    "boxen_bauen": "Mehr Boxen baust du auf deiner Ranch unter „Hof & Laden“.",
+    "zieht_ein": "{name} zieht auf deine Ranch!",
+    "verkauft_an": "{name} lebt jetzt bei Wilma. +{n} ᴳ",
+    "verkaufen_preis": "Verkaufen · {n} ᴳ",
+    "kaufen_preis": "Kaufen · {n} ᴳ",
+    "alles_verkaufen": "Alle {n} verkaufen",
+    "einen_verkaufen": "1 verkaufen · {n} ᴳ",
+    "im_lager": "Im Ranch-Lager: {heu} Heu · {apfel} Äpfel",
+    "futter_vorrat": "Vorrat: {hafer} Hafer · {leckerli} Leckerli",
+    "moebel_lager": "Liegt jetzt in deinem Lager zuhause.",
+    "hufeisen_an": "{name} trägt {eisen}.",
+    "hufeisen_fuer": "für {name}",
+    "gear_fuer": "Ausrüstung für {name}",
+    "kein_angebot": "Heute ist alles verkauft — morgen kommen neue Pferde.",
+    "heimreiten_text": "Zurück zur Ranch",
+    "reiten_karte": "Nach Hufingen reiten",
+    "reiten_karte_text": "Pferdehändlerin, Futterhof, Reitladen, Schmiede und Möbel-Scheune",
+    "brunnen": "Gooby wirft eine Münze in den Brunnen und wünscht sich was.",
+    "brunnen_wunsch": "Wunsch: {wunsch}",
+    "wuensche": [
+      "ein Pony mit Glitzermähne",
+      "Leckerli für alle",
+      "Sonnenschein zum Ausreiten",
+      "eine extra große Möhre",
+      "dass Wilma morgen ein Einhorn hat"
+    ],
+    "pferd_karte": "{fell} · ab heute zu haben",
+    "fell": {
+      "braun": "Braun",
+      "weiss": "Schimmel",
+      "schwarz": "Rappe",
+      "palomino": "Palomino",
+      "schecke": "Schecke",
+      "fuchs": "Fuchs",
+      "apricot": "Apricot",
+      "rauchgrau": "Rauchgrau"
+    },
+    "reitet_ein": "{name} trabt nach Hufingen …",
+    "kurz": {
+      "pferdehaendlerin": "Pferde",
+      "futterhof": "Futterhof",
+      "reitladen": "Reitladen",
+      "schmiede": "Schmiede",
+      "moebelscheune": "Möbel"
+    },
+    "freund": {
+      "plaudern": "Plaudern",
+      "geschenk": "Geschenk",
+      "geschichte": "Geschichte",
+      "rabatt": "−{n} % für dich",
+      "neu_rabatt": "{name} mag dich! Ab jetzt −{n} % im Laden.",
+      "neu_geschichte": "{name} vertraut dir — jetzt gibt es eine Geschichte.",
+      "neu_herz": "{name}: {herzen} Herzen!"
+    }
+  }
+}

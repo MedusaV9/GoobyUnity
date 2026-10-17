@@ -1,0 +1,108 @@
+{
+	"urlaub": {
+		"knopf": {
+			"besuchen": "Visit Gooby ✈",
+			"streicheln": "Pet",
+			"foto": "Vacation photo",
+			"souvenir": "Souvenir spot",
+			"mini": {
+				"strand": "Collect seashells",
+				"berge": "Find mountain flowers",
+				"stadt": "Order from the waiter",
+				"weltraum": "Collect star splinters"
+			},
+			"heim": "Back home"
+		},
+		"titel": {
+			"strand": "Gooby at the beach",
+			"berge": "Gooby in the mountains",
+			"stadt": "Gooby in the city",
+			"weltraum": "Gooby in space"
+		},
+		"toast": {
+			"mini_fertig": "Found them all! Gooby is bursting with pride.",
+			"souvenir": "Found {name}! (+{coins} ᴳ)",
+			"souvenir_leer": "The souvenir spot is empty — something new will be here tomorrow!",
+			"keine_kamera": "No camera, no vacation photo! Bäm at the POW! surely has one for you."
+		},
+		"souvenir": {
+			"beach": "Glittering giant seashell",
+			"harbor": "Tiny ship in a bottle",
+			"meadowTrip": "Pressed meadow flower",
+			"spookGarden": "Friendly spook pebble",
+			"bakery": "Candied mini croissant",
+			"bigCity": "Snapshot snow globe",
+			"nightSky": "Sparkling star shard",
+			"toyRoom": "Wind-up hopping Gooby",
+			"space": "Genuine space pebble"
+		},
+		"bubble": {
+			"strand": [
+				"YOU'RE HERE! I already told the ocean about you. It's roaring with joy!",
+				"I touched a wave! It was wet. Research complete.",
+				"My sandcastle has four towers. One is reserved for you!",
+				"A seagull wanted my cookie. We negotiated. She won.",
+				"Sand between your toes is SCIENTIFICALLY proven to tickle best.",
+				"I named the parasol: Shady. Shady is loyal.",
+				"The salt water tastes like fries without the fries. Fascinating!",
+				"In the evening the sea turns orange. I saved the prettiest wave for you."
+			],
+			"berge": [
+				"YOU'RE HERE! The mountains have an echo — it knows your name now!",
+				"I stared at a mountain flower until it got shy. I think.",
+				"The tent and I are friends now. It snores a little at night.",
+				"Campfire rule number one: marshmallow thoughts are allowed.",
+				"The air up here tastes like freshly washed clouds!",
+				"I hopped up a whole hill. Without a break! Almost without a break.",
+				"A marmot whistled. I whistled back. We are in talks.",
+				"There are SO many stars at night. I stopped counting at three million."
+			],
+			"stadt": [
+				"YOU'RE HERE! The city is huge — but way cozier with you around.",
+				"The waiter already knows me. I'm officially a regular. Since yesterday.",
+				"My ice cream had three scoops. Now it has zero scoops. Time is strange.",
+				"I waved at the big tower. I'm sure it sparkled back.",
+				"The alleys smell like fresh waffles. I keep a scent map in my head.",
+				"The string lights come on at night and the whole square turns golden. Like it's for us!",
+				"I looked into a shop window and a very handsome Gooby looked back.",
+				"Street music! I danced along until the hat was full of applause."
+			],
+			"weltraum": [
+				"YOU'RE HERE! Everything is so light up here — even my ears float!",
+				"I waved at the Earth. It kept turning. I think that means yes.",
+				"Moon dust is like icing sugar, just without the taste. Sadly. I checked.",
+				"My helmet fogs up when I'm happy. It is VERY foggy right now.",
+				"A shooting-star wish for you is already on its way. Please leave the mailbox open!",
+				"I named a crater after you. It's round and cosy. Like you!"
+			]
+		},
+		"bestellung": [
+			"The usual for Mister Gooby: one plate of sunshine, extra warm!",
+			"Today I recommend: cloud soup with glitter croutons. Very fluffy!",
+			"One \"Holiday Greetings\" sundae — three scoops of wanderlust with sprinkles!",
+			"For the fine guest: shell pasta WITHOUT shells, but WITH extra hihi.",
+			"Our special: yesterday's plate of crumbs. The chef insists!"
+		],
+		"soul": {
+			"1": "Remember when you visited me on vacation? BEST day!",
+			"2": "Vacation is great. Vacation with a visitor is greater. That's math.",
+			"3": "I memorized a souvenir spot for us. For next time!",
+			"4": "My heart still makes little waves when I think of the sea.",
+			"5": "Experiencing things together is my favorite hobby. Right after snacks.",
+			"6": "Next vacation I'LL show YOU the best spots. I mapped everything!"
+		},
+		"karte": {
+			"titel": "Gooby is on holiday",
+			"text": "{ziel} — {tage} more sleeps. Visit him!"
+		},
+		"mini": {
+			"fortschritt": "{n} of {gesamt}",
+			"los": {
+				"strand": "Find the seashells in the sand — tap them!",
+				"berge": "Five mountain flowers bloom somewhere — can you find them?",
+				"weltraum": "Five star splinters twinkle in the moon dust — collect them!"
+			}
+		},
+		"streicheln": "Gooby dances with holiday joy! (+{n} fun)"
+	}
+}

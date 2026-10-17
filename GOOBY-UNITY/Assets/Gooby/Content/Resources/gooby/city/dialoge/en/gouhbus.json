@@ -1,0 +1,71 @@
+{
+  "id": "doktor_besuch",
+  "start": "hallo",
+  "nodes": {
+    "hallo": {
+      "sprecher": "goouhbus",
+      "text": [
+        "Come in, unless you're a salesman! … Oh, a Gooby. Hop onto the little bench, I'm just looking for my glasses.",
+        "(He is wearing one on his forehead, one around his neck and one in his mouth.)"
+      ],
+      "optionen": [
+        {"text": "Gooby is sick.", "next": "diagnose", "cond": "!flag:rezept_tropfen"},
+        {"text": "Gooby is sick.", "next": "rezept_schon", "cond": "flag:rezept_tropfen"},
+        {"text": "Are you really 4× a doctor?", "next": "titel"},
+        {"text": "Just a check-up.", "next": "checkup"}
+      ]
+    },
+    "titel": {
+      "sprecher": "goouhbus",
+      "text": [
+        "Dr. Dr. Professor Dr. Dr.! Two degrees in medicine, one in cheese studies, and one … I found in an elevator.",
+        "It counts morally."
+      ],
+      "next": "hallo"
+    },
+    "diagnose": {
+      "sprecher": "goouhbus",
+      "text": [
+        "Sick? SICK?! We'll fix that right away. Tongue out! … That's an ear. Also fine. Now say AAAAH.",
+        "(Gooby goes “Bleeeh~”.)",
+        "Interesting. VERY interesting. I have no idea what that means."
+      ],
+      "optionen": [
+        {"text": "A whole jar of Nutella.", "next": "nutella"},
+        {"text": "He keeps sneezing.", "next": "niesen"}
+      ]
+    },
+    "nutella": {
+      "sprecher": "goouhbus",
+      "text": "ONE jar? Respect. I managed two as a student. Still: PRESCRIPTION!",
+      "next": "rezept"
+    },
+    "niesen": {
+      "sprecher": "goouhbus",
+      "text": "Sneezing is just applause from the inside. But better safe than sorry: PRESCRIPTION!",
+      "next": "rezept"
+    },
+    "rezept": {
+      "sprecher": "goouhbus",
+      "text": [
+        "(He stamps three times next to it, once on his own hand, then onto the prescription.)",
+        "Take this to Hilde at the GOOBYTHEKE. And tell her she still owes me a cheese sandwich. From 1987."
+      ],
+      "effekt": ["flag:rezept_tropfen"],
+      "ende": true
+    },
+    "rezept_schon": {
+      "sprecher": "goouhbus",
+      "text": "You already HAVE a prescription! Says right here: cheese sandwich… er, Gooby Drops. Off to Hilde with you!",
+      "ende": true
+    },
+    "checkup": {
+      "sprecher": "goouhbus",
+      "text": [
+        "Fit as a fiddle! The heart pumps, the ears wiggle, the rest is accessories.",
+        "That'll be zero coins. Professional honor."
+      ],
+      "ende": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"wardrobe": {
+		"titel": "Wardrobe",
+		"zurueck": "Back",
+		"muenzen": "{n} coins",
+		"drehen": "Drag to spin",
+		"angelegt": "Worn",
+		"besessen": "Wear",
+		"preis": "{n} coins",
+		"level": "Level {n}+",
+		"fell_hinweis": "Fur colours are shop-only.",
+		"kat": {
+			"hut": "Hats",
+			"brille": "Glasses",
+			"hals": "Neck",
+			"ruecken": "Back",
+			"fell": "Fur"
+		}
+	}
+}

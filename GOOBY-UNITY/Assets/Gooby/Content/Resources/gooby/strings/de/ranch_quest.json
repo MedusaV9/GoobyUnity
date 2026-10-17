@@ -1,0 +1,301 @@
+{
+	"rnpc": {
+		"rosi": {"name": "Rosi Zügelfest", "rolle": "Stallmeisterin"},
+		"moehrchen": {"name": "Dr. Dr. Möhrchen", "rolle": "Tierärztin"},
+		"eisenhuf": {"name": "Berthold Eisenhuf", "rolle": "Hufschmied"},
+		"selma": {"name": "Selma Sattelfein", "rolle": "Sattlerin"},
+		"wilma": {"name": "Wilma von Wiehernstein", "rolle": "Züchterin"},
+		"punktabzug": {"name": "Herr Punktabzug", "rolle": "Turnierrichter"},
+		"timmi": {"name": "Timmi Trab", "rolle": "Nachbarskind"},
+		"alwin": {"name": "Opa Alwin", "rolle": "Alter Rancher"},
+		"luna": {"name": "Luna Leisetreter", "rolle": "Wildpferd-Flüsterin"},
+		"marta": {"name": "Marta Marktschall", "rolle": "Marktfrau"},
+		"eilfried": {"name": "Eilfried Watschel", "rolle": "Postbote"},
+		"knips": {"name": "Knips Fuchsberg", "rolle": "Fotograf"},
+		"miez": {"name": "Miez", "rolle": "Ranch-Katze"},
+		"ui": {
+			"titel": "Freunde",
+			"herzen": "{n} von 5 Herzen",
+			"naechste": "Noch {p} Punkte bis zum nächsten Herz",
+			"max": "Beste Freunde!",
+			"heute_geredet": "Heute schon geplaudert",
+			"freischaltungen": "Freischaltungen"
+		},
+		"frei": {
+			"smalltalk": "Neuer Smalltalk",
+			"rabatt": "Rabatt bei {shop}",
+			"geschichte": "Eine persönliche Geschichte",
+			"quest": "Eine neue Quest",
+			"rezept": "Ein Rezept",
+			"cosmetic": "Ein Schmuckstück für die Garderobe",
+			"ort": "Zugang zu einem neuen Ort"
+		},
+		"toast_herz": "{name}: Herz {n} erreicht!"
+	},
+	"rquest": {
+		"log": {
+			"titel": "Quest-Log",
+			"tab_haupt": "Hauptreihe",
+			"tab_neben": "Nebenquests",
+			"tab_tages": "Tagesaufgaben",
+			"kapitel": "Kapitel {n}",
+			"geber": "Auftrag von {name}",
+			"belohnung": "Belohnung: {text}",
+			"muenzen": "{n} Münzen",
+			"annehmen": "Annehmen",
+			"abgeben": "Abgeben",
+			"schliessen": "Fertig",
+			"leer": "Gerade nichts zu tun — die Ranch ruht. Genieß es, das hält nie lang.",
+			"wartend_bis": "Bereit in {rest}",
+			"fortschritt": "{ist}/{soll}",
+			"status_verfuegbar": "Verfügbar",
+			"status_aktiv": "Aktiv",
+			"status_wartend": "Wartet",
+			"status_erfuellbar": "Abholbereit",
+			"status_erledigt": "Erledigt",
+			"status_gesperrt": "Gesperrt"
+		},
+		"ziel": {
+			"gehe_zu": "Geh zu: {ort}",
+			"sprich_mit": "Sprich mit {npc}",
+			"sammle": "Sammle {item} ({ist}/{soll})",
+			"pflege": "{aktion} ({ist}/{soll})",
+			"reite_strecke": "Reite die Strecke: {strecke}",
+			"gewinne_wettbewerb": "Werde Top {platz} im Wettbewerb: {disziplin}",
+			"warte_bis": "Warte, bis es so weit ist"
+		},
+		"warte": {
+			"gleich": "gleich!",
+			"minuten": "{m} Min",
+			"stunden": "{h} Std {m} Min",
+			"notify_fertig": "{quest} ist fertig — schau vorbei!",
+			"activity_laeuft": "Auf der Ranch tut sich was…",
+			"alternative_titel": "Solange du wartest:",
+			"alternative_1": "Die Pferde freuen sich über eine Striegel-Runde.",
+			"alternative_2": "Timmi sucht bestimmt gerade ein Hufeisen. Oder zwölf.",
+			"alternative_3": "Marta hat angeblich das letzte Stück im Angebot. Schon wieder.",
+			"alternative_4": "Der Foto-Spot am Teich hat gerade wunderbares Licht."
+		},
+		"ort": {
+			"stall": "Stall",
+			"scheune": "Scheune",
+			"haus": "Ranchhaus",
+			"heulager": "Heulager",
+			"trog": "Futtertrog",
+			"teich": "Teich",
+			"reitplatz": "Reitplatz",
+			"koppel_pferde": "Pferdekoppel",
+			"weide": "Weide",
+			"tor": "Hoftor",
+			"hof_mitte": "Hofmitte",
+			"markt": "Marktstand",
+			"schmiede": "Schmiede",
+			"sattlerei": "Sattlerei",
+			"waldrand": "Waldrand",
+			"huegel": "Hügel",
+			"foto_spot_teich": "Foto-Spot am Teich",
+			"foto_spot_huegel": "Foto-Spot am Hügel"
+		},
+		"item": {
+			"apfel": "Apfel",
+			"karotte": "Karotte",
+			"heu": "Heu",
+			"hufeisen": "Hufeisen",
+			"wolle": "Wolle",
+			"blume": "Blume",
+			"beere": "Beere",
+			"keks": "Keks",
+			"marmelade": "Marmelade",
+			"hafertaler": "Hafertaler",
+			"brett": "Brett",
+			"schluessel": "Rostiger Schlüssel"
+		},
+		"aktion": {
+			"ausmisten": "Ausmisten",
+			"striegeln": "Striegeln",
+			"fuettern": "Füttern",
+			"hufe": "Hufe pflegen",
+			"taetscheln": "Tätscheln"
+		},
+		"strecke": {
+			"hof_runde": "Hofrunde",
+			"reitplatz_parcours": "Reitplatz-Parcours",
+			"see_runde": "Seerunde"
+		},
+		"disziplin": {"parcours": "Parcours"},
+		"q": {
+			"haupt_01": {
+				"titel": "Ankunft mit Anlauf",
+				"text": "Die Ranch ist da, du bist da — nur der Glanz fehlt noch. Rosi hat einen Plan und du hast zwei Hände. Das nennt man Schicksal."
+			},
+			"haupt_02": {
+				"titel": "Ein Herz und ein Huf",
+				"text": "Wilma sagt, ein Rancher ohne Pferd ist wie ein Stall ohne Heu: theoretisch möglich, praktisch traurig. Zeit für dein erstes eigenes Pferd."
+			},
+			"haupt_03": {
+				"titel": "Einmal alle, bitte!",
+				"text": "Marta besteht darauf, dass du alle im Tal kennenlernst. Nicht aus Höflichkeit — sie will aus erster Hand wissen, was die Leute über dich reden."
+			},
+			"haupt_04": {
+				"titel": "Der Kartoffelsattel",
+				"text": "Selma näht dir einen Maßsattel. Der Prototyp sah aus wie eine Kartoffel, daher der Name. Gute Arbeit braucht Wolle, Geduld und einen Schmied fürs Feinwerk."
+			},
+			"haupt_05": {
+				"titel": "Punktabzugs Prüfung",
+				"text": "Dein erstes Turnier! Herr Punktabzug verspricht faire Bewertung und mindestens einen Abzug. Aus Prinzip. Zeig ihm Haltung."
+			},
+			"haupt_06": {
+				"titel": "Das Geheimnis in den Hügeln",
+				"text": "Luna flüstert von einem alten Wildpferd mit einem geschmiedeten Huf. Wer es sehen will, braucht weiche Schritte und etwas Geduld im Morgengrauen."
+			},
+			"haupt_07": {
+				"titel": "Die Nachtpost",
+				"text": "Eilfried hat einen Brief, der nur bei Nacht zugestellt werden darf. Von wem? An wen? Die Antwort wartet am Teich — nach einer sehr geheimnisvollen Wartezeit."
+			},
+			"haupt_08": {
+				"titel": "Ein flauschiger Neuzugang",
+				"text": "Im Stall kündigt sich ein Fohlen an! Dr. Dr. Möhrchen verordnet: gutes Futter, Ruhe und zwei Tage lang KEIN Gesang. Das mit dem Gesang ist verhandelbar. Nicht."
+			},
+			"haupt_09": {
+				"titel": "Das große Bild",
+				"text": "Knips plant seine Ausstellung: Die Ranch erwacht. Fehlen nur noch die letzten Motive — und jemand, der dafür durchs schönste Licht des Tals läuft. Du."
+			},
+			"haupt_10": {
+				"titel": "Das große Ranchfest",
+				"text": "Alles hat hierher geführt: Girlanden, Gäste, ein letztes Turnier — und ein Foto, auf das Knips seit Jahren wartet. Die ganze Ranch. Ein Tisch. Alle."
+			},
+			"neben_rosi_1": {
+				"titel": "Die große Mistverschwörung",
+				"text": "Rosi schwört, der Mist wird nachts mehr. Sie hat eine Strichliste. Widerlege sie — mit der Mistgabel."
+			},
+			"neben_rosi_2": {
+				"titel": "Glück im Fünferpack",
+				"text": "Fünf alte Hufeisen für Rosis Glückswand. Sie sagt, Glück kann man nageln. Die Wand sagt nichts, sie ist eine Wand."
+			},
+			"neben_rosi_saat": {
+				"titel": "Rosis Geheimbeet",
+				"text": "Rosi pflanzt heimlich Blumen hinter der Weide. Für niemanden. Einfach so. Hilf beim Säen und verrate NIEMANDEM etwas — vor allem nicht Marta."
+			},
+			"neben_moehrchen_1": {
+				"titel": "Bürsten auf Rezept",
+				"text": "Dr. Dr. Möhrchen verschreibt drei Striegel-Einheiten. Gegen was? Gegen struppiges Fell und schlechte Laune. Wirkt bei Pferd UND Rancher."
+			},
+			"neben_moehrchen_2": {
+				"titel": "Der Karottennotstand",
+				"text": "Die Praxis ist leergefuttert! Sechs Karotten, dringend. Die Patienten werden sonst unruhig. Die Ärztin auch. Vor allem die Ärztin."
+			},
+			"neben_eisenhuf_1": {
+				"titel": "Was lange glüht",
+				"text": "Eisenhuf schmiedet dir ein Spezialstück. Er braucht eine Stunde und absolute Ruhe. Komm wieder, wenn die Funken schlafen."
+			},
+			"neben_eisenhuf_2": {
+				"titel": "Viermal Pediküre",
+				"text": "Vier Hufe brauchen Pflege. Eisenhuf zeigt dir den Griff, du machst die Arbeit. So läuft Ausbildung. Sagt er. Grinsend."
+			},
+			"neben_selma_1": {
+				"titel": "Die Maßband-Mission",
+				"text": "Selma braucht Maße für ihr Geheimprojekt — aber es soll eine Überraschung bleiben. Frag die Leute aus, ohne zu verraten, warum. Unauffällig. Also: viel Glück."
+			},
+			"neben_selma_2": {
+				"titel": "Der Probesitz",
+				"text": "Der neue Sattel muss sich setzen. Vier Stunden Geduld, dann eine Proberunde. Selma näht derweil Löcher in die Luft. Vor Nervosität."
+			},
+			"neben_wilma_1": {
+				"titel": "Äpfel für den Adel",
+				"text": "Graf Galopp wünscht Äpfel. Drei Stück, poliert, kernfrei serviert. Wilma bittet dich als Hoflieferant. Es ist eine Ehre. Sagt der Graf. Durch Schnauben."
+			},
+			"neben_wilma_2": {
+				"titel": "Zweimal klingeln",
+				"text": "Wilma erzählt die Geschichte vom Bienen-Rennen — aber die zweite Hälfte gibt es erst beim zweiten Besuch. Dramaturgie, sagt sie. Adelige Serienreife."
+			},
+			"neben_punktabzug_1": {
+				"titel": "Der Trainingsparcours",
+				"text": "Vor dem Wettkampf kommt das Üben. Herr Punktabzug beobachtet. Er bewertet auch dein Üben. Natürlich bewertet er dein Üben."
+			},
+			"neben_punktabzug_2": {
+				"titel": "Bronze mit Haltung",
+				"text": "Aufs Podium! Platz drei reicht — aber die Haltung muss sitzen. Der Richter sieht alles. Sogar mit geschlossenen Augen, behauptet er."
+			},
+			"neben_timmi_1": {
+				"titel": "Das superwichtige Geheimnis",
+				"text": "Timmi hat ein Geheimnis, das er UNBEDINGT an der Koppel zeigen muss. Es ist ein Stein, der aussieht wie ein Pferd. Es ist der beste Stein der Welt."
+			},
+			"neben_timmi_2": {
+				"titel": "Vier Bretter für Blitz",
+				"text": "Timmi baut einen Stall für Blitz, sein Stockpferd. Blitz braucht keinen Stall. Blitz kriegt einen Stall. Vier Bretter, bitte!"
+			},
+			"neben_alwin_1": {
+				"titel": "Dreimal dieselbe Geschichte",
+				"text": "Alwin erzählt dir die Dürre-Geschichte. Hör sie dir dreimal an — sie wird jedes Mal ein Jahr länger. Das ist keine Schwäche, das ist Handwerk."
+			},
+			"neben_alwin_2": {
+				"titel": "Der verlorene Schlüssel",
+				"text": "Irgendwo im Heulager liegt der Schlüssel zu Alwins alter Truhe. Er sucht ihn seit Jahren. Also: Er sitzt daneben und du suchst."
+			},
+			"neben_luna_1": {
+				"titel": "Leise Schritte",
+				"text": "Luna will dir das leise Gehen beibringen. Erst zum Waldrand, dann auf den Hügel. Wenn die Vögel sitzen bleiben, hast du bestanden."
+			},
+			"neben_luna_2": {
+				"titel": "Drei sanfte Hände",
+				"text": "Vertrauensübung: Tätschle drei Tiere so sanft, dass sie es fast nicht merken. Fast. Merken sollen sie es schon. Es ist kompliziert und wunderschön."
+			},
+			"neben_marta_1": {
+				"titel": "Kurt braucht Kundschaft",
+				"text": "Marta startet eine Werbekampagne für Kurt, den krummen Kürbis. Sag es allen weiter! Kurt bleibt trotzdem unverkäuflich. Es geht ums Prinzip."
+			},
+			"neben_marta_2": {
+				"titel": "Beeren für die Chefin",
+				"text": "Fünf Beeren, prall und glänzend. Offiziell für den Stand. Inoffiziell isst Marta sie sofort selbst. Du bekommst dafür Marmelade. Der Kreislauf des Lebens."
+			},
+			"neben_eilfried_1": {
+				"titel": "Die Watschelroute",
+				"text": "Eilfried lässt dich seine Runde ablaufen: Tor, Markt, Teich. Er will wissen, wie lange Beine so brauchen. Für die Statistik. Und für sein Ego eher nicht."
+			},
+			"neben_eilfried_2": {
+				"titel": "Warten auf die Antwort",
+				"text": "Du hast eine Brieffreundschaftsanfrage ins Nachbartal geschickt. Die Antwort kommt mit der Morgenpost. Eilfried drückt die Daumen. Enten haben keine Daumen. Er drückt trotzdem."
+			},
+			"neben_knips_1": {
+				"titel": "Das Motiv des Jahres",
+				"text": "Knips schwört: Am Teich wartet das Motiv des Jahres. Stell dich hin, halt still und lächle. Das Motiv bist übrigens du. Überraschung."
+			},
+			"neben_knips_2": {
+				"titel": "Gesichter der Ranch",
+				"text": "Für die Porträt-Serie sollen alle einmal lächeln. Deine Aufgabe: Sag ihnen, dass Knips NICHT fotografiert. Dann gucken alle natürlich. Er fotografiert natürlich doch."
+			},
+			"neben_miez_1": {
+				"titel": "Wollbeschaffungsmaßnahme",
+				"text": "Miez wünscht Wolle. Zwei Knäuel, ins Haus geliefert, auf das weiche Kissen. Sie wird nicht danke sagen. Sie wird schnurren. Das ist mehr wert."
+			},
+			"neben_miez_2": {
+				"titel": "Die Inspektionsrunde",
+				"text": "Miez kann heute unmöglich selbst inspizieren (Schlafschicht drei von fünf). Geh ihre Runde: Heulager, dann Trog. Melde Unregelmäßigkeiten. Es gibt nie welche. Melde trotzdem."
+			},
+			"tages_ausmisten": {
+				"titel": "Frischluftkur",
+				"text": "Einmal ausmisten, bitte. Der Stall dankt es dir. Die Nase auch."
+			},
+			"tages_aepfel": {
+				"titel": "Apfelrunde",
+				"text": "Zwei Äpfel für die Praxis. Ein Apfel am Tag… du kennst den Spruch. Dr. Dr. Möhrchen hat ihn patentieren lassen."
+			},
+			"tages_seerunde": {
+				"titel": "Die Seerunde",
+				"text": "Einmal um den See, Wind in der Mähne. Wilma nennt es Konstitutionsgalopp. Die Pferde nennen es den besten Teil des Tages."
+			},
+			"tages_striegeln": {
+				"titel": "Glanzstück",
+				"text": "Eine Striegel-Runde, bis das Fell glänzt. Rosi kontrolliert mit ihrem Spiegelblick. Der Spiegelblick ist berüchtigt."
+			},
+			"tages_plausch": {
+				"titel": "Der Dorfplausch",
+				"text": "Marta und Eilfried tauschen Neuigkeiten — über dich. Geh hin und rede mit, dann stimmen wenigstens die Fakten halbwegs."
+			},
+			"tages_fotospot": {
+				"titel": "Licht am Hügel",
+				"text": "Knips meldet: perfektes Licht am Hügel-Spot! Lauf hin und sieh es dir an, bevor die Sonne es sich anders überlegt."
+			}
+		}
+	}
+}

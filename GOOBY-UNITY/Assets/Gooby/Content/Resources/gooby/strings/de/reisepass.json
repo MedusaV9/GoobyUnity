@@ -1,0 +1,63 @@
+{
+	"reisepass": {
+		"republik": "GOOBY-REPUBLIK",
+		"dokument": "Reisepass · sehr offiziell",
+		"wappen": "🐰🥕",
+		"name": "Name",
+		"name_leer": "Noch namenlos",
+		"ausgestellt": "Ausgestellt: {date}",
+		"merkmale": "Besondere Merkmale",
+		"merkmale_liste": [
+			"extrem flauschig",
+			"wackelt beim Hoppeln",
+			"riecht nach Möhre",
+			"Profi-Nickerchenmacher",
+			"schnurrt beim Mampfen",
+			"Weltmeister im Kuscheln",
+			"immer ein Snack dabei",
+			"Ohren auf Halbmast, Herz auf Anschlag",
+			"kann in jeder Lage einschlafen",
+			"zu 100 % aus Knuff gemacht"
+		],
+		"foto_aendern": "Foto ändern 📷",
+		"flip_hinweis": "Antippen zum Umdrehen ↻",
+		"picker_titel": "Passfoto aussuchen",
+		"picker_leer": "Noch keine Fotos im Album! Knips Gooby zuerst im Fotomodus.",
+		"picker_standard": "Zurück zum 3D-Porträt",
+		"picker_abbrechen": "Doch nicht",
+		"foto_gesetzt": "Sehr amtlich! Neues Passfoto aufgeklebt.",
+		"foto_standard_gesetzt": "Zurück zum 3D-Porträt.",
+		"stempel_titel": "Stempelseite",
+		"stempel_leer": "Noch ganz leer — ab in den Urlaub, Stempel sammeln!",
+		"stempel_umzug": "5.0 UMZUG",
+		"stempel_weltengooby": "WELTENGOOBY",
+		"stempel_datum": "am {date}",
+		"zurueck_hinweis": "Antippen für die Vorderseite ↻",
+		"tafel": {
+			"titel": "ABFLÜGE · GOOBY AIR",
+			"ziel": "ZIEL",
+			"abflug": "ABFLUG",
+			"status": "STATUS",
+			"abflug_wert": "{tage} TAGE · {preis} ᴳ",
+			"status_boarding": "BOARDING",
+			"status_puenktlich": "PÜNKTLICH",
+			"status_mampft": "MAMPFPAUSE",
+			"status_flauscht": "FLAUSCHT NOCH",
+			"status_zu_teuer": "ZU TEUER"
+		},
+		"pass": {
+			"titel": "BOARDING-PASS",
+			"airline": "GOOBY AIR — Erstmal abheben.",
+			"ziel": "Ziel",
+			"gate": "Gate",
+			"gate_wert": "3¾",
+			"sitz": "Sitz",
+			"sitz_wert": "1A — Fensterplatz",
+			"klasse": "Klasse",
+			"klasse_wert": "Flausch-Klasse",
+			"gepaeck": "Gepäck: 1× Rollkoffer, 12× Snacks (Snacks zählen als Handgepäck).",
+			"hinweis": "Bitte 5 Minuten vor Abflug ans Gate hoppeln.",
+			"gute_reise": "Gute Reise! ✈"
+		}
+	}
+}
